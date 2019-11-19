@@ -1,0 +1,127 @@
+==== 2017-09-15 ==== 
+
+Meeting will be held at [[https://chat.hyperledger.org/channel/fabric-sdk-py|rocketchat]] at 11AM (GMT+8).
+
+  * [[https://jira.hyperledger.org/browse/FAB-4623?jql=project%20%3D%20FAB%20AND%20status%20in%20(%22In%20Progress%22%2C%20%22To%20Do%22)%20AND%20component%20%3D%20fabric-sdk-py | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+status:open | Open Patchset for review]]
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]]
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  * Merged patchset: [[https://gerrit.hyperledger.org/r/13287 | FAB-4952]] by david dornseifer, [[https://gerrit.hyperledger.org/r/13119|FAB-4562]] by Dong Wang, [[https://gerrit.hyperledger.org/r/13429|FAB-6150]] by Ramesh Babu.
+  * chaincode Install: Kai is working on [[https://jira.hyperledger.org/browse/FAB-5151 | FAB-5151]]
+  * User Role: Wei Hu is working on [[https://jira.hyperledger.org/browse/FAB-3885|FAB-3885]]
+  * EventHub: Dong Wang is working on [[https://jira.hyperledger.org/browse/FAB-4822|FAB-4822]]
+  * Register: Baohua is working on [[https://jira.hyperledger.org/browse/FAB-3165|FAB-3165]]
+  * Update license header: Qiang Wang is working on [[https://jira.hyperledger.org/browse/FAB-4742|FAB-4742]]
+  * Other issues
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Baohua Yang
+  * Tony Yang
+
+
+=== Log ===
+
+baohua 10:52 AM
+Today's meeting will start in 10 min: https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20170915. Anyone online to attend?
+@here
+
+tonyyang132 10:55 AM
+I am
+
+baohua 10:55 AM
+ok got u
+OK
+@tonyyang132 let's start
+numbers of the developers cannot join today.
+so let's have a quick sync
+Merged patchset: FAB-4952 by david dornseifer, FAB-4562 by Dong Wang, FAB-6150 by Ramesh Babu.
+
+JIRA @hyperledger-jira-l BOT 11:01 AM
+Found 3 issues
+FAB-6150 
+Optimize scripts/check.sh script to download docker images.
+Assigned To
+Ramesh Babu  
+Status
+Done  
+Reporter
+Ramesh Babu  
+Priority
+Medium
+FAB-4562 
+create channel test
+Assigned To
+Dong Wang  
+Status
+Done  
+Reporter
+Dong Wang  
+Priority
+Medium
+FAB-4952 
+Update change log
+Assigned To
+david dornseifer  
+Status
+Done  
+Reporter
+Chang Chen  
+Priority
+Medium
+
+baohua 11:01 AM
+We got nice progress this week
+How's going on ur side? @tonyyang132
+meet any problem ?
+
+tonyyang132 11:02 AM
+pretty occupied with ongoing company project, so haven't really done much to the community lately...
+
+baohua 11:03 AM
+sure
+feel free to join the work when u're not that quite busy
+i heard that ur team made great impact recently 😀
+what's the plan? anything can tell out?
+@tonyyang132
+
+tonyyang132 11:06 AM
+just launched a trial version of our BaaS solution on qingcloud, you guys are welcome to try out of course 🙂
+
+baohua 11:06 AM
+cool
+lfw u can contribute to the community, too
+OK, here are some patchsets for review: https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+status:open
+
+tonyyang132 11:07 AM
+currently working on a enhanced version
+
+baohua 11:07 AM
+welcome to drop comments
+
+tonyyang132 11:08 AM
+sure
+
+baohua 11:08 AM
+OK, no big issues this week.
+Any other topics wanna to discuss?
+
+tonyyang132 11:09 AM
+nothing more from my side
+
+baohua 11:09 AM
+ok, thanks
+
+tonyyang132 11:09 AM
+thank you
+
+baohua 11:09 AM
+If no further question, we will end the meeting. Thanks every participant, and have a nice weekend!🐶
+
+tonyyang132 11:09 AM
+and wish you a nice weekend too 🙂

@@ -1,0 +1,55 @@
+Hyperledger Project\\
+Public Sector Working Group (PSWG) Meeting\\
+August 31, 2018 \\
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/public-sector-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+PSWG Wiki: https://wiki.hyperledger.org/groups/public-sector-wg/public-sector-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+Meeting Notes\\
+When doing a Proof of Concept, how do we transition from the old system into the new blockchain system? Plus mechanics of replacing a system? \\
+
+Ken at Federal Reserve Austin: several hyperledger Proof of concept running, either air gapped or tightly locked down. Pushing toward getting the platform mainstreamed. They’ve been struggling with getting the tech installed. Great success with air gapping it.  \\
+What was driver of project? What does blockchain mean for financial services sector - bank to bank transactions - role of advisor to member banks. Host meetups, developing whitepaper (Q4 deadline) \\
+
+Pete Teigan: replacement of legacy systems is something worth considering, our perspective is we don’t replace legacy systems as much as supplement them. Build a blockchain process on top of the legacy system. Blockchain network pulls API from the old system. \\
+
+Kiran - interagency collaboration on systems - intermediate layer of oracles - push data onto the ledger from legacy system is not a big deal. Practically seamless, scalability has miles to go.  Design pattern is well articulated. \\
+
+Bobbi - Overview of Frameworks presentation\\
+
+Stephen - presentation on Hyperledger Indy\\
+[[https://docs.google.com/presentation/d/1ads_1rIOSObLFZSqFBXZhlXfo_YFdaSsCA-5E2OJcnk/edit?usp=sharing|Intro to Hyperledger Indy]]
+
+Marta - Global Forum update - Many similar talks submitted, only 10% of submissions accepted, panel rejected, anyone who submitted a talk has some kind of spot at the Global Forum. \\
+Q&A with Stephen\\
+
+For our next call, on Friday, September 14th, we again have a great line up of informative presentations and discussions.\\
+
+1. Hyperledger Tools Overview\\
+Bobbi will provide a follow up to today's informative Frameworks presentation, with a likely equally useful overview of Hyperledger tools. Many thanks to Bobbi for leading so much of the educational resources. \\
+
+2. Hyperledger Explorer and Composer Technical Overview\\
+Markus Stauffiger has kindly volunteered to lead next call's technical presentation, on Hyperledger Explorer and Composer. We all look forward to learning more from his presentation.\\
+
+3. Group Discussion Question\\
+Following on the success of today's group discussion, Marvin has posed a question to the group. He will be sharing the exact phrasing to us all shortly, and it will enter next call's agenda.\\
+
+4. Other Topics\\
+Time to have open conversation, as well as consider sharing your organisation's experience around considering, implementing, or scaling a Hyperledger based public sector project. \\
+
+a) Working at any stage on a project and can discuss it, or\\
+b) Considering Hyperledger, but have questions, need clarification, or would appreciate advice,\\
+
+Also, please be in touch at anytime if there is something you would like to add to the agenda.\\
+ 
+
+
+ 

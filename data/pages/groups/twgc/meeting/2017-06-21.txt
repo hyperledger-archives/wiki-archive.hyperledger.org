@@ -1,0 +1,64 @@
+===== TWG China Meeting =====
+
+==== Date ====
+10AM ~ 11AM, 2017-06-21, GMT+8
+
+[[https://www.uberconference.com/hyperledger-community | uberconference]]
+
+Phone Number:
+  * 800-820-0027 (toll free) 
+  * 400-821-0751 (caller paid)
+Passcode: 71173794
+
+==== Attendee ====
+
+**Pls add ur name here before the meeting.**
+
+  * Baohua Yang (IBM)
+  * Zhou Xing (IBM)
+  * Yaoguo Jiang (HUAWEI)
+  * Yin Cao (Energychain Lab)
+  * Linsheng Yu (ChainNova)
+
+
+==== Agenda ====
+  - TSC meeting sync
+    - Security Bug [[ https://docs.google.com/document/d/1gne57E4XEAxETZh_pmyVVWyI7FgXkmD72U3HfG193D8/edit| Process]].
+    - Hyperledger Hackfest [[ groups/twgc/hackfest-beijing
+|Agenda]]
+  - [[groups/twgc/team_di | Team development and Innovation]] (Yaoguo and Ray Chen)
+    - Code development on projects
+    - 
+  - [[groups/twgc/team_ie| Team i18n and Education ]]s (Linsheng Yu, Wenjie Xie, Kewei Sun)
+    - Finish translated 12 tech docs, need more reviewer.
+    - 
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin)
+    - [[https://wiki.hyperledger.org/groups/twgc/team_cs|case collection ]] sharing
+    - 
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Zhou Xing and Zhoudong Ji)
+    - Workshop and the hackfest sync
+  - other issues
+    - Enable new meeting system on [[https://www.uberconference.com/hyperledger-community | uberconference]]
+
+
+==== Minutes ====
+
+  - TSC meeting sync
+    - Security Bug [[ https://docs.google.com/document/d/1gne57E4XEAxETZh_pmyVVWyI7FgXkmD72U3HfG193D8/edit| Process]].
+    - Hyperledger Hackfest [[ groups/twgc/hackfest-beijing
+|Agenda]]
+  - [[groups/twgc/team_di | Team development and Innovation]] (Yaoguo and Ray Chen)
+    - Code development on projects
+    - Main contribution companies include IBM, Huawei, Wanda; main projects include fabric, cello, sawtoothlake
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Linsheng Yu, Wenjie Xie, Kewei Sun)
+    - Finish translated 12 tech docs, need more reviewer.
+    - **TODO: Linsheng need to evaluate and use some task management tools**
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin)
+    - [[ https://wiki.hyperledger.org/groups/twgc/team_cs|case collection ]] sharing
+    - We got 3 cases and welcome to contribute more.
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Zhou Xing and Zhoudong Ji)
+    - Workshop and the hackfest sync
+  - other issues
+    - Enable new meeting system on [[ https://www.uberconference.com/hyperledger-community | uberconference ]]
+    - Impact of Hyperledger in China governing departments (Yin Cao)
+      - **TODO: Scott need to lead a dicussion on how to improve.**

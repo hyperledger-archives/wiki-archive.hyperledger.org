@@ -1,0 +1,71 @@
+===== TWG China Meeting =====
+
+==== Date ====
+10AM ~ 11AM, 2017-08-02, GMT+8
+
+[[https://www.uberconference.com/hyperledger-community | uberconference]]
+  * option 1: Use the computer audio to connect in
+  * option 2: Dial in using the phone number at the website (No local number now)
+
+Backup Phone Number (Deprecate soon):
+  * 800-820-0027 (toll free) 
+  * 400-821-0751 (caller paid)
+Passcode: 71173794
+
+==== Attendee ====
+
+**Pls add ur name here before the meeting.**
+
+  * Baohua Yang (IBM)
+  * Zhou Xing (IBM)
+  * Yaoguo Jiang (HUAWEI)
+  * Yin Cao (Energychain Lab)
+  * Linsheng Yu (ChainNova)
+  * Zhen Hua Dong (IBM)
+  * Dahai Zhang (Sansec)
+  * Xueyang Han (Sansec)
+  * Min Luo (NTT)
+  * Zhangjiong Xuan (Hyperchain)
+  * Fei Cao (HUAXIN)
+
+
+==== Agenda ====
+  - TSC meeting sync
+    - [[https://docs.google.com/document/d/1OtGmVvHa_LDhIm5t1HEI7XwCQt1Lpr4gRmWixoJWQzg/edit|PSWG Group Chater]]
+    - US Hackfest, 9/21 & 9/22 in Chicago
+  - [[groups/twgc/team_di | Team development and Innovation]] (Yaoguo and Ray Chen)
+    - Code development on projects
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Linsheng Yu, Wenjie Xie, Kewei Sun)
+    - Finish translated 22 tech docs, need more reviewer.
+    - Github solution evaluation（https://hyperledgercn.github.io/hyperledgerDocs/）.
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin)
+    - [[https://wiki.hyperledger.org/groups/twgc/team_cs|case collection ]] sharing
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Zhou Xing and Zhoudong Ji)
+    - Will have the technical events recently: [[http://www.huodongxing.com/event/1398659377000|Hyperledger Meetup]]
+  - other issues
+    - SM2 support work for fabric (Zhenhua Dong, Dahai Zhang, Xueyang Han)
+    - Hyperledger Fabric中文社区建设 (Zhangjiong Xuan)
+
+
+==== Minutes ====
+
+  - TSC meeting sync
+    - [[https://docs.google.com/document/d/1OtGmVvHa_LDhIm5t1HEI7XwCQt1Lpr4gRmWixoJWQzg/edit|PSWG Group Chater]]
+    - US Hackfest, 9/21 & 9/22 in Chicago
+  - [[groups/twgc/team_di | Team development and Innovation]] (Yaoguo and Ray Chen)
+    - Code development on projects
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Linsheng Yu, Wenjie Xie, Kewei Sun)
+    - Finish translated 22 tech docs, need more reviewer.
+    - Github solution evaluation（https://hyperledgercn.github.io/hyperledgerDocs/）.
+    - **TODO: linsheng will propose the link, and call for more reviewer from the community.**
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin)
+    - [[https://wiki.hyperledger.org/groups/twgc/team_cs|case collection ]] sharing
+    - We now achieve 5 cases, with new cases from NTT and ANNI! More projects/idea sharing is encouraged!
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Zhou Xing and Zhoudong Ji)
+    - Will have the technical events recently: [[http://www.huodongxing.com/event/1398659377000|Hyperledger Meetup]]
+    - **TODO: Zhou will help publish in maillist/rocketchat/wechat.**
+  - other issues
+    - SM2 support work for fabric (Zhenhua Dong, Dahai Zhang, Xueyang Han)
+      - **TODO: Zhenhua will publish the issue (FAB-5496) to community channels, welcome for more comments.**
+    - Hyperledger Community Website in China (Zhangjiong Xuan)
+      - **TODO: Zhangjiong will help publish the info to the maillist.**

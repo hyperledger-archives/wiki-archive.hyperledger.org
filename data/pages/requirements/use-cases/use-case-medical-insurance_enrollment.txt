@@ -1,0 +1,41 @@
+====== Enrollment in a Medical Insurance Health Plan ======
+
+===== Section 1 - Intro =====
+
+==== Business Problem / Opportunity ====
+
+This is the process of enrolling either members of a group in a group plan, or an individual. In the case of group member enrollment, there is a prerequisite that a contract has already been established between the plan and the group. 
+
+For an individual, something similar has to happen whereby the individual is enrolled under the terms of an overarching contract that is advertised and offered (on an exchange) under regulatory terms such as the Affordable Care Act (ACA).
+
+Groups insure subscribers or policy holders, who may under the terms of the plan elect to enroll family members. Members may through familial relationships be enrolled in more than one plan.
+
+To enroll someone in a plan its essential to be able to identify them. Plans use combinations of basic demographic information such as: first name, last name, gender, date of birth and unique identifiers such as: existing member identifier (held on file from a previous enrollment), social security number (if it is authorized), medicaid identifier etc. The process can be "problematic."
+
+Once enrolled, contracts often mandate a waiting period until the coverage takes effect and the member is eligible to receive benefits. There are three types of waiting period, namely:
+  - employer waiting period
+  - affiliation period
+  - pre-existing condition exclusion period
+
+There are regulations associated with these waiting periods that must be complied with, such as sending notification letters.
+
+==== Current Solution ====
+
+
+
+==== Why a Blockchain? ====
+
+
+
+==== User Stories ====
+
+
+
+==== Opportunity/Justification ====
+
+
+
+===== Section 2 - States and Transactions =====
+
+
+===== Section 3 - Requirements =====

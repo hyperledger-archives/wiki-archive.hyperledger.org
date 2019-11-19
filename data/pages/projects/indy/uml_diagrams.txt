@@ -1,0 +1,8 @@
+====== Indy Diagrams (PNG and UML) ======
+
+Suggestion - linking the SVG graphics that PlantUML will be helpful. PNG can work too but including at minimum a link to an SVG allows someone to peel off the diagram and look at it cleanly.
+
+Relationship Diagram:
+
+  * PNG: [[https://github.com/hyperledger/indy-node/blob/master/docs/relationship-diagram.png]]
+  * UML: [[https://github.com/hyperledger/indy-node/blob/master/docs/relationship-diagram.puml]]

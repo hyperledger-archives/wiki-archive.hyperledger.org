@@ -1,0 +1,569 @@
+
+<p>
+<em>This is an on-going work on the Requirements Working Group</em>
+</p>
+
+<h1 class="sectionedit1" id="use_case_for_post_trade_-_settlement_-_delivery_vs_payment">Use Case for Post Trade - Settlement - Delivery vs Payment</h1>
+<div class="level1">
+
+</div>
+<!-- EDIT1 SECTION "Use Case for Post Trade - Settlement - Delivery vs Payment" [65-138] -->
+<h2 class="sectionedit2" id="section_1_-_introduction">Section 1 - Introduction</h2>
+<div class="level2">
+
+<p>
+Delivery versus payment, or <strong>DVP</strong>, is a common form of settlement for securities. The process involves the simultaneous delivery of all documents necessary to give effect to a transfer of securities in exchange for the receipt of the stipulated payment amount. Alternatively, it may involve transfers of two securities in such a way as to ensure that delivery of one security occurs if and only if the corresponding delivery of the other security occurs. This is done to avoid settlement risk such as where one party fails to deliver the security when the other party has already delivered the cash when settling a securities trade.
+</p>
+
+</div>
+<!-- EDIT2 SECTION "Section 1 - Introduction" [139-813] -->
+<h2 class="sectionedit3" id="section_2_-_user_stories">Section 2 - User Stories</h2>
+<div class="level2">
+
+<p>
+During the settlement process, obligations incurred during the trading process are met. Specifically, the physical delivery and/or book-keeping transfers of securities and of cash agreed to during trading occurs.
+</p>
+
+<p>
+In this example, Alice and Bob have previously agreed to trade securities for cash. They have agreed to settle the trade via DvP on the ledger. They have put these items of value—​the securities and the cash—​onto the ledger through Trent, a mutually-trusted third-party custodian
+</p>
+<div class="table sectionedit4"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0 leftalign"> User   </th><th class="col1 leftalign"> As a . . .                        </th><th class="col2 leftalign"> Wants to . . .                                                                                                                 </th><th class="col3 leftalign"> Because . . .                                                                                                                                                  </th>
+	</tr>
+	</thead>
+	<tr class="row1">
+		<td class="col0 leftalign"> Alice  </td><td class="col1 leftalign"> Seller of Securities              </td><td class="col2 leftalign"> Sell securities for cash in a contingent all-or-nothing exchange                                                               </td><td class="col3 leftalign"> She wants to minimize the risk that she delivers the agreed-upon securities into Bob&#039;s account but he fails to transfer the agreed-upon cash into her account  </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0 leftalign"> Bob    </td><td class="col1 leftalign"> Buyer of Securities               </td><td class="col2 leftalign"> Buy securities with cash in a contingent all-or-nothing exchange                                                               </td><td class="col3 leftalign"> He wants to minimize the risk that he pays the agreed-upon cash into Alice&#039;s account but she fails to deliver the agreed-upon securities into his account      </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0 leftalign"> Trent  </td><td class="col1 leftalign"> Custodian of Cash and Securities  </td><td class="col2 leftalign"> Provide all-or-nothing exchange of securities and cash if and only if matching delivery and payment instructions are received  </td><td class="col3 leftalign"> Alice and Bob need a trusted third party to act as a settlement intermediary to minimize Alice&#039;s cash payment risk and Bob&#039;s securities delivery risk          </td>
+	</tr>
+</table></div>
+<!-- EDIT4 TABLE [1357-2704] -->
+</div>
+<!-- EDIT3 SECTION "Section 2 - User Stories" [814-2706] -->
+<h2 class="sectionedit5" id="section_3_-_requirements">Section 3 - Requirements</h2>
+<div class="level2">
+
+</div>
+<!-- EDIT5 SECTION "Section 3 - Requirements" [2707-2745] -->
+<h3 class="sectionedit6" id="business_process_-_securities_trade_lifecycle">Business Process - Securities Trade Lifecycle</h3>
+<div class="level3">
+
+<p>
+In order to clarify the business process scope of the DvP use case, the following table outlines select stages of the lifecycle of a securities trade. Some or all of the prior stages to Post Trade - Settlement - DvP are assumed to have already taken place in the trade lifecycle ahead of the start of the DvP use case. To be clear, then, this use case does not cover all aspects of Post Trade, of which there are many.
+</p>
+<div class="table sectionedit7"><table class="inline">
+	<tr class="row0">
+		<th class="col0" colspan="3"> Process Hierarchy </th><th class="col3" rowspan="2"> Notes </th>
+	</tr>
+	<tr class="row1">
+		<th class="col0"> L1 </th><th class="col1"> L2 </th><th class="col2"> L3 </th>
+	</tr>
+	<tr class="row2">
+		<td class="col0" colspan="3"> Pre-Trade </td><td class="col3"></td>
+	</tr>
+	<tr class="row3">
+		<td class="col0" colspan="3"> Trade </td><td class="col3"> This is the step in which the (contra) parties agree to exchange securities for currency. The agreement is known as the trade.</td>
+	</tr>
+	<tr class="row4">
+		<td class="col0" rowspan="2"> Post-Trade </td><td class="col1" colspan="2"> Clearing </td><td class="col3"> Aggregating, netting and batching may take place at this stage. If no aggregating, netting and/or batching is occurring ahead of the settlement step, then it is considered Real-Time Gross Settlement (RTGS).</td>
+	</tr>
+	<tr class="row5">
+		<td class="col0"> Settlement </td><td class="col1"> DvP </td><td class="col2"> During the settlement step, physical delivery and/or book-keeping transfers of the securities and of the cash agreed to during the trade step. Delivery (of the securities) free of payment (DfP) is an alternative settlement mechanism to DvP. Securities are delivered in settlement of a trade without dependency upon the corresponding payment. As such, DfP has a different risk profile for parties to the trade than DvP. </td>
+	</tr>
+</table></div>
+<!-- EDIT7 TABLE [3223-4226] -->
+</div>
+<!-- EDIT6 SECTION "Business Process - Securities Trade Lifecycle" [2746-4227] -->
+<h3 class="sectionedit8" id="business_process_-_user_stories">Business Process - User Stories</h3>
+<div class="level3">
+
+<p>
+Each DvP has two legs. Each leg is a transfer of a quantity of cash or securities from one location to another.  The two legs of a single DvP are processed as one - a single, indivisible atomic step. If and only if both legs are valid, do they go through. If either is invalid, then neither is applied.
+</p>
+
+<p>
+The table below shows a sequence of in-order steps to support the user stories defined above. It can be summarized as:
+</p>
+<ul>
+<li class="level1"><div class="li"> Steps 1,2 - Alice and Bob fund their on-ledger locations through DvPs that Trent attests to.</div>
+</li>
+<li class="level1"><div class="li"> Step 3 - The all-or-nothing exchange of Alice&#039;s on-ledger securities for Bob&#039;s on-ledger cash occurs.</div>
+</li>
+<li class="level1"><div class="li"> Step 4,5 - Alice and Bob withdraw their on-ledger locations through DvPs that Trent attests to.</div>
+</li>
+</ul>
+<div class="table sectionedit9"><table class="inline">
+	<tr class="row0">
+		<th class="col0" rowspan="2"> Step No. </th><th class="col1" colspan="4"> Leg1 </th><th class="col5" colspan="4"> Leg2 </th><th class="col9" rowspan="2"> Signatories to Transfer </th>
+	</tr>
+	<tr class="row1">
+		<th class="col0"> Source Location </th><th class="col1"> Type </th><th class="col2"> Quantity </th><th class="col3"> Destination Location </th><th class="col4"> Source Location </th><th class="col5"> Type </th><th class="col6"> Quantity </th><th class="col7"> Destination Location </th>
+	</tr>
+	<tr class="row2">
+		<td class="col0"> 1 </td><td class="col1"> Foreign Key of Bob&#039;s Off-Ledger Cash Account with Trent </td><td class="col2"> Foreign Key of Bob&#039;s Off-Ledger Funding Transaction with Trent </td><td class="col3"> Foreign Key of Bob&#039;s Off-Ledger Quantity </td><td class="col4"> OFF LEDGER LOCATION FLAG </td><td class="col5"> OFF LEDGER LOCATION FLAG </td><td class="col6"> USD </td><td class="col7"> 10,000,000.00 </td><td class="col8"> Bob&#039;s On-Ledger Location </td><td class="col9"> Bob, Trent </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0"> 2 </td><td class="col1"> Foreign Key of Alice&#039;s Off-Ledger Securities Account with Trent </td><td class="col2"> Foreign Key of Alice&#039;s Off-Ledger Funding Transaction with Trent </td><td class="col3"> Foreign Key of Alice&#039;s Off-Ledger Quantity </td><td class="col4"> OFF LEDGER LOCATION FLAG </td><td class="col5"> OFF LEDGER LOCATION FLAG </td><td class="col6"> T-BILL </td><td class="col7"> 10 </td><td class="col8"> Alice&#039;s On-Ledger_Location </td><td class="col9"> Alice, Trent </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0"> 3 </td><td class="col1"> Alice&#039;s On-Ledger Location </td><td class="col2"> T-BILL </td><td class="col3"> 10 </td><td class="col4"> Bob&#039;s On-Ledger Location </td><td class="col5"> Bob&#039;s On-Ledger Location </td><td class="col6"> USD </td><td class="col7"> 10,000,000.00 </td><td class="col8"> Alice&#039;s On-ledger location </td><td class="col9"> Alice, Bob, Trent </td>
+	</tr>
+	<tr class="row5">
+		<td class="col0"> 4 </td><td class="col1"> Alice&#039;s On-Ledger location </td><td class="col2"> USD </td><td class="col3"> 10,000,000.00 </td><td class="col4"> OFF LEDGER LOCATION FLAG </td><td class="col5"> OFF LEDGER LOCATION FLAG </td><td class="col6"> OFF LEDGER TYPE FLAG </td><td class="col7"> 10,000,000.00 </td><td class="col8"> Foreign Key of Alice&#039;s Cash Account with Trent </td><td class="col9"> Alice, Trent </td>
+	</tr>
+	<tr class="row6">
+		<td class="col0"> 5 </td><td class="col1"> Bob&#039;s On-Ledger Location </td><td class="col2"> T-BILL </td><td class="col3"> 10 </td><td class="col4"> OFF LEDGER LOCATION FLAG </td><td class="col5"> OFF LEDGER LOCATION FLAG </td><td class="col6"> OFF LEDGER TYPE FLAG </td><td class="col7"> 10 </td><td class="col8"> Foreign Key of Bob&#039;s Off-Ledger Securities Account with Trent </td><td class="col9"> Bob, Trent </td>
+	</tr>
+</table></div>
+<!-- EDIT9 TABLE [4998-6366] -->
+</div>
+<!-- EDIT8 SECTION "Business Process - User Stories" [4228-6367] -->
+<h3 class="sectionedit10" id="business_requirements">Business Requirements</h3>
+<div class="level3">
+
+<p>
+The following are a set of high-level set of requirements:
+</p>
+<ul>
+<li class="level1"><div class="li"> Ledger</div>
+<ul>
+<li class="level2"><div class="li"> Journal that records book-entry narrative of agreed-upon transfers of amounts / quantities of ownership of typed cash and securities among locations</div>
+</li>
+<li class="level2"><div class="li"> Settlement is final - i.e., transfer is irrevocable - that is, cannot be unwound or revoked; it is not provisional settlement. However, the contra parties may elect to book and settle an additional trade that offsets the original trade - i.e., effectively cancelling it by entirely reversing it. Similarly, they could agree to do the same in order to adjust the first trade - i.e., entirely reverse it through an offsetting trade and then book a corrected replacement trade.</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> Transfers</div>
+<ul>
+<li class="level2"><div class="li"> Record of conveyance of ownership in an amount of a transferable item</div>
+</li>
+<li class="level2"><div class="li"> Exists on and only on the ledger</div>
+</li>
+<li class="level2"><div class="li"> Has a</div>
+<ul>
+<li class="level3"><div class="li"> Unique reference ID</div>
+</li>
+<li class="level3"><div class="li"> Source location</div>
+</li>
+<li class="level3"><div class="li"> Quantity</div>
+</li>
+<li class="level3"><div class="li"> Type</div>
+</li>
+<li class="level3"><div class="li"> Target location</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> Transferrable Item</div>
+<ul>
+<li class="level2"><div class="li"> Is either a tokenized representation of an item of value for transfer or is the item of value itself</div>
+</li>
+<li class="level2"><div class="li"> Has a</div>
+<ul>
+<li class="level3"><div class="li"> UID</div>
+</li>
+<li class="level3"><div class="li"> Type</div>
+<ul>
+<li class="level4"><div class="li"> As in type of fiat currency (e.g., ISO 4217 Currency code such as USD or CHF)</div>
+</li>
+<li class="level4"><div class="li"> As in type of security / financial instrument. UID for this is harder, separate out-of-scope-for-now challenge</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> Location</div>
+<ul>
+<li class="level2"><div class="li"> Is associated with one and only one type of transferrable item</div>
+</li>
+<li class="level2"><div class="li"> Exists on and only on the ledger</div>
+</li>
+<li class="level2"><div class="li"> Is owned by one and only one participant</div>
+</li>
+<li class="level2"><div class="li"> Is controlled by one and only one participant</div>
+<ul>
+<li class="level3"><div class="li"> Control may be delegated to another participant as an agent</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> Balance</div>
+<ul>
+<li class="level2"><div class="li"> Typed amount of securities or cash associated with an account / location as of a certain set of point in the ledger</div>
+</li>
+<li class="level2"><div class="li"> Derived values are computed not stored separately within ledger</div>
+</li>
+</ul>
+</li>
+</ul>
+
+</div>
+<!-- EDIT10 SECTION "Business Requirements" [6368-8227] -->
+<h3 class="sectionedit11" id="service-level_agreements">Service-Level Agreements</h3>
+<div class="level3">
+
+</div>
+
+<h4 id="on-ledger_certainty">On-ledger Certainty</h4>
+<div class="level4">
+
+<p>
+On-ledger certainty means an agreed-to, point-in-time record of which securities and cash are in which locations and in what amounts as well as status of in-flight transfers.
+</p>
+
+<p>
+Alice, Bob and Trent are users of the ledger. They are parties to the DvP transfers taking place.  They require on-ledger certainty in order to:
+</p>
+<ul>
+<li class="level1"><div class="li"> Avoid on-ledger settlement failures</div>
+</li>
+<li class="level1"><div class="li"> To keep their interdependent off-ledger business activities in sync with their on-ledger activities</div>
+</li>
+</ul>
+
+<p>
+That certainty allows them to avoid both on-ledger and off-ledger:
+</p>
+<ul>
+<li class="level1"><div class="li"> Double-spends / overdrafts</div>
+</li>
+<li class="level1"><div class="li"> Failures to deliver securities</div>
+</li>
+<li class="level1"><div class="li"> Failures to make payments</div>
+</li>
+<li class="level1"><div class="li"> Unnecessarily held-idle cash or securities</div>
+</li>
+</ul>
+
+<p>
+They must be able to discover and/or be informed with certainty of the state of the processing of transfers.  That is the case for both in-flight transfers and completed and/or rejected transfers. Therefore, transfers cannot remain in in-determinant states for unpredictable amounts of time. Silent failure of a transfer, for example, is also not acceptable.
+</p>
+
+</div>
+
+<h4 id="guarantees_of_processing_once_and_only_once">Guarantees of processing once and only once</h4>
+<div class="level4">
+
+<p>
+It is necessary to provide on-ledger certainty in the face of standard distributed processing challenges (For example: network timeouts, partial success, partial failure, rollback, distributed denial of service (DDOS), failovers, restarts, rogue validator nodes, security breaches, possible duplicate messages sent/received.)
+</p>
+
+</div>
+
+<h4 id="throughput_latency_and_scalability">Throughput, Latency and Scalability</h4>
+<div class="level4">
+
+<p>
+In order to provide on-ledger certainty, guarantees of bounded processing times are required. In addition, clarity is required for what happens to in-flight transfers when these guarantees are breached in general, and what happened to specific in-flight transfers in question.
+</p>
+
+<p>
+These SLAs are typically expressed in terms of throughput, latency, volume and scalability.  These SLAs typically vary by line of business, local market practices, and security type/asset class being traded.
+</p>
+<div class="table sectionedit12"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0"> Line of Business </th><th class="col1"> Local Market </th><th class="col2"> Security Type / Asset Class </th><th class="col3"> Throughput </th><th class="col4"> Latency </th><th class="col5"> Volume </th><th class="col6"> Scalability </th>
+	</tr>
+	</thead>
+	<tr class="row1">
+		<td class="col0">TBD</td><td class="col1">TBD</td><td class="col2">TBD</td><td class="col3">TBD</td><td class="col4">TBD</td><td class="col5">TBD</td><td class="col6">TBD</td>
+	</tr>
+</table></div>
+<!-- EDIT12 TABLE [10242-10383] -->
+</div>
+<!-- EDIT11 SECTION "Service-Level Agreements" [8228-10384] -->
+<h3 class="sectionedit13" id="data_protection_and_record_retention">Data Protection and Record Retention</h3>
+<div class="level3">
+
+<p>
+The user stories above assume an Over-The-Counter (OTC) trade between a pair of broker/dealers and a separate custodian. This is a simplifying assumption, recognizing that variations, complications and caveats exist based upon line of business, local market, security type, actor, role and regulatory jurisdictions.
+</p>
+
+<p>
+Likewise, for purposes of data protection and record retention requirements, a simplified proxy is used. This is based upon a reading of the United States&#039; Federal Government&#039;s Securities and Exchange Commission&#039;s 2003 interpretation of the 1934 Exchange Act law and associated Rules 17a-3, 17a-4 as it applies to electronic record keeping.
+</p>
+
+<p>
+To enable regulators to monitor broker/dealers&#039; compliance with laws, a comprehensive record of each individual securities transaction and the securities business in general must be preserved and made available.
+</p>
+<ul>
+<li class="level1"><div class="li"> Which business records are stored?</div>
+<ul>
+<li class="level2"><div class="li"> “Trade blotters, asset and liability ledgers, income ledgers, customer account ledgers, securities records, order tickets, trade confirmations, trial balances, and various employment related documents”</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> What record types and structures?</div>
+<ul>
+<li class="level2"><div class="li"> Not just the settlement records outlined above, but derived positions and balances as-of points in time</div>
+</li>
+<li class="level2"><div class="li"> Linkages of those post-trade settlement records out to the broader comprehensive record of each trade being settled and the securities business in general that they take place within. These make take the form of structured data, documents and even emails.</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> How long must records be kept around?</div>
+<ul>
+<li class="level2"><div class="li"> Not forever. Records have retention periods that vary (e.g., by type of record, player involved, asset class).</div>
+</li>
+<li class="level2"><div class="li"> The retention periods themselves can change over time if, for example, a law or rule changes.</div>
+</li>
+<li class="level2"><div class="li"> The retention period for specific records can change if, for example, a court subpoena is issued.</div>
+</li>
+<li class="level2"><div class="li"> Individual records have expiry dates. It is “prudent to default to permanent” and then allow for disposal later. To provide the individual expiry dates, a timestamp for the required period of retention the information placed on such electronic storage medium. Note that this suggests an agreed-upon timestamp on each record on the chain.</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> Stored in what?</div>
+<ul>
+<li class="level2"><div class="li"> Whether electronic or otherwise, the storage medium/system must protect record integrity.</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> What record integrity controls are necessary?</div>
+<ul>
+<li class="level2"><div class="li"> Is it enough to protect record integrity with access controls and tamper-evident controls? No, those controls are not acceptable in and of themselves. This suggests, for example, that permissioned networks are not sufficient.</div>
+</li>
+<li class="level2"><div class="li"> Instead (although not necessarily in lieu of), the records must be recorded in a “non-rewriteable, non-eraseable format”. That is, the records once written cannot be overwritten, erased or altered during their retention period. Furthermore, this protective feature must be irremovable. This may have implications for code forks, chain forks, etc.</div>
+</li>
+<li class="level2"><div class="li"> In addition, the storage medium/system must perform ongoing integrity self-checks to automatically verify quality and accuracy of the recording process.</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> Where should the records be stored?</div>
+<ul>
+<li class="level2"><div class="li"> Onsite and with an offsite duplicate. This suggests, for example, that validator nodes cannot all be in one physical location.</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> Which copies of the records need to be accessible?</div>
+<ul>
+<li class="level2"><div class="li"> Both the onsite and offsite copies need to be accessible.</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> In what format?</div>
+<ul>
+<li class="level2"><div class="li"> “Serialize the original and, if applicable, duplicate units of storage media”</div>
+</li>
+<li class="level2"><div class="li"> Downloadable / exportable records and indices of those records.</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> How quickly must records be made accessible to authorized parties?</div>
+<ul>
+<li class="level2"><div class="li"> In some cases, “immediate.” In other cases, “non-immediate”. For example, the records may need to be immediately accessible online for the first six months and then non-immediately available (e.g., retrieved from cold storage) for the following two years. </div>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> By whom?</div>
+<ul>
+<li class="level2"><div class="li"> Government regulators, self-regulatory organizations the broker/dealer belongs to, auditors, the broker/dealer themselves and, in some cases, customers (e.g., copy of confirmations).</div>
+</li>
+</ul>
+</li>
+</ul>
+
+</div>
+<!-- EDIT13 SECTION "Data Protection and Record Retention" [10385-14607] -->
+<h3 class="sectionedit14" id="assumptions">Assumptions</h3>
+<div class="level3">
+
+<p>
+In order to focus on the core of DvP over blockchain, a number of simplifying assumptions are being made:
+</p>
+<ul>
+<li class="level1"><div class="li"> Start-up / Bootstrapping / Use Case Prerequisites</div>
+<ul>
+<li class="level2"><div class="li"> Seller Alice and Buyer Bob have established business relationships with each other for purposes of buying and selling securities</div>
+</li>
+<li class="level2"><div class="li"> Seller Alice and Buyer Bob each have established separate, independent business relationships with Custodian Trent for purposes of post-trade settlement</div>
+</li>
+<li class="level2"><div class="li"> Custodian Trent created and assigned a cash account and a securities account to each of Alice and Bob</div>
+</li>
+<li class="level2"><div class="li"> Seller Alice has transferred her securities into Trent&#039;s custody via an out-of-chain business process that Trent acknowledged via a receipt published on the blockchain</div>
+</li>
+<li class="level2"><div class="li"> Buyer Bob has already transferred his cash into Trent&#039;s custody via an out-of-chain business process that Trent acknowledged via a receipt published on the blockchain</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> Custodian</div>
+<ul>
+<li class="level2"><div class="li"> Custodian is <strong>not</strong> providing its account holders any of the following:</div>
+<ul>
+<li class="level3"><div class="li"> Credit facilities to borrow or lend securities and/or cash</div>
+</li>
+<li class="level3"><div class="li"> Overage facilities to cover failures to deliver securities, cash overdraws</div>
+</li>
+<li class="level3"><div class="li"> Interest-bearing cash accounts</div>
+</li>
+<li class="level3"><div class="li"> Statements of holdings and balances</div>
+</li>
+<li class="level3"><div class="li"> Netting</div>
+</li>
+<li class="level3"><div class="li"> Collateral management</div>
+</li>
+<li class="level3"><div class="li"> Corporate actions (e.g., dividends, stock splits)</div>
+</li>
+<li class="level3"><div class="li"> Asset Depository capabilities as defined in the use case of that same name</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> Securities</div>
+<ul>
+<li class="level2"><div class="li"> Use case is concerned only with handling of pre-existing, transferable securities</div>
+</li>
+<li class="level2"><div class="li"> Rest of their lifecycle–e.g., issuance, corporate actions, assignment of UIDs, retirement–is assumed to occur out-of-scope</div>
+</li>
+<li class="level2"><div class="li"> Industrial and agricultural commodities (e.g., oil, gas, wheat, orange juice) are assumed to occur out-of-scope</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> Cash/Currency</div>
+<ul>
+<li class="level2"><div class="li"> Use case is concerned only with handling of pre-existing, fiat currencies</div>
+</li>
+<li class="level2"><div class="li"> Rest of their lifecycle–e.g., issuance, assignment of UIDs, money supply management–is assumed to occur out-of-scope</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> Use Case Asset Depository</div>
+<ul>
+<li class="level2"><div class="li"> There is a separate use case for asset depositories. That use case is assumed to handle:</div>
+<ul>
+<li class="level3"><div class="li"> Physical delivery of and vaults for safekeeping of physical assets held (e.g., bearer bonds, precious metals, stock certificates, paper currencies)</div>
+</li>
+<li class="level3"><div class="li"> On-blockchain book-entry title and title transfer for physical assets held</div>
+</li>
+<li class="level3"><div class="li"> On-blockchain book-entry issuance, title and title transfer of never-materialized securities</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> Regulators</div>
+<ul>
+<li class="level2"><div class="li"> Assumed to have given blessing to DvP-over-blockchain as defined in this use case</div>
+</li>
+<li class="level2"><div class="li"> Assumed to have duly authorized use case participants in their respective roles</div>
+</li>
+<li class="level2"><div class="li"> Assumed to have out-of-band / not-on-chain access to data they need</div>
+</li>
+<li class="level2"><div class="li"> Buyer, Seller and Custodian are assumed to have performed necessary and sufficient regulatory compliance steps to satisfy regulators (e.g., know your customer, enhanced due diligence, anti-money laundering)</div>
+</li>
+</ul>
+</li>
+</ul>
+
+<p>
+These complexities may be addressed in other use cases at a later date.
+</p>
+
+</div>
+<!-- EDIT14 SECTION "Assumptions" [14608-17657] -->
+<h2 class="sectionedit15" id="external_references">External References</h2>
+<div class="level2">
+<ul>
+<li class="level1"><div class="li"> Simmons, Michael. Securities Operations - A Guide to Trade and Position Management. John Wiley &amp; Sons, © 2002, ISBN 0-471-49758-4.</div>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> <a href="http://www.bis.org/cpmi/publ/d06.pdf" class="urlextern" title="http://www.bis.org/cpmi/publ/d06.pdf"  rel="nofollow"> &quot;DELIVERY  VERSUS  PAYMENT IN SECURITIES  SETTLEMENT  SYSTEMS&quot; </a>, Bank for International Settlements (BIS), Report prepared by the Committee on Payment and Settlement Systems of the central banks of the Group of Ten countries, Basle, September 1992. “The group has developed a broad framework for analysing the types and sources of risk in securities clearance and settlement, including the concept and implications of DVP.”</div>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> <a href="https://en.wikipedia.org/wiki/Geneva_Securities_Convention" class="urlextern" title="https://en.wikipedia.org/wiki/Geneva_Securities_Convention"  rel="nofollow"> &quot;Geneva Securities Convention&quot; </a>, Wikipedia, accessed 2016-05-30.</div>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> <a href="https://en.wikipedia.org/wiki/Dematerialization_(securities)" class="urlextern" title="https://en.wikipedia.org/wiki/Dematerialization_(securities)"  rel="nofollow"> &quot;Dematerialization (securities)&quot; </a>, Wikipedia, accessed 2016-05-30.</div>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> <a href="http://www.dtcc.com/~/media/Files/Downloads/WhitePapers/Dematerialize_Securities_July_2012.pdf" class="urlextern" title="http://www.dtcc.com/~/media/Files/Downloads/WhitePapers/Dematerialize_Securities_July_2012.pdf"  rel="nofollow"> &quot;A proposal to fully dematerialize physical securities&quot; </a>, DTCC, July 2012, accessed 2016-05-30.</div>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> <a href="http://thelawdictionary.org/convey/" class="urlextern" title="http://thelawdictionary.org/convey/"  rel="nofollow"> &quot;Convey&quot; </a>, The Law Dictionary / Black&#039;s Law Dictionary Free Online Legal Dictionary 2nd Ed., accessed 2016-05-30.</div>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> <a href="https://www.bis.org/publ/bppdf/bispap30z.pdf" class="urlextern" title="https://www.bis.org/publ/bppdf/bispap30z.pdf"  rel="nofollow"> &quot;Clearing, settlement and depository issues - Impediments, hedging supervision and clearing&quot; </a>, Francis Braeckevelt, <a href="https://www.bis.org/publ/bppdf/bispap30.htm" class="urlextern" title="https://www.bis.org/publ/bppdf/bispap30.htm"  rel="nofollow"> Asian bond markets: issues and prospects, BIS Papers No 30, November 2006</a>, accessed 2016-05-30.</div>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> <a href="http://www.iso.org/iso/home/standards/currency_codes.hmt" class="urlextern" title="http://www.iso.org/iso/home/standards/currency_codes.hmt"  rel="nofollow"> &quot;Currency codes - ISO 4217&quot; </a>, ISO, accessed 2016-05-31.</div>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> <a href="https://en.wikipedia.org/wiki/Alice_and_Bob" class="urlextern" title="https://en.wikipedia.org/wiki/Alice_and_Bob"  rel="nofollow"> &quot;Alice and Bob&quot; </a>, Wikipedia, accessed 2016-06-06.</div>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> <a href="https://en.wikipedia.org/w/index.php?title=Demat_account&amp;oldid=727219109" class="urlextern" title="https://en.wikipedia.org/w/index.php?title=Demat_account&amp;oldid=727219109"  rel="nofollow"> &quot;Demat account&quot; </a>, Wikipedia contributors, Wikipedia, The Free Encyclopedia, accessed June 29, 2016.</div>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> <a href="https://www.sec.gov/rules/interp/34-47806.htm" class="urlextern" title="https://www.sec.gov/rules/interp/34-47806.htm"  rel="nofollow"> &quot;SEC Interpretation: Electronic Storage of Broker-Dealer Records - 17 CFR Part 241 - Release No. 34-47806&quot; </a>, SECURITIES AND EXCHANGE COMMISSION, accessed 2016-07-08.</div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT15 SECTION "External References" [17658-19901] -->
+<h2 class="sectionedit16" id="glossaryappendices">Glossary/Appendices</h2>
+<div class="level2">
+
+<p>
+TBD
+</p>
+
+</div>
+<!-- EDIT16 SECTION "Glossary/Appendices" [19902-] -->

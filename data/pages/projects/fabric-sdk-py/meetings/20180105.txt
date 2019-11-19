@@ -1,0 +1,199 @@
+==== 2018-01-05 ==== 
+
+Meeting will be held at [[https://chat.hyperledger.org/channel/fabric-sdk-py|rocketchat]] at:
+
+  * 11AM (GMT+8)
+  * 8PM one day before (GMT-7).
+
+  * [[https://jira.hyperledger.org/browse/FAB-4623?jql=project%20%3D%20FAB%20AND%20status%20in%20(%22In%20Progress%22%2C%20%22To%20Do%22)%20AND%20component%20%3D%20fabric-sdk-py | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+status:open | Open Patchset for review]]
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]]
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  * Recent Progress: chaincode install, channel create, integration testing framework refinement
+  * chaincode Instantiate: Tony and kai are working on [[https://jira.hyperledger.org/browse/FAB-5489 | FAB-5489]]
+  * chaincode Invoke: Zhaofang Han is working on [[https://jira.hyperledger.org/browse/FAB-5491 | FAB-5491]], Dong Wang is working on [[https://jira.hyperledger.org/browse/FAB-6985|FAB-6985]]
+  * EventHub:  david dornseifer is working on [[https://jira.hyperledger.org/browse/FAB-4822|FAB-4822]]
+  * Register: Baohua is working on [[https://jira.hyperledger.org/browse/FAB-3165|FAB-3165]]
+  * TODO issues
+    * channel join: [[https://jira.hyperledger.org/browse/FAB-2871|FAB-2871]]
+    * chaincode Query?
+    * chaincode Upgrade?[[https://jira.hyperledger.org/browse/FAB-5490|FAB-5490]]
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Baohua Yang
+  * Kai Chen
+  * Wang Dong
+
+
+=== Log ===
+
+grapebaba 11:01 AM
+✋
+
+baohua 11:01 AM
+ok, will start meeting
+today's agenda is at https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20180105.
+Mostly, we've done `chaincode install, channel create, integration testing framework refinement`
+The active ongoing work is for chaincode instantiate/invoke
+how's going kai
+
+grapebaba 11:03 AM
+not ready
+
+baohua 11:03 AM
+@grapebaba busy with ur team, aha?
+hope everything goes well
+
+grapebaba 11:03 AM
+let me try next week
+
+baohua 11:03 AM
+ok, heard u will visit beijing?
+
+grapebaba 11:04 AM
+yeah
+
+baohua 11:04 AM
+when is the trip
+
+grapebaba 11:04 AM
+plan is 1.26
+
+baohua 11:04 AM
+stay for a weekend?
+
+DongWang 11:05 AM
+hi
+
+grapebaba 11:05 AM
+should be
+
+baohua 11:05 AM
+would look forward if u can help introduce the pysdk project in the meetup
+
+grapebaba 11:05 AM
+haha
+
+baohua 11:05 AM
+sdk is important part of operation, right
+@DongWang hi, how's going
+
+DongWang 11:06 AM
+emm, I am blocked by the msp error.
+
+grapebaba 11:06 AM
+let us communicate in wechat @baohua
+
+baohua 11:06 AM
+i still believe that python is the 1st choice in operational world
+@DongWang can u elaborate the problem
+
+grapebaba 11:06 AM
+👌
+
+baohua 11:06 AM
+@grapebaba and i would like to see if can help
+
+grapebaba 11:06 AM
+I agree
+for operation python is good
+
+baohua 11:07 AM
+right now we are using generated msp path in the code, so what's the problem there?
+
+DongWang 11:07 AM
+MSP Org1MSP is unknown
+actually I have never touch anything about the msp
+It is user id related I think
+
+baohua 11:07 AM
+oh, are u using the same 1.0.0 code in fabric
+hmmm, i guess it might be format problem
+have u tried the e2e example in fabric 1.0.5?
+
+DongWang 11:09 AM
+not yet
+
+baohua 11:09 AM
+suggest u try it first. besides, are u in the software park today?
+
+DongWang 11:10 AM
+And I wonder if the channel part is enough for the later development of the chaincode operation. Like msp config and channel initialize are not finished? They will affect
+No, I am in xi'an now
+
+grapebaba 11:12 AM
+I think it is enough @DongWang , let us discuss in wechat or JIRA
+
+DongWang 11:12 AM
+I have finished the test code. Error says the channel is not initialized. So I guess these parts will be important too.
+OK
+
+baohua 11:12 AM
+the whole steps: 1. create a channel; 2. peer joined the channel; 3. peer install chaincode; 4. peer instantiate chaincode; 5. peer invoke chaincode
+every step can be done by cli or sdk
+as kai and i suggested, pls have a look at e2e example, and let's discuss offline 🙂
+
+DongWang 11:13 AM
+OK
+
+baohua 11:14 AM
+⛳
+ok, any other issues to discuss? look forward we can solve the problem next week!
+
+grapebaba 11:14 AM
+may we can discuss with audio
+
+baohua 11:15 AM
+using zoom?
+
+DongWang 11:15 AM
+I am ok
+
+baohua 11:15 AM
+sure, let's try in next meeting?
+@grapebaba can u send an email to tracy to preserve the zoom timeslot for us?
+
+grapebaba 11:16 AM
+ok
+
+DongWang 11:19 AM
+So shall we call this an end ?
+
+baohua 11:19 AM
+ok, any more issue?
+
+grapebaba 11:19 AM
+no
+
+DongWang 11:19 AM
+no
+
+baohua 11:19 AM
+@DongWang ?
+what's ur meaning of an end?
+
+DongWang 11:19 AM
+I mean let's end this meeting 😀
+
+baohua 11:20 AM
+ahahaha
+sure, let's end @DongWang pls help add minutes in the wikipage and shared the link in the maillist
+
+DongWang 11:20 AM
+sure
+
+baohua 11:20 AM
+have a nice weekend!!
+🌼
+
+grapebaba 11:20 AM
+👏
+
+DongWang 11:20 AM
+have a nice weekend

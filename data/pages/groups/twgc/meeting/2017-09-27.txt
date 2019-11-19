@@ -1,0 +1,79 @@
+===== TWG China Meeting =====
+
+==== Date ====
+10AM ~ 11AM, 2017-09-27, GMT+8
+
+[[https://www.uberconference.com/hyperledger-community | uberconference]]
+  * option 1: Use the computer audio to connect in (Recommend using microphone and headset)
+  * option 2: Dial in using the phone number at the website, e.g., +1 480-757-9435 (No local number support now)
+
+[[https://drive.google.com/drive/folders/0B_NJV6eJXAA1R04zZ05FdE9WVGM | Audio record]]
+
+==== Attendee ====
+
+**Pls add ur name here before the meeting.**
+
+  * Baohua Yang
+  * Zhangjiong Xuan
+  * Scott Long - Liunx Foundation
+  * Yong Wan - IBM CIC
+  * Zhong TIAN - IBM
+  * Yaoguo Jiang 
+  * Ruijun Ou - Aisino
+  * Linsheng Yu - Chainnova
+  * Sheng Huang - IBM
+  * Weisai Zhang - YunPhant
+
+
+==== Agenda ====
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - [[https://docs.google.com/document/d/1KVrakb2JsqgMo2aG-QIYl743VHsU9NWYKxy7n-WeXv4/edit | [HIP] Hyperledger Interledger-Java]]
+  - [[groups/twgc/team_di | Team development and Innovation]] (Yaoguo, Zhangjiong Xuan)
+    - Code development on projects
+    - https://gerrit.hyperledger.org/r/#/c/12677/
+    - https://github.com/jcs47/hyperledger-bftsmart
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Linsheng Yu, Jiannan Guo)
+    - Zanata evaluation result.
+    - Demo the entire process?
+    - Create and share pdf/epub version of all docs
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin, Haixu Cheng)
+    - [[https://wiki.hyperledger.org/groups/twgc/team_cs|case collection ]] sharing
+    - Haixu's feedback from TsingDao conf
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Zhou Xing and Zhoudong Ji)
+    - Meetup for October, call for sponsors.
+    - Regular monthly meetup plan.
+    - Call for HL member news, will select to publish through official wechat account.
+  - other issues
+    - [[https://docs.google.com/document/d/1ukZFkP11qF56vt-WmLsGI5BTex2wOOSl8-Ecp0Y8yOc/edit?usp=sharing | Fabric crypto technical report]] for CCSC (Zhenhua Dong), welcome for review and comments.
+    - [[https://jira.hyperledger.org/browse/FAB-6263 | MongoDB support]] by  huiq li (oxchain)
+    - Technical FAQ collection (Zhou Xing and Jay Guo)
+      - Stackoverflow
+      - Any other?
+
+
+==== Minutes ====
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - [[https://docs.google.com/document/d/1KVrakb2JsqgMo2aG-QIYl743VHsU9NWYKxy7n-WeXv4/edit | [HIP] Hyperledger Interledger-Java]]
+    - Hackfest - Chicago held successfully
+  - [[groups/twgc/team_di | Team development and Innovation]] (Yaoguo, Zhangjiong Xuan)
+    - Code development on projects
+    - [[ https://github.com/bft-smart/library | BFT-Smart ]]
+    - [[ https://gerrit.hyperledger.org/r/#/c/12677/ | Highthroughput chaincode]]
+    - [[ https://docs.google.com/document/d/1cwScsNgYUj72vP2fqZ6vihYiuQcy45Ml2C_yLRI7EoQ/ | Caliper ]]
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Linsheng Yu, Jiannan Guo)
+    - Zanata evaluation result.
+    - Demo the entire process?
+    - Create and share pdf/epub version of all docs
+    - **TODO: Linsheng and Jiannan will help send out the usage link to maillist**
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin, Haixu Cheng)
+    - [[https://wiki.hyperledger.org/groups/twgc/team_cs|case collection ]] sharing
+    - **TODO: Haixu's feedback from TsingDao conf, need to share in maillist**
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Zhou Xing and Zhoudong Ji)
+    - **TODO: Meetup for October, call for sponsors.**
+    - Regular monthly meetup plan.
+    - Call for HL member news, will select to publish through official wechat channel. Feel free to contact TWGC.
+  - other issues
+    - [[https://docs.google.com/document/d/1ukZFkP11qF56vt-WmLsGI5BTex2wOOSl8-Ecp0Y8yOc/edit?usp=sharing | Fabric crypto technical report]] for CCSC (Zhenhua Dong), welcome for review and comments.
+    - [[https://jira.hyperledger.org/browse/FAB-6263 | MongoDB support]] by  huiq li (oxchain)
+    - Technical FAQ collection (Zhou Xing and Jay Guo)
+      - Stackoverflow: Mainly english, can use this as the FAQ/QA channel.

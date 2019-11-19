@@ -1,0 +1,21 @@
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1538368559;s:8:"modified";i:1539199163;}s:7:"creator";s:13:"Mikhail Elias";s:4:"user";s:8:"melias11";s:11:"last_change";a:7:{s:4:"date";i:1539577890;s:2:"ip";s:13:"190.148.78.20";s:4:"type";s:1:"e";s:2:"id";s:37:"groups:healthcare:analysis-human-milk";s:4:"user";s:8:"melias11";s:3:"sum";s:21:"[Analysis resources] ";s:5:"extra";s:0:"";}s:11:"contributor";a:1:{s:8:"melias11";s:13:"Mikhail Elias";}s:5:"title";s:37:"Domain analysis : Human milk services";s:11:"description";a:2:{s:15:"tableofcontents";a:4:{i:0;a:4:{s:3:"hid";s:34:"domain_analysishuman_milk_services";s:5:"title";s:37:"Domain analysis : Human milk services";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:1;a:4:{s:3:"hid";s:26:"data_collection_activities";s:5:"title";s:26:"Data collection activities";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:2;a:4:{s:3:"hid";s:32:"analysis_and_modeling_activities";s:5:"title";s:32:"Analysis and modeling activities";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:3;a:4:{s:3:"hid";s:18:"analysis_resources";s:5:"title";s:18:"Analysis resources";s:4:"type";s:2:"ul";s:5:"level";i:3;}}s:8:"abstract";s:471:"Domain analysis : Human milk services
+
+Home : Activities : Domain analysis
+
+----------
+
+	*  Participants : Patient SWG
+		*  Meeting minutes : 20-JUL, 27-JUL, 03-AUG, 17-AUG, 31-AUG, 14-SEP
+
+	*  Business case : Human milk services business case
+	*  Technical solution : Human Milk POC (Proposal) (Code repository) (JIRA project)
+
+----------
+
+Data collection activities
+
+	*  Interviews
+		*  Naomi Bar Yam : Mothers Milk Bank NE
+			*  Transcripts : 17-AUG-18, 31-AUG-18
+
+		*";}s:8:"relation";a:2:{s:10:"references";a:38:{s:50:"groups:healthcare:healthcare-wg-wikispace-redesign";b:1;s:28:"groups:healthcare:activities";b:1;s:35:"groups:healthcare:analysis-business";b:1;s:29:"groups:healthcare:patient-swg";b:1;s:21:"groups:healthcare:np4";b:1;s:21:"groups:healthcare:np1";b:1;s:21:"groups:healthcare:np2";b:1;s:22:"groups:healthcare:np17";b:1;s:41:"groups:healthcare:2018_08_31_patient_hcwg";b:1;s:41:"groups:healthcare:2018_09_14_patient_hcwg";b:1;s:51:"groups:healthcare:business-case-human-milk-services";b:1;s:32:"groups:healthcare:human-milk-poc";b:1;s:58:"groups:healthcare:donor_milk_transparency_and_traceability";b:1;s:44:"groups:healthcare:data-collection-interviews";b:1;s:31:"groups:healthcare:naomi_bar_yam";b:0;s:38:"groups:healthcare:mothers-milk-bank-ne";b:0;s:30:"groups:healthcare:pam_erickson";b:0;s:49:"groups:healthcare:interview-pamerickson-27-sep-18";b:1;s:43:"groups:healthcare:evidence_review_synthesis";b:0;s:40:"groups:healthcare:current_state_analysis";b:1;s:51:"groups:healthcare:current-state-human-milk-services";b:1;s:33:"groups:healthcare:policy_analysis";b:0;s:46:"groups:healthcare:summary_of_hmbana_guidelines";b:1;s:33:"groups:healthcare:market_analysis";b:0;s:44:"groups:healthcare:human_milk_services_market";b:1;s:37:"groups:healthcare:competitor_analysis";b:0;s:31:"groups:healthcare:swot_analysis";b:0;s:33:"groups:healthcare:causal_analysis";b:0;s:37:"groups:healthcare:predictive_analysis";b:0;s:42:"groups:healthcare:system_analysis_modeling";b:1;s:45:"groups:healthcare:human_milk_services_catalog";b:1;s:43:"groups:healthcare:human_milk_services_model";b:1;s:50:"groups:healthcare:human-milk-services-participants";b:1;s:47:"groups:healthcare:human-milk-services-workflows";b:1;s:47:"groups:healthcare:human-milk-services-resources";b:1;s:46:"groups:healthcare:human-milk-services-contexts";b:1;s:46:"groups:healthcare:human-milk-services-policies";b:1;s:45:"groups:healthcare:human-milk-services-metrics";b:1;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1538368559;s:8:"modified";i:1539199163;}s:7:"creator";s:13:"Mikhail Elias";s:4:"user";s:8:"melias11";s:11:"last_change";a:7:{s:4:"date";i:1539577890;s:2:"ip";s:13:"190.148.78.20";s:4:"type";s:1:"e";s:2:"id";s:37:"groups:healthcare:analysis-human-milk";s:4:"user";s:8:"melias11";s:3:"sum";s:21:"[Analysis resources] ";s:5:"extra";s:0:"";}s:11:"contributor";a:1:{s:8:"melias11";s:13:"Mikhail Elias";}}}

@@ -1,0 +1,70 @@
+====== Sawtooth ======
+{{ :projects:hyperledger_sawtooth_logo.png?direct&300|}}
+===== Status =====
+
+This project is [[community:project-lifecycle#active|Active]]
+
+===== Description =====
+
+Originally contributed by Intel, Sawtooth is a blockchain suite designed for versatility and scalability. Distributed Ledger Technology has potential in many fields with use cases from IoT to Financials. This architecture recognizes the diversity of requirements across that spectrum. Sawtooth supports both permissioned and permissionless deployments. It includes a novel consensus algorithm, Proof of Elapsed Time (PoET). PoET targets large distributed validator populations with minimal resource consumption. Transaction business logic is decoupled from the consensus layer into Transaction Families that allow for restricted or unfettered semantics.
+
+===== Key Characteristics =====
+
+  * Pluggable consensus algorithms (Change consensus on the fly by transaction)
+  * Includes Proof of Elapsed Time (PoET) consensus
+  * Write smart contracts in almost any language
+  * Ethereum contract support via Hyperledger Burrow integration
+  * Supply Chain example out of the box
+  * Parallel transaction execution for added throughput
+
+===== Documentation =====
+
+  * [[https://sawtooth.hyperledger.org/docs/|Main doc]]
+  * [[https://sawtooth.hyperledger.org/docs/core/releases/latest/app_developers_guide.html|Application Developers Guide]]
+  * [[https://sawtooth.hyperledger.org/examples/|Examples]]
+
+
+===== Project Management =====
+
+[[https://jira.hyperledger.org/projects/STL|Jira]]
+
+===== Repository =====
+
+[[https://github.com/hyperledger/sawtooth-core|Github]]
+
+===== Communication =====
+
+==== Mailing List ====
+
+[[sawtooth@lists.hyperledger.org|sawtooth@lists.hyperledger.org]] for discussions ([[https://lists.hyperledger.org/g/sawtooth|subscribe]] - [[https://lists.hyperledger.org/g/sawtooth/messages|read the archives]])
+
+==== RocketChat (for questions and ephemeral discussions) ====
+
+[[https://chat.hyperledger.com/channel/sawtooth|#sawtooth]]
+
+===== Meeting =====
+
+Discussions are conducted on the [[https://lists.hyperledger.org/g/sawtooth|mailing list]] to allow for worldwide participation.
+
+In addition, sprint planning and tech forum meetings happen on a bi-weekly basis. More information can be found on the [[https://calendar.google.com/calendar/embed?src=linuxfoundation.org_nf9u64g9k9rvd9f8vp4vur23b0%40group.calendar.google.com&ctz=UTC|community calendar]]. The sprint planning and tech forum meetings are held on [[https://zoom.us/my/hyperledger.community|Zoom]]. Recordings of previous meetings can be found on a [[https://drive.google.com/open?id=0B_NJV6eJXAA1VnFUakRzaG1raXc|shared Google Drive folder]].
+
+===== Process Notes =====
+
+  * Release Notes: Release notes will be provided for release 1.0 and thereafter.
+  * The project will follow the HyperLedger security bug process and identify any security vulnerabilities fixed in the release.
+    * Security bugs: Security bugs can be reported to security@hyperledger.org. 
+    * The Sawtooth project will follow the HyperLedger security process and will respond within 14 days.
+  * Static analysis: The Sawtooth project will follow the HyperLedger security process and address bugs found by static analysis in a timely manner.
+  * Dynamic analysis: The Sawtooth project will perform dynamic analysis prior to major releases will follow the HyperLedger security process and address bugs found by static analysis in a timely manner.
+
+===== Related Pages =====
+
+N.A.
+
+===== History =====
+
+  * [[https://docs.google.com/document/d/1j7YcGLJH6LkzvWdOYFIt2kpkVlLEmILErXL6t-Ky2zU/edit|Proposed]] by Mic Bowman, Intel Corporation (mic.bowman@intel.com) and Richard Gendal Brown, R3cev
+  * [[https://lists.hyperledger.org/g/tsc/message/133|Approved]] by the TSC on April 14, 2016
+  * Moved out of Incubation on May 18, 2017
+    * [[https://lists.hyperledger.org/g/tsc/message/804|Request]]
+    * [[https://lists.hyperledger.org/g/tsc/message/811|TSC Approval]]

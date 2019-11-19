@@ -1,0 +1,45 @@
+====== Contributing to the Docs ======
+
+Below you will find a beginning instructions on how to contribute to the documentation and what to keep in mind as you do so. These guidelines are in place to help unify the documentation flow, readability, and the maintenance processes. 
+
+===== General Guidelines =====
+
+Until the community or the documentation maintainers decide otherwise, the following guidelines should be adhered to: 
+
+   *  The Hyperledger Wiki page belonging to Indy is considered the "jump off" point or "hub" of where to begin finding necessary information about all things Indy. The page is located [[projects:indy|here]].
+
+  *   Nitty gritty repo specific information belongs in the "doc" or "docs" folder of each specific repo.
+
+  *   All other official documentation should be referenced from the Wiki Indy [[projects:indy:documentation|documentation page]] with a link to where ever the official document currently lives. 
+
+  *   All official documentation that should not be edited by the community as a whole should have specific permissions set on the document to not allow it. //Example:// A Google doc that should not be edited, would have "view only" permissions attached to it. A .md document in a repo that should not be edited by the community should live in a private repo. 
+
+  *   **Never, at any time**, should there be more than one copy of an official document living in more than one place. Once a specific document has been decided that it is "official", then all others should be considered drafts. It is recommended that the word "DRAFT" be placed in the title section of the document.
+  
+  * Active working documents that a team may be working on, editing often, especially during fast iterations, should be noted also in the title section of the document, "WORKING DOCUMENT" or other similar verbiage. It may be listed with the title or as a subtitle. This will reduce confusion on what is a draft, official or a working document that a team is using for collaboration.
+
+ 
+
+===== Maintaining the Docs =====
+
+This is a beginning list of what needs to be done to maintain the Indy documentation in general. Until the document maintainers decide otherwise, the following items will need to be reviewed on a regular basis for accuracy, flow, voice, etc. 
+
+This list may be added upon as necessary.
+
+
+  * The docs in the docs folder of each repo listed here.
+
+  * The documentation lined from the Documentation page. 
+
+
+==== Each of These Need: ====
+
+  * Editing for accuracy and grammar.
+  * Review for consistent voice.
+  * Actor specific verbiage. (//Example:// When you mean the ledger, reference it as "the ledger", not just "indy." When speaking of an end user, use "end user", not just "user." The same for institutions.)
+  * Links to **stable** branch documents.
+  * No broken links.
+  * No links to docs in old or deprecated repos.
+  * Technical steps and technical details are correct.
+
+

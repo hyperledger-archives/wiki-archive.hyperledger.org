@@ -1,0 +1,79 @@
+===== TWG China Meeting =====
+
+==== Basic Info ====
+10AM ~ 11AM, 2018-01-03, GMT+8
+
+  * Option #1: Use computer to access [[ https://zoom.us/j/248676399 | zoom]] (Recommend using microphone and headset)
+  * Option #2: Dial in using the [[https://zoom.us/zoomconference?m=mTUdEBuT33gjEcR54Rqsi1KmFyNgSLYP|phone number]]. E.g.,	400 669 9381 or 010-87833177 (Premium Toll) for China area.
+
+[[https://docs.google.com/presentation/d/1punUCr0mSZT9gMKCs3vCYqbWbjeS_RG-18ZrhkfwoYc/edit?ts=5a14dfdf | Antitrust Policy Notice]]
+
+==== Attendee ====
+
+**Pls add ur name here before the meeting.**
+
+  * Baohua Yang
+  * Yong Wan
+  * Chang Chen
+  * Allen Shao
+  * Canxing Lian
+  * Linsheng Yu
+  * Dijun Liu
+  * Sheng Huang
+  * Nancy Zheng
+  * Zhong TIAN
+  * WenHui Du
+  * Li Li
+  * Han Hao
+  * Zhihao Yang
+  * Scott Long
+  * Lai Chunhui
+  * Alec Tang
+  * Leon Liang
+
+==== Agenda ====
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - Call for Hackfest/Hackthon plan
+  - [[groups/twgc/team_di | Team development and Innovation]] (Yaoguo Jiang, Zhangjiong Xuan)
+    - Code development on interested projects
+    - Share the technical FAQ to the maillist
+    - [[https://jira.hyperledger.org/browse/FAB-5496 | SM2 support]] by Zhenhua Dong, Dijun Liu
+    - [[https://jira.hyperledger.org/browse/FAB-6263 | MongoDB support]] by HuiQi Li (oxchain)
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Linsheng Yu, Jiannan Guo)
+    - Website to host and present the doc
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin, Haixu Cheng)
+    - Welcome companies to share usage cases at [[https://wiki.hyperledger.org/groups/twgc/team_cs|case collection ]]
+    - Call for HL member news, will select to publish through official wechat channel. Feel free to contact TWGC.
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Zhou Xing, Zhoudong Ji and Sheng Huang)
+    - TWGC member dinner at beijing and shanghai.
+    - **[[groups/twgc/team_eo| Call for sponsors]] for Meetups in Jan, 2018.** 
+    - Ziggurat and vmware are organizing a meetup, date TBD.
+    - Discussion on Hackathon on Jan 20-21, call for sponsor. (Scott)
+  - Other issues
+    - Feel free to add here
+
+==== Minutes ====
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - Call for Hackfest/Hackthon plan
+    - TSC meetings were cancelled for recent two weeks
+  - [[groups/twgc/team_di | Team development and Innovation]] (Yaoguo Jiang, Zhangjiong Xuan)
+    - Code development on interested projects
+    - Share the technical FAQ to the maillist
+    - [[https://jira.hyperledger.org/browse/FAB-5496 | SM2 support]] by Zhenhua Dong, Dijun Liu. Dijun will share to fabric related channels to call for comments.
+    - [[https://jira.hyperledger.org/browse/FAB-6263 | MongoDB support]] by HuiQi Li (oxchain)
+    - Haitao introduce the releasing of cello v0.8.0
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Linsheng Yu, Jiannan Guo)
+    - Website to host and present the doc
+    - New compose documentation was contributed by Weibing Wang: https://wbwangk.github.io/ComposerDocs/, will merge into the official repo.
+    - Need help to migrate existing doc into zanata.
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin, Haixu Cheng)
+    - Welcome companies to share usage cases at [[https://wiki.hyperledger.org/groups/twgc/team_cs|case collection ]]
+    - Call for HL member news, will select to publish through official wechat channel. Feel free to contact TWGC.
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Zhou Xing, Zhoudong Ji and Sheng Huang)
+    - TWGC member dinner at beijing and shanghai: around 20 people attended.
+    - **[[groups/twgc/team_eo| Call for sponsors]] for Meetups in Jan, 2018.** 
+    - Ziggurat and vmware are organizing a meetup, date is negotiated around Jan 27.
+    - Sheng Huang is helping organize a meetup in Shanghai this Jan.
+    - Discussion on Hackathon on Jan 20-21 in Tianjin, call for sponsor. (Scott)
+  - Other issues
+    - New joiner self-introduction

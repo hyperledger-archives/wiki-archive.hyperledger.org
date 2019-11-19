@@ -1,0 +1,42 @@
+Hyperledger Project\\
+Healthcare Working Group (HCWG) Patient Subgroup Meeting\\
+June 22, 2018 \\
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+Meeting Notes\\
+ 
+Laboratory use case continued: problem statement and defining personas\\
+     *The group agreed on the problem statement: how to capture longitudinal user data across silos in order to inform algorithms for treatment, diagnosis, etc.\\
+     *The individual is at the center of this work along with stakeholders from the  individual's "sphere of trust" - the healthcare ecosystem that individuals engage with (providers, labs)\\
+     *How do we define the domain of this effort (ie what is inside and outside the box)?\\
+          *The individual/patient is at the center given that consent must be given to share information\\
+          *Connecting siloed Providers/laboratories/other data sources (EHRs/ECGs) are also inside the box\\
+          *Point was made that the patient is not always the initial gatekeeper of data (example was given of a diagnosis not wanting to be shared directly with a patient - cancer diagnosis for a child for example) - so we have to take those use cases into consideration\\
+     *Using a data standard will be important from an interoperability perspective, such as FHIR: https://www.hl7.org/fhir/overview.html
+     *Single source of truth problem
+          *How do we ensure a single source of truth for data points (ie if we pull data out of current systems to aggregate, how do we ensure it doesn't become out of date)\\
+          *To solve this, no data will be stored on the blockchain, but instead hashes for the individual and their pieces of data will act as pointers to the validated data\\
+          *The individual would have power to determine what pieces of data do and don't get shared (ie HIV status not wanting to be shared)\\
+          *IPFS was given as an example of this concept of using pointers to certain files: https://en.wikipedia.org/wiki/InterPlanetary_File_System
+     *"Ownership" of data
+          *A better term to use is likely "shared stewardship" of data as individuals have data rights, but providers have legal data obligations
+     *Personas will be discussed at a later time\\
+
+Wrap up and next steps\\
+     *People are interested in continuing this conversation prior to our next scheduled meeting on 7/6, proposed time is 8am PST on 6/29 | Marissa to send out invite
+     *Please complete doodle poll to see if moving our bi-weekly meeting to 8AM PST works for you: https://doodle.com/poll/4i3zhwyey92p88ik
+Place for collaboration between meetings was requested:
+     *Let's try to use the #healthcare-wg Rocket.Chat channel that you can find here: https://wiki.hyperledger.org/community/chat_channels- if we're not able to keep the dialog going, we'll look into a Slack workspace
+     *GitHub Repo has been created for us to start building our documentation: HLCHWG-patient-member-subgroup
+This seemed like a good option as when we get into build, I'm assuming this is the tool we'll use. Right now we'll use the wiki, where we will have out problem statement and continue to build the use case. This is an open repo, so everyone should feel free to edit, but please make comments when you make changes so that we know what changes have been made
+
+Meeting Adjourned

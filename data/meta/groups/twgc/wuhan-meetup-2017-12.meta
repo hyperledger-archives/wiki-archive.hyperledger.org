@@ -1,0 +1,16 @@
+a:2:{s:7:"current";a:8:{s:4:"date";a:2:{s:7:"created";i:1543218503;s:8:"modified";i:1512468519;}s:4:"user";s:0:"";s:7:"creator";s:0:"";s:5:"title";s:24:"Hyperledger Wuhan Meetup";s:11:"description";a:2:{s:15:"tableofcontents";a:5:{i:0;a:4:{s:3:"hid";s:24:"hyperledger_wuhan_meetup";s:5:"title";s:24:"Hyperledger Wuhan Meetup";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:1;a:4:{s:3:"hid";s:6:"时间";s:5:"title";s:6:"时间";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:2;a:4:{s:3:"hid";s:6:"地点";s:5:"title";s:6:"地点";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:3;a:4:{s:3:"hid";s:9:"赞助商";s:5:"title";s:9:"赞助商";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:4;a:4:{s:3:"hid";s:6:"议程";s:5:"title";s:6:"议程";s:4:"type";s:2:"ul";s:5:"level";i:3;}}s:8:"abstract";s:246:"Hyperledger Wuhan Meetup
+
+时间
+
+13:00-18:00, Dec 09, 2017
+
+地点
+
+OVU创客星 理想国际站 （武昌区武珞路与丁字桥路交汇处中南国际汇18层路演区）
+
+赞助商
+
+武汉OVU创客星
+
+议程
+ Time 时间       Topic 题目";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}s:8:"relation";a:1:{s:10:"firstimage";s:0:"";}s:11:"last_change";a:7:{s:4:"date";i:1512468519;s:2:"ip";s:14:"59.172.213.152";s:4:"type";s:1:"E";s:2:"id";s:32:"groups:twgc:wuhan-meetup-2017-12";s:4:"user";s:9:"grapebaba";s:3:"sum";s:8:"[Table] ";s:5:"extra";s:0:"";}}s:10:"persistent";a:4:{s:4:"date";a:1:{s:7:"created";i:1543218503;}s:4:"user";s:0:"";s:7:"creator";s:0:"";s:11:"last_change";a:7:{s:4:"date";i:1512468519;s:2:"ip";s:14:"59.172.213.152";s:4:"type";s:1:"E";s:2:"id";s:32:"groups:twgc:wuhan-meetup-2017-12";s:4:"user";s:9:"grapebaba";s:3:"sum";s:8:"[Table] ";s:5:"extra";s:0:"";}}}

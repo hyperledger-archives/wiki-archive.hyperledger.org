@@ -1,0 +1,3 @@
+Please report any security issues you find in Hyperledger to security@hyperledger.org.
+
+The subscribers on this alias are only trusted individuals who will handle the resolution of any reported security issues in confidence. In your report, please note how you would like to be credited for discovering the issue and the details of any embargo you would like to impose.

@@ -1,0 +1,11 @@
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1496925279;s:8:"modified";i:1497220563;}s:7:"creator";s:18:"Christopher Ferris";s:4:"user";s:17:"ChristopherFerris";s:11:"last_change";a:7:{s:4:"date";i:1497220563;s:2:"ip";s:14:"84.108.118.117";s:4:"type";s:1:"E";s:2:"id";s:37:"projects:fabric:release_process_notes";s:4:"user";s:6:"C0rWin";s:3:"sum";s:21:"[Notes/Observations] ";s:5:"extra";s:0:"";}s:11:"contributor";a:2:{s:17:"ChristopherFerris";s:18:"Christopher Ferris";s:6:"C0rWin";s:12:"Artem Barger";}s:5:"title";s:15:"Release Process";s:11:"description";a:2:{s:15:"tableofcontents";a:4:{i:0;a:4:{s:3:"hid";s:15:"release_process";s:5:"title";s:15:"Release Process";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:9:"proposals";s:5:"title";s:9:"Proposals";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:2;a:4:{s:3:"hid";s:28:"weekly_release_cadence_-_cbf";s:5:"title";s:28:"Weekly release cadence - CBF";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:3;a:4:{s:3:"hid";s:17:"notesobservations";s:5:"title";s:18:"Notes/Observations";s:4:"type";s:2:"ul";s:5:"level";i:1;}}s:8:"abstract";s:325:"Release Process
+
+See FAB-4379 for a template JIRA
+
+Proposals
+
+Weekly release cadence - CBF
+
+	*  begin merge moratorium on Weds am at 8 am ET
+	*  ensure Daily and Weekly tests are run, force repeated CR CI passes of each repository
+	*  if significant issues found, defer release for following week (no sense killing ourselves)";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}s:8:"relation";a:1:{s:10:"firstimage";s:0:"";}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1496925279;s:8:"modified";i:1497220563;}s:7:"creator";s:18:"Christopher Ferris";s:4:"user";s:17:"ChristopherFerris";s:11:"last_change";a:7:{s:4:"date";i:1497220563;s:2:"ip";s:14:"84.108.118.117";s:4:"type";s:1:"E";s:2:"id";s:37:"projects:fabric:release_process_notes";s:4:"user";s:6:"C0rWin";s:3:"sum";s:21:"[Notes/Observations] ";s:5:"extra";s:0:"";}s:11:"contributor";a:2:{s:17:"ChristopherFerris";s:18:"Christopher Ferris";s:6:"C0rWin";s:12:"Artem Barger";}}}

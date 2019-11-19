@@ -1,0 +1,21 @@
+====== Q3 2018 Burrow Roadmap Postmortem ======
+//**Author: Silas Davis, 23 August 2018**//
+
+This page provides a retrospective on the previous quarter's activity and compares it to that which was forecast in [[projects:burrow:roadmap_2018_Q3| Q3 2018]]
+
+===== Roadmap =====
+^ Work item ^ Status and notes ^
+| [[https://github.com/hyperledger/burrow/issues/674|EVM compatibility]] | Complete except STATICCALL |
+| Implement prototype web3 API  | Not started - superceded by GRPC work - would like community assistance |
+| Co-located transaction signing (send address) | Done - also Burrow acts a delegated key signer over its grpc ''%%rpckeys.Keys%%'' interface |
+| Add (self-hosted) monax-keys functionality to Burrow | Done |
+| Queryable complete state history (per block, possibly call frame) | Done see: [[https://github.com/hyperledger/burrow/blob/develop/protobuf/exec.proto]]  |
+| State save/restore | 30% complete - needed to update IAVL tree and iron out some issues with versioning |
+| Forkable state channels | Not started |
+| Provide event firehose | Done see: [[https://github.com/hyperledger/burrow/blob/develop/protobuf/rpcevents.proto]], this also powers our SQL mapping layer [[https://github.com/monax/bosmarmot/tree/develop/vent]] |
+| Historic queryable | 90% done - history is there by we do not provide an account-at-height interface |
+| Reintroduce validator bonding | Done via GovTx |
+| Add governance Tx for redistributing voting power and value | Done |
+| Provide trial HSM integaration | Not started |
+| Reintroduce secp256k1 keys & ECRECOVER | 50% done - secp256k1 reintroduced but not ECRECOVER - a WIP PR exists though |
+| Parallel EVM execution | Not started - contributor interested in this no longer working on project |

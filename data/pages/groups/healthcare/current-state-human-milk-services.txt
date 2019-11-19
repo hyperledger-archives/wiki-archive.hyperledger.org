@@ -1,0 +1,39 @@
+===== Current state : Human milk services =====
+[[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]] : [[analysis-business|Domain analysis]] : [[analysis-human-milk|Human milk services]] : [[current_state_analysis|Current state analysis]]
+----------
+
+==== Problem list ====
+
+  * Preterm birth
+  * Human milk supply shortage
+  * Low rate of milk donation
+  * Compensated donors
+  * Human milk pricing variability
+  * Small-scale milk banking service providers
+  * Poorly developed human milk distribution networks
+  * Complicated contracting process
+  * Health illiteracy regarding benefits of human milk
+  * High rate of childbirth outside any kind of health care facility 
+  * Lack of visibility into supply and demand
+  * Weak regulatory enforcement capabilities
+  * Human milk donation is unregulated
+  * Unregulated market risks patient safety
+  * Unqualified and unlicensed practitioners
+  * Human milk collection, storage and distribution has poor quality control
+  * Human milk poses biosafety and biosecurity risks to public health
+  * lack of safe collection, handling and distribution, as with human blood supply and tissue banks
+  * Human milk donors are not appropriately screened 
+  * Donated human milk is not appropriately screened
+  * Human milk is not handled safely during collection, storage and distribution
+  * Breakdown of cold chain when storing, transporting and handling human milk
+  * widespread tampering and adulteration within healthcare supply-chains
+  * Adulteration of donated human milk
+  * Contamination of donated human milk with pathogens, toxins and drugs
+  * environments of weak trust 
+  * administrative corruption
+  * rampant fraud and abuse in clinical settings
+  * health systems plagued by repeated public scandals
+  * vulnerable to disruption : communications networks; supply-chain disruption
+  * increasing risk of disruption : social instability, natural disaster
+  * risk of weakened governance : assessment and evaluation; decision-making, planning, policy-making
+  * management systems disruption : monitoring and control; program, project management; services systems management; change management

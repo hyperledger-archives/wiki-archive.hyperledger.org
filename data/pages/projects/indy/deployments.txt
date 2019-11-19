@@ -1,0 +1,11 @@
+We need to understand how Indy is being used, so that we can tailor it to the various use cases. We will focus the project on the Hyperledger Indy networks listed here.
+
+**Please list your Indy network, with a brief explanation of the use case and the status of the deployment.**
+
+
+====== Production ======
+===== Sovrin =====
+[[http://sovrin.org|Sovrin]]: Sovrin is a decentralized, global public utility for self-sovereign identity. It entered production use in 2018.
+
+
+====== Provisional ======

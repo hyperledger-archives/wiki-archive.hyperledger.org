@@ -1,0 +1,7 @@
+===== Plans =====
+  * [[healthcare-wg|Home]] : [[governance|Governance]]
+
+----------
+
+  * [[https://drive.google.com/open?id=1q-d8rGcRK2k_sq4xMUGinwhqwRYg-HOPK0vggaq7XkU|Academic research plan (draft)]]
+  * [[sig_workplan_2019|Healthcare SIG Plan 2019]]

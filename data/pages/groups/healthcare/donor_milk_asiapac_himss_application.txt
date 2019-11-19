@@ -1,0 +1,112 @@
+This page is for the AsiaPac HIMSS Innovation Challenge. Link to the challenge is [[https://www.himssasiapacconference.org/ehome/287692/740390/?mkt_tok=eyJpIjoiTVRNeFpqRTBNVFl4TTJRMCIsInQiOiJPWDByS3RXbmJ2T2NNK1dLMTFWU1BacHNTbm8xU2RMc1MyYm5qN0E2ZlpIZjNsXC9iSWZpUXN3bldnRUFkXC9XZ3RCcTZJZ1ZremtNV3RBbmEzUTkxUHVxVm1CRmRxSFpKckFCUnM0TTMwOVpFSEZzXC9rcDBHVXBpYUlpWHNuYzJaZiJ9|Here]] and the actual application questions are [[https://etouches-appfiles.s3.amazonaws.com/html_file_uploads/6622cfbb6c5dc395bf89d5ced61343d9_2018_HIMSSAsiaPacInnovationsChallenge_Submission_Form_V05.pdf?response-content-disposition=inline%3Bfilename%3D%222018_HIMSSAsiaPacInnovationsChallenge_Submission_Form_V05.pdf%22&response-content-type=application%2Fpdf&AWSAccessKeyId=AKIAJC6CRYNXDRDHQCUQ&Expires=1536551761&Signature=nv1KRS%2FFGd9KhU6AOz59Q2C5EN4%3D|Here]]
+
+What we have so far is the [[groups:healthcare:donor_milk_transparency_and_traceability|Donor Milk Transparency and Traceability]] business case (which needs updating) and all of the notes from our meetings [[groups:healthcare:healthcare-wg|Healthcare Working Group]]
+
+Below are the questions that we need to respond to with answers so far. Feel free to edit and collaborate. Also, each response can only be 150 characters, so answers have to be concise. 
+
+**1. Innovativeness – How innovative is this solution versus similar / existing solutions?**
+
+The solution represents innovation in end-to-end supply-chain transparency and traceability at two levels : within human milk distribution networks, and within the IT systems used for managing related transactions and protected health information.\\
+
+Safeguarding integrity and eliminating tampering at both levels represents a key precondition for investment in scaling-out human milk banking networks more broadly, an urgent priority given strong demand and proven health benefits. No known similar or existing technical solutions are in use within the Asia-Pacific region at present.\\
+
+Distributed Ledger Technology (DLT) or Blockchain represents a better implementation choice for health IT infrastructure within today's rapidly evolving public-private multi-stakeholder health systems, especially in environments of weak trust resulting from high prevalence of health illiteracy, administrative corruption, and unqualified and unlicensed practitioners; rampant fraud and abuse in clinical settings; weak regulatory enforcement capabilities; widespread tampering and adulteration within healthcare supply-chains; and health systems plagued by repeated public scandals.
+
+
+**2. Impact – What significant or substantial benefit would the concept, product or service deliver?**
+
+Preterm birth, a leading cause of childhood mortality, affects 15M babies annually, with 1.1M deaths. The Asia-Pacific region has a disproportionately high incidence of preterm birth and low survival rates, even though three-quarters of deaths are easily preventable. Feeding human milk to preterm, low birthweight infants is a proven intervention, but critical supply shortages exist and distribution networks are weak or nonexistent.\\
+
+Emergence of informal exchanges and grey markets due to the absence of well-regulated services compromises patient safety and risks exploitation of vulnerable women. Adulteration and contamination with pathogens, toxins and drugs is a major concern. Human milk poses biosafety and biosecurity risks to public health, and requires safe collection, handling and distribution, as with human blood supply and tissue banks.\\
+
+The solution strengthens capacity to meet growing demand for a safe, reliable and cost effective supply of human milk, with end-to-end transparency, traceability and integrity of transactional records spanning multiple stakeholders from donor to recipient.
+
+
+**3. Effectiveness – Effectiveness of innovation in delivering its function**
+
+The solution is currently under development and pending field testing. We are actively engaging clinician and milk bank subject matter experts in defining and validating requirements in order to assure effectiveness.\\
+
+The solution offers a unique opportunity to expand the limited scientific evidence base and lack of effectiveness research within the breast milk research ecosystem, thus forestalling unregulated commercialization and marketing of services and milk-derivative products.\\
+
+The solution promises to enhance capacity to undertake structured investigation into alternative protocols for screening, handling, treatment and processing of human milk, and the resulting impact on biologically active constituents. Likewise, it should improve research capabilities into differential impacts of multi-armed clinical intervention protocols and alternative product formulations on treatment outcomes across diverse population groups.\\
+
+Proving effectiveness will require well-designed, randomized, double-blinded interventional trials, for which the solution is expected to provide significantly enhanced management capacity.
+
+
+
+**4. Market Viability – Is there a foreseeable market for demand for the innovation?**
+
+The target market for this network-centric solution consists of multiple stakeholders, including public and private health facilities delivering perinatal and postnatal services, a well-defined and rapidly growing market. Milk banks and networks are only just emerging globally, and the solution offers a support infrastructure to accelerate their safe development.\\
+
+Brazil's long-standing success with integrating milk banking into its healthcare system provides market validation and a model suitable for broader replication. *why Brazil’s system isn’t exactly what we’re going for - centralized v decentralized *\\
+
+Although initially targeted narrowly to NICU settings, the solution potentially addresses a much larger market for early childhood nutrition, given growing evidence that human milk is superior to infant formula, combined with persistent challenges with changing attitudes and behavior toward breastfeeding.
+
+
+**5. User’s Health Improvement – How much would the innovation improve the user’s health?**
+
+Research shows that breast milk has a positive impact on childhood survival and development. Not only does breast milk protect against some common childhood diseases, there are indications that it also protects against certain allergies, asthma, obesity and other chronic conditions that require a lot of medical attention in adulthood.\\
+
+In addition breast milk is a life or death choice for some babies. Rates of Sudden Infant Death Syndrome is lower in breast milk fed babies and for some premature babies, formula can cause irreparable damage to the intestines which can lead to death.\\
+
+We know that supply is lower than demand, which indicates that the protective factors of breast milk are in need. This innovation strives to bring visibility to the supply chain, engage more donors, and thereby increase the access to infants.\\
+
+*extrapolate US numbers for Asia population - areas are inaccessible - multiply by 10 divide by 2 - high rate of child birth outside any kind of health care facility - adapt to different context, geared toward community health centers - health care supply chains are different, less well developed - major investment occurring now 
+
+
+https://www.chla.org/necrotizing-enterocolitis
+https://www.nichd.nih.gov/health/topics/breastfeeding/conditioninfo/benefits
+
+
+
+**6. Improvement to Healthcare Outcomes – How would the innovation improve care outcomes and healthcare delivery?**
+
+From the perspective of the infant, better care outcomes coincide with an increase in supply and accessibility to breast milk, which this innovation aims to provide.  \\
+
+From a service delivery system perspective, the aim of this innovation is to drive efficiencies and improvements among various stakeholders including hospitals, donor banks, donors, insurance companies, and mothers to name a few.  \\
+
+Blockchain can enable several exchanges and efficiencies that are missing today. From facilitating the currently arduous contract process between donor banks and hospitals, to giving hospitals visibility on supply of breast milk from the full ecosystem, to giving donor banks a feedback loop to understand where the milk goes and how it is used and beyond. All of these improvements will reduce friction in the process, make it more scalable, and ultimately creating a healthier and more efficient system.\\
+
+*Votis Konstantinos from CERTH/ITI: Don;t we need to emphasize the added value of blockchain especially for creating a shared, unalterable ledger to keep an audit trail of all transactions across trusted partners (ensuring privacy and maintaining data integrity?) Also what about the dynamic consent process among all users (donors,..etc.).\\
+
+*Improving compliance with regulatory policies, help entities to develop standards and network participant policies, preserve integrity of contracting records, demonstration compliance. Visualize and implement standards, milk banks all doing different things. Operating milk bank, limit risk exposure, civil or criminal liability
+
+
+**7. Short and Long Term Benefits – Can the innovation provide both short and long term benefits to the user?**
+
+Even though the American Academy of Pediatrics recommends donated breast milk rather than formula be used for preterm infants, due to the relatively high cost and limited supply, donated breast milk is reserved for the smallest and most medically fragile babies and many infants are left with formula or informal avenues.\\
+  
+For babies that have the opportunity of donor milk, immediate nutritional needs are met along with prevention of ailments mentioned previously.  Long-term, these infants have a better chance of survival, improved quality of life and protection against major chronic health conditions that are heavily weighing on many healthcare systems around the world.\\
+  
+This innovation will bring these opportunities to a larger infant population. If we can address the shortages for this population, we can think beyond to other vulnerable patients, such as people undergoing chemotherapy, where short and long term benefits will expand.
+
+*this answer changes depending on who the user is defined as
+
+
+**8. Financial Impact – Cost effectiveness and foreseeable Return on Investment**
+
+Asia-Pacific nations are undertaking major health sector investments to meet the U.N. 2030 sustainable development goals, and improving maternal and child health represents a proven, highly-effective strategy to improving population health, workforce productivity and economic growth.\\
+
+The solution offers a compelling investment case through financial benefits for multiple stakeholders, with positive network effects from broader adoption. It offers a blueprint for accelerating development of milk bank networks through reduced entry barriers, administrative efficiencies and reduced operational costs.\\
+
+Existing research indicates potential for dramatic savings in expensive ICU services. Reducing demand for acute-care facility construction would enable resource reallocation to more cost-effective preventive and primary healthcare.\\
+
+By safeguarding information integrity, the solution tackles the widespread corruption, fraud and abuse in clinical practice across the region, which severely damages trust, compromises quality of service delivery and health outcomes, and discourages new investment.\\
+
+*difficult to quantify
+*infrastructure that could be tapped into, markets are so rudimentary 
+*could be integrated into an ensemble infrastructure - component of broader network or platform
+
+
+
+**9. Non-Finance Impact and additional comments – Additional benefits that might not be included in the questions above**
+
+The solution offers a prototypical, network-centric architecture for distributed, multi-stakeholder healthcare systems, with extensibility across additional supply-chains for vaccines, pharmaceuticals, and devices, as well as offering a model that is adaptable to agrifood and other markets more broadly.\\
+
+Planners preparing 2030 roadmaps benefit from having an entry point for development of integrated, lifespan-oriented healthcare and nutritional services and markets, with enhanced capabilities to conduct longitudinal effectiveness research spanning program services targeted to birth cohorts.\\
+
+The solution should build systemic resiliency against growing prevalence of climate-related crises and related social conflicts, which disproportionately causes hunger and malnutrition within vulnerable populations such as pregnant women and infants. This actually improves the healthcare outcomes and avoids the vicious cycle of stunted human and economic development.\\
+
+In substituting breast milk for infant formula, the solution should reduce demand on dairy production, which has an unsustainably high resource footprint and is a major source of carbon and methane emissions.\\
+
+*quality control process and safety standardization - ways in which milk is handled may affect biological components of the milk 

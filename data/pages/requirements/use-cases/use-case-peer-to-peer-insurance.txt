@@ -1,0 +1,96 @@
+====== Use Case Peer-to-Peer Insurance ======
+
+===== Section 1 - Intro =====
+
+==== Overview of the Business Problem or Opportunity ====
+
+The aim of peer-to-peer insurance concepts is to make insurance cheaper. For this purpose, a certain number of policyholders pool together. In the event of any claim they support each other financially. If there is no claim, the insurance premiums are reduced.
+
+There are many types of peer-to-peer insurance. This article describes peer-to-peer insurance in the form of the creation of insurance brokers (as opposed to insurance companies). In this model, insurance policyholders will form small groups online. A part of the insurance premiums paid flow into a group fund, the other part to the insurer. Minor damages to the insured policyholder are firstly paid out of this group fund. For claims above the deductible limit the regular insurer is called upon. When there is no insurance claim, the policyholder gets his/her share refunded from the group pool or credited towards the next policy year. If the group pool happens to be empty, a special insurance comes into force.
+
+https://en.wikipedia.org/wiki/Peer-to-peer_insurance
+
+  * Groups of people would like to insure themselves against risks not commonly insured such as ones in sports, travel, farming, small business.
+  * The insured would like to simplify and automate the process of claiming and getting paid, especially when the insurance event is a matter of public record such as a delayed flight or a weather condition.
+  * Insurance companies would like to find new revenue streams covering _long tail_ risks but not take the burden of processing small claims.
+
+=== Optimization of Insurance Premium ===
+
+In an ideal situation the sum of all premiums paid to the p2p insurance pool should equal the sum of all claim payouts. However, the number of claims is initially unknown and varies from year to year. A simple optimization mechanism can be employed where the premium is adjusted every year depending on the sum of payouts the previous year. If there's not enough money in the pool to pay for all claims the pool's insurer steps in and covers the difference.
+  * if there's money left in the pool at the end of the year
+    * the premium for the next year is reduced by a fraction of the remainder
+    * the remainder is divided and paid back to the members
+  * if claim payouts exceed the money in the pool
+    * the premium for the next year is increased by a fraction of the difference between payouts and premiums
+    * the pool's insurer pays the coverage amounts of the claims not paid by the pool
+
+==== Current Solution ====
+
+Peer-to-peer insurance pools exist today but are yet to gain popularity. They are implemented as centralized solutions and suffer from lack of trust from consumers. Decisions to pay out a claim, calculate premium, refund members are opaque and entrusted to software owned by some little known company.
+
+==== Why Distributed Ledger technology? ====
+
+An opportunity exists to replace centralized insurance pools with a distributed and fully transparent solution on a blockchain. 
+
+  * Permissioned Blockchain
+    * immutable ledger
+    * very low cost of deployment and maintenance
+    * fully transparent to instill trust in consumers
+    * identity obfuscated to other members
+
+  * Smart contract
+    * software executed on the blockchain trusted to change records in the ledger
+    * automate payouts thru integration with systems of public record and payment
+    * members execute smart contract functions based on their roles
+
+===== Section 1 - Requirements =====
+
+==== General Requirements ====
+
+**Transparency and immutability of code** - allow any member to inspect the code governing his insurance pool.
+  * User Story: a prospective member of the p2p insurance inspects the code to make a decision to trust it. He needs to be sure the pool operates fairly and he will get paid when his claim is reported. He also needs an assurance the code once trusted will not change without his approval.
+
+**Integration with systems of public record** - allow trusted sources of information to automatically approve insurance claims.
+  * User Story: a public weather service reports no wind. Organizers of a yacht regatta insured themselves against this condition; their claim is processed automatically and they get paid right away to spend on a champaign and lobster lunch for sailors onshore.  
+  * User Story: a flight tracking service reports a delayed flight. A traveller insured himself against this condition; his claim gets processed automatically and he spends the payout on a night in a hotel.  
+
+**Integration with devices** - allow internet connected devices to report insurance events to automatically approve claims
+  * User Story: a small crops farmer plants an internet connected moisture sensor, one per acre of his land. When the sensor reports low levels for 30 consecutive days a drought condition is triggered and the farmer gets paid automatically.
+  * User Story: a hotelier in a developing country insured himself against a power blackout. When a smart electricity meter reports an outage the hotelier gets paid right away to spend on diesel for the hotel's generator to provide uninterrupted power for his guests.
+
+**Role based participation** - allow users of different roles to trigger different events in the insurance pool.
+  * Automation of claims - allow trusted third parties to automatically approve insurance claims.  
+  * User Story: an insurance pool is organized by an association of amateur divers. The members elect their // dive masters // to act as claims processors. In case of a diving accident the masters report the incident to the system and the claim is processed automatically and the member is paid out instantly.
+  * Reinsurance by insurance companies - allow insurance companies to act as // reinsurers // of the pool: insure risks that the sum of payouts exceeds current amount in the pool.  
+  * User Story: an insurance company would like to insure long tail risks but doesn't want to process small claims. The insurance company enters the pool in the role of a // reinsurer //, dealing only with large claims originating from catastrophic events which risks are easier to calculate.
+
+**Modularity of code** - allow to update parts of the code governing the insurance pool.
+
+  * User Story: an actuarian would like to propose a model that calculates premium better than a naive yearly optimization. The general code governing the insurance pool does not change but only a part of it that calculates the premium is updated.
+
+**TBD: Automation of payouts and Conversion to fiat money**
+
+Users can pay for the insurance and get compensated via various mechanisms each having its pros and cons:
+  * **coins**: tokens unique for this blockchain. Coins move between accounts representing payments. When users register in the system they convert fiat money to coins via a payment system such as credit card, bank transfer or PayPal. They can also withdraw: convert their coins back to fiat money.
+    * // pros // easy to implement
+    * // cons // for deposit and withdrawal the pool requires an account with a payment system and thus needs an operator registered as a legal entity
+  * **cryptocurrency**: the smart contract can invoke gateways to popular cryptocurrency chains such as Bitcoin or Ethereum. These calls can be made within the same transaction and don't involve payment systems.
+    * // pros // does not require a pool operator as a legal entity with a bank account
+    * // cons // users may not have accounts in cryptocurrencies
+  * **payment oracle**: fiat money is transferred outside of the blockchain by payment systems such as ACH for bank transfers, Stripe for credit cards or PayPal. Clients of these systems are trusted by the users and inform the blockchain of fiat money transferred between users' accounts.
+    * // pros // little friction with familiar payments: users provide their credit cards or bank accounts or PayPal
+    * // cons // requires an account with a payment system and thus needs an operator registered as a legal entity
+
+**Voting mechanism** - allow members to vote on decisions governing the pool based on their roles
+  * User Story: at the end of the year there's unpaid money left in the pool. Members would like to vote on whether to refund the money or apply to the next year's premium.
+  * User Story: members permissioned to verify claims should be able to vote to approve a claim: a sports instructor and a more experienced one within the same association but perhaps in a separate division to eliminate bias.
+
+**Timing mechanism** - allow actions in the pool based on time
+  * User Story: a smart contract is triggered monthly to process payments of premium; triggered yearly to adjust premium amounts and refund members.
+
+==== Privacy Requirements ====
+
+**Pseudonymity of members** - hide members' true identity at the same time preserving traceability
+  * User Story: in some cases members would like to keep their insurance events private. However the pool needs to track the events to calculate risk per user properly.
+
+**TBD: Visibility of smart contract code and ledger data**

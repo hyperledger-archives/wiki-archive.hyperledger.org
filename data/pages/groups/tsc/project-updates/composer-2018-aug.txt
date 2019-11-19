@@ -1,0 +1,59 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Composer
+
+===== Project Health =====
+We have been delivering regular releases of new features and bug fixes to the community. The community are regularly opening bugs in our GitHub repository, and if high priority, then they have been turned around quickly. We are also receiving and answering a significant number of questions on both Rocket.Chat and Stack Overflow. We are continuing to see an uptick in new contributors to the project, however contributions are mostly limited to documentation updates at this time.
+
+Please see the announcement from IBM regarding their future contribution plans below.
+
+===== Issues =====
+There are no issues at this time.
+
+
+===== Releases =====
+We have been delivering regular releases of new features and bug fixes to the community. The information about each release is available in GitHub in the release notes:
+https://github.com/hyperledger/composer/releases
+
+
+===== Overall Activity in the Past Quarter =====
+We see very little activity on the project mailing lists. We see significant amounts of activity on Rocket.Chat, Stack Overflow, and GitHub issues. In IBM, we have two team members dedicated to providing assistance to end users on Rocket.Chat and Stack Overflow (Paul O'Mahoney and Rob Thatcher) and they regularly and quickly answer all questions. We are continuing to see other people in the community regularly answer questions as well, which is a good step forwards. The current contributors are also good at responding to comments GitHub issues in a timely manner.
+
+We have delivered a major release in the last three months, Composer v0.20.0. This release has a small set of new features since v0.19.0, but does include support for deploying Composer business networks and applications that work against Fabric v1.2. The new features are:
+
+  * The ability to generate a LoopBack application project using the Yeoman generator. This provides a fully customizable (via code) REST server, instead of the precanned Composer REST server which offers limited customization (but ease of use).
+  * The ability to return data from a transaction processor function.
+  * The ability to mark a transaction processor function as "do not commit". This is useful for writing custom queries using code, using the whole of the Composer and Fabric API.
+
+===== Current Plans =====
+IBM has announced via the mailing lists that they are reducing their investment in the Composer project at this time to focus on the development of Fabric. For more information, please see the following post to the mailing list: https://lists.hyperledger.org/g/composer/message/125
+
+At this time, we are not aware of any plans, other than to incorporate Fabric v1.3 when it is released, and fix any high priority bugs that may be found.
+
+
+===== Maintainer Diversity =====
+No new maintainers since the last project update. The current set of maintainers are:
+
+  * Caroline Church, IBM
+  * Daniel Selman, Clause
+  * Simon Stone, IBM
+
+===== Contributor Diversity =====
+Contributions have been received from the following organisations in the 3 months since the last update:
+
+  * IBM (numerous)
+  * Clause (dselman, mttrbrts)
+  * AID:Tech (nicolapaoli)
+  * Indian Institute of Technology (rohitx007)
+  * Stanford University (Josh-Payne)
+  * Centrale Supelec (simonghrt)
+  * Avanade (mitchstewart)
+  * Manifest Life Inc (manifestlifeinc)
+  * Hyperledger (ryjones)
+  * Unknown (AlexWil, zachgoll, bjrnt, peara)
+
+===== Additional Information =====
+//**Optional** Please provide any additional information that you feel would be useful for TSC to be aware.//
+
+ 

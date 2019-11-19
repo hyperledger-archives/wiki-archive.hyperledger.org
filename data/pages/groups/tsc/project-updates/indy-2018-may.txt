@@ -1,0 +1,106 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Indy https://github.com/hyperledger/indy-node
+
+===== Project Health =====
+One year after being accepted into Hyperledger, Indy has earned significant interest and developer support. Community contribution continues to grow, with well over 1,000 commits on the project, and several hundred members of the mailing list and chat channels. The project has not yet completed all the incubation tasks needed for general availability, but the stability of deployed instances of the project has improved significantly. The team is pushing toward a feature complete state for General Availability.
+
+Q1-2018 saw a number of community members get involved with improving the developer experience by contributing and updating documentation. As a result of this, and other efforts, the Indy project saw increased developer interest globally (US, Canada, Finland, Netherlands, UK). Indy hopes to have a strong showing at the Hyperledger Hackfest in Amsterdam in June 2018.
+
+In addition, more organizations are making ongoing contributions. This is shown by the shared [[projects:indy:roadmap|Running Roadmap for Hyperledger Indy]].
+
+
+
+===== Issues =====
+
+As the project has grown, we must develop new processes that:
+  * meet the needs of a diverse set of contributors,
+  * ensure quality releases for downstream users,
+  * Imposes the minimum burden possible on participants.
+
+Specific examples include: how we manage a shared backlog, how we coordinate development, how we onboard new contributors, and how we assist new consumers in using our products. There have been recent examples of independent contributors working on the same areas in ways that duplicate effort and produce incompatible results. Similarly, as multiple contributors have shared documentation, the results are scattered, difficult to navigate, and have important gaps.
+
+We are working to address these challenges by:
+  * creating a shared roadmap (see above)
+  * establishing procedures for multiple teams to hold independent sprints in the Indy project of Hyperledger Jira (see our request to enable concurrent sprints),
+  * improving guidelines for documentation (in progress),
+and holding coordination calls between maintainers from different organizations (every other Monday).
+
+
+===== Releases =====
+  * April 2018: Indy Node 1.3
+  * May 2018: Indy SDK 1.4
+
+===== Overall Activity in the Past Quarter =====
+General
+  * CI / CD improvements
+  * Weekly Working Group calls
+  * Consistent mailing list activity
+  * Improved documentation for developers consuming the projects: howtos and guides
+
+Indy Node (Ledger)
+  * Revocation
+  * Stability Improvements
+  * Scalability Testing
+  * Monitoring Improvements: Query Pool State, and Logging
+
+Indy SDK
+  * Indy CLI
+  * Revocation
+
+
+===== Current Plans =====
+General: 
+  * Achieve milestones necessary to exit incubation
+  * The documentation for consumers of Indy will migrate to ReadTheDocs.io
+  * Consolidation of documentation for onboarding contributors.
+  * Measure community growth
+
+Indy Node (Ledger): 
+  * More stability improvements
+  * Performance benchmarking
+  * Debugging tools: capture and replay node state
+  * Improved logging
+  * Refactoring of View Change implementation to include a state machine
+
+Indy SDK:
+  * CI / CD improvements
+  * Move Indy Crypto to a cross-Hyperledger “Shared Crypto Library”
+  * Pluggable payment interface
+  * Revised encryption format
+  * Scalability fixes
+  * Adding features to the wallet implementation
+  * Include a default agent implementation
+
+===== Maintainer Diversity =====
+Existing maintainers remain active, with increased involvement in developer calls and public discussions. Indy has started a bi-weekly Indy Maintainers Circle call where Maintainers will coordinate work and discuss critical issues to the Indy codebase. We have started discussions with contributors who might be willing to accept the responsibilities of maintaining part of the codebase on an ongoing basis.
+
+===== Contributor Diversity =====
+New releases, an updated [[https://github.com/hyperledger/indy-sdk/blob/master/doc/getting-started/getting-started.md | Getting Started Guide]], and new [[https://github.com/hyperledger/indy-sdk/tree/master/doc/how-tos | How-to’s]] has increased participation in community discussions and the number of developers using and contributing to the project. Indy is seeing steady growth in weekly Working Group meeting presenters and attendees. The new Indy Community Roadmap (see link above) includes transparency and coordination between teams working on / with Indy (currently includes Evernym, BYU OIT, BC.gov, WIPRO).
+
+**POCs, Pilots, Projects**
+
+Sovrin DLT \\
+http://www.sovrin.org  \\
+Sovrin is the first instantiation of the Indy codebase and is currently in the provisional network phase of development.
+
+Verifiable Organizations Network \\
+https://von.pathfinder.gov.bc.ca \\
+The Province of British Columbia, the Government of Ontario, and Public Services and Procurement Canada are building open components to enable a trusted digital network of verifiable data about organizations which is globally connected, interoperable, secure, and easy to join.
+
+Brigham Young University \\
+https://www.byu.edu/ \\
+The University is building an agent to manage student credentials throughout their experience at the university.
+
+Evernym \\
+https://www.evernym.com/ \\
+Evernym is creating applications that will make it easy for organizations and users to issue, hold, and verify credentials through the Sovrin network.
+
+===== Additional Information =====
+
+Optional Please provide any additional information that you feel would be useful for TSC to be aware.
+Join the Indy Mailing List: https://lists.hyperledger.org/g/indy
+Join the Indy Working Group Calls: every Thursday 8am PT, 9am MT, 11am ET, 4pm BST. Join from PC, Mac, Linux, iOS or Android: https://zoom.us/j/232861185
+
+ 

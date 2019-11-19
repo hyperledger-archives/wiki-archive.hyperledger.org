@@ -1,0 +1,17 @@
+
+====== Q1 2019 Burrow Roadmap ======
+//**Author: Silas Davis, 26 November 2018**//
+
+Mostly work geared towards making Burrow operate as a public/semi-public upgradeable side-chain.
+
+===== Roadmap =====
+^ Work item ^ Effort (1, 2, 3, 5, 8, 13) ^ Priority  ^
+| Dump/restore of EVM account state, NameReg, and Blocks | 13 | High |
+| ForkTx - based on dump/restore and proposal mechanism | 8 | High |
+| [[https://github.com/hyperledger/burrow/blob/488b3930a2db34637322446465c6dad125ccdb0f/docs/BIPS/draft/bip-2_identify-tx.md|IdentifyTx]]- establish voluntary node-to-validator-to-bondee linkage | 2 | Low |
+|Proposal integration tests| 5 | Medium |
+|Whitelist peer sync | 3 | Low |
+|NameReg extension to support authenticated namespaces (including design) | 13 | Medium |
+|Burrow-side ABI registry mechanism (probably based on above) | 8 | Low |
+|Implement basic soak testing on specialised test network | 8 | Medium |
+|Prototype 'new train' [[https://github.com/go-interpreter/wagon|WASM execution]]| 13 | Low |

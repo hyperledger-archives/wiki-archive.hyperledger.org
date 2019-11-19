@@ -1,0 +1,79 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Iroha [[https://github.com/hyperledger/iroha]] — a distributed ledger technology platform, written in C++.
+
+===== Project Health =====
+Iroha's first beta release has been published 30th of March on GitHub release page. Since alpha release, the most notable changes in Iroha are:
+    - the range of client libraries available for building applications around Iroha peer network
+    - documentation, available in Japanese and Engish, with some multilanguage versions coming as new contributors translate it
+    - improved Ansible deployment
+    - performance improvements and stability 
+    - Integration Test Framework (and more integration tests)
+
+In next release at the end of this month (which is beta-2), following changes are expected:
+    - improved stability in following: peer synchronisation, NodeJS library, gRPC streaming API, Ordering Service
+    - API endpoints with optional fields for GetAccountDetail
+    - tx_counter is deleted — and a hash of transaction is used to prevent replay attacks
+    - fixed security bugs, revealed by security audit process in Hyperledger  
+    
+Questions of the community are actively answered in GitHub issues, mailing lists, Telegram and Gitter.im groups. With the introduction of Sorabot, which is a chat bot redirecting messages between Gitter and telegram, the job of maintainers assigned to community-related duties became easier.
+
+===== Issues =====
+
+Jira release management is not used effectively, and we are going to check how we can use it so that more contributors are aware of release plans and release contents.
+
+Also, current CI pipeline is not fast enough, since memory consumption during builds and tests execution time are high.
+
+===== Releases =====
+We have released first beta version since the last report in January. Next version to ship is beta-2, with subsequent beta versions until release candidate, which is expected in Q3. As usual, all the releases are posted on GitHub release page of Hyperledger Iroha [[https://github.com/hyperledger/iroha/releases]].
+
+Our release process has changed and now we ship new releases each month. 
+
+===== Overall Activity in the Past Quarter =====
+
+Development was targeted at client libraries, stability improvements, integration with Huawei Caliper, improvements of peer network deployment. 
+
+===== Current Plans =====
+
+Before Release Candidate version, following changes are expected:
+
+=== Features === 
+
+1. Batch of transactions & atomic assets swap [[https://soramitsu.atlassian.net/wiki/spaces/IS/pages/378929159/POW+N+066+Batch+of+transactions]]
+
+2. Block retrieval interfaces [[https://soramitsu.atlassian.net/wiki/spaces/IS/pages/378699777/POW+N+065+%7C+GetBlocks]] 
+
+=== Stability ===
+
+1. Multi-signature transaction pipeline.
+At the moment, a feature toggle is turned off and can be turned on manually, in canary releases, or a Remaining effort is an extensive acceptance testing, with more negative test cases. 
+
+2. BFT Ordering Service, based on leader election algorithm and peer signature verification. Right now, this is by far the biggest impediment to go into release state, but a design of technical solution is expected to appear during this month; and the implementation is expected to be finished by June.
+
+=== Security === 
+
+1. Recently, the team has also discovered transport layer issues — as reasonable limitations for messages size are missing.
+
+2. Currently, the system is exposed to query replay attacks. There are several design decisions, but the priority is going to be given to any easiest fix to go into release candidate state earlier. 
+
+=== Performance goals ===
+
+1. Optimize transactions pipeline up to 1000 tx per second, measured by Huawei Caliper tool.
+
+2. Lower build time and test execution time to 7-10 minutes on the average machine configuration. 
+
+
+Overall, we plan to deliver Ordering Service and feature changes first, continue with security issues and MST, finish with improvements of build and transactions pipeline performance.
+
+We will continue to release each month, with a release candidate expected to be shipped in Q3 2018. 
+
+===== Maintainer Diversity =====
+
+Maintainers diversity has not changed, yet the file with maintainers in GitHub repo was updated with actual data. 
+
+===== Contributor Diversity =====
+
+We have seen a contribution in the last quarter mostly from individuals. They have contributed to the code, following good-first-issue issues in GitHub, translated documentation in POEditor [[https://poeditor.com/projects/view?id=171155]] project of Iroha, wrote tutorials [[https://www.srcmake.com/home/iroha-tutorial]], improved iOS client libraries, and helped to discover stability issues via Gitter, telegram, and other channels. Meetings with contributors are conducted on-demand when there is a clear misunderstanding of API in the system or major codebase changes.
+
+We also expect a boost of diversity after Hyperledger Iroha release candidate is released, since now some aspects of stability and performance state remain to be unsatisfactory for our potential users and contributors. 

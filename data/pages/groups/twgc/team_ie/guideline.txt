@@ -1,0 +1,37 @@
+======= 超级账本中国社区国际化贡献指南 =======
+
+**版本：2018-09-11**
+
+本指南希望为参与到中国社区国际化贡献的志愿者提供规范的参考。请认真阅读此指导性文档，保证文档的统一性。
+
+=====翻译内容=====
+====hyperledger fabric英文文档====
+  * 中文readthedocs地址：[[https://hyperledger-fabric-cn.readthedocs.io/zh/latest/|最新版本(1.2.0)]]，或者参考[[https://fabric-docs-i18n.readthedocs.io/zh/fabric-1.1.0_zh-cn/ | 1.1.0版本]]。建议采用最新版本
+  * 英文源文档位置：[[https://hyperledger-fabric.readthedocs.io/en/latest/|这里]]
+  * 文档源码位置：[[https://github.com/hyperledger-labs/fabric-docs-cn | 1.2.0版本]]，或者旧版：[[https://github.com/HyperledgerCN/fabric-docs-i18n | 1.1.0版本]]
+  * 翻译要求：翻译前请仔细阅读[[groups/twgc/fabric-doc/glossary.md|术语表]]。按照文档语句逐字逐句采用“正翻”的方式，且不可出现自由发挥。确保翻译的严谨性，但是为了保证语义通顺，请合理地调整语序，我们知道英文的语言习惯和中文是不一样的。翻译结果请保留双语模式，保留原文和中文，这样方便后期阅读者对照理解，我们也希望译文质量在后期能有不断的提高，所以我们希望原文能直接保留下来。
+  * 文档页面布局：请对应英文文档，保持布局一致性
+====文档翻译格式要求====
+  * 请参照：[[https://hyperledger-fabric.readthedocs.io/en/latest/ | 模版]]，翻译时保持原文的格式字符不变即可。
+  * 头部：待定
+
+=====操作指南=====
+
+  - 操作说明文档{{:groups:twgc:team_ie:fabric1.2翻译指南.docx|}}，另外，1.1.0版本的操作文档：{{:groups:twgc:team_ie:如何参与hyperledger中文翻译工作.pdf|}}，建议直接翻译1.2的文档。
+  - 首先登陆GitHub到[[https://github.com/hyperledger-labs/fabric-docs-cn | 文档仓库]][[https://github.com/hyperledger-labs/fabric-docs-cn/projects/1|GitHub Project]]认领issue，如果没有可以自行创建issue。
+  - 接上条，issue的命名，建议按照英文原版的导航路径命名的，如果参考正在翻译的中文页面，则可能出现导航路径只有中文，看不到对应英文的路径，难以定位issue所指的内容，所以，建议根据英文文档和中文文档对照，寻找需要被认领的issue。认领之后请把issue从可领取栏目转移到进行中的栏目。目前该项目关注度不高，具体issue形式可以参考1.1.0版本，参考项目位置在此处：[[https://github.com/HyperledgerCN/fabric-docs-i18n/projects/2| Fabric 1.1.0 doc Translation GitHub Project]]
+  - 认领之后翻译对应的内容，注意**__建议issue title将内容按章节划分，而不是每个issue对应整篇文档，只需要把title所指定的章节翻译完毕就完成了issue__**，这样做的目的是为了降低翻译一次的周期，降低门槛，增加参与度。
+  - 到[[https://hyperledger-fabric-cn.readthedocs.io/zh/latest/ | 中文文档]]页面查看效果，如果没有实时更新，请联系国际化工作小组的人员。
+  - 在本指南贡献列表处留下联系方式，姓名，GitHub ID，邮箱
+=====联系人员=====
+fabric-1.2.0文档翻译志愿者及组织协调者，留下联系方式，GitHub commit log可见的userID
+
+^ Name  ^ Organization  ^ Email                        ^ GitHub ID   ^ LFID       ^
+| 郭立冬   | 智链ChainNova   | guolidong@chainnova.com      | JulienGuo   | guolidong  |
+| 卢江    | IBM           | sallymi_82@126.com           | sallymi     | sallymilu  |
+| 周雪庭   | Oracle        | sue.xt.zhou@icloud.com       | xtzhou      | xtzhou     |
+| 卢伟    | IBM           | luweilw@cn.ibm.com           | wadelu      | Wadelu     |
+| 章辉华   | CargoSmart    | antony.zhang@cargosmart.com  | fifahuihua  |            |
+| 林子君   | 湖南大学HNU    | zinnianlynn@gmail.com  | Zinnian  |            |
+| 耿中辉   |  YUNKC         | figo050518@outlook.com  | figo050518  |            |
+

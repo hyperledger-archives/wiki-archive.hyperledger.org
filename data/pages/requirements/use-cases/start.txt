@@ -1,0 +1,196 @@
+//This is an on-going work on the Requirements Working Group//
+
+====== Use Case for Supply Chain Requirements ======
+
+===== Section 1 - Introduction ===== 
+
+=== Overview of the Business Problem or Opportunity ===
+
+Modern supply chain businesses such as manufacturing are under customer, financial, quality and product innovation pressures to change from forecast driven to demand driven manufacturing. 
+
+Traditionally inventories were stocked based on reorder-points or forecasts to buffer bull-whip effects, now because supply chains are often extended supply chains, outsourced, off-shored or geographically distributed, and can be volatile. Creating the need for new technologies to manage multi-echelon inventories.
+
+Demand driven ensures that you are only manufacturing and procuring Relevant Materials (those required, not forecast) by flowing Relevant Information (actual requirements) through the Supply Chain. Signalling requirements for relevant materials shifts the inventory holding from Too Much of what is not required (excess) and Too Little of what is required (shortages), to consistently holding optimal inventory levels for those parts that are required. This then releases significant capacity within the Supply Chain to only manufacturing and supplying relevant materials, serving customers, facilitating finance, quality and product innovation ramps.     
+
+===== Section 2 - Current Solution ===== 
+
+Systems in place are rooted back to the 1970’s MRP (material requirements planning) bill-of-materials (BOM) processor written at IBM on a central database. Today even brand new core ERP (enterprise resource planning) systems purchased from top tier vendors are still fundamentally based on traditional MRP. Today now the central database is effectively a distributed system from where supply chain inventory is sourced or manufactured. The traditional MRP algorithm written in the 1970s is still at work trying to automate planning inside the four-walls of a traditional factory generally in disconnected central database, not the way businesses work with extended supply chains today. 
+
+Customers from Airbus to tens of thousands of SMEs (small-to to-midsized enterprises) now supplement MRP with ad-hoc analytics ranging from Excel spreadsheets to very sophisticated supply chain management software to deal with incomplete information and IT complexity. 
+
+Perpetual inventory shortages are often a reason for business failures. Larger industries such as automotive with model year builds and marketing to generate demand (still) use traditional EDI to message supply chain deliveries and message ASN (advanced shipment notices). 
+
+Smaller firms without driven by custom order driven bills-of-material struggle to operate demand driven manufacturing without a steady drumbeat of repetitive demand. 
+
+Consumer demand driven firms often focuses on design and outsource manufacturing resulting in extended supply chains. Apple's iPhone is know to use offshore contract manufacturing. Similarly small to mid-sized firms such as GoPro or Fitbit also focus on design and similarly outsource manufacturing, but without Apple's brand and marketing have run into difficulties operating and ramping extended supply chains (reports November FT.com)
+
+Generally supply chains are not integrated outside the four-walls of MRP causing uncertainty of supply and inability to react to demand changes. E-commerce businesses such as Amazon solve by creating their own demand and build warehouses to position inventories. Automotive and very large retailers also integrate supply chains. Smaller SMEs (even quite large divisions of top tier companies) generally do not have integrated systems and struggle greatly to manage demand driven businesses putting great stress on people to expedite and business risks stocking the wrong inventories.  
+
+
+===== Section 3 - Why Distributed Ledger Technology? =====
+
+Customer delivery schedules change, shortages can quickly crop up because external supply chains often use shared critical resources. The ability to allocate distributed inventory removes uncertainty in demand driven manufacturing. 
+
+
+At the heart of sophisticated MRP is inventory allocations (and deallocations) tied to specific order bills (orders exploded through multi-level bills-of-material netted off against inventories). Often contacts by way of blanket purchase orders are placed on suppliers systems. Distributed ledgers can allow these purchase orders to be automated by smart contacts to execute business agreements. For example inventories often need to include quality certifications; after inspection of these certifications, smart contracts can execute triggering payment workflows. This is already common in automotive, and high volume repetitive manufactures such as Dell (alas not at the majority of SMEs operating today). 
+
+
+==== Business Process - Opportunity/Justification - MRP Process Hierarchy ====
+
+A customized version of an Airbus A380 may require engines from GE instead of Rolls Royce, if the GE engines are backordered rescheduling the build of A380 is paramount, rather than having a partially built A380 parked waiting for GE engines tying up cash flow and production space (the same easily applies to thousands of smaller components). Uncertainty of supply chain execution is greatly reduced by integration and can benefit significantly by using distributed ledger technologies.   
+
+
+Inventory often needs quality control certifications, this can involve authentication by experts or providing signatures or even notarized documents (special steels, electronics components, or specified expiration dates). After the quality docs are cross checked allocated (or unallocated inventory) is cleared to ship. Combining an inventory transaction with a quality document in smart contract will help streamline paperwork and record keeping and traceability (electronic records keeping is increasing preferred by the FDA, NTSB and others).
+
+
+Larger businesses such as automotive (Ford, GM, Honda and more) have business contracts with suppliers that assume quality, delivery date (and time) is exactly as required, and use the delivery quantity to automatically trigger a payment workflow without a separate accounts payable document matching process. We can expect smart contracts to be used by application designers to streamline supply chain payments.
+
+===== Section 4 - User Stories and Requirements =====
+
+^ User   ^ As a . . .                   ^ Wants to . . .                                                                                                                                                                                                          ^ Because . . .                                                                                                                                                                                                                                                                   ^
+| Bob    | Master production scheduler  | Adjust schedules to respond to demand by knowing supplier inventories are allocated, especially on long lead time and capacity constrained items. Bob wants to push button and  receive analytics on any exceptions.    | Bob can make and break his company or may require a huge bank loan for excess inventory or missed sales and if he screws up.                                                                                                                                                    |
+| Susan  | Purchase order processing    | Wants to authenticate can keep records of supplier performance and certifications of quality and want to authenticate certifications meet industry standards.                                                           | He wants to minimize the risk that suppliers are complying with quality. Easier on long repeat runs (like iPhone), harder on short runs like custom capital equipment (like a Fire engine)                                                                                      |
+| Jose   | Inventory control            | Wants to oversea physical transaction of goods, does not really want to labor at screen receiving goods when GS1 standard bar code label can automate a series of transactions that  kicks off an end to end workflow.  | Bob and Susan deal in information, Jose and his crew have their hands or real inventories, but want paper work minimized to focus on goods not on computer entries. Bob, Susan, Jose all prefer an autonomous business system with analytics and notifications for exceptions.  |
+
+
+==== Business Requirements ====
+
+The following are a set of high-level set of requirements for distributed ledger  
+
+  * Inventory Allocations - Distributed Ledger 
+  * Inventory Transactions - Distributed Ledger
+  * Inventory Certifications - Distributed Ledger 
+
+==== Sub Use Case - Inventory Allocations ====
+
+**The Goal**
+
+* Soft allocations are time phased plans often in the future and may be overridden or re-sequenced without notifications. 
+* Hard allocations are generally inside a lead time time fence and may not be overridden, rescheduling requires consensus and notification.
+
+* Inexpensive supply chain systems often include a configuration for soft or hard allocations and plethora of switches set at the system level and executed through the BOM processing. However Time Fences are well accepted APICS business rules across small or sophisticated via MRP/ERP system.   
+
+* Allocations map to immutable smart contracts (agreed between businesses). 
+* Smart contracts may be updated or canceled outside the Time Fence but inside the require consensus (today often approval from supplier. (cannot order an Airbus A380 then cancel without a contract agreement).   
+
+==== Sub Use Case - Inventory Transactions ====
+
+
+Goal 
+The basic building block is an inventory transaction , processed singularly or in a collection associated with an Order Receipt (+ve) or Order Issue (-ve). 
+
+The table below shows a sequence of typical transactions to support the user stories defined. The most complicated transaction or order can be built on a collection of transactions. Thus by building one core transaction. Application designers can build up almost any supply chain transaction or manufacturing order. 
+
+
+^ Transaction         ^ Ledger                                                                                                                                                                                                                                |||^ Leg2                                                          |||^ Signatories to Transfer  ^
+| :::                 ^ Purpose                                                                                                                                         ^ Actor                                            ^ Quantity  ^ Distributed Allocation  ^ Source Location     ^ Type   ^ Quantity  ^ Destination Location  | :::                      |
+| Inventory Receipt   | Unplanned (myriad of reasons why unplanned inventory receipts happen, sometime allocations fake humans out and they need to override a system)  | Manual Transaction                               | +ve       | Local ledger            | Manufacturer        | UR     | N         | n                     | Local ledger             |
+| Inventory Issue     | Unplanned                                                                                                                                       | Manual Transaction                               | -ve       | Local ledger            | Manufacturer        | UI     | N         | n                     | Local ledger             |
+| Inventory Transfer  | Transfer is an issue paired with a receipt order to move inventory from one location to another                                                 | Manual Transaction (often barcode in warehouse)  | -ve, +ve  | Local legder            | Inventory Location  | TSFER  | Y         | n                     | Local ledger             |
+| Order Receipt       | Order receipt against an allocation                                                                                                             | Smart contact                                    | Key +ve   | Distributed ledger      | Supplier            | OR     | Y         | n                     | Distributed ledger       |
+| Order Issue         | Order issue against an allocation                                                                                                               | Smart contract                                   | Key -ve   | Distributed ledger      | Suppllier           | OI     | Y         | n                     | Distributed ledger       |
+
+
+**
+Trigger**
+Use of the distributed ledger begins at selection of a database by MRP/ERP system architects. 
+
+
+The use of action upon the system if that starts the use case?
+Description (scenario steps)
+In demand driven MRP business environments.  
+
+
+Smart contact provides inventory allocation in distributed ledger
+Distributed ledger provides inventory allocation visibility
+Smart contact executes recording transaction in distributed ledger
+Smart contract automates transfer of inventory workflow
+
+**Failure Condition**
+If the goal fails notify the business actors who own each item ordered that smart contact has not executed (done via distributed ledger message).
+
+**Exceptions**
+Extended use case is a smart contact that combines an inventory transaction and quality control document.
+
+**Variation**
+Collection of smart contracts generally combine to provide inventory ATP (available to promise via visibility). Expect smart contracts to be inherently looped with quality control and authenticated by inspection documents.     
+
+**Outcomes**
+Distributed ledger provides a distributed database and allocation transactions for inventory system execution to manage volatile supply chains inherent in demand driven manufacturing and other demand driven industries using MRP (material requirements planning).  
+
+==== Sub Use Case - Inventory Certifications ====
+
+**Describe the use case** 
+Increasingly expect many supply chain transactions to be inherently looped with authentication attributes or require signed quality control certifications.
+
+**Goal**
+Overall Design for the project requirements?
+
+Smart contract should specify inventory must include certifications or authenticate attributes before it can ship
+* CoC or certificates of compliance generally are required for all graded metal, silver, steel, and alloys.
+* Manufactures part number is generally required by highly specified electronics such as iPhone / or A380 avionics.
+* Walmart and high volume retailers standardize on package sizing and UPC identity (authenticated on external server that prints bar-code label to ease warehousing, delivery and store placement.     
+
+**Trigger**
+The action upon the system if that starts the use case?
+Smart contract template associated with item master specifies looped quality certifications 
+
+**Description (scenario steps)**
+
+Steps of the scenario from the trigger to goal-delivery and any clean up after (mock up screen shots as required)? 
+//plan to add schematic//
+
+**Failure Condition**
+What to protect in case the goal fails?
+Item cannot ship, distributed ledger requires a wait for certs status.
+
+**Exceptions**
+Step branching actions, conditional cases, branching steps, action names, sub use cases?
+Manual transaction can over ride system by inference certs will ship later by fax (this is real world)
+
+**Variation**
+Branching actions, list of validations if needed?
+None
+
+** Outcomes**
+Summarize the system results...
+Distributed ledger is updated with certificates / authentication completed.
+
+** Attachments**
+Relationships to other use cases, bug reports, screen shots – customer quotes (include references which remove ambiguity).  
+
+==== Section 5 - Service-Level Agreements ====
+
+ * Eventually consistent transactions are an expected (the main case to guard against is duplicate transactions).
+
+
+==== Section 6 - Requirements Not Related to User Stories =====
+
+* Eventually consistent transactions are an expected (the main case to guard against is duplicate transactions).
+**
+Data Protection and Record Retention** 
+
+* Inventory transactions are increasingly required by federal agencies (FDA, NTSB) for lot and serial traceability for consumer safety recalls (medical devices, airbags).
+
+**Which business records are shared?**
+
+* Generally manufactures Bills-of-Material often contain proprietary recipes (Coke-cola, L'oreal) or engineering IP (Cisco / Huawei high speed routers). A companies stock market valuation can depend on its BOMs, hence will not be publicly shared.
+
+* Supply Chain professionals generally don’t share distributed ledgers, hence requirements for sharing should default to private, and only be opened up based on permissions item by item.
+
+
+* Collections of allocations, over allocated by multiple smart contracts should be processed using whichever Paxos scheme is selected for settlement trades by Hyperledger staff (ERP and finance transactions work hand-in-glove). https://arxiv.org/pdf/1608.06696v1.pdf   
+
+
+* Resilient supply chains are required by top tier manufacturers such as Intel products group, single sourcing is generally avoided, allocations are split 70/30 (or similar). If the inventory from one supplier is unable to meet requirements. Flexibility of the primary smart contract to message an alternate smart contract to execute (ship from ‘30’ not from ‘70’) should be expected by Hyperledger developers (main thing, do not block or restrict smart contact from messaging)
+
+==== Section 7 - External References and Glossary =====
+
+A little backgrounder from the APICS Supply Strategy Summit in Vancouver, Canada https://www.linkedin.com/pulse/carol-ptak-apics-supply-chain-summit-vancouver-canada-clive-boulton
+APICS is the professional body defining standards and CPIM certification generally accepted by and expected from most ERP systems. https://en.wikipedia.org/wiki/Certified_in_Production_and_Inventory_Management  
+
+A good general purpose system to observe inventory allocations is Cullinet ERP System, goes back to a system developed by Charles Bachmon (Turing Award 1973 for database technology) at General Electric. Database now owned by CA Technologies https://en.wikipedia.org/wiki/IDMS
+
+
+
+

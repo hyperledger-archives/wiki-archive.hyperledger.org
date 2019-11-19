@@ -1,0 +1,30 @@
+====== Release Process ======
+
+See [[https://jira.hyperledger.org/browse/FAB-4379|FAB-4379]] for a template JIRA
+
+====== Proposals ======
+
+===== Weekly release cadence - CBF =====
+
+  * begin merge moratorium on Weds am at 8 am ET
+  * ensure Daily and Weekly tests are run, force repeated CR CI passes of each repository
+  * if significant issues found, defer release for following week (no sense killing ourselves)
+  * if no significant issues found, proceed with release
+    - create Task for weekly release, cloned from [[https://jira.hyperledger.org/browse/FAB-4518|this JIRA]] Task
+    - assign a release manager to the execution (should not try to coordinate steps, this is where errors of mis-communication occur)
+    - begin the release process at 8am Thursdays
+    - on successful testing of download/images/docs review and e2e testing, spam announce email
+  * lift merge moratorium
+
+
+====== Notes/Observations ======
+
+  * combining the fabric and fabric-ca release notes, changelog and makefile changes into a single ''release CR'' would simplify things, but means that any CRs that get merged after the ''release CR'' is created would require that the changelog be amended accordingly before the ''release CR'' is merged.
+  * it is critical to rebase the ''release CR'' just before it is merged to ensure it picks up latest commits
+  * get the release process for java SDK release sorted out. ''pom.xml'' and ''src/test/fixture/sdkintegration/.env'' need to be updated
+  * there was confusion over tag creation, some thought that tags had to be pushed directly to GH, bypassing Gerrit. The way to tag is to create the tag locally and push to Gerrit. e.g. ''git push origin v1.0.0-beta HEAD:refs/heads/master''
+  * markdown in tag annotations does not work, need to research how other projects manage to get markup into their release notes on GH
+  * despite asking people to inspect things, seems like they always find things after the process has begun
+  * having the publishing of images tied to the tag is problematic... you can delete a tag locally, but you really cannot once it is in circulation. We really need to be able to test the published images and binaries  BEFORE we tag the release so that IFF there are errors, we can remediate and republish, test and then tag.
+  * we need a means of driving CI multiple iterations on the current commit level to make us aware of any CI flakiness
+  * we should be able to version the examples independently of the release - suggest a separate fabric-samples repository for everything under examples. This would allow the download of the example as git

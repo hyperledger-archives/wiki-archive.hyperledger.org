@@ -1,0 +1,10 @@
+===== Risk management =====
+[[healthcare-wg-wikispace-redesign|Home]] : [[management|Management]]
+----------
+
+==== Risk list ====
+
+^ Risk ^ Status ^ Severity ^ Likelihood ^ Date created ^ Date closed ^ Action ^
+| | | | | | | |
+| | | | | | | |
+| |||||||

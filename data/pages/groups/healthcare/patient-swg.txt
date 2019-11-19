@@ -1,0 +1,23 @@
+===== Patient Sub-workgroup =====
+[[healthcare-wg-wikispace-redesign|Home]]
+-----------
+
+//Brief overview//
+
+----------
+==== Stakeholders, Activities & Resources ====
+
+  * [[stakeholders|Stakeholders]] : [[Marissa Iannarrone]] (SWG lead), [[patient-swg-members|Patient SWG members]]
+
+  * [[activities|Activities]]
+    * [[patient-swg-meetings|SWG Meetings]] : [[2018_09_14_patient_hcwg|14-SEP]], [[2018_08_31_patient_hcwg|31-AUG]], [[np17|17-AUG]], [[np2|03-AUG]], [[np1|27-JUL]], [[np4|20-JUL]], [[np8|06-JUL]], [[np7|29-JUN]], [[np5| 22-JUN]], [[np6|08-JUN]]
+    * [[marketing-communications|Marketing & Communications]]
+      * [[activities-whitepapers|Whitepapers]]
+      * [[activities-events|Events]] : [[himss-asiapac-challenge-2018|AsiaPac HIMSS Innovation Challenge 2018]]
+    * [[analysis-business|Domain analysis]] : [[analysis-human-milk|Human milk services]]
+    * [[technical-solutions|Technical solutions]]
+      * [[activities-lab|Hyperledger Lab]] : [[human-milk-poc|Human Milk POC]]
+
+  * [[resources|Resources]]
+
+----------

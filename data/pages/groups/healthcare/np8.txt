@@ -1,0 +1,39 @@
+Hyperledger Project\\
+Healthcare Working Group (HCWG) Patient Subgroup Meeting\\
+July 6, 2018 \\
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+Meeting Notes\\
+
+This was more of a free flowing conversation and so the notes will provide markers of the recording.\\
+
+Introductions the first 25 minutes.\\
+
+Conversation on cryptocurrency from 25:00 to 33:00. Conversation continued on chat at: \\
+https://chat.hyperledger.org/channel/healthcare-wg?msg=hDytXwcT4h4GpC2hu\\
+
+Conversation on github and wiki engagement and collaboration logistics from 33:00 to 37:00\\
+
+Recap last week from 37:00 to 50:00\\
+Indexes, identity, keys, patient control over data, data security, consent\\
+
+Dr. Angela Courtney 50:00 to 55:30\\
+Patient data de-identification from scientist point of view. Zero knowledge proof data. \\
+
+Identity group work - how does it mesh with HCWG 55:30 to 1:00\\
+
+Final thoughts\\
+Open source build v private entity build end game? 1:00 to 1:05:30\\
+UK / NHS way ahead of US on de-identifying data for use with blockchain 1:05:30 to 1:07:30\\
+
+Next steps\\
+Need to work toward concrete use cases \\

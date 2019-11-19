@@ -1,0 +1,40 @@
+Hyperledger Project\\
+Healthcare Working Group (HCWG) \\
+September 7, 2018 \\
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+Meeting Notes\\
+
+Patient subgroup meeting update from Marissa - time may be moving because of SME availability. Naomi from a Boston area milk bank has been very helpful in understanding the problems around donor milk. Going to focus back on the build for awhile.
+
+Doodle poll regarding time of future patient sg meetings  https://doodle.com/poll/vv44kkeiw9afym6e
+
+Payor subgroup update from Raveesh - Chris a prior authoirzation SME has been joining the group and the group is trying to pinpoint a sub use case within prior auth to focus on. 
+
+Rich wants to consider the format of the main group meetings going forward. He would like to have SME’s doing presentations in the general group.
+
+Question - Is anyone in the working group working on an academic paper or know of anyone who is? Answer - No, but we could be if someone takes the initiative to spin that up. There is one academic journal for blockchain and a few other places which are serious, but not peer reviewed. 
+
+Rich asks Rayne to make room on the Wiki for articles that are academically valuable and relevant in the healthcare space. Rayne has already done that. 
+
+Question - Is there an evaluation framework out there - some kind of publicly available basic modeling tool to give an idea of costs and risks - if not should we make one?
+Josue Batista shares the World Economic Forum has an 11 question decision tree for whether blockchain is appropriate solution for your business.  https://www.weforum.org/agenda/2018/04/questions-blockchain-toolkit-right-for-business
+Caliper is a hyperledger blockchain tool for benchmarking
+Many initiatives for measuring but none too far along
+
+Interoperability of healthcare systems is a huge issue
+What are the key problems? Where are the choke points?
+
+Can we make a decision to stop meetings at 10 til the hour and plan the next meeting? 
+
+Rayne points to the public sector working group meetings as a similar and well run example of what everyone is discussing about meeting framework. Also that those recordings are on the wiki and have valuable discussions that cross over into our discussions.  

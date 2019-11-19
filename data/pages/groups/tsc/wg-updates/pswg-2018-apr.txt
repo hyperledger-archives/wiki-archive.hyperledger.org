@@ -1,0 +1,46 @@
+====== Hyperledger Working Group Update ======
+
+===== Working Group =====
+Performance and Scalability Working Group
+
+===== Working Group Health =====
+The PSWG is making good progress on a [[https://docs.google.com/document/d/1DQ6PqoeIH0pCNJSEYiw7JVbExDvWh_ZRVhWkuioG4k0 | Metrics Document]]. This provides common definitions for the measurements, etc for many types of DLTs. Given the wide range of implementations, this can sometimes be a bit challenging.
+
+The group has a core of 8 -12 regular participants spread across the globe and across many companies and academia. The discussions tend be very technical and we have a lot subject matter experts, a great learning experience for some of us! In addition we have people "drop in" and contribute occasionally. We have been reaching outside of the Hyperledger community and have contributions and feedback on our work. Fortunately, most of the outside feedback indicates that we are coming to the same results as other efforts.
+
+Several of the Caliper team members have been regular contributors to the PSWG calls. We worked closely with the Caliper folks to help make sure that their project effort is aligned with the efforts of the PSWG. They also provide a unique aspect as they are implementing based on our joint efforts. 
+
+When we felt that the time was right and things were mature enough, we brought [[https://wiki.hyperledger.org/projects/caliper | Caliper]] to the TSC with a recommendation for it to be a Hyperledger Project.
+
+
+===== Issues =====
+There are no major issues at this time. 
+
+Like some of the other working groups, progress tends to be slower than desired on getting the documents written. However, this pace is much quicker then similar efforts I have been involved with other industry consortia. 
+
+We have also recently had some discussions about large scale testing and the role that the PSWG should play. We do not see ourselves a testing project. We do feel that we should be involved in test definition, auditing, etc. Looking from feedback from the TSC on the direction that they would like to see from us. Long term do we collaborate with a SPEC or TPC like organization?
+
+===== Overall Activity in the Past Quarter =====
+
+The mailing list and chat channels are not that active. We tend to work outside of the meetings and then discuss during our calls. We moved to weekly calls in order to speed things up. 
+
+At this time we are trying to wrap up the Metrics Document. 
+
+
+===== Planned Work Products =====
+We need to wrap up the metrics document in the next few months.
+
+After that we will likely start on more workload definition and guidance. Longer range this becomes a DLT selection guide for different use cases. The goal being to list what we think the key attributes / measurements are for different use cases. We will figure out how to tie this in with the Caliper work to help the consumers make smarter choices on DLT selection.  
+
+===== Participant Diversity =====
+This is a very active and diverse group of people. The group is growing and we are gaining more regular attendees. As mentioned above, we have a good mix of companies and folks from academia. 
+
+===== Additional Information =====
+
+Several of our regular participants from academia:
+
+Budapest University of Technology and Economics (BME) is located in Budapest, Hungary and is the leading technical university of the country. **Imre Kocsis** is an assistant lecturer with the Fault Tolerant Systems Research Group of the Dept. of Measurement and Information Systems. In addition to his research activities, currently he is teaching a course on Blockchain Technologies and Applications with 200+ students.
+ 
+I am **Harish Sukhwani**, Ph.D. student at Duke University, in the Department of Electrical & Computer Engineering. The title of my thesis is "Performance modeling and analysis of permissioned blockchain networks (Hyperledger Fabric)". Participating in this group has provided me with a broader context of performance from the perspective of different blockchain platforms as well as various industries.
+
+Note Harish has been the person keeping minutes for us.

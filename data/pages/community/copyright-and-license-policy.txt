@@ -1,0 +1,31 @@
+====== Copyright and License Policy ======
+The [[https://www.hyperledger.org/about/charter|Hyperledger Charter]] specifies how code and documentation for Hyperledger projects should be licensed. This document provides information about expectations for how the source code and documentation should specify copyright and license details.
+
+===== Copyright =====
+
+Generally, copyright notices within source and documentation files fall out of date quickly. The contributor data is stored in gerrit or git and determining "copyright" requires an analysis that becomes quite complex after the initial commit. As such, for new files added to Hyperledger repositories, the following copyright text should be included:
+
+<code>
+Copyright contributors to Hyperledger <project>.
+</code>
+
+''<project>'' should be replaced with the appropriate Hyperledger project -- Burrow, Caliper, Cello, Composer, Explorer, Indy, Iroha, Fabric, Quilt, or Sawtooth.
+
+**IMPORTANT**: Do not remove copyright notices that already exist within a file unless the copyright owner removes them.
+
+===== License =====
+For new files added to Hyperledger repositories, [[https://spdx.org|SPDX]] short identifiers are the recommended way of representing the license via comments within the header of the file. For Hyperledger, if using SPDX short identifiers, the following must be used to meet the requirements of the [[https://www.hyperledger.org/about/charter|Hyperledger Charter]]:
+
+==== Source Code ====
+<code>
+SPDX-License-Identifier: Apache-2.0
+</code>
+
+==== Documentation ====
+<code>
+SPDX-License-Identifier: CC-BY-4.0
+</code>
+
+**IMPORTANT**: The license of a file, regardless of how specified, should not be modified unless agreed to by all contributors to the file.
+
+If you are seeking to add a file that already has a license notice which is different from Apache-2.0 or CC-BY-4.0, please raise this for discussion with [[legal@hyperledger.org]] to obtain exception approval.

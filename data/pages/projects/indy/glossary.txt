@@ -1,0 +1,258 @@
+======Hyperledger Indy Glossary======
+
+Note: “Ledger” refers to a ledger using Hyperledger Indy as the codebase
+
+
+====A====
+
+**Agency.** A service provider that hosts Cloud Agents and may provision Edge Agents on behalf of a Ledger’s Entities. 
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Agent.** A software program or process used by or acting on behalf of a Ledger’s Entity to interact with other Agents or, via a Ledger’s Client component, directly with the Ledger. Agents are of two types: Edge Agents run at the edge of the network on a local device, while Cloud Agents run remotely on a server or cloud hosting service. Agents typically have access to a Wallet in order to perform cryptographic operations on behalf of the Ledger’s Entity they represent.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Anonym.** A Blinded Identifier used exactly once. See also Pseudonym and Verinym.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+====B====
+
+**Blinded Identifier.** A DID authorized to be written to the Ledger using a Zero-Knowledge Proof in order to blind the Legal Identity of the Identity Owner. Blinded Identifiers include Anonyms and Pseudonyms. Mutually exclusive with Verinym.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+====C====
+
+**Claim.** A digital assertion about identity attributes made by a Ledger Entity about itself or another Ledger Entity. The entity making the Claim is called the Issuer. The entity holding the issued Claim is called the Holder. If the Claim supports Zero Knowledge Proofs, the Holder is also called the Prover. The entity to whom a Claim is presented is called the Relying Party. A Claim may be Public Data or Private Data. Once issued, a Claim is typically stored by an Agent.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Claim Definition.** A machine-readable definition of the semantic structure of a Claim. Claim Definitions facilitate interoperability of Claims and Proofs across multiple Issuers, Holders, and Relying Parties. In the future this may extend to interoperability with other trust frameworks.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Claim Offer.** An invitation from an Issuer to a Holder to send a Claim Request to the Issuer.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Claim Request.** A request to an Issuer to issue a Claim to a Holder.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Cloud Agent.** An Agent that does not run at the edge of the network on a local device with which an Identity Owner interacts directly, but remotely on a server or cloud hosting service. Mutually exclusive with Edge Agent. A Cloud Agent typically has a Service Endpoint and may have access to a Cloud Wallet. Cloud agents may be hosted by an Agency. 
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Cloud Wallet.** A Wallet that operates remotely on a server or cloud hosting service and stores its cryptographic key material securely on that server or cloud service. Cloud Wallets will typically use an HSM (Hardware Security Module). Mutually exclusive with Edge Wallet.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Connection.** A digital relationship established between two Ledger Entities via their selected Identities to exchange Public Data or Private Data, such as Verifiable Claims, between their Agents. A Connection may or may not be published as a Claim. A Connection itself may be either Public Data or Private Data and may be formed using either a Verinym or a Pseudonym.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Connection Offer.** An invitation from a one Ledger Entity to a second Ledger Entity to send the first Entity a Connection Request. Connection Offers are needed only in specialized use cases; in most cases a Connection will start with a Connection Request.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Connection Request.** A request from one Ledger Entity to another Ledger Entity to form a Connection.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+====D====
+
+**Dependent.** An Individual who needs to depend on a Guardian to administer the Individual’s Ledger Identities. Under a Trust Framework, all Dependents may have the right to become Independents. Mutually exclusive with Independent.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Developer.** An Identity Owner that has legal accountability (in a scenario where there is a Trust Framework)  for the functionality of an Agent, or for software that interacts with an Agent or the Ledger, to provide services to a Ledger Entity. 
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**DDO.** A DID descriptor object as defined by the DID Data Model and Generic Syntax specification. A DDO is associated with exactly one DID.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**DID.** A decentralized identifier as defined by the DID Data Model and Generic Syntax specification. DIDs enable interoperable decentralized self-sovereign identity management. An Identity Record is associated with exactly one DID. A DID is associated with exactly one DDO. 
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**DKMS.** Decentralized Key Management System, an emerging standard for interoperable cryptographic key management based on DIDs. DKMS standards apply to Agents and Wallets.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+====E====
+
+**Edge Agent.** An Agent that runs at the edge of the network on a local device, such as a smartphone, tablet, laptop, automotive computer, etc. Mutually exclusive with Cloud Agent. An Edge Agent may be an app used directly by an Identity Owner, or it may be an operating system module or background process called by other apps. Edge Agents typically do not have a Service Endpoint, but do have access to a Edge Wallet.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Edge Wallet.** A Wallet, typically used by a Edge Agent, that operates at the edge of the network on a local device and stores its cryptographic key material in a secure enclave or other secure storage on that device. Mutually exclusive with Cloud Wallet.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Entity.** A resource of any kind that can be uniquely and independently identified. 
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+====G====
+
+**Genesis Record.** The first Identity Record written to the Ledger that describes a new Ledger Entity. For a Steward, the Genesis Record must be written by a Trustee. For an Independent Identity Owner, the Genesis Record must be written by a Trust Anchor. For a Dependent Identity Owner, the Genesis Record must be written by a Guardian.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Guardian.** An Identity Owner who administers one or more Ledger Identities on behalf of a Dependent or a Thing. A Guardian must agree to the Guardian Obligations in the case of a Trust Framework.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Guardian Obligations.** The set of guardian obligations under the heading of the same name in the a Trust Framework.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+====H====
+
+**Holder.** The Ledger Entity that has been issued a Claim by an Issuer. If the Claim supports Zero Knowledge Proofs, the Holder is also the Prover.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+====I====
+
+**Identity.** A set of Identity Records, Claims, and Proofs that describes a Ledger Entity. To protect privacy: a) an Identity Owner may have more than one Ledger Identity, and b) only the Identity Owner and the Relying Party(s) with whom an Identity is shared knows the specific set of Identity Records, Claims, and Proofs that comprise that particular Identity.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Identity Owner.** A Ledger Entity who can be held legally accountable. An Identity Owner must be either an Individual or an Organization. Mutually exclusive with Thing.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Identity Record.** A transaction on the Ledger that describes a Ledger Entity. Every Identity Record is associated with exactly one DID. The registration of a DID is itself an Identity Record. Identity Records may include Public Keys, Service Endpoints, Claim Definitions, Public Claims, and Proofs. Identity Records are Public Data.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Independent.** An Individual who directly controls the Private Key(s) and Master Secret(s) necessary to administer an Identity and thus is not dependent on any other party for control. For any particular Identity, this definition is mutually exclusive with Dependent. Note that it is possible (though not a best practice) for the same Identity Owner to be both an Independent for some Identities and a Dependent on others.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Individual.** An Identity Owner who is a natural person. Mutually exclusive with Organization.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Industry Sector.** An area of distinct economic activity as defined by the World Trade Organization. See https://www.wto.org/english/tratop_e/serv_e/mtn_gns_w_120_e.doc. 
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Issuer.** The Ledger Entity that issues a Claim.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Issuer Key.** The special type of cryptographic key necessary for an Issuer to issue a Claim that supports Zero Knowledge Proofs.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+====J====
+
+**Jurisdiction.** A legally defined scope of authority to which an Identity Owner is bound at any one point in time. Jurisdiction is relevant to some Trust Framework policies to help ensure geographic diversity among Stewards and Trust Anchors. For these purposes, Jurisdiction is defined broadly as: sovereign states or autonomous regions that are members of the United Nations, any UN Specialized Agency, or the Universal Postal Union, as well as sovereign states or autonomous regions that have observer status at the UN or any UN Specialized Agency.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+====L====
+
+**Legal Identity.** A set of information sufficient to identify an Identity Owner for the purpose of legal accountability in at least one Jurisdiction. For the purposes of the Provisional Network, a Legal Identity may be established by reference to one or more publicly accessible Web resources such as websites, blogs, social network profiles, or other Web pages that provide sufficient information to meet this test.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+====M====
+
+**Master Secret.** An item of Private Data used by a Prover to guarantee that a claim uniquely applies to them. The Master Secret is an input to Zero Knowledge Proofs that combine data from multiple Claims in order to prove that the Claims have a common subject (the Prover). A Master Secret should be known only to the Prover. Similar to a Private Key, but without a corresponding Public Key.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+====N====
+
+**Node.** A computer network server running an instance of the Indy Open Source Code to maintain an Indy-powered Ledger. A Node must be either a Validator Node or an Observer Node. All  Nodes in an Indy-powered Network may be operated by Stewards.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+====O====
+
+**Open Source License.** Any form of intellectual property license approved and published by the Open Source Initiative.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Observer Node.** A Node that maintains a read-only copy of the Ledger by communicating directly with one or more Validator Nodes. A Node may be able to operate as either an Observer Node or Validator Node, but at any one point in time it must operate in only one of these two roles. A Steward may operate more than one Observer node.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Organization.** An Identity Owner who is legal person of any kind except an Individual, e.g., a group, sole proprietorship, partnership, corporation, LLC, association, NGO, government, etc. Mutually exclusive with Individual.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Other Entity.** An Entity identified on some other identity network external to an Indy-powered Network.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+====P====
+
+**Pairwise-Unique Identifier.** A Pseudonym used in the context of only one digital relationship (Connection). See also Pseudonym and Verinym.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Privacy by Design.** A set of seven foundational principles for taking privacy into account throughout the entire design and engineering of a system. Originally defined by the Information and Privacy Commissioner of Ontario, Canada. See the Wikipedia article.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Private Claim.** A Claim that is sent by the Issuer to the Holder’s Agent to hold (and present to Relying Parties) as Private Data but which can be verified using Public Claims and Public Data. A Private Claim will typically use a Zero Knowledge Proof, however it may also use a Transparent Proof.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Private Data.** Data over which an Entity exerts access control. Private Data should not be stored on a Ledger even when encrypted. Mutually exclusive with Public Data.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Private Key.** The half of a cryptographic key pair designed to be kept as the Private Data of an Identity Owner. In elliptic curve cryptography, a Private Key is called a signing key.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Proof.** Cryptographic verification of a Claim. A digital signature is a simple form of Proof. A cryptographic hash is also a form of Proof. Proofs are one of two types: Transparent or Zero Knowledge. Transparent Proofs reveal all the information in a Claim. Zero Knowledge Proofs enable selective disclosure of the information in a Claim.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Prover.** The Entity that issues a Zero Knowledge Proof from a Claim. The Prover is also the Holder of the Claim.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Pseudonym.** A Blinded Identifier used to maintain privacy in the context on an ongoing digital relationship (Connection). See also Anonym and Verinym.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Public Claim.** A Claim that is written by an Issuer to the Ledger in order to become Public Data. A Public Claim will typically use a Transparent Proof.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Public Data.** Data over which an Identity Owner does not exert access control. All Identity Records on a Ledger are Public Data. Mutually exclusive with Private Data.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Public Key.** The half of a cryptographic key pair designed to be shared with other parties in order to decrypt or verify encrypted communications from an Identity Owner. In digital signature schemes, a public key is also called a verification key. A Public Key may be either Public Data or Private Data depending on the policies of the Identity Owner. All Public Keys published to a Ledger are Public Data.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Public Profile.** Information describing a Service Provider, including its Legal Identity, logo(s) or other trademarks, location(s), marketing information, web links, and any other information required by a Trust Framework to ensure full transparency about the provider’s Legal Identity and qualifications.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+====R====
+**Relying Party.** A party who relies on a Claim or Proof in order to make a trust decision about a Ledger Entity.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+====S====
+
+**Service Endpoint.** The location of a network service, such as a Cloud Agent, operated on behalf of a Ledger Entity.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Steward.** An Organization, within a Trust Framework, that operate a Node. A Steward must meet the Steward Qualifications and agree to the Steward Obligations defined in the a Trust Framework. All Stewards are automatically Trust Anchors.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Steward Obligations.** The set of obligations of a Steward. Defined under the heading of the same name in a Trust Framework.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Steward Qualifications.** The set of qualifications for an Organization to become a Steward. Defined under the heading of the same name in a Trust Framework.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+====T====
+**Technical Policies.** The set of policies, defined under the heading of the same name in a Trust Framework, that specify the technical requirements of the Network.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Thing.** A Ledger Entity that cannot be held legally accountable. A Thing may be an animal (e.g., pet, livestock), a natural object (e.g., house, car, phone), or a digital object (e.g., software program, network service, data structure). Mutually exclusive with Identity Owner.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Transparent Proof.** A Proof that uses conventional digital signature scheme and therefore does not limit disclosure any of the information in a Claim, including the identity of the Identity Owner issuing the Proof. Mutually exclusive with Zero Knowledge Proof.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Trust Anchor.** An Identity Owner who may serve as a starting point in a Web of Trust. A Trust Anchor has two unique privileges: 1) to add new Identity Owners to a Network, and 2) to issue Trust Anchor Invitations. A Trust Anchor must meet the Trust Anchor Qualifications and agree to the Trust Anchor Obligations defined in a Trust Framework. All Trustees and Stewards are automatically Trust Anchors.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Trust Anchor Connection.** A special type of Connection between two Trust Anchors on  a Network. See Trust Anchor Invitation.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Trust Anchor Identity.** A specific DID selected by an Identity Owner to serve as the owner’s exclusive Ledger Identity in the role of Trust Anchor.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Trust Anchor Invitation.** A Claim Offer from a Trust Anchor to another Identity Owner to form a Trust Anchor Connection. A Trust Anchor Invitation is an assertion that the Trust Anchor believes the Identity Owner meets the Trust Anchor Qualifications.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+**
+Trust Anchor Obligations.** The set of obligations of a Trust Anchor. Defined under the heading of the same name in a Trust Framework.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Trust Anchor Qualifications.** The set of qualifications for an Identity Owner to become a Trust Anchor. Defined under the heading of the same name in a Trust Framework.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+====V====
+
+**Validator Node.** A Node that validates new transactions of Identity Records and actively writes valid transactions to an Indy-powered Ledger using the Plenum Consensus Protocol. A Node may be able to operate as either a Validator Node or an Observer Node, but at any one point in time it must operate in only one of these two roles. A Steward may run only one Validator node.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Verifiable Claim.** A Claim that includes a Proof from the Issuer. Typically this proof is in the form of a digital signature. A Verifiable Claim may be verified by a public key associated with the Issuer’s DID.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+**Verinym.** A DID authorized to be written to an Indy-powered Ledger by a Trust Anchor so that it is directly or indirectly associated with the Legal Identity of the Identity Owner. Mutually exclusive with Anonym.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+====W====
+
+**Wallet.** A software module, and optionally an associated hardware module, for securely storing and accessing Private Keys, Master Secrets, and other sensitive cryptographic key material and optionally other Private Data used by an Entity on Indy. A Wallet may be either an Edge Wallet or a Cloud Wallet. In Indy infrastructure, a Wallet implements the emerging DKMS standards for interoperable decentralized cryptographic key management.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]
+
+====Z====
+
+**Zero Knowledge Proof.** A Proof that uses special cryptography and a Master Secret to permit selective disclosure of information in a set of Claims. A Zero Knowledge Proof proves that some or all of the data in a set of Claims is true without revealing any additional information, including the identity of the Prover. Mutually exclusive with Transparent Proof.
+[[https://wiki.hyperledger.org/projects/indy_glossary|Back to top]]

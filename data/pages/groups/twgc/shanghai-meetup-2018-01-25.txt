@@ -1,0 +1,28 @@
+=====Hyperledger Shanghai Meetup=====
+
+====时间====
+13:00-17:30, 2018年1月25日, 星期四\\
+13:00-17:30, Jan 25th, Thursday, 2018
+
+====地点====
+
+上海宝山长江西路2687号
+====赞助商====
+
+指旺金科
+
+====报名链接====
+[[http://www.huodongxing.com/event/6422462034800 | 活动行]]
+
+====议程====
+^  时间           ^  题目                                          ^  演讲者                                           ^
+|  13:00-13:30  | 签到 | |
+|  13:30-13:45  | 开场致辞 | 周广益, 指旺金科 CEO\\ Julian Gordon, Hyperledger 亚太区总裁  |
+|  13:45-14:25  | Hyperledger项目技术评述+使用composer快速创建一个区块链应用【英文】| Tracy Kuhrt, Hyperledger 资深架构师 |
+|  14:25-14:55  | 区块链商业应用实例分享 | 刘涛, 指旺金科 区块链研究院负责人 |
+|  14:55-15:25  | Hyperledger Sawtooth项目架构和案例分析【英文】| Guy Itzhaki, INTEL 高级工程师 |
+|  15:25-15:40  | 茶歇 Tea break | N/A |
+|  15:40-16:10  | 关于Hyperledger的项目应用分享 | 陈剑, IBM 高级架构师 |
+|  16:10-16:40  | 基于Fabric的监管服务平台 | 韩根, 金丘科技 CTO |
+|  16:40-17:10  | 看得见的Frabric | 冯翔, 指旺金科 首席架构师 |
+|  17:10-17:30  | 自由讨论 Open Discussion | All attendees |

@@ -1,0 +1,81 @@
+Hyperledger Project
+Healthcare Working Group (HCWG) Payer Subgroup Meeting
+August 21, 2018 
+
+Resources:
+Chat:  ​https://chat.hyperledger.org/​channel/​healthcare-wg  ​(you can use your LFID to login)
+Github:  ​https://github.com/​hyperledger 
+Wiki:  https://wiki.hyperledger.org
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg 
+Public lists:  https://lists.hyperledger.org
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings 
+
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy
+
+     *We need more SME information about the pre auth process
+          *More complete picture what happened inside the payor when going thru the steps for approval and denial 
+          *Process re-engineering outside of Blockchain
+          *Many process issues we’ll end up getting into 
+          *Is it possible to codify the approval and rejection steps more automatically\\
+
+Arrange for SME next week to talk about auth process in detail
+     *Slight variation in plans cause people to get different treatment for the same ailment
+          *Coverage question, not blockchain question
+     *Is this a good use case for blockchain or not?
+          *Blockchain opportunity
+               *Two channels
+               *Public channel
+               *Private channel
+     *Simplify view 
+         *Medication pre auth
+              *IVF pre auth required
+              *Dr Request payor pre auth
+              *Requires supplement information to decide whether medically necessary and give pre auth
+              *Reject - we need more info
+              *More info comes in 
+              *Pre auth given
+         *When approved or not approved, you go to get service, you have a strong record it was pre approved, no hold up in payment
+              *Menu - your approval plus your insurance plan allows you to see these providers at this percentage of coverage
+                   *Patient choose dr and has service
+                   *Link record of approval and demonstrate service has been rendered, get payment instantaneously 
+                   *Ideally it’s a smart contract
+     *Way to speed up pre auth process, one thing you could do is a link of record or hash of records submitted 
+          *What exactly are we managing? Data remains outside the chain
+          *First transaction on blockchain - request from known provider for known patient for known service  submitted - immutable
+     *We need to know more about the process and how it derails
+          *Is there a benefit for transactions to be public on demand?
+          *Query on chain for auth for services I’ve asked for
+          *Patient results
+     *How do public transaction help me?
+     *How is blockchain better than a regular database?
+     *I’m a patient waiting, instead of looking every day I get a payor provided blockchain app that I can register 
+myself to and once that transaction has happened I’m notified on my distributed application
+     *Authorization for certain lab test
+          *Auth goes in smart contract
+          *Lab provides results for that patient
+          *Instant payment instead of normal cycle
+          *Traceability / any better than a trigger on an Oracle database
+          *Data inherently immutable then that makes more sense for blockchain that a central database wouldn’t have
+     *Prevent medical fraud is at the top of the needs
+     *Prior auth is a hot topic, everyone is sick of broken process
+          *Slower they have to pay the longer they get to live on the money
+          *If they deny authorization, then no pay
+          *Even if it’s just in limbo, who benefits from this, not the patient, it’s the payor who benefits from how complicated it is
+     *Having a public ledger doesn’t seem to have a benefit
+     *Immutability seems to have some benefit
+     *Does chain code bring a compelling benefit? 
+          *Convoluted process all stakeholders want to get thru faster, payor has to pay interest when too slow
+     *We really need a SME to get depth to the process
+          *Every payor is focused on the first pass rate, in an automated untouched pattern can I get this approved or denied without delay
+     *Pain points with insurers is identifying patients between separate systems
+          *Universal ID
+          *ID a person across health care systems, does exist as a blockchain
+          *25 step process to identify patients, so many combinations to say, yep we own that patient
+     *Value based care is huge
+          *History is lost with patient movement between providers / payors
+     *Next steps - get and SME for pre auth and one for Value based care
+          *Need to start solidifying
+          *Create a framework to get to the next level
+          *Get the right problem to be solved first
+          *Define workflow, develop methodology

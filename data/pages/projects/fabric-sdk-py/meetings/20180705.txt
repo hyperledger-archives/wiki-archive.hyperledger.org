@@ -1,0 +1,42 @@
+==== 2018-07-05 ==== 
+
+Meeting will be held at [[ https://zoom.us/my/hyperledger.community | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/fabric-sdk-py|rocketchat]] (for text chat) at:
+
+  * 11:00AM   (UTC-2)
+  * 02:00PM   (UTC+1)
+  * 06:30PM   (UTC+0530)
+  * 09:00PM   (UTC+8)
+
+  * [[https://jira.hyperledger.org/browse/FAB-4623?jql=project%20%3D%20FAB%20AND%20status%20in%20(%22In%20Progress%22%2C%20%22To%20Do%22)%20AND%20component%20%3D%20fabric-sdk-py | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+status:open | Open Patchset for review]]
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]]
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  * Channel APIs Progress: 
+    * <del>Load network configuration ... DONE</del>
+    * <del>Create a New Channel       ... DONE</del>
+    * <del>Join Peers into a Channel  ... DONE</del>
+    * Get block from a channel   ... IN PROGRESS
+    * Query channel              ... [[https://gerrit.hyperledger.org/r/#/c/24065/|In review]]
+  * Chaincode APIs Progress: 
+    * <del>Install Chaincode to Peers ... DONE</del>
+    * <del>Query instantiated chaincode ..DONE</del>
+    * Instantiate Chaincode      ... TODO
+    * Invoke a Chaincode         ... TODO
+    * Query a Chaincode          ... TODO
+  * [[https://github.com/hyperledger/fabric-sdk-py/blob/master/docs/tutorial.md|Tutorial to complete]]
+  * Other issues
+    * Internship progress
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+  * Baohua Yang
+  * Dixing Xu
+  * Redmi
+
+=== Minutes ===
+  * There are two queries: channel info and chaincode;
+  * Dixing will implement the chaincode instantiate and invoke first.

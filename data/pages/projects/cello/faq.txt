@@ -1,0 +1,49 @@
+==== What does Cello do?====
+Cello is towards the operation system for blockchain networks. It will help user startup, operate and manage the distributed ledgers through dashboards. Using cello, it is always easy to create a blockchain service platform, e.g., BaaS.
+
+==== Is it possible to manage blockchains across multiple hosts using cello?====
+
+Yes, currently, cello supports multiple kinds of agents to utilize various infrastructures.
+
+E.g., with the ansible agent, it's easy to allow cello to manage blockchain networks on multi-servers/vms.
+
+Besides, we are designing the k8s agent now to enable cello employing kubernetes cluster better to host blockchain networks.
+
+
+==== How to find the service log in Cello ====
+
+Run `make log` in the master node.
+
+==== Healthy check failed of cluster while deploying CELLO on AWS ====
+
+Make sure the relative ports are not baned by the  security group.
+
+==== Worker node setup failed caused by nfs mount error ====
+
+Please check the worker node setup output, if has error like this:
+
+       mount: wrong fs type, bad option, bad superblock on 192.168.1.49:
+           missing codepage or helper program, or other error
+           (for several filesystems (e.g. nfs, cifs) you might
+           need a /sbin/mount.<type> helper program)
+           In some cases useful info is found in syslog - try
+           dmesg | tail or so.
+ 
+this mean you missing nfs-common packge, run command "apt-get install nfs-common" to install it, and then setup worker node again.
+
+==== Can not login in localhost:8080 or localhost:8081 ====
+
+With using docker-17.03.0 may cause this problem, Try to use the newer version like docker-17.06.0.
+
+==== I still cannot resolve my problem ====
+
+Clean you environment and try to re-clone the latest code.
+
+If still not work, then feel free to open a jira issue to include:
+
+  - Code Version;
+  - OS type and docker/k8s version;
+  - Logs of the cello services;
+  - Steps to repeat the issue.
+
+Then post the jira link to [[https://chat.hyperledger.org/channel/cello| rocket channel]].

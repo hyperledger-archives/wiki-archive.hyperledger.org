@@ -1,0 +1,38 @@
+====== Architecture and Construction Logistics ======
+
+//This is an on-going work on the Requirements Working Group//
+
+These requirements are not intended to be a complete architecture and/or construction process.  
+
+
+====== Use Case for Architecture Logistic Requirements ======
+
+
+===== Section 1 - Introduction ===== 
+
+
+=== Overview of the Business Problem or Opportunity ===
+
+
+
+
+===== Section 2 - Current Solution ===== 
+
+
+===== Section 3 - Why Distributed Ledger Technology? =====
+
+
+===== Section 4 - User Stories and Requirements =====
+
+
+==== Section 5 - Requirements Not Related to User Stories =====
+
+
+=== Service-Level Agreements ===
+
+=== Data Protection and Record Retention === 
+
+=== Privacy === 
+
+
+==== Section 6 - External References and Glossary =====

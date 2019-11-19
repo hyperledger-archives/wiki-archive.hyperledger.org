@@ -1,0 +1,4 @@
+# Whitepaper WG Status 2016 May 18
+* Team wrapped up final updates for draft v0.1. 
+* First draft to be published to wiki for review with TSC on May 19.
+* Wiki needs to be updated with feedback instructions.

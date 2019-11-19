@@ -1,0 +1,357 @@
+### 2016-11-18
+
+#### Agenda
+
+* Everyone review the [Patchset](https://gerrit.hyperledger.org/r/#/q/status:open+project:fabric-sdk-py)
+* Suggest read the spec and attend the discussion
+ * [SDK Spec](https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4)
+ * [hyperledger-fabric-protobuf-message-and-flow](https://files.slack.com/files-pri/T0J024XGA-F2VB5FXJ4/download/hyperledger-fabric-protobuf-messages-and-flow.pdf)
+* Other issues
+
+#### Attendee
+
+* Baohua
+* Kai Chen
+* Latitia Haskins
+* Lei Li
+
+
+#### Log
+
+```
+=== Meeting Start ===
+11:00]  
+Baohua Yang	OK, let’s start on time
+
+[11:00]  
+@grapebaba great u’re here
+
+[11:00]  
+before reviewing, any other issue to propose? :slightly_smiling_face:
+
+[11:00]  
+Kai Chen	no
+
+[11:01]  
+Baohua Yang	https://gerrit.hyperledger.org/r/#/q/status:open+project:fabric-sdk-py
+
+[11:01]  
+OK, the list is here
+
+[11:01]  
+Let’s review following time order
+
+[11:01]  
+1697: https://gerrit.hyperledger.org/r/#/c/1697/
+
+[11:02]  
+I suggest to abandon this first, it’s not mergeable now
+
+[11:02]  
+Kai Chen	agree
+
+[11:02]  
+Latitia Haskins	agree
+
+[11:02]  
+Kai Chen	we can do that later
+
+[11:03]  
+Latitia Haskins	(sorry that I’m late)
+
+[11:03]  
+Baohua Yang	@lhaskins good to have u here :slightly_smiling_face:
+
+[11:03]  
+today we will focusing on review existing patchset
+
+[11:03]  
+Kai Chen	if we need distinguish internal and user log
+
+[11:03]  
+Baohua Yang	https://gerrit.hyperledger.org/r/#/q/status:open+project:fabric-sdk-py
+
+[11:04]  
+yes? @grapebaba
+
+[11:04]  
+so we kept patchset @1697 now?
+
+[11:05]  
+Kai Chen	abandon at this point
+
+[11:05]  
+just follow requests library style right now
+
+[11:06]  
+Baohua Yang	OK, abandoned
+
+[11:06]  
+next one: https://gerrit.hyperledger.org/r/#/c/2089/
+
+[11:06]  
+@gengjh jianhua has comments on @seego ‘s patchset
+
+[11:07]  
+Kai Chen	yes
+
+[11:07]  
+Latitia Haskins	It looks like there are still some outstanding changes that need to be made
+
+[11:07]  
+Kai Chen	need a little change
+
+[11:07]  
+Baohua Yang	we do not have @gengjh i guess
+
+[11:07]  
+but he gave +1 on this.
+
+[11:07]  
+i suggest we may merge it first, and refine later. how do u think
+
+[11:08]  
+Kai Chen	agree
+
+[11:08]  
+Latitia Haskins	agree
+
+[11:08]  
+Baohua Yang	@lhaskins @grapebaba  please give +1 or +2
+
+[11:08]  
+thanks
+
+[11:09]  
+merged
+
+[11:09]  
+next one: https://gerrit.hyperledger.org/r/#/c/2351/
+
+[11:10]  
+Latitia Haskins	I still have to make changes per the latest comments
+
+[11:10]  
+Baohua Yang	see several comments from @grapebaba
+
+[11:10]  
+yes, @lhaskins please help submit a new change
+
+[11:11]  
+is that ok?
+
+[11:11]  
+Kai Chen	i go through the node code
+
+[11:11]  
+Latitia Haskins	yes - will do
+
+[11:11]  
+Kai Chen	it seems they make it more complex
+
+[11:12]  
+in my mind this may be not need
+
+[11:13]  
+Baohua Yang	which one is not needed?
+
+[11:13]  
+Latitia Haskins	ah. do you propose that this change is abandoned?
+
+[11:14]  
+I was thinking that we could set defaults here, but maybe you have something else in mind?
+
+[11:15]  
+Baohua Yang	what’s your opinion, kai?
+
+[11:15]  
+i guess this base class model should be fine in python
+
+[11:16]  
+Kai Chen	it should composition
+
+[11:16]  
+and a factory function is enough
+
+[11:17]  
+Baohua Yang	maybe that design is too complex for just two classes here?
+
+[11:17]  
+Kai Chen	the purpose is only construct a grpc channel
+
+[11:17]  
+Baohua Yang	i suggest you talk to latitia offline, to a better solution.
+
+[11:17]  
+is that ok?
+
+[11:18]  
+Kai Chen	ok
+
+[11:18]  
+actually, i already make that in my patchset
+
+[11:18]  
+Baohua Yang	https://gerrit.hyperledger.org/r/#/c/2019/
+
+[11:18]  
+also from @seego
+
+[11:18]  
+lei li	yes
+
+[11:19]  
+Kai Chen	@lhaskins after you reviewd, we can make an agreement
+
+[11:19]  
+Baohua Yang	Seems there’s several extra spaces in the file, and ci fails
+
+[11:19]  
+great we have you here @seego
+
+[11:19]  
+i suggest you remove those useless spaces and make a new change, how do you think?
+
+[11:20]  
+@hgabor also give a comment
+
+[11:20]  
+lei li	atually, i make another patchset to make the ci pass
+
+[11:20]  
+Baohua Yang	oh, really? i didnt notice
+
+[11:21]  
+Kai Chen	yes
+
+[11:21]  
+Baohua Yang	then you can abandon this
+
+[11:21]  
+Kai Chen	which  we just reviewd
+
+[11:21]  
+Baohua Yang	aha, found that
+
+[11:21]  
+lei li	ok
+
+[11:21]  
+Baohua Yang	ok, please abandon this 2019
+
+[11:21]  
+lei li	thks
+
+[11:21]  
+Baohua Yang	next one: https://gerrit.hyperledger.org/r/#/c/2457/
+
+[11:22]  
+any comments on it?
+
+[11:22]  
+Latitia Haskins	It looks like it’s still being worked on?
+
+[11:22]  
+Baohua Yang	@grapebaba
+
+[11:23]  
+there’s WIP flag
+
+[11:23]  
+Kai Chen	yes
+
+[11:23]  
+need test
+
+[11:23]  
+Baohua Yang	ok, when is planed to be OK for review
+
+[11:23]  
+Kai Chen	i need mock a grpc server to test
+
+[11:23]  
+Baohua Yang	cool
+
+[11:24]  
+Kai Chen	not sure
+
+[11:24]  
+Baohua Yang	ok, let’s keep it in wait list
+
+[11:24]  
+and next one: https://gerrit.hyperledger.org/r/#/c/2283/
+
+[11:24]  
+please help add your points or comments
+
+[11:25]  
+from @gengjh
+
+[11:25]  
+i saw all positive points
+
+[11:25]  
+Kai Chen	can merge
+
+[11:25]  
+Baohua Yang	so we can merge?
+
+[11:25]  
+OK
+
+[11:25]  
+merged
+
+[11:25]  
+next: https://gerrit.hyperledger.org/r/#/c/2287/
+
+[11:26]  
+from @gengjh  too
+
+[11:26]  
+aha, seems can merge, too
+
+[11:26]  
+Kai Chen	yes
+
+[11:26]  
+Baohua Yang	@lhaskins @seego how do u think?
+
+[11:26]  
+Latitia Haskins	yes
+
+[11:27]  
+Baohua Yang	ok, merged
+
+[11:27]  
+next: https://gerrit.hyperledger.org/r/#/c/2089/
+
+[11:27]  
+from @seego
+
+[11:27]  
+aha, can it merge with all positive comments?
+
+[11:28]  
+Latitia Haskins	yes
+
+[11:28]  
+Baohua Yang	@grapebaba
+
+[11:28]  
+Will merge it later, and the authors please help update the status on jira task board.
+
+[11:29]  
+OK, any more issues to discuss today?
+
+[11:29]  
+OK, if no issues
+
+[11:30]  
+then let’s end the meeting, thanks everyone, and have a nice weekend!
+
+new messages
+[11:30]  
+Latitia Haskins	you too!
+=== Meeting End ===
+```

@@ -1,0 +1,13 @@
+===== Current state analysis =====
+[[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]] : [[analysis-business|Domain analysis]] : [[analysis-human-milk|Human milk services]]
+----------
+
+==== Service-oriented analysis ====
+
+  * [[current-state-human-milk-services|Current state : Human milk services]] 
+    * [[current-state-perinatal-services|Current state : Perinatal services]]
+    * [[current-state-milk-donor-services|Current state : Human milk donor services]]
+    * [[current-state-milk-bank-management-services|Current state : Milk bank management services]]
+
+
+

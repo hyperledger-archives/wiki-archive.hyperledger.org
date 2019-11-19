@@ -1,0 +1,50 @@
+===== Domain analysis : Human milk services =====
+[[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]] : [[analysis-business|Domain analysis]]
+----------
+
+  * Participants : [[patient-swg|Patient SWG]]
+    * Meeting minutes : [[np4|20-JUL]], [[np1|27-JUL]], [[np2|03-AUG]], [[np17|17-AUG]], [[2018_08_31_patient_hcwg|31-AUG]], [[2018_09_14_patient_hcwg|14-SEP]]
+  * Business case : [[business-case-human-milk-services|Human milk services business case]]
+  * Technical solution : [[human-milk-poc|Human Milk POC]] ([[donor_milk_transparency_and_traceability|Proposal]]) ([[https://github.com/hyperledger-labs/milk-donor|Code repository]]) ([[https://jira.hyperledger.org/projects/MDL/summary|JIRA project]])
+
+
+----------
+
+==== Data collection activities ====
+
+  * [[data-collection-interviews|Interviews]]
+    * [[Naomi Bar Yam]] : [[mothers-milk-bank-ne|Mothers Milk Bank NE]]
+      * Transcripts : [[np17|17-AUG-18]], [[2018_08_31_patient_hcwg|31-AUG-18]]
+    * [[Pam Erickson]]
+      * Summary : [[interview-PamErickson-27-SEP-18|Pam Erickson, Interview, 27-SEP-18]]
+
+
+----------
+
+==== Analysis and modeling activities ====
+
+  * [[Evidence review & synthesis]]
+  * [[Current state analysis]] : [[current-state-human-milk-services|Human milk services current state]]
+  * [[Policy analysis]] : [[Summary of HMBANA guidelines]]
+  * [[Market analysis]] : [[Human milk services market]]
+  * [[Competitor analysis]]
+  * [[SWOT analysis]]
+  * [[Causal analysis]]
+  * [[Predictive analysis]]
+  * [[System analysis & modeling]] : [[Human milk services catalog]], [[Human milk services model]]
+
+
+==== Analysis resources ====
+
+  * [[Summary of HMBANA guidelines]]
+  * [[Human milk services catalog]]
+  * [[Human milk services model]] 
+    * [[human-milk-services-participants|Service participants]]
+    * [[human-milk-services-workflows|Service workflows]]
+    * [[human-milk-services-resources|Service resources]]
+    * [[human-milk-services-contexts|Service contexts]]
+    * [[human-milk-services-policies|Service policies]]
+    * [[human-milk-services-metrics|Service metrics]]
+  * [[current-state-human-milk-services|Human milk services current state]] 
+  * [[Human milk services market]]
+

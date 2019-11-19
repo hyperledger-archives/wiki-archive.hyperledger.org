@@ -1,0 +1,39 @@
+====== Calendar of Public Meetings ======
+
+===== Technical Steering Committee (TSC) - Meets Weekly Thursdays =====
+
+The [[groups:tsc:technical-steering-committee|TSC]] meets **weekly on Thursdays 10:00am – 11:30am ET** / 15:00-16:30 UTC.
+
+Please join meetings from your computer, tablet or smartphone at: [[https://www.gotomeeting.com/join/613310429]], or dial in using your phone:
+US (toll-free): +1-877-309-2070 US: +1-312-757-3119 //Access Code: 613-310-429//
+
+You can also join the [[https://chat.hyperledger.org/channel/tsc|RocketChat #tsc channel]].
+
+===== Open Community Meetings =====
+
+Following is a calendar of community meetings. 
+
+https://calendar.google.com/calendar/embed?src=linuxfoundation.org_nf9u64g9k9rvd9f8vp4vur23b0%40group.calendar.google.com&ctz=US/Arizona
+
+Modify the //ctz// parameter to view the calendar in your local time zone. Options for time zone can be found in the **TZ** column of [[https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List]].
+
+===== Discontinued Meetings =====
+
+==== Protocol WG - Mailing List ====
+
+This meeting has been replaced by the http://lists.hyperledger.org/g/hyperledger-technical-discuss mailing list. \\
+Working document: https://wiki.hyperledger.org/groups/protocol/protocol-wg.md  \\
+Contact: Binh Nguyen, IBM  
+
+==== Fabric Project Technical Planning - Mailing List ====
+
+This meeting has been replaced by the http://lists.hyperledger.org/g/fabric mailing list. \\
+Contact: Binh Nguyen, IBM 
+
+==== Fabric SDK Specification Meeting ====
+
+Please refer to the [[/groups/fabric-sdk/fabric-sdk-wg#meetings|Fabric SDK page]]
+
+==== Technical Working Group in China ====
+
+Please refer to the [[/groups/tsc/technical-working-group-china#meetings| TWGC page]]

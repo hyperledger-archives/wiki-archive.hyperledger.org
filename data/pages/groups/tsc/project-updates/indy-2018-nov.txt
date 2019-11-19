@@ -1,0 +1,325 @@
+====== Hyperledger Project Update ======
+
+
+===== Project =====
+==Distributed Ledger==
+
+  * [indy-node](https://github.com/hyperledger/indy-node)
+  * [indy-plenum](https://github.com/hyperledger/indy-plenum)
+
+==Client Tools==
+
+  * [indy-sdk](https://github.com/hyperledger/indy-sdk)
+  * [indy-agent](https://github.com/hyperledger/indy-agent)
+
+==Shared Components==
+
+  * [Indy-hipe](https://github.com/hyperledger/indy-hipe)
+  * [Indy-test-automation](https://github.com/hyperledger/indy-test-automation)
+  * [indy-crypto](https://github.com/hyperledger/indy-crypto)
+
+=====Project Health=====
+
+As planned, the contributors to Hyperledger Indy spent this past quarter working on three key initiatives:
+
+  - Hardening the ledger so that it is ready for widespread usage,
+  - Improving the developer experience when using the SDK, 
+  - Maturing reference agents so that they are usable by new participants in the ecosystem.
+
+These three efforts have yielded significant results:
+
+  - This week the Sovrin network is being upgraded to the latest release of Indy Node. It is now ready for production identity projects. The government of British Columbia is immediately expected to go live with their project.
+  - Evernym has contributed their verifiable credentials exchange library (libVCX) to the Indy SDK, making it significantly easier to build solutions that leverage Indy credentials. libVCX works against a demonstration cloud agent, and work has begun to evolve that communication to interoperate with the other Indy reference agents.
+  - Significant work has been done on standardizing the agent connection protocol, including the implementation of a test suite that can be used to demonstrate compatibility between agents. In addition, the organizational agent contributed by British Columbia is maturing into a sub-project of Hyperledger Indy that we are calling Hyperledger Indy Catalyst.
+
+Other important outcomes this quarter:
+
+  * The CI / CD pipeline for the Indy projects is now significantly more robust. The Android, iOS, and Windows builds are no longer exclusively hosted by Evernym, but are also being hosted by the Sovrin Foundation.
+  * The hackfest that coincided with the Hyperledger Member Summit in Montreal was well attended, as were the Indy demonstration sessions at the Internet Identity Workshop.
+  * Indy’s interests were well represented in the Verifiable Credentials Working Group at the W3C TPAC in Lyon.
+  * Indy’s codebase has surpassed 15,000 commits from 131 unique contributors.
+  * The Indy team has been working with other Hyperledger teams to establish the indy-crypto library as a shared Hyperledger library called Ursa. We now need to migrate to this new library.
+  * New interesting use cases for Indy are being developed.
+
+One exciting Indy solution is Cordentity, which is developed through a collaboration with Luxoft and Tieto.
+
+"Cordentity is a self-contained CorDapp identity service that integrates Hyperledger Indy, for decentralized identity, with the R3 Corda Platform. This project creates interoperability of two purpose-built ledger technologies, each with a focus on privacy. Corda is designed to enable private transactions and Indy is a ledger built specifically for self-sovereign identity."
+
+More details are available [in R3’s solution marketplace](https://marketplace.r3.com/solutions/Cordentity/d680ac65-cb41-450c-950c-21c646b19384?referrer=featured-card).
+
+Another exciting Indy solution is being pursued by the BC Government:
+
+"The Verifiable Organizations Network (VON) envisions globally available Hubs that bootstrap Self-Sovereign Identities by making it easy for Issuers of authoratitive credentials - especially governments - to issue and use Verifiable Credentials. Built on top of Hyperledger Indy technology, VON empowers Governments, organizations and individuals to benefit from being associated with trustworthy sources of data and the ability to exchange this data in trustworthy ways.
+The BC Government would like to solidify the VON model, code and business processes as a sub-project of Hyperledger Indy called "Hyperledger Indy Catalyst". Instances of HL Indy Catalyst operated in jurisdictions around the world will drive the supply side of the Verifiable Credential (VC) ecosystem by enabling Government (and other permitted) Services to Issue and Verifier VCs as a form of digital Licenses, Permits and Registrations before Digital Wallets become commonplace. With a robust supply side, the demand for VCs will grow as organizations and individuals understand the utility of holding and using digital versions of the Licenses, Permits and Registrations that they currently receive only in (easily forged) printed form." 
+
+===== Issues =====
+
+Most of the concerns raised in our last report still exist, and we will continue our efforts to address them.
+
+====Meet the needs of a diverse set of contributors====
+
+Coordination between teams has been difficult at times, slowing progress in some aspects of development
+
+//Progress made://
+
+  * Contributors have collaboratively created twelve [Hyperledger Indy Project Enhancement](https://github.com/hyperledger/indy-hipe) (HIPE) documents, codifying areas of the project such as maintainer procedures, the key git repositories, encryption, message types, wallets, and the agent test suite.
+  * We have consistently held coordination calls between maintainers from different organizations who are contributing to Indy as a whole, Indy SDK, Indy Agents, and Indy Overlays.
+
+//Further remediation planned://
+
+  * We need another round of updating the shared [roadmap](https://wiki.hyperledger.org/projects/indy/roadmap) which shows the roadmaps of the various organizations contributing to the project.
+  * We need to diversify the contributions to the core ledger by encouraging other teams to step up to match the investment made by Evernym’s team.
+  * Embedding developers from multiple organizations into the same sprint team to meet specific development goals
+
+====Ensure quality releases for downstream users====
+
+This upgrade of the Sovrin network is the first in six months. The delay is due to concerns about the quality of the Indy releases, and the effort required to upgrade due to changes that are not backwards compatible.
+
+//Progress made://
+
+  * Recently the team has given significant focus to testing Indy Node for scalability and performance, resulting in a lot of bug fixes and refactoring for maintainability.
+  * The team has identified places where the algorithms for view change and catch-up can fail. We have started researching possible solutions to these concerns.
+  * The team has been using new tools for automated testing (indy-chaos framework).
+  * Improvements in the CI / CD pipeline should provide more reliable releases with consistent versions of components.
+
+//Further remediation planned://
+
+  * The Indy team will continue to focus on providing releases that can be immediately deployed downstream.
+  * The team is being more deliberate about preserving backwards compatibility.
+  * We are launching a formal research project to design a "ledger 2.0", including representatives from many organizations within our community..
+
+====Inconsistent documentation====
+
+The lack of quality documentation remains a significant obstacle for many of those interested in working with Indy. Many contributors have included documentation with their work; however, this documentation sometimes does not match the existing documentation or is not easily found.
+
+//Progress made://
+
+  * In the past quarter we did not make the progress on documentation that we had hoped. The member of our community who volunteered to lead this effort ended up changing employers. We need to renew our efforts to improve things this quarter.
+  * However, members of our community did assemble a set of "getting started" resources that will be helpful to new developers.
+  * We also have a HIPE drafted to establish documentation guidelines, but it has not yet completed review.
+
+//Further remediation planned://
+
+  * Publish the getting started resources somewhere that is publicly and likely to be found.
+  * Consolidating redundant documentation and reworking it for different user levels.
+  * Proof-of-concept implementation for publishing documentation to a shared site (Read The Docs).
+
+====Minimize the onboarding burden for both developers and users====
+
+The learning curve for new developers is currently very steep.
+
+//Progress made://
+
+  * We have made significant progress, but our improved SDK and reference agents are not yet ready to be released.
+
+//Further remediation planned://
+
+  * Release an SDK containing libVCX, which is a higher level API for credential exchange.
+  * Release a reference cloud agent, a reference mobile edge agent, and other agents that can be used as starting points for solution developers.
+
+====Incompatible agent implementations====
+
+Efforts are ongoing to increase interoperability between existing agent implementations and future implementations.
+
+//Progress made://
+
+  * A common repository is established where we can create a set of intercompatible reference agents.
+  * A HIPE has been accepted defining many parts of Agent to Agent communication.
+  * A canonical test suite has been started. It will verify that a new agent follows the established communication protocol
+
+//Further remediation planned://
+
+  * Continue standardizing agent to agent communication.
+  * Mature the agent test suite.
+
+====Measuring the size and make-up of our user community====
+
+We don’t currently have good data on the usage of Indy by organizations deploying Indy networks or by developers creating solutions
+
+//Progress made://
+
+  * We have not yet made significant progress on this problem.
+
+//Further remediation planned://
+
+  * Working with Hyperledger to get analytics about GitHub project usage, web sites, Rocket Chat usage
+  * Begin measuring usage of the Sovrin forums: new contributors, questions asked, and questions answered
+
+====Build Issues====
+
+The CI/CD pipelines were made after projects had code, so each pipeline was building each of their own dependencies instead of leveraging the dependencies’ own builds. Hyperledger CI / CD infrastructure for client builds on iOS, Android, Windows, and Mac OSX have been insufficient.
+
+//Progress made://
+
+  * The version numbers of each dependency have been audited to ensure that they are pulling the most recent stable versions and that all builds are using the same versions.
+
+//Further remediation planned://
+
+  * CI/CD pipelines will target prebuilt dependencies instead of building them from source.
+  * CI/CD pipelines will be put in place first before additional code changes are made.
+  * Client libraries and reference agents will be built at the Sovrin Foundation.
+
+===== Releases =====
+
+====August 2018:====
+
+==Indy SDK 1.6.3==
+
+  * Improvements to the LibIndy Wallet API.
+  * Updates to the BLS key proof of possession.
+  * Bugfixes.
+
+==Indy SDK 1.6.4==
+
+  * API type checking.
+  * Fixes for the Android builds.
+
+==Indy Node 1.6.70==
+
+  * Fundamental improvements to stability.
+
+==Indy Node 1.6.71==
+
+  * Various bug fixes for improved stability.
+
+====September 2018:====
+
+==Indy SDK 1.6.5==
+
+  * Improved performance on Android.
+  * Made submitter_did an optional field.
+
+==Indy Node 1.6.73==
+
+  * Fixes to improve stability.
+  * Fixes to the upgrade process.
+
+====October 2018:====
+
+==Indy SDK 1.6.6==
+
+  * More work to improve the Android builds.
+  * Switch Rust compiler version.
+
+==Indy SDK 1.6.7==
+
+  * Supported setting fees in did rotate-key CLI command.
+  * Supported hexadecimal seed for did and key creation.
+  * Removed TGB role.
+  * Added EXPERIMENTAL Rust wrapper for Libindy.
+  * Bugfixes.
+
+==Indy Node 1.6.78==
+
+  * Fixes to improve performance and stability.
+
+===== Overall Activity in the Past Quarter =====
+
+==General==
+
+  * See the notes above regarding progress made on key issues.
+
+==Indy Node==
+
+  * Significant focus on performance and stability.
+  * Started research into a future ledger architecture.
+
+==Indy SDK==
+
+  * New logging API.
+  * Integrating LibVCX into the Indy SDK.
+  * Rust wrapper.
+
+==Indy Agent==
+
+  * Many HIPEs moved to accepted status:
+    * Message Types
+    * Message Structure
+    * Cross-domain Messaging
+  * Significant iterations on and discussion surrounding the following HIPEs:
+    * Connection Protocol
+    * Message Threading
+    * Agent message encryption and Serialization (Kyle Den Hartog)
+    * Forward Secrecy in Agent Messaging
+  * Significant contributions from Linux Foundation Intern, Kuzma Leshakov, in Python Reference Agent
+  * Increased collaboration with new contributors in the community (Unveil)
+  * Dockerization efforts from Stephen Curran
+
+===== Current Plans =====
+
+Additional organizations are making ongoing contributions. This is shown by the shared [Running Roadmap](https://wiki.hyperledger.org/projects/indy/roadmap) for Hyperledger Indy.
+
+==General==
+
+  * Proposal for incubation status graduation
+  * Continue to refine documentation
+    * Migrate consumer-oriented documentation to ReadTheDocs.io
+    * Consolidate documentation for onboarding contributors
+  * Improve onboarding process for new developers
+    * Identify beginner tasks
+    * Provide examples
+    * Produce more videos
+  * Network stability of the first production deployment (Sovrin)
+
+==Indy Node==
+
+  * Consume official builds of Hyperledger Ursa (the shared crypto-lib), as they are approved.
+  * Further improvements to automated testing.
+  * Research into Ledger 2.0
+    * Improve stability and performance of View Change, Catch-up, and Replication
+    * Establish a cache for reads, such as observer nodes
+  * Broader OS support
+
+==Indy SDK==
+
+  * Consume official builds of Hyperledger Ursa (the shared crypto-lib), as they are approved.
+  * Release libVCX
+  * Broader OS support
+
+==Indy Agent==
+
+  * Standardizing agent-to-agent protocol through agent test suite
+  * Tests associated with each major aspect of the protocol
+  * Multiple interoperable agents in the community
+  * Continuing functionality improvements in Python reference agent
+  * Addition of a reference cloud agent.
+  * Contributing a reference mobile agent to the Sovrin Foundation.
+
+===== Maintainer Diversity =====
+
+Indy maintainers remain active in developing and contributing to working group calls and public discussions. The bi-weekly Indy Maintainers Circle call has consistently been the medium by which maintainers coordinate work, discuss critical issues to the Indy codebase, and resolve HIPEs. The Indy Agent call has grown significantly, and the Overlays Working Group continues to receive a lot of interest.
+
+===== Contributor Diversity =====
+
+Hyperledger Indy continues to see contribution from developers and organizations around the world. Our weekly Working Group call is normally attended by two dozen people representing nearly a dozen organizations.
+
+====POCs, Pilots, Projects====
+
+==Sovrin==
+
+[http://www.sovrin.org](http://www.sovrin.org/)
+
+Sovrin is the first instantiation of the Indy codebase and is currently moving from the provisional network phase of development to production usage.
+
+==Verifiable Organizations Network==
+
+[https://von.pathfinder.gov.bc.ca](https://von.pathfinder.gov.bc.ca/)
+
+The Province of British Columbia, the Government of Ontario, and Public Services and Procurement Canada are nearly ready to launch their trusted digital network of verifiable data about organizations.
+
+==Brigham Young University==
+
+[https://www.byu.edu/](https://www.byu.edu/)
+
+The University is building an agent to manage student credentials throughout their experience at the university.
+
+==Evernym==
+
+[https://www.evernym.com/](https://www.evernym.com/)
+
+Evernym is creating applications that will make it easy for organizations and users to issue, hold, and verify credentials through the Sovrin network.
+
+===== Additional Information =====
+
+  * Join the Indy Mailing List: [https://lists.hyperledger.org/g/indy](https://lists.hyperledger.org/g/indy)
+  * Join the Indy Working Group Calls: every Thursday 8am PT, 9am MT, 11am ET, 4pm BST (Join from PC, Mac, Linux, iOS or Android: [https://zoom.us/j/232861185](https://zoom.us/j/232861185))

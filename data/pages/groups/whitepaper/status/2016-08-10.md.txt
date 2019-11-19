@@ -1,0 +1,13 @@
+# Whitepaper WG Status 2016 Aug 10
+* Present: Mic, Murali, Stefan, Ram, Hart, Dave; Regrets: Nick, Renat, Tamas
+* Review of feedback submissions... no feedback 
+* Discussion on Latex version of whitepaper
+   * Ask Todd for space in HLP github for housing the latex version of the whitepaper
+   * We'll start with creating an outline of the paper
+   * We'll write some descriptive text on our whitepaper wiki explaining our Latex strategy
+* Reviewed and resolved remaining (internal) comments on the whitepaper
+* Discussed additions to the Glossary... Mic and Hart to work on "Blockchain" and "Distributed Ledger" glossary definitions.
+* Discussed next steps, strategy for getting additional input/feedback
+   * Add this topic to the HLP TSC agenda
+   * Request explicit feedback from TSC members on distributing to HLP Board for review and approval
+   * Request Linux Foundation help in exposing the whitepaper

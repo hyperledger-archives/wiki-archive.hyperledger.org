@@ -1,0 +1,14 @@
+==== Retired Volunteers ====
+These are volunteers who have made contributions in community, but are not active in recent 3 months. Those volunteers can be nominated to active again after returning to the working status for 1 month.
+
+^ Name             ^ Organization            ^ Email                         ^ Location  ^
+| 蔡栋(Charles Cai)   | Wanda         | charlescai@wanda.cn   | Shanghai  |
+| Zhoudong Ji      | Wanda                   | jizhoudong@wanda.cn           | Shanghai  |
+| Kewei Sun        | IBM                     | sunkewei@cn.ibm.com           | Beijing   |
+| Ray Chen         | Independent             | oldsharp@gmail.com            | Hangzhou  |
+| Yanbo Li         | Onchain                 | liyanbo@onchain.com           | Beijing   |
+| Zhou Xing        | IBM                     | xingzhou@cn.ibm.com           | Beijing   |
+| Wenjie Xie       | ChainNova               | xiewenjie@chainnova.com       | Beijing   |
+| Qilei Li         | HyperChain              | liqilei@hyperchain.cn         | Hangzhou  |
+| Linsheng Yu      | ChainNova               | yls@chainnova.com             | Beijing   |
+| 胡瑞丰(Victor Hu)    | Huawei        | huruifeng@huawei.com  | Nanjing  |

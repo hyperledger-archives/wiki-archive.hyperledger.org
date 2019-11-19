@@ -1,0 +1,32 @@
+1472910581	173.49.203.195	C	test_migration	jeremys	created	
+1472911234	173.49.203.195	e	test_migration	jeremys	_ italics _ --> // italics //	
+1472911361	173.49.203.195	E	test_migration	jeremys		
+1472913179	173.49.203.195	e	test_migration	jeremys	# title/header --> = title/header =	
+1472913330	173.49.203.195	e	test_migration	jeremys	[Table] remove github wiki table row header indicator	
+1472913562	173.49.203.195	e	test_migration	jeremys	removed github wiki table header row separators	
+1472914304	173.49.203.195	e	test_migration	jeremys	Partial recreation of github wiki table with spanning cells	
+1472914713	173.49.203.195	e	test_migration	jeremys	[Table] Migrated vertical spanning cell	
+1472915851	173.49.203.195	e	test_migration	jeremys	process hierarchy table format migration from github wiki 	
+1472915953	173.49.203.195	e	test_migration	jeremys	user stories table header format migrated from github wiki	
+1472916465	173.49.203.195	e	test_migration	jeremys	business process user stories table header formatting migrated from github wiki	
+1472916658	173.49.203.195	e	test_migration	jeremys	SLA table header format migrated from github wiki format	
+1472917380	173.49.203.195	e	test_migration	jeremys	[Business Requirements] migrated hierarchical list structure format from github wiki	
+1472917661	173.49.203.195	e	test_migration	jeremys	[Service-Level Agreements] migrated implied headers and explicit lists from github wiki format	
+1472917722	173.49.203.195	e	test_migration	jeremys	[Service-Level Agreements] missing colon	
+1472917917	173.49.203.195	e	test_migration	jeremys	[Data Protection and Record Retention] migrated list hierarchy format from github wiki	
+1472918307	173.49.203.195	e	test_migration	jeremys	[Assumptions] migrated hierarchical list format and word bolding over from github wiki format	
+1472918655	173.49.203.195	e	test_migration	jeremys	[External References] switched list format from github wiki to this wiki's format	
+1472919459	173.49.203.195	e	test_migration	jeremys	[External References] migrated format of hyperlinks from github format to docuwiki format	
+1472919615	173.49.203.195	e	test_migration	jeremys	[Open Items (Partial List)] migrated hierarchical list format from github format to docuwiki format	
+1472919731	173.49.203.195	e	test_migration	jeremys	[Business Process - User Stories] migrated list format from github to docuwiki format	
+1472921929	173.49.203.195	E	test_migration	jeremys		
+1472922133	173.49.203.195	e	test_migration	jeremys	Updated formatting/text of migration	
+1473953398	137.48.185.230	E	test_migration	GeorgLink	add regex replace to ease transition	
+1477343735	209.122.234.108	E	test_migration	jeremys	Amended - added 5A, 5C bullet regexps	
+1478010061	209.122.234.108	E	test_migration	jeremys	moved dvp content to its own page	
+1478032778	209.122.234.108	E	test_migration	jeremys	added section seperators	
+1478034360	209.122.234.108	E	test_migration	jeremys	amend - reformat for easier reading and better regex cut & paste	
+1478099521	209.122.234.108	E	test_migration	jeremys	Amend - added footnote conversion	
+1478099634	209.122.234.108	E	test_migration	jeremys	Amend - added 3. Tables D)	
+1478099856	209.122.234.108	E	test_migration	jeremys	Amend - added 3. Tables E)	
+1497919362	173.22.224.10	D	test_migration	tkuhrt	Moved to wiki:migration	

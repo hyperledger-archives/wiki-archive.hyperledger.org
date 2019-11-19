@@ -1,0 +1,69 @@
+===== TWG China Meeting =====
+
+==== Date ====
+10AM ~ 11AM, 2017-08-30, GMT+8
+
+[[https://www.uberconference.com/hyperledger-community | uberconference]]
+  * option 1: Use the computer audio to connect in (Recommend using microphone and headset)
+  * option 2: Dial in using the phone number at the website, e.g., +1 480-757-9435 (No local number support now)
+
+==== Attendee ====
+
+**Pls add ur name here before the meeting.**
+
+  * Baohua Yang
+  * Zhou Xing
+  * Linsheng Yu
+  * Zhangjiong Xuan
+  * Jay Guo
+  * Leon Liang
+  * Butine Huang
+  * Zhenhua Dong
+  * Allen Shao
+  * Zhangjiong Xuan
+
+==== Agenda ====
+  - TSC meeting sync
+    - TSC election done, and result is [[https://lists.hyperledger.org/g/tsc/message/1057 | here]].
+    - [[https://www.regonline.com/hyperledgerhackfestseptember2017 | Hackfest in Chicago, September 21&22]]
+  - [[groups/twgc/team_di | Team development and Innovation]] (Yaoguo and Ray Chen)
+    - Code development on projects
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Linsheng Yu, Jiannan Guo)
+    - Transifex evaluation result.
+    - Github solution evaluation（https://hyperledgercn.github.io/hyperledgerDocs/）.
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin, Haixu Cheng)
+    - [[https://wiki.hyperledger.org/groups/twgc/team_cs|case collection ]] sharing
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Zhou Xing and Zhoudong Ji)
+    - Meetup at Beijing: [[http://www.huodongxing.com/event/1398659377000|Hyperledger Meetup]]
+    - Meetup for September, call for sponsors.
+  - other issues
+    - Fabric crypto technical report for SEMB (Zhenhua Dong)
+    - Where to get help on technical questions (Haixu Cheng)
+
+
+==== Minutes ====
+
+  - TSC meeting sync
+    - TSC election done, and result is [[https://lists.hyperledger.org/g/tsc/message/1057 | here]].
+    - [[https://www.regonline.com/hyperledgerhackfestseptember2017 | Hackfest in Chicago, September 21&22]]
+    - Hyperledger Member Summit at Singapore, Nov.
+  - [[groups/twgc/team_di | Team development and Innovation]] (Yaoguo and Ray Chen)
+    - Code development on projects
+    - Fabric release v1.0.1 (bug fix)
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Linsheng Yu, Jiannan Guo)
+    - Transifex evaluation result.
+    - Github solution evaluation（https://hyperledgercn.github.io/hyperledgerDocs/）.
+    - **TODO: Linsheng/Jiannan will help send out the proposal/plan on the i18n process**
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin, Haixu Cheng)
+    - [[https://wiki.hyperledger.org/groups/twgc/team_cs|case collection ]] sharing
+    - **TODO: Haixu will help add more user cases from IBM.**
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Zhou Xing and Zhoudong Ji)
+    - Meetup at Beijing: [[http://www.huodongxing.com/event/1398659377000|Hyperledger Meetup]]
+    - Meetup for September, call for sponsors. 
+    - **TODO: Zhou/Jiannan will help evaluate and build up regular meetup plan.**
+  - other issues
+    - fabric crypto technical report for SEMB (Zhenhua Dong)
+      - **TODO: Zhenhua will share out doc links for review/comments**
+    - Where to get help on technical questions (Haixu Cheng)
+      - **TODO: Jiannan help start a email thread to collect FAQ, and invite developers to help answer.**
+    - Hyperledger China website is under construction

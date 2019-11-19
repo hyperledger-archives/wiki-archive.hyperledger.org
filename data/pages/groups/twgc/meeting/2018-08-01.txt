@@ -1,0 +1,98 @@
+===== TWG China Meeting =====
+
+==== Basic Info ====
+10AM ~ 11AM, GMT+8 ([[/groups/twgc/meetings|Bi-weekly hosted]])
+
+  * Option #1: Use computer to access [[ https://zoom.us/my/hyperledger.community | zoom]] (Recommend using microphone and headset)
+  * Option #2: Dial in using the [[https://zoom.us/zoomconference?m=mTUdEBuT33gjEcR54Rqsi1KmFyNgSLYP|phone number]]. E.g.,	400 669 9381 or 010-87833177 (Premium Toll) for China area, code is 248676399.
+
+  * [[https://docs.google.com/presentation/d/1punUCr0mSZT9gMKCs3vCYqbWbjeS_RG-18ZrhkfwoYc/edit?ts=5a14dfdf | Antitrust Policy Notice]]
+  * [[/community/calendar-public-meetings | community meeting calendar ]]
+
+==== Attendee ====
+
+**Feel free to add ur name here to attend the meeting.**
+
+Attendee: 15
+
+  * Baohua Yang
+  * Scott Long
+  * Jay Guo
+  * Zhenhua Zhao
+  * Lidong Guo
+  * Hanyu
+  * Yanqing
+  * Vicky Wang
+
+
+==== Agenda ====
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - Recent Hackfest: [[https://www.regonline.com/hyperledgerhackfestoctober2018copy|October 3-4 | Montreal]]
+    - Hyperledger Member Summit on Oct 1~2 (every member company contact should have received the email invitation)
+    - Annual TSC Election [[https://docs.google.com/document/d/18YE2l4UZJry7LAcXCMnGQdQuCKuT5mfQS5IRetTeevI/edit|timing & process]] (nominations begin August 9th). **All contributors pls check if you're in the [[https://docs.google.com/spreadsheets/d/1-R43fMOia9P1JsFiSWe3wxkOmkzK_EM7HT2kmYNEn0M/edit#gid=31088272 | voting list]].**
+    - [[https://wiki.hyperledger.org/groups/tsc/wg-updates/technical-wg-china-2018-jul|TWG-China Quarterly Report]]
+    - [[https://wiki.hyperledger.org/groups/tsc/wg-updates/healthcare-wg-2018-jul|Healthcare WG Quarterly Report]]
+  - [[groups/twgc/team_di | Team development and Innovation]] (Zhangjiong Xuan, Yaoguo Jiang, Haitao Yue, Dijun Liu)
+    - [[groups/twgc/faq|Technical FAQ update]].
+    - [[https://wiki.hyperledger.org/groups/tsc/project-updates/iroha-2018-jul| Iroha Quarterly Update]]
+    - [[https://jira.hyperledger.org/browse/FAB-5496 | SM2 support]] by Zhenhua Dong, Dijun Liu
+    - [[https://jira.hyperledger.org/browse/FAB-6263 | MongoDB support]] by HuiQiang Li (oxchain)
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Lidong Guo, Jiang Lu, Xueting Zhou)
+    - [[groups/twgc/team_ie/guideline| i18n work guideline]]
+    - [[https://github.com/HyperledgerCN/fabric-docs-i18n| Fabric 1.1 documentation translation]] is ongoing, welcome more volunteers to join and contribute.
+    - Lidong and Jay's feedback on reusing existing result.
+    - TSC approve to use the Hyperledger Lab to host the repo. Take following action.
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yanqing Wang, Yin Cao, Kelvin)
+    - Call for member companies's blockchain applications and cases:[[https://wiki.hyperledger.org/groups/twgc/team_cs| China members and cases ]]
+    - Call for HL member news, will select to publish through official wechat channel. Feel free to contact TWGC(twg-china@lists.hyperledger.org).
+    - Community City Wechat groups(contact the admin to join): Beijing (a33443148), Shanghai (yudianbabasheng), Hangzhou (linalee1005), Dalian (cn8888898), Shenzhen (RichZhao), Wuhan (grapebaba), Hongkong(hwfighter1)
+    - [[https://wiki.hyperledger.org/groups/twgc/team_cs/members|LC3 conference slides published]].
+    - Discussed the university collaborations on TSC meeting. Need to follow up (Scott?).
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Jiannan Guo, Sheng Huang, Zhenhua Zhao, Kai Chen)
+    - [[groups/twgc/events/guideline| Meetup guideline]]
+    - **[[groups/twgc/team_eo| July summary and Call for Meetups in August]].** 
+      - Beijing: Peking Univ., July 21
+      - Hangzhou: Internet Finance City, Xixi Valley, July 15
+      - Shanghai: July 28, Fudan university
+      - Guangzhou:? 
+      - Shenzhen:?
+  - Other issues (Feel free to add here)
+    - Call for new TWG-China governing board candidate.
+    - Plan to cancel next meeting
+
+==== Minutes ====
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - Recent Hackfest: [[https://www.regonline.com/hyperledgerhackfestoctober2018copy|October 3-4 | Montreal]]
+    - Hyperledger Member Summit on Oct 1~2 (every member company contact should have received the email invitation)
+    - Annual TSC Election [[https://docs.google.com/document/d/18YE2l4UZJry7LAcXCMnGQdQuCKuT5mfQS5IRetTeevI/edit|timing & process]] (nominations begin August 9th). **All contributors pls check if you're in the [[https://docs.google.com/spreadsheets/d/1-R43fMOia9P1JsFiSWe3wxkOmkzK_EM7HT2kmYNEn0M/edit#gid=31088272 | voting list]].**
+    - [[https://wiki.hyperledger.org/groups/tsc/wg-updates/technical-wg-china-2018-jul|TWG-China Quarterly Report]]
+    - [[https://wiki.hyperledger.org/groups/tsc/wg-updates/healthcare-wg-2018-jul|Healthcare WG Quarterly Report]]
+  - [[groups/twgc/team_di | Team development and Innovation]] (Zhangjiong Xuan, Yaoguo Jiang, Haitao Yue, Dijun Liu)
+    - [[groups/twgc/faq|Technical FAQ update]].
+    - [[https://wiki.hyperledger.org/groups/tsc/project-updates/iroha-2018-jul| Iroha Quarterly Update]]. Welcome iroha team to help promote their technology in China.
+    - [[https://jira.hyperledger.org/browse/FAB-5496 | SM2 support]] by Zhenhua Dong, Dijun Liu
+    - [[https://jira.hyperledger.org/browse/FAB-6263 | MongoDB support]] by HuiQiang Li (oxchain)
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Lidong Guo, Jiang Lu, Xueting Zhou)
+    - [[groups/twgc/team_ie/guideline| i18n work guideline]]
+    - [[https://github.com/HyperledgerCN/fabric-docs-i18n| Fabric 1.1 documentation translation]] is ongoing, welcome more volunteers to join and contribute.
+    - Lidong and Jay's feedback on reusing existing result.
+    - TSC approve to use the Hyperledger Lab to host the repo. **Sally will follow up**.
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yanqing Wang, Yin Cao, Kelvin)
+    - Call for member companies's blockchain applications and cases:[[https://wiki.hyperledger.org/groups/twgc/team_cs| China members and cases ]]
+    - Call for HL member news, will select to publish through official wechat channel. Feel free to contact TWGC(twg-china@lists.hyperledger.org).
+    - Community City Wechat groups(contact the admin to join): Beijing (a33443148), Shanghai (yudianbabasheng), Hangzhou (linalee1005), Dalian (cn8888898), Shenzhen (RichZhao), Wuhan (grapebaba), Hongkong(hwfighter1)
+    - [[https://wiki.hyperledger.org/groups/twgc/team_cs/members|LC3 conference slides published]].
+    - Discussed the university collaborations on TSC meeting. **Scott will help follow up.**
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Jiannan Guo, Sheng Huang, Zhenhua Zhao, Kai Chen)
+    - [[groups/twgc/events/guideline| Meetup guideline]]
+    - **[[groups/twgc/team_eo| July summary and Call for Meetups in August]].** 
+      - Beijing: Peking Univ., July 21, Aug 25
+      - Hangzhou: Internet Finance City, Xixi Valley, July 15
+      - Shanghai: July 28, Fudan university
+      - Guangzhou: Aug 5
+      - Shenzhen: Aug 11
+      - Xian: Mid Aug
+    - Will have live video support!
+  - Other issues (Feel free to add here)
+    - Call for new TWG-China governing board candidate. **Baohua will send email to trigger the process.**
+    - Plan to cancel next meeting

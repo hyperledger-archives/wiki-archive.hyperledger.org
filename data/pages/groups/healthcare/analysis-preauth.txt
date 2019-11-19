@@ -1,0 +1,11 @@
+===== Domain analysis : Pre-authorization services =====
+[[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]] : [[analysis-business|Domain analysis]]
+----------
+
+  * Participants : [[payor-swg|Payor SWG]]
+  * Meeting minutes : [[np11|17-JUL]], [[np10|31-JUL]], [[np9|07-AUG]], [[np16|14-AUG]], [[2018_08_21_payer_notes|21-AUG]], [[2018_08_28_payor_notes|28-AUG]], [[2018_09_04_payor_hcwg|04-SEP]], [[2018_09_11_payor_hcwg|11-SEP]]
+  * Interviews
+    * [[Chris Cole]] : [[care-first|Care First]] 
+      * Interview : [[2018_08_28_payor_notes|28-AUG-18]]
+  * Business case : [[business-case-preauth-services|Pre-authorization services business case]]
+

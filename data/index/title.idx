@@ -1,0 +1,859 @@
+Welcome to the Hyperledger Wiki!
+Formatting Syntax
+
+DokuWiki
+
+Projects
+
+
+
+Hyperledger Project Code of Conduct
+
+Frequently Asked Questions (FAQ)
+
+Project Lifecycle
+Proposal Template for a Hyperledger Project
+Project Incubation Exit Criteria
+Proposals
+Scope
+Calendar of Public Meetings
+Technical Steering Committee
+Architecture Working Group
+Requirements Working Group
+Whitepaper Working Group
+
+
+
+
+
+
+
+Meetings 7 AM [ET]
+
+
+
+
+Hyperledger Fabric
+
+
+
+
+
+
+March 19th, 2018
+
+Use Case Title
+
+
+
+Fabric Chaintool
+
+
+
+
+
+
+
+Use Case Inventory
+Use Case - Trade Finance Letter of Credit
+
+Whitepaper WG Status 2016 Mar 25
+Whitepaper WG Status 2016 Apr 07
+Whitepaper WG Status 2016 Apr 13
+Whitepaper WG Status 2016 Apr 20
+Whitepaper WG Status 2016 Apr 27
+Whitepaper WG Status 2016 May 11
+Whitepaper WG Status 2016 May 18
+
+
+
+Whitepaper WG Status 2016 Jun 15
+Whitepaper WG Status 2016 Jun 22
+Whitepaper WG Status 2016 Jul 06
+Whitepaper WG Status 2016 Jul 20
+Whitepaper WG Status 2016 Aug 03
+Whitepaper WG Status 2016 Aug 10
+Whitepaper WG Status 2016 Aug 31
+Whitepaper WG Status 2016 Sep 07
+
+Functional Requirements for Corporate Actions Demo
+Identity Working Group
+I - Commons and Principles
+Requirements Document Template
+Requirements WG Members
+Requirements WG Minutes - April 7th, 2016
+Requirements WG Minutes - April 14th, 2016
+Requirements WG Minutes - April 21st, 2016
+Requirement WG Minutes - March 25th, 2016
+Whitepaper WG Status 2016 Oct 26
+
+
+
+Use Case for Post Trade - Settlement - Delivery vs Payment
+Use Case Art and Antique Trading
+Use Case Asset Depository
+Use Case - Asset Financing
+Use Case Certification
+
+
+Client Onboarding of a Buy-Side Fund by a Broker/Dealer
+Storing Clinical Trial Results
+
+Corporate Action
+Counterfeit drug prevention and detection
+Introduction
+Credit Default Swaps (CDS) Use Case
+Currency Swap Use Case
+Custody Use Case
+Dev Ops Use Case
+DMV Titles and Transfers Use Case
+
+Equity Contracts Use Case
+Escrow Payment Verification Use Case
+Financial Reference Data Use Case
+
+
+Use Case KYC
+Use Case Interest Rate Swap
+
+Luxury Goods Tracking Use Case
+Micro Lending Use Case
+Micro Payment Use Case
+
+Music Publishing Use Case
+
+
+Payments (Interbank) Use Case
+Use Case Peer-to-Peer Insurance
+Property Ownership Use Case
+Sensitive Record Tracking Use Case
+Shipping Manifest Use Case
+Supply Chain Logistics
+Syndicated Loan Use Case
+Trade Capturing Use Case
+Voting Use Case
+Identity WG Proposed Work Items
+
+Meeting Start
+Meeting Start
+Use Case for Supply Chain Requirements
+
+
+
+
+
+
+
+Meeting Start
+TWG China Group Meeting
+Meeting Start
+
+
+TWG China Meeting
+Using Jira
+TWG China report for Jan 2017
+
+Channel Guide for Hyperledger's Chat
+
+
+
+
+
+Procedure to cut a Fabric release
+
+
+Hyperledger Meetup Organizer’s Guide
+
+Meeting Start
+TWG China Meeting
+Your Attention Please
+Meeting Start
+TWG China report for Feb 2017
+TWG China Meeting
+
+
+2018 Projects
+
+Call for Internship Projects and Mentors
+
+
+
+TWG China Meeting
+Meeting Minutes
+
+Cello
+Fabric SDK Py
+Meeting Minutes - Fabric SDK Python
+2017-03-17
+TWG China report for Mar 2017
+Fabric v1 Alpha (Available March-16-2017)
+2017-03-24
+TWG China Meeting
+Cello Analytics
+TWGC Development and Innovation
+TWGC i18n and Education
+TWGC Collaborations && Scenarios
+TWGC Events Organization
+
+
+
+Composer
+
+Fabric maintainers list
+v1.0 Alpha Release Testing
+
+
+2017-04-07
+TWG China Meeting
+2017-04-14
+快速入门
+Fabric SDK Go
+Supply Chain Traceability
+TWG China Meeting
+TWG China Report for April 2017
+Release Taxonomy
+Endorsement policies - 背书策略
+
+Fabric CA 用户指南
+2017-04-28
+
+Channel Guide for Hyperledger's Rocket Chat
+
+Transaction Flow交易流程
+Channel Configuration (configtxgen) - 通道配置(configtxgen)
+Performance and Scale Working Group
+Release Exit Criteria
+Fabric v1.0.0-alpha March-2017
+
+2017-05-12
+
+
+
+
+
+
+
+
+Channel Configuration / Channel配置（configtx）
+Identity Working Group Contributors
+Identity Working Group Recordings
+TWG China Meeting
+2017-05-19
+TWG China Report for May 2017
+Fabric v1.0.0-alpha2 May-2017
+2017-06-02
+Hyperledger Project Update
+Project Updates
+
+TWG China Meeting
+Hackfest Beijing
+Release Process
+
+2017-06-16
+Welcome to Hyperledger Fabric
+TWG China Meeting
+Sawtooth
+
+Notes from Fabric Discussion 23-JAN-2017 morning
+Notes from Fabric Discussion 23-JAN-2017 afternoon
+Notes from Fabric Discussion 25-JAN-2017 morning
+
+
+
+Participating in the Community
+Overview
+
+
+Notes from NYC Hackfest 05-DEC-2016
+Notes from NYC Hackfest 06-DEC-2016
+
+Explorer
+Introduction
+
+Error handling framework
+Hyperledger Security
+
+Hyperledger Security Advisories
+
+CII Badge Security Section
+Static and Dynamic Analysis Tools
+Designing and Building Secure Software
+Crypto Best Practices
+
+
+
+
+2017-06-23
+Quality Assurance: Tests, Strategy, Reports, Diskspace Requirements
+TWG China Group Report for June 2017
+2017-06-30
+TWG China Meeting
+
+Bringing up a Kafka-based Ordering Service
+1. 错误处理
+
+1. 构建你的第一个网络
+2017-07-14
+TWG China Meeting
+Java SDK for Hyperledger Fabric 1.0
+
+
+TWG China Group Report for July 2017
+2017-07-28
+TWG China Meeting
+2017-08-04
+TWG China Meeting
+Meeting Minutes - Cello
+2017-08-17
+2017-08-18
+TWG China Meeting
+Indy
+TWG China Meeting
+TWG China Group Report for August 2017
+
+2017-09-01
+Chaincode 指南
+
+Expected Hyperledger Fabric v1.1 Content
+2017-09-08
+
+Chaincode 操作手册
+成员服务提供者 （MSP）
+
+TWG China Meeting
+TWG China Meeting
+2017-09-15
+Enrollment in a Medical Insurance Health Plan
+Medical Insurance Claims Processing
+Provider Credentialling
+Medical Insurance Brokerage
+Medical Insurance Regulatory Reporting
+TWG China Meeting
+2017-09-29
+TWG China Group Report for September 2017
+Project Update Schedule
+
+TWG China Meeting
+Hyperledger Shanghai Meetup
+Quilt
+Hyperledger Beijing Meetup
+Hyperledger Shanghai Meetup
+Hyperledger Beijing Meetup
+Hyperledger Project Update
+2017-10-20
+TWG China Meeting
+Getting Started with Fabric CI
+Hyperledger Project Update
+Calendar of Public Meetings
+TWG China Group Report for October 2017
+Hyperledger Project Update
+2017-11-03
+Meeting Minutes / Notes
+
+Hyperledger Project Update
+2017-11-17
+Hyperledger Project Update
+Hyperledger Project Update
+Hyperledger Wuhan Meetup
+TWG China Meeting
+General
+11月18日超级账本面对面上海站活动回顾 Hyperledger Shanghai Meetup Review
+2017-11-24
+TWGC Monthly Reports
+TWG China Group Report for November 2017
+Hyperledger Burrow
+Q1 2018 Burrow Roadmap
+Hyperledger Burrow Project Update - Q4 2017
+Iroha
+2017-12-01
+TWG China Meeting
+Learning Materials Development Working Group
+2017-12-15
+TWG China Meeting
+TWG China Group Report for December 2017
+TWG China Meeting
+2018-01-05
+Hyperledger Project Update
+Hyperledger Shanghai Meetup
+Hyperledger Beijing Meetup
+
+
+
+Indy Required Reading
+Hyperledger Project Update
+Indy Frequently Asked Questions
+Hyperledger Indy Glossary
+Indy Required Reading
+
+Indy Documentation Index
+TWG China Meeting
+Hyperledger Labs
+Hyperledger Shanghai Meetup
+2018-01-19
+Indy Diagrams (PNG and UML)
+Hyperledger Working Group Update
+TSC Working Group Updates
+Working Group Update Schedule
+Hyperledger Project Update
+Hyperledger Project Update
+
+Independent Security Audits
+TWG China Meeting
+超级账本中国社区 Meetup 活动组织指南（试行）
+2018-02-02
+Architecture and Construction Logistics
+Hyperledger Fabric Roadmap
+Hyperledger Project Update
+2018-02-09
+Goals
+Hyperledger Project Update
+TWG China Meeting
+Hyperledger Dalian Meetup
+Hyperledger Working Group Update
+Hyperledger Beijing Meetup
+2018-03-02
+Hyperledger Burrow Project Update - Q1 2018
+Referral Confirmation
+
+
+Q1 2018 Burrow Roadmap Post-mortem
+Q2 2018 Burrow Roadmap
+Hyperledger Wuhan Meetup
+2018-03-09
+Hyperledger Wuhan Meetup
+2018-03-16
+2018-03-09
+Hyperledger Project Update
+
+Retired Volunteers
+TWG China Meeting
+What do you want Cello do for you?
+Hyperledger Working Group Update
+Training Inventory
+Find a Provider
+Hyperledger Hangzhou Meetup
+Hyperledger Shanghai Meetup
+Technical Working Group China（超级账本中国技术工作组）
+Caliper
+Hyperledger Project Update
+2018-03-23
+Release Testing on Hyperledger Fabric v1.1
+Hyperledger Working Group Update
+2018-03-22
+TWG China Meeting
+Hyperledger Project Update
+Hyperledger Working Group Update
+TWG China Group Report for Q1 2018
+2018-03-30
+2018-03-29
+超级账本中国社区国际化贡献指南
+Hyperledger Beijing Meetup
+Hyperledger Project Update
+Financial Industry
+Energy Blockchain Labs（能源区块链实验室）
+Radarwin（雷盈科技）
+TWG China Meeting
+Hyperledger Beijing Meetup
+2018-04-12
+2018-04-13
+Hyperledger Project Update
+2018-04-20
+TWG China Meeting
+Hyperledger Chengdu Meetup
+Hyperledger Shanghai Meetup
+Hyperledger Project Update
+Hyperledger Project Update
+Hyperledger Working Group Update
+Copyright and License Policy
+2018-05-03
+Running Roadmap for Hyperledger Indy
+2018-05-04
+What does Cello do?
+Public Sector Special Interest Group
+TWG China Meeting
+
+Hyperledger Working Group Update
+2018-05-11
+Hyperledger Project Update
+地点
+Hyperledger Labs - 2018 Q2 Update
+Hyperledger Shanghai Meetup
+2018-05-17
+2018-05-18
+
+Hyperledger Project Update
+TWG China Meeting
+Hyperledger Project Update
+Shanghai SANLIAN Technology（三链科技）
+Hyperledger Burrow Project Update Q2 2018
+Hyperledger Working Group Update
+Q3 2018 Burrow Roadmap
+2018-05-25
+2018-05-31
+2018-06-01
+TWG China Meeting
+Hyperledger Shenzhen Meetup
+Internship Work Management
+Hyperledger Explorer Update
+Hyperledger Wuhan Meetup
+
+Hyperledger Working Group Update
+2018-06-08
+2018-06-15
+Lists of blockchain core concepts for 10 different but related audiences in Hyperledger
+
+
+
+Retail Sector Working Group
+Contributing to the Docs
+2018-06-14
+Hyperledger Working Group Update
+TWG China Meeting
+Hyperledger Project Update
+Hyperledger Hackfest - Amsterdam 2018
+2018-06-22
+
+2018-06-21
+Hyperledger Beijing Meetup
+2018-06-29
+TWG China Meeting
+Hyperledger Working Group Update
+Release Testing on Hyperledger Fabric v1.2
+2018-07-06
+2018-07-05
+Hyperledger Project Update
+Hyperledger Project Update
+2018-07-13
+Hyperledger Project Update
+
+Channel #fabric-orderer Guidelines
+TWG China Meeting
+2018-07-19
+
+
+Hyperledger Project Update
+2018-07-20
+Hyperledger Working Group Update
+Donor Milk Transparency and Traceability
+
+Hyperledger Working Group Update
+Hyperledger Working Group Update
+2018-07-27
+TWG China Meeting
+2018-08-02
+
+
+TWGC contributors
+2018-08-03
+2018-08-09
+Hyperledger Working Group Update
+
+
+
+
+2018-08-10
+
+
+
+
+
+
+
+
+
+
+
+This page is out of date
+Test of embed plugin
+
+
+
+2018-08-17
+Hyperledger Project Update
+Hyperledger Working Group Update
+
+Ecosystem Map
+
+Ethereum and uPort
+2018-08-24
+2018-08-23
+
+
+Hyperledger Burrow Project Update Q3 2018
+Q3 2018 Burrow Roadmap Postmortem
+Q4 2018 Burrow Roadmap
+
+TWG China Meeting
+Hyperledger Beijing Meetup
+
+
+
+2018-08-31
+Hyperledger Project Update
+2018-09-07
+Hyperledger Working Group Update
+Details
+
+
+
+Managing Zoom Meetings
+
+
+Hyperledger Project Update
+TWG China Meeting
+2018-09-13
+2018-09-14
+Hyperledger Working Group Update
+
+Hyperledger Working Group Update
+Hyperledger Hackathon Organizer's Guide
+Hyperledger Project Update
+2018-09-21
+
+
+
+
+TWG China Meeting
+
+2018-09-27
+Hyperledger Project Update
+Social Impact Special Interest Group
+Attention!
+Hyperledger Working Group Update
+
+Healthcare WG meeting archive
+Organizations
+People
+Patient Subgroup meeting archive
+Payor SWG meeting archive
+HIMSS AsiaPac Innovation Challenge 2018
+Distributed Health 2018
+Hyperledger Global Forum 2018
+Events
+Resources
+Interviews
+Surveys
+Survey
+Knowledge resources
+Research journals
+Research studies
+Podcasts
+Blogs
+Research reviews
+Articles
+Websites
+Whitepapers
+Primary data
+Publications
+News
+Editorials (Opinion)
+Evidence base
+Policy resources
+Stakeholders
+Groups
+Subject matter experts
+Hyperledger TSC members
+Healthcare WG members
+Patient SWG members
+Payor SWG members
+New member orientation
+Websites
+Governance
+Charter
+Management
+Activities
+Technical solutions
+Marketing & Communications
+Domain analysis
+Domain analysis : Laboratory services
+Domain analysis : Pre-authorization services
+Domain analysis : Human milk services
+Domain analysis : Clinical trials services
+Domain analysis : Provider credentialing services
+Payor Sub-workgroup
+Patient Sub-workgroup
+Whitepapers
+Risk management
+Issue resolution
+Survey
+Interview summary
+Technical solution : Human milk POC
+Business case : Human milk services
+Frequently Asked Questions
+Production
+Quarterly reports
+Analysis of HMBANA 2018 Guidelines
+Analytical models
+
+2018-10-05
+TWG China Meeting
+Scenario modeling template
+Scenario modeling instructions
+Scenario
+Scenario : Screen donor
+Scenario
+Scenario : Donate milk
+Scenario
+Scenario
+Scenario
+Scenario
+Scenario
+Scenario
+Scenario
+Scenario
+Hyperledger Project Update
+
+
+
+
+Role
+Role
+Role : Laboratory services provider
+Role
+Role
+Role
+Role
+Role
+Role
+Role
+Role
+Role
+Role
+Role
+Role
+Role
+Role
+Role
+2018-10-12
+2018-10-11
+Role
+Current state analysis
+Current state : Human milk services
+Human milk services catalog
+Human milk services model
+Market analysis : Human milk services
+Perinatal services
+Human milk donor services
+System analysis & modeling : Human milk services
+Human milk recipient services
+Milk storage services
+Milk distribution services
+Laboratory services
+Role : Milk banking services provider
+Role : Milk storage services provider
+Role : Healthcare services provider
+Role : Perinatal services provider
+Role : Milk bank manager
+Role : Milk storage manager
+Role : Milk distribution manager
+Role : Laboratory manager
+Role : Transportation services provider
+Scenario
+Affiliate management services
+Hyperledger Project Update
+Hyperledger Beijing Meetup
+Human milk service metrics
+Human milk service policies
+Human milk service contexts
+Human milk service resources
+Human milk service workflows
+Human milk service participants
+Household services ecosystem model
+Lifespan-oriented services model
+Release Testing on Hyperledger Fabric v1.3
+2018-10-18
+2018-10-19
+Scenario : Receive milk
+Hyperledger Healthcare Working Group (HLHCWG)
+Hyperledger Project Update
+TWG China Meeting
+2018-10-26
+
+Hyperledger Working Group Update
+Hyperledger Working Group Update
+Design models
+Hyperledger Shanghai Meetup
+Hyperledger Project Technical Steering Committee (TSC) Meeting
+2018-11-02
+Application Process for creating a Special Interest Group in Hyperledger
+Hyperledger Healthcare Working Group (HLHCWG)
+TWG China Meeting
+Hyperledger Project Update
+2018-11-08
+Ursa
+
+2018-11-09
+
+Trade Finance SIG
+General Meeting Agenda for 2018-11-30
+2018-11-16
+
+
+TWG China Meeting
+Hyperledger Healthcare Working Group (HLHCWG)
+EMR Subgroup Agenda for 2018-12-04
+2018-11-22
+
+EMR Subgroup
+Challenges
+Planning
+Ad hoc work teams
+Hyperledger Project Update
+Q4 2018 Burrow Roadmap Postmortem
+Q1 2019 Burrow Roadmap
+Hyperledger Burrow Project Update Q4 2018
+2018-11-30
+2018-11-29
+Public Sector Special Interest Group
+Indy Videos
+
+PROPOSED General Meeting Agenda for 2018-12-14
+General Meeting Agenda for 2018-12-14
+
+Hyperledger Labs - 2018 Q4 Update
+TWG China Meeting
+2018-12-07
+
+
+Hyperledger Project Update
+Scenario
+2018-12-14
+Stakeholders, Activities & Resources
+General Meeting Agenda for 2019-01-11
+EMR Subgroup Agenda for 2018-12-18
+
+
+
+Membership Directory
+TWG China Meeting
+
+2018-12-21
+2018-12-20
+Plans
+Technical subgroup planning
+Healthcare SIG planning
+
+2019-01-04
+**= Trade Finance SIG Meeting 8th January 2019 14:00 UTC**
+Payer Subgroup Meeting Minutes for January 08, 2019
+2018-12-28
+Wiki pages for meetup groups (sorted by country)
+Hyperledger Melbourne Wiki Page
+2019-01-11
+Hyperledger Project Update
+Hyperledger Project Update
+Hyperledger São Paulo Wiki Page
+General Meeting Agenda for 2019-01-25
+Payer Subgroup Meeting Agenda for January 22, 2019
+TWG China Meeting
+2019-01-18
+Notes from 8th January 2019
+Hyperledger Working Group Update
+Hyperledger Working Group Update
+
+2019-01-17
+2019-01-25
+Policies
+Role : Milk distribution services provider
+Public Sector Special Interest Group
+2018-11-23

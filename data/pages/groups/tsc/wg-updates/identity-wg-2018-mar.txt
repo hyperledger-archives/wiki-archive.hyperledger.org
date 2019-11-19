@@ -1,0 +1,33 @@
+====== Hyperledger Working Group Update ======
+
+===== Identity Working Group =====
+March 2018- First report- This report covers a period longer than a quarter.
+
+===== Working Group Health =====
+
+The Working Group holds regular audio conferences every two weeks, we have been stable on zoom for about a quarter. We have a revolving group of attendees of around 15-20 with a core group of 8-10. There are at least 2-3 new attendees every session. Lots of discussion takes place on Identity and Blockchain Identity in particular. Progress on the paper had been slow, the pace went up recently with a regular volunteer & work-schedule.   
+
+===== Issues =====
+Less than desirable progress on [[https://docs.google.com/document/d/1ExFNRx-yYoS8FnDIUX1_0UBMha9TvQkfts2kVnDc4KE/edit?usp=sharing|Identity WG Paper draft]]. We have started a regular cadence on editing the paper with volunteers personally responsible for small sections. We need Identity experts from incubated DLTs (Fabric, Indy, Sawtooth, Iroha, Quilt, Burrow) to contribute, especially on current practice. The work product aspect of the working groups is always a challenge as the work is purely voluntary and tied to producing text.
+
+===== Overall Activity in the Past Quarter =====
+
+There are more than 280 members in the chat channel and similar numbers on the mailing list. The calls are the most active part of participation, with the chat channel and the mailing list being lightly used. We have missed very few calls in the past year (one at the most) and none last quarter. The main work product is the Identity paper, although the meeting notes and the audio recordings are available to all who are interested in the activities of the working group. In the last few months, we collaborated on the GDPR paper and the Biometrics paper. We are working to get use cases on Identity and the functional requirements for Identity in Blockchain into the paper. We also actively collaborate with the architecture working group on Privacy issues as well as with system Identity and the paper connected to that.
+
+Another activity of the group is to be a launching pad for new work connected to Identity in DLTs, most significant being the welcoming of Indy into the Hyperledger community last year. This has resulted in close collaboration between the Indy team and us, especially to report on activities on the wider world of Identity and how they could be applicable to us. We also had presentations on IIW, RWOT, W3C group on Verifiable Claims, Canadian & European BC initiatives, European regulations on Identity and other related topics.
+
+We collaborated on the 2018 Intern engagement by proposing a joint project with Indy. The proposal write up and the mentors are from Indy.
+
+Work on the paper has received a boost since we refocused and solicited contributions from volunteers. A vision and a solid outline are emerging, with the possibility of a draft version by the beginning of summer.
+
+===== Planned Work Products =====
+A draft version of the paper will be produced. We will also continue our presentation series in an un-conference style.
+
+===== Participant Diversity =====
+The Working Group is healthy, with participation from groups outside the normal channels of Hyperledger engagement.  We will produce a directory of all those who wish to be listed, with short bios. We have practitioners from Technical companies, DLT companies, Governments, the Legal profession, Financial Enterprises, Healthcare and Students who join the call.
+
+===== Additional Information =====
+
+Acknowledgements are due to the most active participants and many of the regulars who have moved the Agenda forward. 
+
+ 

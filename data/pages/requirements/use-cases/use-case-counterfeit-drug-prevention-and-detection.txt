@@ -1,0 +1,59 @@
+// Primrose Mbanefo is working on this. Contributors welcome. //
+
+====== Counterfeit drug prevention and detection ======
+
+===== Section 1 - Intro =====
+
+==== Business Problem / Opportunity ====
+
+A counterfeit medication or a counterfeit drug is a medication or pharmaceutical product which is produced and sold with the intent to deceptively represent its origin, authenticity or effectiveness. 
+[[https://en.wikipedia.org/wiki/Counterfeit_medications|Wikipedia - Counterfeit Medications]]
+
+Counterfeit medicine is fake medicine. It may be contaminated or contain the wrong or no active ingredient. They could have the right active ingredient but at the wrong dose.
+[[http://www.fda.gov/Drugs/ResourcesForYou/Consumers/BuyingUsingMedicineSafely/CounterfeitMedicine/|FDA - Counterfeit Medications]]
+
+The crux of this use case is about ensuring the quality of drugs in the market place. The aim is to ensure that consumed drugs have the active ingredients in the right dose.
+
+==== Current Solutions ====
+
+  *  Use of [[https://en.wikipedia.org/wiki/Epedigree|e-pedigree]] in the united states to avoid counterfeiting. [[http://www.technavio.com/blog/epedigree-solutions-are-key-to-deterring-counterfeit-drug-production|It involves]] the track and trace of drug shipments i.e. rfid tagging with all movement logged in an xml description of the life history of the product, signed with certificates and entered in multiple business process systems. 
+  *  mPedigree - mobile phone based pedigree systems in West Africa - the customer scratches the medication package to reveal a code which they send to a free number. They then receive a text back that lets them know if the item is genuine or counterfeit.
+
+==== Why a Blockchain? ====
+
+In the existing solutions, there's still a central authority which can be compromised or documents which can be faked. The ePedidgree solution is by definition almost a blockchain solution, why not take it that far? 
+
+==== User Stories ====
+=== Actor: Consumer ===
+Consumers need reassurance that the drug they are about to ingest, however it was acquired:
+  - originates from the advertised manufacturer
+  - contains the advertised ingredients
+    - in the advertised proportions
+  - does not contain additional substances which the advertised manufacturer did not knowingly or accidentally add to the drug
+
+=== Actor: Governments ===
+== Detecting counterfeits ==
+Various governments have set up different drug checking services based on electronic documentation, SMS and GSM networks. These countries would be interested in tamper proof, faster and cheaper ways of verifying the authenticity of imported medicines.
+== Improving reputation ==
+Other governments would be interested in countering statistics about their countries being the largest sources of fake drugs. These countries would be interested in more accurate ways of proving current statistics wrong.
+
+=== Actor: Pharmaceutical industry ===
+Finally, the pharmaceutical industry as a whole spends a lot of resources in anti-counterfeiting workarounds, regulations and legislation. They would appreciate a tamper proof way of proving the authenticity of a drug at every stage of its manufacture, delivery and eventual consumption.
+
+=== User story: IoT enabled Block chain solution ===
+// This use case is potentially an extension of the [[Use-Case-Supply-Chain-Logistics|Use Case Supply Chain Logistics]] //
+In this story, the mixing machines . . . //TBD//
+
+==== Opportunity/Justification ====
+
+Counterfeit drugs are out there.
+  * [[http://www.bbc.co.uk/news/health-33183330|Record 'fake drugs' haul worth £16m by UK agency]]
+
+But who should we believe?
+  * Are things getting better? [[https://www.sciencedaily.com/releases/2015/04/150420122840.htm|Fake malaria drugs not as common as previously reported]]
+  * Or, are they simply going undetected? [[http://mgafrica.com/article/2015-07-31-the-african-startup-using-phones-to-spot-counterfeit-drugs|Fake malaria drugs kill over 100,000 African children a year. A startup uses phones to spot the counterfeit]]
+
+The introduction of a tamper evident technology like blockchain into the drug manufacturing, supply and dispensation system could make counterfeiting of drugs a non-issue.
+
+===== Requirements =====
+TBD

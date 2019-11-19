@@ -1,0 +1,77 @@
+===== TWG China Meeting =====
+
+==== Date ====
+10AM ~ 11AM, 2017-10-25, GMT+8
+
+Join [[https://www.uberconference.com/hyperledger-community | uberconference]]:
+  * Option 1: Use the **My Computer** audio to connect in (Recommend using microphone and headset)
+  * Option 2: Dial in using the phone number at the website, e.g., +1 480-757-9435 (No local number support now)
+
+[[https://drive.google.com/drive/folders/0B_NJV6eJXAA1R04zZ05FdE9WVGM | Audio record]]
+
+==== Attendee ====
+
+**Pls add ur name here before the meeting.**
+
+  * Baohua Yang
+  * Zhangjiong Xuan
+  * Scott Long - LF
+  * Allen Shao
+  * Wenhui Du  - Anne
+  * Yong Wan
+  * Linsheng Yu
+  * Zhong TIAN - IBM
+  * Sheng Huang - IBM
+  * Min Luo - NTT
+  * Jiannan Guo - IBM
+==== Agenda ====
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - [[https://docs.google.com/document/d/1KVrakb2JsqgMo2aG-QIYl743VHsU9NWYKxy7n-WeXv4/edit | [HIP] Hyperledger Quilt]] is accepted as new HL project
+    - [[https://docs.google.com/document/d/1V2X9A2yTdHNbI1v3itspjisWashMOabHXWbxMEZFs90| Training Working Group]] Proposal
+    - Hyperledger Summit [[http://hlms17.sched.com/ | Agenda]], feel free to [[https://www.regonline.com/hyperledgermembersummit2017|register]].
+  - [[groups/twgc/team_di | Team development and Innovation]] (Yaoguo Jiang, Zhangjiong Xuan)
+    - Code development on projects
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Linsheng Yu, Jiannan Guo)
+    - Zanata evaluation done.（https://hyperledgercn.github.io/hyperledgerDocs/zanata_guide/）
+    - **TODO: Linsheng and Jiannan will help send out the usage link to maillist**
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin, Haixu Cheng)
+    - Welcome companies to share usage cases at [[https://wiki.hyperledger.org/groups/twgc/team_cs|case collection ]]
+    - **TODO: Haixu's feedback from TsingDao conf**
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Zhou Xing, Zhoudong Ji and Sheng Huang)
+    - **Call for sponsors for November and December Meetups.**
+    - Call for HL member news, will select to publish through official wechat channel. Feel free to contact TWGC.
+  - other issues
+    - [[https://docs.google.com/document/d/1ukZFkP11qF56vt-WmLsGI5BTex2wOOSl8-Ecp0Y8yOc/edit?usp=sharing | Fabric crypto technical report]] for CCSC (Zhenhua Dong), welcome for review and comments.
+    - [[https://jira.hyperledger.org/browse/FAB-5496 | SM2 support]] by  Zhenhua Dong
+    - [[https://jira.hyperledger.org/browse/FAB-6263 | MongoDB support]] by  huiq li (oxchain)
+    - Others?
+
+
+==== Minutes ====
+
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - [[https://docs.google.com/document/d/1KVrakb2JsqgMo2aG-QIYl743VHsU9NWYKxy7n-WeXv4/edit | [HIP] Hyperledger Quilt]] is accepted as new HL project
+    - [[https://docs.google.com/document/d/1V2X9A2yTdHNbI1v3itspjisWashMOabHXWbxMEZFs90| Training Working Group]] Proposal
+    - Hyperledger Summit [[http://hlms17.sched.com/ | Agenda]], feel free to [[https://www.regonline.com/hyperledgermembersummit2017|register]].
+  - [[groups/twgc/team_di | Team development and Innovation]] (Yaoguo Jiang, Zhangjiong Xuan)
+    - Code development on projects
+    - Cello: v0.7 is released, with features including support fabric 1.0; starting support on kubernetes and vshpere as underly infrastructure.
+    - fabric: add more documentation work at https://github.com/FabricTOC/FabricTOC.
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Linsheng Yu, Jiannan Guo)
+    - Zanata evaluation done, have shared the link in group.
+    - **TODO: Linsheng and Jiannan will help send out the usage link to maillist once the user joining problem is fixed.**
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin, Haixu Cheng)
+    - Welcome companies to share usage cases at [[https://wiki.hyperledger.org/groups/twgc/team_cs|case collection]]
+    - **TODO: Sheng will connect Fudan Univ to share their case.**
+    - **TODO: Han will share Annie's usage case.**
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Zhou Xing, Zhoudong Ji and Sheng Huang)
+    - **Call for sponsors for November and December Meetups.**
+    - Call for HL member news, will select to publish through official wechat channel. Feel free to contact TWGC.
+    - Beijing: Annie will volunteer for <=40 person place for holding meetups in Beijing (Pangu, Yingu);
+    - Shanghai: Sheng will host a meetup at November 18 in Shanghai, with Fudan University.
+    - Hangzhou: Zhangjiong will help connect with Zhejiang University.
+  - other issues
+    - [[https://docs.google.com/document/d/1ukZFkP11qF56vt-WmLsGI5BTex2wOOSl8-Ecp0Y8yOc/edit?usp=sharing | Fabric crypto technical report]] for CCSC (Zhenhua Dong), welcome for review and comments.
+    - [[https://jira.hyperledger.org/browse/FAB-5496 | SM2 support]] by  Zhenhua Dong
+    - [[https://jira.hyperledger.org/browse/FAB-6263 | MongoDB support]] by  huiq li (oxchain)
+    - Others: Uberconf seems not very stable to connect through web browser, while we do not have phone number for local access.

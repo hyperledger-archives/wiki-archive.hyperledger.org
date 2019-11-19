@@ -1,0 +1,106 @@
+The following are raw notes from a part of the Identity Management Working Group meeting that was held at a session hosted by the DTCC on May 5, 2016 on potential sub-streams within the working group.
+
+==== I - Commons and Principles ====
+
+  - Self-Sovereign Identity
+    - Slides: http://www.slideshare.net/ChristopherA/identity-of-the-blockchain-perils-and-promise
+    - 10 Principles and some history: http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.html
+    - ID 2020 Summit on Digital Identity at United Nations May 20th http://id2020summit.org
+    - #RebootingWebOfTrust Design Workshop after UN Summit May 21st & 22nd http://www.WebOfTrust.info 
+  - Ostrom's work - Where tragedy of the commons didn't happen
+    - A Revised “Ostrom’s Design Principles for Collective Governance of the Commons”: http://www.lifewithalacrity.com/2015/11/a-revised-ostroms-design-principles-for-collective-governance-of-the-commons-.html
+  - Taxonomy
+    - What are the different terms of art in the existing communities of practice, and which more accurately represent our vision?
+    - Subject / issuer
+    - Entitlements
+    - Credential / assertion
+  - Boaty mcboatface
+  - Non-repudiation of transaction / event
+  - Onboarding / Bootstraping Process
+  - Life cycle of identity
+  - HLTP - What's most useful leanest
+
+==== II - Federation - Permission-less, Permissioned or Mix ====
+
+  - Layerings
+  - Permissioned networks
+  - Peer question
+  - Additive homomorphic
+  - Boot strapping
+  - Liquid - bitcoin exchanges - very fast transfers among exchanges
+  - Permissioned blockchain
+  - Create keys together for exchanges
+  - No one can cheat for keys in trust zone
+  - Shared key generation
+  - Zcash
+  - Selective encryption
+  - Parameter for a curve
+  - Snhore
+  - Maxwell's tree of ?
+  - Multi-sigs
+  - Voting
+  - Multi-sig versus threshold sigs
+  - Design constraints on federation participant
+  - Abstractions
+  - Paxos
+  - When add or change members 
+  - Nature of the consensus mechanism may change
+  - Bootstrapping a permissioned network
+  - Consensus federation changes
+
+==== III - Fiduciary Code and Signing ====
+
+  - Permissions
+  - Approved by
+  - Successful validation
+  - How prove fiduciary met
+  - How prove transparency met
+  - Implementation code failures
+  - How to attest to the hardware
+  - Consensus for integrity of the ledger
+  - VM
+  - Multi-factor authentication
+  - Software-defined networking example vs. juniper networks
+  - Delegation
+
+==== IV - Failure ====
+
+  - Individual key loss
+  - China shuts down great firewall for 3 days
+  - Hierarchical Deterministic Keys
+  - Bitcoin uses 3 of 6 variants
+  - Powerful/mature technology
+  - Audit every child of that key
+  - Master key offline and can be revoked
+  - Hyperledger currently
+  - CA authority generates
+  - To handle auditability for b2b case
+  - Every transaction has unique public key
+  - Social network reboot
+  - Proof of existence
+  - Reboot of identity
+  - Multi-sig network recovery
+  - Consumer with list of friends - backup buddies if I lose my phone
+  - If I lose my Yubi key, 2 people from IT can recovery
+  - Smart contracts level of indirection from crypto identifier and private keys that control the system
+  - Replace/rotate keys without changing identifier
+  - Pluggable element for control of identity
+  - Three days of inactivity then go to recovery procedure
+  - Trusted computational fabric enabled by 
+  - Nonrepudiation if can't recreate keys
+  - New key versus re-generating old key
+  - Core ideas for how identities interact then works for use cases (e.g., consumer/retail, business-to-business)
+
+==== V - Confidentiality, Privacy ====
+
+  - Selective disclosure, blinding, uprove, identity mixer, zero-knowledge proofs / homomorphic proofs
+  - Confidential transactions
+  - Front running
+
+==== VI - Legacy ====
+
+  * Existing identity systems
+
+==== VII - Visioning the Future ====
+
+  * N/A

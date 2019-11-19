@@ -1,0 +1,43 @@
+====== Identity Working Group ======
+
+[[https://docs.google.com/document/d/1NZIOmxBSKCPkJ2OW9bPdUgH7T4JVSP4zbaumXtsyOpg/edit?usp=drivesdk|Identity WG Charter]]
+
+[[https://docs.google.com/document/d/1ExFNRx-yYoS8FnDIUX1_0UBMha9TvQkfts2kVnDc4KE/edit?usp=sharing|Identity WG Paper draft]]
+
+ Mailing List
+  * [[https://lists.hyperledger.org/g/identity-wg | Identity-wg mailing list]]
+  * [[https://lists.hyperledger.org/g/identity-wg/messages | Identity-wg email archive]]
+
+
+The Identity WG meets biweekly on Wednesdays noon EST-EDT. Alternates with Architecture WG meetings- Some dates to help you get oriented March 21, 2018-April 4, 2018-April 18, 2018-May 2, 2018- We rarely cancel calls (last year only once during the holidays), just in case- please check rocket chat channel.
+
+<WRAP center round box 75%>
+Join from PC, Mac, Linux, iOS or Android: https://zoom.us/my/hyperledger.community
+
+Or iPhone one-tap :
+    US: +16465588656,,4034983298#  or +16699006833,,4034983298# 
+Or Telephone:
+    Dial(for higher quality, dial a number based on your current location): 
+        US: +1 646 558 8656  or +1 669 900 6833  or +1 855 880 1246 (Toll Free) or +1 877 369 0926 (Toll Free)
+    Meeting ID: 403 498 3298
+    International numbers available: https://zoom.us/u/bAaJoyznp
+</WRAP>
+
+Read the Identity WG meeting [[https://docs.google.com/document/d/1nVkjhSlghjc4KFWEYDU2B0ztWCFh1CK8a7VmqwFsnKY/edit?usp=sharing |minutes]], join the RocketChat #identity-wg channel. 
+
+Meeting Contact: Vipin Bharathan, BNP Paribas  <vipinsun@gmail.com> 
+
+===== Antitrust Policy =====
+
+All Hyperledger meetings are run under the following [[https://docs.google.com/presentation/d/1gpxrwPli1xpRCL8lWg-KQc3MncDatiFQ5oS1ppLWiRs/edit|Antitrust Policy]]
+
+===== Notes from Meetings =====
+
+Notes for all meetings are shared in a single document, a shared Google Docs file:
+https://docs.google.com/document/d/1nVkjhSlghjc4KFWEYDU2B0ztWCFh1CK8a7VmqwFsnKY/edit?usp=sharing
+
+
+===== Recordings & Slides from Meetings  =====
+   * [[groups:identity:identity-wg:Recordings]]
+   * [[groups:identity-identity-wg:2016 Slides and Notes]]
+

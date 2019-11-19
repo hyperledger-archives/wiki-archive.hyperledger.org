@@ -1,0 +1,38 @@
+Hyperledger Project\\
+Healthcare Working Group (HCWG) Payer Subgroup Meeting\\
+July 17, 2018 \\
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+Meeting Notes\\
+
+First:\\
+Please make sure you review Linux Foundation’s Anti-Trust Policy - Linux Foundation's Anti-trust requirements.
+Link above\\
+Please include #payer-subgroup tag in your emails to the mailing lists for communication\\
+Reminder for meeting tomorrow Tuesday July 24, 2018 at 3:00 PM EST – Payer Subgroup Meeting\\
+ 
+
+Discussion Summary\\
+
+White Paper
+     *It was suggested that we will go through a couple use cases to get some ideas to structure the white paper
+     *Jeff: Agreed to help the group with structuring the white paper\
+     *Next steps to bring forward a few uses cases for discussion
+
+Use Cases
+     *Steven Elliott from Cognitive Medicine to share his use case. H will be sending out a few slides before the meeting
+     *Request sent to Tony Little for presenting the Provider Data Use Case
+     *I would like to encourage, if you have a use case that you would like to present, please send it across. It is critical that we talk about use cases to get some ideas on how the white paper should be structured.
+
+Call for Action
+     *The fun is about to begin as we start with white paper and use cases discussions. I encourage anyone who is interested should engage now as we start with this effort.
+     *Please feel free to reach out for any questions you may have.

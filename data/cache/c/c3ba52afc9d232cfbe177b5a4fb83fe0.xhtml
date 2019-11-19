@@ -1,0 +1,383 @@
+
+<h3 class="sectionedit1" id="section20170407">2017-04-07</h3>
+<div class="level3">
+
+</div>
+
+<h4 id="agenda">Agenda</h4>
+<div class="level4">
+<ul>
+<li class="level1"><div class="li"> <a href="https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85" class="urlextern" title="https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85"  rel="nofollow"> Jira board </a> status (chang will sync). </div>
+</li>
+<li class="level1"><div class="li"> <a href="https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py" class="urlextern" title="https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py"  rel="nofollow"> Patchset</a> for review. </div>
+</li>
+<li class="level1"><div class="li"> MVP remaining tasks discussion (kai will sync, 1768 to @lafenicecc and 1769 to @grapebaba).</div>
+</li>
+<li class="level1"><div class="li"> Test coverage functionality status (Chao Li will sync)</div>
+</li>
+<li class="level1"><div class="li"> E2E test (Ray Chen will sync)</div>
+</li>
+<li class="level1"><div class="li"> <a href="https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4" class="urlextern" title="https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4"  rel="nofollow"> SDK Spec</a> is publicly available.</div>
+</li>
+<li class="level1"><div class="li"> Other issues</div>
+</li>
+<li class="level1"><div class="li"> </div>
+</li>
+</ul>
+
+</div>
+
+<h4 id="attendee">Attendee</h4>
+<div class="level4">
+
+<p>
+<strong>Please put ur name before the meeting.</strong>
+</p>
+<ul>
+<li class="level1"><div class="li"> Baohua Yang </div>
+</li>
+<li class="level1"><div class="li"> Kai Chen</div>
+</li>
+<li class="level1"><div class="li"> Ray Chen</div>
+</li>
+<li class="level1"><div class="li"> Wei Hu</div>
+</li>
+<li class="level1"><div class="li"> Chao Li</div>
+</li>
+<li class="level1"><div class="li"> Chang Chen</div>
+</li>
+</ul>
+
+</div>
+
+<h4 id="log">Log</h4>
+<div class="level4">
+
+<p>
+baohua 11:00 AM
+Ok, let&#039;s start!
+</p>
+
+<p>
+ray 11:01 AM
+✋
+</p>
+
+<p>
+baohua 11:01 AM
+Item #1: Jira board status (chang will sync).
+chang, pls help share the task status
+</p>
+
+<p>
+lafenicecc 11:01 AM
+coverage test is done, good job @camelbeck
+what about e2e test? 😁 @ray
+</p>
+
+<p>
+baohua 11:03 AM
+aha, we have that item later. u wanna sync now or later? @ray
+</p>
+
+<p>
+ray 11:04 AM
+@WeiHu and me have built a basic framework of the e2e test of our sdk-py (with the help of node sdk and java sdk) and we are working together on my personal github repo, we plan to re-structure the patch-set after a certain period and submit a CR to upstream
+👍 2  
+</p>
+
+<p>
+baohua 11:05 AM
+great! ray and wei
+while i would suggest we first submit some basic code framework for review.
+This is also for the item #2: <a href="https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py" class="urlextern" title="https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py"  rel="nofollow">https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py</a>
+We encourage each patchset keep smaller and focused.
+</p>
+
+<p>
+ray 11:05 AM
+<a href="https://github.com/oldsharp/fabric-sdk-py/tree/fab-2871" class="urlextern" title="https://github.com/oldsharp/fabric-sdk-py/tree/fab-2871"  rel="nofollow">https://github.com/oldsharp/fabric-sdk-py/tree/fab-2871</a> that&#039;s the branch we are now working on
+</p>
+
+<p>
+baohua 11:06 AM
+let&#039;s move quickly with smaller steps, rather than throw out bunch of code one time~~
+close collaboration will be more efficient, how do u think?
+</p>
+
+<p>
+ray 11:07 AM
+Yes, I mean submit several refined CRs to upstream, not a bunch of code 😉
+</p>
+
+<p>
+lafenicecc 11:07 AM
+😍
+</p>
+
+<p>
+baohua 11:08 AM
+thanks! ray, look forward to seeing ur patchsets soon!
+OK, everyone pls help review each new patchset, and after submitting a patchset, remember to share within the channel after ci passed to call for reviewers. Thanks!
+OK. item#3. MVP remaining tasks discussion (kai will sync, 1768 to @lafenicecc and 1769 to @grapebaba).
+@grapebaba could u help sync the mvp work?
+@lafenicecc for comments, too
+</p>
+
+<p>
+grapebaba 11:09 AM
+i am still doing 1769
+</p>
+
+<p>
+ray 11:10 AM
+Let&#039;s move quickly 🙂
+</p>
+
+<p>
+grapebaba 11:10 AM
+since there are some differences between java and node sdk
+</p>
+
+<p>
+ray 11:11 AM
+seem the network delay of my side is terrible 😞
+</p>
+
+<p>
+grapebaba 11:11 AM
+I try to find a better way
+</p>
+
+<p>
+baohua 11:11 AM
+thanks kai.
+how about the 1768 @lafenicecc
+</p>
+
+<p>
+lafenicecc 11:11 AM
+i will collaborate more with 🍇baba
+</p>
+
+<p>
+grapebaba 11:12 AM
+right now i feel the implementation of java SDK is more better than node
+</p>
+
+<p>
+baohua 11:12 AM
+sure, and each unfinished task can submit a WIP patchset for letting others know the work is beginning.
+👍 1  
+aha, i know u&#039;re also a java expert!
+</p>
+
+<p>
+camelbeck 11:12 AM
+👍
+</p>
+
+<p>
+baohua 11:12 AM
+that&#039;s great we have so many experts on various domains!
+OK. item #4: Test coverage functionality status (Chao Li will sync)
+@camelbeck pls go on~~
+:woo:
+</p>
+
+<p>
+camelbeck 11:13 AM
+OK, as @lafenicecc just mentioned, I finished coverage test this week, and satus on jira is marked DONE now.
+</p>
+
+<p>
+baohua 11:14 AM
+Thanks, chao, and have u go through the existing documentation and code structure already? ☯
+</p>
+
+<p>
+camelbeck 11:15 AM
+I have read the documents, but still have not read code now
+</p>
+
+<p>
+baohua 11:15 AM
+u must have setup the local env, right?
+</p>
+
+<p>
+camelbeck 11:15 AM
+yes
+with your docker images 😀
+</p>
+
+<p>
+baohua 11:15 AM
+the fabric code has recently changed a little. I hope u can help update our ci docker images to latest 0.8.8.
+</p>
+
+<p>
+camelbeck 11:16 AM
+Sure, no problem
+👍 1  
+</p>
+
+<p>
+baohua 11:16 AM
+@lafenicecc pls help create a jira task for chao. 😬
+thanks chao!
+</p>
+
+<p>
+lafenicecc 11:16 AM
+np
+</p>
+
+<p>
+baohua 11:16 AM
+OK. item #5: E2E test (Ray Chen will sync) has synced already.
+Do we have other issues to discuss today?
+</p>
+
+<p>
+ray 11:17 AM
+@camelbeck question about the coverage test tool you choose: I saw you choose a tool called py-cover ? instead of coverage, what&#039;s your consideration, can you share a little bit about this?
+</p>
+
+<p>
+baohua 11:17 AM
+good question.
+😏
+</p>
+
+<p>
+camelbeck 11:17 AM
+<a href="https://jira.hyperledger.org/browse/FAB-2938" class="urlextern" title="https://jira.hyperledger.org/browse/FAB-2938"  rel="nofollow">https://jira.hyperledger.org/browse/FAB-2938</a>
+I have recorded the reason for this choice.
+Have you read about that? Or still have questions? @ray
+</p>
+
+<p>
+lafenicecc 11:18 AM
+very detailed description, cool!
+</p>
+
+<p>
+camelbeck 11:19 AM
+Simply speaking, pytest-cov can be integrated with pytest.
+</p>
+
+<p>
+ray 11:19 AM
+So we used a hybrid solution, do we?
+</p>
+
+<p>
+camelbeck 11:20 AM
+Coverage in my solution is only used to get the coverage test result.
+But, pytest-cov depends on coverage package.
+</p>
+
+<p>
+ray 11:21 AM
+Okay I see. Thanks for your detailed explanation @camelbeck 🙂
+</p>
+
+<p>
+baohua 11:21 AM
+@camelbeck Have u solved the ci stuck problem finally?
+test/unit/keyvaluestore_test.py why would stuck there?
+</p>
+
+<p>
+camelbeck 11:22 AM
+Not yet, actually in my own environment, most of the time I run make unittest, the process will be stuck there.
+</p>
+
+<p>
+baohua 11:22 AM
+Let&#039;s record the stuck problem, and maybe can raise a separate bug in jira tasks.
+Ok, last time remember @grapebaba has proposed the rxpy discussion, Have u created the issue? any further progress on that?
+🚋
+</p>
+
+<p>
+grapebaba 11:24 AM
+not yet
+</p>
+
+<p>
+camelbeck 11:24 AM
+OK @baohua
+</p>
+
+<p>
+baohua 11:24 AM
+🛴
+@grapebaba @camelbeck pls use our jira board often, to record the problems and discussions 🙂
+</p>
+
+<p>
+camelbeck 11:25 AM
+👌
+</p>
+
+<p>
+baohua 11:25 AM
+Thanks and also to everyone
+</p>
+
+<p>
+grapebaba 11:25 AM
+👌
+</p>
+
+<p>
+baohua 11:25 AM
+Ok, any more issue to discuss today?
+</p>
+
+<p>
+camelbeck 11:25 AM
+I think we could make some improvements to our Makefile.
+Just suggestions
+</p>
+
+<p>
+baohua 11:26 AM
+Sure @camelbeck feel free to create jira task and share here for discussion first.
+any suggestion would be encouraged in open-source world
+</p>
+
+<p>
+camelbeck 11:26 AM
+OK
+</p>
+
+<p>
+baohua 11:26 AM
+OK, any more issues?
+</p>
+
+<p>
+camelbeck 11:26 AM
+No
+</p>
+
+<p>
+baohua 11:27 AM
+Ok, we will end the meeting then~~
+Thanks every attendee and enjoy a nice weekend! 🍰
+</p>
+
+<p>
+camelbeck 11:27 AM
+😀
+</p>
+
+<p>
+lafenicecc 11:27 AM
+thx
+</p>
+
+</div>

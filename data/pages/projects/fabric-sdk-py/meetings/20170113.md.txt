@@ -1,0 +1,236 @@
+### 2017-01-13
+
+#### Agenda
+
+* [Jira board](https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85) status syncing.
+* [Patchset](https://gerrit.hyperledger.org/r/#/q/status:open+project:fabric-sdk-py) under review.
+* MVP design discussion.
+* [SDK Spec](https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4) is publicly available.
+* Use of python-sdk in [behave](http://pythonhosted.org/behave/) functional testing
+* Other issues
+
+#### Attendee
+
+* Baohua Yang
+* Kai Chen
+* Chang Chen
+* Qiang Wang
+* Lei Li
+* Latitia Haskins
+
+
+#### Log
+
+```
+=== Meeting Start ===
+11:02]  
+Baohua Yang Dear all
+
+[11:02]  
+sorry i’m late
+
+[11:02]  
+who will attend today’s meeting, pls hands up!
+
+[11:02]  
+Latitia Haskins :raised_hand:
+
+[11:02]  
+Baohua Yang @grapebaba @lhaskins @gengjh @lafenicecc @qiang @hanhzf
+
+[11:02]  
+Thanks latitia
+
+[11:02]  
+Chang Chen :hand:
+
+[11:03]  
+Wang Qiang :hand:
+
+[11:03]  
+Baohua Yang Since it’s near the chinese new year, we will cancel the next several ones, and let’s work together offline then :slightly_smiling_face:
+
+[11:03]  
+OK, we got seveveral attendees, let’s see the agenda
+
+[11:04]  
+https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20170113.md
+
+[11:04]  
+#1 Jira board status syncing.
+
+[11:04]  
+Any one has problem with the assigned work?
+
+[11:04]  
+I saw the most items have owners already.
+
+[11:05]  
+Latitia Haskins I would like to take on an issue, but I want to discuss the last item on the agenda before doing so. Then any guidance about what would be a good issue to work on would be appreciated
+
+[11:06]  
+Baohua Yang sure, good question, latitia
+
+[11:06]  
+in previous days, the proto is not that stable, now most proto files api are fixed.
+
+[11:06]  
+So let’s start the implementation work right now. I would encourage we create each issue small and focused enough.
+
+[11:06]  
+OK
+
+[11:07]  
+#2 https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py
+
+[11:07]  
+We got numerous patchset in last week, good progress!
+
+[11:07]  
+Thanks to the help from @grapebaba @fan.torchz
+
+[11:07]  
+I will encourage other people make your name there :slightly_smiling_face:
+
+[11:08]  
+We welcome all types of contribution, including code patch, script, and doc.
+
+[11:09]  
+There’s no limit how large a patchset has to be, we prefer a smaller and focused one, easy to review and decide to merge. That’s the secret :slightly_smiling_face:
+
+[11:09]  
+Ok, any question?
+
+[11:09]  
+#3: MVP design discussion.
+
+[11:10]  
+We plan to implement a mvp with support chaincode deployment/invoke/query.
+
+[11:10]  
+Any volunteer on this work?
+
+[11:11]  
+Chang Chen could u be more specific about the mvp? :wink:
+
+[11:11]  
+Baohua Yang yeap, we currently have a minimum running fabric env with 1 peer+1 order+1 cop.
+
+[11:11]  
+the mvp should let people deploy/invoke/query chaincode of example02.
+
+[11:12]  
+Latitia Haskins I would like to work with someone one this. My priority is to write the python to drive the behave functional tests, but this would be useful to have for that work, so I would not be able to devote all of my time.
+
+[11:13]  
+Baohua Yang great, latitia. not know u’re writing the bbd code for fabric. we really have expert!
+
+[11:13]  
+Latitia Haskins :smile:
+
+[11:13]  
+Baohua Yang anyone else :slightly_smiling_face:
+
+[11:14]  
+Chang Chen i can help with that
+
+[11:14]  
+Baohua Yang OK, will count u two first, and welcome for more. I will create a task in jira today.
+
+[11:15]  
+OK, #4 SDK Spec is publicly available.
+
+[11:15]  
+There is few change for the spec
+
+[11:15]  
+would also encourage we read and follow that spec
+
+[11:16]  
+#5 Use of python-sdk in behave functional testing
+
+[11:16]  
+latitia, guess u add this item?
+
+[11:16]  
+Latitia Haskins Yes
+
+[11:16]  
+Baohua Yang great, can u elaborate?
+
+[11:16]  
+Latitia Haskins As I mentioned, I would like to leverage the python-sdk when writing the backend for the functional tests
+
+[11:17]  
+Baohua Yang the bdd for fabric code, right?
+
+[11:17]  
+Latitia Haskins esp. for the deploy/invoke/query functionality for the chaincode
+
+[11:17]  
+and the broadcast and deliver for the orderer
+
+[11:17]  
+Yes, that is correct. this is bdd for fabric
+
+[11:17]  
+Baohua Yang very nice suggestion.
+
+[11:17]  
+yeap, we definitely would like to support that!
+
+[11:18]  
+And before it, we need a mvp :yum:
+
+[11:18]  
+Latitia Haskins :slightly_smiling_face: Yes, exactly
+
+[11:18]  
+Baohua Yang Let’s try to finish the mvp before next week’s end (Chinese new year holiday start)
+
+[11:19]  
+Thanks for that nice advice, latitia
+
+[11:20]  
+Latitia Haskins no problem. I have to work on some of the framework for the test team and then, I should be able to join in to get us to mvp with @lafenicecc
+
+[11:20]  
+Baohua Yang OK. i will also offer that help, considering it’s the top-1 priority now!
+
+[11:20]  
+Chang Chen :+1:
+
+[11:20]  
+Baohua Yang OK
+
+[11:20]  
+#6 other issues
+
+[11:20]  
+Any one have issue to propose?
+
+[11:21]  
+If no further issue, we would like to end the meeting. very good progress recently!
+
+[11:22]  
+let’s fighting even harder!
+
+[11:22]  
+OK, that'all for the meeting, thanks everyone, have a nice day, and enjoy a wonderful new year holidays!
+
+[11:22]  
+Chang Chen thanks baohua
+
+[11:22]  
+Latitia Haskins thanks
+
+[11:22]  
+Baohua Yang See you in new year and let's work together offline :slightly_smiling_face:
+
+[11:22]  
+Latitia Haskins Happy new year!
+
+[11:22]  
+Baohua Yang Happy New Chinese Year!
+=== Meeting End ===
+```

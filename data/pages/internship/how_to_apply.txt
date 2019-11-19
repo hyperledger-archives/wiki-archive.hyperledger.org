@@ -1,0 +1,23 @@
+**Application is now CLOSED**
+
+**Intern Eligibility**
+
+  * You must be at least 18 years of age.
+  * You must be a full or part-time student currently enrolled in an accredited university/college academic program and will return to school after summer or who will have just graduated from college Spring 2018 or have been accepted for the fall term as a first-year student.
+  * You must be eligible to work in the country you reside in during the program.
+
+**Application Steps**
+  * **Step 1:** [[internship:project_ideas|Review Internship Projects]] and identify which project(s) you're interested in. If you have a great idea for a development activity for Hyperledger that has not been proposed as a project, you can submit the idea as part of your application and, if chosen, the Hyperledger Internship Administrator will find a suitable mentor for you.
+  * **Step 2:** Feel free to contact the mentor(s) for the projects that you are interested in to learn more about the project and what the mentor(s) are looking for in an intern project. The best application are oftentimes from students who took the time to interact and discuss their ideas with the mentors before submission.
+  * **Step 3:** Prepare your internship application corresponding to the project that interests you. You may apply up to 3 projects but please submit a separate/different application for each of the projects you would like to be considered for. The application should include the following:
+      * The name of the project you’re applying for or proposing for consideration.
+      * Why you are interested in the project and why you think you have what it takes to  complete the project successfully.
+      * Details of your academic, industry, and/or open source development experience, as well as other strengths and skill sets that you think are relevant. 
+      * Pointers to the code you worked on/contributed if you have worked on other open source projects.
+      * An explanation of your development methodology (e.g. timelines for milestones and deliverables), similar to a project plan to demonstrate how you intend to complete the project. You deliverables should include investigation, coding, and documentation.
+      * Your contact information.
+      * One academic and one professional reference.
+      * A copy of your academic transcript and student ID as proof of enrollment.
+  * **Step 4:** Submit your application as one PDF to [[internship@hyperledger.org]]. **Application Period: March 5 - March 23**
+Please contact [[internship@hyperledger.org]] if you have any questions about the application process or your eligibility. 
+

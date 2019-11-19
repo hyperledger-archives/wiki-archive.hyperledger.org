@@ -1,0 +1,56 @@
+===== Articles =====
+[[healthcare-wg-wikispace-redesign |Home]] : [[resources|Resources]] : [[resources-knowledge|Knowledge resources]] : [[resources-publications|Publications]]
+----------
+
+==== Healthcare industry ====
+
+=== US Healthcare industry ===
+
+  * [[https://www.cainbrothers.com/research/cain-brothers-comments-healthcare-adapts-to-disruption-a-year-of-industry-insights/|Cain Brothers’ Comments: Healthcare Adapts to Disruption: A Year of Industry Insights]]
+
+
+
+==== Preterm birth ====
+
+  * [[http://www.who.int/pmnch/media/news/2012/preterm_birth_report/en/|WHO PMNCH : Born too soon - The global action report on preterm birth.]]
+  * [[http://www.who.int/news-room/fact-sheets/detail/preterm-birth|WHO Preterm birth : Key facts]]
+  * [[https://www.marchofdimes.org/mission/the-global-toll-of-premature-birth.aspx|March of Dimes : The global toll of premature birth]]
+  * [[https://www.telegraphindia.com/1170217/jsp/nation/story_136265.jsp|Linkage between preterm birth and PM2.5 air pollution]]
+
+==== Human milk market ====
+
+  * [[https://www.hmbana.org/milk-processing|How milk is processed. HMBANA.]]
+  * [[https://www.usnews.com/news/best-states/idaho/articles/2018-02-24/breast-milk-shortage-affects-lifes-most-vulnerable-babies|Breast Milk Shortage Affects Life's Most Vulnerable Babies. US News (2018).]]
+  * [[https://theconversation.com/without-better-regulation-the-global-market-for-breast-milk-will-exploit-mothers-79846|Without better regulation, the global market for breast milk will exploit mothers. The Conversation (2017).]]
+  * [[https://www.theverge.com/2015/4/28/8504443/mothers-buying-breast-milk-online-donors-risks|Mothers are buying breast milk online — because they don't have better options. The Verge (2016).]]
+  * [[https://medcitynews.com/2017/04/breast-milk-market/|The appetite for breast milk has produced a growing commodity market. Med City News (2017).]]
+  * //<Add>//
+
+
+==== Healthcare and blockchain ====
+
+  * [[https://medium.com/@tlittlend/the-painful-realities-of-blockchain-in-healthcare-f0ae4d32fd93|The {Painful} Realities of Blockchain in Healthcare. Tony Little 2017]]
+  * [[https://futurism.com/unsafe-vaccines-china-blockchain/ | Chinese Citizens Are Using Blockchain to Warn Each Other of Unsafe Vaccines]]
+  * //<Add>//
+
+
+==== Blockchain technology ====
+
+  * [[https://spectrum.ieee.org/computing/networks/do-you-need-a-blockchain|Peck, Morgan. Do you need a blockchain? 27 Sep 2017, IEEE Spectrum,]]
+  * [[https://medium.com/datadriveninvestor/do-i-really-need-blockchain-4-important-factors-to-consider-57b06e4ffbb6|Pattekar, Shashank. Do I really need blockchain? 4 important factors to consider. 25 May 2018, Medium,]]
+  * [[https://www.computerworld.com/article/3294996/blockchain/by-2020-1-in-5-healthcare-orgs-will-adopt-blockchain-heres-why.html|Mearian, Lucas. By 2020, 1-in-5 healthcare orgs will adopt blockchain; here’s why. 6 Aug 2018, Computerworld.]]
+  * [[https://medium.com/@travismay/the-fragmentation-of-health-data-8fa708109e13|May, Travis. The Fragmentation of Health Data. 31 Jul 2018, Medium.]]
+  * [[https://store.frost.com/blockchain-technology-in-global-healthcare-2017-2025.html|Blockchain Technology in Global Healthcare, 2017–2025. 23 Jun 2017, Frost & Sullivan.]] 
+  * [[https://www.weforum.org/whitepapers/blockchain-beyond-the-hype|Blockchain Beyond the Hype. 23 April 2018, World Economic Forum.]]
+  * //<Add>//
+
+
+==== Blockchain, Governance & e-Government ====
+
+  * [[https://www.newyorker.com/magazine/2017/12/18/estonia-the-digital-republic|Estonia : The digital republic. New Yorker (2018).]]
+
+
+==== Identity and Credentials ====
+
+  * [[http://www.windley.com/archives/2016/10/when_people_can_share_verifiable_attributes_everything_changes.shtml|When People Can Share Verifiable Attributes, Everything Changes, Technometria 2016 ]]
+  * [[http://www.windley.com/archives/2017/01/a_universal_trust_framework.shtml|A Universal Trust Framework, Technometria 2017 ]]

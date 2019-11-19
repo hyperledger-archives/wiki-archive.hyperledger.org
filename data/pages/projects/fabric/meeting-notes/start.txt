@@ -1,0 +1,3 @@
+  * [[projects:fabric:meeting-notes:2017-jan-23-morning | Fabric Notes 23 JAN 2017 morning]]
+  * [[projects:fabric:meeting-notes:2017-jan-23-afternoon | Fabric Notes 23 JAN 2017 afternoon]]
+  * [[projects:fabric:meeting-notes:2017-jan-25-morning | Fabric Notes 25 JAN 2017 morning]]

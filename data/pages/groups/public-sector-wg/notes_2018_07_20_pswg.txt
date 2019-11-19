@@ -1,0 +1,33 @@
+Hyperledger Project\\
+Public Sector Working Group (PSWG) Meeting\\
+July 20, 2018 \\
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/public-sector-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+PSWG Wiki: https://wiki.hyperledger.org/groups/public-sector-wg/public-sector-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+Meeting Notes\\
+
+     *Rose is the new chair, if others are interested in other positions in the working group, let her know
+     *John from BC Canada is about 6 weeks from lauch, will share in two weeks to show work in progress
+     *Update on Hyperledger Global Forum, proposal submitted for panel
+     * First group project - highest value project?
+          *John from BC - strongly pursuing ID, trusted digital identification for citizens and businesses, back by government trust, like in paper world - they are using hyperledger indy and have been for 1 year - 
+          *Trust frameworks - how do establish trust with members of the network
+What is going on in the identity working group? Can we learn from them? How to build a functioning group of interrelated actors who are unknown to each other 
+          *Hyperledger Indy has an identity module - credible, not complete system, look at their gaps, business / healthcare / insurance, provide solution
+          *How to we help actors in the economy with this new technology, how can we get gov’ts to adopt it, biggest problem in europe is immigration, how do we know who we are talking to, how to we track people across europe, 28 countries, how does each those silo information about borders, perfect space for blockchain.
+          *Canada - big problem is homelessness, corporations are buying real estate and we don’t know who owns that property
+     *We need to be able to explain blockchain to non-technical government people - Bobbi will put together a few resources
+     *New members, building momentum
+          *how to increase membership? Who can we invite personally? More collaboration
+          *need marketing materials at Global Forum in December
+          *what would it take to make anyone in the group interested in sharing the group?
+               *Discuss on email or chat please

@@ -1,0 +1,80 @@
+====== Learning Materials Development Working Group======
+
+=====Current Contribution Needs=====
+Learning Materials Development documents are located in a shared Google Drive. 
+[[https://drive.google.com/drive/u/0/folders/13RTfTG0bRqjkIsw_aaZjAaBTKdRMoTdN?ogsrc=32 | LearningMaterialsDevelopment WG > Working Docs ]]
+
+====Drafts for contribution, comment, and review==== 
+
+1) edX GitHub 27 Issues - [[https://github.com/hyperledger/education/issues]]
+
+
+2) Welcome to Hyperledger Meetup presentation - [[https://goo.gl/dk4Z32]]
+
+
+3) Hyperledger Fabric 1.2 presentation - [[https://goo.gl/BFYLwX]]
+
+
+4) Merkle Tree animation script - [[https://goo.gl/eTqXZS]]
+
+
+5) CAP/ACID/BASE animation script (portion) - [[https://goo.gl/PTdV9S]]
+
+
+6) Smart Contract Project - [[https://goo.gl/644btm]]
+
+
+7) Smart Contract Supply Chain Notes - [[https://goo.gl/HFvjhx]]
+
+
+8) Completion of Concept list for end users and decision makers - [[https://goo.gl/3o6pTU]]
+
+
+===== Charter =====
+
+[[https://docs.google.com/document/d/1V2X9A2yTdHNbI1v3itspjisWashMOabHXWbxMEZFs90|Hyperledger Learning Materials Development Working Group Charter]]
+
+===== Antitrust Policy Notice =====
+
+[[https://drive.google.com/file/d/0B_ObsXjgeZdNSFBrejY3MUpRMTFWQ2tDcjBmRzdDNzhoRVFZ/view|The Linux Foundation Antitrust Policy]] 
+
+===== How to Get Involved =====
+
+==== Join a Meeting ====
+The Learning Materials Development Working Group meets every other Monday at 10:00 am Pacific. See the [[https://calendar.google.com/calendar/embed?src=linuxfoundation.org_nf9u64g9k9rvd9f8vp4vur23b0%40group.calendar.google.com&ctz=UTC|Hyperledger Community Calendar]] for details.
+
+[[https://docs.google.com/document/d/1kEuHb3rpQbHqLhVJEI8bdeCCQiTMtgZSI7CYEp8_oMc/edit|Read notes from meetings and see agenda for upcoming meetings]].
+
+<WRAP center round box 75%>
+Join from PC, Mac, Linux, iOS or Android: https://zoom.us/my/hyperledger.community
+
+Or iPhone one-tap :
+    US: +16465588656,,4034983298#  or +16699006833,,4034983298# 
+Or Telephone:
+    Dial(for higher quality, dial a number based on your current location): 
+        US: +1 646 558 8656  or +1 669 900 6833  or +1 855 880 1246 (Toll Free) or +1 877 369 0926 (Toll Free)
+    Meeting ID: 403 498 3298
+    International numbers available: https://zoom.us/u/bAaJoyznp
+</WRAP>
+
+===== Communication =====
+
+==== Mailing List ====
+  * mail alias is: [[mailto:learning-materials-development-wg@lists.hyperledger.org|learning-materials-development-wg@lists.hyperledger.org]]\\ 
+  * mail archive is: https://lists.hyperledger.org/g/learning-materials-development-wg/messages\\ 
+  * mail subscription is: https://lists.hyperledger.org/g/learning-materials-development-wg\\ 
+
+==== Chat ====
+
+  * [[https://chat.hyperledger.org/channel/learning-materials-development-wg|#learning-materials-development-wg]] 
+
+===== Community Folder =====
+  * [[https://drive.google.com/drive/u/0/folders/0B_NJV6eJXAA1b0h1SldxdmdlTE0|Learning Materials Development WG folder]] exists on Google Drive to store meeting recordings and other documents related to this working group.
+
+
+
+
+===== Other Links =====
+
+[[groups:training-and-education:training_education_navigation_site_navigation_links | Learning Materials Development navigation site navigation links]]\\ 
+[[https://docs.google.com/spreadsheets/d/1EXgEYWZvFgH3JiBCMbkb0V-r6Eg7NcFGKBVo_rImvQ4/edit#gid=0|Current Projects (Google sheets)]]

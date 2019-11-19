@@ -1,0 +1,36 @@
+**Hyperledger Healthcare Patient SubGroup  \\
+Meeting Agenda and Meeting Notes for 2018-11-09**
+
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class 1: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]\\
+Hyperledger Class 2: [[https://www.edx.org/course/understanding-blockchain-and-its-implications|Understanding Blockchain and its Implications]]\\
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+Notes:
+
+**Status Update - activities from the last couple of weeks (5 Min)**
+
+//Marissa summarized the donor milk project up to date and that currently we are at a point where we need to re-evaluate the problem space and ensure we are not duplicating effort with well established supply chain solutions. //
+
+**Open discussion on next steps for the project given: IBM Food Trust, Rapid Healthcare availability, SMEs (30 min)**
+  * Given that IBM Food Trust has a well established Hyperledger blockchain solution - it seems like it will address the transparency and traceability aspects of what we are trying to do
+  * Naomi mentioned that there are multiple participants in this ecosystem,so getting standardized barcoding across banks and hospitals will be difficult, often they are not currently
+  * The biggest value add for milk banks of a solution like this would be the feedback loop of data from hospitals on gestational age, birth weight, diagnosis of the babies that are receiving the milk
+  * If we could leverage the IBM Food Trust code and somehow integrate with Epic (or another EMR) - this could provide the information that the bank needs and provide a lot more data for researchers
+  * This is possibly the pivot we will look at
+  * If we do decide to pivot in this direction, this would tie back to Mikhail's comments on needing to focus on privacy and other questions that were mentioned in his email yesterday
+  * In summary we will hold off on moving forward with the PoC until we can confirm the above proposed pivot and if we have the right stakeholder that are willing to participate
+  * Anton had requested to have the meeting moved to at 8:30-9:30am PST slot, and it was decided to keep the current slot and have him join for the second half of the 9-10am PST slot or set up ad hoc meetings
+
+**Next steps**
+  * Marissa to reach out to IBM Food Trust contacts to see if they would be interested in collaborating on a donor milk focused effort
+  * We also need to see where we can find a connection in Epic (ideally Epic as they are the largest EMR, but we could work with another), so Marissa will reach out to contacts at medical chain and also ask IBM if they have had any conversations
+  * Marissa to connect back with Anton to see if as the customer is comfortable with this pivot and if he has any ideas for contact and also would be willing to set aside some time to build out some user stories for us to explore
+  * Rich will send Marissa template for user stories that might be helpful in the discussion with Anton

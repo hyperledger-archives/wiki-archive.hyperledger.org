@@ -1,0 +1,32 @@
+===== TWG China Meeting =====
+
+==== Date ====
+15:00 ~ 15:40, 2017-08-24, GMT+8
+
+[[http://ibm.webex.com/meet/guojiannan | webex]]
+
+==== Attendee ====
+
+**Pls add ur name here before the meeting.**
+
+  * Baohua Yang (TWGC)
+  * Linsheng Yu (ChainNova)
+  * Jay Guo (IBM)
+  * Allen Shao
+  * Leon
+  * Zhangjiong Xuan(Hyperchain)
+
+
+==== Agenda ====
+  - Translation Tool Discussion
+
+
+==== Minutes ====
+  - In general, using a translation tool like [[zanata.org|Zanata]]/[[transifex.com|Transifex]] is more appropriate for this task than using Github/Gerrit, however, learning curve of such tools is intimidating, especially for new contributors.
+  - Zanata is more user-friendly and opens source friendly than Tansifex.
+  - We need to consider following aspects while evaluating the tool:
+    - Integration with Github: the tool should be able to pull source docs from Hyperledger repo, and push translated docs to CN Repo
+    - Format of docs: currently docs are in rst format. Ideally the tool should be able to convert to/from it
+    - Review support: the tool should support role-based operation, reviewer/translator
+    - Service infrastructure: Official web service or self-host service
+  - **TODO**: Linsheng and Jiannan will develop an end-to-end demo to showcase the work flow of Zanata and propose to next TWGC meeting

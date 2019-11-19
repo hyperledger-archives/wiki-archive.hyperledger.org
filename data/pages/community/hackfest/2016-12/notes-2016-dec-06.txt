@@ -1,0 +1,486 @@
+=====  Notes from NYC Hackfest 06-DEC-2016  =====
+
+notes from Sharon Cocco (weeds):
+
+<file>
+weeds [10:55]  I'm taking notes on session where we can go with 
+         these different incubation projects: Chris Ferris stated-  
+         Fabric,.. R3 Corda,.. Iroha,.. Sawtooth Lake.  Ideally, we would 
+         like to do some consolidation if possible given so many 
+         engineers, or is there interoperability?  Is there initial work 
+         where we can share capabilities?
+         
+[10:55]  Chris Ferris read documentation for Corda- there is 
+         something such as membership services that is missing as it's 
+         not dynamic
+         
+greg_not_so [10:56]  Ethereum is here too, isn't it?
+         
+weeds [10:56]  Membership SErvices is called COP- where this 
+         hands out certificates.  Is there potential where Corda and 
+         Fabric collaborate with shared membership services  possibly?
+         
+[10:56]  Maybe it could also support IROHA?
+         
+[10:57]  Chris said- the question becomes where can we think 
+         about areas that are overlapping where the concepts are not 
+         orthogonal to one another.
+         
+[11:00]  Richard (R3): You covered a lot of ground.  Some things 
+         that caught my attention.  Things from Corda that might be 
+         relevant to others and areas of common work.  And possibly what 
+         to do on interoperability.  If I start with membership services- 
+         what is the solutions underpinning Corda.  We don't use 
+         permissioned or permissionless as it's overused term, it is a 
+         identified network given the legal prose.  We need to know who 
+         is communicating on network.  What we have implemented is the 
+         network map, which is a service .  The network map is simple 
+         service- it's a lookup service and it comes back the 
+         organization and their addressable network.  Certainly more to 
+         it than that,,.. signatures and chain certificates.  How do you 
+         get into that?  You need an enrollment service- I suspect what 
+         you have in membership services.  The requirements have is that 
+         we have workflow- here's who I am and proof of who I am and 
+         evidence that is necessary and there has to be a certiifcate 
+         authoritywhere humans validate this. My sense is that you are 
+         doing that with Membership SErvices,.. and if so, we can 
+         collaborate on it.
+         
+[11:01]  With the other way around- we designed Corda- the mass 
+         majority of code is not consensus critical.  There is a core of 
+         code that has to be deterministic.  The verify function does 
+         true or false,.. and everyone must come to same conclusion.  For 
+         JVM, it's in experimental branch that the idea is whitelist 
+         sandbox of JVM- where we explicitly allow or don't allow 
+         operations .  We whitelist libraries and do rudimentary work so 
+         that everyone runs execution and halts at the same place. Anyone 
+         else that is trying to implement JVM for fabric possibly?  That 
+         code is probably relevant.
+         
+[11:02]  The third point is interoperability- we did a lot of 
+         work on interoperability.  The conclusion is that 
+         interoperability at abstract- you can have lots of 
+         whiteboarding.  interoperability only makes sense with business 
+         services.. Technically maybe it can.  Can a ledger solution- can 
+         it be working with a financial application?  This is how you get 
+         into two phase commit, escrow,etc,.. This has to be done based 
+         on real validated use cases to drive the true interoperability.
+         
+[11:04]  Where do I think this is heading? I could be wrong on 
+         what I have about to say- I'm still fundamentally- I feel there 
+         is two seperate architecture-- pure UTXO and pure replicated VM- 
+         UTXO is a datacenter approach.. Key consensus process is synch 
+         and clear verification process. Replicated virtual model- some 
+         abstract computer.. and mathematically.. They are very 
+         different.  I feel there will be one implementation of each 
+         where each has it's own use case.  I could be wrong certainly on 
+         this.
+         
+[11:05]  Murali from DTCC: I don't think technology aspects but 
+         concern about - can you at least converge on nomenclature 
+         aspects?  It's about how many of these do we keep adding?  Can 
+         we log/merge towards?  otherwise for new members, it's just too 
+         confusing- so many platforms.  if you don't agree on common 
+         aspects, it's too hard for users.  It's not about technology, 
+         but we should agree on higher level aspects
+         
+[11:06]  Tamas from DAH: We offer a start of thinking about how 
+         we could eventually think about common foundation layer.. First, 
+         explains how it fits in financial services domain, and it is not 
+         in contribution of stacks that represent on stage. We need 
+         concrete feedback and this is how we advance this discussion.
+         
+[11:07]  Richard from R3: We've identified requirements formally 
+         that we needed to implement.  Those that read the technical 
+         whitepaper that are very influenced.  WE would welcome if 
+         everyone would be doing that
+         
+[11:08]  Tamas: You might say you reject, but I'd appreciate -- 
+         before we introduce another stack, let's make an attempt.  The 
+         architecture working group made very good suggestions. Those 
+         stacks go into those stacks is a statement of are they aligned 
+         and how do they plan to align- otherwise we will continue to 
+         onboard stacks and this does not align with requirements group, 
+         papers presented by us,  I fear that this is just becoming a 
+         collection of unconnected things.
+         
+[11:11]  Ethereum: I just joined in August, but we are working 
+         on nomenclature and semantic ontology to capture the terminology 
+         ideas that are being expressed in blockchain community.  Is one 
+         being run on state machine? Is it gas oriented?  We are trying 
+         to address that.  Blockchain explorers-- it can be driven down 
+         to apis, so we are working on nomenclature  speaking about 
+         yesterday, whatever stack is being propose- there is value in 
+         having multiple stacks -- I think it's all very valuable One 
+         advantage about Ethereum- many languages used with Ethereum.  
+         Two proposals are bieng talked about web3J will help java users 
+         interface with system.   The other advantage is a very large 
+         user base and if you are looking to validate evidence based use 
+         cases.. ethereum is that it has test net and efs... there is a 
+         large support system for that.  My goal to be ere is to learn 
+         what people are doing and what they find important.  I'm 
+         impressed that there are consensus algorithims being proposed.  
+         I'm impressed with IROHA consensus algorithim and Corda 
+         consensus algorithim.
+         
+[11:13]  individual: Maybe what are key requirements and start 
+         with that possibly? How many use cases they can support-- I want 
+         something that works and stable.  If there are things that can 
+         extend.  But we are all defining now,.. noone is going to have 
+         anything by tomorrow.  We need to have a pluggable architecture- 
+         for that use case, we can plug in the pieces. The biggest 
+         question - are we going to do apache module with a lot of 
+         incubation- or start with what covers the most use cases.  
+         Requirements help a lot with this.
+         
+[11:13]  Chris: I don't disagree with this- noone brought 
+         forward use cases, because everyone is going to disrupt everyone 
+         else.
+         
+[11:14]  you can't share what your client use cases and there is 
+         some sort of NDA
+         
+[11:16]  You can certainly talk about features.  One of 
+         challenges we have and correct me if mis-characterize.  I 
+         suspect everyone looked at what we published in January... and 
+         then so focused on exclusively on what everyone is doing.  and 
+         not seeing,.. if you look at pivot in June- there is a lot that 
+         is quite similar in fabric.  If we had conversations earlier on- 
+         maybe we would have converged.  I think it's good to get these 
+         tings out in open.  Let's take stock and step back and see what 
+         is in each of these- Sawtooth, Ethereum, Corda and reflect on 
+         that.   Everyone is pushing for delivery, but take a step back 
+         and this is a function (the doorman or whatever you call it)- we 
+         don't need too many of these.  Maybe something more oriented for 
+         permissioned network or someone who can just doll out 
+         certificates- maybe subtle differences .  If we understand what 
+         else is happening beyond our own projects,.. I think tat Brian 
+         vision.  I don't think it will happen overnight.
+         
+[11:18]  Gari: what related to that and what Jonathan saying- it 
+         would be one thing if projects came back with 100's of people 
+         and bunch of people using it.   This is what happens in Apace 
+         and there is competing ones.  The problem is that we have 
+         projects and have 5 people developing them.. and now community 
+         of people- and we are competing with people to contribute.  If I 
+         was an outsider,
+         
+[11:21]  trying to integrate 2 pieces... could I hack out the 
+         Corda notary service and throw in our ordering service- I could 
+         have done that, but would that even serve a point?  we see 
+         questions from community- when do I use when? A contest of who 
+         is best to serve is not productive.  This is a waste of time.  
+         My point- could we coming out of here.. maybe a tag team of 
+         contributers.  could we put together a group of 1, 2, 3 
+         proposals of something we would like to prove out as a concept. 
+         Hey- I will code over the holidays and will contribute to this.  
+         Pick something- pick a real project- guys, is this actually 
+         possible?  I think there is an interesting idea - taking Poet 
+         and using leader election for our ordering service in fabric and 
+         extend and do pure validation for UTXO-- use POET that dynamics 
+         leader and run CORDA and Sawtooth Lake for it?
+         
+[11:21]  Tamas: Why?  we would do something technically-
+         
+[11:22]  Gari: Why poet?  we can use common component-we are 
+         doing permissioned network. Corda and Fabric have come to 
+         similar conclusion - ordering or notary service to make sure no 
+         double spend and ordering.  We both ended up to CFT to start 
+         with or single process... you guys use RAFT, we used KAFKA with 
+         Zookeeper and both are Crash Fault Tolernat.  What if we want 
+         more people to enter and be trusted- POET would allow for a 
+         larger set and still trusted.  There are real cases for that.
+         
+[11:23]  Tamas- According to my experience for financial 
+         services- the least sexy thing is consensus server.. this is not 
+         the thing you would pick.
+         
+[11:23]  Gari: your assumption is it's just financial services
+         
+[11:23]  Gari: we can either be financial services or not- I do 
+         know them too- I have a world of other people that are not just 
+         financial services who require these things.. Please pick a 
+         project.. if we do membership services- let's do cop or 
+         something here.
+         
+[11:26]  Chris: there are use cases beyond financial services 
+         such as the one Gari described- There is internet of things tat 
+         is going to scale and no bank will scale to that.  That might 
+         apply to teller machines- not banks exchanging between.  The 
+         more important reason is to get people to work together we have 
+         to get something out of it.  I'm not going to work on it as a do 
+         gooder, but I derive from going down to soup kitchen and helping 
+         out. So when we think about- what does it take to get parties to 
+         collaborate or they are being forced to do it?  In open source, 
+         it's all voluntary.  I would just sort of say- we need some 
+         common ground- maybe that's not the highest priority - it's at 
+         least a thing,.. membership services or doormat,.. that's 
+         another thing that we could potentially common shared value.  
+         Then there are some aspects- like consensus models like BFT 
+         beyond CFT that require significant amount of research, 
+         investment, experimentation , trial and error, and if we go 
+         about independently, we won't solve problem quickly- if we 
+         collaborate, those will be important to experiment together.  
+         Things like zero knowledge proof is so hard, so better off if we 
+         do it together
+         
+[11:27]  Jim Zhang: we should collaborate, but I don't think 
+         that the direct conclusion is we should have multiple projects
+         
+[11:27]  Chris: the way you get people to collaborate is to find 
+         common ground
+         
+[11:29]  Jim Zhang: i want to play devil's advocate-- it's not 
+         good to have duplicate. Everyone agrees is that Java as a 
+         project is huge success.  If you look at enterprise hybernate 
+         and Java E-- both had huge communities behind them and 
+         co-existed.  They inform each other on approaches and 
+         collaborate on  pieces of the spec proposals.  Each project 
+         needs to be serious about what they say- each should have 
+         community and resources behind them so growing up and fulfill 
+         meaningful projects and requirements... and we can inform each 
+         other.  Maybe we have two - but two need to be successful.. not 
+         5 where some have real resources and some not.  They claim to be 
+         part of group..
+         
+[11:29]  PNB Paribas Having more resources does not make 
+         successful project.. You can work on something that is utter 
+         failure if you go down wrong path. Listen to other people and 
+         work in the working groups.  One person could bring something 
+         more of value.
+         
+[11:33]  Richard from R3: I remember a time web application 
+         server- Websphere/WebLogic.  Big process to standardize Java 
+         Enterprise.  It was insane.  I could be wrong on this- it's 
+         premature standardization before app servers were going and 
+         where the real issue was going.  And we had too top down to 
+         force these competing stacks ,.. and community rebelled-- Spring 
+         and Hybernate came on side given EJB too complicated.  The 
+         lesson learned is the race to converge was a mistake- maybe I 
+         learned that lesson and why I stood back and not converge too 
+         early as a result.  The other experience - the code base itself 
+         when we get into fully open for R3 is that we have a consistent 
+         coding style. I worry about doorman- I worry about the 
+         architecture and take other pieces wholesale and how do we 
+         maintain the integrity.  this is a case o maturity and what 
+         maybe we need to get over.  Two other quick points- you made 
+         people.  DAH is not the only ones- they are the only irm that 
+         don't throw code over the fence,.. this is what we want existed. 
+          final question on Gari- I think we can focus on deterministic 
+         JVM and Membership SErvices.  We are not fully open. OUr full 
+         JIRA- these are the things we have not started designing or 
+         buildling.. No answers there.
+         
+[11:35]  IROHA: we need not to be waterfall- these are important 
+         to be iteratively and follow a spiral model.   Collect your 
+         thoughts and so it's useful to do projects like Gari said- do 
+         something simple technical demoes, but after that has to be 
+         focused collaboration- these are the results of what worked and 
+         did not work.  it's important not to be too binary in decision 
+         making process and dive in and take small pieces as much as 
+         possible.  this is what we have been focusing on as we are 
+         working with 3 main projects right now- and all different fields 
+         so hard to get collected in one big picture.. slowly be able to 
+         expand to other use cases. this is approach we've been taking.
+         
+[11:37]  Chris: I'm going to give analogy of auto industry- 
+         building the are once a month.then large scale manufacturing. 
+         Each auto manufacturer was creating their own thing- complete 
+         design from bottom up and so all the cars from automaker were 
+         different. over time, there is an ecosystem that expanded and 
+         specialization on tires on how to build tires that are heat 
+         resistant or cold resistant or whatever. There were only so many 
+         tire manufacturers required- so now you only have the tire 
+         manufacturers that they are shared. Ultimately there ended up 
+         only 3 or 4- my point is this- the auto industry was independent 
+         and essentially it's all a big blur.. and only thing different 
+         is how sexy is it.. how green is it or whetever, but the piece 
+         parts are all common. How do we do that? how do we accomplish 
+         that?
+         
+[11:39]  Brian: cars are very different, but snow tires are 
+         different than tires designed for speed- while they are similar- 
+         4 tires on most cars and steering wheel is common- there are 
+         technologies and the implementations diverge.. they converge 
+         were value and where economic advantages.  it depends on 50,000 
+         foot view or 10,000 foot view.  would auto industry converge on 
+         day 1 or phase of experimentation that led to get the more 
+         aligned.  the enterprise java bean is a good example of trying 
+         to over enginner and ram down people's throats, but better 
+         architecture was how they grew organically.  I feel your 
+         anxiousness, but we do need to converge services and vocabulary.
+         
+[11:44]  Cisco- this is exactly what we have tried to do 
+         with the architecture group.  The end vision there is to specify 
+         the functional requirements-- define identity services, define 
+         smart contracts, define policy and crypto and storage layer.  
+         We've been specifying the interfaces to them instead of 
+         implementation details.. that way you have options within those 
+         layers  ;.... Gari: take a simple example of Ethereum. Everyone 
+         takes that as the spec and go write that and build multiple 
+         version of ethereum. You can have multiple clients-- you deploy 
+         your code, but that is their mission and spec.  Who are we 
+         trying to help?  You can either be an umbrella that brings in 
+         projects, but when projects come in and ask community for help.  
+         That's not scalable.. Unless you are growing community- you are 
+         just bringing in more things that compete with the same stuff.  
+         the one trend that i've noticed is there are a lot  more people 
+         working on things and are now trying to use the products, but 
+         not contributers to product.  So we have people who brought 
+         original stuff-- but you battle for potential resources, we 
+         don't all get everything done and confuse people.  R3 originally 
+         had a great mission- it was a clear statement- we are here how 
+         blockchain is applicable and provide recommendations.  if that's 
+         the point of hyperledger project or key things everyone needs to 
+         have.. then that's fine, but that's different then here are 
+         projects how implemented, here's our resource pool, it's never 
+         going to work- we will have same 5 people... and someone is 
+         going to be upset with one project and go work on another. Who 
+         is this for?  *richard R3*  We have 5 different code bases.  The 
+         actual enemy - everyone is committed.  This has to be developed 
+         in open- as this has to be sticky-
+         
+[11:48]  Richard R3: financial institutions need to look at 
+         market dynamics- but maybe we help them understand deploy on 
+         open base.  my bet is they won't succeed because clients too 
+         small.  We should not lose site- the building of canals in UK- 
+         emergency civil engineering competing and how did they resolve- 
+         formed organization of civil engineers and yet parallels - it 
+         doesn't mean we have to slam these things together.  CISCO: we 
+         are in experimental phases of what niche, what requirement.  
+         What richard is pointing out- it comes out in the open. 
+         different transport protocols- some of them will be good fit and 
+         some will be better at others.  We are still at experimental 
+         phase and diverse set of requirements and we are in early stages 
+         of the game. We have a set of buildling blocks that will be 
+         sanitized over time.. I don't think we should standardize 
+         everything and too early to standardize.  CHRIS: there are 
+         aspects of function regardless of framework- or do we build 5 or 
+         6 or 8 of those- maybe we build 1 or 2
+         
+[11:48]  there is only so many ways - can we all build off of 
+         common one?
+         
+[11:50]  Richard R3: You may good point- nextgen consensus.  We 
+         did read that. But we did not caught up.  It's different not 
+         better or worse.  We did study that in depth.  If someone pitch 
+         the architecture- probably not as  a TSC member pitching all of 
+         these.  Each of those being able to do that and what would help- 
+         this should be able to be a prerequisite.. you mention the 
+         explorer,.. because of architectural explorer, we are buildling 
+         things .. i've not taken enough time.. people have read the 
+         whitepapers and understand the code base of each others stuff.
+         
+[11:52]  Brian: Are the resources finite?  as I talk to 
+         people joining- don't expect existing people to jump onto your 
+         project.  there are some ethereum companies that have paid 
+         attention, but have made their strategic investment- maybe 
+         bringing ethereum project in gets them more engaged.  If we are 
+         talking about efforts- how do we get most productive output?  
+         even if time is finite, we can grow the pie and grow the 
+         community-- everyone pays attention to what we do... I do think 
+         this is sharing as much information internal where we have 
+         common needs and building common interfaces,.. and Richard's 
+         proposal the architecture working group and whitepaper working 
+         group. I'd be willing to maintain a queue from raising hands.
+         
+[11:54]  Tamas: We have different appetite for the two phases. 
+         some people we are still exploring.. that's the danger I see and 
+         stretch the direction of experimental and increasing the pool.  
+         I'm concerned for several reasons- there is a community that is 
+         bigger- and it could have a reverse effect.  I don't see it 
+         beneficial to consolidate on a project that is aimed to provide 
+         solution for enterprise use.  I don't see how a working group 
+         will continue to progress if you connect with public and 
+         decisions are made in a different way and in a different forum.
+         
+[11:56]  Mural from DTCC; We can compete and bringing platform- 
+         maybe increase the components - Corda or Fabric - we have a 
+         component repository and create platform to publish those 
+         components to this repository.  Encourage these different to 
+         publish components and how we have common credits.. if they 
+         don't contribute a component- we levy a tax.. maybe we have to 
+         encourage creating the components for industry.. that is also 
+         used in their own stack and published outside.
+         
+[11:56]  Hyperledger in general- needs to be more config and 
+         give some incentives
+         
+[11:58]  Jeremy: couple of observations I was at wallstreet 
+         blockchain alliance.  A lot of those expressed- something 
+         working in production and people's progress towards it.. and I 
+         spoke to people listening into TSC- what is call that i should 
+         attend that is something interesting- we have people's attention 
+         and how do we exploit that. We are missing an opportunity.  I 
+         encourage people to think about that.  Why i created DLT 
+         spreadsheet- because i could not keep track of all the 
+         components all the projects and how they intersected... Great 
+         someone can carry thta forward. We need that so people can 
+         consume and understand and how they could help.  it's not always 
+         clear how we engage or how we get started,.. much easier with 
+         sawtooth or broader stuff.
+         
+[12:01]  Jim- we should not be in rush for consolidation 
+         at this point. what we should do is this is very early days for 
+         blockchain. Meaningful projects can grow and the market will 
+         sort it out. But there is a concern- people are confused.. what 
+         can i do with these 5 or more.  we can help them tremendously 
+         for each project- what they are and what they are built for and 
+         more helpful what projects have already been using it and to 
+         what level o success.. we don't have anything like that today. 
+         as an organization we need to form opinions about project .  
+         what is POET good for? what is PBFT good for? what is Kafka good 
+         for? we don't have anything like that.. everyone reading each of 
+         these independently-- how do I chose?  Hibernate sprint was so 
+         successful because they spent time making sure it's easy for 
+         developers to get started.  we need to do that for audience and 
+         simply for developers.. even the c level people- we have enough 
+         of information on these projects on how to chose.
+         
+[12:02]  DTCC: consolidation might not be the right time- but 
+         certainly for collaboration. IN similar way- there may be some 
+         components that may be useful-- it may not make sense 
+         completely, but ways to generalize it-- and something we ought 
+         to get started.  Speaking right now,.. one is go, one is java , 
+         one is C++.l how we use those components l maybe we can 
+         independently utilize it.. but even things like smartcontracts 
+         supports many languages. Shared reusable components
+         
+[12:04]  Sharon: is there a way where we can find a client that 
+         we can all work towards to merging some of these pieces- 
+         different architecture components are good, but to rally this is 
+         the way we do it.
+         
+[12:04]  Chris : lunch is in the other room
+         
+[12:05]  There are a couple of things in course of th emorning 
+         that we need to squeeze in the afternoon.. what we have at 1pm 
+         is we do identity and requirements-- the hackers can go in the 
+         other room.  And then we had things like review of future 
+         hackfest and locations.. but the other two tings that came up is 
+         the web3J proposal and give time to review 15 to 20 minutes on 
+         that. Victor asked if we could present Cello-- if people are 
+         interested-- if people can grab a sandwich and bring back and we 
+         will start off and have w3j presentation followed by Cello.
+         
+[12:16]  My 5 cents on the discussion.  As an app 
+         developer I see the blockchains as the operating systems. 
+         Nowadays in the world of OSes if I want my app to succeed, I 
+         either write it in the interpreted language which can be run on 
+         as many OSes as possible (Java, Python, JS) or as a slightly 
+         outdated approach I would write it to be 100% POSIX-compliant.  
+         I would be more than happy if there existed  a shim layer which 
+         I can use without knowing what is the underlying blockchain. 
+         Something that abstracts the concepts of smart contracts, state, 
+         transactions, membership service and presents it as a unified 
+         interface to me, the app developer.  Maybe I am asking for too 
+         much. Or too early :slightly_smiling_face:
+         
+[12:44]  @dvitas yes, but the problem that we have is that 
+         there is no defined POSIX (and I think we are too early for such 
+         a thing) and the contracts/application aspect is too entangled 
+         with the underlying framework/fabric/whateveryouwanttocallit to 
+         be portable 
+
+middleton [12:49]  @weeds thanks for the live transcription
+</file>

@@ -1,0 +1,22 @@
+=== Details ===
+Singapore Hyperledger Group is delighted to have Duncan Johnston-Watt, a member of the Hyperledger speaker bureau and the CEO of Hyperledger member, Blockchain Technology Partners from the UK, to speak with us on Hyperledger Sawtooth.
+
+Hyperledger Sawtooth is an enterprise blockchain platform for building distributed ledger applications and networks. The design philosophy targets keeping ledgers distributed and making smart contracts safe, particularly for enterprise use. Hyperledger Sawtooth was initially contributed by Intel and was the second Hyperledger project that reached 1.0 in January 2018.
+
+Duncan will first provide an overview of Hyperledger Sawtooth and then drill down on deploying and managing Sawtooth and the importance of the role of Kubernetes underpining this. We will round this talk off with a demonstration of the rapid deployment of Hyperledger Sawtooth.
+
+Thanks to Onechain for hosting us. Light refreshments will be served at the event.
+
+=== Agenda ===
+Sep 12, 2018
+
+14:45pm Registration
+
+15:00pm Talk by Duncan
+
+16:00pm Q&A
+
+=== About the speaker - Duncan Johnston-Watt ===
+
+Duncan is a member of the Hyperledger speaker bureau and long time open source advocate, nominated for a Computerworld Smithsonian Award. Duncan holds an MSc in Computation from Oxford University where he was a graduate student at Balliol College. Duncan is also one of the organisers of the Hyperledger Scotland community in Edinburgh.
+https://www.linkedin.com/in/duncanjohnstonwatt/

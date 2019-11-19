@@ -1,0 +1,39 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+=== Blockchain Explorer ===
+
+
+===== Project Health =====
+
+We made the blockchain explorer compatible with v1.0.x of Fabric, and an announcement will be sent out soon. In this release we closed about 19 tickets/user stories. We simplified the configuration file that the user has to modify to be able to easily connect to a  peer.
+
+
+===== Issues =====
+
+There are no issues at this time.
+
+===== Releases =====
+
+Blockchain explorer 2.0 release is ready and will be announced soon. We announced it on the chat channels #blockchain-exploer, #general and #fabric that it is compatible with Fabric v1.0.x and ready for release.
+
+===== Overall Activity in the Past Quarter =====
+
+We have made significant contribution in the past few months to make it compatible with Fabric v1.0 and simplified the configuration required. There are 641 users who are subscribed to #blockchain-explorer channel and questions related to the project are being answered. 
+
+===== Current Plans =====
+
+The current plan is to change the front-end to use ReactJS to make it easy for new contributors and ease the development effort. We are currently having planning meetings to finalize the road-map. The ReactJS effort is being worked on a separate branch (react). 
+
+
+===== Maintainer Diversity =====
+
+We have added 2 members (Robert and Daniel) from OneChain as maintainers. 
+
+
+===== Contributor Diversity =====
+
+We have contributors from DTCC, OneChain and other individual contributors.
+
+
+ 

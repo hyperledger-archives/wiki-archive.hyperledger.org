@@ -1,0 +1,45 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Cello
+
+===== Project Health =====
+Overall, the project is going as planned: 
+  - Active discussions happen at rocket channel; 
+  - Most patchsets get response within 24 hours; 
+  - New users are coming to adopt cello and report demands/bugs.
+
+
+===== Issues =====
+There are no issues at this time.
+
+===== Releases =====
+Release history:
+
+  - v0.6.0: 2017-06-24
+  - v0.7.0: 2017-10-20
+  - v0.8.0: 2017-12-31 (in planed)
+
+We are preparing the v0.8.0 release at end of Dec, 2017.
+
+===== Overall Activity in the Past Quarter =====
+Most questions happen at rocket chat, and get response within a day. New features are proposed and planed using jira, also with fixing reported bugs.
+
+===== Current Plans =====
+v0.8.0 release will come soon, with supports of setting up fabric network using ansible, on top of cloud env, vm or servers. The vsphere cluster support will be done, too. Moreover, the documentation keeps updated with the latest design and implementation.
+
+Besides, we are planning to have some meetup recently.
+===== Maintainer Diversity =====
+There are 3 maintainers from IBM (2) and Oracle (1), covering both US and Asia areas.
+
+We nominate new maintainers based on continuous contributions in terms of code, QA/education, doc and review activities.
+
+
+===== Contributor Diversity =====
+Cello project has a good diversity in code contribution, QA and adoptions.
+
+In past 3 months, there are contributors from 7 different companies, and also with individual ones.
+
+===== Additional Information =====
+N/A
+

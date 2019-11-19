@@ -1,0 +1,50 @@
+{{:groups:healthcare:hsm_logo.png?nolink&650}}
+
+===== Membership Directory =====
+
+----
+
+==== Connect with Other HC-SIG Members ====
+
+
+As part of our ongoing review of the HC-SIG and our drive to provide value to both current and prospective HC-SIG members, we've developed this membership directory. The purpose of this directory is to make it easier for HC-SIG members to connect with one another and their respective businesses and organizations.
+
+This is a purely voluntary effort, but if you're interested in posting your professional contact information, and you didn't receive a request to participate through email, here's what you need to do:
+
+  - Log into the [[https://chat.hyperledger.org/channel/healthcare-sig|HC-SIG Rocket.Chat channel]] (you'll need to create a Linux Foundation account)
+  - Send a direct message to //richbl//, providing the following information:
+
+    * Your name (required)
+    * A social media URL to your name (optional, e.g., Linkedin)
+    * Your company name (optional)
+    * Your company website URL (optional, corporate divisions or specific areas of your company website are permitted)
+    * Your company title (optional)
+    * Your geographic location (optional, using the format of "city, country")
+
+You'll receive an email confirming the addition of your name to the membership directory (usually within 24 hours). Please be sure to double-check your entry for accuracy.
+
+
+----
+|< 100% 20% 35% 25% 20%>|
+^ Member Name                                                                     ^ Company Name                                                                                                                                           ^ Company Title                                                ^ Geographic Location     ^
+| Saqib Ali, PhD                                                                  | Cybersecurity, Guangzhou University                                                                                                                    | Research Fellow in Trust & Privacy Domain                    | Guangzhou, China        |
+| [[https://www.linkedin.com/in/richardbloch|Rich Bloch]]                         | [[https://digitalhealthcare.io/|Digital Healthcare I/O]]                                                                                               | Principal                                                    | Seattle, USA            |
+| [[https://www.linkedin.com/in/uli-broedl/|Uli Broedl]]                          | [[https://www.boehringer-ingelheim.ca/en|Boehringer Ingelheim Canada Ltd]]                                                                             | Medical Director and VP, Medical and Regulatory Affairs      | Burlington, Canada      |
+| [[https://www.linkedin.com/in/robert-d-coli-m-d-b923207|Robert D. Coli, MD]]    | [[http://clinicalblockchain.com/|Clinical Blockchain, LLC]] / [[http://diagnosticinformationsystem.com/|Diagnostic Information System Company, Inc.]]  | Chief Medical Officer / Founder and CEO                      | New Hampshire, USA      |
+| [[https://www.linkedin.com/in/steven-s-elliott|Steven Elliott]]                 | Cognitive Medical Systems                                                                                                                              | Services Engineering Director                                | San Diego, USA          |
+| [[https://www.linkedin.com/in/lisa-grayston-7a139a16/|Lisa Grayston]]           | [[http://elementalconcept.com/|Elemental Concept]]                                                                                                     | Product Owner                                                | London, United Kingdom  |
+| [[https://www.linkedin.com/in/adrian-gropper-6916651/|Adrian Gropper]]          | [[https://patientprivacyrights.org/|Patient Privacy Rights]]                                                                                           | CTO                                                          | Watertown, USA          |
+| [[https://www.linkedin.com/in/miannarone/|Marissa Iannarone]]                   | [[https://www.forumsolutionsllc.com/|Forum Solutions]]                                                                                                 | Associate                                                    | Seattle, USA            |
+| [[https://www.linkedin.com/in/dipakmawale/|Dipak Mawale]]                       | [[https://www.cuelogic.com/|Cuelogic Technologies]]                                                                                                    | Head of Marketing and Communications                         | New York, USA           |
+| [[https://www.linkedin.com/in/morizono|Hiroki Morizono]]                        | [[https://ctsicn.org/|Children's National Medical Center]]                                                                                             | Director, Children's Research Institute Bioinformatics Unit  | Washington DC, USA      |
+| [[https://www.linkedin.com/in/kamlesh-nagware-1456094b/|Kamlesh Nagware]]       | [[https://www.diaspark.com/|Diaspark Inc.]]                                                                                                            | Technology Head - Blockchain                                 | Indore, India           |
+| [[https://www.linkedin.com/in/vaibhav-patil-20089a20|Vaibhav Patil, MD, MS]]    | Patient Informatics, LLC                                                                                                                               | CEO                                                          | Voorhees, USA           |
+| [[https://www.linkedin.com/in/richardeshute/|Richard Shute]]                    | [[http://www.curlewresearch.com/|Curlew Research]]                                                                                                     | Consultant                                                   | Macclesfield, UK        |
+| [[https://www.linkedin.com/in/stauffiger/|Markus Stauffiger]]                   | [[https://www.4eyes.ch/|4eyes GmbH]]                                                                                                                   | Blockchain Consultant & Engineer                             | Basel, Switzerland      |
+| [[https://www.linkedin.com/in/jeffstollman/|Jeff Stollman]]                     | [[http://rmtminc.com|Rocky Mountain Technical Marketing]]                                                                                              | Principal Consultant                                         | Philadelphia, USA       |
+| [[https://www.linkedin.com/in/bentaylorledgerdomain/|Ben Taylor]]               | [[https://www.ledgerdomain.com/|LedgerDomain]]                                                                                                         | CEO                                                          | Las Vegas, USA          |
+| [[https://www.linkedin.com/in/votis-konstantinos-563b647/|Konstantinos Votis]]  | [[http://www.iti.gr/|Centre for Research and Technology Hellas / Information Technologies Institute (CERTH/ITI)]]                                      | Researcher, Director of Visual Analytics Lab                 | Thessaloniki, Greece    |
+| [[https://www.linkedin.com/in/ydcandrew/|Andrew Yee]]                           | [[https://www.nec.com/|NEC]]                                                                                                                           | Business Development Manager                                 | Singapore               |
+| [[https://www.linkedin.com/in/alanbachmann| Alan Bachmann]]                     | [[https://www.cvs.com/| CVS Health]]                                                                                                                   | Enterprise Architect, office of the CTO                      | Pittsburgh, PA          |
+
+

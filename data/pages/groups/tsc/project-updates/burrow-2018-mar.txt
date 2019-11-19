@@ -1,0 +1,57 @@
+====== Hyperledger Burrow Project Update - Q1 2018 ======
+
+===== Project Health =====
+Project is gathering momentum having been through an awkward transition and significant refactor. In the process of testing the refactor many existing bugs - including severe ones involving panics - have been resolved. Our CI  systems now run more integration tests 
+
+===== Issues =====
+The main issues we have are:
+
+   * [[https://github.com/hyperledger/burrow/issues/674|EVM compatibility]] - though we are on track to have these substantially resolved before the end of the quarter.
+   * Lack of good up-to-date documentation - we have multiple initiatives via third parties to fix this (former employee and help from TSC) - however we (Monax) frankly do not have time and resources to pour into this - help would be valuable.
+   * Lack of web3 support is still an issue (though we have a good base in RPC layer to build off now) - this is not the top priority for Monax since we are relying on our existing tooling now housed in [[https://github.com/monax/bosmarmot|Bosmarmot]] but will be an issue for the community (though there is now [[https://github.com/pouladzade/snack|Snack]] - a truffle alternative)
+
+===== Releases =====
+There has not been a release since the last update - this had been due to the large scale refactoring of not only Burrow but all of our tooling which now resides in http://github.com/monax/bosmarmot and is moving towards stability. We have had to refactor and rehouse all of our code to give us something we could maintain and test that functionality had been maintained. 
+
+There is still a good chance of a release (Burrow 0.18.0 - although a major release we are postponing 1.0.0 owing to the de-facto semantics of that release number - though we may release 1.0.0 fairly soon) before the end of this quarter.
+
+===== Overall Activity in the Past Quarter =====
+Please see also the [[projects:burrow:roadmap_2018_Q1_postmortem | Q1 2018 Roadmap post-mortem]].
+
+   * A large and successful refactor codenamed Hypermarmot: [[https://github.com/hyperledger/burrow/pull/666]]
+   * The establishment of a monorepo containing our key-signing daemon, compilers service, package manager and test framework, and Javascript client libraries as a 'reference toolkit' for using Burrow (and what we use): [[https://github.com/monax/bosmarmot]] 
+   * An upgrade to Tendermint 0.15.0 with many improvements
+   * Removal of around 50 runtime panics
+   * Upgrade of event system removing blocking and making more scalable
+
+===== Current Plans =====
+Please see also the [[projects:burrow:roadmap_2018_q2|draft Q2 2018 Roadmap]].
+
+The core features planned (subject to change) are:
+   * Governance transactions to control side-chain
+   * Improved state/merkle tree with advanced proofs (based on tendermint/iavl)
+   * State history
+   * Event firehose
+   * Queryable events
+   * Validator bonding
+   * State saving and restore 
+
+===== Maintainer Diversity =====
+Tyler Jackson has been added as a maintainer (Monax) since we last spoke
+
+Silas Davis and Casey Kuhlman are active maintainers
+
+Sean Young (Monax) will be joining as will Sean Blucker (TCS) - but first need to get up to speed
+
+===== Contributor Diversity =====
+In terms of contributors we have commits from:
+
+  * [[https://github.com/smblucker/ | Sean Blucker]] - EVM improvements - full time from TCS
+  * [[https://www.linkedin.com/in/pouladzade/Ahmad| Ahmad Pouladzadeh]] has found some important EVM issues (fixed in PR) and has developed his own tooling for Burrow that is similar in spirit to Truffle and looks promising: https://github.com/pouladzade/snack 
+  * [[https://github.com/robertdiebels| Robert Diebels]] has been building Kubernetes integrations
+  * Adam Ludvik from Sawtooth Lake helped review a large pull request
+
+All of the above have been active on chat and are potential maintainers for Burrow. Monax also has a new full-time employee with strong low-level database (implementation of) and cloud experience who will be heavily involved in Burrow.
+
+===== Additional Information =====
+Monax will be putting Burrow into production for its own product - a Legal Agreements Network - in Q2 and Q3. We expect this to drive a phases of significant hardening and improved operational support.

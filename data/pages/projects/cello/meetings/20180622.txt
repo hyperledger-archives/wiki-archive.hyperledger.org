@@ -1,0 +1,40 @@
+==== 2018-06-22 ==== 
+Meeting will be held at [[ https://zoom.us/my/hyperledger.community | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/cello|rocketchat]] (for text chat) at:
+  * 08:30AM   (UTC-4, Eastern Daylight Time EDT)
+  * 06:00PM   (UTC+0530)
+  * 08:30PM   (UTC+8)
+
+  * [[ https://jira.hyperledger.org/projects/CE/issues/CE-188?filter=allopenissues | Ongoing Jira task ]] 
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:cello+status:open | Open Patchset for review ]] 
+  * [[ https://wiki.hyperledger.org/projects/cello | Project Wiki Page ]] 
+
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  - Refine code for user dashboard, [[ https://youtu.be/qW9J7axCnI8 | demo link ]] (haitao)
+  - Demo Ansible Agent to setup fabric network on GKE(Google) and IKS (IBM) (tong)
+  - Dynamic crypto config generation (Jiang Lu)
+  - Kubernetes agent design (Luke Chen)
+  - [[https://wiki.hyperledger.org/projects/cello/internship-2018|Internship progress]] (shuo)
+  - [[https://docs.google.com/document/d/1HfaWl8jXH75wua-hZCXgrpS-AQlYtTqSwlII1_1pi4s/edit?disco=AAAAByVAHBY&ts=5b2c9e98&usp=comment_email_document | Enterprise BaaS based on Cello Proposal]] Call for comments
+
+
+=== Attendee ===
+**Please put your name before the meeting.**
+
+
+  * Baohua Yang
+  * Haitao Yue
+  * Tong Li
+  * Shuo Wang
+  * Amit
+  * Yash
+  * Luke Chen
+
+=== Minutes ===
+  * Haitao gives a live demo on the new user-dashboard;
+  * Tong did a live demo on ansible agent with IBM and Google Cloud;
+  * Luke has submitted several patchsets on k8s agent, got some feedbacks. Hopefully demo next week;
+  * Shuo got some problem of building the user-dashboard, hightall will help have a look
+  * Yash will keep refine the proposal, and welcome for more comments

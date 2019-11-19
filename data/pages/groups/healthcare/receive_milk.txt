@@ -1,0 +1,156 @@
+===== Scenario : Receive milk =====
+* [[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]] : [[analysis-business|Domain analysis]] : [[analysis-human-milk|Human milk services]]
+----------
+
+==== Name ====
+
+** Receive milk **
+
+==== Narrative ====
+
+{{ :groups:healthcare:milk_recipient_services_-_receive_milk_workflow.jpg }}
+
+----------
+===== Participants, Resources and Contexts =====
+
+==== Participants ==== 
+
+=== Roles ===
+
+  * [[Human milk donor]]
+  * [[Human milk recipient]], [[Patient]] (preterm infant, infant)
+
+  * [[Milk banking services provider]]
+    * [[Milk bank manager]]
+    * [[Milk bank practitioner]]
+  * [[Milk storage services provider]] (Milk depot facility)
+    * [[Milk storage manager]]
+  * [[Milk distribution services provider]] (Milk distribution facility)
+    * [[Milk distribution manager]]
+  * [[Healthcare services provider]] 
+    * [[Milk bank practitioner]]
+    * [[Perinatal services provider]] (Neonatal care provider, Intensive care provider)
+      * [[Responsible practitioner]] (Prescriber) (Donor milk recipient practitioner)
+
+
+----------
+
+==== Resources ==== 
+
+  * //resource//
+  * //resource//
+
+=== Inputs ===
+
+  * //input//
+  * //input//
+
+=== Outputs ===
+
+  * //output//
+  * //output//
+
+----------
+==== Contexts ====
+
+=== Physical ===
+
+  * //physical context//
+  * //physical context//
+
+=== Virtual === 
+
+  * //virtual context//
+  * //virtual context//
+
+----------
+===== Goals, Flows and Policies =====
+
+==== Goals ====
+
+  * //goal//
+  * //goal//
+
+----------
+
+==== Preconditions ==== 
+
+=== Participant preconditions ===
+
+  * //precondition//
+  * //precondition//
+
+=== Resource preconditions ===
+
+  * //precondition//
+  * //precondition//
+
+=== Context preconditions ===
+
+  * //precondition//
+  * //precondition//
+
+=== Previous flows (input activities or events) ===
+
+  * //activity or event//
+  * //activity or event//
+
+=== Concurrent flows (parallel activities or events) ===
+
+  * //activity or event//
+  * //activity or event//
+
+
+----------
+
+==== Flows ==== 
+
+=== Primary flows ===
+
+  * [[Order milk]]
+  * [[Approve milk order]]
+  * [[Distribute milk]]
+  * [[Dispense milk]]
+
+
+=== Alternate flows === 
+
+  * //activities or events//
+  * //activities or events//
+
+----------
+
+==== Post-conditions ==== 
+
+=== Outcomes (Goal-states) ===
+
+  * //outcome//
+  * //outcome//
+
+=== Outcomes (Other) ===
+
+  * //outcome//
+  * //outcome//
+
+----------
+
+==== Subsequent activities or events ====
+
+=== Subsequent flows (successful outcome) ===
+
+  * //activity//
+  * //activity//
+
+=== Subsequent flows (compensating or terminating outcome) ===
+
+  * //activity//
+  * //activity//
+
+----------
+
+===== Supporting Resources =====
+
+==== Sources ==== 
+
+  * //resource//
+  * //resource//

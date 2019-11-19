@@ -1,0 +1,316 @@
+====== Running Roadmap for Hyperledger Indy ======
+
+===== Introduction =====
+This roadmap is to coordinate the various teams contributing to the Hyperledger Indy project. Please read this explanation, and then add your own priorities to this list.
+
+The contributor community for HyperLedger Indy is a diverse group. Each group has their own priorities. By sharing those priorities, we hope to identify areas of shared interest, foster collaboration, and increase the usefulness of delivered items. If something is high on your list, but low on another team’s list, you should seek to have a conversation as you plan your work. Each team roadmap includes a method of contacting a key stakeholder for a discussion.
+
+This roadmap represents each team's high level development priorities, which they will break into Epics and Stories in the referenced issue tracker. Most contributions to Hyperleger Indy will eventually result in an issue being created in the appropriate project of the [[http://jira.hyperledger.org | JIRA instance used by Hyperledger]].
+
+==== Standard Disclaimers ====
+The information in this roadmap is shared in good faith, but is exclusively for informational purposes. Nothing on this roadmap shall be considered a commitment by any party to any other party. Priorities, resources, and timeframes will frequently change. Projects may be deferred or cancelled at any stage of development. Delivery of anything on this roadmap remains at the sole discretion of the people doing the work.
+
+Hyperledger Indy is not obligated to accept any contribution, even if it appears on this roadmap. The incorporation of a contribution into the project depends on that contribution meeting established standards and aligning with the development roadmap of the core maintainers.
+
+==== Current Release Plan ====
+
+=== Indy Node ===
+  * 1.5 (July): Plenum Plugin support, reduced logging in production, stability fixes.
+  * 1.6 (August): Connection management and stability fixes.
+
+
+=== Indy SDK ===
+  * Indy SDK 1.6 (July): Wallet search for anoncreds, cluster shared wallet, standardize wallet export format.
+  * Indy SDK 1.7 (August): Use Hyperledger CI / CD and get CII badge.
+
+----
+
+===== Collective Shared Objectives =====
+**Roadmap contact:** Nathan George, reachable by sending an email to [[https://lists.hyperledger.org/g/indy | the Indy mailing list]]. \\
+**Issue Tracker:** 
+  * [[https://jira.hyperledger.org/browse/INDY]]
+  * [[https://jira.hyperledger.org/browse/IS]]
+  * [[https://jira.hyperledger.org/browse/IA]] \\
+**Roadmap Updated:** October 2018
+
+=== In Progress ===
+  - Graduation from Hyperledger Incubation
+    - Security audit (underway)
+  - Community build pipelines fully hosted in the open (at the Linux Foundation and Sovrin Foundation)
+  - Payment for transactions and agent interactions (permission-less access)
+  - Default Wallet implementation
+  - Default Agents implementation
+  - Standardized message formats
+  - Schemas and data modeling
+    * Improved schema format
+    * On-ledger proof requests
+    * Schema overlays
+  - Reducing the on-ramp for new developers
+    * "off-the-shelf" demo of multi-sourced identity
+    * Examples
+    * Documentation
+  - Shared Crypto Library
+  - Standard for DID / DID Document
+  - W3C standards for verifiable credentials
+  - Distributed Key Management (DKMS)
+
+
+
+===== Teams =====
+==== Sovrin Foundation Development Team ====
+**Roadmap contact:** Nathan George <nathan.george@sovrin.org> \\
+**Issue Tracker:** See Hyperledger JIRA links above \\
+**Roadmap Updated:** January 2019
+
+
+=== In Progress ===
+  - Graduate from Hyperledger incubation
+  - Community build pipelines
+  - Reference Agent implementation
+  - Standardized message formats
+  - Developer documentation improvements
+  - Shared Crypto Library 
+  - New schema format
+
+
+==== Sovrin Trust Framework Working Group ====
+**Roadmap contact:** Nathan George <nathan.george@sovrin.org> \\
+**Issue Tracker:** TBD \\
+**Roadmap Updated:** October 2018
+
+
+=== In Progress ===
+  - Defining performance requirements for Stewards in the Trust Framework
+  - Reqs for being able to use the Sovrin trademarks in context of SSI
+  - Automate Trust Framework onboarding
+  - Trust Anchor onboarding
+  - Identity onboarding requirements TA’s must meet
+
+----
+
+==== Evernym Indy-Node Team ====
+**Roadmap contact:** Richard Esplin <richard.esplin@evernym.com> \\
+**Issue Tracker:** [[https://jira.hyperledger.org/browse/INDY]] \\
+**Roadmap Updated:** 2018-06-27
+
+=== Recently Completed ====
+  * Versioned ledger transaction format
+
+=== In Progress ===
+  - Stability and availability of the Sovrin network
+  - Network monitoring
+  - Manage open connections
+  - Plugins to Plenum
+  - Performance benchmarking
+  - Technical Debt and refactorings
+
+=== Next ===
+  - View Change refactoring: (2018H2)
+    - Adopt View Change to be as in PBFT
+    - Adopt a state machine
+  - Changing transport between client and node to improve scalability (2018H2)
+    - replace ZMQ transport with agent-to-agent communication
+      - improved capability of controlling load
+  - DID / DID Doc standards compliance (2018H2)
+  - Ubuntu 18.04 support (2018H2)
+  - Credentials standards compliance (2018H2)
+  - Observer node support (2018H2)
+    * periodic updates to multi-signature without load on the pool
+    * BLS multi-signature for the pool ledger
+    * Possibility to catch-up from one node only
+  - 3PC State Machine
+  - State Machine for requests
+  - Request format refactoring
+  - Improvements to RBFT protocol
+    - Improve the performance and accuracy of RBFT instances
+  - Schema Enhancement
+    * Enforcement of data types and units of measurement
+    * Inherit schemas
+    * Embed schemas
+  - Node Reputation
+  - Upgrade Mechanism with voting
+  - Public facing dashboard 
+  - Ledger explorer
+    * View of only schemas
+  - Win64 support
+  - Mac support
+  - Sharding
+  - Ledgerless DIDs
+  - Documentation (Phase II)
+
+=== Deferred ===
+  * Ed25519 Open source tool key compatibility (Public key generation tool)
+  * Support for IPv6
+  * Flex TLS / DID TLS
+  * Anchoring as a transaction type
+  * CII Badging
+
+
+==== Evernym Indy-SDK Team ====
+**Roadmap contact:** Richard Esplin <richard.esplin@evernym.com> \\
+**Issue Tracker:** [[https://jira.hyperledger.org/browse/IS]] \\
+**Roadmap Updated:** 2018-06-27
+
+=== Recently Completed ===
+  * Plugable wallet storage
+  * Non-secrets API for application data in wallet
+  * Plugable payments API and nullpayment plugin
+  * Manage API versions between releases
+
+=== In Progress ===
+  - Sharing a wallet between Akka nodes
+  - Wallet import / export
+  - Incorporate feedback on the Payments API
+  - Search and filtering in Wallet
+  - CI / CD Improvements, including a public Jenkins pipeline
+  - Credential exchange API (merging in Evernym/sdk libVCX)
+  - Contribute a reference Cloud Agent to indy-agent
+
+=== Next ===
+  - Contribute indy-crypto to hyperledger-crypto as a shared crypto library (2018H2)
+  - Scalability of LibIndy: multiple connections (2018H2)
+  - Updating Howtos
+  - Agent messaging standardization
+  - DID / DID Doc and Credentials standards compliance
+  - Android
+  - Schema Enhancement
+  - Photos/Attachments in Claims
+  - Agent Discovery Protocol
+  - Pre-allocation DIDs
+  - Proof requests
+  - Additional predicates
+
+
+==== Evernym Debug Tools Mission ====
+**Roadmap contact:**  Richard Esplin <richard.esplin@evernym.com> \\
+**Issue Tracker:** Internal Evernym. Will create public issues for pull requests. \\
+**Roadmap Updated:** 2018-06-27
+
+=== Recently Completed ===
+  - Capture and replay interactions on a node: INDY-1283
+
+=== In Progress ===
+  - Snapshot recordings
+  - Chaos toolkit for automating integration and system tests
+
+==== VON (Verifiable Organizations Network) ====
+=== Community Project: Province of British Columbia, Gov of Canada (Pubic Services and Procurement Canada), Province of Ontario ===
+
+**Roadmap contact:** John Jordan <john.jordan@gov.bc.ca> and Stephen Curran <swcurran@cloudcompass.ca> \\
+**Community Page:** [[https://von.pathfinder.gov.bc.ca | Verifiable Organizations Network]] \\
+**Issue tracker:** [[https://github.com/bcgov/TheOrgBook | Using ZenHub against GitHub repository]] \\
+
+**Roadmap Updated:** 2018-10-15
+
+=== Achieved: TheOrgBook - BC Instance - Live: October 2018 ===
+  - Live Site: https://theorgbook.pathfinder.gov.bc.ca/en/home
+=== Pending: TheOrgBook - Ontario Instance - Beta Live end of October 2018 (dependent on SLN update) ===
+
+=== Completed Contributions ===
+  - VON Image - Python base container image for VON and any indy-node, indy-sdk deployments
+    -  [[https://hub.docker.com/r/bcgovimages/von-image/|von-image docker hub]]
+    - [[https://github.com/PSPC-SPAC-buyandsell/von-image|von-image github repo]]
+  - VON_Anchor continues to track to latest indy-sdk - [[https://github.com/PSPC-SPAC-buyandsell/von_anchor | github repo]]
+  - VON-X - uses VON_Anchor to implement Verifiable Credential Roles - Issuer, Holder, Verifier in any combination - [[https://github.com/PSPC-SPAC-buyandsell/von-x | github repo]]
+  - TheOrgBook [[https://github.com/bcgov/TheOrgBook| github repo]]
+    - Credential Processor (Credential Parser for Search Data)
+    - Web-based UI - Search and view Organizations History
+    - API for accessing/verifying the verifiable credential open data held by TheOrgBook
+    - Scaling to Loading ~7.5M Credentials - current speed - 2600 cred/min issued and stored
+    - Enterprise Wallet capable of holding ~7.5M Credentials - Postgres
+    - Enterprise hardening - deployment, backup/restore, monitoring
+  - Government Service - Verifiable Credential Issuer/Verifier
+    - Service Event Processor (Credential Issuer) - BC Registries [[https://github.com/bcgov/bcregx| github repo]] and Onbis (Ontario) implementations
+
+=== Next: ===
+
+  - [[https://docs.google.com/presentation/d/1N644zdzTHDXz24-h6mTX2NYiQiGHz5V8IWbMbxF686M/edit?usp=sharing| Roadmap Google Slides Presentation]]
+  - Additional features in TheOrgBook
+    - UI enhancements
+    - Credential Change Notifications (pub/sub and webhooks)
+  - Adding Issuer/Verifier Services to existing VON instances
+    - Tools for understanding the (simple) onboarding process
+    - Upgrade of the [[https://devex-von-test.pathfinder.gov.bc.ca/en/recipe/start_a_restaurant|Permitify Demo]] to the latest code
+  - Adding VON Participants - more instances of TheOrgBook
+    - Hyperledger Indy Catalyst (working title) project
+    - Tools for understanding the deployment process - technical and business
+  - Verified Relationships - Organizations and Owners have their own Wallet
+    - Agent-to-Agent messaging protocol using Reference Agent
+    - Extending the Permitify Demo to include Organizations with their own Agents
+    - Client Agent Reference implementation and Test Suite
+    - Collaboration with other Agent Builders
+    - Possible: Web Assembly
+
+----
+
+==== BYU Office of Information Technology (OIT) ===
+**Roadmap contact:** Matthew Hailstone <matthew_hailstone@byu.edu> \\
+**Issue tracker:** Private GitHub [[https://github.com/byu-oit]]\\
+**Roadmap Updated:** 2018-10-15
+
+=== Completed ===
+  - Node JS Reference Agent [[https://github.com/hyperledger/indy-agent/tree/master/nodejs]]
+
+=== In Progress ===
+  - Agency services for students and university (issuer, holder, and verifier)
+
+----
+
+
+
+
+
+==== Wipro Team ====
+**Roadmap contact:** Vinod Panicker  <vinod.panicker@wipro.com> \\
+**Issue Tracker:** Public Github  https://github.com/WiproOpenSourcePractice/indy-sdk , https://www.drupal.org/project/openbcstackdrupal \\
+**Roadmap Updated:** 2018-05-03
+
+=== In Progress ===
+  - PHP Wrapper for Indy
+  - Drupal Blockchain Modules for Indy
+ 
+
+=== Next ===
+  - Drupal Distribution for Indy
+
+
+----
+
+
+==== SecureKey ====
+**Roadmap contact:** Troy Ronda <troy.ronda@securekey.com> \\
+**Roadmap Updated:** 2018-05-10
+
+=== Next (TBD) ===
+  - Go Wrapper for Indy
+  - Interop related topics such as resolvers, verifiable credentials, agents, and fabric integration
+
+
+
+----
+What follows is a template you can copy and paste to add your team.
+
+
+==== Your Team Name ====
+**Roadmap contact:** Some way to contact you \\
+**Issue Tracker:** Where people can details about the items \\
+**Roadmap Updated:** Today's date
+
+=== Recently Completed ===
+  * Claim credit for things you recently contributed
+
+=== In Progress ===
+  - Most important item your team is working on now
+  - Next most important item
+
+=== Next ===
+  - Your next priority
+  - And the one after
+  - And the one after
+
+=== Deferred ==
+  * Something you would like to see done, but aren't prioritizing now.
+  * It could be blocked on something that is currently on the backlog.
+  * Or it could be something you are hoping someone else will do.
+
+----

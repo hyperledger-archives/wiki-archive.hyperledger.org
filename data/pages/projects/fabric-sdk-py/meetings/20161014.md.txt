@@ -1,0 +1,273 @@
+### 2016-10-14
+
+#### Agenda
+* New Team member self-introduction
+* New joiner get familiar with community tools: jira, gerrit, slack
+* baohua and kai will lead the log module design.
+* Everyone review the [Patchset UnderReivew](https://gerrit.hyperledger.org/r/#/q/status:open+project:fabric-sdk-py)
+* Everyone review the [SDK Spec](https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4)
+* Other items
+
+
+#### Log
+
+```
+baohua [10:57 AM]  
+The weekly meeting will start in 3 mins, can every attendee hand up? :slightly_smiling_face:
+
+lafenicecc [10:58 AM]  
+:hand:
+
+grapebaba [10:59 AM]  
+:hand:
+
+baohua [11:00 AM]  
+Today’s agenda: https://wiki.hyperledger.org/fabric-sdk-py/meetings?&#section20161014
+
+bryan-huang [11:00 AM]  
+:raised_hand: (edited)
+
+baohua [11:01 AM]  
+Ok, let’s start!
+
+[11:01]  
+1. New Team member self-introduction
+
+gengjh [11:01 AM]  
+:hand:
+
+baohua [11:02 AM]  
+I made a table at https://wiki.hyperledger.org/fabric-sdk-py, every developer please fillup the information there
+
+hanhzf [11:02 AM]  
+hi
+
+baohua [11:02 AM]  
+uploaded an image: Pasted image at 2016-10-14, 11:02 AM 
+Add Comment
+
+baohua [11:02 AM]  
+@hanhzf you should add ur LF ID in the table.
+
+gengjh [11:02 AM]  
+hello, I am David Geng from arxanfintech
+
+baohua [11:03 AM]  
+Anyone wanna introduce more about himself? :slightly_smiling_face:
+
+[11:03]  
+Baohua is from IBM, and my homepage is yeasy.github.com
+
+lafenicecc [11:04 AM]  
+Hello, i am Calvin Chen from IBM research
+
+hanhzf [11:04 AM]  
+ok, in a meeting, will add it later @baohua
+
+ckeyer [11:04 AM]  
+hi
+
+grapebaba [11:04 AM]  
+Kai Chen is from IBM wuhan site
+
+bryan-huang [11:05 AM]  
+@gengjh @hanhzf and I are in same corp , and we were IBMer
+
+hanhzf [11:05 AM]  
+this is frank from arxanfintech.co
+
+bryan-huang [11:05 AM]  
+now is ex-IBMer
+
+grapebaba [11:06 AM]  
+:clap:
+
+baohua [11:06 AM]  
+Welcome every developer~~ let’s work together on the project!
+
+[11:06]  
+2. New joiner get familiar with community tools: jira, gerrit, slack
+
+[11:06]  
+Mainly, jira is for task assignment. Everyone can create new task item there.
+
+[11:07]  
+New created item is with “todo” status, and other people can assign it to himself.
+
+[11:07]  
+After assignment, he should update the task to “in-processing” status, and give an estimated time.
+
+[11:07]  
+Jira is here: https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85
+
+[11:08]  
+We use gerrit for code repo: https://gerrit.hyperledger.org. On the README.md there is steps on how to use it.
+
+[11:08]  
+Slack channel is where we discuss, i guess there is some robot support.
+
+[11:09]  
+any question?
+
+[11:10]  
+3. baohua and kai will lead the log module design.
+
+[11:10]  
+@grapebaba Let’s discuss this later.
+
+[11:11]  
+@grapebaba ok?
+
+grapebaba [11:11 AM]  
+ok
+
+baohua [11:11 AM]  
+good
+
+[11:11]  
+And this is an assignment. 4. Everyone review the patchsets at Patchset UnderReivew
+
+[11:11]  
+https://gerrit.hyperledger.org/r/#/q/status:open+project:fabric-sdk-py
+
+[11:11]  
+please tell which one u would like to review here, thanks
+
+[11:12]  
+I will review 1617 the crypto module
+
+gengjh [11:12 AM]  
+the jenkins verification job was ready already, right?
+
+baohua [11:12 AM]  
+@gengjh not yet, u need to to a local “tox” checking.
+
+gengjh [11:13 AM]  
+ok, who is working on it?
+
+baohua [11:13 AM]  
+me, and welcome for your help :slightly_smiling_face:
+
+gengjh [11:13 AM]  
+sure :slightly_smiling_face:
+
+baohua [11:14 AM]  
+ok, count u in
+
+[11:14]  
+https://gerrit.hyperledger.org/r/#/q/status:open+project:fabric-sdk-py
+
+[11:14]  
+Any more volunteer to review?
+
+bryan-huang [11:14 AM]  
+:raised_hand:
+
+grapebaba [11:14 AM]  
+yes, CI task should high priority
+
+gengjh [11:14 AM]  
+i think everyone can give review comments and +1/-1 in gerrit
+
+baohua [11:14 AM]  
+@hanhzf
+
+[11:15]  
+Yes, we encourage everyone
+
+gengjh [11:15 AM]  
+so you mean +2/-2 for need more volunteer to review ?
+
+baohua [11:15 AM]  
+no, just as normal review
+
+gengjh [11:16 AM]  
+ok
+
+baohua [11:16 AM]  
+cool, and the next item is the SDK spec
+
+[11:16]  
+https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4
+
+[11:16]  
+Please go to this link and help review
+
+lafenicecc [11:17 AM]  
+will this spec be the guide of all the sdk
+
+[11:17]  
+all the sdk projects?
+
+baohua [11:17 AM]  
+yes
+
+lafenicecc [11:17 AM]  
+not limited to py
+
+grapebaba [11:17 AM]  
+i think this spec could add crypto module
+
+baohua [11:17 AM]  
+It’s a abstracted design guideline for all SDKs.
+
+[11:17]  
+@grapebaba sure, feel free to add your comments or suggestions there.
+
+[11:18]  
+Now it’s still in development
+
+lafenicecc [11:18 AM]  
+so we basically follow the APIs listed there?
+
+baohua [11:18 AM]  
+That would be good to follow, it’s recommended. And the SDK spec discuss meeting is this evening. Welcome for joining.
+
+[11:18]  
+Weekly, WebEx common fabric SDK focus meeting
+Friday, October 14, 2016
+7:00 am  |  Eastern Daylight Time (New York, GMT-04:00)  |  1 hr
+Meeting number: 255 534 655
+Meeting password: 159577
+
+[11:19]  
+OK, is there any other item to discuss by anyone?
+
+[11:21]  
+any more items to discuss by any one?
+
+gengjh [11:21 AM]  
+i think there are still a lot of todo items should be created in jira. do we have any plan to init those backlog?
+
+baohua [11:21 AM]  
+@gengjh Sure, just feel free to discuss with the team and create the task at JIra
+
+[11:22]  
+Our team’s style is  self-motivated :slightly_smiling_face:
+
+bryan-huang [11:22 AM]  
+I don’t like the code structure of js sdk (hfc), put everything in one js file, so I think we can make it better
+
+[11:22]  
+in the py sdk
+
+baohua [11:23 AM]  
+sure :slightly_smiling_face: as the js sdk was started even before the spec.
+
+[11:23]  
+any more items?
+
+[11:24]  
+OK. Then in summary we now have two assignment, 1) please help review the patchset and 2) the SDK Spec. And always feel free to propose your idea with the team. Thanks and have a good day!
+
+new messages
+bryan-huang [11:24 AM]  
+:+1:
+
+lafenicecc [11:24 AM]  
+:+1:
+
+grapebaba [11:25 AM]  
+:clap: 
+```
+

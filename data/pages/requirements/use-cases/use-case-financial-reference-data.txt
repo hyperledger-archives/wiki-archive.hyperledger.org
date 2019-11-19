@@ -1,0 +1,16 @@
+// Detailed use case in the recommended template/format - Work in progress. //
+
+====== Financial Reference Data Use Case ======
+
+**Open Financial Reference Data Ledger (DATUM) for Global Client, Party, Product and Pricing Data**
+
+In Banking and Financial Services, financial instruments represents either ownership (equity), rights to ownership (options) or creditor relationship (bonds) depending on the business transaction.
+
+Every day, we have thousands of firms (entities) and individuals interact with each other while dealing with wide range of financial assets (equity, fixed income, currencies, commodities) through various intermediaries (exchange, broker, custodian, multilateral trading facility).
+
+Yet there is no decentralized, largely consensus driven and open data set to link all these aspects (client-party, products, pricing) to help to efficient management throughout the transaction and relationship life cycle(s). Also it would help cutting across different domains which includes risk, regulatory to client reporting activities.
+
+  * AML-CFT, KYC, Client Onboarding (CIP, CDD/EDD, Risk Assessment and Ratings)
+  * Instruments Reference Data (Products - Market, Identifier, Trading level)
+  * Pricing and Market Data (EOD Snap - Regional/Global)
+

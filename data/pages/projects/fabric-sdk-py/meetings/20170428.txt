@@ -1,0 +1,187 @@
+==== 2017-04-28 ==== 
+
+Meeting will be held at [[https://chat.hyperledger.org/channel/fabric-sdk-py|rocketchat]] at 11AM (GMT+8).
+
+=== Agenda ===
+  * [[ https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85 | Jira board ]] status (chang will sync). 
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py | Patchset]] for review. 
+  * MVP remaining tasks discussion (kai will sync, 1769 by @grapebaba).
+  * E2E test (Ray Chen will sync)
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]] is publicly available.
+  * Other issues
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Baohua Yang 
+  * Kai Chen
+  * Ray Chen
+  * Chang Chen
+  * Chao Li
+
+
+=== Log ===
+
+baohua 11:00 AM
+OK, let's start, thanks for the joining
+Today's agenda is at https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20170428
+#item 1: chang pls help sync the jira task status
+
+lafenicecc 11:01 AM
+There are 3 tasks in progress
+1) FAB-1769 send_transaction. @grapebaba has made great progress this week, and still some works ahead. He can sync later.
+2) FAB-2871 implement e2e test, which @ray is working on. He will sync too
+  
+3) FAB-3437 update with latest protofiles. @baohua is working on that, keeping up with fabric changes.
+That's the status for now.
+
+baohua 11:03 AM
+Thanks
+@grapebaba @ray hope goes well?
+
+grapebaba 11:03 AM
+yeah, 1769 done
+
+baohua 11:04 AM
+the fabric code changes the configtx.yaml structure recently, so i need to update the 3437 later with new compose environment.
+
+grapebaba 11:04 AM
+that means we finish all external invocation including CA, PEER, ORDERER
+
+ray 11:04 AM
+About fab-2871:
+
+My side: Heavily involved with company's project, very few free time available until May 15.
+Wei Hu: Still no progress.
+
+Should we re-assign the e2e task? Or is this ok to wait for some more time?
+
+baohua 11:04 AM
+ok, who will volunteer to help the e2e framework design?
+
+grapebaba 11:05 AM
+but i made a mistake which install test should no need sending to orderer
+
+camelbeck 11:05 AM
+I'm still not very familiar with e2e so far, but I think I can have a try for fab-2871.
+👍 1  :woo: 1  
+
+baohua 11:06 AM
+aha, kai, pls help fix that ASAP.. maybe a new jira task first.
+Thanks @camelbeck
+
+camelbeck 11:06 AM
+😁
+
+baohua 11:06 AM
+First, you may create some simple high-level worksteps, with leaving the api implemented later
+e.g., a typical scenario: user use the sdk, to access the network, to deploy/invoke chaincode
+we need several typical scenarios first to show how people may use the sdk.
+certainly u can refer the java/node sdk's scenarios examples.
+
+camelbeck 11:07 AM
+OK, I think it is a great chance for me to get familiar with SDK and fabric, too.
+
+baohua 11:07 AM
+Yeap, very good starting-point.
+@grapebaba pls help fix the install problem, and we will fill with fuel to run! 🛬
+OK, item #2： Patchset for review.
+https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py
+Each patchset need a jira task number, and pls add the patchset url to the jira task's comments.
+Also, after ci passed, pls post the patchset url to the channel for call-for-review.
+
+camelbeck 11:09 AM
+👌
+
+baohua 11:10 AM
+@lafenicecc pls talk to david about the 8521
+
+lafenicecc 11:10 AM
+Ok i will
+
+baohua 11:10 AM
+thanks
+item #3: MVP remaining tasks discussion (1769 done by @grapebaba).
+great progress
+@grapebaba pls help create jira tasks for the remaining steps we need to do.
+
+grapebaba 11:11 AM
+ok
+
+baohua 11:11 AM
+would suggest each task as simple as possible, then people will be easy to pick
+
+lafenicecc 11:11 AM
+agreed
+
+baohua 11:11 AM
+we need run fast with smaller steps, thanks!
+
+grapebaba 11:11 AM
+now we can start implement all the interfaces in the SDK
+
+baohua 11:11 AM
+OK. ray has already synced item #4: e2e tests.
+@grapebaba I would suggest we define those apis first, then ask team to help implement.
+API definition is quite important
+there're already some apis, everyone pls help refine/review and implement. thanks!
+
+grapebaba 11:12 AM
+ok
+
+ray 11:13 AM
+ok
+
+baohua 11:13 AM
+Ok, that's the main agenda, any more issue to discuss?
+
+camelbeck 11:14 AM
+@baohua, for the .coverage.*** files issue.
+
+baohua 11:14 AM
+yeap
+
+camelbeck 11:14 AM
+Actually I have not recreated the issue. I do notice many .coverage.*** files under the fabric-sdk-py directory (not the test/ you pointed out) will be generated during the test process, but they all are temporary and will be deleted if testing is successful. And they will remain there if testing fails.
+
+baohua 11:14 AM
+yes, so i would suggest we add those files in the `make clean` script.
+in case they remain in the dir.
+
+camelbeck 11:15 AM
+yes, that's one way to solve it.
+
+baohua 11:15 AM
+you can see the `find ...` cmd in the makefile's clean section.
+certainly will like to hear ur advice on handle that
+@lafenicecc pls help create a jira task first on the issue.
+@camelbeck pls help design a clever solution 😀
+
+lafenicecc 11:16 AM
+ok
+
+camelbeck 11:16 AM
+OK, I will update with the information under that task.
+
+baohua 11:16 AM
+Thanks
+
+camelbeck 11:17 AM
+😀
+
+baohua 11:17 AM
+Any more issue, great progress in the past weeks, we are near MVP soon!
+
+camelbeck 11:17 AM
+👍
+
+baohua 11:17 AM
+Other questions?
+Ok, thanks everyone's joining and efforts, enjoy a labor holiday!
+
+camelbeck 11:18 AM
+👏
+
+grapebaba 11:19 AM 
+👏

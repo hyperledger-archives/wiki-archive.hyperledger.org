@@ -1,0 +1,41 @@
+==== 2018-11-16 ==== 
+Meeting will be held at [[ https://zoom.us/my/hyperledger.community | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/cello|rocketchat]] (for text chat) at:
+  * 08:30AM   (UTC-4) [UTC -4 is Eastern Daylight Time EDT]
+  * 06:00PM   (UTC+0530)
+  * 08:30PM   (UTC+8)
+
+  * [[ https://jira.hyperledger.org/projects/CE/issues/CE-188?filter=allopenissues | Ongoing Jira task ]] 
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:cello+status:open | Open Patchset for review ]] 
+  * [[ https://wiki.hyperledger.org/projects/cello | Project Wiki Page ]] 
+
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  - Released version 0.9.0
+  - Tong presented cello at kubecon
+  - Demo of fabric-ca support in both operator-dashboard and user-dashboard(shuo)
+  - [[https://jira.hyperledger.org/issues/?filter=12626 | v1.0.0 on going issues ]]
+  - [[https://docs.google.com/document/d/1Dw6cEKaul6FenORNkDcxvPDDKwpl0A5EmcJBlqAWJoU/|Next-generation arch to support consoritum governing]]
+  - Quarterly report on the TSC meeting next week
+  - Other issues
+
+=== Attendee ===
+**Please put your name before the meeting.**
+
+  * Baohua Yang
+  * Haitao Yue
+  * Jiahao Chen
+  * Shuo Wang
+  * Zhangjiong Xuan
+  * Jian Liang
+  * Hao He
+  * Mingmei Liu
+  * Shangnan Liu
+  * Xiaoli Ke
+  * Yash
+
+=== Minutes ===
+  * Will follow plan for the v1.0.0 release
+  * Emphasize using jira dashboard for task management
+  * Baohua will prepare the quarterly report

@@ -1,0 +1,6 @@
+===== Blogs =====
+[[healthcare-wg-wikispace-redesign |Home]] : [[resources|Resources]] : [[resources-knowledge|Knowledge resources]] : [[resources-publications|Publications]]
+----------
+
+  * http://ashtonkemerling.com/blog/2018/02/21/no-you-probably-dont-need-a-blockchain
+  * https://blockchainatberkeley.blog/building-it-better-a-simple-guide-to-blockchain-use-cases-de494a8f5b60

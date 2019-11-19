@@ -1,0 +1,35 @@
+====== Fabric SDK Go ======
+
+===== Status =====
+
+This project is [[/community:project-lifecycle#incubation | Incubation]].
+
+===== Description =====
+
+Go SDK for [[/projects/fabric | Hyperledger Fabric]].
+
+===== Project Management =====
+
+  * [[ https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=127 | Jira ]]
+
+===== Repository =====
+
+  * [[ https://gerrit.hyperledger.org/r/#/admin/projects/fabric-sdk-go | Gerrit ]] - Main repository.
+    * [[ https://gerrit.hyperledger.org/r/#/q/status:open+project:fabric-sdk-go | Patchsets to Review ]]
+    * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-go | All Patchsets ]]
+  * [[ https://github.com/hyperledger/fabric-sdk-go | Github ]] - Read-only repository.
+
+===== Communication =====
+
+==== Rocket.Chat ====
+
+  * [[ https://chat.hyperledger.org/channel/fabric-sdk-go | #fabric-sdk-go ]]
+
+
+===== Design Docs =====
+  * [[https://docs.google.com/document/d/17YwH4z2vf7B-85Z2Mr2YVH-LgqCu-Why-j6KMWGIId8 | Short Tutorial on Entity Matchers]]
+
+
+===== History =====
+  * [[https://docs.google.com/document/d/1tYk3t8pF2mj4IGSzPvGopzKxSz8okTW749UyNqxTGZk | Proposal]]
+  * [[https://docs.google.com/document/d/1yyc5eTYjMGjk5dKnmqjG-tg5Tm4-rh5a37YDG40WgYA | Approved 2017-03-17]]

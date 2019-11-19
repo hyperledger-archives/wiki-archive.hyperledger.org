@@ -1,0 +1,12 @@
+===== Research journals =====
+[[healthcare-wg-wikispace-redesign |Home]] : [[resources|Resources]] : [[resources-knowledge|Knowledge resources]]
+----------
+
+  * [[https://blockchainhealthcaretoday.com/index.php/journal|Blockchain in healthcare today]]
+  * [[https://iacr.org/jofc/|Journal of cryptology]]
+
+==== Publications ====
+
+  * [[research-studies|Studies]]
+  * [[research-reviews|Reviews]]
+

@@ -1,0 +1,116 @@
+{{:groups:healthcare:hsm_logo.png?nolink&650}}
+
+===== EMR Subgroup Agenda for 2018-12-18 =====
+
+==== Resources: ====
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HLHC-SIG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-sig \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+----
+
+===== Welcome and Opening Statements =====
+
+  * //A reminder to all HLHC-SIG members that this meeting is being recorded//
+  * [[https://www.linuxfoundation.org/antitrust-policy|Reading of the Linux Foundation Antitrust Policy]]
+  * [[https://tinyurl.com/HL-antitrust-slide|Hyperledger Antitrust Slide]]
+  * **Discussion: request for note-taking for this meeting**
+
+<WRAP box>
+[[https://drive.google.com/open?id=1ikmMBoojvSF4XLK6XlDfe73YypLGR8O8|Meeting recordings/transcript]] 
+</WRAP>
+
+<WRAP box>
+In attendance:
+  * Rich Bloch (recording)
+  * Sonia
+  * Robert Coli
+  * Steven
+  * Mikhail Elias (by phone)
+  * Marissa (by phone)
+</WRAP>
+
+===== Introductions =====
+
+  * **If you’re new to the subgroup, please…** 
+    * Introduce yourself
+    * Tell us where you're geographically located
+    * Share with us your interests in healthcare in general, and blockchain technologies in specific, with emphasis in EHR/EMRs
+
+===== Community Announcements =====
+
+  * **Feel free to share your community announcements as they relate to the Hyperledger community**
+
+===== Old Business =====
+
+  * Status from Ad Hoc Subgroup Review Team (Mikhail Elias, Jeff Stollman, Steven Elliot, Robert Coli, and Sonia Wagner, Lead)
+  * As of 2018.12.04, it's the decision of the active members of the former EMR Subgroup, and the larger Ad Hoc Subgroup Review Team to disband this subgroup in the shorter term, as its initial charter/purpose, as stated, was unclear
+  * This decision does not suggest that the HLHC-SIG will not entertain a future motion to reconstitute a SIG subgroup with a focus on EHR/EMRs
+  * This is the last official HLHC-SIG EMR Subgroup meeting
+
+===== New Business =====
+
+  * ** Discussion: a continuing discussion on the future direction of HLHC-SIG subgroups**
+
+<WRAP box>
+  * Rich presented an introduction/overview regarding the state of this subgroup (now disbanded), but noting that we should be able to re-engage members interested in an EHR subgroup in the future using the proposed SIG/subgroup structure
+    * Mikhail confirmed that this should be the case, and that a process should be developed to make this more formal
+    * Sonia will be speaking with Bilal tomorrow (WE) on this topic
+  * Sonia walked the team through the current set of slides (noting that those presented were out of date)
+    * Proposal is that organization should be broken into technical and non-technical subgroups
+  * Steven presented his proposed charter (presented in email, but moved to Google Docs for future editing)
+    * Focus on interoperability within a consortium (and not necessarily across)
+    * Do we focus on a single episode of care?
+    * Need to stay focused: how to put data on the blockchain
+    * Grow with minimal set, and add to it as needed (if identity is needed, then add it to the process)
+    * External stakeholders (clinical informatics people, HL7, HSPC) very interested in participating in this proposed group and becoming advisors
+    * How do we work through integrating FHIR in an interoperable way?
+    * Need to remain very focussed on the mission statement of this subgroup
+  * Are we understanding the bigger picture as cross-cutting?
+  * Some terminology confusion
+  * Perhaps interoperability is contextual here
+  * Infrastructure architecture an alternate definition (proposed by Mikhail)
+  * Marissa noted some concern on how existing subgroups fit into this new proposed architecture
+    * Mentioned that Ursa is a shared library project, perhaps this is the model we want to follow?
+    * How does the Donor Milk Project fit into this?
+  * We don't want to reinvent the work being done by other SIGs or WGs
+    * Need people who are bridging the higher level general tools/frameworks and wed them with the expertise within the healthcare-specific domain, but can be used by many users within the healthcare industry
+  * Need an updated set of slides to visually represent the proposed structure
+  * Sonia indicated that there is an updated set of slides available
+  * Sonia "the balls already rolling" with existing subgroups, so need to be sensitive to this
+  * Rich, need to understand the bigger picture, what's the story from the top down?
+    * Expectation is that existing subgroups may need to pivot slightly
+  * Sonia, relationship piece to the larger SIG not there yet
+  * Note that we don't want to be specific about calling out technical implementation details (e.g, FHIR)
+  * Marissa, where does everything fit, across subgroups?
+    * Mikhail, an interoperability diagram would be helpful here (visual process flow)
+  * Rich mentioned that there is work planned to establish communications across SIGs
+    * Contacted HL leadership about developing some mechanism for this (David, Silona, et al.)
+    * We want to share what we do with other SIGs and WGs (and vice versa)
+    * Need to define some service layer (Mikhail) to align their work with each other
+  * Sonia, going forward steps
+    * Don't have a subgroup, so how to proceed?
+    * Need to write a charter, how to proceed?
+      * Rich, use the new HL Charter as a model
+    * Rich, concerned that we don't yet have a clear understanding of what's getting proposed
+    * Sonia, do we continue to meed ad hoc?
+    * Open call to Steven, Mikhail, and Bob
+      * All, happy to continue to work in an ad hoc forum
+      * Bob, need to "crystalize" the idea
+      * Steven expressed some ongoing concern about confusion about focus:
+        * "There's so much here that it's we just don't understand between ourselves..."
+        * Willing to work through it
+  * Need to have a "crystalline" (Bob's comment) understanding of our proposal going forward
+  * We are a very passionate group of talented people :)
+
+</WRAP>
+
+===== Next Meeting =====
+
+  * NONE

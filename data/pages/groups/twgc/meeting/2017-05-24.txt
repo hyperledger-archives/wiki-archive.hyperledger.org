@@ -1,0 +1,67 @@
+===== TWG China Meeting =====
+
+==== Date ====
+10AM ~ 11AM, 2017-05-24, GMT+8
+
+Phone Number:
+  * 800-820-0027 (toll free) 
+  * 400-821-0751 (caller paid)
+Passcode: 71173794
+
+==== Attendee ====
+
+**Pls add ur name here before the meeting.**
+
+  * Baohua Yang (IBM)
+  * Min Luo (NTT)
+  * Yaoguo Jiang (HUAWEI)
+  * Chen Chen (PKU)
+  * Zhengping Xu（Chainnova）
+  * Zhou Xing (IBM)
+  * Scott Long(LF)
+  * Julian gordon (LF)
+  * Yanbo Li (OnChain)
+
+
+==== Agenda ====
+  - TSC meeting sync (baohua, charles, victor)
+    - Linux Con: [[https://www.lfasiallc.com/linuxcon-containercon-cloudopen-china/about/schedule|Schedule]]. 
+    - Hyperledger Hackfest: [[ https://www.regonline.com/hyperledgerhackfestjune2017|Register]], [[https://docs.google.com/document/d/1LfTtwHvQfZAHUz8k35-s3hmE3S_0uXSuAAnhTB7U-Hg/edit|Agenda]]
+  - Development and innovation sync (Yaoguo and Ray Chen)
+    - Code development on projects
+    - [[https://wiki.hyperledger.org/groups/twgc/team_di | Team development and Innovation]]
+  - i18n and education work status (Kewei Sun, Linsheng Yu, Wenjie Xie)
+    - Have some [[https://wiki.hyperledger.org/groups/twgc/team_ie|docs]], work is actively on-going.
+  - Scenario and Collaboration (Yin Cao)
+    - [[https://wiki.hyperledger.org/groups/twgc/team_cs|case book ]] design and sharing
+  - Event organization (Zhou Xing and Zhoudong Ji)
+    - Workshop proposal for warmup the hackfest
+  - other issues
+    - **Scott help ask the call system**
+
+
+==== Minutes ====
+  - TSC meeting sync (baohua, charles, victor)
+    - Linux Con: [[https://www.lfasiallc.com/linuxcon-containercon-cloudopen-china/about/schedule|Schedule]]. 
+    - Hyperledger Hackfest: [[ https://www.regonline.com/hyperledgerhackfestjune2017|Register]], [[https://docs.google.com/document/d/1LfTtwHvQfZAHUz8k35-s3hmE3S_0uXSuAAnhTB7U-Hg/edit|Agenda]]
+      - **Julian**: June 19-20, ~200 people, need to welcome both core developers and other people to join.
+  - Development and innovation sync (Yaoguo and Ray Chen)
+    - Code development on projects
+    - [[https://wiki.hyperledger.org/groups/twgc/team_di | Team development and Innovation]]
+    - **Yaoguo**: Fabric to 1.0 release; Active development in Cello, STL, Iroha.
+  - i18n and Education work status (Kewei Sun, Linsheng Yu, Wenjie Xie)
+    - Have some [[https://wiki.hyperledger.org/groups/twgc/team_ie|docs]], work is actively on-going.
+    - **Zhengping Xu**: all docs are translated, need people to review now.
+  - Scenario and Collaboration (Yin Cao, Kelvin)
+    - [[https://wiki.hyperledger.org/groups/twgc/team_cs|case book ]] design and sharing
+    - **kelvin**: Have links at wechat channel. Will share group qcode at community channels.
+  - Event organization (Zhou Xing and Zhoudong Ji)
+    - Warmup Workshop for hackfest Beijing
+    - Zhou Xing: June 11 afternoon at Beijing: 1-5 PM
+    - 4 topics: 
+      - Hyperledger Community&Development
+      - Hands-on Demo
+      - Projects introduction (**call for speaker**)
+      - Enterprise case sharing (**call for speaker**)
+  - other issues
+    - **TODO: Scott will help ask the call system**

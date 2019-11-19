@@ -1,0 +1,437 @@
+### 2016-12-16
+
+#### Agenda
+
+* [Jira board](https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85) status syncing.
+  * Jianhua will help create a code docstring style guideline task
+  * Chang is working on a quick booted fabric 1.0 test env (https://gerrit.hyperledger.org/r/#/c/3317/).
+* [Patchset](https://gerrit.hyperledger.org/r/#/q/status:open+project:fabric-sdk-py) under review.
+* [SDK Spec](https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4) is publicly available.
+* Other issues
+
+#### Attendee
+
+* Baohua
+* Qiang Wang
+* Chang Chen
+* David Geng
+* Lei Li
+* Bryan Huang
+
+#### Log
+
+```
+=== Meeting Start ===
+11:00]  
+Baohua Yang OK
+
+[11:00]  
+today’s agenda is at https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20161209.md
+
+[11:01]  
+Bryan HUANG :hand:
+
+[11:01]  
+Baohua Yang item 1: https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85 jira board work status
+
+[11:01]  
+Chuanjian Wang :hand:
+
+[11:01]  
+Baohua Yang @grapebaba i guess you made some update last week? I marked several finished items as done
+
+[11:01]  
+lei li :hand:
+
+[11:02]  
+Baohua Yang @hgabor is working on Fab-801
+
+[11:02]  
+We need more people to volunteer.
+
+[11:03]  
+Any one interested on the FAB-802?
+
+[11:03]  
+the base class for peer
+
+[11:04]  
+lei li i would like to
+
+[11:04]  
+Baohua Yang sure, will assign it to li lei
+
+[11:04]  
+lei li Ok
+
+[11:04]  
+Baohua Yang FAB-803 is for chain class. who want to pick this?
+
+[11:05]  
+OK, i may assign it to @qiang first, who lead the design.
+
+[11:06]  
+Wang Qiang ok
+
+[11:06]  
+Baohua Yang @gengjh jianhua is not present, but Jianhua will help create a code docstring style guideline task.
+
+[11:06]  
+sure
+
+[11:06]  
+Bryan HUANG he is on site today
+
+[11:06]  
+Baohua Yang he propose this week on the docstring style, very helpful.
+
+[11:06]  
+sure, bryan, will he attend or you can share the info to him?
+
+[11:07]  
+Bryan HUANG sure, will share to him
+
+[11:07]  
+Baohua Yang thanks
+
+[11:07]  
+item 2: https://gerrit.hyperledger.org/r/#/q/status:open+project:fabric-sdk-py
+
+[11:07]  
+@lhaskins has a patchset of 2351.
+
+[11:08]  
+and he should rebase the code to solve merge problem.
+
+[11:08]  
+@grapebaba, when will 2457 be ready for review?
+
+[11:08]  
+https://gerrit.hyperledger.org/r/#/c/2457/
+
+[11:09]  
+Kai Chen i need check if order service is ready
+
+[11:09]  
+Baohua Yang sure.
+
+[11:10]  
+Kai Chen the data interface not ready when I started
+
+[11:10]  
+Chang Chen :hand: sorry i'm late
+
+[11:10]  
+Baohua Yang yes, please keep close watching on fabric, it is changing quickly.
+
+[11:11]  
+item 3: The SDK is more stable now, encourage everyone to review. https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4
+
+[11:11]  
+the spec
+
+[11:12]  
+And recently the fabric 1.0 code already supports a simple workflow.
+
+[11:12]  
+We need a quick booted fabric 1.0 test env (Can ref Node.js SDK)
+
+[11:12]  
+Anyone can help on this work?
+
+[11:12]  
+Chang Chen :hand:
+
+[11:12]  
+i can help
+
+[11:13]  
+Baohua Yang sure, chang, please help create a task on jira, and assign to yourself.
+
+[11:13]  
+OK, and do we have other issue wanna to talk today?
+
+[11:14]  
+About the patchset, we encourage small change with fixed goal.
+
+[11:15]  
+OK, if no other issue, let’s keep close touch offline, and we will end the meeting.
+
+[11:15]  
+Thanks everyone and have a nice weekend!
+
+[11:15]  
+Bryan HUANG :clap:
+
+[11:16]  
+Kai Chen :clap:
+
+[21:43]  
+Latitia Haskins My apologies for missing the scrum. I have been working on the connectathon for next weekend.  I will abandon the patch set that I have since someone else is working on the base class.
+
+
+----- December 10th -----
+[16:26]  
+Baohua Yang sure, have a nice weekend @lhaskins
+
+
+----- December 13th -----
+[09:43]  
+David Geng https://jira.hyperledger.org/browse/FAB-1379 task has been opened, will update our readme in this week.
+
+[11:18]  
+Baohua Yang Thanks, @gengjh
+
+[11:19]  
+@lafenicecc have u create the env setup task? or do u need some help?
+
+[16:42]  
+Chang Chen @baohua do you mean FAB-1319?
+
+[16:43]  
+Baohua Yang sure
+
+
+----- Yesterday December 15th, 2016 -----
+[10:50]  
+Baohua Yang @lhaskins @gengjh @seego @bryan-huang @lafenicecc @qiang
+
+[10:50]  
+hi, we will have meeting tmr morning, the agenda is at https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20161216.md, please feel free to update the items and attendee list. Next 2 weeks we have holidays, may cancel. Thanks!
+
+[23:01]  
+Latitia Haskins Sounds good. Thx!
+
+
+----- Today December 16th, 2016 -----
+[10:55]  
+Baohua Yang We will start meeting in 5 mins!
+
+[10:56]  
+@qiang @lafenicecc @gengjh @seego @lhaskins
+
+[10:57]  
+lei li Ok
+
+[10:59]  
+Baohua Yang Ok, attendee pls help hands up
+
+[11:00]  
+Meeting Start
+
+[11:00]  
+Today’s agenda is at https://wiki.hyperledger.org/doku.php?id=projects/fabric-sdk-py/meetings/20161216.md
+
+[11:00]  
+lei li :hand:
+
+[11:00]  
+Wang Qiang :hand:
+
+[11:01]  
+Baohua Yang item 1: jira board status update: https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85
+
+[11:01]  
+Every task owner please help check the status and update to latest info.
+
+[11:01]  
+lei li Ok
+
+[11:01]  
+Baohua Yang thanks lei!
+
+[11:01]  
+@gengjh Jianhua will help create a code docstring style guideline task.  How’s that going?
+
+[11:02]  
+David Geng hi
+
+[11:02]  
+Baohua Yang aha, got u
+
+[11:02]  
+Bryan HUANG :hand:
+
+[11:03]  
+sorry, Im late
+
+[11:03]  
+Baohua Yang thanks bryan
+
+[11:03]  
+saw several tasks assigned to u
+
+[11:03]  
+pls help update the status byran~
+
+[11:03]  
+David Geng i am busy on product release recently, for the guideline task, I will try to finish it at this weekend.
+
+[11:04]  
+Baohua Yang thanks jianhua!
+
+[11:04]  
+pls help create a task at the jira board first, then we will know that was assigned :slightly_smiling_face:
+
+[11:04]  
+OK
+
+[11:04]  
+Chang is working on a quick booted fabric 1.0 test env. @lafenicecc any update?
+
+[11:05]  
+aha, seems chang is offline, will come back to this later.
+
+[11:05]  
+Chang Chen please help review my patch
+
+[11:06]  
+Baohua Yang thanks chang, pls post ur patch link.
+
+[11:06]  
+and i encourage everyone post his patchset after make a commit, to call for review.
+
+[11:06]  
+David Geng sure
+
+[11:06]  
+Chang Chen and currently do we have official v1.0 docker images?
+
+[11:07]  
+Baohua Yang noop, we still need a local image building
+
+[11:07]  
+Chang Chen https://gerrit.hyperledger.org/r/#/c/3317/
+
+[11:07]  
+Baohua Yang the latest tag for building is 0.7.x
+
+[11:07]  
+thanks chang, everyone pls help review the patchset
+
+[11:07]  
+lei li Sure
+
+[11:08]  
+Baohua Yang thanks lei
+
+[11:08]  
+and let’s finish the review in this week.
+
+[11:08]  
+ok, the sdk spec part: https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4
+
+[11:08]
+slackbot BOT That looks like a Google Drive link. Do you want us to import it and all future Google Drive links from you?
+Yes • Just this once • Not now • Never
+Only visible to you
+
+[11:08]  
+Baohua Yang do not see much update this week.
+
+[11:08]  
+anyone have question on the spec?
+
+[11:08]  
+Bryan HUANG yes
+
+[11:09]  
+Baohua Yang sure bryan
+
+[11:09]  
+Bryan HUANG in doc, there is a link for cop sdk, but no permission, how to apply it
+
+[11:09]  
+Baohua Yang can u post the link?
+
+[11:09]  
+Bryan HUANG sure
+
+[11:09]  
+hold on
+
+[11:11]  
+https://docs.google.com/document/d/1TO-sdHGpn8ifB9C_pH_y54H75Rx0RdXvZih7-lhsLII/edit
+
+[11:12]  
+Baohua Yang are u find it from the reference part?
+
+[11:12]  
+David Geng @lafenicecc for the sdk-py docker-compose, does that mean we need not membersrvc any more? and cop is merged into fabric-order containter?
+
+[11:12]  
+Bryan HUANG here: The design for the client of the optional member service implementation (aka COP) is described in  a separate document .
+
+[11:13]  
+oh, seems I have the permission to view now
+
+[11:13]  
+Baohua Yang it’s read only i think. but you should view
+
+[11:13]  
+David Geng i only have view permission
+
+[11:13]  
+Bryan HUANG it’s okay
+
+[11:13]  
+Baohua Yang yeap. that’s right
+
+[11:14]  
+OK. @lafenicecc do you have some instant answer to jianhua’s question?
+
+[11:15]  
+Chang Chen i will add the cop image later
+
+[11:15]  
+Baohua Yang thanks chang
+
+[11:15]  
+David Geng ok, thx
+
+[11:15]  
+Baohua Yang Ok, is there any other issue to discuss, everyone?
+
+[11:15]  
+Bryan HUANG btw, since the membersrvc sdk was a separated one, so do we need add it to py sdk?
+
+[11:16]  
+Baohua Yang it should be part of the entire SDK
+
+[11:16]  
+i suggest we make the py sdk a full-functional one currently, how do u think?
+
+[11:18]  
+and sure we can begin with simpler implementation, let’s say, without membersrvc for the first stage.
+
+[11:18]  
+Bryan HUANG I saw its a separated lib in node sdk
+
+[11:18]  
+so I think we need refine the structure
+
+[11:18]  
+gotta roll, boss
+
+[11:18]  
+boss’s meeting
+
+[11:18]  
+:disappointed:
+
+[11:18]  
+Baohua Yang hmm, that’s architecture design, even with separate cop sdk, it’s up to our team :slightly_smiling_face:
+
+[11:18]  
+sure
+
+[11:19]  
+any other issue to talk?
+
+[11:19]  
+OK, if no other issue, will end the meeting. Have a nice weekend and holidays!
+
+[11:19]  
+Thanks!
+=== Meeting End ===
+```

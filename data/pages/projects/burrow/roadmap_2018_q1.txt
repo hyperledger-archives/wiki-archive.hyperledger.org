@@ -1,0 +1,109 @@
+====== Q1 2018 Burrow Roadmap ======
+//**Author: Silas Davis, 29 November 2017**//
+
+This roadmap encompasses work planned for Q1 2018 and also incorporates work planned for December 2017. It is likely to be revised and added to in the new year.
+
+We will have the benefit of three new full time developers on Burrow, who will need to get up to speed on the codebase but who should help accelerate progress on Burrow significantly.
+
+In anticipation of this I am carving our buckets of need into three rough categories, though they do not necessarily need to correspond directly into a single individual's responsibility:
+
+^ Bucket  ^ Description                         ^
+| **A**   | Core Burrow and Hyperledger Liaison  |
+| **B**   | Bosmarmot (Burrow ancillary tooling monorepo) |
+| **C**   | Web3 API support and Ethereum tooling |
+
+I'll also use **P** to designate project work that will probably be done by me (Silas). In the near term period (see below) all of these areas depend on the [[https://github.com/hyperledger/burrow/pull/657| Hypermarmot]] refactor of Burrow currently being finalised for a development release.
+
+While I am imaging these areas of work being lead by the three full-time individuals pledged to the project we would welcome help (more than welcome...) for working on the issues (detailed later). Part of the idea of this division of labour is to allow for a better fan-out of work and to get more people involved from the Hyperledger community.
+
+===== Bucket overviews =====
+==== A - Hyperledger  ====
+This work stream is about working on core Burrow issues with a focus on getting other people involved - trying to act as a force multiplier by wrangling issues, writing markdown documentation, and easing other people into working on Burrow issues by describing and simplifying the process you will have gone through.
+
+==== B - Bosmarmot ====
+Burrow has a 'soft' dependency in the 'monax' tool: [[https://github.com/monax/monax]] which itself orchestrates other dependencies:
+
+  * [[https://github.com/monax/compilers]] for compiling Solidity code
+  * [[https://github.com/monax/keys]] a development key signing daemon or 'mock HSM'
+  * [[https://github.com/monax/legacy-contracts.js]] a Node.js Javascript client library
+
+While not essential to run and interact Burrow it is the only way to get a 'batteries including experience'. It represents a surface that we no longer have the time to maintain and is optimised for previous goals - namely education, developer 'laptop' experience.
+
+I have an unreleased monorepo known as 'Bosmarmot' that collapses these tools into a much simplified package. I will release this in the next few weeks, but it needs further work to provide a reference client and deployment tool for Burrow. Bosmarmot has been built to be compatible with the Hypermarmot refactor.
+
+Bosmarmot will have DevOps focus.
+
+==== C - Web3 ====
+
+One of the biggest asks we have for Burrow is to support mainstream Ethereum tooling by providing a [[https://github.com/ethereum/wiki/wiki/JSON-RPC|Web3]] compatible API. Implementing it will have been made easier by the Hypermarmot work. Implementing the RPC should be a medium-sized task, but the same effort again may be required to test it with Ethereum tooling and fix issues.
+
+Doing this means we can tighten the scope of Bosmarmot and rely on the Ethereum ecosystem to meet the developer experience goals of the original monax tool.
+
+==== P - Project ====
+The crucial pieces of project work to finish off in the near term are:
+
+  - [[https://github.com/hyperledger/burrow/pull/657|Hypermarmot refactor]]
+  - Release bosmarmot repo
+
+Since these are the basis for other work on Burrow.
+
+Other work involves improving the completion of best practice badge, documenting functionality, capturing roadmap items, and researching future directions and strategy for growing the project.
+
+===== Introductory curriculum =====
+
+This is a suggested pathway to getting started with the refactored Burrow codebase, and understanding its origins:
+
+  - Work through basic tutorials on [[https://monax.io/docs/]] - understanding existing tooling will help clarify what needs to be done.
+  - Review and run the code on [[https://github.com/hyperledger/burrow/pull/657|Hypermarmot refactor]].
+  - Try to read an understand our EVM implementation: [[https://github.com/hyperledger/burrow/blob/hypermarmot/execution/evm/vm.go]] (adding tests a good way to test your knowledge).
+  - Try to formulate and run a `CallTx` transaction by hand (and running it in the EVM) that creates a new contract.
+
+===== Roadmap =====
+This our first quarterly roadmap covers a 4 month 'quarter'....
+
+Almost everything here should have associated Github issues, linking those or creating new ones is part of the Github issue review task.
+
+==== Near term (1 week - 1 month ) ====
+^ Work item ^ Buckets ^ Github Issues ^ Effort (1, 2, 3, 5, 8, 13) ^ Priority  ^
+| Publish Bosmarmot | **P**, **A** | | 3 | High |
+| Push Hypermarmot | **P** | [[https://github.com/hyperledger/burrow/pull/657]]  | 3 | High |
+| Make EPM tests pass | **P** | | 2 | High |
+| Reconnect v0 RPC | **P**, **A** |   | 3 | Medium |
+| Roadmap capture | **P**, **A** |   | 2 | Medium |
+| Keys standalone release | **B** |   | 1 | Low |
+| Review WIP Hypermarmot PR| **A**, **B**, **C** | [[https://github.com/hyperledger/burrow/pull/657]] | 2 | Low |
+
+==== Mid term (~ 1 month) ====
+^ Work item ^ Buckets ^ Github Issues ^ Effort (1, 2, 3, 5, 8, 13) ^ Priority  ^
+| Metropolis opcodes implementation | **A** | [[https://github.com/hyperledger/burrow/issues/594]], [[https://github.com/hyperledger/burrow/issues/600]], [[https://github.com/hyperledger/burrow/issues/601]]  | 5 | High |
+| Implement prototype web3 API | **C** | | 13 | High |
+| Add Javascript libraries to Bosmarmot | **B** | | 5 | High |
+| Co-located transaction or local signing | **P**, **B** | | 8 | High |
+| Github issues review/triage | **A** |   | 5 | Medium |
+| Work on outstanding bugs | **A**, **P** |   | 13 | Medium |
+| Assist Fabric/Seth integration | **P**, **A** |   | 5 | Medium |
+| Build early boot/network formation process | **P**, **B** |   | 5 | Medium |
+| Provide Kubernetes helm charts | **P**, **B** |   | 5 | Medium |
+| Provide event firehose | **P**, **B** | [[https://github.com/hyperledger/burrow/issues/658]] | 5 | Medium |
+| Add building/contributing documentation | **B**, **P** |   | 2 | Low |
+| Add deployment documentation | **B**, **A** |   | 3 | Low |
+| Add logging documentation | **B**, **A** |   | 2 | Low |
+| Add GenesisSpec documentation | **B**, **A** |   | 2 | Low |
+| Update RPC documentation | **B**, **C** |   | 3 | Low |
+| Reach 50% best practice badge | **B**, **A** | [[https://bestpractices.coreinfrastructure.org/projects/1000]]  | 5 | Low |
+
+==== Late term (2 - 4 months) ====
+^ Work item ^ Buckets ^ Github Issues ^ Effort (1, 2, 3, 5, 8, 13) ^ Priority  ^
+| Reintroduce validator bonding | **P** | | 13 | High |
+| Provide truffle and web3.js tooling compatibility | **C** | | 13 | High |
+| Complete Web3 compatibility RPC | **C** | | 8 | High |a
+| Provide trial HSM integaration | **P**, **A** |   | 8 | Medium |
+| Reintroduce secp256k1 keys & ECRECOVER | **A**, **B** | | 8 | Low |
+| Merkle tree replacement | **P**, **A** |   | 8 | Low |
+
+Future work:
+  * Seed chains and manage validator set on public Ethereum
+  * Provide state channel mechanism with snative 'FORK'
+  * State save/restore
+  * EVM parallelisation 
+

@@ -1,0 +1,167 @@
+### 2016-12-02
+
+#### Agenda
+
+* [SDK Spec](https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4) is publicly available.
+* [Patchset](https://gerrit.hyperledger.org/r/#/q/status:open+project:fabric-sdk-py) under review.
+* [Jira board](https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85) status syncing.
+* Other issues
+
+#### Attendee
+
+* Baohua
+* Kai Chen
+* Qiang Wang
+
+
+#### Log
+
+```
+=== Meeting Start ===
+11:00]  
+Baohua Yang aha, today we may have a quick sync
+
+[11:00]  
+Kai Chen ok
+
+[11:00]  
+Baohua Yang #1: SDK Spec is publicly available.
+
+[11:01]  
+Kai Chen have a question about that
+
+[11:01]  
+Baohua Yang https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4
+
+[11:01]
+slackbot BOT That looks like a Google Drive link. Do you want us to import it and all future Google Drive links from you?
+Yes • Just this once • Not now • Never
+Only visible to you
+
+[11:01]  
+Baohua Yang sure
+
+[11:02]  
+Kai Chen it remove the member service methods definition
+
+[11:02]  
+what is the purpose
+
+[11:02]  
+Baohua Yang aha, what methods?
+
+[11:02]  
+Kai Chen the whole interface is missing
+
+[11:03]  
+I don't see it
+
+[11:04]  
+Baohua Yang i will check the doc later.
+
+[11:04]  
+Kai Chen ok
+
+[11:04]  
+Baohua Yang not sure when is removed yet.
+
+[11:04]  
+#2 Patchset under review.
+
+[11:04]  
+https://gerrit.hyperledger.org/r/#/q/status:open+project:fabric-sdk-py
+
+[11:06]  
+pls give your comments
+
+[11:06]  
+Kai Chen reviewed
+
+[11:06]  
+https://gerrit.hyperledger.org/r/#/c/2457/
+
+[11:06]  
+Baohua Yang Jira board status syncing.
+
+[11:06]  
+i reviewed several tasks and marked as done this week.
+
+[11:07]  
+would like you to help recheck it.
+
+[11:07]  
+Kai Chen ok
+
+[11:07]  
+Baohua Yang and refine
+
+[11:07]  
+Kai Chen will do
+
+[11:07]  
+Baohua Yang @qiang  will help assign the task
+
+[11:07]  
+thanks
+
+[11:07]  
+Wang Qiang Ok
+
+[11:08]  
+Kai Chen sure
+
+[11:08]  
+Baohua Yang thanks
+
+[11:09]  
+#4 Other issues
+
+[11:09]  
+any more issue to discuss today?
+
+[11:10]  
+Kai Chen as SDK spec has been updated
+
+[11:10]  
+Baohua Yang yes
+
+[11:11]  
+Kai Chen we need recheck the task priority
+
+[11:11]  
+as Fabric-cop is in progress, register and enroll function should delay
+
+[11:12]  
+Baohua Yang yes, let’s check today.
+
+[11:12]  
+Kai Chen ok
+
+[11:12]  
+no other for me
+
+[11:13]  
+Baohua Yang cool, @qiang any other issue from yourside?
+
+[11:13]  
+pls help review the patchsets: https://gerrit.hyperledger.org/r/#/q/status:open+project:fabric-sdk-py
+
+[11:14]  
+Kai Chen patchset from lhaskins not passed CI
+
+[11:15]  
+Baohua Yang oops, @lhaskins is not online
+
+[11:16]  
+Wang Qiang ok! I have no question now, and i need  a detailed look at the spc again
+
+[11:16]  
+Baohua Yang sure
+
+[11:17]  
+OK. if no other issue, we will end the meeting today.
+
+[11:17]  
+Thanks and have a nice weekend!
+=== Meeting End ===
+```

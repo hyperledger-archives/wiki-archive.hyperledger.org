@@ -1,0 +1,9 @@
+===== Stakeholders =====
+[[healthcare-wg-wikispace-redesign|Home]]
+----------
+
+  * [[stakeholders-people|People]]
+  * [[stakeholders-groups|Groups]] : [[patient-swg-members|Patient subgroup members]], [[payor-SWG-members|Payor subgroup members]]
+    * [[stakeholders-ad-hoc-teams|Ad hoc work teams]] : [[stakeholders-adhoc-wiki-redesign|Wiki redesign team]], [[stakeholders-adhoc-academic-research|Academic research team]], [[stakeholders-adhoc-charter-review|Charter review team]] 
+  * [[stakeholders-organizations|Organizations]]
+

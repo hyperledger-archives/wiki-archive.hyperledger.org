@@ -1,0 +1,8 @@
+===== Household services ecosystem model =====
+[[healthcare-wg-wikispace-redesign |Home]] : [[resources|Resources]] : [[analytical_models|Analytical models]]
+----------
+
+The services ecosystem model is human and household-centered, and is intended to support well-coordinated service delivery through appropriate, timely and well-regulated sharing of protected health information. Service providers may be individuals, groups or organizations.
+ 
+{{ :groups:healthcare:service_provider_ecosystem.jpg }}
+

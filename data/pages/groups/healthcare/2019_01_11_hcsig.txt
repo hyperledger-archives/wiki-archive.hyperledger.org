@@ -1,0 +1,159 @@
+{{:groups:healthcare:hsm_logo.png?nolink&650}}
+
+===== General Meeting Agenda for 2019-01-11 =====
+
+==== Resources: ====
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HLHC-SIG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-sig \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+----
+
+===== Welcome and Opening Statements =====
+
+  * //A reminder to all HLHC-SIG members that this meeting is being recorded//
+  * [[https://www.linuxfoundation.org/antitrust-policy|Reading of the Linux Foundation Antitrust Policy]]
+  * [[https://tinyurl.com/HL-antitrust-slide|Hyperledger Antitrust Slide]]
+  * **Discussion: request for note-taking for this meeting**
+
+<WRAP box>
+[[https://drive.google.com/open?id=1xqmLN_11mhmShmBvDxVaJ99N8mQOAB7r|Meeting recordings/transcript]] 
+</WRAP>
+
+<WRAP box>
+In attendance:
+  * Rich Bloch (recording)
+  * Adnan
+  * Adrian
+  * Andrew Yee's iPhone
+  * Bilal Saleh
+  * Kamlesh Nagware
+  * Koustav Biswas
+  * Marissa
+  * Nikolaos Saklampanakis
+  * Leonard Edwin
+  * Raveesh Dewan
+  * Robert Coli, MD
+  * Jeff Stollman
+  * Vaibhav Patil
+  * Mikhail Elias (by phone)
+  * Other undefined phone numbers
+</WRAP>
+
+===== Introductions =====
+
+  * **If you’re new to the group, please…** 
+    * Introduce yourself
+    * Tell us where you're geographically located
+    * Share with us your interests in healthcare in general, and blockchain technologies in specific
+
+<WRAP box>
+  * Koustav joining the call today, originally signed up to participate in the Social Interest SIG
+</WRAP>
+
+===== Community Announcements =====
+
+  * **Feel free to share your community announcements as they relate to the Hyperledger community**
+
+  * [[https://www.himssconference.org|HIMSS Conference 2019]]
+    * February 11-15, Orlando, Florida
+    * Hyperledger is planning to host a booth, and if we get enough interest, we'll facilitate an HLHC-SIG membership event
+    * **Discussion: anyone planning or interested in attending?**
+
+<WRAP box>
+  * Bilal lives in FL, and may be able to attend. Rich will look into whether Hyperledger could help with the cost of the conference
+  * Question: will Hyperledger and/or HIMSS be live-streaming events? Rich will contact Hyperledger for their answer.
+    * Answer: from Hyperledger leadership, the expectation is that it's unlikely that a livestream will be made available for this event. 
+</WRAP>
+
+===== HLHC-SIG Subgroup Updates =====
+
+  * Patient/Member Subgroup (Marissa Iannarone, Lead)
+
+<WRAP box>
+  * Marissa provided an update on the Patient/Member Subgroup, indicating that there is ongoing work within the subgroup as work is put on hold for the Donor Milk Project while the team looks for an active sponsor/customer to help set direction for the project
+  * Marissa also indicated that, given her professional workload for 2019, she will be stepping down as subgroup lead, and is actively seeking her replacement. If you're interested, please contact Marissa (either via the listserv or Rocket.Chat)
+</WRAP>
+
+  * Payer Subgroup (Raveesh Dewan, Lead)
+
+<WRAP box>
+  * Raveesh statused the group on the work that his team is doing on the white paper that they're developing, used to best determine how blockchain technologies should be used, given a specific business use case and context. Raveesh will share a link to this document for membership peer review
+  * In addition, Raveesh mentioned that he's working on a Hyperledger "plugin" that will make it easier to very develop blockchain technologies based solutions. Raveesh hopes to share that information with membership soon
+</WRAP>
+
+===== HLHC-SIG Ad Hoc Team Updates =====
+
+  * Wiki Redesign Team (Brian Ahier, Raveesh Dewan, and Mikhail Elias, Lead)
+    * Work on Confluence wiki has begun. See https://wiki2.hyperledger.org/
+
+<WRAP box>
+  * Mikhail noted that it appears that the Hyperledger team is doing a bit of structural work in advance of getting WG/SIG membership involved in building out the wiki. Very little activity was noted on the Rocket.Chat #wiki channel
+</WRAP>
+
+  * Charter Review/Revision Team (Len Edwin and Ken Allgood [writers], with Adrian Berg and Marissa Iannone [editors])
+    * Final edit completed. Accepted by Hyperledger leadership
+    * Current version open for membership review, [[https://drive.google.com/open?id=14wLdVKvFcsKdkTTsjFfheJEPUqIqq4g8FmCB5p9AyQE|located here]]
+
+  * Academic Research Team (Mikhail Elias and Adrian Berg, Lead)
+    * Currently in works, [[https://drive.google.com/open?id=1q-d8rGcRK2k_sq4xMUGinwhqwRYg-HOPK0vggaq7XkU|draft located here]]
+
+  * Subgroup Review Team (Benjamin Djidi, Mikhail Elias, Jeff Stollman, Steven Elliot, Robert Coli, and Sonia Wagner, Lead)
+    * Currently in works
+    * Plan is to create a new subgroup focussing on interoperability
+
+<WRAP box>
+  * Mikhail provided some very good oversight on some of the discussions going on within the Subgroup Review Team. There is much to consider, and the plan forward is to consolidate this thinking into a concise plan to best engage SIG membership
+  * Bob Coli supported Mikhail's broader "60,000 foot" view of some of the recommendations and looks forward to future discussions with both the team and full membership
+</WRAP>
+
+===== Old Business =====
+
+  * HLHC-SIG Membership Directory (Rich)
+    * Now available: a public-facing membership directory that lists members' companies/organizations (possibly contact information)
+    * Available from our HLHC-SIG home page. Link here: [[groups:healthcare:membership-directory|Membership Directory]]
+
+<WRAP box>
+  * Now available, with the full expectation to migrate this directory over to Confluence when available
+</WRAP>
+
+  * Healthcare technologies challenges (Rich)
+      * Upcoming opportunities: [[http://www.kidneyx.org/|KidneyX Redesign Dialysis Prize Competition]]
+      * From community feedback, plan is to pursue the KidneyX Competition, with a proposal due date of 2019.02.28
+
+<WRAP box>
+  * Rich continues to work with Seattle-area leadership in kidney care/kidney research to find a suitable concept so that we can convene an HLHC-SIG writing team to draft a competition proposal
+</WRAP>
+
+===== New Business =====
+
+  * 2019 HLHC-SIG Survey (Rich)
+    * //Currently on hold, awaiting Hyperledger leadership direction//
+    * **Discussion: specific areas of focus for this upcoming survey?**
+
+  * Planning for the Year Ahead (Rich)
+    * **Discussion: your thoughts on changes you'd like to see with the HLHC-SIG?**
+
+  * Getting Published? (Rich)
+    * We have some extraordinary talent in our membership... let's put that to good use
+    * **Discussion: your interest in convening ad hoc writing teams to publish articles/white papers on behalf of the HLHC-SIG?**
+
+<WRAP box>
+  * Recommendation from Mikhail that perhaps we post writing topics up on our wiki, and crowdsource team members to help write around those article theses
+</WRAP>
+
+  * Onboarding slide presentation for HLHC-SIG (Rich)
+    * Great example presented by the [[https://docs.google.com/presentation/d/1LEOU7kJOmu64IlbXU2WKapvto1oi60rJtovcwRoJXW0/edit#slide=id.p2|Social Impact Working Group]]
+    * Ostensibly used for onboarding a new chair/officer, but could be used for new members?
+    * **Discussion: would there be good utility/value to something like this?**
+
+===== Next Meeting =====
+
+  * Scheduled for Friday, 2019.01.25, 0700 Pacific Time
+  * **Discussion: topics to add to agenda?**

@@ -1,0 +1,26 @@
+
+
+
+=== Financial Industry =====
+
+TBD
+
+=== Media copyright ===
+
+  - [[groups/twgc/team_cs/annie | Annie copyright protection（版权区块链联盟）]]
+
+
+=== Supply chain ===
+
+  - [[groups/twgc/team_cs/sanlian_technology | SANLIAN Technology（三链科技）]]
+
+
+=== Energy ===
+
+  - [[groups/twgc/team_cs/energy_blockchain_lab | Energy Blockchain Labs（能源区块链实验室）]]
+
+=== Healthcare ===
+  - [[groups/twgc/team_cs/radarwin | Radarwin（雷盈科技）]]
+
+
+LC3 business case slides: https://pan.baidu.com/s/113nfgVW90CQtDvEuBYRojA; eijs.

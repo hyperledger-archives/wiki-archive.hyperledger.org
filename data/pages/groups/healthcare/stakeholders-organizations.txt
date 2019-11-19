@@ -1,0 +1,61 @@
+===== Organizations =====
+[[healthcare-wg-wikispace-redesign|Home]] : [[stakeholders|Stakeholders]]
+----------
+
+==== Human milk services : non-profit entities ====
+
+  * [[http://www.internationalmilkbanking.org/|International Milk Banking Initiative (IMBI)]]  * 
+  * [[https://milkgenomics.org|International Milk Genomics Consortium]]
+  * //<Add>//
+
+__North America__
+
+  * [[hmbna|Human Milk Bank of North America]] : [[https://www.hmbana.org/|Human Milk Banking Association of North America]]
+  * [[mothers-milk-bank-ne|Mothers Milk Bank NE]] : [[Naomi Bar Yam]]
+
+__EU__
+
+  * [[https://europeanmilkbanking.com/|European Milk Bank Association]]
+
+__UK__
+
+  * [[https://humanmilkfoundation.org/|Human Milk Foundation]]
+  * [[http://heartsmilkbank.org/about-us/|Hearts milk bank]]
+
+__Brazil__
+
+  * [[https://rblh.fiocruz.br/pagina-inicial-rede-blh|Rede Brasileira de Bancos de Leite Humano]]
+  * [[https://portal.fiocruz.br/|Fundação Oswaldo Cruz (Fiocruz)]]
+  * [[https://portal.fiocruz.br/en/unidade/national-institute-women-children-and-adolescents-health-fernandes-figueira-iff|National Institute of Women, Children and Adolescents Health Fernandes Figueira (IFF)]]
+  * //<Add>//
+
+==== Human milk services : for-profit entities ==== 
+
+  * [[prolacta|Prolacta]] : [[http://www.prolacta.com/|Prolacta Bioscience]]
+  * [[https://internationalmilkbank.com/|International Milk Bank]]
+  * [[https://medolac.com/|Medolac]]
+  * Mammalia Breast Milk
+  * //<Add>//
+
+----------
+
+==== Research institutions : Non-profit entities ====
+
+  * [[cscs|Center for Supply Chain Studies]] : [[Bob Celeste]]
+  * //<Add>//
+
+----------
+
+==== Healthcare IT (for profit) vendor organizations ====
+
+  * [[rapid-healthcare|Rapid Healthcare]] : [[Anton Ansalmar]], [[Ron Block]]
+  * [[medical-chain|Medical Chain]] : [[Dave Ebbet]]
+  * [[cognitive-medicine|Cognitive Medicine]] : [[Steven Elliott]]
+  * [[optum360|Optum360]], [[united-healthgroup|United HealthGroup]] : [[Tony Little]]
+  * [[care-first|Care First]] : [[Chris Cole]]
+  * //<Add>//
+
+==== Healthcare (for profit) organizations ====
+
+  * https://www.pharmalogisticsiq.com/
+

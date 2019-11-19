@@ -1,0 +1,192 @@
+### 2017-03-03
+
+#### Agenda
+
+* [Jira board](https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85) status. There are several old tasks need to be clear soon.
+  * Yan: [FAB-697](https://jira.hyperledger.org/browse/FAB-697), [FAB-738](https://jira.hyperledger.org/browse/FAB-738)
+  * Fan: [FAB-737](https://jira.hyperledger.org/browse/FAB-737)
+* [Patchset](https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py) for review.
+* MVP design and implementation progress (kai and chang help drive this).
+* [SDK Spec](https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4) is publicly available.
+* Other issues
+
+#### Attendee
+
+* Baohua Yang
+* Kai Chen
+* Chang Chen
+* Ray Chen
+
+
+#### Log
+
+```
+=== Meeting Start ===
+
+meeting starts!
+today's agenda: https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20170303.md
+item #1: jira board checking. will encourage everyone to update the task status @bryanhuang @tcz001 pls help update those two items.
+https://jira.hyperledger.org/browse/FAB-697
+https://jira.hyperledger.org/browse/FAB-738
+https://jira.hyperledger.org/browse/FAB-737
+oops, three ones 🙂
+any question on the jira board?
+@ray seems u wanna say sth?
+🤓
+
+ray 11:03 AM
+yep, I made it, will join you all
+😉
+
+baohua 11:03 AM
+thanks, glad to have u here, remember to add ur name to the list
+OK, item #2: gerrit items: https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py
+
+ray 11:03 AM
+sure
+
+baohua 11:04 AM
+last week we made great progress on mvp, thanks everyone!
+@david_dornseifer would u like to take care of the proposed patchset? https://gerrit.hyperledger.org/r/#/c/6181. Thanks!
+this one remains for two weeks, need to update soon 🙂
+@grapebaba @lafenicecc
+will u help sync the status of our mvp?
+i saw lots of progress, need to clarify the next steps.
+
+lafenicecc 11:06 AM
+how's the signature issue? @grapebaba
+
+grapebaba 11:06 AM
+still block
+
+baohua 11:07 AM
+guess @tcz001 is working on this?
+
+grapebaba 11:07 AM
+yeah, hope he can help
+
+baohua 11:07 AM
+great, pls keep syncing
+other issues to do for mvp?
+
+lafenicecc 11:08 AM
+how about the protos path issue?
+
+grapebaba 11:08 AM
+alreay fixed
+👍 2  
+
+lafenicecc 11:08 AM
+👍
+
+baohua 11:09 AM
+so now we can pickup protos from fabric code directly without any modification?
+great!
+
+grapebaba 11:09 AM
+no
+
+baohua 11:09 AM
+ooops
+🐧
+aha, we still need to use abstract path in the import `xxxx`
+e.g., `import "hfc/protos/common/common.proto";`
+but the `package` should keep unchanged
+correct?
+
+grapebaba 11:11 AM
+yes
+
+baohua 11:11 AM
+ok. @ray i remember u've helped a serialization item last week?
+
+ray 11:12 AM
+Yes, that's already merged into master
+
+baohua 11:12 AM
+thanks, and feel free to pick other tasks: https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85
+Also, welcome to help on new ones like refining the documentation.
+  
+documentation is complained too much recently on the fabric project 😞
+i would encourage everyone too to help on the documentation, it's very important for open-source projects!
+
+lafenicecc 11:14 AM
+what documentation, give an example?
+
+baohua 11:14 AM
+e.g., we have making lots of change on the structure.
+some notes on the design structure/how to use the mvp would be appreciated.
+no users wanna learn how to use the software from reading the source code.
+😜 1  
+although i guess this will lead to a better understanding 🐌
+@lafenicecc btw, would u like to help check the jira tasks and confirm the current status are correct?
+
+lafenicecc 11:16 AM
+yes
+
+baohua 11:16 AM
+thanks!
+
+ray 11:16 AM
+@baohua sure, and I am helping track the ca modules recently, will sync if any progress is made
+ baohua 11:12 AM
+thanks, and feel free to pick other tasks: https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85
+
+baohua 11:16 AM
+thanks ray!
+
+lafenicecc 11:17 AM
+The fabric and node sdk codes are changing fast. I suppose each task owner has the responsibility of ... keep it up-to-date?
+
+baohua 11:18 AM
+the fabric code is going stable now. but the node sdk.... i guess we will be fine after finishing the mvp with minor updates. good suggestion anyway.
+
+lafenicecc 11:18 AM
+ok
+
+baohua 11:18 AM
+ok, item#4. the sdk link is at https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4
+hope everyone already be familiar with that.
+#item 5: other issues?
+some not-good-news, our sdk-py summer internship proposal seems not be accepted by LF.
+however, we can work around in other ways, e.g., let's share in those campus events. specially, this hackathon in shanghai.
+  
+and for this, the documentation is important, again. 🐺
+
+grapebaba 11:21 AM
+I have a design change in recent mvp patch
+not follow node SDK, maybe we could talk
+
+baohua 11:21 AM
+exactly, the node sdk is a reference.
+let's make the py sdk better with those pythonic magics
+🎺
+
+grapebaba 11:22 AM
+the most difference is about Chain Object
+
+baohua 11:22 AM
+sure, would u like to discuss here or offline, both are fine with me
+
+grapebaba 11:23 AM
+node SDK put createchannel method in the Chain Object
+
+baohua 11:23 AM
+yes?
+
+grapebaba 11:24 AM
+however i understand the multiple channels actual multiple chains
+So that i use chain object per channel
+this is the main difference
+
+baohua 11:26 AM
+ok, well, i guess this is a definition problem. currently we agree each channel has separate ledger. we can discuss this more whether pick the 1chain-1channel model.
+but definitely we have 1 network 🙂
+Ok, any more issues to discuss today?
+Ok, then will end the meeting, thanks everyone and have nice weekend!⛹
+
+ray 11:28 AM
+have a good weekend 🙂
+
+=== Meeting End ===
+```

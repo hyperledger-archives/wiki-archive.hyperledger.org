@@ -1,0 +1,18 @@
+**PSWG Library**
+
+Draft Documents 
+
+  * [[https://docs.google.com/document/d/1DQ6PqoeIH0pCNJSEYiw7JVbExDvWh_ZRVhWkuioG4k0/edit#heading=h.t3gztry2ja8i|DRAFT
+ Metrics Definition Proposal]]
+  * [[https://docs.google.com/document/d/1vN3T15Gw-FEXs525Wj1IwtFy7_M-hgrZxHa6h03bZY0/edit?usp=sharing|DRAFT Performance Considerations in a DLT/Blockchain World ]]
+  * [[https://docs.google.com/document/d/1ryf_QROfWAiOxaETFnCbfAEEq93csMM_9nSdkbsh_nY/edit?usp=sharing|DRAFT Fault load]]
+
+Background Documents
+  * [[https://docs.google.com/document/d/1cwScsNgYUj72vP2fqZ6vihYiuQcy45Ml2C_yLRI7EoQ/edit?ts=59955891|Hyperledger Caliper Proposal]]
+  * [[https://arxiv.org/pdf/1703.04057v1.pdf|BLOCKBENCH: A Framework for Analyzing Private Blockchains]]
+  * [[https://github.com/ooibc88/|BLOCKBENCH source repository]]
+  * [[https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-eyal.pdf|Bitcoin-NG: A Scalable Blockchain Protocol - A Usenix Paper ]]
+  * [[https://arxiv.org/abs/1801.10228v1|Hyperledger Fabric: A Distributed Operating System for Permissioned Blockchains]] Includes some preliminary performance test results for fabric v1.0 with the Bitcoin-like (UTXO-based) "fabcoin" smart contract
+  * [[https://www.persistent.com/blockchain-research-paper-on-performance-characterization-of-hyperledger-fabric/|Performance Characterization of Hyperledger Fabric]] Appears in the First Crypto Valley Conference on Blockchain Technology (CVCBT 2018)
+  * [[https://arxiv.org/pdf/1809.03421.pdf|Performance Evaluation of the Quorum Blockchain Platform]] 
+  * [[https://github.com/persistentsystems/gauge|Gauge - Performance Benchmarking Tool for Hyperledger Fabric and Quorum]] based on original version of Huawei Caliper with some new features, plugin for the Quorum blockchain platform, and support for micro-benchmarks and scaling experiments.

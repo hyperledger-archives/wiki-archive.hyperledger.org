@@ -1,0 +1,19 @@
+Hyperledger Project\\
+Healthcare Working Group (HCWG) Payor Subgroup Meeting\\
+September 11, 2018 \\
+
+Resources:\\
+Chat:  ​https://chat.hyperledger.org/​channel/​healthcare-wg  ​(you can use your LFID to login)\\
+Github:  ​https://github.com/​hyperledger \\
+Wiki:  https://wiki.hyperledger.org \\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org \\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy 
+
+     *Pre auth doesn’t seem like an appropriate blockchain use case
+     *Rich can present on value based care soon
+     *Need more SME’s to see if the problem is really blockchain appropriate or not
+     *Don’t think donor milk is a good test case for blockchain, SME says no problems 

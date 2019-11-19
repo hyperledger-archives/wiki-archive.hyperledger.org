@@ -1,0 +1,255 @@
+==== 2017-08-04 ==== 
+
+Meeting will be held at [[https://chat.hyperledger.org/channel/fabric-sdk-py|rocketchat]] at 11AM (GMT+8).
+
+  * [[https://jira.hyperledger.org/browse/FAB-4623?jql=project%20%3D%20FAB%20AND%20status%20in%20(%22In%20Progress%22%2C%20%22To%20Do%22)%20AND%20component%20%3D%20fabric-sdk-py | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+status:open | Open Patchset for review]]
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]]
+
+=== Agenda ===
+
+  * chaincode Install: Kai is working on [[https://jira.hyperledger.org/browse/FAB-5151 | FAB-5151]]
+  * E2E: Dong Wang is working on [[https://jira.hyperledger.org/browse/FAB-2871 | FAB-2871]]
+  * User Role: Wei Hu is working on [[https://jira.hyperledger.org/browse/FAB-3885|FAB-3885]]
+  * EventHub: Chang Chen is working on [[https://jira.hyperledger.org/browse/FAB-4822|FAB-4822]]
+  * Register: Baohua is working on [[https://jira.hyperledger.org/browse/FAB-3165|FAB-3165]]
+  * TODO issues:
+    * Update license header: [[https://jira.hyperledger.org/browse/FAB-4742|FAB-4742]]
+  * Other issues
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Baohua Yang
+  * Kai Chen
+  * Tony Yang
+  * Qiang Wang
+  * Dong Wang
+
+
+=== Log ===
+
+baohua 11:00 AM
+great, let's start the meeting.
+Today's agenda is at https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20170804
+Mostly the team is working on patchsets. let's pass through
+
+qiang0723 11:01 AM
+✋
+
+baohua 11:01 AM
+chaincode Install: Kai is working on FAB-5151
+
+JIRA @hyperledger-jira-l BOT 11:01 AM
+Found 1 issue
+FAB-5151 
+Sync install chaincode for latest Fabric version
+Assigned To
+Kai Chen  
+Status
+Done  
+Reporter
+Kai Chen  
+Priority
+Medium
+
+baohua 11:01 AM
+he is not online today.
+E2E: Dong Wang is working on FAB-2871
+
+JIRA @hyperledger-jira-l BOT 11:01 AM
+Found 1 issue
+FAB-2871 
+implement e2e test
+Assigned To
+Dong Wang  
+Status
+In Progress  
+Reporter
+Chang Chen  
+Priority
+High
+
+baohua 11:01 AM
+Any update? I saw some formatting problem in the patchset
+
+WangDong 11:02 AM
+OK my first patch is ready. I will send it soon
+
+baohua 11:02 AM
+thanks, it's a good start!
+User Role: Wei Hu is working on FAB-3885
+
+JIRA @hyperledger-jira-l BOT 11:02 AM
+Found 1 issue
+FAB-3885 
+Revise user role in chaincode test
+Assigned To
+Wei Hu  
+Status
+In Progress  
+Reporter
+Chang Chen  
+Priority
+Medium
+
+baohua 11:03 AM
+@WeiHu is not online today.
+
+grapebaba 11:03 AM
+aha, later
+
+baohua 11:03 AM
+wel~~
+just in time, can u help update the chaincode installation work?
+@grapebaba
+@lafenicecc
+
+grapebaba 11:04 AM
+hmm, i am doing a fabric ticket this week so no update for this one
+
+baohua 11:04 AM
+OK~
+Any issue to discuss till now?
+🐧
+EventHub: Chang Chen is working on FAB-4822
+
+JIRA @hyperledger-jira-l BOT 11:05 AM
+Found 1 issue
+FAB-4822 
+Complete eventhub component
+Assigned To
+Chang Chen  
+Status
+To Do  
+Reporter
+Kai Chen  
+Priority
+Medium
+
+grapebaba 11:05 AM
+about 2871
+
+baohua 11:05 AM
+sure, dong's work on FAB-2871
+
+JIRA @hyperledger-jira-l BOT 11:05 AM
+Found 1 issue
+FAB-2871 
+implement e2e test
+Assigned To
+Dong Wang  
+Status
+In Progress  
+Reporter
+Chang Chen  
+Priority
+High
+
+grapebaba 11:05 AM
+i am confused how to review that
+
+WangDong 11:06 AM
+you mean my patch?
+
+baohua 11:06 AM
+? dong can u help post the gerrit link to the jira comments
+
+WangDong 11:06 AM
+the link of my patch?
+OK
+
+baohua 11:06 AM
+yeap
+
+grapebaba 11:06 AM
+it is not easy to review since no function real work right now
+
+baohua 11:06 AM
+yes, the initial goal is to summarize some basic workflow that everyone agree on
+any more question?
+OK, Register: Baohua is working on FAB-3165
+
+JIRA @hyperledger-jira-l BOT 11:08 AM
+Found 1 issue
+FAB-3165 
+Implement the user registration to fabric-ca
+Assigned To
+Baohua Yang  
+Status
+In Review  
+Reporter
+Keith Smith  
+Priority
+Medium
+
+baohua 11:09 AM
+No much update this week. still dive into the auth-token problem...
+And we have an open issue: Update license header: FAB-4742
+
+JIRA @hyperledger-jira-l BOT 11:09 AM
+Found 1 issue
+FAB-4742 
+Add license header for sdk-py&#39;s code and docs
+Assigned To
+Unassigned  
+Status
+To Do  
+Reporter
+Baohua Yang  
+Priority
+Highest
+
+baohua 11:09 AM
+Who wanna pick this one?
+@qiang0723 would u like to do?
+
+qiang0723 11:10 AM
+ok I get this task
+
+baohua 11:10 AM
+thanks
+OK, no much more agenda today, any free question? :woo:
+Dong suggest we use uberconf as call-meeting
+How do u think? @grapebaba @tonyyang132 @qiang0723
+
+grapebaba 11:12 AM
+both ok
+
+tonyyang132 11:12 AM
+we can certainly try and if things don't go expected we can always go back here.
+
+qiang0723 11:12 AM
+can have a try
+
+baohua 11:13 AM
+Sure, can u login into https://www.uberconference.com/hyperledger-community?
+We can have a try now, there's no occupation now.
+Dong and I'm there
+Seems work for online discussions, we can try next time 🙂
+Ok, any more issues for today?
+I do not know how to record the meeting using uberconf...
+@WangDong can u help see if we can do that
+
+WangDong 11:19 AM
+OK
+I will have a look at it
+
+baohua 11:19 AM
+Thanks
+
+WangDong 11:19 AM
+np
+
+baohua 11:19 AM
+Any more issue?
+
+grapebaba 11:20 AM
+no
+
+baohua 11:20 AM
+OK. if no more issue, will end the meeting, thanks every attendee and have a nice weekend!
+
+tonyyang132 11:20 AM 
+👏

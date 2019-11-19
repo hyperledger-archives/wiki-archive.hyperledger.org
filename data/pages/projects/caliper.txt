@@ -1,0 +1,90 @@
+====== Caliper ======
+{{ :projects:hyperledger_caliper_logo_color.png?direct&300|}}
+
+===== Status =====
+
+
+This project is in [[community:project-lifecycle#incubation|Incubation]]
+
+
+===== Description =====
+
+Caliper is a blockchain benchmark framework which allows users to measure the performance of a specific blockchain implementation with a set of predefined use cases. Caliper will produce reports containing a number of performance indicators, such as TPS (Transactions Per Second), transaction latency, resource utilisation etc. The intent is for Caliper results to be used as a reference in supporting the choice of a blockchain implementation suitable for the user-specific use-cases. Given the variety of blockchain configurations, network setup, as well as the specific use-cases in mind, it is not intended to be an authoritative performance assessment, nor to be used for simple comparative purposes (e.g. blockchain A does 5 TPS and blockchain B does 10 TPS, therefore B is better). The Caliper project references the definitions, metrics, and terminology as defined by the Performance & Scalability Working Group (PSWG). 
+
+
+===== Key Characteristics =====
+
+  * A unified blockchain benchmark framework. We provide a common layer to integrate with major existing blockchain framework/platforms, so that the same benchmarks can be run for different blockchain systems  Some benchmark test environment will be provided to help different people run tests under the same environment, blockchain management tools like Hyperledger Cello could be integrated later to deploy and operate the environment. Also, users can use their existing environment and configure Caliper to run the test under the environment.
+  *  A commonly accepted definition of performance indicators. You cannot compare an apple and a pear directly unless some common criteria are set. We will work closely with PSWG to provide a common definition of performance indicators that users care about, such as TPS, latency, resource utilization, etc.
+  * A set of commonly accepted benchmark cases. The goal of Caliper includes providing a set of easy-understandable benchmark cases so that each blockchain solution can be compared in various scenarios. This calls for much collaboration from PSWG, Requirement WG and other WG in Hyperledger community as well as blockchain practitioners to cover as many use cases that are of user’s interest as possible.
+
+
+
+===== Documentation =====
+
+  * [[https://docs.google.com/document/d/1QQFmuRW4QXk0HCUIw1NoqweNQBnQ4P3eOhAE10m1vng/edit | Development Working Document]]
+  * [[https://hyperledger.github.io/caliper/ | Caliper Documentation Website]]
+
+===== Issue Tracking =====
+
+  * https://github.com/hyperledger/caliper/issues
+
+===== Repositories =====
+
+
+  * https://github.com/hyperledger/caliper
+
+
+===== Communication =====
+
+
+==== Mailing List ====
+
+  * Mail alias: [[caliper@lists.hyperledger.org|caliper@lists.hyperledger.org]]\\ 
+  * Mail archive: https://lists.hyperledger.org/g/caliper/topics\\ 
+  * Mail subscription: https://lists.hyperledger.org/g/caliper\\ 
+
+
+==== RocketChat  ====
+
+
+  * For questions and ephemeral discussions: [[https://chat.hyperledger.org/channel/caliper | #caliper]]
+  * For discussing implementation details: [[https://chat.hyperledger.org/channel/caliper-contributors | #caliper-contributors]]
+
+
+
+==== Meetings ====
+
+
+There is a regular community call every week on Tuesday or Wednesday. The time will shift every  two weeks between UTC 2pm(3pm winter) on Tuesday and UTC 6am(7am winter) on Wednesday. The exact meeting time can be found in [[https://calendar.google.com/calendar/embed?src=linuxfoundation.org_nf9u64g9k9rvd9f8vp4vur23b0@group.calendar.google.com&ctz=UTC&pli=1|Hyperledger meeting calendar]].
+
+  * Unordered List ItemJoin from PC, Mac, Linux, iOS or Android:[[https://zoom.us/my/hyperledger.community|https://zoom.us/my/hyperledger.community]] 
+
+  * Unordered List ItemOr iPhone one-tap :
+      * US: +16465588656,,4034983298#  or +16699006833,,4034983298# 
+  * Unordered List ItemOr Telephone:
+      * Dial(for higher quality, dial a number based on your current location): US: +1 646 558 8656  or +1 669 900 6833  or +1 855 880 1246 (Toll Free) or +1 877 369 0926 (Toll Free)
+      * Meeting ID: 403 498 3298 
+      * International numbers available: [[https://zoom.us/u/bAaJoyznp|https://zoom.us/u/bAaJoyznp]]  
+    
+    
+=== Minutes ===
+
+  * October 17, 2018  [[https://docs.google.com/document/d/1bbWNJdfgbY8s1qAky2D7N0Uis3MMqxfLGrv02pWOZMU/edit|minutes]] 
+  * October 24, 2018 [[https://docs.google.com/document/d/1TOfod4jv65XpoK_aNzMVruz_1xs4FVg5Ebi7ySR-5yc/edit?usp=sharing|minutes]]
+  * October 30, 2018 [[https://docs.google.com/document/d/11eRl0z27IEArHjCIgYunS9suzfygRsvE3FSz2AJLsPM/edit?usp=sharing|minutes]]
+  * November 6, 2018 [[https://docs.google.com/document/d/1OdTu3q0W_vOUh3V8gdihrgVyP4PjYknEVgB_aPqwEzQ/edit?usp=sharing|minutes]]
+  * November 14, 2018 [[https://docs.google.com/document/d/1F1MPhC1QEPDdDFhA11mYuAtwg7Eu6P0BY9kIMhVyx2s/edit?usp=sharing|minutes]]
+  * November 21, 2018 [[https://docs.google.com/document/d/1NC4NmGmXRA6sPbcJYIw3o1XW50qelx4UB_5cGcCnk5A/edit?usp=sharing|minutes]]
+  * November 27, 2018 [[https://docs.google.com/document/d/1WzH0Q6tO5F4JFIDfBeYg6Zg5ECXmSQ58_x7XPrUQJwo/edit?usp=sharing|minutes]]
+  * December 4, 2018 [[https://docs.google.com/document/d/19pyqdPl0Q5HLT44_Y5kmzerIf-6ahHv6URR2Wo36qaw/edit?usp=sharing|minutes]]
+  * December 19, 2018 [[https://docs.google.com/document/d/13CmJYIPqCJvajQMMQJ4hhYHZ9frdoBJme15TMHnYb_g/edit?usp=sharing|minutes]]
+  * January 16, 2019 [[https://docs.google.com/document/d/1RjZMAO6Dz0oC1Brn5NnJPc42_CCHcs92YK-Cd8bS-pA/edit?usp=sharing|minutes]]
+
+=== Health Metrics ===
+The data of the Health Metrics will be updated every meeting. The document can be found [[https://docs.google.com/spreadsheets/d/1jdE8ZJNfLG4NIzEoMFNq6lywLxXWCzNbSEDqP-UJD6Q/edit?usp=sharing|here]].
+
+===== History =====
+
+  * [[https://docs.google.com/document/d/1cwScsNgYUj72vP2fqZ6vihYiuQcy45Ml2C_yLRI7EoQ/edit | Proposed]] by Haojun ZHOU and Victor HU, Huawei
+  * [[https://lists.hyperledger.org/g/tsc/message/1422|Approved]] by the TSC on 2018-03-15

@@ -1,0 +1,59 @@
+====== Quilt ======
+{{ :projects:hyperledger_quilt_logo.png?direct&300|}}
+
+
+===== Status =====
+
+This project is in [[community:project-lifecycle#incubation|Incubation]]
+
+
+===== Description =====
+
+Hyperledger Quilt is a Java implementation of the [[https://interledger.org/rfcs/0027-interledger-protocol-4/|Interledger protocol]]. Interledger, also known as ILP, is a protocol for making transactions across ledgers. The protocol’s standards and specifications are being defined by the [[https://www.w3.org/community/interledger/|open source community under the World Wide Web Consortium umbrella]].
+
+Hyperledger Quilt offers interoperability between ledger systems by implementing ILP, which is primarily a payments protocol and is designed to transfer value across systems – both distributed ledgers and non-distributed ledgers. It is a simple protocol that establishes a global namespace for accounts, as well as, a protocol for synchronized atomic swaps between different systems.
+
+====== Key Characteristics ======
+
+By implementing the Interledger protocol, Quilt provides:
+
+  * A set of rules for enabling ledger interoperability with basic escrow semantics
+  * A standard for a ledger-independent address format and data packet format that will enable connectors to route payments
+  * A framework for designing higher level use-case-specific protocols
+
+====== Documentation ======
+
+
+TBD
+
+
+====== Issue Tracking ======
+
+[[https://github.com/hyperledger/quilt/issues|Github Issues]]
+====== Repositories ======
+
+  * https://github.com/hyperledger/quilt
+  * https://github.com/hyperledger/quilt-crypto-conditions
+
+====== Communication ======
+
+
+===== Mailing List =====
+
+
+Sign up for the [[https://lists.hyperledger.org/g/quilt | Hyperledger Quilt Mailing List here]]
+
+===== RocketChat (for questions and ephemeral discussions) =====
+
+
+  * [[https://chat.hyperledger.org/channel/quilt | #quilt]]
+ 
+
+====== Meetings ======
+
+Previous meeting recordings can be found [[https://drive.google.com/drive/u/0/folders/1fMLs-WngxzAWtJV27t9zVHzT0WS6a5Mk|here]].
+
+====== History ======
+
+  * [[https://docs.google.com/document/d/1a7aPS4omlV2neuatd1QoehLn0P3rIT8gTk1d8yddeJw/edit?copiedFromTrash | Proposed]] by Takahiro Inaba – NTT DATA, Adrian Hope-Bailie – Ripple, and Isaac Arruebarrena – Everis, an NTT DATA Company
+  * [[https://lists.hyperledger.org/g/tsc/message/1188|Approved]] by the TSC on 2017-10-12

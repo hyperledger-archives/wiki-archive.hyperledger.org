@@ -1,0 +1,22 @@
+===== Governance =====
+  * [[healthcare-sig|Home]]
+
+----------
+
+==== Governance activities ====
+
+  * [[governance-charter-review|Charter review]] ([[stakeholders-adhoc-charter-review|Charter review team]])
+  * [[Planning]]
+    * [[planning-academic-research|Academic research partnerships planning]] ([[https://drive.google.com/open?id=1q-d8rGcRK2k_sq4xMUGinwhqwRYg-HOPK0vggaq7XkU|Draft]]) ([[stakeholders-adhoc-academic-research|Academic research team]])
+    * [[planning-healthcare-SIG|Healthcare SIG planning]]
+      * [[planning-payor-subgroup|Payor Subgroup planning]]
+      * [[planning-patient-subgroup|Patient Subgroup planning]]
+      * [[planning-technical-subgroup|Technical Subgroup planning]]
+
+==== Governance resources ====
+
+  * [[wg-governance-charter|Charter]] [[https://www.hyperledger.org/wp-content/uploads/2016/10/HealthcareWGCharter_public.pdf|PDF]] ([[https://drive.google.com/open?id=14wLdVKvFcsKdkTTsjFfheJEPUqIqq4g8FmCB5p9AyQE|Draft revision]])
+  * [[wg-policies|Policies]] : [[https://www.linuxfoundation.org/antitrust-policy|Linux Foundation antitrust policy]], [[https://tinyurl.com/HL-antitrust-slide|Hyperledger antitrust slide]]
+  * [[wg-governance-plans|Plans]] : [[sig_workplan_2019|SIG Plan 2019]] 
+  * [[wg-reports|Quarterly reports]] : [[groups:tsc:wg-updates:healthcare-wg-2018-oct|Q3-18]]
+

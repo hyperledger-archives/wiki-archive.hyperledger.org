@@ -1,0 +1,14 @@
+==== Overview ====
+
+Hyperledger Hackfests are regular gatherings for developers working on the different projects hosted at Hyperledger.  The primary goal for a Hackfest is to facilitate software development collaboration and knowledge sharing between participants, with an eye towards reflecting all ideas and conclusions back outward to the public open source community afterwards.  A secondary goal is to bring new contributors and passive observers up the learning curve on the different technology platforms, and the cross-cutting issues affecting multiple projects (such as identity, security, development process, etc).  Often the most useful outcome, however, is the strengthened personal relationships between the participants. Hackfests are public meetings, anyone is welcome to attend and participate no matter what their skill level, though the discussions will presume a significant familiarity with blockchain technologies and software development concepts.  We have added a “Day 0” to the Hackfests that will be focused on helping developers that are new to Hyperledger come up the learning curve.
+
+==== 2018 ====
+
+  * Los Angeles, February 20-22 [[http://www.regonline.com/hyperledgerhackfestfebruary2018 | registration]] | [[https://docs.google.com/document/d/14yNuJsFEWnVsAclKb1QjPluRKgz3rIpaApRSppJj6to/edit | draft agenda]]
+  * Amsterdam, June 27-29 (registration launching soon)
+
+
+==== Previous ====
+  * [[groups:twgc:hackfest-beijing|Hackfest Beijing - June 2017]] 
+  * [[2016-12|NYC - December 2016]]
+

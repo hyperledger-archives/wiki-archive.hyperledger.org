@@ -1,0 +1,46 @@
+==== 2018-06-15 ==== 
+Meeting will be held at [[ https://zoom.us/my/hyperledger.community | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/cello|rocketchat]] (for text chat) at:
+  * 08:30AM   (UTC-4) [UTC -4 is Eastern Daylight Time EDT]
+  * 06:00PM   (UTC+0530)
+  * 08:30PM   (UTC+8)
+
+  * [[ https://jira.hyperledger.org/projects/CE/issues/CE-188?filter=allopenissues | Ongoing Jira task ]] 
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:cello+status:open | Open Patchset for review ]] 
+  * [[ https://wiki.hyperledger.org/projects/cello | Project Wiki Page ]] 
+
+
+=== Agenda ===
+Feel free to update before the meeting.
+  - Confirmed with jessica to re-config the image building trigger (baohua)
+  - Refine code for user dashboard (haitao)
+  - Update content at Amsterdam 
+  - Discuss Blockchain as a Service Proposal logged at [[ https://jira.hyperledger.org/browse/CE-383 | JIRA ]] which has attachment [[ https://docs.google.com/document/d/1HfaWl8jXH75wua-hZCXgrpS-AQlYtTqSwlII1_1pi4s/edit# | Proposal]]
+  - Internship progress (shuo)
+
+
+=== Attendee ===
+**Please put your name before the meeting.**
+
+  * Baohua Yang
+  * Haitao Yue
+  * Tong Li
+  * Yash Ganthe
+  * Dinesh Rivankar
+  * Luke Chen
+
+=== Minutes ===
+
+  - Update content at Amsterdam 
+    - new release 0.8, feature list
+    - resources to enhance the cello dashboard supporting k8s
+    - bug fixes
+    - ansible agent existing k8s support
+    - composer enablement
+    - Seeking new opportunity to collaborate with other projects
+  - Luke sync on the k8s feature
+    - Will update in next week
+  - Enterprise proposal discussions
+    - Motivations: let each org have its own id and dashboard
+  - Internship
+    - Shuo is sick and go home to have a rest
+    - Will continue to work in next week

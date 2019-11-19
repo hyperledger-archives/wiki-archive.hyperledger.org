@@ -1,0 +1,34 @@
+====== Hyperledger Working Group Update ======
+
+===== Training & Education Working Group =====
+
+
+===== Working Group Health =====
+Meetings continue to hover around 18. Product creation is slow. Participants in China requested an earlier meeting time, we switched for several months from 10:00 PST to 8:00 PST. A few key contributors cannot attend at 8:00 and the participants who requested the change have not attended for months. As such, with the daylight savings time change (in some countries), starting 5 November we will roll back to the 10:00 PST meeting time.
+
+We are considering a group name change to more clearly address the charter of the group. As participants complete the edX course(s) they see Training & Education as next steps in their learning. A majority of our participants attend as a place where they hope to receive Training & Education rather than where they plan to develop Training & Education. One idea is a name change to **Learning Materials Development WG**
+
+===== Issues =====
+We will select a new co-lead as working group administrator. I will lead a subgroup project, Smart Contracts with 2-3 T&E participants. I will attend meetings and be available as a substitute.
+
+===== Overall Activity in the Past Quarter =====
+Mailing lists go out with an agenda before each meeting and no meetings have been missed. 
+  * edX Markdown in GitHub - prepared for content updates, completed a small number of updates - Q2-3
+  * The [[https://docs.google.com/document/d/1m0UPKPjylLOotsqaP7LuPwWv_k_-dX_W6g8NBcMHDdA/edit?usp=sharing |End User and Decision Maker Concepts List]] remains in draft mode, expanded from 15 to 36 terms - Q1-3
+  * A [[https://docs.google.com/document/d/1kMZv6KeUfD9v_bWKanVkotsz-MHPdnhII10kdFC1xfg/edit?usp=sharing | prototype script]] and [[https://youtu.be/2Ljbg_OLw9E | prototype animation from the script]], first draft of six scripts - Q3
+  * The [[https://docs.google.com/spreadsheets/d/1EXgEYWZvFgH3JiBCMbkb0V-r6Eg7NcFGKBVo_rImvQ4/edit?usp=sharing | Project Status list]] - Q3
+  * The [[https://wiki.hyperledger.org/groups/training-and-education/training-and-education-wg | current contribution needs to the T&E working group wiki page]] - Q3
+
+===== Planned Work Products =====
+  * Final edit on the 36 concept definitions developed. Participants request to integrate the definitions into an article with emphasis on effects on a democratic society
+  * A Fabric concepts definitions document outline
+  * Smart Contracts (chaincode) use case with recommendations, implementation details and tech tutorials, across Hyperledger projects
+  * Six concept animation videos
+
+===== Participant Diversity =====
+There are a consistent approximate 10 contributors. 
+
+===== Additional Information =====
+None at this time.
+
+ 

@@ -1,0 +1,68 @@
+====== Hyperledger Project Technical Steering Committee (TSC) Meeting ======
+
+  * October 25, 2018 (7:00am - 8:00am PT)
+  * via Zoom
+
+TSC Members
+Present:
+  * Baohua Yang
+  * Christopher Ferris
+  * Dan Middleton
+  * Hart Montgomery
+  * Kelly Olson
+  * Mark Wagner
+  * Mic Bowman
+  * Nathan George
+  * Silas Davis
+
+Absent:
+  * Arnaud Le Hors
+  * Binh Nguyen
+
+Resources:
+  * Chat:  chat.hyperledger.org (use your LFID to login)
+  * Github:  www.github.com/hyperledger
+  * Wiki:  wiki.hyperledger.org/
+  * Public lists:  lists.hyperledger.org
+  * Meetings:  wiki.hyperledger.org/community/calendar-public-meetings
+
+Event Reminders
+  * APAC Hackfest -- week of March 4th (details coming soon)
+  * Schedule announced for Hyperledger Global Forum, December 12-15 (Basel, Switzerland)
+
+Quarterly project updates
+  * **Hyperledger Iroha update**
+  * Update is read into the record
+  * Q: is there contributor churn? How is diversity?
+  * A: No churn, low diversity
+  * Dan points out there are no Iroha meetings on the Community Calendar.
+  * Comment: too many chat forums (Telegram, Chat, Gitter)
+  * Reply: bots are used to mirror contents of Telegram to Chat
+  * **November 1st:  Hyperledger Composer update**
+
+Quarterly WG updates
+  * **Technical WG China update**
+  * Update is read into the record
+  * Comment: why a testnet?
+  * Reply: Need place to dogfood, or run a proof-of-contribution token as an example
+  * Comment: could more active Technical Ambassadors help?
+  * Reply: Hyperledger is trying to recruit more
+  * Comment: Hyperledger doesn’t fund meetups directly
+  * Further comment: Hyperledger does provide some assistance for food when getting started, but not space rental
+  * **November 1st: Training and Education WG update**
+
+Crypto-lib Proposal
+  * Q: Mic: what is the commitment from projects to incorporate crypto-lib?
+  * A: Hart: none
+  * A: Nathan: Indy wants to use ASAP
+  * Q: would depending on crypto-lib hurt our process of 1.0?
+  * A: Dan: no reason it would hurt
+  * A: Dan: Sawtooth is interested in adopting, is actively involved in develop to ensure Sawtooth can use it
+  * A: Silas: Burrow wants to use it
+  * A: Chris: Fabric doesn’t know. There would need to be Go bindings developed; it would be a post 2.0 item
+  * A: Salakhiev: Iroha: no plans, would consider in future
+  * Comment: the governance structure is unique
+  * A robust discussion follows and moved to the mailing list
+
+Testnet discussion/proposal
+  * Deferred to next week

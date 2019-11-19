@@ -1,0 +1,12 @@
+# Whitepaper WG Status 2016 Apr 07
+
+1. Welcomed new members (Noam, Murali, Mic), agreed to freeze WG to current 9 members.
+2. Agreed starting with OBC whitepaper a reasonable strategy. The OBC whitepaper sets a minimum bar of technical journalistic rigor and organization for explaining the need for a new fabric.
+3. Logistics on whitepaper
+    * Every 2 weeks we'll publish a version of the draft for comment
+    * Broad community feedback solicited through process defined on wiki page (TBD) as well as slack and tech mailing list.
+    * Will likely convert from google docs to LaTeX once finalizing (supports git version control).
+    * Regarding likelihood of future code stacks/multiple fabrics... the (one) whitepaper should be general enough to apply to any platform, we need to remove (OBC related) implementation details and stick to high level architectural components.
+4. Edits
+    * Reviewed and accepted edits in early sections of 
+    * Agreed to rewrite "permissioned only" statement to one that would include "permissionless". Agreed to validate with Board.

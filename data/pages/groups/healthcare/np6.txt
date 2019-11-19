@@ -1,0 +1,53 @@
+Hyperledger Project\\
+Healthcare Working Group (HCWG) Patient Subgroup Meeting\\
+June 8, 2018 \\
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+Meeting Notes\\
+ 
+Attendees: (please advise of omissions & missed last names) Marissa Iannarone, Petr Lyalin, Fred Fox, Adrian Gropper, Cris Torres, Atul, Stephi, Brittany, Eli Perlman, Satarupta Bose, Amit Gupta, Jeff Mallad, Tony Little, Vishnu (Vrov), Nate DiNiro, Doug Bulleit\\
+ 
+Introductions\\
+     *Marissa is working with Nate on where folks can input their emails/LinkedIn profiles.\\
+     *Communication channels are chat (see above) and Healthcare WG DL\\
+     *Pls use #patient-member-subgroup (in subject line for emails) to be able to filter subgroup work out of general WG comms\\
+
+Where are our interests?\\
+     *Interests in the group included clinical trials, laboratory/sample use cases, mail order prescriptions, identity credentials, cell phone smartcard integration for public distribution of healthcare funds, imaging
+     *Cris showed interest in submitting a proposal for the Hyperledger Global Forum for a fertility/sample use case. Template for use case is here:https://wiki.hyperledger.org/groups/requirements/use-case-template\\
+          *Please let her know if you are interested in collaborating\\
+          *Anyone else up for the challenge? We'd love to drive to the July 13th submission deadline with you!\\
+What is our goal? Select use cases to pursue and roles people what to take on\\
+     *Strong feedback that we need to be focus on building "solid effective code written/documented/fully useable"; concern raised about having technical resources to complete projects, but Vishnu offered to help with development and we can work to find other resources\\
+When are we going to get there? Target timeline....would we possibly consider a submission to the Hyperledger Global Forum or some other target?\\
+What is our cadence moving forward?\\
+     *Meetings have been put on the community calendar for every 2 weeks @ same time: https://calendar.google.com/calendar/embed?src=linuxfoundation.org_nf9u64g9k9rvd9f8vp4vur23b0%40group.calendar.google.com&ctz=America/SanFrancisco
+     *Video chat and well as audio chat is encouraged\\
+     *Next meeting is scheduled for 6/22 @9-10AM PST\\
+Healthcare WG Subgroups\\
+     *Several folks asked what other subgroups exist within the Healthcare WG. The two that are "up and running" are patient/member and payor subgroups. Opportunity for anyone that wants to head one up
+          *The list from HLHCWG.subgroup.pdf that Nate sent out last week included, Patient/member, Payor, Government, Marketing & Communications, General Volunteer, Community Management
+          *Survey linked above identifies the following committees: Electronic Health Records, Claims Management, Pharma SCM, Clinical Trials, Marketing & Communication, General Volunteer
+          *Marissa is following up with Nate to understand any difference between committees and subgroups
+Community/Survey Links
+     *Chat: shows all channels https://wiki.hyperledger.org/community/chat_channels
+     *Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg
+     *Hyperledger Healthcare Working Group Survey 4/09/18:
+https://docs.google.com/forms/d/e/1FAIpQLSeNYYoZoauJ0AbkQzl2HFpJJX_ecjJ8LkUQcqjR9LgMwAo1Fw/viewform
+
+
+Action Items\\
+     *Clarify difference between subgroups and committees | Marissa I\\
+     *Identify location where folks can submit email/LinkedIn info | Marissa I\\
+     *Let us know if you want to drive a use case for Hyperledger Global Forum submission | All\\
+
+Meeting Adjourned

@@ -1,0 +1,11 @@
+====== Wiki pages for meetup groups (sorted by country) ======
+
+===== Australia =====
+  * [[community:meetups:groups:australia:melbourne|Melbourne]]
+  * [[community:meetups:groups:australia:sydney|Sydney]]
+
+===== Brazil =====
+  * [[community:meetups:groups:brazil:saopaulo|São Paulo]]
+
+
+

@@ -1,0 +1,56 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Sawtooth
+https://github.com/hyperledger/sawtooth-core
+
+
+===== Project Health =====
+Sawtooth continues healthy growth in two dimensions. The functionality has expanded with several new features including Ethereum support and Supply Chain features. The community also continues to grow adding contributors each month. Chat is the most active communication mechanism with questions typically answered in real-time. 
+
+
+===== Issues =====
+There are no issues at this time. While most communication has happened over chat, the maintainers are making a greater effort to put longer term items out on the mail list. We have also improved communication by hosting a Tech Forum bi-weekly after the TSC meeting.
+
+
+===== Releases =====
+Sawtooth is working towards its 1.0 release anticipated late November to early December. During the remainder of October and early November emphasis is on stability testing including our long running test batteries. These test environments run Sawtooth networks for 1 day, 7 day, and 30 day test cycles. We are in the process of changing the LR30 test to be LR-infinity. This will enable testing of live updates to each node (asynchronously) in the system as in a production environment.
+
+The latest stable release is v0.8.9.
+Master is now tagged 0.9 as we refine the APIs ahead of 1.0.
+
+
+===== Overall Activity in the Past Quarter =====
+The project is extremely active with new features rolling in throughout the quarter. As mentioned above these include 
+  * Seth: Ethereum compatibility for enterprise uses
+  * Supply Chain: An example solution for supply chain usages including UI
+  * Parallel Scheduler: Transaction execution in parallel for increase performance
+  * Unpluggable Consensus: Change consensus on the fly
+  * Events & Receipts: Subscribe to changes in the underlying database
+  * Enhanced Permissioning: New role/policy based permissioning
+  * Cloud ease of use: Sawtooth now available in Amazon Marketplace
+  * Developer ease of use: Expanded Docker options to make smart contract development easier.
+
+We are switching focus from features to stability as we approach the 1.0 milestone.
+
+
+===== Current Plans =====
+Jira is actively maintained to show current epics. 
+Those epics are currently dominated by 1.0 items.
+Other epics include Supply Chain related work (see Track & Trade items), Solidity Tool Compatibility, and Private Transactions.
+
+
+===== Maintainer Diversity =====
+Maintainers are employed by at least 4 different companies.
+Since our last report we have added 
+Flying Tiger aka Feihu Jiang
+Darian Plumb
+Ryan Banks
+and
+Anne Chenette 
+
+
+
+===== Contributor Diversity =====
+Sawtooth Contributor Diversity is healthy and we continue to encourage new contributors and consider this activity a regular priority. Contributions are significantly from Bitwise.io and Intel Corp, continuing with Huawei, Hacera, Monax, R3, and several unaffiliated individuals.
+

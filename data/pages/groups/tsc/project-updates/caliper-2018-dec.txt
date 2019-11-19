@@ -1,0 +1,52 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Caliper
+
+===== Project Health =====
+
+Caliper had defined some measurements about the health, and continues reviewing them regularly.  During the past Quarter, Caliper team took multiple means to improve project health, including holding the meetings regularly,  reviewing and merging PRs, introducing new contributors and users, promoting projects in public and making new plans.
+
+===== Issues =====
+There are no issues at this time.
+
+
+===== Releases =====
+No release yet. The project is still under development.
+
+
+===== Overall Activity in the Past Quarter =====
+
+During the past Quarter, 30 issues have been closed, 34 PRs have been reviewed and merged. Now the project has 230+ starts and 140+ forks.Thanks every contributor's efforts. Below are some main updates in the past 3 months:
+
+  * Updated support of Fabric to version 1.2/1.3;
+  * Added Burrow support;
+  * Created a template for the issue and PR descriptions;
+  * Provided good practices on how to ask questions properly on the proper channels;
+  * Created a Caliper homepage instead of separated Readme.md files;
+  * Added npm scripts to set up the adapter dependencies with one call;
+  * Removed the tape tests from the benchmark flow;
+  * Used a unified logging framework;
+  * Used a unified configuration framework;
+  * Used YAML-based config files instead of JSON;
+  * Created Caliper FAQ.
+
+The Hyperledger chat works well, many people post questions there and most questions are well answered.
+
+
+===== Current Plans =====
+We are going to focus on improving the clients' performance and supporting the long time and large scale testing.
+
+The [[https://docs.google.com/document/d/1QQFmuRW4QXk0HCUIw1NoqweNQBnQ4P3eOhAE10m1vng/edit|development plan]] will be discussed and refreshed regularly. 
+===== Maintainer Diversity =====
+Now the maintainers are from Huawei and Budapest University.
+
+
+
+===== Contributor Diversity =====
+
+There are 10 contributors from various companies/organisations such as Huawei, IBM, Intel, Soramitsu, Budapest University and Monax. And we are connecting with several companies now to try to attract more contributors.
+
+===== Additional Information =====
+
+ 

@@ -1,0 +1,181 @@
+====== Hyperledger Project Update ======
+
+
+===== Project =====
+==Distributed Ledger==
+  * [[https://github.com/hyperledger/indy-node|indy-node]]
+  * [[https://github.com/hyperledger/indy-plenum|indy-plenum]]
+==Client Tools==
+  * [[https://github.com/hyperledger/indy-sdk|indy-sdk]]
+  * [[https://github.com/hyperledger/indy-agent|indy-agent]]
+==Shared Components==
+  * [[https://github.com/hyperledger/indy-hipe|indy-hipe]]
+  * [[https://github.com/hyperledger/indy-crypto|indy-crypto]]
+
+
+===== Project Health =====
+Hyperledger Indy has maintained its substantial growth during these summer months. The Indy project has made significant progress toward graduating incubation status, having completed 94% of CII badge requirements. Indy’s codebase has surpassed 10,000 commits from over 100 contributors, and continues to look forward to general availability.
+
+As a part of the progress in indy-sdk and indy-node, Indy’s Q2-2018 was highlighted by significant contributions to Indy Agents—key components to the Indy use-cases. Global developer interest and contribution has also continued; notably, the [[projects:indy:june_2018_amsterdam_hackathon|Amsterdam Hackathon]] (June) and Indy Agent Workshop (July) both garnered international representation.
+
+Additional organizations are making ongoing contributions. This is shown by the shared [[projects:indy:roadmap|Running Roadmap]] for Hyperledger Indy.
+
+
+===== Issues =====
+The rapid growth of the Indy project has resulted in a lack of consistency in some areas. We are currently addressing the following specific concerns:
+====Meet the needs of a diverse set of contributors====
+  * Coordination between teams has been difficult at times, slowing progress in some aspects of development
+//Remediation://
+  * Keeping the shared [[projects:indy:roadmap|roadmap]] up-to-date
+  * Establishing procedures for multiple teams to hold independent sprints in the Indy project of Hyperledger Jira
+  * Embedding developers from multiple organizations into the same sprint team to meet specific development goals
+  * A coordinated effort to establish project standards through [[https://github.com/hyperledger/indy-hipe|Hyperledger Indy Project Enhancement]] (HIPE) documents
+  * Holding coordination calls between maintainers from different organizations (every other Monday)
+====Ensure quality releases for downstream users====
+//Remediation://
+  * Significant focus on testing Indy Node for scalability and performance, resulting in a lot of bug fixes and refactoring for maintainability
+  * Identified places where the algorithms for view change and catch-up can fail, and scheduled an effort for improving those algorithms
+  * Creating new tools for automated testing (indy-chaos framework)
+====Inconsistent documentation====
+  * The lack of quality documentation remains a significant obstacle for many of those interested in working with Indy
+  * Many contributors have included documentation with their work; however, this documentation sometimes does not match the existing documentation or is not easily found
+//Remediation://
+  * Established an indy-outreach chat channel to coordinate efforts
+  * Established a HIPE to establish documentation guidelines
+  * Consolidating redundant documentation and reworking it for different user levels
+  * Proof-of-concept implementation for publishing documentation to a shared site (Read The Docs)
+====Minimize the onboarding burden for both developers and users====
+  * The learning curve for new developers is currently very steep
+//Remediation://
+  * Adding a higher level API for credential exchange to the Indy SDK
+  * Providing agents that can be used as starting points for solution developers
+====Incompatible agent implementations====
+  * The early adopters who have focused on getting Indy solutions into production have made different development choices regarding agent communication
+//Remediation://
+  * These agents have been contributed to a common repository where we can create a set of intercompatible reference agents
+  * Brigham Young University hosted an Agent Workshop where the organizations with active agent implementations could meet to discuss design differences and progress to a common protocol
+  * Establishing a canonical test suite to verify that a new agent follows the established communication protocol
+====Measuring the size and make-up of our user community====
+  * We don’t currently have good data on the usage of Indy by organizations deploying Indy networks or by developers creating solutions
+//Remediation://
+  * Working with Hyperledger to get analytics about GitHub project usage, web sites, Rocket Chat usage
+  * Begin measuring usage of the Sovrin forums: new contributors, questions asked, and questions answered
+
+
+===== Releases =====
+====June 2018:==== 
+==Indy SDK 1.5==
+  * Payment interface
+  * Pluggable wallet storage
+  * Wallet export / import
+==Indy Node 1.4==
+  * New transaction format
+  * Isolate consensus and client network interfaces
+  * Migration from LevelDB to RocksDB
+====July 2018:====
+==Indy SDK 1.6.0==
+  * Wallet search for Anoncreds
+  * Made the payments API more generic
+  * Improved connection handling
+  * Cluster shared wallet
+==Indy SDK 1.6.1==
+  * Bug fixes
+==Indy Node 1.5==
+  * Reduced logging in production
+  * Optimized pool connection handling
+====August 2018:====
+==Indy SDK 1.6.2==
+  * Bug fixes
+==Indy Node 1.6==
+  * Plenum plugin support
+  * Fixes to view change and catch up algorithms
+
+
+===== Overall Activity in the Past Quarter =====
+==General==
+  * We are 94% completed with the CII badge
+  * Increased usage of Hyperledger Indy Project Enhancement (HIPE) process
+  * Improved release documentation
+  * API changes [[https://github.com/hyperledger/indy-sdk/blob/v1.6.0/doc/migration-guide-1.5.0-1.6.0.md|migration guide]]
+==Indy Agent==
+  * Came to consensus on key issues in agent protocol
+  * Preliminary connection establishment HIPE (RFC)
+  * Preliminary transport HIPE
+  * Preliminary message format HIPEs
+  * Test Suite and community rallying behind it as an interoperability tool
+
+
+===== Current Plans =====
+==General==
+  * Proposal for incubation status graduation
+  * Continue to refine documentation
+    * Migrate consumer-oriented documentation to ReadTheDocs.io
+    * Consolidate documentation for onboarding contributors
+  * Improve onboarding process for new developers
+    * Identify beginner tasks
+    * Provide examples
+    * Produce more videos
+  * Network stability of the first production deployment (Sovrin)
+==Indy Node==
+  * Improve automated testing
+  * Enhancing scalability by changing transport between client and node
+  * Refactor to increase stability and performance
+    * View change
+    * Catch up
+    * Replication
+  * Standards compliance
+    * DID
+    * DID Document
+    * Credentials
+  * Broader OS support
+  * Observer nodes
+==Indy SDK==
+  * Migrate recently donated libvcx source code into indy-sdk
+  * CI/CD improvements, including a public Jenkins pipeline
+  * Contribute to hyperledger-crypto with assets from indy-crypto
+    * Shared crypto library
+  * Schema enhancement
+==Indy Agent==
+  * Standardizing agent-to-agent protocol through agent test suite 
+  * Tests associated with each major aspect of the protocol
+  * Multiple interoperable agents in the community
+
+
+===== Maintainer Diversity =====
+Indy maintainers remain active in developing and contributing to working group calls and public discussions. The bi-weekly Indy Maintainers Circle call has consistently been the medium by which maintainers coordinate work, discuss critical issues to the Indy codebase, and resolve HIPEs. The Indy maintainers list has grown to include new Indy Agent contributors. With the addition of two Indy Agent maintainers, we have incorporated new organizations and interest into the maintainers circle. We now also hold regular calls for Indy SDK contributors and Indy Agent contributors to remain aligned on their respective code bases.
+
+
+===== Contributor Diversity =====
+Hyperledger Indy continues to see contribution from developers and organizations around the world. Well over 1000 commits were merged into the Indy project from dozens of different contributors over the past three months. The progress in Indy Agent has also aided developers in building applications on top of Indy, which has in turn led to more contribution to the project. The [[projects:indy:roadmap|Indy Community Roadmap]] provides updates on different teams that are working with Indy (currently includes Evernym, BYU OIT, BC.gov, WIPRO, and SecureKey).
+
+====POCs, Pilots, Projects====
+==Sovrin DLT== 
+
+http://www.sovrin.org 
+
+Sovrin is the first instantiation of the Indy codebase and is currently in the provisional network phase of development.
+
+==Verifiable Organizations Network==
+
+https://von.pathfinder.gov.bc.ca 
+
+The Province of British Columbia, the Government of Ontario, and Public Services and Procurement Canada are building open components to enable a trusted digital network of verifiable data about organizations which is globally connected, interoperable, secure, and easy to join.
+
+==Brigham Young University==
+
+https://www.byu.edu/
+
+The University is building an agent to manage student credentials throughout their experience at the university.
+
+==Evernym==
+
+https://www.evernym.com/ 
+
+Evernym is creating applications that will make it easy for organizations and users to issue, hold, and verify credentials through the Sovrin network.
+
+
+===== Additional Information =====
+  * Join the Indy Mailing List: https://lists.hyperledger.org/g/indy 
+  * Join the Indy Working Group Calls: every Thursday 8am PT, 9am MT, 11am ET, 4pm BST (Join from PC, Mac, Linux, iOS or Android: https://zoom.us/j/232861185)
+
+ 

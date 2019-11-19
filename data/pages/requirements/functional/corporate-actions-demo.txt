@@ -1,0 +1,75 @@
+====== Functional Requirements for Corporate Actions Demo ======
+
+===== Overview =====
+
+The corporate actions demo will demonstrate how a blockchain based corporate actions hub will greatly reduce the complexity of corporate actions life cycle.
+
+Corporate actions lifecycle involves multiple functions from announcements to settlements and reconciliation. So the blockchain solution for corporate actions may be take different forms based on which functions of the lifecycle are implemented on the blockchain. Following are couple of possible options:
+
+**Option 1**: An asset servicer may implement blockchain based solutions to process corporate actions internally to support functionality such as event capture, validation, entitlements processing, income processing, payments etc.
+
+**Option 2**: An exchange, industry consortium or a CSD (ex: DTCC) can implement a corporate actions hub that focusses only on announcements and information flows among participants. The functions such as entitlements calculation, income processing and payments etc may be implemented by the asset services/custodians using internal solutions which may or may not use blockchain. 
+
+This demo is focused on option 2 - how an exchange, industry consortium or a CSD can implement a corporate actions hub for use of all participants of the CA lifecycle. The following model shows the capabilities supported by the CA Hub:
+[[https://github.com/nageshavusingi/hyperledger/blob/master/CA%20Hub%20Business%20Capabilities.png|CA Hub Business Capabilities]]
+
+==== Scenarios ====
+
+The corporate actions demo will demonstrate three key functions of corporate actions processing.
+
+**Scenario 1**:  Announcement of a mandatory corporate action  
+
+**Scenario 2**: Announcement of a voluntary corporate action and processing shareholder elections  
+
+**Scenario 3**: Proxy voting
+
+==== Current state issues and benefits demonstrated ====
+
+TBD - describe the current state issues and benefits using blockchain enabled solution. Key benefits include:
+  - avoiding the inefficient hierarchical dissemination of information
+  - standardized formats for announcing CA
+  - realtime dissemination of information to interested parties
+  - avoiding repeated data scrubbing
+  - avoiding isolated and repetitive solutions by different parties to communicate CA and capture shareholder elections
+  - efficient and trusted communication channel to collect proxy voting
+  - cut down the time from announcement to closing of proxy vote   
+  - more..
+
+===== Initial Setup =====
+
+[[https://github.com/nageshavusingi/hyperledger/blob/master/Demo%20Initial%20Setup.png|Demo initial setup]]
+
+===== Scenario 1: Announcement of a mandatory corporate action =====
+
+  - E-Fun Inc. decides to issue a cash dividend. After finalizing the CA details internally, the company representative creates the CA announcement using the 'Announce a CA' webpage and saves for publishing.
+  - The dividend issue announcement is published to all interested parties who subscribed for E-Fun events. Each of the individual parties receive alerts. They can view the announcement details and also programmatically integrate for downstream processing.
+
+===== Scenario 2: Announcement of a voluntary corporate action and processing shareholder elections =====
+
+  - E-Fun Inc. decides to raise additional capital by means of a rights issue. After finalizing the CA details internally, the company uses the Announcements feature of the corporate actions hub to announce the rights issue, a voluntary CA. The company representative creates the CA details using the 'Announce a CA' web page and saves for publication along with the prospectus and other required documents.
+  - The CA Hub will capture the Rights issue announcement in a pre-defined standard format and publishes the CA  
+  - All the interested parties that subscribed to the firm E-Fun are alerted regarding the new CA  
+  - All the shareholders of the company receive notification of the rights issue along with the supporting documentation.  
+  - Shareholders access the web page to make elections. Each shareholder selects one of the following options, Exercise rights, Expire rights [todo: add correct options]  
+  - Shareholder elections are recorded
+
+===== Scenario 3: Proxy voting =====
+
+TBD
+
+===== Mock screens/Interfaces =====
+
+==== Screen 1 - Announce a Corporate Action ====
+[[https://github.com/nageshavusingi/hyperledger/blob/master/Announce%20Cash%20Dividend.png|Announce Cash Dividend]]
+
+==== Screen 2 - View Corporate Action Announcements ====
+[[https://github.com/nageshavusingi/hyperledger/blob/master/View%20CA%20List.png|View CA Announcements]]
+
+==== Screen 3 - View CA Details ====
+Same as Screen 1 but readonly.
+
+==== Interface 1 - Announcement ====
+
+===== Conclusion =====
+
+TBD

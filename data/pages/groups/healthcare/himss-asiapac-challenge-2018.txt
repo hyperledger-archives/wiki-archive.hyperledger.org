@@ -1,0 +1,6 @@
+===== HIMSS AsiaPac Innovation Challenge 2018 =====
+
+  * [[https://www.himssasiapacconference.org/ehome/287692/740390/|Website]]
+  * [[donor_milk_asiapac_himss_application|Application]] : [[https://lists.hyperledger.org/g/healthcare-wg/attachment/579/0/2018_HIMSSAsiaPacInnovationsChallenge_Submission_Form_V05_Hyperledger%20Donor%20Milk.pdf|Submission Form]]
+  * Communications : [[https://lists.hyperledger.org/g/healthcare-wg/topic/25395331#580|Preparation]], [[https://lists.hyperledger.org/g/healthcare-wg/topic/25688202#585|Submission]]
+

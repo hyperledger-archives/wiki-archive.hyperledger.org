@@ -1,0 +1,1 @@
+Documents methods for safe delivery of software.  Methods for avoiding MitM attacks as well as providing end user verification.  This will cover everything from the CII requirement all the way to reproducible builds.

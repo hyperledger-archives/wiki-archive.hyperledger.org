@@ -1,0 +1,56 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Cello
+
+===== Project Health =====
+Cello community is very active.
+
+  * Channel [[https://chat.hyperledger.org/channel/cello|#cello]] on rocket.chat is the main communication method.   
+  * New ideas are proposed and discussed constantly on the [[https://chat.hyperledger.org/channel/cello|channel]].
+  * Weekly call on every Friday 12:30 PM UTC was setup, first regular meeting was held on March 9, 2018
+  * Majority of the patch sets gets reviewed and commented within 24 hours
+
+===== Issues =====
+
+No urgent issues, but it would be helpful to provide some machines to create fabric test net, to help people to experience fabric/cello platform's latest feature quickly.
+
+
+===== Releases =====
+
+Release history:
+
+  - [[https://github.com/hyperledger/cello/releases/tag/v0.6|v0.6.0]]: 2017-06-24
+  - [[https://github.com/hyperledger/cello/releases/tag/v0.7|v0.7.0]]: 2017-10-20
+  - v0.8.0: 2018-03-31 (planed)   
+
+===== Overall Activity in the Past Quarter =====
+
+  * Conversation mostly happen on the [[https://chat.hyperledger.org/channel/cello|rocketchat channel]], emails were answered as well.
+  * When people asking Hyperledger deployment method or questions from outside of the community,response emails often point people to the [[https://github.com/hyperledger/cello|cello project readme]] docs and rocket channel.
+  * The community is working hard to provide a solution so that people can adopt and experience hyperledger techniques easily, we already integrated the [[https://github.com/hyperledger/blockchain-explorer|blockchain-explorer]] project, and now are actively integrating [[https://github.com/hyperledger/composer|fabric composer]] into the project. Once this feature is complete, users will be able to stand up fabric network and start developing their business network using composer.
+  * Cello currently has 3 [[https://github.com/hyperledger/cello/blob/master/MAINTAINERS.md|maintainers]] who are actively working on the project and contributing.
+  * Cello maintainers also take turns updating the cello wiki pages and required document like this.
+
+===== Current Plans =====
+
+  * Ensure the release of 0.8.0
+  * Integrate fabric composer to the created fabric network
+  * Create more mini-series of how-to videos
+  * Update documents so that users can get started quickly
+
+
+===== Maintainer Diversity =====
+
+There are 3 maintainers from IBM (2) and Oracle (1), covering both North America and Asia Pacific.
+
+We nominate new maintainers based on continuous contributions in terms of code, QA/education, doc and review activities.
+
+
+===== Contributor Diversity =====
+
+Current number of project contributors is 25 with 62 patch sets merged since last December. With project gets more attention, this number will certainly increase.  
+
+===== Additional Information =====
+
+Cello developers have been participating in local meetups and global hackfest events to promote and demo the project, and help attract more people to join and use hyperledger products.

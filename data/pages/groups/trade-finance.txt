@@ -1,0 +1,101 @@
+====== Trade Finance SIG ======
+
+The Hyperledger Trade Finance Special Interest Group (TF-SIG) is focused on applying distributed ledger technology in general, and Hyperledger technologies in particular, to trade finance uses and needs. 
+[[https://docs.google.com/document/d/1RoQ2KUGwghMf3QiBx9N0_kkJ7lIFQdgbxwO-AsAM1-0/edit?ts=5aecdec1#heading=h.i8rxgknee0fy|TF-SIG proposal]] for more details. 
+
+===== Meetings =====
+
+| [[https://calendar.google.com/calendar/embed?src=linuxfoundation.org_nf9u64g9k9rvd9f8vp4vur23b0%40group.calendar.google.com&ctz=UTC | Hyperledger Community Calendar]] |||
+| |||
+| Online meeting URL | [[https://zoom.us/my/hyperledger.community.backup]]  (Meeting ID : 6223336701) ||
+| //Dial-up// |||
+| Phone numbers (USA) | +1(646)558-8656 | +1(669)900-6833 |
+| Toll-free numbers (USA) | +1(855)880-1246 | +1(877)369-0926 |
+| iPhone (one-tap) | +16699006833,,6223336701#  | +16465588656,,6223336701#  |
+| International numbers | https://zoom.us/u/bAaJoyznp ||
+
+^ Date                ^ Time   ^ Agenda                                                ^ Recording                                                                                                     ^ Notes of meeting                                    ^
+| 8th January 2019    |        | [[groups:trade-finance:tf-agenda-2019-01-08|Agenda]]  | [[https://drive.google.com/file/d/1Z2rgDgiQDGe15BaLCpPQeeS8mWXaOEXv/view?usp=sharing_eil&ts=5c34d881|Audio]]  | [[groups:trade-finance:tf-notes-2019-01-08|Notes]]  |
+| 22nd January 2019   | 14:00  | [[groups:trade-finance:tf-agenda-2019-01-22|Agenda]]  |                                                                                                               |                                                     |
+| 5th February 2019   | 14:00  |                                                       |                                                                                                               |                                                     |
+| 19th February 2019  | 14:00  |                                                       |                                                                                                               |                                                     |
+| 5th March 2019      | 14:00  |                                                       |                                                                                                               |                                                     |
+| 19th March 2019     | 14:00  |                                                       |                                                                                                               |                                                     |
+
+
+
+
+
+
+
+
+==== Meeting Recordings ====
+
+Current meeting recordings and materials from 2018 and beyond can be found on [[https://drive.google.com/open?id=15avnFNLQ0wrvqzq1M1-46EivjIkH2-GP | Google Drive]] 
+
+=== Archive ===
+
+===== Charter and FAQ =====
+==== Scope ====
+The activities of the TF-SIG include:
+  * Identifying related reference architectures (for example Trade Finance business and integration architecture, technical and infrastructure architecture), frameworks and models (OSI), use cases, current pilots and proofs of concept, and production case studies;
+  * Sharing stories of successes, failures, opportunities and challenges; 
+  * Exploring and addressing cross-cutting architectural principles, options and decisions  like performance and scalability, security, identity management and privacy, and identity in trade finance contexts; 
+  * Identifying existing or needed common critical software, middleware, and hardware components that would serve the particular needs of trade finance, including data transmission and processing from access point (device), through networks, and cloud computing deployment model options (private, public, hybrid)
+  * Working towards proposing solutions to the problems identified;
+  * Identifying conferences or other opportunities to connect face to face, as well as submit talks or present as a group at an event.
+  * Identifying the business community and building an inclusive platform for early adopters to contribute with their experiences. 
+  * Identifying all different protocols across trade finance portals with banking community, so as to build a standardisation across the different parties and efforts. 
+  * Trade Facilitation, awareness of and working in accordance with such rules
+ 
+
+<WRAP center round box 75%>
+The TF-SIG is prohibited from performing or engaging in any form of lobbying or attempts to influence government policy making or regulatory processes.  It is also not intended as a platform for procurement of services.
+</WRAP>
+
+==== Work Products ====
+The anticipated initial work products will include (but are not limited to) a set of documents describing trade finance use cases for blockchain technology. This will be an inventory of example use cases which captures common trade finance processes, which may suggest applications that are built or could be built using software being developed at Hyperledger. If existing inventories of such use cases exist, those should be identified and reviewed as well.  The TF-SIG should aim to identify common ground for collaboration between members, tackling the biggest challenges of the space. The TF-SIG may also host in-person meetings intended to accelerate the SIG's mission.
+
+===== Communication Tools =====
+  * [[https://lists.hyperledger.org/g/trade-finance-sig| trade-finance-sig mailing list]]
+  * [[https://chat.hyperledger.org/channel/trade-finance-sig| #trade-finance-sig chat channel]]
+
+===== Membership Directory =====
+
+If you are interested in listing your professional contact information in the trade finance membership directory, please send an email to trade-finance-sig@lists.hyperledger.org and CC Edmund To at edmund.to@industrie.co with the following items.
+  * Your name (required)
+  * A social media URL to your name (optional, e.g., Linkedin)
+  * Your company name (optional)
+  * Your company website URL (optional, corporate divisions or specific areas of your company website are permitted)
+  * Your company title (optional)
+  * Your geographic location (optional, using the format of “city, country”) 
+
+|< 100% 20% 35% 25% 20%>|
+^ Member Name                                                                     ^ Company Name                                                                                                                                           ^ Company Title                                                ^ Geographic Location     ^
+| [[https://uk.linkedin.com/in/william-lovell-1b71164|Will Lovell]]                                                                  | [[https://www.bankofengland.co.uk|Bank of England]]                                                                                                                    | Head of Future Technology                 | London, United Kingdom        |
+| [[https://www.linkedin.com/in/edmundto|Edmund To]]                         | [[https://www.industrie.co/|Industrie&Co]]                                                                                               | Software Engineer                                                   | Hong Kong, China           |
+| [[https://www.linkedin.com/in/zhipengh|Zhipeng Huang (Howard)]]                         | Huawei                                                                                               | Principle Engineer                                                  | Shenzhen, China|
+|[[ https://www.linkedin.com/in/kevin-sven-leuthardt-b2461379/ | Kevin Leuthardt]]|KSquared|Senior Consultant|Zurich, Switzerland|
+|Fred Etemadieh|Futurewei|Vice President of Technology|Santa Clara, CA, USA|
+|[[http://linkedin.com/in/wgenovese|William (Bill) Genovese]]|[[https://www.huawei.com|Huawei]]| Vice President -Corporate Strategy Planning, Banking, Financial Services and IT Services Solutions| Shenzhen, China|
+|[[https://linkedin.com/in/duncanjohnstonwatt|Duncan Johnston-Watt]]|[[https://blockchaintp.com|Blockchain Technology Partners]]|CEO| |
+|[[https://www.linkedin.com/in/nakul-gupta/|Nakul Gupta]]|DHL|Strategy and Solutions Design Manager|Utrecht, Netherlands|
+|[[https://www.linkedin.com/in/steve-tseng-65a63340|Steve Tseng]]|[[https://www.tallyx.com|TALLYX]]|CPO|Princeton, NJ, USA|
+|[[https://www.linkedin.com/in/jchenard|Jesse Chenard]]|[[https://www.monetago.com|MonetaGo Inc.]]|CEO|NY, USA and Mumbai, India|
+|Suresh Kumar Mantha|[[http://www.broadridge.com|Broadridge Financial Solutions]]|Product Specialist|Hyderabad, Telangana, India|
+|Daniel Muench|[[https://www.bearingpoint.com/en/|BearingPoint]]|Senior Business Consultant|Frankfurt/Stuttgart|
+|[[https://www.linkedin.com/in/nickguglielmo|Nick Guglielmo]]|SAP America, Inc.|Financial Value Advisor|Washington, DC area|
+|[[https://www.linkedin.com/in/vikksss/|Vikram Kimyani]]|[[http://www.oracle.com/blockchain|Oracle]]|Cloud/Blockchain Solutions Architect|London, UK|
+|[[https://www.linkedin.com/in/nelsonmak/|Nelson Mak]]|[[https://www.oracle.com|Oracle]]|Business Development Director, Cloud Specialist|Hong Kong, China|
+|[[https://www.linkedin.com/in/dex-xu/|Dixing (Dex) Xu]]| | |China|
+|[[https://www.linkedin.com/in/ydcandrew/|Andrew Yee]]|[[https://www.nec.com|NEC]]|Business Development Manager|Singapore |
+|[[https://www.linkedin.com/in/bobbijn|Bobbi Muscara]]|[[https://www.LedgerAcademy.com|Ledger Academy]]|Director of Education / Business Development|Princeton, NJ, USA|
+|[[https://www.linkedin.com/in/bourdin-eric-6869974|Eric Bourdin]]|JPMorgan |Vice President, Software Engineer|Geneva, Switzerland|
+|[[https://www.linkedin.com/in/jim-hraska-1448839|Jim Hraska]]|[[http://www.dtcc.com|DTCC]]|General Manager and Head of Product for Fixed Income Clearing Corp (FICC)|Jersey City, NJ, USA|
+|Mubeen Mapari|Goldstone Technologies|Principal Consultant|Hyderabad, India|
+|[[https://www.linkedin.com/in/mmandrewhon|Andrew Hon]]|[[https://www.cryptoblk.io|CryptoBLK Limited]]|Founder & Chief Technology Officer|Hong Kong|
+|[[https://www.linkedin.com/in/viviankwchan|Vivian Chan]]|[[https://www.cryptoblk.io|CryptoBLK Limited]]|Chief Commercial Officer|Hong Kong|
+|[[https://sg.linkedin.com/in/awnathan|Nathan Aw Ming Kun]]|OCBC Bank|Blockchain Engineer|Singapore|
+|[[https://uk.linkedin.com/in/andygraham|Andrew Graham]]|[[https://www.ibm.com|IBM]]| |UK|
+|[[https://www.linkedin.com/in/ross-wilkinson|Ross Wilkinson]]|Bolero|Head of Global Accounts|Sydney, Australia|
+|[[https://sg.linkedin.com/in/alanlim|Alan Lim]]|IBM|IBM Blockchain Labs|Singapore|

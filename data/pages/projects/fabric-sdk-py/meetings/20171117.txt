@@ -1,0 +1,190 @@
+==== 2017-11-17 ==== 
+
+Meeting will be held at [[https://chat.hyperledger.org/channel/fabric-sdk-py|rocketchat]] at 11AM (GMT+8) or 8PM one day before (GMT-7).
+
+  * [[https://jira.hyperledger.org/browse/FAB-4623?jql=project%20%3D%20FAB%20AND%20status%20in%20(%22In%20Progress%22%2C%20%22To%20Do%22)%20AND%20component%20%3D%20fabric-sdk-py | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+status:open | Open Patchset for review]]
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]]
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  * Done: chaincode install, channel create
+  * chaincode Instantiate: Tony and kai are working on [[https://jira.hyperledger.org/browse/FAB-5489 | FAB-5489]]
+  * chaincode Invoke: Zhaofang Han is working on [[https://jira.hyperledger.org/browse/FAB-5491 | FAB-5491]], Dong Wang is working on [[https://jira.hyperledger.org/browse/FAB-6985|FAB-6985]]
+  * EventHub:  david dornseifer is working on [[https://jira.hyperledger.org/browse/FAB-4822|FAB-4822]]
+  * Register: Baohua is working on [[https://jira.hyperledger.org/browse/FAB-3165|FAB-3165]]
+  * TODO issues
+    * channel join: [[https://jira.hyperledger.org/browse/FAB-2871|FAB-2871]]
+    * chaincode Query?
+    * chaincode Upgrade?[[https://jira.hyperledger.org/browse/FAB-5490|FAB-5490]]
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Baohua Yang
+  * Kai Chen
+  * David Dornseifer
+
+=== Log ===
+
+```
+baohua 10:59 AM
+@david_dornseifer @grapebaba @tonyyang132 meeting
+
+david_dornseifer 11:00 AM
+👋
+
+baohua 11:00 AM
+🙂
+ok, today's agenda is at https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20171117
+we made quite good progress, having finished the chaincode install/channel creation.
+those can be nice reference for the further operations
+@tonyyang132 and @grapebaba is working on the chaincode instantaite part
+FAB-5489
+
+JIRA @hyperledger-jira-l BOT 11:01 AM
+Found 1 issue
+FAB-5489 
+install and initiate chain code
+Assigned To
+Tony Yang  
+Status
+In Progress  
+Reporter
+Dong Wang  
+Priority
+Medium
+
+baohua 11:02 AM
+zhaofang and dong is working on the chaincode invocation: FAB-5491, FAB-6985
+
+JIRA @hyperledger-jira-l BOT 11:02 AM
+Found 1 issue
+FAB-6985 
+Support chaincode invocation using python sdk
+Assigned To
+Dong Wang  
+Status
+To Do  
+Reporter
+Baohua Yang  
+Priority
+Medium
+
+baohua 11:02 AM
+pity we do not have them online today
+EventHub: david dornseifer is working on FAB-4822
+
+JIRA @hyperledger-jira-l BOT 11:02 AM
+Found 1 issue
+FAB-4822 
+Support eventhub listening using python SDK
+Assigned To
+david dornseifer  
+Status
+In Progress  
+Reporter
+Kai Chen  
+Priority
+Medium
+
+baohua 11:02 AM
+is it still on-going? @david_dornseifer
+
+david_dornseifer 11:03 AM
+made good progress with FAB-4882
+
+JIRA @hyperledger-jira-l BOT 11:03 AM
+Found 1 issue
+FAB-4882 
+A t.end is misplaced in test/integration/query.js
+Assigned To
+dong pan  
+Status
+Done  
+Reporter
+dong pan  
+Priority
+Low
+
+baohua 11:03 AM
+or u like to pick other items 🙂
+nice
+
+david_dornseifer 11:03 AM
+sry - 4882
+hope i can create the pr soon
+
+baohua 11:03 AM
+thanks, david, hope u will get more time in following weeks
+holidays are coming, haha
+
+david_dornseifer 11:04 AM
+🙂
+
+baohua 11:04 AM
+any travel plan?
+
+david_dornseifer 11:04 AM
+should we upgrade the testing images to 1.0.4?
+
+baohua 11:05 AM
+do u think it's necessary?
+1.1-preview is released
+
+david_dornseifer 11:06 AM
+have not looked into that - many changes in the protos? / can test both with our current codebase and see if it works
+
+baohua 11:06 AM
+not too much change
+IMHO, it's nice-to-have, but won't need to spend too much effort, certainly
+
+david_dornseifer 11:07 AM
+yea think so too
+
+baohua 11:07 AM
+those channel/chaincode operations are waiting for us eagerly
+great!
+
+david_dornseifer 11:08 AM
+invoke and query would be nice to have 🙂
+
+baohua 11:08 AM
+any technical issue to discuss? i plan to refine the existing code architecture, which is way more complicated than expected. but maybe can wait for time till we have chaincode invocation and channel join
+@wangdong said he will finish the chaincode invocation soon
+really hard-working guy
+
+david_dornseifer 11:10 AM
+ok - agree we should wait with refactoring until the basic functions are there
+
+baohua 11:10 AM
+yes, but let's go on with those minor fixes
+ok, nothing too much from my side, just attend the membership summit, which attracts lots of eyeballs by fabric
+there will be lots of potential adoptions of our sdk
+anything else for u? @david_dornseifer
+
+david_dornseifer 11:12 AM
+second you opinion about the adoption
+and with 1.1 fabric will be much more attractive
+
+baohua 11:13 AM
+yes, the privacy protection
+we hope to finish the 1.0 sdk before fabric 1.1 release
+
+david_dornseifer 11:13 AM
+would be nice
+
+baohua 11:14 AM
+exactly
+ok, if nothing else, will end the meeting
+have nice thanksgiving days, david!
+
+david_dornseifer 11:15 AM
+@baohua thanks alot
+bye
+
+baohua 11:15 AM 
+:)⛳
+```

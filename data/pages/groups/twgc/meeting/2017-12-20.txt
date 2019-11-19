@@ -1,0 +1,99 @@
+===== TWG China Meeting =====
+
+==== Basic Info ====
+10AM ~ 11AM, 2017-12-20, GMT+8
+
+  * Option #1: Use computer to access [[ https://zoom.us/j/248676399 | zoom]] (Recommend using microphone and headset)
+  * Option #2: Dial in using the [[https://zoom.us/zoomconference?m=mTUdEBuT33gjEcR54Rqsi1KmFyNgSLYP|phone number]]. E.g.,	400 669 9381 or 010-87833177 (Premium Toll) for China area.
+
+[[https://docs.google.com/presentation/d/1punUCr0mSZT9gMKCs3vCYqbWbjeS_RG-18ZrhkfwoYc/edit?ts=5a14dfdf | Antitrust Policy Notice]]
+
+==== Attendee ====
+
+**Pls add ur name here before the meeting.**
+
+  * Baohua Yang
+  * Yueling Liang
+  * Allen Shao
+  * Kai Chen
+  * Scott Long
+  * Norbert Huang
+  * Dijun Liu
+  * Sheng Huang
+  * Linsheng Yu
+  * Jay GUO
+  * Zhong TIAN
+  * Min Luo
+==== Agenda ====
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - Call for Hackfest/Hackthon plan
+    - Hyperledger Lab discussions.
+  - [[groups/twgc/team_di | Team development and Innovation]] (Yaoguo Jiang, Zhangjiong Xuan)
+    - Code development on interested projects
+    - Share the technical FAQ to the maillist
+    - [[https://jira.hyperledger.org/browse/FAB-5496 | SM2 support]] by Zhenhua Dong, Dijun Liu
+    - [[https://jira.hyperledger.org/browse/FAB-6263 | MongoDB support]] by HuiQi Li (oxchain)
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Linsheng Yu, Jiannan Guo)
+    - Website to host and present the doc
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin, Haixu Cheng)
+    - Welcome companies to share usage cases at [[https://wiki.hyperledger.org/groups/twgc/team_cs|case collection ]]
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Zhou Xing, Zhoudong Ji and Sheng Huang)
+    - Report on [[https://wiki.hyperledger.org/groups/twgc/wuhan-meetup-2017-12|meetup at Dec 9, Wuhan]]
+    - Report on [[https://wiki.hyperledger.org/groups/twgc/beijing-meetup-2017-18|meetup at Dec 10, Beijing]]
+    - **[[groups/twgc/team_eo| Call for sponsors]] for Meetups in Jan, 2018.**
+    - Call for HL member news, will select to publish through official wechat channel. Feel free to contact TWGC.
+    - Discussion on Hackathon on Jan 20-21, call for sponsor. (Scott, Ada)  
+  - Annual work feedbacks
+    - What do u think is the best thing the community did in year 2017?
+    - What do u wanna the community improve in year 2018?
+  - Other issues
+    - Feel free to add here
+
+
+==== Minutes ====
+
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - Call for Hackfest/Hackthon plan for the year 2018
+    - Hyperledger Lab discussions.
+  - [[groups/twgc/team_di | Team development and Innovation]] (Yaoguo Jiang, Zhangjiong Xuan)
+    - Code development on interested projects
+    - **TODO: Sheng will help share the technical FAQ to the maillist.**
+    - [[https://jira.hyperledger.org/browse/FAB-5496 | SM2 support]] by Zhenhua Dong, Dijun Liu
+      - **No much feedback from maillist, Dijun will attend the fabric scrum meeting to share the idea and collect feedbacks.**
+    - [[https://jira.hyperledger.org/browse/FAB-6263 | MongoDB support]] by HuiQi Li (oxchain)
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Linsheng Yu, Jiannan Guo)
+    - Website to host and present the doc
+    - **TODO: Linsheng will help share the hosted link**
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin, Haixu Cheng)
+    - Welcome companies to share usage cases at [[https://wiki.hyperledger.org/groups/twgc/team_cs|case collection ]]
+    - Yin reported we need to enhance the marketing resource, need LF help
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Zhou Xing, Zhoudong Ji and Sheng Huang)
+    - Report on [[https://wiki.hyperledger.org/groups/twgc/wuhan-meetup-2017-12|meetup at Dec 9, Wuhan]]
+      - 50+ attendees
+      - speakers from ibm, huazhong tech univ., wuhan univ.
+      - place is a little difficult to find, and need more larger room next time.
+    - Report on [[https://wiki.hyperledger.org/groups/twgc/beijing-meetup-2017-12|meetup at Dec 10, Beijing]]
+      - 90+ attendees, 130+ online video watcher (first time to enable live video).
+      - Suggest follow the phases of best-practice, deep-dive, user scenarios.
+      - tianzhong: We may have Douyu live broadcasting supports for meetups at beijing and shanghai.
+    - **[[groups/twgc/team_eo| Call for sponsors]] for Meetups in Jan, 2018.**
+    - Call for HL member news, will select to publish through official wechat channel. Feel free to contact TWGC.
+    - In the week of Jan 29, Brian will visit Beijing; Tracy will be at Beijing in the previous week. Agenda TBD.
+    - Chainnova is planning a Hackathon in Tianjin on Jan 20-21, call for sponsor. (Scott, Ada)
+      - **TODO: Scott will confirm the schedule with chainNova**
+    - **TODO: Yin Cao is helping organize some hackathon with Nanjing Univ in year 2018, TBD**
+    - Allen suggest to have some casual gather dinner for the coming holidays, will be organized by volunteers in Beijing, Wuhan, Shanghai... for free. Not technical and formal meetup, but more on meeting people and easy talking.
+  - Annual work feedbacks
+    - What do u think is the best thing the community did in year 2017?
+      - Meetup events are growing quickly, much better than the beginning, made nice progress (xiaohan, scott)
+      - Balance diveristy and self-motivation (allen)
+      - Regular meeting is nice (scott)
+      - Member companies grow quickly (scott)
+      - Technical documentation is better than before (allen)
+    - What do u wanna the community improve in year 2018?
+      - PR is not enough (xiaohan)
+      - Code contribution is not good enough, need more technical contributions (scott)
+      - FAQ needs improvement, will share to maillist (huangsheng)
+      - **To Global Community**: Openness need to improve in terms of project feature, design, decisions (kai).
+      - **To Global Community**: Code review process need to be more efficient (kai).
+      - Meetup materials should be collected and shared (luomin)

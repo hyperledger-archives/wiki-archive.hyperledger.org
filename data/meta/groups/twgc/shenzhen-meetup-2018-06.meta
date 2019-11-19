@@ -1,0 +1,14 @@
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1528101573;s:8:"modified";i:1528104432;}s:7:"creator";s:10:"Scott Long";s:4:"user";s:10:"scott-long";s:11:"last_change";a:7:{s:4:"date";i:1528104432;s:2:"ip";s:15:"113.246.246.242";s:4:"type";s:1:"E";s:2:"id";s:35:"groups:twgc:shenzhen-meetup-2018-06";s:4:"user";s:10:"scott-long";s:3:"sum";s:0:"";s:5:"extra";s:0:"";}s:11:"contributor";a:1:{s:10:"scott-long";s:10:"Scott Long";}s:5:"title";s:27:"Hyperledger Shenzhen Meetup";s:11:"description";a:2:{s:15:"tableofcontents";a:7:{i:0;a:4:{s:3:"hid";s:27:"hyperledger_shenzhen_meetup";s:5:"title";s:27:"Hyperledger Shenzhen Meetup";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:6:"时间";s:5:"title";s:6:"时间";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:2;a:4:{s:3:"hid";s:6:"地点";s:5:"title";s:6:"地点";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:3;a:4:{s:3:"hid";s:6:"主题";s:5:"title";s:6:"主题";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:4;a:4:{s:3:"hid";s:12:"协办单位";s:5:"title";s:12:"协办单位";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:5;a:4:{s:3:"hid";s:12:"场地赞助";s:5:"title";s:12:"场地赞助";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:6;a:4:{s:3:"hid";s:6:"议程";s:5:"title";s:6:"议程";s:4:"type";s:2:"ul";s:5:"level";i:2;}}s:8:"abstract";s:380:"Hyperledger Shenzhen Meetup
+
+时间
+
+13：30 ~ 17：30， 2018年6月23日，星期日
+
+地点
+
+待定
+
+主题
+
+超级账本在中国多地组织线下见面会，帮助普及区块链知识，分享区块链技术在行业应用中的相关技术、案例、最佳实践等经验。
+本次会议重点分享区块链技术在全球的行业发展情况、案例以技术进展。";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}s:8:"relation";a:1:{s:10:"firstimage";s:0:"";}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1528101573;s:8:"modified";i:1528104432;}s:7:"creator";s:10:"Scott Long";s:4:"user";s:10:"scott-long";s:11:"last_change";a:7:{s:4:"date";i:1528104432;s:2:"ip";s:15:"113.246.246.242";s:4:"type";s:1:"E";s:2:"id";s:35:"groups:twgc:shenzhen-meetup-2018-06";s:4:"user";s:10:"scott-long";s:3:"sum";s:0:"";s:5:"extra";s:0:"";}s:11:"contributor";a:1:{s:10:"scott-long";s:10:"Scott Long";}}}

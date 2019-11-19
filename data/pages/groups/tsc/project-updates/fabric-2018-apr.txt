@@ -1,0 +1,31 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Fabric
+
+===== Project Health =====
+Fabric continues to grow and mature. In March, we published our version 1.1 release. We have a growing mix of contributors with IBM comprising only 36% of the contributors over the past quarter (-4%) though 80% of the commits since the start of 2018. There have been 96 developers (+9) representing 18 companies contributing 1087 commits and changing nearly 700k LOC. 
+
+There seems to be a good mix of questions in chat, email and on [[stackoverflow|https://stackoverflow.com/questions/tagged/hyperledger-fabric]] (which notched its 1,450th question for the 'hyperledger-fabric' tag, with the majority being answered. The questions themselves continue to be increasingly sophisticated, which is also a good sign. 
+
+===== Issues =====
+The team is trying to make more effective use of JIRA for project management, and we have been able to work with LF IT to get some needed changes to the configuration. We shall see how this works for 1.2 release.
+
+===== Releases =====
+As noted, Fabric team published its 1.1.0 release in March and since the last report, has published one additional bugfix release (1.0.6) and our 1.1.0-alpha and 1.1.0-rc1 interim releases. The rate of downloads of Fabric binaries and images nearly doubled in March, likely driven by the 1.1.0 release - another good sign of community interest.The project maintainers plan to follow a quarterly release cadence beginning with the 1.2 release in June 2018.
+
+===== Overall Activity in the Past Quarter =====
+email traffic spiked in March and dipped in January (holidays). The RocketChat traffic seems to have increased as well, but there are so many channels to track it is hard to get a sense for how much of an increase there's been. [[https://stackoverflow.com/questions/tagged/hyperledger-fabric|Stackoverflow]] traffic is steadily increasing, reaching the 1,450 question milestone (an increase of 450 since the last report). Lots of questions being driven by Composer use with Fabric.
+
+===== Current Plans =====
+As noted, the project maintainers plan a 1.2 release in 2Q 2018.The project has published a [[projects:fabric:roadmap|1.2 release roadmap]], and maintains a [[https://jira.hyperledger.org/secure/Dashboard.jspa?selectPageId=10701|JIRA dashboard]] to track specific items. We hold frequent playback meetings for design review and intend to continue regular maintainer hangouts about every other week to track the release plan's progress against objectives.
+
+===== Maintainer Diversity =====
+Maintainer diversity was static though there is potential on the horizon. 
+
+===== Contributor Diversity =====
+We have seen some new contributors over the past quarter from Accenture, BBVA, Oracle, Blocledger and some individual contributors. IBM's percentage of overall contributors dropped 4% to 36 in the past quarter, though they also continue to represent the lionshare of commits.
+
+===== Additional Information =====
+Collaboration with Burrow and Indy projects is continuing and we expect to be expanding. The maintainers have begun a series of bi-weekly hangouts on zoom to track progress against our release plans and we hold frequent design playbacks for new feature development.
+ 

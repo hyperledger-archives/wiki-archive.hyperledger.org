@@ -1,0 +1,140 @@
+===== Scenario =====
+[[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]] : [[analysis-business|Domain analysis]] : [[analysis-human-milk|Human milk services]]
+
+----------
+==== Name ====
+
+** Dispense milk **
+
+==== Narrative ====
+
+The human milk is defrosted and dispensed to the patient as per the patient’s dietary orders.
+
+
+----------
+===== Participants, Resources and Contexts =====
+
+==== Participants ==== 
+
+=== Roles ===
+
+  * [[Responsible practitioner]]
+  * //role//
+
+----------
+
+==== Resources ==== 
+
+  * //resource//
+  * //resource//
+
+=== Inputs ===
+
+  * //input//
+  * //input//
+
+=== Outputs ===
+
+  * //output//
+  * //output//
+
+----------
+==== Contexts ====
+
+=== Physical ===
+
+  * //physical context//
+  * //physical context//
+
+=== Virtual === 
+
+  * //virtual context//
+  * //virtual context//
+
+----------
+===== Goals, Flows and Policies =====
+
+==== Goals ====
+
+  * //goal//
+  * //goal//
+
+----------
+
+==== Preconditions ==== 
+
+=== Participant preconditions ===
+
+  * //precondition//
+  * //precondition//
+
+=== Resource preconditions ===
+
+  * //precondition//
+  * //precondition//
+
+=== Context preconditions ===
+
+  * //precondition//
+  * //precondition//
+
+=== Previous flows (input activities or events) ===
+
+  * [[Distribute milk]]
+
+=== Concurrent flows (parallel activities or events) ===
+
+  * //activity or event//
+  * //activity or event//
+
+
+----------
+
+==== Flows ==== 
+
+=== Primary flows ===
+
+  * Dispense milk
+  * //activities or events//
+
+=== Alternate flows === 
+
+  * //activities or events//
+  * //activities or events//
+
+----------
+
+==== Post-conditions ==== 
+
+=== Outcomes (Goal-states) ===
+
+  * //outcome//
+  * //outcome//
+
+=== Outcomes (Other) ===
+
+  * //outcome//
+  * //outcome//
+
+----------
+
+==== Subsequent activities or events ====
+
+=== Subsequent flows (successful outcome) ===
+
+  * //activity//
+  * //activity//
+
+=== Subsequent flows (compensating or terminating outcome) ===
+
+  * //activity//
+  * //activity//
+
+----------
+
+===== Supporting Resources =====
+
+==== Sources ==== 
+
+  * //resource//
+  * //resource//

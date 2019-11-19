@@ -1,0 +1,108 @@
+
+<h1 class="sectionedit1" id="expected_hyperledger_fabric_v11_content">Expected Hyperledger Fabric v1.1 Content</h1>
+<div class="level1">
+
+<p>
+Dashboard for specific Epics, Stories, and tasks are available in the <a href="https://jira.hyperledger.org/secure/Dashboard.jspa?selectPageId=10104" class="urlextern" title="https://jira.hyperledger.org/secure/Dashboard.jspa?selectPageId=10104"  rel="nofollow">Hyperledger Fabric Jira Dashoard</a>.
+</p>
+
+<p>
+Discussion for Fabric releases happens <a href="https://chat.hyperledger.org/channel/fabric-release" class="urlextern" title="https://chat.hyperledger.org/channel/fabric-release"  rel="nofollow">on the #fabric-release channel in RocketChat</a>.
+</p>
+
+<p>
+We have published the <a href="https://github.com/hyperledger/fabric/releases/tag/v1.1.0-preview" class="urlextern" title="https://github.com/hyperledger/fabric/releases/tag/v1.1.0-preview"  rel="nofollow">v1.1.0-preview release</a> November 1, 2017. Documentation for this preview release is maintained in the <a href="http://hyperledger-fabric.readthedocs.io/en/master/index.html" class="urlextern" title="http://hyperledger-fabric.readthedocs.io/en/master/index.html"  rel="nofollow">master branch</a> of the docs.
+</p>
+
+<p>
+<strong>High level overview:</strong>
+</p>
+
+</div>
+<!-- EDIT1 SECTION "Expected Hyperledger Fabric v1.1 Content" [1-690] -->
+<h2 class="sectionedit2" id="introduction_of_the_following_new_features">Introduction of the following new features:</h2>
+<div class="level2">
+<ul>
+<li class="level1"><div class="li"> (v1.1.0-preview) Node JS chaincode - An additional implementation of chaincode that mirrors the current Golang version in functionality. The benefit is that when using the node SDK(although you can still use any SDK of your choosing) you are provided a full stack development model. This also helps the large Javascript developer community base with a familiar coding language.  <a href="https://jira.hyperledger.org/browse/FAB-2331" class="urlextern" title="https://jira.hyperledger.org/browse/FAB-2331"  rel="nofollow">FAB-2331</a></div>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> (v1.1.0-preview) Node JS connection profile - Currently all applications need to capture information of the target fabric environment. This enhancement generates a common exchange doc, with backend topology information. With this doc the application will no longer need to construct the channel, add peers, orderers and get the org admin, simplifying your application development. <a href="https://jira.hyperledger.org/browse/FAB-5363" class="urlextern" title="https://jira.hyperledger.org/browse/FAB-5363"  rel="nofollow">FAB-5363</a></div>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li">  (v1.1.0-preview) Provide an encryption library that allows customers to encrypt sensitive data that a chaincode processes and updates.   This provides another level of security for highly sensitive data. <a href="https://jira.hyperledger.org/browse/FAB-830" class="urlextern" title="https://jira.hyperledger.org/browse/FAB-830"  rel="nofollow">FAB-830</a></div>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> (v1.1.0-preview) Attribute based access control (ABAC) for chaincode, using attributes included in Fabric CA generated certificates.  This provides another means of enforcing access control in chaincode.  <a href="https://jira.hyperledger.org/browse/FAB-5346" class="urlextern" title="https://jira.hyperledger.org/browse/FAB-5346"  rel="nofollow">FAB-5346</a></div>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> (v1.1.0-preview) Chaincode APIs to retrieve transaction submitter information including certificate attributes <a href="https://jira.hyperledger.org/browse/FAB-6089" class="urlextern" title="https://jira.hyperledger.org/browse/FAB-6089"  rel="nofollow">FAB-6089</a></div>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> (v1.1.0-preview) Performance and scale. <a href="https://jira.hyperledger.org/browse/FAB-6421" class="urlextern" title="https://jira.hyperledger.org/browse/FAB-6421"  rel="nofollow">FAB-6421</a></div>
+<ul>
+<li class="level2"><div class="li"> Orderer performance improvement <a href="https://jira.hyperledger.org/browse/FAB-5274" class="urlextern" title="https://jira.hyperledger.org/browse/FAB-5274"  rel="nofollow">FAB-5274</a></div>
+</li>
+<li class="level2"><div class="li"> Orderer horizontal scaling improvements which allows for more orderers to be added to handle more volume and load. <a href="https://jira.hyperledger.org/browse/FAB-5258" class="urlextern" title="https://jira.hyperledger.org/browse/FAB-5258"  rel="nofollow">FAB-5258</a></div>
+</li>
+<li class="level2"><div class="li"> MSP Identity caching <a href="https://jira.hyperledger.org/browse/FAB-5880" class="urlextern" title="https://jira.hyperledger.org/browse/FAB-5880"  rel="nofollow">FAB-5880</a></div>
+</li>
+<li class="level2"><div class="li"> Parallel transaction validation <a href="https://jira.hyperledger.org/browse/FAB-5932" class="urlextern" title="https://jira.hyperledger.org/browse/FAB-5932"  rel="nofollow">FAB-5932</a></div>
+</li>
+<li class="level2"><div class="li"> CouchDB performance improvement <a href="https://jira.hyperledger.org/browse/FAB-2725" class="urlextern" title="https://jira.hyperledger.org/browse/FAB-2725"  rel="nofollow">FAB-2725</a></div>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> (v1.1.0-preview) CRL support for Fabric CA - Ability to get a cert revocation list from Fabric CA. <a href="https://jira.hyperledger.org/browse/FAB-5300" class="urlextern" title="https://jira.hyperledger.org/browse/FAB-5300"  rel="nofollow">FAB-5300</a></div>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> Filtered block event - Register for block events with minimal information such as txid and tx validation indicator.  <a href="https://jira.hyperledger.org/browse/FAB-5481" class="urlextern" title="https://jira.hyperledger.org/browse/FAB-5481"  rel="nofollow">FAB-5481</a></div>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> Ability to trigger events on a per channel basis rather than global peer basis.  <a href="https://jira.hyperledger.org/browse/FAB-5695" class="urlextern" title="https://jira.hyperledger.org/browse/FAB-5695"  rel="nofollow">FAB-5695</a></div>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> (v1.1.0-preview) Enable fabric-ca-client to create a Certificate Signing Request - If a user wishes to use an external CA for generating and signing the certificates, it would be useful to leverage the fabric-ca-client and BCCSP to generate a certificate signing request for the keys generated by the BCCSP and write the CSR to a file without any interaction with the fabric-ca-server.  This would allow the user to then send the CSR file to an external CA. <a href="https://jira.hyperledger.org/browse/FAB-5389" class="urlextern" title="https://jira.hyperledger.org/browse/FAB-5389"  rel="nofollow">FAB-5389</a></div>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> (v1.1.0-preview) Serviceability enhancements. <a href="https://jira.hyperledger.org/browse/FAB-2985" class="urlextern" title="https://jira.hyperledger.org/browse/FAB-2985"  rel="nofollow">FAB-2985</a></div>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> Fabric 1.1 upgrade and compatibility - ensure the ability for the Fabric to be upgraded-in-place from a prior 1.0.x release. <a href="https://jira.hyperledger.org/browse/FAB-6122" class="urlextern" title="https://jira.hyperledger.org/browse/FAB-6122"  rel="nofollow">FAB-6122</a></div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT2 SECTION "Introduction of the following new features:" [691-4301] -->
+<h2 class="sectionedit3" id="tech_preview_features_enabled_via_build_tags_-_not_included_in_v110-preview">Tech Preview (Features enabled via build tags - *not* included in v1.1.0-preview):</h2>
+<div class="level2">
+<ul>
+<li class="level1"><div class="li"> Enable (new/incomplete) features to be selectively included/excluded from the build. <a href="https://jira.hyperledger.org/browse/FAB-6020" class="urlextern" title="https://jira.hyperledger.org/browse/FAB-6020"  rel="nofollow">FAB-6020</a></div>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> Private channel data. Ability to keep data on a channel private. This data will never be sent to the ordering service with the transaction. The private data is shared with a subset of peers, governed by policies, via the gossip protocol. For example all channel participants may need to be aware of a trade, but keep the trade price private among the trade participants.  <a href="https://jira.hyperledger.org/browse/FAB-1151" class="urlextern" title="https://jira.hyperledger.org/browse/FAB-1151"  rel="nofollow">FAB-1151</a></div>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> Finer grained access control on channel functions rather than organization scoped access.  For example specify which identities or group of identities can invoke chaincode, retrieve blocks, retrieve transactions, etc.  <a href="https://jira.hyperledger.org/browse/FAB-3621" class="urlextern" title="https://jira.hyperledger.org/browse/FAB-3621"  rel="nofollow">FAB-3621</a></div>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> Ability to distinguish types of MSP identities, e.g. peer vs client vs orderer.  This information can be utilized for access policies throughout the system.  <a href="https://jira.hyperledger.org/browse/FAB-5664" class="urlextern" title="https://jira.hyperledger.org/browse/FAB-5664"  rel="nofollow">FAB-5664</a></div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT3 SECTION "Tech Preview (Features enabled via build tags - *not* included in v1.1.0-preview):" [4302-] -->

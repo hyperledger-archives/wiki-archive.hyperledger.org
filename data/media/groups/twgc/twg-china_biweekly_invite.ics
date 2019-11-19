@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20180328T020000Z
+DTEND:20180328T030000Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=WE
+DTSTAMP:20180327T031511Z
+ORGANIZER;CN=Baohua Yang:mailto:yangbaohua@gmail.com
+UID:2b6ff2hejmgktsu5df8gte9a8g@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=yangbaohua@gmail.com;X-NUM-GUESTS=0:mailto:yangbaohua@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=yangbaohua@gmail.com;X-NUM-GUESTS=0:mailto:yangbaohua@gmail.com
+CREATED:20180327T030519Z
+DESCRIPTION:Contact: Baohua Yang (yangbaohua@gmail.com)\n\nNOTE: Use Zoom
+ and recommend using microphone.\n\nTopic: Hyperledger Technical WG China Meeting\n\nJo
+ in from PC\, Mac\, Linux\, iOS or Android: https://zoom.us/my/hyperledger.community\n\nO
+ r iPhone one-tap :\n    US: +16699006833\,\,4034983298#  or +16465588656\,\,
+ 4034983298# \nOr Telephone：\n    Dial(for higher quality\, dial a number bas
+ ed on your current location)：\n        US: +1 669 900 6833  or +1 646 558 8
+ 656  or +1 877 369 0926 (Toll Free) or +1 855 880 1246 (Toll Free)\n    Mee
+ ting ID: 403 498 3298\n    International numbers available: https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fu%2FbAaJoyznp&sa=D&ust=1525137358070000&usg=AFQjCNEJXrRU8o4-kb66HzlfTUH1M6eSHg\n\n https://wiki.hyperledger.org/groups/twgc
+LAST-MODIFIED:20180327T031511Z
+LOCATION:https://zoom.us/my/hyperledger.community
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Technical Working Group China Bi-weekly Meeting
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

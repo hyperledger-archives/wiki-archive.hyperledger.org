@@ -1,0 +1,22 @@
+=== Call for Internship Projects and Mentors ===
+If you’ve identified a project or task that’s suitable for an internship project and you’re interested in mentoring a student developer, please define the project by completing this [[https://goo.gl/forms/VplpKoNYYsYfnOjW2 | Google form]] open from **February 2nd through 23rd**. A sub-committee of the TSC will select 12 projects from the proposals that we receive to open up for applications. The Google questionnaire includes the following questions:
+
+  * **Title:** Provide a short but descriptive title of what the intern project is.
+  * **Description:** Describe the project in details. Provide at least two or three paragraphs describing the task. Include the problem/opportunity in need of effort, as well as a description of the task to fix the problem or realize the opportunity. The more detail you can provide on the project page, the more likely your potential interns will understand what you are looking for.
+  * **Additional Information:** Provide links to wiki entries, release-plan notes, and/or other web-references that would be helpful information to potential interns.
+  * **Learning Objectives:** Well-developed learning objectives are an integral part of providing a positive internship experience and demonstrate a well-organized and robust project. The learning objectives may include soft/hard skills the intern will learn, how the intern will be mentored or supervised, professional or networking opportunities, and etc. 
+  * **Expected Outcome:** List the deliverable(s) (features/application(s)/report(s) etc.). 
+  * **Education Level:** Students are required to be enrolled in an undergraduate program to be eligible. If education beyond the undergraduate level is preferred, please specify.
+  * **Skills:** List the skills, abilities, and technical knowledge required and/or desired for successfully completing the project.
+  * **Level of Difficulty:** Easy/Medium/Challenging
+  * **Preferred Hours and Length of Internship:** Full-time (40 hours a week for 12 weeks during the summer) or Part-time (20 hours a week for 24 weeks starting in summer and ending in fall)
+  * **Mentor(s) and Contact Info:**
+
+
+**For Mentors: Tips for Effective and Successful Mentorship**
+  * **Communicate**: Communicate with your intern often, whether it is to provide feedback, offer training, or check on the intern’s progress. By keeping the line of communication open you will build trust, respect, and a positive relationship that facilitates the successful completion of the project.
+  * **Mentor**: Schedule a regular review meeting with your intern. Mentorship is a critical and essential part of an internship experience, and an attribute that differentiates from regular employment. As a mentor, it’s important to give your intern honest feedback on professionalism and career preparedness.
+  * **Connect**: To foster learning outside of your intern’s job duties, encourage your intern to develop relationships outside or his or her immediate team. Allowing your intern to gain a broader understanding of your organization, industry, and potential career paths can help generate new ideas and make him or her a more effective contributing member.
+  * **Revisit**: Periodically revisit the learning objectives and expected outcomes established at the beginning of the internship. Discuss what the student has learned and how it can be applied in the future. Be flexible to adjust the project scope, learning objectives, and outcomes based on the intern's background and skill set.
+
+Please contact [[internship@hyperledger.org]] if you have any questions.

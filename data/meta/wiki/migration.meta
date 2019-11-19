@@ -1,0 +1,20 @@
+a:2:{s:7:"current";a:7:{s:4:"date";a:2:{s:7:"created";i:1497919348;s:8:"modified";i:1497919348;}s:7:"creator";s:11:"Tracy Kuhrt";s:4:"user";s:6:"tkuhrt";s:11:"last_change";a:7:{s:4:"date";i:1497919348;s:2:"ip";s:13:"173.22.224.10";s:4:"type";s:1:"C";s:2:"id";s:14:"wiki:migration";s:4:"user";s:6:"tkuhrt";s:3:"sum";s:25:"Moved from test_migration";s:5:"extra";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}s:11:"description";a:1:{s:8:"abstract";s:503:"Changes are required to migrate from github wiki's .md format to docuwiki's format. The following types of conversions had to be applied:
+
+
+
+1. Highlighting
+
+   A) _ italic _ --> // italic //
+      Regex replace: \_(.+)\_
+      with: //$1//
+
+    B) <b> bold </b> --> **bold**
+
+2. Section headers
+
+    A) # header --> ====== header ======
+       E.g., Regex replace:^## (.+)$
+       with:===== $1 =====
+         
+    B) The section header hierarchy indicator assumptions are reversed:
+       Docuwiki …";}s:8:"relation";a:1:{s:10:"firstimage";s:0:"";}}s:10:"persistent";a:4:{s:4:"date";a:1:{s:7:"created";i:1497919348;}s:7:"creator";s:11:"Tracy Kuhrt";s:4:"user";s:6:"tkuhrt";s:11:"last_change";a:7:{s:4:"date";i:1497919348;s:2:"ip";s:13:"173.22.224.10";s:4:"type";s:1:"C";s:2:"id";s:14:"wiki:migration";s:4:"user";s:6:"tkuhrt";s:3:"sum";s:25:"Moved from test_migration";s:5:"extra";s:0:"";}}}

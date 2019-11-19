@@ -1,0 +1,17 @@
+[[https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS170x+2T2018/course/| Blockchain Uses  ]]
+[[https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS170x+2T2018/course/|{{groups:training-and-education:edx-small.png?20}}]]  
+edX online class - Blockchain: Understanding Its Uses and Implications
+
+
+[[https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS171x+3T2017/course/|  Hyperledger Intro  ]]
+[[https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS171x+3T2017/course/|{{groups:training-and-education:edx-small.png?20}}]]  
+edX online class - Blockchain for Business - An Introduction to Hyperledger Technologies
+
+[[https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS171x+3T2017/discussion/forum/|  Help edX Students  ]]
+[[https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS171x+3T2017/discussion/forum|{{groups:training-and-education:edx-small.png?20}}]]  
+discussion forum for the class Blockchain for Business - An Introduction to Hyperledger Technologies
+
+[[https://courses.edx.org/courses/edX/edX101/2014/course/|  Create edX Course  ]]
+[[https://courses.edx.org/courses/edX/edX101/2014/course|{{groups:training-and-education:edx-small.png?20}}]]  
+edX online class - Overview of Creating an edX Course
+

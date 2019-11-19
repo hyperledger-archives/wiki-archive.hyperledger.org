@@ -1,0 +1,6 @@
+===== Surveys =====
+[[healthcare-wg-wikispace-redesign|Home]] : [[resources|Resources]] : [[resources-primary-data|Primary data]]
+----------
+
+  * [[HLHCWG-survey-09-apr-18|Hyperledger Healthcare Working Group Survey 09-APR-18]]
+  * [[Payor-swg-survey-09-apr-18|Payor SWG Survey 19-JUN-18]]

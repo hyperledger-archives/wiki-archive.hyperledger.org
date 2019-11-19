@@ -1,0 +1,169 @@
+
+===== Meetings 7 AM [ET] =====
+
+**Weekly Common Fabric SDK Focus  
+Every Thursday, from Thursday, September 22, 2016, to Thursday, December 29, 2016 
+7:00 am  |  Eastern Daylight Time (New York, GMT-04:00)  |  30 mins**
+
+Meeting number: 593 243 086 
+
+Meeting link: https://mydtcc.webex.com/mydtcc/j.php?MTID=md41d422ecf1067beb48aa27cf7d3ff40
+
+Moderator Pin Code: 116 624 7 
+
+Participant Pin Code: 893 074 1
+
+Join by phone 
+ 
+Australia: 
+ 
+Toll free number: 1800059884 (en) 
+Toll number: +61 2 8763 8585 (SYD) (en) 
+ 
+China: 
+ 
+Toll free number: 8008768591 (en) 
+Toll number: +86 4000132202 (en) 
+ 
+USA: 
+ 
+Call-in toll-free number: 1-6463071364 (US) 
+Call-in number: 1-6463071364 (US)  
+
+Host Key: 603295
+
+===== Meetings 9 PM [ET] =====
+
+**Monday, November 7, 2016 | 9:00 pm Eastern Standard Time (GMT-05:00) | 1 hour 30 minutes | Not started 
+Recurrence: Every Monday, Tuesday,from Monday, November 7, 2016, to Tuesday, November 15, 2016**
+
+Meeting link: 
+https://mydtcc.webex.com/mydtcc/j.php?MTID=mda40343e44e5931b280bd506e67ca3b9 
+ 
+Join by phone 
+ 
+Australia: 
+ 
+Toll free number: 1800059884 (en) 
+Toll number: +61 2 8763 8585 (SYD) (en) 
+ 
+China: 
+ 
+Toll free number: 8008768591 (en) 
+Toll number: +86 4000132202 (en) 
+ 
+USA: 
+ 
+Call-in toll-free number: 1-6463071364 (US) 
+Call-in number: 1-6463071364 (US) 
+ 
+Moderator Pin Code: 116 624 7
+Participant Pin Code: 893 074 1
+ 
+Host key: 
+929649
+
+==================================================================================================
+
+**Fabric SDK Focus - Every Friday, from Friday,November 4, 2016, to Friday, November 25, 2016 
+**9:00 pm ** |  Eastern Daylight Time (New York, GMT-04:00)  |  1 hr 30 mins**
+
+Meeting number: 258 859 501 
+  
+Meeting Link: https://mydtcc.webex.com/mydtcc/j.php?MTID=m216c26876918ae66954b671806dd1ce0
+ 
+Participant Pin Code: 893 074 1
+
+Host Code: 397601 
+
+Join by phone  
+
+USA:
+
+Call-in toll-free number: 1-6463071364 (US)  
+
+Call-in number: 1-6463071364 (US) 
+
+China:
+
+Toll free number: 8008768591 (en)
+
+Toll number: +86 4000132202 (en)
+
+Australia:
+
+Toll free number: 1800059884 (en)
+
+Toll number: +61 2 8763 8585 (SYD) (en)
+
+===== Meetings 10 PM [ET] =====
+
+**Fabric SDK Focus Session for  recurring Weds & Thurs 10 PM ET. 
+10:00 pm Eastern Standard Time (GMT-05:00) | 1 hour 30 minutes | Not started 
+Recurrence: Every Wednesday, Thursday, from Wednesday, November 9, 2016,to Thursday, November 17,2016**
+
+Meeting number: 
+252 286 349 
+ 
+Participant Pin Code: 893 074 1
+
+Moderator Pin Code: 116 624 7
+ 
+Meeting link: 
+https://mydtcc.webex.com/mydtcc/j.php?MTID=m45aa7c37e012ed60cbec45ed12d9ff70 
+ 
+Join by phone  
+USA
+Call-in toll-free number: 1-6463071364 (US)  
+Call-in number: 1-6463071364 (US) 
+ 
+China
+Toll free number: 8008768591 (en)
+Toll number: +86 4000132202 (en)
+ 
+Australia
+Toll free number: 1800059884 (en)
+Toll number: +61 2 8763 8585 (SYD) (en)
+
+Host key: 
+250986 
+
+
+===== Meeting minutes =====
+
+  * [[https://docs.google.com/document/d/1Gt4yIit2O2e_aw5emqa0zVfTHhoi7oM_wzqBL5034NI/pub | 2016-Oct-06]]
+  * [[https://docs.google.com/document/d/1i5WkOJ1capaZzicV_8tde2TBlQphwdz9K35KP7EPeDM/pub | 2016-Oct-14]]
+  * [[https://docs.google.com/document/d/1PRM_WAM19JPzM9GY9p2Q5LrI16I_zqGHYKYpjPtPf40/pub | 2016-Oct-20]]
+  * [[https://docs.google.com/document/d/1Ktr0YwO6V-XggHetmzxzisYou6_NfkpeUUSVTyTpgyI/pub | 2016-Oct-27]] 
+  * [[https://docs.google.com/document/d/1nW7keICXiTjaCSSkdAm5uMtO7nUlagbeCwvC1LUB5i4/pub | 2016-Nov-03]] 
+=====  Members =====
+^ Name                     ^ LF ID        ^ Email                          ^ Orgnization                            ^
+| Thiru Vijayan            |              |                                | CLS                                    |
+| Vikas Jakhar             |              |                                | CLS                                    |
+| Joe Di Piazza            | Jdipiazz     | Jdipiazza@dtcc.com                               | DTCC                                   |
+| Murali Krishna           |              |                                | DTCC                                   |
+| Pardha Vishnumolakala    |              |                                | DTCC                                   |
+| Satheesth Kathamuthu     | satheeshk | skathamuthu@dtcc.com | DTCC                                   |
+| Muhammad Altaf           | malik-altaf  | muhammada@fast.au.fujitsu.com  | Fujitsu Australia Software Technology  |
+| Baohua Yang              | baohua       | yangbaohua@gmail.com           | IBM                                    |
+| Binh Nguyen              |              |                                | IBM                                    |
+| Jim Zhang                |              |                                | IBM                                    |
+| Rick Rineholt            |              |                                | IBM                                    |
+| Srinivasan Muralidharan  |              |                                | IBM                                    |
+| Sharon Weed              |              |                                | IBM                                    |
+|Manjeet Singh| | | CLS |
+|Tim Snyder| | | CLS |
+|Eric Vaughn | | | BlocLedger|
+
+
+===== Working documents =====
+
+[[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4/edit | Fabric SDK Specification]]
+
+===== Projects =====
+Now we have several sub-projects in various languages.
+
+  - [[|Node.js]]
+  - [[projects:fabric-sdk-py|Python]]
+  - [[|Java]]
+

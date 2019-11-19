@@ -1,0 +1,32 @@
+===== Role : Milk banking services provider =====
+  * [[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]] : [[analysis-business|Domain analysis]] : [[analysis-human-milk|Human milk services]]
+  * [[healthcare-wg-wikispace-redesign |Home]] : [[resources|Resources]] : [[analytical_models|Analytical models]] : [[human_milk_services_model|Human milk services model]]
+----------
+
+==== Name ====
+
+//Milk banking services provider//
+
+==== Description ====
+
+tbd
+
+----------
+==== Services systems and Scenarios ====
+
+  * [[Human milk services]]
+
+----------
+==== Related roles ====
+
+  * [[Milk bank manager]]
+  * [[Milk bank practitioner]]
+  * [[Donor recruiter]]
+  * [[Donor screener]]
+  * [[Donor educator]]
+
+----------
+==== Role policies ====
+
+  * //Policy//
+  * //Policy//

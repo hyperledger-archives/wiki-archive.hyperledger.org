@@ -1,0 +1,148 @@
+===== Scenario =====
+[[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]] : [[analysis-business]] : [[analysis-human-milk|Human milk services]]
+
+----------
+==== Name ====
+
+** Screen milk **
+
+==== Narrative ====
+
+The donated milk is defrosted and a sample is taken for laboratory test.
+
+The laboratory services provider performs serology testing.
+
+The laboratory services provider performs a bacterial culture.
+
+The laboratory services provider may perform an assay of macronutrients and calories.
+
+----------
+===== Participants, Resources and Contexts =====
+
+==== Participants ==== 
+
+=== Roles ===
+
+  * [[Milk storage provider]] 
+  * [[Laboratory services provider]]
+
+----------
+
+==== Resources ==== 
+
+  * [[Human milk]]
+  * [[Milk sample screening results]]
+    * [[Serology test results]]
+    * [[Bacterial culture results]]
+
+=== Inputs ===
+
+  * [[Human milk]]
+
+=== Outputs ===
+
+  * [[Milk sample screening results]]
+    * [[Serology test results]]
+    * [[Bacterial culture results]]
+
+----------
+==== Contexts ====
+
+=== Physical ===
+
+  * //physical context//
+  * //physical context//
+
+=== Virtual === 
+
+  * //virtual context//
+  * //virtual context//
+
+----------
+===== Goals, Flows and Policies =====
+
+==== Goals ====
+
+  * //goal//
+  * //goal//
+
+----------
+
+==== Preconditions ==== 
+
+=== Participant preconditions ===
+
+  * //precondition//
+  * //precondition//
+
+=== Resource preconditions ===
+
+  * //precondition//
+  * //precondition//
+
+=== Context preconditions ===
+
+  * //precondition//
+  * //precondition//
+
+=== Previous flows (input activities or events) ===
+
+  * [[Collect milk]]
+
+=== Concurrent flows (parallel activities or events) ===
+
+  * //activity or event//
+  * //activity or event//
+
+
+----------
+
+==== Flows ==== 
+
+=== Primary flows ===
+
+  * Defrost milk
+  * Submit milk sample for laboratory testing
+  * Perform serology testing
+  * Perform bacterial culture testing
+
+=== Alternate flows === 
+
+  * Perform macronutrient and caloric content assay
+  * //activities or events//
+
+----------
+
+==== Post-conditions ==== 
+
+=== Outcomes (Goal-states) ===
+
+  * //outcome//
+  * //outcome//
+
+=== Outcomes (Other) ===
+
+  * //outcome//
+  * //outcome//
+
+----------
+
+==== Subsequent activities or events ====
+
+=== Subsequent flows (successful outcome) ===
+
+  * [[Process milk]]
+
+=== Subsequent flows (compensating or terminating outcome) ===
+
+  * //activity//
+  * //activity//
+
+----------
+
+===== Supporting Resources =====
+
+==== Sources ==== 
+
+  * //resource//
+  * //resource//

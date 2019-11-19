@@ -1,0 +1,53 @@
+**Q: What is this page for**\\
+A: Frequently asked questions (FAQ) or Questions and Answers (Q&A), are listed questions and answers, all supposed to be commonly asked in some context, and pertaining to a particular topic. The format is commonly used on email mailing lists and other online forums, where certain common questions tend to recur.
+
+===== General =====
+
+**Q: `Hyperledger`和`Ethereum`的区别是什么？为什么这么多企业用`Hyperledger`而不是`Ethereum`？`Ethereum`面临很多安全方面的问题，请问`Fabric`现在是否也面临一些安全性相关的问题呢？**\\
+A: 超级账本面向企业应用场景，侧重联盟链。2018年10月，超级账本和以太坊企业联盟发布合作。
+
+===== Hyperledger Fabric =====
+
+**Q: `Fabric`接下来的发展方向有哪些？**\\
+A: 更强的隐私保护（零知识证明）、更多的共识机制（Raft、BFT）、更好的管理和使用（配合 Cello 项目）等。
+    
+**Q: Endorser根据什么信息判断是否给某个具体的transaction endorse**\\
+A: 目前主要检查权限策略，用户也可以自定义 ESCC。1.3版本引入的新的背书策略，使得颗粒可细化到数据库键值级别，详情可搜索key level endorsement policies
+
+**Q: 交易如何保证无关人员不能查看，从而保证隐私呢？通过交易证书吗？ 登记证书应该是保证用户和节点的身份信息。**\\
+A: 目前，主要通过通道、sideDB 等特性保护隐私。也可以在智能合约里通过交易发起人的证书通过合约代码逻辑做认证。此外，1.2版本引入了更细化的通道接入权限控制，详情搜索Access Control Lists (ACL)
+
+**Q: `Fabric` Official Benchmark**\\
+A: Hyperledger Caliper
+
+**Q: 目前 Fabric 的orderer相当于一个中心化的节点，感觉这与分布式和区块链有点违背？**\\
+A: 支持多个 Orderer，分布式合作实现排序服务。
+
+**Q: SBFT目前是否有任何时间表？**\\
+A: 暂时没有。
+
+**Q: `Fabric`应用于物联网系统有没有推荐的方法？现阶段嵌入式设备可以部署成`Fabric`节点吗？**\\
+A: 建议把设备端作为Fabric的Client。 不建议直接部署 Fabric节点。
+
+**Q: 目前对于`Fabric`的可回溯性，除了一笔一笔交易去遍历，还有什么比较好的方法吗?**\\
+A: 对于当前版本的Fabric，可以借助Fabric Raw Ledger的Index去遍历。对于某个特定的key, 可以通过合约内的ChaincodeStub.GetHistoryForKey API去查询它的值历史
+
+**Q: 相较`Hyperchain`等联盟链的"万级"TPS，导致`Fabric`性能不高的原因有哪些?**\\
+A: Fabric 目前单通道暂时只能达到 1~10 K 的tpc，限制其性能的因素包括本地硬盘读写速度、CPU 核数和网络吞吐。
+
+**Q：Fabric 的链码对于调用者是完全可见的吗？就是说每个链码的调用者都能看到链码的逻辑吗？**\\
+A：调用者属于客户端，一般情况看不到服务端的链码逻辑。如果客户端权限足够且peer开启了生命周期链码，可以通过lscc的api获取链码数据
+
+**Q：fabric网络完全启动后，不停止网络的情况下，能够完成排序服务的切换吗？比如卡夫卡切换为solo**\\
+A：暂时不支持，无论是否停止网络
+
+===== 文档与国际化 =====
+
+**Q：Hyperledger中文文档在哪里？**\\
+A: 目前有两处，一是原来使用的文档管理方式，[[https://hyperledgercn.github.io/hyperledgerDocs/|见这里]]，以后不再更新；二是最近采用的新的翻译工具Zanata管理方式，[[http://hyperledger-zh.readthedocs.io/zh_CN/latest/|见这里]]。后一种方式的工作正在进行中，欢迎贡献。
+
+**Q: Hyperledger文档国际化如何贡献？**\\
+A: [[https://hyperledgercn.github.io/hyperledgerDocs/zanata_guide/|参照这里]]
+
+**Q: 对于Hyperledger国际化，我能贡献哪些内容？**\\
+A: 包括但不限于Hyperledger下各子项目（如fabric、cello等）的官方文档译文、官方设计文档译文、个人整理总结以及区块链相关知识的分享。请注意，目前使用的新的Zanata翻译方式只支持译预先上传的fabric官方原文，其他资源可直接贡献至[[https://github.com/HyperledgerCN/hyperledgerDocsZanata|GitHub]]，具体问题可联系yls@chainnova.com。

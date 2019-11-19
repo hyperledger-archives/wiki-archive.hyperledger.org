@@ -1,0 +1,123 @@
+==== 2017-11-03 ==== 
+
+Meeting will be held at [[https://chat.hyperledger.org/channel/fabric-sdk-py|rocketchat]] at 11AM (GMT+8).
+
+  * [[https://jira.hyperledger.org/browse/FAB-4623?jql=project%20%3D%20FAB%20AND%20status%20in%20(%22In%20Progress%22%2C%20%22To%20Do%22)%20AND%20component%20%3D%20fabric-sdk-py | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+status:open | Open Patchset for review]]
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]]
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  * chaincode Instantiate: Kai finished the install operation, now Tony continues to work on [[https://jira.hyperledger.org/browse/FAB-5489 | FAB-5489]]
+  * chaincode Invoke: Zhaofang Han is working on [[https://jira.hyperledger.org/browse/FAB-5491 | FAB-5491]]
+  * channel join: Dong Wang is working on [[https://jira.hyperledger.org/browse/FAB-5488|FAB-5488]]
+  * EventHub:  david dornseifer is working on [[https://jira.hyperledger.org/browse/FAB-4822|FAB-4822]]
+  * Register: Baohua is working on [[https://jira.hyperledger.org/browse/FAB-3165|FAB-3165]]
+  * Other issues
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Baohua Yang
+  * Kai Chen
+
+=== Log ===
+
+```
+Today's agenda: https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20171103
+OK
+seems no more else, let's do some quick sync
+recently i found an interesting gosdk project: https://github.com/CognitionFoundry/gohfc
+people use it to give some perf evaluate result (non-official)
+i guess we can have a look at it too, which is really simple in design.
+thoughts? @grapebaba
+
+grapebaba 11:01 AM
+well
+what is the main difference with official go-sdk?
+
+baohua 11:02 AM
+not too much, the key advantage is that it's simple and basic
+donot know whether they will contribute to community
+
+grapebaba 11:04 AM
+good, will see
+
+baohua 11:04 AM
+And besides chaincode installation, do u know how's going on @tonyyang132 's work on chaincode instantiate?
+
+grapebaba 11:04 AM
+indeed all SDKs currently more complex
+
+baohua 11:04 AM
+@hanhzf is working on chaincode invoke
+Agree!
+we need to provide something easy to use first
+
+grapebaba 11:04 AM
+no
+
+baohua 11:05 AM
+@wangdong said "I am out of office.Can not attend, i will pose question later in rocket"
+
+grapebaba 11:05 AM
+yeah
+he is working on join channel
+
+baohua 11:05 AM
+do u know how's going on his work in "channel join"
+
+grapebaba 11:06 AM
+came across some problems
+about grpc invocation
+I have no time to see
+
+baohua 11:06 AM
+oops, need to discuss here?
+
+grapebaba 11:06 AM
+😝
+
+baohua 11:06 AM
+ok, pls let him ping me
+btw, thanks for reviewing https://gerrit.hyperledger.org/r/#/c/15115
+i'm refining the existing work, to make it simplified to extend with more functionalities
+
+grapebaba 11:07 AM
+ok
+i will submit
+
+baohua 11:07 AM
+Dong's feedback "almost done, but one problem regarding the get genesis block."
+great to hear that!
+OK, nothing too much for me, and will u attend singapore summit next week?
+
+grapebaba 11:10 AM
+i think i can't
+
+baohua 11:10 AM
+ok, pity that
+btw, the community now has the zoom service: 
+https://zoom.us/j/248676399
+anyone wanna try, can use that for meeting if needed.
+😄
+
+grapebaba 11:11 AM
+good
+
+baohua 11:11 AM 
+OK, anything else to sync here?
+I just update https://gerrit.hyperledger.org/r/#/c/15113
+welcome to review after ci
+
+grapebaba 11:11 AM
+no
+
+baohua 11:12 AM
+ok, cool, if nothing else, let's finish the meeting. Have a nice weekend!
+
+grapebaba 11:12 AM 
+bye
+```

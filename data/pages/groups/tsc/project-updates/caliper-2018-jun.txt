@@ -1,0 +1,44 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Caliper
+
+===== Project Health =====
+We have make a good progress from the point of development. Three main Hypledger DLTs(Fabric, Sawtooth, Iroha) as well as Composer have already been integrated into Caliper, thanks to the contributions from those hyperledger teams.
+
+Below are some main updates in the past 3 months:
+
+  * Updated support of Fabric to version 1.1
+  * Optimized support for Sawtooth v1
+  * Added support for Iroha v1.0beta3
+  * Added support to Composer
+  * New test case “smallbank” 
+  * Optimized documentation
+
+===== Issues =====
+There are no issues at this time.
+
+
+===== Releases =====
+No release yet. The project is still under development.
+
+
+===== Overall Activity in the Past Quarter =====
+Now the project has 110+ starts and 60+ forks. Some projects and companies such as Hyperledger Composer, Hyperledger Iroha, Persistentsystems as well as Trusted Blockchain Alliance (an alliance of china, lead by MIIT) have already or plan to use Caliper to evaluate performance.
+
+The Hyperledger chat works well, many people post questions there and most questions are well answered.
+
+
+===== Current Plans =====
+We plan to publish the first release at the end of this year.
+
+===== Maintainer Diversity =====
+Now all maintainers are from Huawei, and we are considering to accept more maintainers from other companies.
+
+
+
+===== Contributor Diversity =====
+There are 10 contributors from various companies/organisations such as Huawei, IBM, Intel, Soramitsu, Budapest University. And we are connecting with several companies now to try to attract more contributors.
+
+
+===== Additional Information =====

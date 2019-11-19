@@ -1,0 +1,62 @@
+===== TWG China Meeting =====
+
+==== Date ====
+10AM ~ 11AM, 2017-07-19, GMT+8
+
+[[https://www.uberconference.com/hyperledger-community | uberconference]]
+  * option 1: use the computer audio to connect in
+  * option 2: Dial in using the phone number at the website
+
+Backup Phone Number (Deprecate soon):
+  * 800-820-0027 (toll free) 
+  * 400-821-0751 (caller paid)
+Passcode: 71173794
+
+==== Attendee ====
+
+**Pls add ur name here before the meeting.**
+
+  * Baohua Yang (IBM)
+  * Zhou Xing (IBM)
+  * Yaoguo Jiang (HUAWEI)
+  * Yin Cao (Energychain Lab)
+  * Linsheng Yu (ChainNova)
+  * Zhangjiong Xuan (Hyperchain)
+  * Han Hao (Anne inc.)
+  * Min Luo (NTT)
+
+
+==== Agenda ====
+  - TSC meeting sync
+    - TSC election will be held in August, voting discussions.
+    - Fabric 1.0 has been released on July 11.
+  - [[groups/twgc/team_di | Team development and Innovation]] (Yaoguo and Ray Chen)
+    - Code development on projects
+  - [[groups/twgc/team_ie| Team i18n and Education ]]s (Linsheng Yu, Wenjie Xie, Kewei Sun)
+    - Finish translated 12 tech docs, need more reviewer.
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin)
+    - [[https://wiki.hyperledger.org/groups/twgc/team_cs|case collection ]] sharing
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Zhou Xing and Zhoudong Ji)
+    - Plan to have some technical events recently
+  - other issues
+    - Issues with using new meeting system on [[https://www.uberconference.com/hyperledger-community | uberconference]]
+
+
+==== Minutes ====
+
+  - TSC meeting sync
+    - TSC election will be held in August, voting discussions.
+    - Fabric 1.0 has been released on July 11.
+  - [[groups/twgc/team_di | Team development and Innovation]] (Yaoguo and Ray Chen)
+    - Code development on projects
+    - Yaoguo will fillup the statistics of recent month
+  - [[groups/twgc/team_ie| Team i18n and Education ]]s (Linsheng Yu, Wenjie Xie, Kewei Sun)
+    - Finish translated 12 tech docs, need more reviewers.
+    - Evaluate the usage of github and gitbook.
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin)
+    - [[https://wiki.hyperledger.org/groups/twgc/team_cs|case collection ]] sharing
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Zhou Xing and Zhoudong Ji)
+    - Plan to publish some technical events to the maillist
+  - other issues
+    - Issues with using new meeting system on [[https://www.uberconference.com/hyperledger-community | uberconference]]
+    - Han Hao: Composer work with Cello practice

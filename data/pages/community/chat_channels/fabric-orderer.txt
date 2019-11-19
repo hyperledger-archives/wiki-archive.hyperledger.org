@@ -1,0 +1,11 @@
+====== Channel #fabric-orderer Guidelines ======
+
+Questions posted to the #fabric-orderer channel should be related to either the ordering service code and its APIs (Broadcast/Deliver), configuration transactions, or the ordering service consensus plugins (Solo/Kafka/SBFT).
+
+Before posting your question, please take time to ensure that your question is precise and concise, and use a service like http://hastebin.com Pastebin or GitHub Gist for all log outputs or config files that you wish to reference.
+
+For example: 
+  * Bad question: Why do I get the error `BAD_REQUEST`?
+  * Good question: Using `fabric-examples/first-network/byfn.sh` tagged v1.1.0-rc1, when submitting the channel creation as `Admin@org1.example.com` it succeeds, but when using `User1@org1.example.com` it fails with `BAD_REQUEST`. (Full log can be found here: https://pastebin.com/LFGNB88a) Why does this second request fail?
+
+Also note that there is an [[https://hyperledger-fabric.readthedocs.io/en/release-1.1/ordering-service-faq.html|ordering service FAQ]] available in the documentation.  Please consult this and the other documentation to see if your question has already been answered before posting.

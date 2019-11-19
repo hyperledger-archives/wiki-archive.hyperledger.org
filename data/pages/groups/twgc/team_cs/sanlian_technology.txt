@@ -1,0 +1,11 @@
+=== Shanghai SANLIAN Technology（三链科技） ===
+
+^ Name ^ Area ^ Size ^ R&D Phase ^ Platform ^ Founded ^ Contact Info ^
+| SANLIAN TECHNOLOGY | Supply chain management | 21 | PoC| Fabric | 2018 | Building 3A, No.797, Puxing Road,
+Shanghai 201114 China |
+
+[[http://www.onechaintech.com//|SANLIAN Technology]] focuses on building reliable and decentralized business environment with transparent data, efficient collaboration and high-speed, trans-missive value. SANLIAN TECH provides informational and digital solution to enterprise clients utilizing leading edge technology such as blockchain, IoT and big data.
+
+Shanghai Sanlian Information Technology Co., Ltd. has developed a blockchain-based medicine traceability application to be deployed mainly in medicine traceability, retrospective query and transaction of pharmaceutical traceability data, aiming to solve the problem of information opacity and asymmetry in both the upstream and downstream supply chains and inter-enterprise information sharing. On one hand, after the data stored in the consortium chain is authorized by each node, it can perform statistical analysis on the whole chain data of the pharmaceutical supply chain, so as to assist in the formulation of planning strategies, simplify the procurement process, reduce inventory levels, optimize logistics transportation network planning, and provide commodity sales forecasting; on the other hand, the medicine traceability data transaction market has established a big data trading platform to provide traceability data transaction processes and pricing strategies, and to facilitate the response from all business entities to the data requirements inside/outside the consortium according to their own security and privacy requirements and finally the completion of transactions.
+
+

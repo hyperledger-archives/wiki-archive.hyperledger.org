@@ -1,0 +1,76 @@
+===== TWG China Meeting =====
+
+==== Date ====
+10AM ~ 11AM, 2017-03-29, GMT+8
+
+Phone Number:
+  * 800-820-0027 (toll free) 
+  * 400-821-0751 (caller paid)
+Passcode: 71173794
+
+==== Attendee ====
+
+Attendee, pls add ur name here before the meeting.
+
+  * Baohua Yang
+  * Kewei Sun
+  * Shibo Lin
+  * Ray Chen
+  * Qilei Li
+  * Wei Hu
+  * Zhou Xing
+  * Zerppen (wutongshu)
+
+==== Agenda ====
+  - TSC meeting sync (baohua, charles, victor)
+    - go sdk project
+  - Development and innovation sync (Yaoguo and Ray Chen)
+    - code development on projects
+    - mail-list, rocketchat activities
+  - Scenario and Collaboration (Yin Cao)
+    - interconnect sharing
+  - Community development report (Ray Chen)
+  - i18n and education work (kewei)
+    - glossary
+  - Last todo issues:
+    - Scott: will help ask LF for local forum support
+    - Ray Chen: report of hang zhou community work/status
+  - other issues
+    - 
+
+==== Minute ====
+
+  - TSC meeting sync (baohua, charles, victor)
+    - go sdk project
+    - fabric-composer project
+  - Development and innovation sync (Yaoguo and Ray Chen)
+    - code development on projects
+      - fabric: 1.0-alpha release, 32 new patchsets, new sub-project (fab-sdk-go)
+      - cello: 14 new patchsets
+      - stl: 171 new patchsets
+      - iroha: 107 new patchsets
+    - mail-list, rocketchat activities
+      - deployment question: fabric hackfest grpc timeout
+    - **TODO: deployment&operational guiding draft**
+  - Scenario and Collaboration (Yin Cao)
+    - interconnect sharing
+    - landing & poc
+    - need some specific application cases, e.g., finance, healthcare, game, energy
+    - resource to help project landing, e.g., PR, marketing
+    - decentralized vs legacy architecture; Ethereum investment examples
+    - **TODO: case book on case sharing**
+  - i18n and education work (kewei)
+    - glossary work is ongoing
+    - network access problem to solve
+    - **TODO: kewei sends wechat group to maillist**
+  - Events organization (zhou xing)
+    - Linux conf at June, Hyperledger day
+    - Hyperledger online seminar is ongoing, plan to start a hands-on workshop (April or May)
+    - **TODO: zhou sends workshop proposal to maillist**
+  - Last todo issues:
+    - Donald: will help ask LF for local forum support
+    - Ray Chen: report of hang zhou community work/status
+      - Qulian, yunxiang, 33.cn, Baoquan
+  - other issues
+    - Zhengming Xu: 1.0 release date, alpha in Mar, beta in April. Java SDK problem.
+    - Shibo Lin: GetQueryResult function with couchdb will be available in v1.0 beta. But not appropriate for use in chaincode transaction logic. Any plan to improve this issue in GA version ?

@@ -1,0 +1,53 @@
+====== TSC Working Group Updates ======
+Every quarter, technical working groups must submit an update to the TSC. The report must be submitted according to the [[https://lists.hyperledger.org/g/tsc/calendar|schedule]] to allow for the TSC to review the contents before its meeting on Thursday. The working group updates must follow the 
+[[groups:tsc:wg-updates:template.txt|Hyperledger Working Group Update Template]]. This can be done by creating a new link on this page utilizing the following syntax:
+
+  [[groups:tsc:wg-updates:<working-group>-<year>-<month>|<Working Group> Update, <Month> <Year>]]
+
+For example, if the working group Foo wanted to submit its June 2018 update, they would create a page as follows:
+
+  [[groups:tsc:wg-updates:foo-2017-june|Foo Update, June 2018]]
+  
+Next, the person would edit the page to include the contents of the monthly update.
+
+====== Working Group Updates ======
+
+===== 2019 Q1 Updates =====
+
+  * [[groups:tsc:wg-updates:architecture-wg-2019-jan|Architecture WG Update, January 2019]]
+  * [[groups:tsc:wg-updates:identity-wg-2019-jan|Identity WG Update, January 2019]]
+  * [[groups:tsc:wg-updates:pswg-2019-feb|Performance and Scale WG Update, February 2019]]
+  * [[groups:tsc:wg-updates:technical-wg-china-2019-feb|Technical WG China Update, February 2019]]
+  * [[groups:tsc:wg-updates:learning-materials-development-wg-2019-mar|Learning Materials Development WG Update, March 2019]]
+
+
+===== 2018 Q4 Updates =====
+
+  * [[groups:tsc:wg-updates:architecture-wg-2018-sep|Architecture WG Update, September 2018]]
+  * [[groups:tsc:wg-updates:identity-wg-2018-sep|Identity WG Update, September 2018]]
+  * [[groups:tsc:wg-updates:pswg-2018-sep|Performance and Scale WG Update, September 2018]]
+  * [[groups:tsc:wg-updates:healthcare-wg-2018-oct|Healthcare WG Update, October 2018]]
+  * [[groups:tsc:wg-updates:technical-wg-china-2018-oct|Technical WG China Update, October 2018]]
+  * [[groups:tsc:wg-updates:training-and-education-wg-2018-oct|Training and Education WG Update, October 2018]]
+ 
+===== 2018 Q3 Updates =====
+
+  * [[groups:tsc:wg-updates:architecture-wg-2018-jun|Architecture WG Update, June 2018]]
+  * [[groups:tsc:wg-updates:identity-wg-2018-jun|Identity WG Update, June 2018]]
+  * [[groups:tsc:wg-updates:pswg-2018-jun|Performance and Scale WG Update, June 2018]]
+  * [[groups:tsc:wg-updates:whitepaper-wg-2018-jul|Whitepaper WG Update, July 2018]]
+  * [[groups:tsc:wg-updates:healthcare-wg-2018-jul|Healthcare WG Update, July 2018]]
+  * [[groups:tsc:wg-updates:technical-wg-china-2018-jul|Technical WG China Update, July 2018]]
+  * [[groups:tsc:wg-updates:training-and-education-wg-2018-aug|Training and Education WG Update, August 2018]]
+  * [[groups:tsc:wg-updates:public-sector-wg-2018-aug|Public Sector WG Update, August 2018]]
+
+===== 2018 Q2 Updates =====
+
+  * [[groups:tsc:wg-updates:architecture-wg-2018-mar|Architecture WG Update, March 2018]]
+  * [[groups:tsc:wg-updates:requirements-wg-2018-mar|Requirements WG Update, March 2018]]
+  * [[groups:tsc:wg-updates:identity-wg-2018-mar|Identity WG Update, March 2018]]
+  * [[groups:tsc:wg-updates:pswg-2018-apr|Performance and Scale WG Update, April 2018]]
+  * [[groups:tsc:wg-updates:whitepaper-wg-2018-apr|Whitepaper WG Update, April 2018]]
+  * [[groups:tsc:wg-updates:healthcare-wg-2018-apr|Healthcare WG Update, April 2018]]
+  * [[groups:tsc:wg-updates:technical-wg-china-2018-may|Technical WG China Update, May 2018]]
+  * [[groups:tsc:wg-updates:training-and-education-wg-2018-may|Training and Education WG Update, May 2018]]

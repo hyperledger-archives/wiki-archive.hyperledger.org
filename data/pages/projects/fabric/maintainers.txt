@@ -1,0 +1,3 @@
+====== Fabric maintainers list ======
+
+See http://hyperledger-fabric.readthedocs.io/en/latest/MAINTAINERS.html

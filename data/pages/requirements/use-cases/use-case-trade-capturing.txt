@@ -1,0 +1,3 @@
+====== Trade Capturing Use Case ======
+
+From the time that a trade is captured by the front office until the trade is finally settled, only one contract that specifies the trade will be created and used by all participants. The middle office will enrich the same electronic contract submitted by the front office, and that same contract will then be used by counter parties to confirm and affirm the trade. Finally, securities depository will settle the trade by executing the trading instructions specified on the contract. When dealing with bulk trades, the original contract can be broken down into sub-contracts that are always linked to the original parent contract.

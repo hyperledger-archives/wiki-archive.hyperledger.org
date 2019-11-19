@@ -1,0 +1,26 @@
+===== Research reviews =====
+[[healthcare-wg-wikispace-redesign |Home]] : [[resources|Resources]] : [[resources-knowledge|Knowledge resources]]
+----------
+
+//Reviews are published in peer-reviewed [[resources-research-journals|Research Journals]], and typically apply  formally-defined analytical protocols in order to synthesize scientific knowledge or evidence derived from a well-defined set of related [[research-studies|Studies]].// 
+
+==== Human milk research reviews ====
+
+  * [[http://www.who.int/elena/titles/review_summaries/donormilk_infants/en/|Quigley M, McGuire W. Formula versus donor breast milk for feeding preterm or low birth weight infants. Cochrane Database of Systematic Reviews 2014, Issue 4. Art. No.: CD002971. DOI: 10.1002/14651858.CD002971.pub3.]] 
+
+  * Thomas Williams, MRCPCH, Harish Nair, MD, PhD, Judith Simpson, MD, Nicholas Embleton, MD. (2016). Use of Donor Human Milk and Maternal Breastfeeding Rates. A Systematic Review. Journal of Human Lactation 32(2) : 212-220. [[https://doi.org/10.1177/0890334416632203]]
+
+  * [[http://discovery.ucl.ac.uk/1417150/|Arslanoglu, S, Corpeleijn, W, Moro, G. (2013). Donor human milk for preterm infants: current evidence and research directions. J Pediatr Gastroenterol Nutr. 57(4):535-542. https://doi.org/10.1097/MPG.0b013e3182a3af0a.]]
+
+  * //<Add>//
+
+
+==== Blockchain research ====
+
+  * [[https://www.researchgate.net/publication/322383187_A_First_Look_at_Identity_Management_Schemes_on_the_Blockchain|Dunphy, Paul & Petitcolas, Fabien. (2018). A First Look at Identity Management Schemes on the Blockchain. IEEE Security & Privacy. 16. 10.1109/MSP.2018.3111247.]]
+
+  * [[https://academic.oup.com/jamia/article/24/6/1211/4108087#|Tsung-Ting Kuo, Hyeon-Eui Kim, Lucila Ohno-Machado. (2017). Blockchain distributed ledger technologies for biomedical and health care applications. J American Medical Informatics Association, 24(6):1211–1220.]] [[https://doi.org/10.1093/jamia/ocx068]]
+
+  * [[https://blockchainhealthcaretoday.com/index.php/journal/article/view/24|Ribitzky, R., St. Clair, J., Houlding, D., McFarlane, C., Ahier, B., Gould, M., Flannery, H., Pupo, E., & Clauson, K. (2018). Pragmatic, Interdisciplinary Perspectives on Blockchain and Distributed Ledger Technology: Paving the Future for Healthcare. Blockchain in Healthcare Today, 1.]] [[https://doi.org/https://doi.org/10.30953/bhty.v1.24]]
+
+  * [[https://blockchainhealthcaretoday.com/index.php/journal/article/view/20|Clauson, K., Breeden, E., Davidson, C., & Mackey, T. (2018). Leveraging Blockchain Technology to Enhance Supply Chain Management in Healthcare:. Blockchain in Healthcare Today, 1.]] [[https://doi.org/https://doi.org/10.30953/bhty.v1.20]]

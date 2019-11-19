@@ -1,0 +1,372 @@
+==== 2017-09-29 ==== 
+
+Meeting will be held at [[https://chat.hyperledger.org/channel/fabric-sdk-py|rocketchat]] at 11AM (GMT+8).
+
+  * [[https://jira.hyperledger.org/browse/FAB-4623?jql=project%20%3D%20FAB%20AND%20status%20in%20(%22In%20Progress%22%2C%20%22To%20Do%22)%20AND%20component%20%3D%20fabric-sdk-py | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+status:open | Open Patchset for review]]
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]]
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  * chaincode Install: review [[https://jira.hyperledger.org/browse/FAB-5151 | FAB-5151]]
+  * User Role: Wei Hu is working on [[https://jira.hyperledger.org/browse/FAB-3885|FAB-3885]]
+  * EventHub: Dong Wang is working on [[https://jira.hyperledger.org/browse/FAB-4822|FAB-4822]]
+  * Register: Baohua is working on [[https://jira.hyperledger.org/browse/FAB-3165|FAB-3165]]
+  * Update license header: review [[https://jira.hyperledger.org/browse/FAB-4742|FAB-4742]]
+  * Other issues
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Baohua Yang
+  * Kai Chen
+  * Bryan Huang
+  * Frank Han
+  * Tony Yang
+
+
+=== Log ===
+baohua 11:00 AM
+today's agenda: https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20170929
+glad to see hanhzf and bryanhuang here 🙂
+First, we would like to ask everyone to help review those patchsets: https://gerrit.hyperledger.org/r/q/project:fabric-sdk-py%20status:open
+
+hanhzf 11:02 AM
+Not Found
+
+The page you requested was not found, or you do not have permission to view this page.
+can not be opened ?
+
+bryanhuang 11:02 AM
+😁
+
+grapebaba 11:02 AM
+✋
+
+baohua 11:02 AM
+two remaining open: install support by @grapebaba and license header by @qiang0723
+
+qiang0723 11:02 AM
+sorry for late
+
+baohua 11:02 AM
+can u open? https://gerrit.hyperledger.org/r/q/project:fabric-sdk-py%20status:open
+@hanhzf how about https://gerrit.hyperledger.org/r/q/project:fabric-sdk-py+AND+status:open
+
+grapebaba 11:03 AM
+no
+
+qiang0723 11:03 AM
+page Not Found
+
+hanhzf 11:03 AM   
+seems that we do not have permission to view this or the page is not found
+
+baohua 11:04 AM
+strange!
+have u login in?
+
+hanhzf 11:04 AM
+yes, login
+
+baohua 11:04 AM
+@ry do we required login-in users to view open gerrit issues?
+this one? https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+AND+status:open
+
+tonyyang132 11:05 AM
+this one works
+
+baohua 11:05 AM
+aha, gerrit has two UIs, which have different URL...
+OK, after we finish the installation operation, we can go forward to the instantiate one? @grapebaba
+
+hanhzf 11:06 AM
+yeah, this one works
+
+baohua 11:06 AM
+There are some task opened, anyone pls feel free to pick https://jira.hyperledger.org/browse/FAB-4623?jql=project%20%3D%20FAB%20AND%20status%20in%20(%22In%20Progress%22%2C%20%22To%20Do%22)%20AND%20component%20%3D%20fabric-sdk-py
+we need to implement: instantiate, invoke chaincode
+after that, the MVP is done! we can enhance the channel operations later
+so, any volunteer for those items?
+i guess those can be implemented simultaneously
+@tonyyang132 how's going with ur side?
+
+tonyyang132 11:10 AM
+just finished a busy sprint...
+
+baohua 11:10 AM
+nice to hear that, would u like to pick some interesting one like the cc invoke operation?
+i guess there're already some codes to be done.
+
+hanhzf 11:11 AM
+Yes, we can pick up the invoke work
+
+baohua 11:11 AM
+thanks, zhaofang
+then i will assign this one https://jira.hyperledger.org/browse/FAB-5491?jql=project%20%3D%20FAB%20AND%20status%20in%20(%22In%20Progress%22%2C%20%22To%20Do%22)%20AND%20component%20%3D%20fabric-sdk-py to u
+basically, u can create an env by peer cli cmds
+
+hanhzf 11:12 AM
+Will start travel from tmr, start working on it after national holiday, will that be ok ?
+
+baohua 11:12 AM
+sure, we will let everyone enjoy the holiday, and cancel next week meeting.
+🙂
+
+hanhzf 11:13 AM
+Yup, no problem, will keep on updating
+
+baohua 11:13 AM
+OK, and the instantiate operation, would u like to pick? @tonyyang132
+this one: https://jira.hyperledger.org/browse/FAB-5489
+kai already finish the install steps, i guess it's similar process code
+
+tonyyang132 11:15 AM
+OK, I guess I could take that
+
+baohua 11:15 AM
+thanks, assign to u
+
+hanhzf 11:15 AM
+Hi baohua, one more question, about this one: https://wiki.hyperledger.org/groups/twgc/team_cs
+we wan to update or scenario with boc to this link, whom should we contact ?
+
+baohua 11:16 AM
+@hanhzf it's sdk-py meeting now, can we talk after the meeting?
+
+hanhzf 11:16 AM
+Yeah, no problem
+
+baohua 11:16 AM
+thanks
+@grapebaba @qiang0723 any issues from ur side? great work in previous weeks!
+
+grapebaba 11:17 AM
+https://jira.hyperledger.org/browse/FAB-4822 what is the progress about this one
+
+baohua 11:17 AM
+@lafenicecc is offline
+@qiang0723 will u like to continue on FAB-4822?
+
+JIRA @hyperledger-jira-l BOT 11:18 AM
+Found 1 issue
+FAB-4822 
+Complete eventhub component
+Assigned To
+Chang Chen  
+Status
+In Progress  
+Reporter
+Kai Chen  
+Priority
+Medium
+
+baohua 11:18 AM
+you can talk to chang to see if he can work on that, too
+
+grapebaba 11:18 AM
+i remembered already transfered to @wangdong
+
+qiang0723 11:18 AM
+FAB-4742 summary: 3 forms for license header addition: apache 2.0 for code, apache 4.0 for documents, and both 2.0 and 4.0 for README
+
+JIRA @hyperledger-jira-l BOT 11:18 AM
+Found 1 issue
+FAB-4742 
+Add license header for sdk-py&#39;s code and docs
+Assigned To
+Qiang Wang  
+Status
+In Review  
+Reporter
+Baohua Yang  
+Priority
+Highest
+
+baohua 11:18 AM
+from jira, it's chang
+we will merge it today, @qiang0723
+would u like to talk to chang about FAB-4822?
+
+JIRA @hyperledger-jira-l BOT 11:19 AM
+Found 1 issue
+FAB-4822 
+Complete eventhub component
+Assigned To
+Chang Chen  
+Status
+In Progress  
+Reporter
+Kai Chen  
+Priority
+Medium
+
+baohua 11:19 AM
+if he cannot continue, maybe u will 😃
+🐌
+
+qiang0723 11:19 AM
+ok, i can take it
+
+baohua 11:19 AM
+thanks
+and @grapebaba pls do help @hanhzf and @tonyyang132 for those very important patchsets.
+
+grapebaba 11:20 AM
+sure
+
+bryanhuang 11:20 AM
+I can pick up cc upgrade, since it similar with https://jira.hyperledger.org/browse/FAB-3783
+
+tonyyang132 11:20 AM
+thanks in advance @grapebaba
+
+baohua 11:20 AM
+i saw @wangdong is working on FAB-5488
+
+JIRA @hyperledger-jira-l BOT 11:20 AM
+Found 1 issue
+FAB-5488 
+join channel test
+Assigned To
+Dong Wang  
+Status
+To Do  
+Reporter
+Dong Wang  
+Priority
+Medium
+
+grapebaba 11:21 AM
+i will clean up some code which not used
+
+baohua 11:21 AM
+@bryanhuang thanks a lot!
+
+bryanhuang 11:21 AM
+but its depends on the instantiate operation, I will start the work once instantiation done.
+
+baohua 11:22 AM
+@bryanhuang seems we do not have that task yet? pls help create a jira task about it and assign to urself.
+yeap, upgrade is similar with instantiate, so pls collaborate closely with each other.
+
+bryanhuang 11:22 AM
+5490
+
+baohua 11:23 AM
+FAB-5490
+
+JIRA @hyperledger-jira-l BOT 11:23 AM
+Found 1 issue
+FAB-5490 
+query and update chain code
+Assigned To
+Unassigned  
+Status
+To Do  
+Reporter
+Dong Wang  
+Priority
+Medium
+
+tonyyang132 11:23 AM
+so https://jira.hyperledger.org/browse/FAB-5489 is about install and instantiate, did you mean the installation part is done? @baohua
+
+baohua 11:23 AM
+aha, maybe we can split that into two separate ones.
+
+bryanhuang 11:23 AM
+right
+
+baohua 11:23 AM
+@toddinpal yes, we will merge today after more reviews
+@tonyyang132 u can split the tasks too
+https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+AND+status:open
+Ok, again, everyone pls help review those patchsets, and add ur comments.
+Thanks 🐥
+
+tonyyang132 11:24 AM
+OK I will. Is https://gerrit.hyperledger.org/r/#/c/11765 about the install part of FAB-5489?
+
+JIRA @hyperledger-jira-l BOT 11:24 AM
+Found 1 issue
+FAB-5489 
+install and initiate chain code
+Assigned To
+Tony Yang  
+Status
+In Progress  
+Reporter
+Dong Wang  
+Priority
+Medium
+
+baohua 11:25 AM
+yes, installation
+Ok, seems very good and efficient today. Anything else? @grapebaba
+and everyone else?
+
+tonyyang132 11:26 AM
+so after I split FAB-5489, can I assign the install part to Chen Kai since he's finished coding?
+
+grapebaba 11:27 AM
+that task is for E2E test
+please check the parent task
+
+baohua 11:27 AM
+since kai is using the task number in the patchset, it's better u create one for instantiate separately?
+and modify the original task to install only.
+make sense? @grapebaba
+
+grapebaba 11:27 AM
+no
+i don't use this task
+this task is for E2E test created by @wangdong
+
+baohua 11:28 AM
+aha, FAB-5151
+
+JIRA @hyperledger-jira-l BOT 11:28 AM
+Found 1 issue
+FAB-5151 
+Sync install chaincode for latest Fabric version
+Assigned To
+Kai Chen  
+Status
+Done  
+Reporter
+Kai Chen  
+Priority
+Medium
+
+grapebaba 11:28 AM
+@tonyyang132 you can create a new task for instaniate
+
+baohua 11:28 AM
+@tonyyang132 just help keep the task number in gerrit is the same with those at jira.
+Thanks
+
+tonyyang132 11:29 AM
+OK
+
+baohua 11:29 AM
+OK, anything else?
+@grapebaba
+
+grapebaba 11:30 AM
+no for me
+
+baohua 11:30 AM
+OK, cool
+If nothing else, we will end the meeting.
+The next week will be canceled. Everyone enjoy the weekend and holiday!
+Pls remember to add ur name to the attendee list, thanks!
+And help review: https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+status:open
+
+tonyyang132 11:31 AM 
+sure
+
+hanhzf 11:32 AM
+👌

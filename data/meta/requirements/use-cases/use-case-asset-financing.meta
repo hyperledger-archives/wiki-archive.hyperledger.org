@@ -1,0 +1,8 @@
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1478010939;s:8:"modified";i:1478038912;}s:7:"creator";s:15:"Jeremy Sevareid";s:4:"user";s:7:"jeremys";s:11:"last_change";a:7:{s:4:"date";i:1478038912;s:2:"ip";s:15:"209.122.234.108";s:4:"type";s:1:"E";s:2:"id";s:47:"requirements:use-cases:use-case-asset-financing";s:4:"user";s:7:"jeremys";s:3:"sum";s:27:"Amended formatting and TBDs";s:5:"extra";s:0:"";}s:11:"contributor";a:1:{s:7:"jeremys";s:15:"Jeremy Sevareid";}s:5:"title";s:26:"Use Case - Asset Financing";s:11:"description";a:2:{s:15:"tableofcontents";a:1:{i:0;a:4:{s:3:"hid";s:26:"use_case_-_asset_financing";s:5:"title";s:26:"Use Case - Asset Financing";s:4:"type";s:2:"ul";s:5:"level";i:1;}}s:8:"abstract";s:426:"TBD - Assertions need explanation and references. E.g., what is being financed? Is word choice of should/always/must deliberate? 
+
+Use Case - Asset Financing
+
+Assumptions
+
+	*  Assets should always be owned by their actual owners.
+	*  Asset owners must be able to allow third-party professionals to manage their assets without having to pass legal ownership of assets to third parties (such as nominee or street name entities).";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}s:8:"relation";a:1:{s:10:"firstimage";s:0:"";}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1478010939;s:8:"modified";i:1478038912;}s:7:"creator";s:15:"Jeremy Sevareid";s:4:"user";s:7:"jeremys";s:11:"last_change";a:7:{s:4:"date";i:1478038912;s:2:"ip";s:15:"209.122.234.108";s:4:"type";s:1:"E";s:2:"id";s:47:"requirements:use-cases:use-case-asset-financing";s:4:"user";s:7:"jeremys";s:3:"sum";s:27:"Amended formatting and TBDs";s:5:"extra";s:0:"";}s:11:"contributor";a:1:{s:7:"jeremys";s:15:"Jeremy Sevareid";}}}

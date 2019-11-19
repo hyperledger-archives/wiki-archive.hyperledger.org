@@ -1,0 +1,42 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Quilt
+
+===== Project Health =====
+Quilt has had slow steady progress toward a v1 release of the Java ILP SDK. One additional contributor is providing detailed reviews and two new community members have expressed an interest in becoming contributors going forward.
+
+
+===== Issues =====
+Nothing new. We continue to struggle with resourcing but are making slow progress none-the-less.
+
+
+===== Releases =====
+No code releases but significant work on issue triage completed and numerous bugs fixed and minor feature additions to the existing codebase.
+
+
+===== Overall Activity in the Past Quarter =====
+Bi-weekly calls have had very few dial-ins however the core contributors still meet regularly and use the calls to triage the issue list and discuss architectural issues.
+
+
+===== Current Plans =====
+Goal remains to have a v1 release of the following ILP components:
+ - ILP core (packets, codecs etc. Mostly done)
+ - ILDCP protocol (mostly done)
+ - BTP protocol (codecs complete, integration with WebSockets to do)
+ - STREAM protocol (not started)
+
+Stretch Goal: There is work being done on an implementation of a full ILP connector. This is not part of the roadmap as it is not a high priority however the person responsible is personally interested in completing the work.
+
+===== Maintainer Diversity =====
+No changes
+
+
+===== Contributor Diversity =====
+A new contributor (Nick Dudfield) has been providing valuable code reviews
+Wanchain are interested in becoming more involved and will join the next community call (26 September).
+
+
+===== Additional Information =====
+There is an implementation of the ILP protocol stack being done in Go. We are discussing the possibility of including this into the Quilt project with the maintainer: https://github.com/interledger/go-ilp
+

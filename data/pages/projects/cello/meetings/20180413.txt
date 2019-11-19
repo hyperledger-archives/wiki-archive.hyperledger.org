@@ -1,0 +1,47 @@
+==== 2018-04-13 ==== 
+
+Meeting will be held at [[ https://zoom.us/j/519936723 | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/cello|rocketchat]] (for text chat) at:
+
+  * 08:30AM   (UTC-4)
+  * 06:00PM   (UTC+0530)
+  * 08:30PM   (UTC+8)
+
+  * [[https://jira.hyperledger.org/projects/CE/issues/CE-188?filter=allopenissues | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:cello+status:open | Open Patchset for review]]
+  * [[https://wiki.hyperledger.org/projects/cello | Project Wiki Page]]
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  - Cello logo has been designed (**TODO: hightall to put to wikipage**).
+  - Ansible agent has integrated composer and composer playground in patch set 16863 https://gerrit.hyperledger.org/r/#/c/18683/ (Nice progress by tong)
+  - [[https://docs.google.com/document/d/1HbXk0Tr7ONTJND-rz06wtHPv2FgXTzKPB8DwNvKBSsA/edit?usp=sharing | Dynamic crypto creation proposal]]
+  - Luxoft has been working on a set of tools that may be similar to the dynamic crypto proposal above. Our tools can be viewed here: https://github.com/Luxoft/fabric-skeleton. We're happy to discuss. (J. Foster / Luxoft)
+  - Kubernetes agent support: Briefly describe the [[https://docs.google.com/document/d/1Z52BC95Jfx8i_i9XB18PBVnHt17YU3PeyIq0nWclF8g/edit | design of Kubernetes agent]], nice work by Luke Chen
+  - Cello developers can request machine on [[https://www.cncf.io/community/infrastructure-lab/| CNCF]]
+  - Request to provide some project introduction slides to Hyperledger ambassadors (baohua will provide some initial version).
+  - Dashboard progress (hightall)
+  - Documentation and tutorial videos (jiang lu)
+  - Other issues
+    - Feel free to add here.
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Haitao Yue
+  * Baohua Yang
+  * Luke chen
+  * Tong Li
+  * Jiang Lu
+
+
+=== Minutes ===
+  - Haitao will put the logo into the wiki page.
+  - Ansible agent has integrated composer and composer playground.
+  - Dynamic crypto creation will start develop, and focus on dynamic cert generation in operator dashboard.
+  - kubernetes agent document need to be more detailed by Luke.
+  - Will request again on CNCF.
+  - Baohua will write the initial version of the cello slides.
+  - Empty ui framework is merged, then each page will be implemented according to the steps.
+  - Document and tutorial is on the way.
+  - Tong suggest cello support crypto certs management.

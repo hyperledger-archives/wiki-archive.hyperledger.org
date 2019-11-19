@@ -1,0 +1,28 @@
+====== Hyperledger Working Group Update ======
+
+===== Working Group =====
+Identity Working Group- Sept 2018
+
+===== Working Group Health =====
+The Working Group holds regular audio conferences every two weeks.  We have a revolving group of attendees of around 10-15 with a core group of 8-10. We have noticed a slight slowdown in attendance due to summer vacations. There are at least 2-3 new attendees every session, most of them stay on to listen and some of them have been converted to active volunteers. There is diversity in participation; both gender and geographic diversity. Lots of discussion takes place on Identity and Blockchain Identity in particular. Progress on the paper is steady. New trends have been contributions and comments on the paper on a steady basis, even when we are not in conference. 
+
+===== Issues =====
+We need Identity experts from incubated DLTs (Fabric, Indy, Sawtooth, Iroha, Quilt, Burrow) to contribute, especially on current practice. Our volunteers are creatively overcoming this problem by planning to interview experts, by developing a questionnaire that can be answered offline. We have coverage of Fabric and Sawtooth, however Indy, Iroha, Quilt and Burrow are still a challenge.
+There is a skew towards Self Sovereign Identity and the methods connected to that due to the interests of the current participants. We need more representation from the legacy and enterprise identity world to balance this and to create inter-operation between these two views and implementations of Identity.
+
+
+===== Overall Activity in the Past Quarter =====
+There are 313 members in the chat channel and similar numbers on the mailing list. The calls are very active, with the chat channel and the mailing list being lightly used in the interim. However, the paper has seen a lot of activity and the developments there are seen by all. This happens throughout the week. We missed one call last quarter, during the hackfest. The paper in a rough draft is nearing completion, lots of new material has been added in the last quarter. We discussed “The Domains Of Identity” paper by Kaliya Young which has been valuable in providing a through-line in binding the narrative of the paper. Kaliya also presented her findings during one of the calls. The other change in the paper has been a fresh look at the Identity challenges and their answers.
+
+Another activity of the group is to be a launching pad for new work connected to Identity in DLTs and in Hyperledger, we hosted a presentation from IBANP, the IBAN portability project who plan to incubate their solution in Hyperledger labs.
+
+Presentations included a European legal perspective on eKYC efforts which is a private enterprise based pan-European effort on shared KYC across jurisdictions and will be based on eIDAS. Many other Identity based conferences and solutions have had presentations and stimulate discussion.
+===== Planned Work Products =====
+A rough draft of the paper to be agreed in a couple of months. Some more work will be needed for this to be polished up by the tech writer and made available to the TSC for review.
+
+===== Participant Diversity =====
+The working group is growing, healthy and vibrant. Identity being a foundational topic. There is gender diversity in call participation and in presentation; although of course we would like to see more. There is also quite a strong geographic diversity, with many European and Asian participants- we would like to see more participation from Latin America and Africa. 
+
+===== Additional Information =====
+The Identity WG is a place where many people who normally do not participate in our working groups come together; there is strong non-technical representation; people who one would call users. This opportunity should be used by the technical projects and working groups to get to know requirements from the user perspective. Of course our calls are always open. 
+ 

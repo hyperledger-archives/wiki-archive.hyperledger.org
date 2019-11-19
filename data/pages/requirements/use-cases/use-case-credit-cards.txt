@@ -1,0 +1,5 @@
+==== Introduction ====
+Placeholder for credit card ecosystem use case.
+
+==== References ====
+[[https://developer.mastercard.com/portal/display/api/API|Mastercard's Developer APIs]]

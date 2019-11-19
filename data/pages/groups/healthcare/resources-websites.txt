@@ -1,0 +1,33 @@
+===== Websites =====
+[[healthcare-wg-wikispace-redesign|Home]] : [[resources|Resources]]
+----------
+
+==== Standards : Healthcare ====
+
+  * [[http://www.hl7.org/index.cfm|Health Level Seven (HL7) International]]
+    * [[http://www.hl7.org/about/davinci/index.cfm|DaVinci Project]]
+    * [[https://www.hl7.org/fhir/index.html|Fast Healthcare Interoperability Resources (FHIR)]]
+  * //<Add>//
+
+
+
+==== Standards : Claims & Credentials ====
+
+  * [[https://w3c.github.io/vc-use-cases/|Verifiable Claims Use Cases - W3C WG Note 27 Sept 2018]]
+  * [[https://www.w3.org/2017/05/vc-data-model/CGFR/2017-05-01/|Verifiable Claims Data Model and Representations 1.0 - Final community group report 01 May 2017]]
+  * [[https://www.w3.org/TR/verifiable-claims-data-model/|Verifiable Claims Data Model and Representations - W3C First Public Working Draft 03 Aug 2017]]
+  * [[https://w3c.github.io/vc-data-model/|Verifiable Credentials Data Model 1.0 - W3C Editor's Draft 18 October 2018]]
+  * [[https://w3c-dvcg.github.io/ld-signatures/|Linked Data Signatures 1.0 - Draft Community Group Report 27 Feb 2018]]
+  * [[https://forum.sovrin.org/t/how-are-verifiable-claims-signed/767/2|How are verifiable claims signed? Sovrin forum, 2 Jul 18]]
+
+==== Standards : Identity ====
+
+   * [[https://github.com/usnistgov/800-63-3|NIST Special Publication 800-63 Digital Identity Guidelines]]
+   * [[https://github.com/usnistgov/800-63-3/tree/post-public-comment/sp800-63a|NIST 800-63A Identity Proofing]]
+
+
+==== Standards : Policy ====
+
+   * [[https://www.w3.org/TR/2018/REC-odrl-vocab-20180215/|ODRL Vocabulary]]
+   * [[https://www.w3.org/TR/2018/REC-odrl-model-20180215/|ODRL Information model]]
+

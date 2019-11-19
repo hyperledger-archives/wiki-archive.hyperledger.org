@@ -1,0 +1,240 @@
+==== 2017-11-24 ==== 
+
+Meeting will be held at [[https://chat.hyperledger.org/channel/fabric-sdk-py|rocketchat]] at:
+
+ - 11AM (GMT+8)
+ - 8PM one day before (GMT-7).
+
+  * [[https://jira.hyperledger.org/browse/FAB-4623?jql=project%20%3D%20FAB%20AND%20status%20in%20(%22In%20Progress%22%2C%20%22To%20Do%22)%20AND%20component%20%3D%20fabric-sdk-py | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+status:open | Open Patchset for review]]
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]]
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  * Recent Progress: chaincode install, channel create, integration testing framework refinement
+  * chaincode Instantiate: Tony and kai are working on [[https://jira.hyperledger.org/browse/FAB-5489 | FAB-5489]]
+  * chaincode Invoke: Zhaofang Han is working on [[https://jira.hyperledger.org/browse/FAB-5491 | FAB-5491]], Dong Wang is working on [[https://jira.hyperledger.org/browse/FAB-6985|FAB-6985]]
+  * EventHub:  david dornseifer is working on [[https://jira.hyperledger.org/browse/FAB-4822|FAB-4822]]
+  * Register: Baohua is working on [[https://jira.hyperledger.org/browse/FAB-3165|FAB-3165]]
+  * TODO issues
+    * channel join: [[https://jira.hyperledger.org/browse/FAB-2871|FAB-2871]]
+    * chaincode Query?
+    * chaincode Upgrade?[[https://jira.hyperledger.org/browse/FAB-5490|FAB-5490]]
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Baohua Yang
+  * Kai Chen
+  * Dong Wang
+  * Tony Yang
+
+=== Log ===
+
+```
+baohua 10:59 AM
+meeting will start~
+
+grapebaba 10:59 AM
+✋
+
+baohua 11:01 AM
+today's agenda: https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20171124
+haha, just finished a meeting
+how's going @grapebaba
+?
+@tonyyang132 @wangdong
+
+tonyyang132 11:04 AM
+sorry, a bit late
+
+baohua 11:05 AM
+great u're here
+
+tonyyang132 11:05 AM
+still being a bit occupied with company project...
+
+baohua 11:05 AM
+yes, i've been there. how's going on with FAB-5489?
+
+JIRA @hyperledger-jira-l BOT 11:05 AM
+Found 1 issue
+FAB-5489 
+install and initiate chain code
+Assigned To
+Tony Yang  
+Status
+In Progress  
+Reporter
+Dong Wang  
+Priority
+Medium
+
+baohua 11:05 AM
+hope u and @grapebaba got some idea
+
+tonyyang132 11:05 AM
+not much progress at the moment
+
+baohua 11:06 AM
+ok, the installation is done
+instantiate progress is a little complicated
+keep on working, and feel free to sync status at the channel, @tonyyang132
+
+tonyyang132 11:06 AM
+sure, thank you
+
+baohua 11:07 AM
+OK, and the next item is the chaincode invocation.
+Zhaofang Han is working on FAB-5491, Dong Wang is working on FAB-6985
+
+JIRA @hyperledger-jira-l BOT 11:07 AM
+Found 1 issue
+FAB-6985 
+Support chaincode invocation using python sdk
+Assigned To
+Dong Wang  
+Status
+To Do  
+Reporter
+Baohua Yang  
+Priority
+Medium
+
+baohua 11:07 AM
+@hanhzf @wangdong pls keep in close collaboration on this item
+chaincode invocation is very useful, too
+
+grapebaba 11:08 AM
+sorry, i have lost
+
+baohua 11:08 AM
+haha
+got u back
+
+tonyyang132 11:08 AM
+@hanhzf is right now at another meeting and couln't make it here. I'll let him know.
+
+baohua 11:09 AM
+ok, thanks, tony
+
+tonyyang132 11:09 AM
+not a problem
+
+baohua 11:09 AM
+@grapebaba how's going on ur side, kai
+hope u have other business goes well
+
+grapebaba 11:10 AM
+not good
+😅
+
+baohua 11:11 AM
+come on, we support u!
+
+grapebaba 11:11 AM
+thx, guys
+
+baohua 11:11 AM
+ok, david dornseifer is working on FAB-4822
+
+JIRA @hyperledger-jira-l BOT 11:12 AM
+Found 1 issue
+FAB-4822 
+Support eventhub listening using python SDK
+Assigned To
+david dornseifer  
+Status
+In Progress  
+Reporter
+Kai Chen  
+Priority
+Medium
+
+baohua 11:12 AM
+he is enjoying the thanksgiving day now
+And he said will work on the item soon
+
+grapebaba 11:12 AM
+sounds good
+that is a important feature
+
+baohua 11:13 AM
+🌼@david_dornseifer
+yes
+OK, last week i refine the testing framework
+will keep on cleaning existing code
+after we get the instantiate/invocation, we can make the 1st release soon.
+hopefully can be done this year
+OK, nothing else too much from me.
+any other comments? @grapebaba @tonyyang132
+
+tonyyang132 11:14 AM
+none from my side
+
+grapebaba 11:15 AM
+no for me
+
+wangdong 11:15 AM
+hi
+
+baohua 11:15 AM
+ahaa
+
+wangdong 11:15 AM
+just forgot
+
+baohua 11:15 AM
+last second, u catch up @wangdong
+how's going on ur side for cc invocation?
+
+wangdong 11:15 AM
+I almost complete the code, and I am trying to write the test code
+
+baohua 11:15 AM
+great!
+remember to rebase to latest master
+
+wangdong 11:16 AM
+ok
+
+baohua 11:16 AM
+we are cleaning up, too
+thanks @wangdong very good progress!
+OK, any other issue?
+
+wangdong 11:16 AM
+no
+
+baohua 11:16 AM
+Then let's wrap it up quickly.
+
+wangdong 11:17 AM
+ok
+
+baohua 11:17 AM
+@wangdong would u like to help post the minute to the maillist later?
+
+wangdong 11:17 AM
+sure
+
+baohua 11:17 AM
+thanks!
+
+wangdong 11:17 AM
+np
+
+baohua 11:17 AM
+OK, meeting end, have a nice weekend, and remember add ur name to https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20171124
+
+wangdong 11:18 AM
+byebye
+
+tonyyang132 11:18 AM
+wish everybody a happy black Friday!
+
+baohua 11:18 AM 
+@tonyyang132 😉
+```

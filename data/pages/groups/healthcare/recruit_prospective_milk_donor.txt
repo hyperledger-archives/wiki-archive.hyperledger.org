@@ -1,0 +1,153 @@
+===== Scenario =====
+[[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]] : [[analysis-business|Domain analysis]] : [[analysis-human-milk|Human milk services]]
+----------
+
+==== Name ====
+
+** Recruit prospective milk donor **
+
+==== Narrative ====
+
+The milk bank seeks donor engagement through multiple channels targeting prospective donors in multiple contexts : 
+
+  * Websites, social media
+  * Hospitals : post-natal patient education, discharge materials
+  * Outreach to practitioners, practice settings; practitioner database, mailing list
+  * Public programs : WIC
+  * Researchers : human milk-based research studies
+  * Direct inquiry
+
+The milk bank develops targeted marketing content for distribution via multi-modal communications channels.
+
+The prospective donor receives targeted messaging in one or more settings and decides to donate milk.
+
+
+----------
+===== Participants, Resources and Contexts =====
+
+==== Participants ==== 
+
+=== Roles ===
+
+  * [[Donor recruiter]]
+  * [[Human milk donor]]
+
+----------
+
+==== Resources ==== 
+
+  * [[Milk donor recruiting content]]
+  * //resource//
+
+=== Inputs ===
+
+  * //input//
+  * //input//
+
+=== Outputs ===
+
+  * //output//
+  * //output//
+
+----------
+==== Contexts ====
+
+=== Physical ===
+
+  * //physical context//
+  * //physical context//
+
+=== Virtual === 
+
+  * //virtual context//
+  * //virtual context//
+
+----------
+===== Goals, Flows and Policies =====
+
+==== Goals ====
+
+  * //goal//
+  * //goal//
+
+----------
+
+==== Preconditions ==== 
+
+=== Participant preconditions ===
+
+  * //precondition//
+  * //precondition//
+
+=== Resource preconditions ===
+
+  * //precondition//
+  * //precondition//
+
+=== Context preconditions ===
+
+  * //precondition//
+  * //precondition//
+
+=== Previous flows (input activities or events) ===
+
+  * //activity or event//
+  * //activity or event//
+
+=== Concurrent flows (parallel activities or events) ===
+
+  * //activity or event//
+  * //activity or event//
+
+
+----------
+
+==== Flows ==== 
+
+=== Primary flows ===
+
+  * Prepare recruitment content
+  * Distribute recruitment content
+  * Engage prospective milk donor
+
+=== Alternate flows === 
+
+  * //activities or events//
+  * //activities or events//
+
+----------
+
+==== Post-conditions ==== 
+
+=== Outcomes (Goal-states) ===
+
+  * //outcome//
+  * //outcome//
+
+=== Outcomes (Other) ===
+
+  * //outcome//
+  * //outcome//
+
+----------
+
+==== Subsequent activities or events ====
+
+=== Subsequent flows (successful outcome) ===
+
+  * [[Screen prospective milk donor]]
+  * //activity//
+
+=== Subsequent flows (compensating or terminating outcome) ===
+
+  * //activity//
+  * //activity//
+
+----------
+
+===== Supporting Resources =====
+
+==== Sources ==== 
+
+  * //resource//
+  * //resource//

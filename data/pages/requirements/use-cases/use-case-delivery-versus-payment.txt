@@ -1,0 +1,236 @@
+//This is an on-going work on the Requirements Working Group//
+
+====== Use Case for Post Trade - Settlement - Delivery vs Payment ======
+
+===== Section 1 - Introduction ======
+
+Delivery versus payment, or **DVP**, is a common form of settlement for securities. The process involves the simultaneous delivery of all documents necessary to give effect to a transfer of securities in exchange for the receipt of the stipulated payment amount. Alternatively, it may involve transfers of two securities in such a way as to ensure that delivery of one security occurs if and only if the corresponding delivery of the other security occurs. This is done to avoid settlement risk such as where one party fails to deliver the security when the other party has already delivered the cash when settling a securities trade.
+
+===== Section 2 - User Stories ======
+
+During the settlement process, obligations incurred during the trading process are met. Specifically, the physical delivery and/or book-keeping transfers of securities and of cash agreed to during trading occurs.
+
+In this example, Alice and Bob have previously agreed to trade securities for cash. They have agreed to settle the trade via DvP on the ledger. They have put these items of value—​the securities and the cash—​onto the ledger through Trent, a mutually-trusted third-party custodian
+
+^ User   ^ As a . . .                        ^ Wants to . . .                                                                                                                 ^ Because . . .                                                                                                                                                  |
+| Alice  | Seller of Securities              | Sell securities for cash in a contingent all-or-nothing exchange                                                               | She wants to minimize the risk that she delivers the agreed-upon securities into Bob's account but he fails to transfer the agreed-upon cash into her account  |
+| Bob    | Buyer of Securities               | Buy securities with cash in a contingent all-or-nothing exchange                                                               | He wants to minimize the risk that he pays the agreed-upon cash into Alice's account but she fails to deliver the agreed-upon securities into his account      |
+| Trent  | Custodian of Cash and Securities  | Provide all-or-nothing exchange of securities and cash if and only if matching delivery and payment instructions are received  | Alice and Bob need a trusted third party to act as a settlement intermediary to minimize Alice's cash payment risk and Bob's securities delivery risk          |
+
+
+===== Section 3 - Requirements =====
+
+
+==== Business Process - Securities Trade Lifecycle ====
+
+In order to clarify the business process scope of the DvP use case, the following table outlines select stages of the lifecycle of a securities trade. Some or all of the prior stages to Post Trade - Settlement - DvP are assumed to have already taken place in the trade lifecycle ahead of the start of the DvP use case. To be clear, then, this use case does not cover all aspects of Post Trade, of which there are many.
+
+^ Process Hierarchy ||^ Notes |
+^ L1 ^ L2 ^ L3 | ::: |
+| Pre-Trade |||                                                                                                              
+| Trade ||| This is the step in which the (contra) parties agree to exchange securities for currency. The agreement is known as the trade.|
+| Post-Trade | Clearing || Aggregating, netting and batching may take place at this stage. If no aggregating, netting and/or batching is occurring ahead of the settlement step, then it is considered Real-Time Gross Settlement (RTGS).|
+| ::: | Settlement | DvP | During the settlement step, physical delivery and/or book-keeping transfers of the securities and of the cash agreed to during the trade step. Delivery (of the securities) free of payment (DfP) is an alternative settlement mechanism to DvP. Securities are delivered in settlement of a trade without dependency upon the corresponding payment. As such, DfP has a different risk profile for parties to the trade than DvP. |
+
+==== Business Process - User Stories ====
+
+Each DvP has two legs. Each leg is a transfer of a quantity of cash or securities from one location to another.  The two legs of a single DvP are processed as one - a single, indivisible atomic step. If and only if both legs are valid, do they go through. If either is invalid, then neither is applied.
+
+The table below shows a sequence of in-order steps to support the user stories defined above. It can be summarized as:
+  * Steps 1,2 - Alice and Bob fund their on-ledger locations through DvPs that Trent attests to.
+  * Step 3 - The all-or-nothing exchange of Alice's on-ledger securities for Bob's on-ledger cash occurs.
+  * Step 4,5 - Alice and Bob withdraw their on-ledger locations through DvPs that Trent attests to.
+
+^ Step No. ^ Leg1 |||^ Leg2 |||^ Signatories to Transfer |
+| ::: ^ Source Location ^ Type ^ Quantity ^ Destination Location ^ Source Location ^ Type ^ Quantity ^ Destination Location | ::: |
+| 1 | Foreign Key of Bob's Off-Ledger Cash Account with Trent | Foreign Key of Bob's Off-Ledger Funding Transaction with Trent | Foreign Key of Bob's Off-Ledger Quantity | OFF LEDGER LOCATION FLAG | OFF LEDGER LOCATION FLAG | USD | 10,000,000.00 | Bob's On-Ledger Location | Bob, Trent |
+| 2 | Foreign Key of Alice's Off-Ledger Securities Account with Trent | Foreign Key of Alice's Off-Ledger Funding Transaction with Trent | Foreign Key of Alice's Off-Ledger Quantity | OFF LEDGER LOCATION FLAG | OFF LEDGER LOCATION FLAG | T-BILL | 10 | Alice's On-Ledger_Location | Alice, Trent |
+| 3 | Alice's On-Ledger Location | T-BILL | 10 | Bob's On-Ledger Location | Bob's On-Ledger Location | USD | 10,000,000.00 | Alice's On-ledger location | Alice, Bob, Trent |
+| 4 | Alice's On-Ledger location | USD | 10,000,000.00 | OFF LEDGER LOCATION FLAG | OFF LEDGER LOCATION FLAG | OFF LEDGER TYPE FLAG | 10,000,000.00 | Foreign Key of Alice's Cash Account with Trent | Alice, Trent |
+| 5 | Bob's On-Ledger Location | T-BILL | 10 | OFF LEDGER LOCATION FLAG | OFF LEDGER LOCATION FLAG | OFF LEDGER TYPE FLAG | 10 | Foreign Key of Bob's Off-Ledger Securities Account with Trent | Bob, Trent |
+
+==== Business Requirements ====
+
+The following are a set of high-level set of requirements:
+
+  * Ledger
+    * Journal that records book-entry narrative of agreed-upon transfers of amounts / quantities of ownership of typed cash and securities among locations
+    * Settlement is final - i.e., transfer is irrevocable - that is, cannot be unwound or revoked; it is not provisional settlement. However, the contra parties may elect to book and settle an additional trade that offsets the original trade - i.e., effectively cancelling it by entirely reversing it. Similarly, they could agree to do the same in order to adjust the first trade - i.e., entirely reverse it through an offsetting trade and then book a corrected replacement trade.
+
+  * Transfers
+    * Record of conveyance of ownership in an amount of a transferable item
+    * Exists on and only on the ledger
+    * Has a
+      * Unique reference ID
+      * Source location
+      * Quantity
+      * Type
+      * Target location
+
+  * Transferrable Item
+    * Is either a tokenized representation of an item of value for transfer or is the item of value itself
+    * Has a
+      * UID
+      * Type
+        * As in type of fiat currency (e.g., ISO 4217 Currency code such as USD or CHF)
+        * As in type of security / financial instrument. UID for this is harder, separate out-of-scope-for-now challenge
+
+  * Location
+    * Is associated with one and only one type of transferrable item
+    * Exists on and only on the ledger
+    * Is owned by one and only one participant
+    * Is controlled by one and only one participant
+      * Control may be delegated to another participant as an agent
+
+  * Balance
+    * Typed amount of securities or cash associated with an account / location as of a certain set of point in the ledger
+    * Derived values are computed not stored separately within ledger
+
+==== Service-Level Agreements ====
+
+=== On-ledger Certainty ===
+
+On-ledger certainty means an agreed-to, point-in-time record of which securities and cash are in which locations and in what amounts as well as status of in-flight transfers.
+
+Alice, Bob and Trent are users of the ledger. They are parties to the DvP transfers taking place.  They require on-ledger certainty in order to:
+  * Avoid on-ledger settlement failures
+  * To keep their interdependent off-ledger business activities in sync with their on-ledger activities
+
+That certainty allows them to avoid both on-ledger and off-ledger:
+  * Double-spends / overdrafts
+  * Failures to deliver securities
+  * Failures to make payments
+  * Unnecessarily held-idle cash or securities
+
+They must be able to discover and/or be informed with certainty of the state of the processing of transfers.  That is the case for both in-flight transfers and completed and/or rejected transfers. Therefore, transfers cannot remain in in-determinant states for unpredictable amounts of time. Silent failure of a transfer, for example, is also not acceptable.
+
+=== Guarantees of processing once and only once ===
+
+It is necessary to provide on-ledger certainty in the face of standard distributed processing challenges (For example: network timeouts, partial success, partial failure, rollback, distributed denial of service (DDOS), failovers, restarts, rogue validator nodes, security breaches, possible duplicate messages sent/received.)
+
+=== Throughput, Latency and Scalability ===
+
+In order to provide on-ledger certainty, guarantees of bounded processing times are required. In addition, clarity is required for what happens to in-flight transfers when these guarantees are breached in general, and what happened to specific in-flight transfers in question.
+
+These SLAs are typically expressed in terms of throughput, latency, volume and scalability.  These SLAs typically vary by line of business, local market practices, and security type/asset class being traded.
+
+^ Line of Business ^ Local Market ^ Security Type / Asset Class ^ Throughput ^ Latency ^ Volume ^ Scalability |
+|TBD|TBD|TBD|TBD|TBD|TBD|TBD|
+
+==== Data Protection and Record Retention ====
+
+The user stories above assume an Over-The-Counter (OTC) trade between a pair of broker/dealers and a separate custodian. This is a simplifying assumption, recognizing that variations, complications and caveats exist based upon line of business, local market, security type, actor, role and regulatory jurisdictions.
+
+Likewise, for purposes of data protection and record retention requirements, a simplified proxy is used. This is based upon a reading of the United States' Federal Government's Securities and Exchange Commission's 2003 interpretation of the 1934 Exchange Act law and associated Rules 17a-3, 17a-4 as it applies to electronic record keeping.
+
+To enable regulators to monitor broker/dealers' compliance with laws, a comprehensive record of each individual securities transaction and the securities business in general must be preserved and made available.
+
+  * Which business records are stored?
+     * "Trade blotters, asset and liability ledgers, income ledgers, customer account ledgers, securities records, order tickets, trade confirmations, trial balances, and various employment related documents"
+
+  * What record types and structures?
+     * Not just the settlement records outlined above, but derived positions and balances as-of points in time
+     * Linkages of those post-trade settlement records out to the broader comprehensive record of each trade being settled and the securities business in general that they take place within. These make take the form of structured data, documents and even emails.
+
+  * How long must records be kept around?
+     * Not forever. Records have retention periods that vary (e.g., by type of record, player involved, asset class).
+     * The retention periods themselves can change over time if, for example, a law or rule changes.
+     * The retention period for specific records can change if, for example, a court subpoena is issued.
+     * Individual records have expiry dates. It is "prudent to default to permanent" and then allow for disposal later. To provide the individual expiry dates, a timestamp for the required period of retention the information placed on such electronic storage medium. Note that this suggests an agreed-upon timestamp on each record on the chain.
+
+  * Stored in what?
+     * Whether electronic or otherwise, the storage medium/system must protect record integrity.
+
+  * What record integrity controls are necessary?
+     * Is it enough to protect record integrity with access controls and tamper-evident controls? No, those controls are not acceptable in and of themselves. This suggests, for example, that permissioned networks are not sufficient.
+     * Instead (although not necessarily in lieu of), the records must be recorded in a "non-rewriteable, non-eraseable format". That is, the records once written cannot be overwritten, erased or altered during their retention period. Furthermore, this protective feature must be irremovable. This may have implications for code forks, chain forks, etc.
+     * In addition, the storage medium/system must perform ongoing integrity self-checks to automatically verify quality and accuracy of the recording process.
+
+  * Where should the records be stored?
+     * Onsite and with an offsite duplicate. This suggests, for example, that validator nodes cannot all be in one physical location.
+
+  * Which copies of the records need to be accessible?
+     * Both the onsite and offsite copies need to be accessible.
+
+  * In what format?
+     * "Serialize the original and, if applicable, duplicate units of storage media"
+     * Downloadable / exportable records and indices of those records.
+
+  * How quickly must records be made accessible to authorized parties?
+     * In some cases, "immediate." In other cases, "non-immediate". For example, the records may need to be immediately accessible online for the first six months and then non-immediately available (e.g., retrieved from cold storage) for the following two years. 
+
+  * By whom?
+     * Government regulators, self-regulatory organizations the broker/dealer belongs to, auditors, the broker/dealer themselves and, in some cases, customers (e.g., copy of confirmations).
+
+==== Assumptions ====
+
+In order to focus on the core of DvP over blockchain, a number of simplifying assumptions are being made:
+
+  * Start-up / Bootstrapping / Use Case Prerequisites
+    * Seller Alice and Buyer Bob have established business relationships with each other for purposes of buying and selling securities
+    * Seller Alice and Buyer Bob each have established separate, independent business relationships with Custodian Trent for purposes of post-trade settlement
+    * Custodian Trent created and assigned a cash account and a securities account to each of Alice and Bob
+    * Seller Alice has transferred her securities into Trent's custody via an out-of-chain business process that Trent acknowledged via a receipt published on the blockchain
+    * Buyer Bob has already transferred his cash into Trent's custody via an out-of-chain business process that Trent acknowledged via a receipt published on the blockchain
+
+  * Custodian
+    * Custodian is **not** providing its account holders any of the following:
+       * Credit facilities to borrow or lend securities and/or cash
+       * Overage facilities to cover failures to deliver securities, cash overdraws
+       * Interest-bearing cash accounts
+       * Statements of holdings and balances
+       * Netting
+       * Collateral management
+       * Corporate actions (e.g., dividends, stock splits)
+       * Asset Depository capabilities as defined in the use case of that same name
+
+  * Securities
+    * Use case is concerned only with handling of pre-existing, transferable securities
+    * Rest of their lifecycle--e.g., issuance, corporate actions, assignment of UIDs, retirement--is assumed to occur out-of-scope
+    * Industrial and agricultural commodities (e.g., oil, gas, wheat, orange juice) are assumed to occur out-of-scope
+ 
+  * Cash/Currency
+    * Use case is concerned only with handling of pre-existing, fiat currencies
+    * Rest of their lifecycle--e.g., issuance, assignment of UIDs, money supply management--is assumed to occur out-of-scope
+
+  * Use Case Asset Depository
+    * There is a separate use case for asset depositories. That use case is assumed to handle:
+      * Physical delivery of and vaults for safekeeping of physical assets held (e.g., bearer bonds, precious metals, stock certificates, paper currencies)
+      * On-blockchain book-entry title and title transfer for physical assets held
+      * On-blockchain book-entry issuance, title and title transfer of never-materialized securities
+
+  * Regulators
+    * Assumed to have given blessing to DvP-over-blockchain as defined in this use case
+    * Assumed to have duly authorized use case participants in their respective roles
+    * Assumed to have out-of-band / not-on-chain access to data they need
+    * Buyer, Seller and Custodian are assumed to have performed necessary and sufficient regulatory compliance steps to satisfy regulators (e.g., know your customer, enhanced due diligence, anti-money laundering)
+
+These complexities may be addressed in other use cases at a later date.
+
+===== External References =====
+
+  * Simmons, Michael. Securities Operations - A Guide to Trade and Position Management. John Wiley & Sons, (c) 2002, ISBN 0-471-49758-4.
+
+  * [[http://www.bis.org/cpmi/publ/d06.pdf | "DELIVERY  VERSUS  PAYMENT IN SECURITIES  SETTLEMENT  SYSTEMS" ]], Bank for International Settlements (BIS), Report prepared by the Committee on Payment and Settlement Systems of the central banks of the Group of Ten countries, Basle, September 1992. "The group has developed a broad framework for analysing the types and sources of risk in securities clearance and settlement, including the concept and implications of DVP."
+
+  * [[ https://en.wikipedia.org/wiki/Geneva_Securities_Convention | "Geneva Securities Convention" ]], Wikipedia, accessed 2016-05-30.
+
+  * [[ https://en.wikipedia.org/wiki/Dematerialization_(securities) | "Dematerialization (securities)" ]], Wikipedia, accessed 2016-05-30.
+
+  * [[ http://www.dtcc.com/~/media/Files/Downloads/WhitePapers/Dematerialize_Securities_July_2012.pdf | "A proposal to fully dematerialize physical securities" ]], DTCC, July 2012, accessed 2016-05-30.
+
+  * [[ http://thelawdictionary.org/convey/ | "Convey" ]], The Law Dictionary / Black's Law Dictionary Free Online Legal Dictionary 2nd Ed., accessed 2016-05-30.
+
+  * [[ https://www.bis.org/publ/bppdf/bispap30z.pdf | "Clearing, settlement and depository issues - Impediments, hedging supervision and clearing" ]], Francis Braeckevelt, [[ https://www.bis.org/publ/bppdf/bispap30.htm | Asian bond markets: issues and prospects, BIS Papers No 30, November 2006]], accessed 2016-05-30.
+
+  * [[ http://www.iso.org/iso/home/standards/currency_codes.hmt | "Currency codes - ISO 4217" ]], ISO, accessed 2016-05-31.
+
+  * [[ https://en.wikipedia.org/wiki/Alice_and_Bob | "Alice and Bob" ]], Wikipedia, accessed 2016-06-06.
+
+  * [[ https://en.wikipedia.org/w/index.php?title=Demat_account&oldid=727219109 | "Demat account" ]], Wikipedia contributors, Wikipedia, The Free Encyclopedia, accessed June 29, 2016.
+
+  * [[ https://www.sec.gov/rules/interp/34-47806.htm | "SEC Interpretation: Electronic Storage of Broker-Dealer Records - 17 CFR Part 241 - Release No. 34-47806" ]], SECURITIES AND EXCHANGE COMMISSION, accessed 2016-07-08.
+
+===== Glossary/Appendices =====
+
+TBD

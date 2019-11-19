@@ -1,0 +1,271 @@
+==== 2017-08-18 ==== 
+
+Meeting will be held at [[https://chat.hyperledger.org/channel/fabric-sdk-py|rocketchat]] at 11AM (GMT+8).
+
+  * [[https://jira.hyperledger.org/browse/FAB-4623?jql=project%20%3D%20FAB%20AND%20status%20in%20(%22In%20Progress%22%2C%20%22To%20Do%22)%20AND%20component%20%3D%20fabric-sdk-py | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+status:open | Open Patchset for review]]
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]]
+
+=== Agenda ===
+
+  * chaincode Install: Kai is working on [[https://jira.hyperledger.org/browse/FAB-5151 | FAB-5151]]
+  * E2E: Dong Wang is working on [[https://jira.hyperledger.org/browse/FAB-2871 | FAB-2871]]
+  * User Role: Wei Hu is working on [[https://jira.hyperledger.org/browse/FAB-3885|FAB-3885]]
+  * EventHub: Chang Chen is working on [[https://jira.hyperledger.org/browse/FAB-4822|FAB-4822]]
+  * Register: Baohua is working on [[https://jira.hyperledger.org/browse/FAB-3165|FAB-3165]]
+  * Update license header: Qiang Wang is working on [[https://jira.hyperledger.org/browse/FAB-4742|FAB-4742]]
+  * David is working on [[https://jira.hyperledger.org/browse/FAB-4315|FAB-4315]]
+  * Other issues
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Baohua Yang
+  * Kai Chen
+  * Tony Yang
+  * Dong Wang
+  * Qiang Wang
+  * David Dornseifer
+
+
+=== Log ===
+
+baohua 11:00 AM
+OK
+today's agenda is at https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20170818
+Kai is not online.
+So dong, would u like to sync on FAB-2871?
+
+JIRA @hyperledger-jira-l BOT 11:01 AM
+Found 1 issue
+FAB-2871 
+implement e2e test
+Assigned To
+Dong Wang  
+Status
+In Progress  
+Reporter
+Chang Chen  
+Priority
+High
+
+grapebaba 11:02 AM
+✋
+
+baohua 11:03 AM
+@wangdong
+Great, kai is online
+OK,
+@grapebaba can u help sync on FAB-5151?
+
+JIRA @hyperledger-jira-l BOT 11:04 AM
+Found 1 issue
+FAB-5151 
+Sync install chaincode for latest Fabric version
+Assigned To
+Kai Chen  
+Status
+Done  
+Reporter
+Kai Chen  
+Priority
+Medium
+
+wangdong 11:05 AM
+I am here
+I thought it would be a audio meeting.
+just wait...
+
+baohua 11:06 AM
+@grapebaba @qiang0723 do u want to use audio conf?
+
+grapebaba 11:06 AM
+busy on company project, have no time these days
+
+baohua 11:06 AM
+understand
+
+wangdong 11:06 AM
+I am transferring these days, So I got some time to do the job.
+
+baohua 11:07 AM
+Thanks dong
+
+grapebaba 11:07 AM
+type is ok
+
+baohua 11:07 AM
+that's oss, we are all part-time contributing code 🙂
+
+qiang0723 11:07 AM
+My audio can not be used
+
+baohua 11:07 AM
+OK, so let's use text chat this time @wangdong ?
+
+wangdong 11:07 AM
+sure
+np
+
+grapebaba 11:08 AM
+i also have some problem with audio
+
+wangdong 11:08 AM
+I will improve the code according to java
+
+baohua 11:08 AM
+thanks, dong
+
+wangdong 11:08 AM
+and improve the my first patch
+
+baohua 11:09 AM
+@WeiHu and @lafenicecc are not onlien
+On FAB-3165, i'm still working on it. will update later.
+@qiang0723 would u like to help sync on FAB-4742?
+
+JIRA @hyperledger-jira-l BOT 11:10 AM
+Found 1 issue
+FAB-4742 
+Add license header for sdk-py&#39;s code and docs
+Assigned To
+Qiang Wang  
+Status
+To Do  
+Reporter
+Baohua Yang  
+Priority
+Highest
+
+qiang0723 11:10 AM
+This task has not been done yet，but i will do it soon, and I will refer to https://jira.hyperledger.org/browse/CE-52 to add the license
+
+baohua 11:11 AM
+Thanks
+
+wangdong 11:11 AM
+I got a question actually about relation between user role and peer role. user gets member, admin. does this relates with roles of peers?
+
+baohua 11:11 AM
+simply we need to add a license head lines at all code
+and bottom line for all docs.
+@wangdong good questions. @grapebaba would u like to help address?
+
+david_dornseifer 11:12 AM
+hi, online as well 🙂
+
+grapebaba 11:13 AM
+👏
+
+baohua 11:13 AM
+welcome, david
+
+qiang0723 11:13 AM
+ok understand , will divided it into several sub-tasks, so new added can join the task to familiar the process
+
+wangdong 11:13 AM
+👏
+welcome
+
+baohua 11:13 AM
+how's going? we need more help from u @david_dornseifer 🙂
+
+david_dornseifer 11:14 AM
+yea 🙂 working on fab-4315 right now
+have implemented the basic structure
+was super busy the last few weeks with work
+guess will be better now
+
+baohua 11:14 AM
+Thanks, lft seeing ur new patch.
+  
+Let's keep close collaboration.
+
+grapebaba 11:15 AM
+@baohua i am not sure i can answer this question
+
+baohua 11:15 AM
+OK, let me try to help @wangdong
+Typically, for an org, we now have two permission level: admin and member.
+While in a fabric network, we can have various roles, like a client, user, peer, etc.
+sometimes, a role may be bind with a permission level
+but that's not restricted to.
+is that clear now?
+
+wangdong 11:17 AM
+not so clear
+maybe more talk in meetup
+
+baohua 11:18 AM
+sure, keep asking 🙂
+feel free to drop in maillist and also group channels
+
+wangdong 11:18 AM
+ok
+
+baohua 11:18 AM
+Thanks
+OK, so that's all planed agenda.
+Anything else?
+@david_dornseifer wanna say sth?
+
+david_dornseifer 11:20 AM
+guess i'll update the readme soon so that we can point out how to run the unit test and flake8 separate from the integration tests so we can make sure that all patches are validated by flake8
+
+baohua 11:20 AM
+Great idea, feel free to create jira task and work on it 🙂
+
+david_dornseifer 11:21 AM
+job builder complained about missing whitespaces etc. allot 🙂
+
+baohua 11:21 AM
+Everyone is encouraged to find and address problem/issues
+haha, blood due to whitespace
+OK, any more issue to discuss today?
+
+david_dornseifer 11:21 AM
+sry not missing whitespaced, additional whitespaces 🙂
+
+baohua 11:21 AM
+our `make check` locally should find the whitespace issue
+
+david_dornseifer 11:22 AM
+yes but that also triggers the integration tests
+
+baohua 11:22 AM
+right
+
+david_dornseifer 11:22 AM
+and that takes allot of time
+
+baohua 11:22 AM
+we suggest all patchset pass local check before submission
+got ur idea now, maybe can fail after checking grammar
+stop from running more testing
+
+david_dornseifer 11:23 AM
+yea just for faster development i think we should have `tox -v flake8` written on the readme
+but yes agree to submit a patch make check should be successful
+
+baohua 11:24 AM
+sure, and still pass all testing before submission -:)
+OK, any more issue? @wangdong @grapebaba @qiang0723
+
+wangdong 11:25 AM
+no
+
+qiang0723 11:25 AM
+no
+
+baohua 11:25 AM
+OK, If no further question, we will end the meeting. Thanks every participant, and have a nice weekend!
+
+wangdong 11:25 AM
+have a nice weekend
+
+baohua 11:25 AM
+⛳
+
+david_dornseifer 11:26 AM 
+thx - happy Friday

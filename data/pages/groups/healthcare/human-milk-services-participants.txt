@@ -1,0 +1,131 @@
+===== Human milk service participants =====
+  * [[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]] : [[analysis-business|Domain analysis]] : [[analysis-human-milk|Human milk services]]
+  * [[healthcare-wg-wikispace-redesign |Home]] : [[resources|Resources]] : [[analytical_models|Analytical models]] : [[human_milk_services_model|Human milk services model]]
+
+----------
+==== Human milk services ecosystem roles and relationships ====
+
+{{ :groups:healthcare:human_milk_services_ecosystem_model.jpg }}
+
+----------
+
+==== Service role registry ====
+
+  * [[Human milk donor]]
+  * [[Human milk recipient]], [[Patient]] (preterm infant, infant)
+
+  * [[Milk banking services provider]]
+    * [[Milk bank manager]]
+    * [[Milk bank practitioner]]
+    * [[Donor recruiter]]
+    * [[Donor screener]]
+    * [[Donor educator]]
+  * [[Milk storage services provider]] (Milk depot facility)
+    * [[Milk storage manager]]
+  * [[Milk distribution services provider]] (Milk distribution facility)
+    * [[Milk distribution manager]]
+
+  * [[Healthcare services provider]] 
+    * [[Milk bank practitioner]]
+    * [[Donor practitioner]]
+    * [[Donor-infant practitioner]]
+    * [[Perinatal services provider]] (Neonatal care provider, Intensive care provider)
+      * [[Responsible practitioner]] (Prescriber) (Donor milk recipient practitioner)
+
+  * [[Laboratory services provider]]
+    * [[Laboratory manager]]
+  * [[Transportation services provider]]
+
+----------
+
+==== Service relationships ====
+
+=== Conceptual model ===
+
+== Actors, roles, relationships, interactions ==
+
+  * Actors : persons, groups
+    * Actor model : attributes, properties
+  * Roles : social roles, group (organization) roles, service roles
+    * Role model : actor model; role attributes, contexts, policies
+  * Relationships : role-based; kinship, affinity group relationships
+    * Relationship model : participant roles; relationship attributes, contexts, policies
+    * Relationship participants : person, group
+      * Person-person relationship
+      * Person-group (person-organization) relationship (membership, affiliation)
+      * Group-group (organization-organization) relationship
+        * Multi-group (multi-organization) relationship
+  * Interactions : events, activities; participant role, relationship contexts
+
+== Organization roles, relationships ==
+
+  * Organization (external) roles : social, public, market roles
+  * Organization actor (intra-organization) roles : person, group
+    * Person : owner, director, employee, contractor
+    * Group : workgroup, department, unit
+  * Organization and actor (person, group) role policies : multiple policy contexts
+    * Public policy : multi-layered policy jurisdictions
+    * Private policy
+      * Internal organization policy
+      * Organization-organization policy
+      * Multi-organization policy
+  * Organization relationships 
+    * Organization-organization relationship (partnership)
+    * Multi-organization relationship (consortium)
+  * Organization relationship policy
+    * Person-organization relationship policy : Employment agreement, contract
+    * Organization-organization relationship policy : Business agreement, contract
+
+
+== Service roles, relationships and interactions ==
+
+  * Service (Activity) roles, relationships
+    * Service participants : persons, groups, organizations
+    * Service roles : requester, provider, broker
+    * Service relationships : participant roles; relationship attributes, contexts, policies
+  * Service contexts : participant role-context policies
+  * Service resources : participant role-resource relationship policies
+  * Service policies : participant, role, relationship, context, resource policies
+  * Service interactions : events, activities (transactions); activity (transaction) policies
+
+----------
+
+=== Relationship registry ===
+
+== Social relationships ==
+
+  * [[Donor-infant relationship]]
+  * [[Patient-legal guardian relationship]]
+
+== Organization-actor relationships ==
+
+  * [[Milk banking services provider]]
+    * [[Milk bank-manager relationship]]
+    * [[Milk bank-practitioner relationship]]
+    * [[Milk bank-recruiter relationship]]
+    * [[Milk bank-screener relationship]]
+    * [[Milk bank-educator relationship]]
+  * [[Perinatal services provider]]
+    * [[Hospital-practitioner relationship]]
+    * [[Hospital-dietitian relationship]]
+  * [[Laboratory services provider]]
+    * [[Laboratory-manager relationship]]
+  * [[Milk storage services provider]]
+    * [[Milk depot-manager relationship]]
+  * [[Milk distribution services provider]]
+    * [[Milk distributor-manager relationship]]
+
+== Service participant relationships ==
+
+  * [[Milk bank-donor relationship]]
+  * [[Donor-practitioner relationship]]
+  * [[Donor infant-practitioner relationship]]
+  * [[Donor-laboratory relationship]]
+  * [[Donor-transportation provider relationship]]
+  * [[Hospital-milk bank relationship]]
+  * [[Hospital-patient relationship]]
+  * [[Hospital-newborn-patient relationship]]
+  * [[Milk bank-milk depot relationship]]
+  * [[Milk bank-milk distributor relationship]]
+  * [[Milk bank-laboratory relationship]]
+

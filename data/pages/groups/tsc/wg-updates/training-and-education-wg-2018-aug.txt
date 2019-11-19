@@ -1,0 +1,39 @@
+====== Hyperledger Working Group Update ======
+
+===== Working Group =====
+Training and Education WG
+
+===== Working Group Health =====
+We changed times from 10:00 PST to 8:00 PST due to requests from participants in China. Call attendance dropped from mid 20s to 15-18. There are 2-4 new participants on each call. Enthusiasm is keen, experience is low. Many completed the first edX course and want to learn, based on the edX course call for participation and the words 'training and education'.
+
+
+===== Issues =====
+The group includes more 'learners' than 'content developers'. For example, many on the call do not know/understand GitHub. As such, we're developing learning materials for participants to learn basics before they can start to test or develop training materials.
+
+
+===== Overall Activity in the Past Quarter =====
+Regular meetings have been held, no meetings have been missed. The chat channel has nominal activity (1-3 per day). We mailing list out tentative agendas and started, this month, emailing possible action items for those in the wings. Work products include:
+  - A [[https://wiki.hyperledger.org/groups/training-and-education/list-of-blockchain-core-concepts|Core concepts List]] that has collaborative input (begun 7/18). 
+  - Modest support for the edX Blockchain for Business course forum.
+  - The start of readability revisions for Iroha documents supplied by the Iroha team (begun 8/18).
+  - The start of animations/images for visual representation of existing documentation, utilizing Hyperledger style sheets/logos (begun 8/18).
+The number of participants creating content is < 10.
+
+
+===== Planned Work Products =====
+  * GitHub and related training materials for work group participants.
+  * Markdown and edits of content from the original edX course.
+  * Animations and images of concepts from the Concepts List and additional documentation.
+  * Enlarged Concepts List.
+  * Contact with presenters from the Global Blockchain Summit to repurpose presentations for learning content and connection with working group participants. Hopefully, this will enhance learning of the T&E working group.
+
+
+
+===== Participant Diversity =====
+The working group is increasing. The number of content development coordinators increases slowly, around 2 per month. The learning curve is the obstacle, interest is high.
+
+
+===== Additional Information =====
+Specific needs/assignments from other working groups, with a contact person in Rocket, may be a successful approach.
+
+ 

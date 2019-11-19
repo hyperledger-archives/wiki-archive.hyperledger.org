@@ -1,0 +1,111 @@
+We are creating the **Hyperledger Technical Ambassador program** to create an official role for technical evangelists that have expertise in the different Hyperledger projects who are interested in participating in speaking engagements and helping new community members get involved in the project.  
+
+====== Goals ======
+
+With this program, we plan to achieve the following goals:
+
+  * Drive awareness & adoption by sharing knowledge, best practices and tips for Hyperledger projects with others around the world
+  * Build a helpful, hopeful & humble community around Hyperledger technologies
+  * Create a force multiplier to our staff for speaking at meetups and with answering questions online 
+  * Increase the quality of community interactions by providing more structure and support to people interested in community building activities
+  * Leverage regional expertise and create a way to bring in ideas, feedback, and suggestions from around the world 
+
+====== Profile of an Ambassador ======
+
+An ambassador is a go-to resource for those interested in Hyperledger and they are driven by the purpose of helping others learn more about the project.  Ambassadors are community members who are:
+
+  * Passionate about Hyperledger and blockchain/smart contracts/distributed ledger technology
+  * Recognized for their expertise and willingness to help others learn about the project and community
+  * Influencers and evangelists who are already engaged with the project in some way, contributing to forums, online groups, community, etc
+  * Technically focused -- an Ambassador will have a high-level understanding of each of the projects within the Hyperledger umbrella, as well as deep technical knowledge of one of the projects or a specific component of blockchain/distributed ledger technology (e.g., cryptography, identity)
+  * Familiar with the process and tools involved with making code contributions and has contributed at least once to one of the Hyperledger projects
+  * Helpful, hopeful and humble
+
+====== Role of an Ambassador ======
+
+Responsibilities of an Ambassador include, but are not limited to:
+
+  * Be a go-to resource for helping people learn about Hyperledger online and in their local region
+  * Solicit, gather and share feedback from users with Hyperledger and the community
+  * Help connect interested users with the right folks within the community and with Hyperledger staff
+  * Attend and support local Hyperledger Meetups and community events
+  * Answer questions on Mail-lists, Rocketchat, Twitter, Quora, Stack Overflow, at events, etc
+  * Help onboard new contributors
+  * Coordinate closely with the Hyperledger Community Architects through quarterly check-ins and through in-person discussions when Ambassadors happen to be at the same events
+
+Note that community members that join the Ambassador program don’t need to make an open-ended commitment to the project.  If you find that you no longer have time for this role, you may opt to leave the program.
+
+====== Ambassador Activities ======
+
+This section provides examples of activities current Ambassadors have been doing and provides suggestions for what you can be doing as an Ambassador.
+
+==== Connect with University Students ====
+
+Connecting with students at universities that are near you is a great activity for Ambassadors.  Kyle Den Hartog has written up some suggestions for how to do this:
+
+The best way to reach out to students is through computer science related clubs or blockchain specific clubs. Most schools have an ACM chapter to discuss CS related topics, so my suggestion would be to look for a chapter president of the club and send them an email. In my experience, because clubs are funded by the university the university will keep a list of clubs indexed by Google. These pages typically list officers (e.g. president and treasurer) reach out to them through an email and ask if they would like someone to come speak about Hyperledger.
+
+As an example:
+  - I googled "University of Iowa ACM" which linked me [[https://cs.uiowa.edu/resources/events/acmuiowa-granular-uiowa|here]]
+  - This linked me through to the ACM chapter page which had a list of [[https://acm.org.uiowa.edu/people|officers]]
+  - The [[https://acm.org.uiowa.edu/people/liam-crawford|president's page]] is kept up to date and had his university email listed
+
+Another good option:
+Reaching out to chair of the computer science department or the office of the department. They will have a good understanding of the best clubs for you to connect with and likely have the emails of the chapter presidents as well.  And if you're still not finding the right people to connect to, reach out to Hyperledger staff and they may have connections at the university you're interested in.
+
+In terms of content that would be good for talks there:
+  - A "How to make your first contribution to Hyperledger"
+  - "How to use open source to build a network and find a job"
+  - "Introduction to <Hyperledger project>"
+  - "What is Hyperledger?"
+  - "What is blockchain?"
+
+Other ways to help:
+  - Acting as a judge for Hackathons would be beneficial
+  - Letting students know about internship opportunities at Hyperledger
+  - Ask them what else would be helpful
+
+Got additional questions?  Message [[https://chat.hyperledger.org/direct/kdenhartog|Kyle Den Hartog on rocketchat]] and I can offer situational help
+
+==== Support Nearby Hyperledger Meetups ====
+
+There are Hyperledger meetups happening in over 50 countries around the world and there are likely one or more meetup groups near you. Supporting nearby Hyperledger meetup groups is a great activity for Ambassadors.  For instance, Kishore Seshagiri is supporting the meetup groups in India by doing the following:
+
+  * Look at the [[https://www.meetup.com/pro/Hyperledger/|map of meetup groups]] and find the ones near you 
+  * Reach out and introduce yourself to the organizers (post on the [[https://lists.hyperledger.org/g/ambassadors/|Ambassador list]] if you'd like to receive an introduction)
+  * Go to and speak at the events when possible (although you certainly don't need to go to every event to support the groups)
+  * Connect organizers with community members who live in the area or are traveling to the area -- this is a big help to organizers since their number one request is with getting help in finding speakers
+  * Share relevant project news with organizers so they're aware of what's happening and make yourself available to answer any questions they have.
+==== Reuse and Add to Our Slide Repository ====
+
+The Hyperledger community has a [[https://drive.google.com/drive/folders/1sC-YoUSzRxuKBC0uWixBKLy4H8eaqL0f?usp=sharing_eil&ts=5bbce2fd|collection of Slides that we store on Google Drive]]. Ambassadors are requested to add to this folder any presentation material that would be useful to share with other technical ambassadors and the larger community. In addition, please add a link on the [[community:presentations]] page.
+==== Help People Who Aren't Native English Speakers ====
+
+One value of a global Ambassador program is that there are people who speak a range of different languages in it.  The Hyperledger tools and communication channels are mostly in English and this can be a hurdle for people who aren't native English speakers.  Here are ideas for how Ambassadors can help those community members:
+
+  * ...
+
+====== Interactions with other programs ======
+
+Ambassadors have a role that complements other efforts in the community, in particular, the [[https://www.hyperledger.org/news/speakersbureau|Hyperledger Speaker’s Bureau]] and [[community:meetups|Hyperledger Meetup program]]. Ambassadors may choose to also participate in those programs. To help clarify the different roles and responsibilities, here are more details about how these programs interact.
+
+  * **Speaker’s Bureau**: Speaker’s Bureau members speak on behalf of Hyperledger at both public and private industry events.  Ambassadors do this as well, although their role in the community goes beyond just speaking.  The additional tasks an Ambassador does in the community really elevate the impact they are making and therefore they will be recognized distinctly from Speaker’s Bureau participants.
+  * **Meetups**: Local meetups are a key channel for Ambassadors to use to reach community members in their region. Ambassadors do not need to be the meetup organizer (although they can if they want) but they are asked to take responsibility for meetups by attending and participating in them.
+
+====== Incentives ======
+
+As recognition for their contributions to the project, Ambassadors may receive:
+
+  * An official title and a profile on the Hyperledger website
+  * Access to free Hyperledger swag like t-shirts, Get Involved cards, water bottles, stickers etc.
+  * Free passes to the annual Hyperledger Global Forum or other Hyperledger events - ability to offer discounted passes to a select number of people they have helped or who are interested in Hyperledger
+  * Spotlight or guest blogs on Hyperledger’s website
+  * Assistance getting contributed articles about blockchain/distributed ledger related topics placed
+  * Travel assistance on a case-by-case basis
+  * Valuable experience and new skills
+
+====== Selecting Ambassadors ======
+
+Active members of the Hyperledger technical community ([[https://www.hyperledger.org/about/charter|as defined in Section 4.a.ii of the Hyperledger Charter]]) are welcome to apply to become an Ambassador, although only people with a solid understanding of the project and with demonstrated contributions to the community will be accepted. The Linux Foundation Hyperledger staff will vet and approve these applications.  To prepare for applying, we encourage you to take the [[https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS171x+3T2017/course/|free Hyperledger training course]] and to [[https://hyperledger.org/community|get actively involved in the community]]. Some community members who have already been performing the roles of an Ambassador will be invited to join the program. 
+
+  * [[https://www.hyperledger.org/ambassador-application|Hyperledger Technical Ambassador Application form]]

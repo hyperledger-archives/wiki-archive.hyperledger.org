@@ -1,0 +1,81 @@
+====== Q1 2018 Burrow Roadmap Post-mortem ======
+//**Author: Silas Davis, 7 March 2018**//
+
+This roadmap post-mortem provides a review of the **[[projects:burrow:roadmap_2018_Q1| Q1 2018 Roadmap]]**. The goal is to be a non-judgemental self-appraisal of what was achieved relative to the roadmap including with a focus on the reasons things were or were not achieved, why different things were achieved, and how it should inform future roadmaps. 
+
+The Q1 roadmap broke things down into the following buckets:
+
+^ Bucket  ^ Description                         ^
+| **A**   | Core Burrow and Hyperledger Liaison  |
+| **B**   | Bosmarmot (Burrow ancillary tooling monorepo) |
+| **C**   | Web3 API support and Ethereum tooling |
+
+I will maintain the same structure as the original document throughout and comment on each section and item.
+
+===== Bucket overviews =====
+==== A - Hyperledger  ====
+   * Poor documentation (out-of-date, missing) was off-putting to people coming on to Hyperledger chat. Documentation efforts from TCS were hampered by legal processes (now being resolved). We have a former employee working on new consolidated documentation which should be delivered before the end of March 2018.
+   * Refactoring of Burrow and its tooling dragged on, and neither Fabric of Sawtooth have integrated the latest changes due to us not making a point release and us not having the time to collborate.
+   * There has been increasing useful (and some not so useful) traffic on #burrow and #burrow-contributors. A number of individuals are building useful things on top of Burrow without much guidance from us. In Q2 would like to bring them more into the fold. 
+   * In Q2 we hope to have the first official non-Monax maintainers - some of whom are in the process of getting up to speed.
+
+==== B - Bosmarmot ====
+   * This project is now reasonably well stood up. It dramatically simplifies our tooling and provides us a base to provide maintenance to existing users of Burrow (ourselves included). I have also pulled in the integration tests defined here to be run against Burrow on pull requests and merges.
+   * Bosmarmot should keep Burrow useful while we look at longer term migration to Ethereum tooling. For features unique to Bosmarmot there is the possibility of spinning them off - this depends on interest.
+   * Monax-keys may move to Burrow.
+
+==== C - Web3 ====
+   * This bucket was deprioritised in favour of core stability and since Monax is using the existing RPC layer. I had hoped to get some additional help from but there were issues with legal process in getting the contributions that meant that help wasn't available. Hopefully this is viable in Q2
+
+==== P - Project ====
+   * Quite a lot of time was spent improving the build processes and re-organising projects. Hopefully this will pay off over the coming quarters. We are now in a situation where we may much better visibility of the stack and the Platform team is able to have overall accountability for bugs and issues across out stack.
+   * In the process of debugging and testing a number of unplanned features were added: improved logging configuration generation, template base logging, new event system, query system for events, simplified serialisation logic.
+
+===== Roadmap =====
+
+==== Near term (1 week - 1 month ) ====
+^ Work item ^ Buckets ^ Completion ^
+| Publish Bosmarmot | **P**, **A** | Done |
+| Push Hypermarmot | **P** | Done |
+| Make EPM tests pass | **P** | Done |
+| Reconnect v0 RPC | **P**, **A** | Done |
+| Roadmap capture | **P**, **A** | Done |
+| Keys standalone release | **B** | Omitted |
+| Review WIP Hypermarmot PR| **A**, **B**, **C** | Done |
+
+==== Mid term (~ 1 month) ====
+^ Work item ^ Buckets ^ Completion ^ Notes ^
+| Metropolis opcodes implementation | **A** | 20% | |
+| Implement prototype web3 API | **C** | 0% | deprioritised for Monax and technical reasons blocked collaboration with IBM |
+| Add Javascript libraries to Bosmarmot | **B** | 90% | Fixing some tests |
+| Co-located transaction or local signing | **P**, **B** | 0% | pending |
+| Github issues review/triage | **A** | 50% | on-going - waiting to close some tickets after testing |
+| Work on outstanding bugs | **A**, **P** | 75% | many fixed |
+| Assist Fabric/Seth integration | **P**, **A** | 100% | as intended but still on-going |
+| Build early boot/network formation process | **P**, **B** | 60% | still needs key gossip but scripts exist |
+| Provide Kubernetes helm charts | **P**, **B** | 100% | and added to k8s libaries |
+| Provide event firehose | **P**, **B** | 30% | logging and events framework ready to handle but need to be connected |
+| Add building/contributing documentation | **B**, **P** | 10% | small amount added but more needed - is coming |
+| Add deployment documentation | **B**, **A** | 0% | |
+| Add logging documentation | **B**, **A** | 50% | more coming |
+| Add GenesisSpec documentation | **B**, **A** | 80% | in tool usage message |
+| Update RPC documentation | **B**, **C** | 0% | may omit |
+| Reach 50% best practice badge | **B**, **A** | 100% | Badge now at 71% |
+
+==== Late term (2 - 4 months) ====
+^ Work item ^ Buckets ^ Github Issues ^ Completion  ^ Notes ^
+| Reintroduce validator bonding | **P** | 0% | needed this quarter in some form |
+| Provide truffle and web3.js tooling compatibility | **C** | 0% | web3 not complete |
+| Complete Web3 compatibility RPC | **C** | 0% | deprioritised by monax | |
+| Provide trial HSM integaration | **P**, **A** | 20% | objects added PrivValidatorMemory to support - but pending mainline support in Tendermint |
+| Reintroduce secp256k1 keys & ECRECOVER | **A**, **B** | 50% | re-introduced in monax-keys and dropped GPL dependency ready to be moved to Burrow itself for more comprehensive support |
+| Merkle tree replacement | **P**, **A** | 20% | planned to move to tendermint/iavl - but need to add some changes |
+
+Future work:
+All of these remain planned:
+
+  * Seed chains and manage validator set on public Ethereum
+  * Provide state channel mechanism with snative 'FORK'
+  * State save/restore
+  * EVM parallelisation 
+

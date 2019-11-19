@@ -1,0 +1,78 @@
+===== TWGC Development and Innovation =====
+
+==== Description ====
+Help lead the development of hyperledger projects in code, tutorial, demos, with instructions on maillist, rocketchat, etc. This group also help maintain a [[groups/twgc/faq| FAQ page]].
+
+
+==== Volunteers ====
+
+^ Name             ^ LF ID  ^ Organization  ^ Email                         ^ Location  ^
+| Yaoguo Jiang     |        | Huawei        | jiangyaoguo@huawei.com        | Shenzhen  |
+| Ray Chen         |        | Independent   | oldsharp@gmail.com            | Hangzhou  |
+| Wei Hu           |        | HyperChain    | wei@hyperchain.cn             | Hangzhou  |
+| Zhengping Xu     |        | ChainNova     | zerppen@chainnova.com         | Beijing   |
+| Zhangjiong Xuan  |        | Hyperchain    | xuanzhangjiong@hyperchain.cn  | Hangzhou  |
+| Bei Wang         |beiwang | Yunphant      | wangbei@yunphant.com          | Hangzhou  |
+
+
+
+==== Active Developers ====
+**Here we collect monthly contributions to hyperledger**
+
+=== 2017-07 ===
+^ No.  ^ Name            ^ LF ID   ^ Organization  ^ Email                     ^ Commitment  ^ Projects                ^
+| 1    | Baohua Yang     | baohua  | IBM           | yangbaohua@gmail.com      | 8           | fabric, cello, fabric-sdk-py    |
+| 2    | Jay Guo         |         | IBM           | guojiannan1101@gmail.com  | 6           | fabric                  |
+| 3    | yue haitao      |         |  IBM             | hightall@me.com           | 2           | fabric                  |
+| 4    | Kai Chen        |         | IBM           | 281165273@qq.com          | 1           | fabric-sdk-py           |
+| 5    | Liu Wenliang    |         | 你我贷        | liuwenliang0632@qq.com    | 2           | fabric-sdk-java         |
+| 6    | jiang lu        |         | IBM           | lujiang@cn.ibm.com        | 2           | cello, cello-analytics  |
+| 7    | dongpan         |         | Wanda         | pandong@wanda.com         | 1           | fabric-sdk-node         |
+| 8    | Qiang Wang      |         | Softstone              | wqiang0723@gmail.com      | 3           | wqiang0723@gmail.com    |
+| 9    | hongquan zhang  |         |               | zhang@dianrong.com        | 1           | fabric-sdk-java         |
+| 10   | Wang Dong       |         | IBM       | xdragon007@gmail.com      | 1           | fabric-sdk-py           |
+
+
+=== 2017-06 ===
+^ No.  ^ Name         ^ LF ID        ^ Organization   ^ Email                  ^ Commitment  ^ Projects                       ^
+| 1    | Baohua Yang  | baohua       | IBM            | yangbaohua@gmail.com   | 25          |  fabric, cello, fabric-sdk-py  |
+| 2    | Tony Yang    | tonyyang132  | Arxan Fintech  | tony@arxanfintech.com  | 2           |  fabric-sdk-py,                |
+
+
+
+=== 2017-05 ===
+^ No.  ^ Name          ^ LF ID            ^ Organization  ^ Email                     ^ Commitment  ^ Projects                       ^
+| 1    | Baohua Yang   | baohua           | IBM           | yangbaohua@gmail.com      |  15         |  fabric, cello, fabric-sdk-py  |
+| 2    | Ray Chen      |                  | Independent   | oldsharp@gmail.com        |             | fabric                         |
+| 3    | Frank Han     |                  |      | hanhzf@126.com            |             | fabric                         |
+| 4    | Xucheng Li    |                  | IBM           | lixucheng@aliyun.com      |    8        | cello                          |
+| 5    | Kai Chen      | grapebaba        | IBM           | 281165273@qq.com          |             | fabric                         |
+| 6    | Wenliang Liu  | liuwenliang0632  | 你我贷           | liuwenliang0632@qq.com    |   2      | fabric-sdk-java                |
+| 7    | Yaoguo Jiang  |                  | Huawei        | jianguaoguo@gmail.com     |             | fabric                         |
+| 8    | tianbaoqiang  |                  |               | lovetcn@gmail.com         |             | fabric-ca                      |
+| 9    | lichao        |                  | IBM           | hfutuzi@gmai.com          |             | fabric-sdk-py                  |
+| 10   | Qiang Wang    |                  | Independent   | wqiang0723@gmail.com      |             | cello,fabric-sdk-py            |
+| 11   | yuehaitao     |                  |               | hightall@me.com           |             | cello                          |
+| 12   | conghonglei   |                  | Wanda         | conghonglei@wanda.com     |             | fabric                         |
+| 13   | Xi Xue Jia    |                  | IBM           | xixuejia@gmail.com        |             | fabric                         |
+| 14   | Jay Guo       |                  |               | guojiannan1102@gmail.com  |             | fabric                         |
+| 15   | dong pan      |                  | Wanda         | pandong9@wanda.com        |             | fabric                         |
+
+
+
+
+
+
+
+=== 2017-04 ===
+^ No.  ^ Name    ^ LF ID      ^ Organization  ^ Email                  ^ Commitment  ^ Projects                          ^
+| 1    | Baohua Yang | baohua  | IBM           | yangbaohua@gmail.com   | 16           | fabric, fabric-sdk-py, cello      |
+| 2    | Ray Chen  |    | Independent   | oldsharp@gmail.com     | 1           | fabric                            |
+| 3    | Frank Han |    |               | hanhzf@126.com         | 4           | fabric, fabric-ca, fabric-sdk-go  |
+| 4    | Yaoguo Jiang |  | Huawei        | jianguaoguo@gmail.com  |             | fabric                            |
+| 5    | Haitao Yue  |   |               | hightall@me.com        |             | cello                             |
+| 6    | Xucheng Li |    | IBM           | lixucheng@aliyun.com   |             | cello                             |
+| 7    | ZhaoFang Han |  |               | hanhzf@126.com         |             | fabric,fabric-ca,fabric-sdk-go    |
+| 8    | Kai Chen | grapebaba     | IBM           | 281165273@qq.com       |             | fabric-sdk-py                     |
+| 9    | Wei Han |       |               | 499349274@qq.com       |             | fabric                            |
+| 10   | Chao Li |       | IBM           | bjlchao@cn.ibm.com     |             | fabric-sdk-py                     |

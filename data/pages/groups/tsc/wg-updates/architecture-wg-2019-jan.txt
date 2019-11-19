@@ -1,0 +1,30 @@
+====== Hyperledger Working Group Update ======
+
+===== Working Group =====
+Architecture Working Group
+
+===== Working Group Health =====
+The Architecture WG  has had a healthy participation with 8 to 12 participants in most meetings with good diversity across projects and companies. Participation has dropped off a bit during the holiday period. We continue to make slow and steady progress on three work items on System Identities, Privacy and Confidentiality and Interoperability.
+
+
+===== Issues =====
+There are no issues at this time. We seek TSC's help to encourage broader participation from projects and participating companies.
+
+
+===== Overall Activity in the Past Quarter =====
+Regular meetings have been held on two tracks on alternating weeks, with work progressing on three work items.
+The System identities paper is near complete. 
+Interoperability – We are making good progress on framing the interoperability primitives, and listed the interop use-cases which will be used to flesh out the interop requirements. The short term goal is to define a set of common constructs, which could be implemented by individual platforms and combined to enable particular interoperability use cases.
+Privacy and confidentiality track – Continued progress on the white paper. Updated reference system model and analytical framework. Will need platform architects to provide input on “best method” for ensuring the privacy of the sample application.
+
+
+
+===== Planned Work Products =====
+System identities paper and privacy and confidentiality paper. 
+
+
+===== Participant Diversity =====
+Working group participation has been growing a bit with slightly different participants interested in the different tracks.
+
+
+ 

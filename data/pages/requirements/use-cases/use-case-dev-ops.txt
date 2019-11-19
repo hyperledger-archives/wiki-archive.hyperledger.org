@@ -1,0 +1,5 @@
+====== Dev Ops Use Case ======
+
+From hyperledgerproject.slack.com on May 5, 2016: 
+
+''jeremysevareid [12:03 PM] Critical dev ops item came up in Identity WG yesterday and in the face2face general session today - "Fiduciary Code" - review and promotion of the code base releases probably ought to be locked down and signed via electronic signatures and entitlements and perhaps its own blockchain - this is crucial basis for eating own dog food and tamperproofing - audit/compliance/legal review-friendly items needs to start with the code base, runtime crypto and logging is not sufficient''

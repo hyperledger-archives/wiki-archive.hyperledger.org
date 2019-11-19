@@ -1,0 +1,74 @@
+====== Medical Insurance Claims Processing ======
+
+===== Section 1 - Intro =====
+
+==== Business Problem / Opportunity ====
+
+If the estimate of the US health care market is ~3 trillion dollars this represents the aggregate value of processed claims. Medical claims processing is a "feature" of the US health care system that imposes a overhead on not only the claims submitters (the provider organizations) but also the claims payers. Despite standardization in claims pro-forma there is still a large latitude in the format and semantics of the transmitted claims data (a legacy of the past) and no access by claims submitters to the contracts by which payers processes claims. This makes the whole process costly, error-prone and open to abuse.
+
+Claims maybe communicated both electronically and on paper. Pro-forma standards apply to the communication, some subtle variations apply to paper. Surprisingly paper still makes up a significant volume. Payers run large costly scanning and OCR operations with clerical staff to processes paper input as a service to the long tail of small scale providers, removing incentives to change. 
+
+Electronic claims (and associated transactions) are communicated in a format mandated by HIPAA Electronic Data Interchange (EDI) standards. EDI is a 70's era hub and spoke network solution invented before the Internet that has had some updates but has remained largely unchanged as a batch-oriented, records transfer. 
+
+It's supported by EDI vendors who define their own specific interpretations of the standard transactions and publish textual documents that defined these interpretations. Establishing a relationship with an EDI vendor involves signing a contract and establishing a trading partner agreement. Endpoint trading partners must customize solutions to marshal and de-marshal data into and out of each EDI vendors' transactions. 
+
+EDI vendors charge for value-added services in validating the transactions and reliably forwarding them to participants in their network. Setting up an EDI communication is time consuming, manual and costly, and end points pay the EDI vendor for carrying the transaction. 
+
+Consequently time and money is expended:
+
+1. Formatting clinical information into payer-specific EDI billing information (e.g. units and rounding, billable vs. non-billable, rate calculations).
+
+2. Transmitting, tracking, collecting and reconciling claims invoices (e.g. uploading claims, status checking, importing payment, reconciling payer/provider discrepancies)
+
+Payers run automated systems to process claims. They receive the claims input and adjudicate it by: validating the input, looking for duplicates, matching it against files of the participants in the claim (the providers, the patient, the plan(s), the plan's member(s)), validating the claim against the claimant's contract terms and aggregations of values of previously-consumed services represented by those terms (as either an individual or member of a group) and calculate a payment. The payment amount is dictated either by previously agreed "in network" contractual terms reached between the provider and the payer or a "out of network" payment to the member/patient.
+
+Claims processing is further complicated if the member has multiple coverages, in which case the claim might generate another claim which needs to be settled first.
+
+Prior to submitting a claim a provider will almost always ask for a predetermination of the actual payment amount and query the payer for the eligibility and accruals of the insured. Doubling the claims volume a payer must process.
+
+Claims processing is heavily regulated. States mandate for example that payers expedite processing in three days and insurance-backed payers maintain reserves based on projecting amounts derived from calculating historical data. Large asset-rich organizations prefer to self-insure and take advantage of fewer regulations and the inherent cost of a third party that has to maintain huge reserves. Third party administrators fulfill the role of processing the transaction.
+
+==== Current Solution ====
+
+There's a general agreement in the healthcare industry that further streamlining claims processing will have considerable benefits on the the industry and reduce costs. In the US, there are several government agencies and professional groups working on healthcare administrative simplification among them the Centers for Medicare & Medicaid Services (CMS), the Office of the National Coordinator for Health Information Technology (ONC), and the American Academy of Family Physicians (AAFP). 
+
+In 2009, a coalition was formed to address the administrative costs of healthcare, the Healthcare Administrative Simplification Coalition (HASC), which brought together various players in the industry, but it seems extinct since then. 
+
+Under the umbrella of the CMS and the ONC there are various initiatives to simplify administrative procedures, AAFP has also made recommendations and elaborated a framework for administrative simplification. In 2009, the Health Information Technology for Economic and Clinical Health Act, known as the HITECH Act, was enacted with the aim of promoting widespread adoption of information technology in the healthcare system. Large budgets were allocated for the implementation of the HITECH act with various incentives and penalties. This led healthcare professionals to launch IT projects under strict deadlines. "The rush was on for vendors to create electronic health record (EHR) systems and for providers to choose—and pay for—complicated, expensive, and sometimes insufficiently tested systems." (fojp service corporation, 2013).
+
+But since the start these initiatives faced several barriers: fragmented markets, lack of coordination, insufficient leadership, undefined milestones, and unproven concepts. This has left the industry far from achieving interoperability and continue to face challenges integrating the healthcare ecosystem. (Institute of Medicine US, 2010). 
+
+In 2013, the The Quarterly Journal for Health Care Practice and Risk Management describes the situation: "The idealistic goals have now been tempered by frustration as shortcomings become apparent—especially documentation issues, lack of standardisation, and poor communication among systems. Unforeseen safety, privacy, and liability issues have emerged. And some naysayers contend that the move to EHRs has exacerbated medical costs." (fojp service corporation, 2013).
+
+
+In 2018 the AAFP published a press release entitled: “AAFP sustains fight to reduce administrative burden for family medicine” (Aafp.org, 2018). This describes the current atmosphere in the healthcare ecosystem and the tensions between various governmental and private players around the administrative burden of healthcare professionals, leaving patients in limbo with processes that do not meet their expectations.
+
+
+The complexity of the healthcare system makes it difficult to achieve seamless and frictionless experience for all parties. This is essentially rooted in the large number of players in the healthcare industry who have to share patient information and interact with each other. With three members in a clinical team, three separate conversations could take place between any two individuals. If we increase the size of the team to five individuals, the number of possible conversations increases to 10, and for a team of 10 the number of possible conversations blows out to 45. (Coiera, 2018) [Insert image: https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=1579411_cbr27_2p089f1.jpg]
+
+
+
+
+Aafp.org. (2018). AAFP Sustains Fight to Reduce Administrative Burden for Family Medicine. [online] Available at: https://www.aafp.org/media-center/kits/aafp-sustains-fight-to-reduce-administrative-burden-for-family-medicine.html [Accessed 3 May 2018].
+
+Institute of Medicine, (2010). [online] Available at: https://www.ncbi.nlm.nih.gov/books/NBK53909/ [Accessed 3 May 2018].
+
+FOJP Service Corporation. (2013) . [online] Available at: http://www.fojp.com/sites/default/files/Infocus_Summer2013_EHR.pdf [Accessed 3 May 2018].
+
+Coiera, E. (2018). Communication Systems in Healthcare. [online] PubMed Central (PMC). Available at: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1579411/ [Accessed 3 May 2018].
+==== Why a Blockchain? ====
+
+
+
+==== User Stories ====
+
+
+
+==== Opportunity/Justification ====
+
+
+
+===== Section 2 - States and Transactions =====
+
+
+===== Section 3 - Requirements =====

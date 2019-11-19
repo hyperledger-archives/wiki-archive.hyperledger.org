@@ -1,0 +1,22 @@
+1473346641	81.0.112.130	C	error-handling	hgabre	created	
+1473347264	81.0.112.130	E	error-handling	hgabre		
+1473347380	81.0.112.130	E	error-handling	hgabre		
+1473347662	81.0.112.130	E	error-handling	hgabre		
+1473358572	128.107.241.181	E	error-handling	nikileshsa		
+1473358586	128.107.241.181	E	error-handling	nikileshsa		
+1473372359	128.107.241.181	E	error-handling	nikileshsa		
+1473373601	128.107.241.168	E	error-handling	nikileshsa		
+1473374672	128.107.241.168	E	error-handling	nikileshsa		
+1476104199	81.0.112.130	E	error-handling	hgabre		
+1476473921	84.236.16.128	E	error-handling	hgabre		
+1477659899	81.0.112.130	E	error-handling	hgabre		
+1480451740	129.42.208.182	E	error-handling	wlahti	Update details based on latest code changes.	
+1480451769	129.42.208.182	e	error-handling	wlahti		
+1480627732	76.182.81.179	E	error-handling	wlahti	Add instructions to use errors_json.go to define new errors	
+1480627755	76.182.81.179	e	error-handling	wlahti		
+1481061759	129.42.208.184	e	error-handling	wlahti		
+1481122374	129.42.208.183	e	error-handling	wlahti		
+1484940334	76.182.81.179	E	error-handling	wlahti	Update for latest design changes	
+1484940419	76.182.81.179	e	error-handling	wlahti		
+1486413597	129.42.208.174	e	error-handling	wlahti		
+1497920638	173.22.224.10	D	error-handling	tkuhrt	Moved to projects:fabric:error-handling	

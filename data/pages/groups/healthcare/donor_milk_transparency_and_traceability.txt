@@ -1,0 +1,403 @@
+''Instructions are in blockquotes like this.''
+
+===== Donor Milk Transparency and Traceability =====
+
+Labs Github repo located [[https://github.com/hyperledger-labs/milk-donor|here]]
+
+==== Section 1 - Intro ====
+
+=== Overview of the Business Problem or Opportunity ===
+
+We are working to address 2 problems:
+  - Donor banks and NICUs do not have visibility into supply and demand across the donor milk ecosystem or a way to easily ensure that all quality controls are being met across donor banks
+  - There is a lack of incentive for women to participate as a donor even with the documented need (see below).
+
+There is currently a major donor milk shortage. 80 million ounces a year are needed to feed all the neonatal babies in the United States, but only about 15 million ounces are used. (reference?)
+
+This has particular impact in hospitals' Neonatal Intensive Care Units (NICU), where use of "formula" can have fatal impact ([[https://www.chla.org/necrotizing-enterocolitis|necrotizing enterocolitis]]) on a premature baby's intestines, leaving human milk to be the only viable option.
+
+At a global scale, donor milk fraud and lack of traceability are known issues - human milk can sell from anywhere between $4 and $16 an ounce.
+
+"In 2015, a team of researchers who purchased breast milk on the open market reported in the journal Pediatrics that about 10 percent of samples contained cow’s milk, which could have been added by the sellers to increase volume and thus the size of the payment. The same team had reported in 2013 that milk purchased online was frequently contaminated by pathogenic bacteria." //- The appetite for breast milk has produced a growing commodity market// (link below)
+
+While there are smaller entities engaging in the space, there is no large-scale breast milk providers and there is opportunity to expand participation from donors and accessibility for babies in need.
+
+''Please explain the business problem or opportunity in business terms without technical jargon, and without mention of a distributed ledger.''
+
+=== Current Solution ===
+
+[[https://www.rapid-healthcare.com|Rapid Healthcare]] has a production level application to track provenience of mothers milk & human fortified donor milk, the solutions help reduce mis-feeds as well as track enrollment, quantity and mobile labeling of milk products for NICU babies called [[https://www.rapid-healthcare.com/mothers-milk/|Mother's Milk]]. This is not a blockchain based solution, and is looking to provide a global good solution to provide transparency and traceability to the donor milk process in the first mile. 
+
+Rapid Healthcare is also in conversations with Apple Healthcare on how they could leverage their work in Patient Medical Record management to move this work forward: [[https://support.apple.com/en-us/HT208647]]
+
+[[http://www.prolacta.com/|Prolacta]] is a private milk bank that provides standardized human milk-based nutritional products for premature infants in the neonatal intensive care unit (NICU)
+
+Non profit milk banks also participate in this work and there is the [[https://www.hmbana.org/|Human Milk Banking Association of North America (HMBANA)]]
+
+''If there are systems in place today which automate the above business problem/opportunity, please explain what exists.''
+
+=== Why Distributed Ledger Technology? ===
+
+A DLT solution in this case would improve on the current solution for the following reasons:
+  * Enables rapidly verification of details pertaining to recalls or contamination issues - tracking down to the ounce where the contaminated milk originated and has moved; because donor milk is a scarce resource, not having to dispose of more than is absolutely critical is key
+  * Enables a framework for engagement of and potential incentives to potential donors.  Incentives could be managed via network-built-in tokens (like frequent flyer miles, but with more utility)
+  * Track-and-trace, chain-of-custody, and potential improved provenance of all milk entering the system to reduce fraud, waste, and abuse in the market/system
+  * Brings transparency and visibility across different organizations working in the space, to encourage collaboration, especially for standards creation and cost reduction practices
+  * Tamper-evident Data - there is evidence of censorship of contamination of vaccines in certain countries, so it is safe to assume contamination of donor milk would also be suppressed in some areas of the world
+  *  A distributed, decentralized tamper-evident data source can create a solution whereby there is less need for manual verification of any step that can be codified on the blockchain. If well implemented, this can lead to a less costly model than a centralized database implementation of the same model. 
+  * If we are thinking at a global level - the telecommunications infrastructure in many regional health systems makes it difficult to operate centralized databases - a more realistic approach assumes intermittent and unreliable network connectivity, and IT systems capable of offline operation - DLT address that and allows data to survive even if some nodes are offline/corrupted.
+
+''Please explain how distributed ledger technology would improve the current solutions (if they exist) or enable new solutions which were previously unavailable. The goal here is to ensure we do not have a solution looking for problems, but problems where solutions would become possible or significantly improved by using distributed ledger technology.''
+
+=== Opportunity/Justification ===
+
+Give the shortage of supply and the vulnerable population that donor milk supports, any tool that can help increase supply, access, and traceability without adding significant cost is a win for the sector.
+
+It is challenging for donors and prospective recipients to verifying details surrounding the entire process. This creates a market where donors may be resistant to donate and recipients are skeptical of the process to deliver quality milk.  These high costs make it a challenge to create a system that is economical considering the need to provide breast milk to babies who are often in impoverished areas of the world.  
+
+The major need that the build fills is: allowing individuals/entities which today track status of donor milk in different "data silos"/separate donor banks to have a wider view of a "global" donor milk supply chain through the decentralized sharing of chain-of-custody/transfer/track movement/requests data amongst participants. - (?)and this is applicable in a variety of use cases in sourcing of vaccines and treatments (?)
+
+''Use this section to give details that support the value of pursuing these user stories using distributed ledger technology. Some examples of information that might be included here are applicable market segments, workloads, user bases, etc. and any associated data.''
+
+=== Timeline ===
+
+Targeting a POC in time for the [[https://events.linuxfoundation.org/events/hyperledger-global-forum-2018/|Hyperledger Global Forum]]
+
+We are also currently working on a submission for the AsiaPac HIMSS: [[Donor Milk AsiaPac HIMSS Application]]
+==== Section 2 -  User Stories and Requirements ====
+
+== For the HIMSS AsiaPac submission, we are focused on the "happy path" MVP == 
+
+Diagrammed here: {{:groups:healthcare:happy_path_mpv_flow_for_donor_milk.pptx|}}
+
+**Participants**
+  * Hospital
+  * Donor bank laboratory
+  * Donor bank
+  * Admin role
+
+**Facilities**
+  * Hospital
+  * Donor bank laboratory
+  * Donor bank
+
+**Assets**
+  * Milk
+  * DoNor
+  * Facility
+  * Certifications (verification of status throughout the process)
+
+**Transactions**
+  * Smart contracts that facilitate the transfer of milk
+  * Bring new donations into the system
+
+**Additional scenarios to be addressed once MVP is completed**
+  * Recall scenario
+  * Contamination scenario
+  * Donor engagement scenario
+  * Hospital/bank contract scenario
+  * Donor physician's approval scenario
+  * Outpatient prescription validation scenario
+  * Insurance coverage scenario
+
+==Initial Hyperledger Composer Build Details==
+
+Using Hyperledger Composer, Angela has created code. In summary the features of the network are:
+
+  *   (A) New milk samples are called assets "Milk" and given a unique bar code number, which can be changed
+  *   (B) Milk can be tracked and traced as it moves through the network and changes ownership
+  *   (C) Owners are called Traders and can be anyone from the donor to the charity they gave the milk to and/or hospitals and/or places within hospitals(like receiving to NicU etc)
+  *   (D) Descriptions and information about the milk can be documented such as high protein levels, immunoglobulin levels, good for new borns etc.
+  *   (E) Amount of the milk can be traced in ounces
+  *   (F) Each movement of the milk from one owner to another is traced with a unique hash and timestamp as it changes ownership
+  *   (G) All available milk can be seen in the network in order to choose a sample that one would like to acquire  
+
+**Parameters** - What parameters are we looking for inputs and participants?
+  * Batch, pool, location
+
+**Asset metadata**
+  * Flag for valid or invalid (ie a donation gets recalled)
+
+**SME Questions and Responses**
+
+Overall/General
+	• What are the major challenges that donor banks are facing in regard to supply/demand visibility and transparency?
+		○ Hospitals have contracts with milk banks and hospitals might have multiple contracts
+		○ If milk bank NE cannot complete contract they reach out to other banks
+			§ Works in 2 ways
+				□ Raw milk between donors
+				□ Email is method for fulfilling contracts
+	• What legal/regulatory standards are you working with and what does the paperwork load look like to meet these requirements? 
+	• How is collaboration between Non-Profit, For Profit and COOP entities in the space?
+	• Do you engage at an international level with other donor organizations? 
+Supply Chain
+	• How do you communicate your supply to hospitals and decide where your donations go? 
+	• What are the specific issues that drive the supply chain? 
+	• What data are already being collected by your systems for the donations and movement of the them? With the creation of a network what is a list of key attributes she would like to have inside the network on the traders and the milk samples. What is important for her group to be able to query from the network?
+Storage
+	• Are there challenges with physically storing the milk in a secure manner? Is someone trying to make changes to the milk a risk?
+		○ Freezers are secured 
+		○ FedEx or couriers
+		○ If there are delays the milk is replaced
+		○ No history of adulteration
+		○ Bottles are tamper evident
+	• What actions are taken when contamination is detected?
+		○ 2 data bases that track pool # and batch #
+		○ Mock recalls happen every couple of months
+			§ Need to be traced back within a couple of hours
+			§ Might be reported to local and national authorities
+	• Quality assurance
+		○ Detailed screening of donors modeled after blood banks 3-4 step process
+			§ Establishing relationship donor
+			§ Packed for sign off for mother's physician
+			§ Bank can accept the 
+			§ Data tracked in DB and paper based
+		○ Pasteurization of the milk - and processes
+			§ Milk is pooled
+
+''Please explain this use case using actors and interactions and assuming the ideal distributed ledger technology exists. You can tell one or more user stories if they are inter-related.''
+''Please list requirements per user story.''
+''It would be useful to explain where the use of the distributed ledger begins. For example, in a use case for prescription drugs, it would be valuable to ensure: * The manufacturer has sourced the correct ingredients * The manufacturer has combined the ingredients correctly * The manufacturer has tested the finished product and recorded the results for later audit * The finished goods are tracked to ensure the end user received exactly what the manufacturer shipped However, these could all be different use cases addressed with different solutions. So, it's important to explain where the problem starts and where distributed ledger technology would help.''
+
+==== Section 3 - Requirements Not Related to User Stories ====
+
+''It is useful to specify requirements that should be considered but may not be apparent through the user story and usage examples.  This information will help the developers be aware of any additional known constraints that need to be met for adoption of the newly implemented features/functionality.  Precise specifications of the requirements make a developer's job much easier, so when in doubt, consult a technical expert.''
+''Example of the requirements not obvious thru user stories: performance, hardware, connectivity, privacy etc.''
+
+  *  As a permissioned blockchain, a governance model will need to be established, to ensure that network participants agree on and support software updates, etc. Also needs some kind of governance over membership management. 
+  * 
+==== Section 4 -   Resources and Glossary ====
+
+
+Workflow provided by Anton and Ron on 7/30 for review by the Group:
+
+{{ :groups:healthcare:donor_milk_workflow_final.png |Workflow from Anton and Ron}}
+
+PPT that includes the workflow but provides additional context on why a blockchain solutions and steps to get there: 
+{{:groups:healthcare:donormilk_blockchainsolution.pptx| PPT deck from Anton and Ron}}
+
+{{:groups:healthcare:rh15_specimen_collection_workflow_c1_v1.pdf| example workflow for front end build}}
+
+{{:groups:healthcare:mm15-designguidelines_4_.pdf| example design guide for front end build}}
+
+**General background**
+
+  * [[https://www.usnews.com/news/best-states/idaho/articles/2018-02-24/breast-milk-shortage-affects-lifes-most-vulnerable-babies|Breast Milk Shortage Affects Life's Most Vulnerable Babies]]
+  * [[https://www.hmbana.org/milk-processing|How milk is processed]]
+
+**Key facts and evidence base**
+
+  * [[http://www.who.int/news-room/fact-sheets/detail/preterm-birth|WHO Preterm birth : Key facts]]
+  * [[http://www.who.int/elena/titles/donormilk_infants/en/|WHO eLENA : Donor human milk for low-birth-weight infants]]
+  * [[http://www.who.int/pmnch/media/news/2012/preterm_birth_report/en/|WHO PMNCH : Born too soon - The global action report on preterm birth]]
+  * [[https://www.marchofdimes.org/mission/the-global-toll-of-premature-birth.aspx|March of Dimes : The global toll of premature birth]]
+
+**Root cause analysis**
+
+  * [[https://www.telegraphindia.com/1170217/jsp/nation/story_136265.jsp|Linkage between preterm birth and PM2.5 air pollution]]
+
+
+**Counterfeit risk and regulation**
+
+  * https://theconversation.com/without-better-regulation-the-global-market-for-breast-milk-will-exploit-mothers-79846
+  * https://medcitynews.com/2017/04/breast-milk-market/
+  * [[https://futurism.com/unsafe-vaccines-china-blockchain/ | Chinese Citizens Are Using Blockchain to Warn Each Other of Unsafe Vaccines]]
+
+
+**Organizations**
+
+  * [[http://www.internationalmilkbanking.org/|International Milk Banking Initiative (IMBI)]]
+  * [[https://www.hmbana.org/|Human Milk Banking Association of North America]]
+  * [[https://europeanmilkbanking.com/|European Milk Bank Association]]
+  * [[https://milkgenomics.org|International Milk Genomics Consortium]]
+
+**Related News Stories**
+
+  * [[https://www.bbc.com/news/uk-northern-ireland-45566718|Bacteria causes suspension of breast milk service]]
+
+__Brazil__
+
+  * [[https://rblh.fiocruz.br/pagina-inicial-rede-blh|Rede Brasileira de Bancos de Leite Humano]]
+  * [[https://portal.fiocruz.br/|Fundação Oswaldo Cruz (Fiocruz)]]
+  * [[https://portal.fiocruz.br/en/unidade/national-institute-women-children-and-adolescents-health-fernandes-figueira-iff|National Institute of Women, Children and Adolescents Health Fernandes Figueira (IFF)]]
+
+__For-profit entities__
+
+  * [[https://internationalmilkbank.com/|International Milk Bank]]
+  * [[http://www.prolacta.com/|Prolacta Bioscience]]
+  * [[https://medolac.com/|Medolac]]
+  * Mammalia Breast Milk
+
+
+''Please use this section to add references for standards or well-defined mechanisms.   In particular, if any of your requirements specifically call for the implementation of a standard or protocol or other well-defined mechanism, use this section to list them. ''
+''Additionally, if your use case needs non-standard consensus mechanisms or cryptographic tools, please include technical material here, or references to technical material (i.e. a link to an eprint paper with security proofs).  Remember, the burden of proof for security or consensus of non-standard mechanisms will be placed upon the proposer rather than the evaluator of the proposal, so be verbose here if necessary.''
+''It is highly suggested that you define any terms, abbreviations that are not commonly used in order to ensure that your user story is understood properly.''
+
+''Provide a list of acronyms, their expansions, and what they actually mean in general language here. Define any terms that are specific to your problem domain. If there are devices, appliances, or software stacks that you expect to
+interact with Hyperledger, list them here.''
+
+Acknowledgement: This is very loosely based on the OpenStack [[https://github.com/openstack/openstack-user-stories/blob/master/user-story-template.rst | use case template]]
+
+==== Section 5 - Summary of HMBANA 2018 Guidelines ====
+
+=== Introduction ===
+
+Guidelines are available for purchase [[https://www.hmbana.org/our-work/publications-credit-card.html|Here]]
+
+  * Volume of ounces dispensed by banks (currently 26) has increased up to 25% for the last 5 years
+  * Research shows that there are both short and long term benefits for infant and society (and a cost-effectiveness) when donor milk is made available
+  * Guidelines provide evidence based direction to support screening, handling, and distribution of donor milk
+  * There are 3 layers of protection when i t comes to recipient protection against disease: 1) donor screen ing for medical and life-style risk factors: HIV, HTLV, syphilis, Hep B and C; 2) milk pasteurization; 3) no milk is dispensed after pasteurization until a culture is negative for bacteria growth.
+  * 1% of lactating American women donate milk, an indicator of under-utilization
+
+=== Definitions ===
+
+Defines a variety of terms used in the chain of custody for the donated milk. 
+
+=== Organization of a Donor Milk Bank ===
+
+== Administrative Structure == 
+
+Each HMBANA bank has
+  * A director with a medical background
+  * A panel of consultants from a variety of medical specialties
+
+All banks must comply with privacy and confidentiality rules at the federal and state/providence (i.e. HIPAA in the US or HIA in Canada)
+
+=== Donor Qualifications ===
+
+  * Donor screening must include in-person on on-the-phone contact and cannot be limited to electronic communication
+  * 2 approved staff must review, approve, and sign off on donor screening completion
+
+Donors are healthy lactating women that have been 
+
+  - screened verbally an in writing 
+  - given materials to educate them on characteristics that might increase their chances of transmitting blood-borne disease
+  - have sign off from their doctor and their own infants doctor 
+  - go through serological screening for above stated diseases no longer than 6 months prior to  donation
+verify that no medications they are taking are grounds for exclusion - donor are deferred indefinitely for any positive results on a diagnostic/confirmatory serological test
+
+Exclusion criteria include a variety of items that are somewhat similar to what you might find for blood donation
+
+Temporary disqualification may also occur for certain medications, vaccinations or other activities
+
+If a donor tests positive for any diagnostic or sterological test - they are referred to a medical provider of the donor's choice and any milk already collected is disposed of
+
+Donors are encouraged to communicate with milk banks if any aspects of their health change, and the bank is required to document communication with donors at a minimum every 2 months
+
+=== Donor Education and Procedures ===
+
+To ensure safety and quality of donated milk, donors are instructed in proper methods for milk collection, handling, storage and transportation
+
+Donors are given written instructions covering
+  - clean techniques for milk collection
+  - time when donor should refrain from donating
+  - labeling of milk: includes donor ID and date of collection
+  - how to freeze and store milk optimally
+  - safe transportation of the milk to the bank
+
+If the milk was collected before the individual was registered as a donor the screening process will include information gathering around how the milk was collected, stored, and any medications or supplements the donor was taking during the time of collection
+
+=== Milk Bank Procedures ===
+
+== Procedure Manual ==
+
+A detailed procedures manual is available to all milk bank personnel at all times and is reviewed annual and signed by the medical director or other qualified staff
+
+== Additional guidelines are provided for these areas ==
+
+  * The physical building where the milk storage and processing occurs
+  * The standards and care for all equipment - especially thermometers and their routine calibrations
+  * Milk Analysis not required by HMBANA banks, but if it is done, guidelines on the analyzers is provided
+  * Handling of the milk from logging of incoming milk from a donor -- to freezer storage -- defrosting/pooling -- heat processing -- labeling -- shipping
+
+While not required, if bar-coding of milk is done the request is that manufacturers directions be followed, that the bank report out to recipient hospitals about the type they are using, and ideally use the same type as the hospital 
+
+=== Milk Dispensing ===
+
+  * Milk is only dispensed for clinical use by prescription or hospital purchase order only
+  * Dispensed milk is always heat treated unless the prescription specifically calls for raw milk
+  * There are recommendations on the content for the prescription (name, date of birth, date of order, amount of milk needed per day/week), which are for no longer than 1 year 
+  * This section covers they types of conditions that milk is prescribed for - including both a priority list and a list of conditions that are less severe and where prescriptions will be filled if the supply at the bank is sufficient
+  * If the bank is unable to meet the needs of recipients, they reach out to other banks to ask for assistance in filling the order, if there is no additional supply there, bank leadership will decide how they dispense the limited supply, filling of prescriptions on a priority basis looking at diagnosis, severity of illness, alternative treatments and previous milk use.
+  * Transfer of milk between HMBANA banks can be for either raw milk or pasteurized milk; a fee-perounce is established prior to transferring the milk, which covers bank's overhead and processing expenses - for raw milk, transferring bank leaves milk deposit tracking # associated with it; and in the case of pasteurized milk the original label indicating where it was processes is kept, while the receiving bank can also add their label next to, but not on top of the original label
+
+=== Milk Bank Records ===
+
+The bank holds a variety of records for the following groups
+
+  * Donors (laboratory tests and physician release form)
+  * Administrative needs (batch, pool, temperature, financial records)
+  * Recipient (ordering provider, quantities, documentation of quarterly outreach
+
+Annual statistics are sent to HMBANA and published in the annual report
+
+=== Donor Human Milk Depots ===
+
+While the bank accepts responsibility for screening, processing, and distribution of milk, the depots are agencies affiliated with the banks for collecting  and storing the milk that is then transported to the milk bank for processing. The guideline provides information for depot:
+
+  * equipment
+  * storage - (heat-treated milk and unprocessed milk are ideally stored in separate freezers or at least physical separation within the same freezer
+  * records they must keep on donations and temperature logs
+
+Affiliate bank is responsible for depot compliance with guidelines and must indicate compliance via written or verbal confirmation
+
+=== Donor Human Milk Distribution site ===
+
+A donor milk distribution site is a facility that has contracted with a milk bank to carry a supply of donor milk to where it is distributed to receivers of the milk. The donor bank is responsible for certifying compliance of the Distribution sites on an annual basis guidelines include stipulations around
+
+  * equipment
+  * records of milk received from banks - log of various variables
+  * log of milk transferred  from the center of various variables
+  * freezer temp logs
+
+The distribution center has to demonstrate records upon request of the bank.
+
+=== Tracking and Recall of Donor Human Milk ===
+
+A system of tracking donor milk from donor to recipient is maintained
+
+  * mock recalls have the expectation to be able to identify the contaminated milk source within 6 hours and these mock recalls are once the 1st year and then once every 2 years following
+  * Banks are responsible for being compliance with state, federal, and provincial operations requirements
+  * If a recall is suspected, a designated individual will do a root cause analysis and implement process changes as needed. A written report is the required to be submitted to HQ
+
+=== Annual Assessment and Accreditation ===
+
+  * All bank required annual HMBANA accreditation
+  * There is a set schedule for assessment depending on the years the bank has been opened; can include both self and external assessement
+  * There can be monetary penalties or suspension of membership if assessment results do not pass
+  * Developing milk banks (early on in their establishment) have different assessment requirements
+
+==== Section 6 - Interview Results ====
+
+**Interview on 9/27: NICU Lactation Consultant**
+	• Pam is a NICU lactation consultant at one of the largest healthcare facility within a healthcare system that has over 900 facilities
+	• She is specialized due to the size of the facility with NICU lactation consultants and in-patient lactation consultants being distinct roles; her focus is on mother's milk, not donor milk
+	• At smaller facilities, lactation consultant responsibilities includes management of donor milk as well as mother's milk
+	• Pam has offered to take an advisory role moving forward, and she is going to refer us to the dietician that manages the donor milk in the facility
+	• As a NICU lactation consultant, if a mother's supply is good and might expire or if there has been an infant loss, they offer donation as an option
+		○ They refer mothers to WakeMed Donor Bank and they have fliers that they pass along
+		○ They do not do donation collection within the facility
+	• If a baby or mother is transferred to another facility within the healthcare system, the mother's milk has to be relabeled facility to facility - an opportunity to standardize the labeling across the full healthcare system
+	• When Mother's bring in their milk for their baby in the NICU, there are kiosks where the mothers can check in the milk; they use a barcode labeling system
+	• Expiration of milk
+		○ In the NICU in deep freezers milk can hold up to 6 months
+		○ At home in deep freezers the recommendation is 6-12 months
+	• Donor milk is the responsibility of the dietician on staff who manages the supply with donor banks and the milk preparation onsite
+		○ There is informal sharing of donated milk across facilitates within the healthcare system and visibility on supply could be better - an opportunity to improve the donor milk network between facilities within the same system
+
+**Interview on 10/31 with dietitian responsible for all NICU feeding (including donor milk) for major hospital**
+
+  * Currently no issues/problems with how the current system works
+  * 9 years ago biggest issue was with hospital admin and getting them to be OK from a legal perspective, but that is all resolved now
+  * They work exclusively with HMBANA milk banks and use the one in Indiana, because there was a contaminate/foreign object found and she was not happy with how it was addressed
+  * They do not have a contract with HMBANA and they have an order as needed agreement
+  * No issues in procuring the amount needed - they order 600 oz every 4 weeks and there is a par level to always have a stock pile
+  * 6 years ago there was a shortage - and they had to restrict the criteria for babies, but since then have gone back to previous standards of babies that are 1500 grams or less and use it for first 4 weeks
+  * Bartering/exchange between hospitals occurs rarely - maybe 3-4/year around holidays when they don’t realize milk banks are closing
+  * They use Timeless Medical Solutions - tool that monitors the expiration date and provides an alert if it is about to expire
+  * Would she like more visibility on metrics other than expiration date? - Becoming more prominent in neonatal research is about  - caloric density of every bottle, maybe impact methodology of fortifying milked
+  * Higher education mothers will ask about where the milk is coming from - but it is rare
+  * Protocols are determined by physicians and it's costly
+  * If supply was limitless, they would give it to all babies
+  * Every NICU patient has a DRG that isn't covered by insurance, although this isn't their area of expertise

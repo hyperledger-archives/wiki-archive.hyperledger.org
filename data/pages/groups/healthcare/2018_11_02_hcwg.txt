@@ -1,0 +1,124 @@
+====== Hyperledger Healthcare Working Group (HLHCWG) ======
+===== General Meeting Agenda for 2018-11-02 =====
+
+==== Resources: ====
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+----
+
+===== Welcome and Opening Statements =====
+
+  * //A reminder to all HLHCWG members that this meeting is being recorded//
+  * [[https://www.linuxfoundation.org/antitrust-policy|Reading of the Linux Foundation Antitrust Policy]]
+  * [[https://tinyurl.com/HL-antitrust-slide|Hyperledger Antitrust Slide]]
+  * **Discussion: request for note-taking for this meeting
+**
+
+> //In attendance: Rich Bloch (facilitator), Jeff Stollman, Leonard Edwin, Michael Johnson, Raveesh Dewan, Rashida Hawk (new member), Alan Bachmann (recording)//
+===== Introductions =====
+
+  * **If you’re new to the group, please…** 
+    * Introduce yourself
+    * Tell us where you're geographically located
+    * Share with us your interests in healthcare in general, and blockchain technologies in specific
+===== Community Announcements =====
+
+  * **Feel free to share your community announcements as they relate to the Hyperledger community**
+
+  * [[https://health.distributed.com/|Distributed Health 2018 Conference]], November 5-6, Nashville, TN
+    * 20% discount through [[https://blockchainhealthcarereview.com/|Blockchain Healthcare Review website]]
+    * **Discussion: looking for someone to report back on their experiences and take-aways. Volunteers?**
+
+> //Michael Johnson will be attending the “Distributed health 2018 Conference” (November 5-6 in Nashville, TN) and will share notes.
+//
+
+  * [[https://events.linuxfoundation.org/events/hyperledger-global-forum-2018/|Hyperledger Global Forum]], December 12-15, Basel, Switzerland
+    * **Discussion: looking for someone to report back on their experiences and take-aways. Volunteers?**
+
+> //Leonard Edwin may be attending this conference, and if so, will provide feedback to HLHCWG membership upon his return.//
+
+===== HLHCWG Subgroup Updates =====
+
+  * Patient/Member Subgroup (Marissa Iannarone, Lead)
+
+>  * //Every other Fridays from 9 to 10 AM (PST)//
+>  * //Michael Johnson provided an update from Donor milk use case some interviews from people dealing with this first hand.//
+>  * //Milk banks want to hear how their product is being used (help them match supply in ways that better meet needs)//
+>  * //Atrium health reported no contamination issues. (pure supply line)//
+>  * //The goal is to build extensible supply chain patterns to help others use for their use cases//
+>  * //Code development is in progress using Fabric//
+>
+> //Excerpt from the chat channel (https://chat.hyperledger.org/channel/healthcare-wg/)://\\
+> The patient-member subgroup continues to work with the donor milk use case. Michael Johnson and I conducted an interview with a dietitian responsible for all NICU feeding (including donor milk) for a major hospital. Notes can be found here: https://wiki.hyperledger.org/groups/healthcare/donor_milk_transparency_and_traceability#section_6_-_interview_results Other than supply limitations and seeing value of knowing caloric density of milk, no problem spaces emerged. I think we need to try and do similar interviews and collect more data. I talked to Ben and he is willing to talk through a revision of the CTO file, but we want to ensure that any simplification of the file doesn't limit real world applicability. Ben also mentioned trying to find some organizations that would be willing to pilot this with us, if anyone is interested in working to build those relationships.
+
+  * Payer Subgroup (Raveesh Dewan, Lead)
+
+
+> * //Progress made on the “Decision matrix” to help people separate the hype: Is blockchain right for you?//
+> * //Expectation is to abstract out the decision tree for all groups to use across various use cases//
+>  * //Weekly meeting on Tuesday 2 to 3 PM (ET)//
+
+  * EMR Subgroup (Robert Chu, Lead)
+
+> //Not in attendance: no report//
+
+===== Old Business =====
+
+  * Redesigned HLHCWG Wiki is now complete (Rich)
+    * [[https://wiki.hyperledger.org/groups/healthcare/healthcare-wg-wikispace-redesign|Review HLHCWG wiki redesign here]]
+    * Special thanks to our //Ad Hoc Wiki Redesign Team//: Rayne DeVivo, Brian Ahier, and Mikhail Elias
+    * Confluence wiki is just now getting spun up ([[https://wiki2.hyperledger.org/|early preview]]), and we hope to get either Brian or Mikhail to help out with the transition process
+
+> //Wiki redesign complete and shift from DocuWiki to Confluence is in progress. Raveesh Dewan has experience with Confluence and has offered to help with the conversion//
+
+  * Update on academic research in the Hyperledger Project, specifically within healthcare (Adrian, Rich)
+    * Thanks to our //Ad Hoc Academic Research Team//: Adrian Berg and Mikhail Elias
+    * Plan is to develop a proposal/presentation and submit to TSC
+    * Currently in works, [[https://drive.google.com/open?id=1q-d8rGcRK2k_sq4xMUGinwhqwRYg-HOPK0vggaq7XkU|draft located here]]
+
+> //Work continues on the development of an academic research paper to be submitted to the TSC for consideration. Please feel free to view/comment at the link provided//
+ 
+  * Update on the HLHCWG Charter Review (Ken, Leonard)
+    * Thanks to our //Ad Hoc Charter Review Committee//: Ken Allgood and Leonard Edwin
+    * Currently in works, [[https://drive.google.com/open?id=14wLdVKvFcsKdkTTsjFfheJEPUqIqq4g8FmCB5p9AyQE|draft located here]]
+
+> //Work continues on the HLHCWG Charter review/revision. Please feel free to view/comment at the link provided.//
+
+===== New Business =====
+
+  * A discussion of new HLHCWG subgroups (Rich)
+    *** Discussion: do we need new subgroups?**
+
+> //No new subgroups needed at this time, but if we do, we can spin them up rather quickly. Once created, they need to be appropriately staffed and managed.//
+
+  * Healthcare technologies challenges (Rich)
+      * Upcoming opportunities: [[https://www.herox.com/Differential-Privacy-Synthetic-Data-Challenge|NIST Differential Privacy Synthetic Data Challenge]], [[http://www.kidneyx.org/|KidneyX Redesign Dialysis Prize Competition]]
+    *** Discussion: are these worthwhile pursuits?**
+
+> // Good discussion, particularly around the KidneyX competition. Rich has offered to work with Seattle area leadership to identify where we might leverage our understanding of issues. Currently still unclear if there is enough motivation/resources within HLHCWG to proceed.//
+>
+> * //Kidney X Redesign Dialysis Prize ($1m)//
+> * //Ripe for innovation – medical technology created in Seattle in 1960 and relatively unchanged today.//
+> * //Analog recording and transmission telemetry (record 30-minute intervals of general health)//
+> * //Payment model is slow and complicated//
+> * //Not expecting to develop new clinical methods, but rather, improving the patient experience and possibly the payment model/pains//
+
+  * A HIPAA-compliant Hyperledger (Rich)
+    *** Discussion: a great idea... how best to proceed?**
+
+> //Next meeting: continue discussion around defining “HIPAA” compliance and how to validate claims from blockchain platforms readiness//
+
+  * Ken Moyle, Technology Attorney with [[https://www.k6partners.com/|K6 Partners]], will be joining us at our next HLHCWG General Meeting (11/16). Ken is a board member and Chair of the Public Policy Committee for the Electronic Signature & Records Association (ESRA), and will be speaking on the topic of open collaboration and information sharing in an open-source business context.
+
+===== Next Meeting =====
+
+  * Scheduled for Friday, 11/16, 0700 Pacific Time
+  * **Discussion: topics to add to agenda?**

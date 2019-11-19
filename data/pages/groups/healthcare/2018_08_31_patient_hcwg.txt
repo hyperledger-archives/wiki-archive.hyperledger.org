@@ -1,0 +1,150 @@
+Hyperledger Project\\
+Healthcare Working Group (HCWG) Patient Member Subgroup Meeting\\
+August 31, 2018 \\
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Donor Milk Lab Github: https://github.com/hyperledger-labs/milk-donor \\
+Wiki:  https://wiki.hyperledger.org\\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+Meeting Notes\\
+
+10:00-10:10am - subgroup updates and current state of donor milk proof of concept
+
+·        Build did not get accepted to the Hyperledger Global Forum, but I'll be representing the subgroup on a panel titled: Merging Communities / Public Chain or Permissioned Ledger - How To Choose? Looking forward to have our work to speak to and hope to see folks there: https://events.linuxfoundation.org/events/hyperledger-global-forum-2018/
+
+·        Donor Milk use case:
+
+·        This use case was accepted as a lab: https://wiki.hyperledger.org/labs?s%5b%5d=labs
+
+·        Business case: https://wiki.hyperledger.org/groups/healthcare/donor_milk_transparency_and_traceability
+
+·        Labs Github repo: https://github.com/hyperledger-labs/milk-donor
+
+·        We are looking for additional SMEs in the area to join the conversation if  you know anyone
+
+·        Podcasts of interest to the donor milk discussion:
+
+          *   Here's the first EconTalk about kidney donation market proposals http://www.econtalk.org/the-economics-of-organ-donations/
+
+          *   And then this episode is 10 years later, once the new market is in place http://www.econtalk.org/alvin-roth-on-matching-markets/?highlight=["alvin"]
+
+          *   Reply All Podcast on the donor milk ecosystem outside of hospitals (there is a shout out to Naomi at the end): https://www.gimletmedia.com/reply-all/57-milk-wanted
+
+ 
+
+10:10-10:50am - Q&A with Naomi Bar Yam- specific questions to address:
+
+·        Who are all of the participants in the donor milk system (donor banks, hospitals, regulators)?
+
+          *   Milk banks
+
+·        Milk bank is charging fees to hospitals - they are not selling the milk
+
+          *   Insurance companies
+
+·        Sometimes reimbursed
+
+·        ICD/CPT codes? - Yes, there are codes
+
+·        Naomi is not aware of any quality metrics that insurance companies require
+
+          *   Physicians
+
+·        Prescriptions are required receive milk from non-profit milk banks
+
+          *Legislators
+
+          *NICUs
+
+          *Outpatient prescription services
+
+          *Donors
+
+·        Public milk banks are not allowed to pay donors
+
+·        Engagement of donors is done in a variety of ways
+
+          *  Engage in social media
+
+          *  Word of mouth in hospitals
+
+          *  Discharge materials
+
+          *  Donor screening process requires sign off on donation by physicians/private practices, so the milk banks do outreach through them
+
+          *  DB on physicians/private practices
+
+          *  There might be a way to use tokens for an incentive/recognition program, but we'd need to be sensitive to the history of payment for milk and that donors are volunteers and cannot be paid
+
+          *  WIC outreach
+
+          *   Requestors
+
+·        Other forms of milk exchange (body builders, etc.) - non-profit milk do not supply this market
+
+          *   Researchers
+
+·        Non-profit milk banks provide milk for human milk based research
+
+·        Supply chain
+
+         *   Full and preterm departments are starting to ask for milk as well
+
+·        Consumer demand and regulatory
+
+          *   Hospitals have contracts/accounts with more than one milk bank
+
+·        Transparency between banks is limited
+
+·        If one bank cannot fulfill the contract, between banks both raw and processes milk is moved so that orders can be filled
+
+·        What our network would likely is a GS1 barcode format which is
+
+          *  No license required
+
+          *  Open source standard
+
+          *  What Rapid Healthcare uses in NICUs currently
+
+          *  Not all milk banks use this standard currently
+
+          *  There might be an opportunity to look into Decentralized IDs (DIDs) instead of GS1 barcodes if we're wanting to make the system as decentralized as possible
+
+·        What legal/regulatory standards are we working with? What does the paperwork load look like to meet these requirements?
+
+          *   HMBANA has guidelines are written in compliance for FDA and Health Canada
+
+          *   3 states require tissue banking license
+
+          *   Onboarding of and finalizing a contract with hospitals for a milk bank can take up to a year as each hospital has different requirements
+
+·        Naomi to provide the requirements of one of the most complex onboarding experiences that they have
+
+·        This might be a great opportunity for the technology to facilitate and easy this process
+
+·        What are the roles that regulators and public health entities play in the process? - did not address directly
+
+·        What data are already being collected for the donations and movement of the them?  - did not address directly
+
+·        What is a list of key attributes to have inside the network on the participants in the donor milk system and the milk itself? What is important for the milk bank to be able to query from the network?  - did not address directly
+
+·        Testing of milk - are there requirements?
+
+          *   HMBANA milk does not do DNA testing, although some private donor banks do
+
+·        Donors are volunteers
+
+10:50-11:00am - wrap up and next steps
+
+·        Benjamin suggests that we build out the network and bring it back to Naomi for review, iteration - is anyone else interested in the build, please let us know
+
+·        We have received the HMBANA guidelines for setting up a milk bank - Marissa will be reviewing and summarizing for the group
+

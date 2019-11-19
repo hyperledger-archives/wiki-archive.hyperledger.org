@@ -1,0 +1,256 @@
+==== 2017-03-17 ==== 
+
+=== Agenda ===
+
+  * [[ https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85 | Jira board ]] status. There are several old tasks need to be clear soon.
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py | Patchset]] for review. 
+  * MVP remaining tasks discussion.
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]] is publicly available.
+  * Ray Chen has update the wiki page using doku wiki grammar, for stable rending.
+  * Welcome for new contributor: Wei Hu from Hyperchain
+  * Other issues
+    * There is a new go sdk proposed to the community
+
+=== Attendee ===
+
+  * Baohua Yang 
+  * Kai Chen
+  * Wei Hu
+  * Ray Chen
+  * Lei Li
+  * Chang Chen
+
+=== Log ===
+
+
+==Meeting start==
+Agenda here: https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20170317
+
+lafenicecc 11:01 AM
+🤚
+
+baohua 11:01 AM
+item #1: jira board
+https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85
+Chang and I have cleaned those done tasks
+Everyone pls help check ur own tasks, and make sure the status are correct!
+👍 1  
+
+WeiHu 11:02 AM
+✋
+
+baohua 11:02 AM
+item #2: patchsets, we made great progress in patchsets in past weeks!
+https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py
+i will encourage everyone to help review the new patchsets and add ur comments.
++1/-1, either is welcome 🙂
+but we do need close collaborations
+@grapebaba any comments?
+
+grapebaba 11:04 AM
+no
+
+baohua 11:04 AM
+ok
+item #3: the mvp progress
+MVP remaining tasks discussion. @lafenicecc @grapebaba any update?
+what do we still need?
+
+ray 11:06 AM
+I see send_tx and create_tx tasks are still unassigned
+
+lafenicecc 11:06 AM
+the instantiate and invoke test are skipped, anything not done yet? @grapebaba
+
+baohua 11:07 AM
+i think the create_tx has been finished? @ray which jira task? can u send the link
+
+lafenicecc 11:08 AM
+FAB-1768 and 1769, i suppose 😁
+
+ray 11:08 AM
+yep 1768 and 1769
+
+grapebaba 11:09 AM
+right now, i just pass send tx proposal test for install chaincode
+
+baohua 11:09 AM
+i suppose grapebaba and I have finished the create_transaction part?
+
+grapebaba 11:09 AM
+actually we behind a lot
+
+baohua 11:09 AM
+so the create_tx part is done, we are working on the send_tx part?
+am i correct?
+
+grapebaba 11:10 AM
+create_tx may be not a public method
+refer to node and java
+
+lafenicecc 11:11 AM
+Any help do u need? like track with latest changes of fabric or node-sdk?
+
+baohua 11:11 AM
+ok, seems we still need some effort. any volunteers to help improve this two functions? @lafenicecc @ray
+
+grapebaba 11:12 AM
+i will take send tx and finish whole install process first
+👍 2  
+
+baohua 11:13 AM
+thanks, then will assign 1768 to @lafenicecc and 1769 to @grapebaba first. while other people will help on these two remaining work.
+Let's target to finish MVP before end of March!
+
+lafenicecc 11:13 AM
+ok
+
+baohua 11:13 AM
+especially for @ray and @WeiHu , would need ur help indeed.
+
+ray 11:14 AM
+😉 ok!
+
+baohua 11:14 AM
+OK. sdk spec is there: https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4
+
+WeiHu 11:14 AM
+of course😃
+
+baohua 11:15 AM
+next item: thanks to ray, he has update the wiki page using doku wiki grammar, for stable rending. 
+
+ray 11:15 AM
+So it's in public domain now
+
+baohua 11:15 AM
+pls feel free to report problems in wiki
+
+ray 11:15 AM
+I mean the sdk spec
+
+baohua 11:16 AM
+yeap, already open for a while
+somehow a little out-of-date with fabric 1.0
+and i have to say again. documentation is really important for open-source projects.
+even more important than code sometimes 🙂
+OK.
+any comments till now?
+OK, exciting moment! Welcome for new contributor: Wei Hu from Hyperchain!
+@WeiHu would u like to give a brief? to meet each other 🙂
+
+ray 11:18 AM
+👍
+
+lafenicecc 11:18 AM
+welcome!!
+
+baohua 11:18 AM
+🌺🌻🌼
+
+WeiHu 11:20 AM
+really glad to join the group and make contribution~ i'm from hyperchain, let's make the project done together~
+👍 1  
+
+baohua 11:20 AM
+thanks, definitely we need everyone's hand!
+
+WeiHu 11:20 AM
+😛
+
+baohua 11:20 AM
+OK, next item
+
+grapebaba 11:20 AM
+👏
+
+baohua 11:20 AM
+There is a new go sdk proposed to the community in yesterday TSC meeting.
+glad we have more sdk now. but somehow not sure how to use this go sdk, maybe not in web apps.
+And some guy tells they are trying to deploy fabric on Raspberry pie（树莓派）, this is interesting ~~
+
+ray 11:22 AM
+I see a hot mailing list thread discussing the sub-project proposal etc.
+
+grapebaba 11:22 AM
+go sdk is very good
+
+baohua 11:22 AM   
+yeap, this topic has been arised several times...
+
+WeiHu 11:23 AM
+is it approved?
+
+grapebaba 11:23 AM
+right now, there are some tools such as configtx
+
+baohua 11:23 AM
+i only wanna we have more efficient collaboration method, no matter how to organize...
+yeap, configtxgen
+
+grapebaba 11:23 AM
+it can invoke it native
+
+baohua 11:23 AM
+but it can be just inside the fabric...
+
+grapebaba 11:24 AM
+but how can use in client side
+
+baohua 11:24 AM
+yeap, the interesting question is what kind of client may wanna pick Golang now....
+
+grapebaba 11:25 AM
+me
+🙂
+
+WeiHu 11:25 AM
+web?
+
+baohua 11:25 AM
+i know golang can provide web... backend people still like java 😞
+  
+personally i like golang, but it may need more time to teach people.
+
+WeiHu 11:25 AM
+golang is becoming more populate i think
+
+grapebaba 11:25 AM
+no, i don't like use golang for web
+
+baohua 11:26 AM
+haha, let's see, i believe in future there will be 3 languages: Java(Script), Python, and Golang --> JPG@@
+
+WeiHu 11:26 AM
+😂
+
+baohua 11:26 AM
+🛬
+
+grapebaba 11:27 AM
+web should be dominate by javascript
+
+baohua 11:27 AM
+last time at PyCon i threw this opinion
+
+grapebaba 11:27 AM
+guess
+
+baohua 11:27 AM
+ok, we have 3 minutes remaining, any more issues to discuss today?
+programming language/tool battle is always popular.....
+
+ray 11:28 AM
+and editors battle
+
+baohua 11:28 AM
+Ok, if there's no more issue, we will end the meeting...
+Thanks everyone, have a nice weekend!
+
+ray 11:29 AM
+🍹
+
+WeiHu 11:29 AM 
+✌
+
+==Meeting end==

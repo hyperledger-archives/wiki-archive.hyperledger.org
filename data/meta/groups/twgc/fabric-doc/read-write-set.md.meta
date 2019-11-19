@@ -1,0 +1,5 @@
+a:2:{s:7:"current";a:7:{s:4:"date";a:2:{s:7:"created";i:1543218502;s:8:"modified";i:1493018083;}s:4:"user";s:0:"";s:7:"creator";s:0:"";s:11:"last_change";a:7:{s:4:"date";i:1493018083;s:2:"ip";s:13:"114.243.30.59";s:4:"type";s:1:"E";s:2:"id";s:40:"groups:twgc:fabric-doc:read-write-set.md";s:4:"user";s:6:"ylsGit";s:3:"sum";s:0:"";s:5:"extra";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}s:11:"description";a:1:{s:8:"abstract";s:469:"[原文](<http://hyperledger-fabric.readthedocs.io/en/latest/readwrite.html>)
+
+## 交易模拟和read-write set
+
+在背书节点上的交易模拟期间会产生一个交易的read-write set。`read set`包含在模拟期间交易读取到的唯一key及对应version。`write set`交易改写的唯一key（可能与`read set`中的key重叠）及对应的新value。如果交易的更新操作是删除一个key，则在`write set`为该key设置一个delete标记。";}s:8:"relation";a:1:{s:10:"firstimage";s:0:"";}}s:10:"persistent";a:4:{s:4:"date";a:1:{s:7:"created";i:1543218502;}s:4:"user";s:0:"";s:7:"creator";s:0:"";s:11:"last_change";a:7:{s:4:"date";i:1493018083;s:2:"ip";s:13:"114.243.30.59";s:4:"type";s:1:"E";s:2:"id";s:40:"groups:twgc:fabric-doc:read-write-set.md";s:4:"user";s:6:"ylsGit";s:3:"sum";s:0:"";s:5:"extra";s:0:"";}}}

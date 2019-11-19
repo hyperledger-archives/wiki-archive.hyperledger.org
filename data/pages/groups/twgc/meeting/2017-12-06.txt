@@ -1,0 +1,73 @@
+===== TWG China Meeting =====
+
+==== Basic Info ====
+10AM ~ 11AM, 2017-12-06, GMT+8
+
+  * Option #1: Use computer to access [[ https://zoom.us/j/248676399 | zoom]] (Recommend using microphone and headset)
+  * Option #2: Dial in using the [[https://zoom.us/zoomconference?m=mTUdEBuT33gjEcR54Rqsi1KmFyNgSLYP|phone number]]. E.g.,	400 669 9381 or 010-87833177 (Premium Toll) for China area.
+
+[[https://docs.google.com/presentation/d/1punUCr0mSZT9gMKCs3vCYqbWbjeS_RG-18ZrhkfwoYc/edit?ts=5a14dfdf | Antitrust Policy Notice]]
+
+==== Attendee ====
+
+**Pls add ur name here before the meeting.**
+
+  * Baohua Yang
+  * Dijun  Liu
+  * Allen Shao
+  * Scott Long - LF
+  * Kai Chen
+  * Xiao Wei - Baidu
+  * Zhangjiong Xuan
+  * Yaoguo Jiang
+  * Sheng Huang
+  * Min Luo
+  * Wei Xiao
+
+
+==== Agenda ====
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - [[https://lists.hyperledger.org/g/tsc/attachment/1256/0/paper.pdf|Hyperledger Whitepaper Draft]]
+    - [[https://docs.google.com/document/d/1V2X9A2yTdHNbI1v3itspjisWashMOabHXWbxMEZFs90 | Hyperledger Training and Education WG]].
+  - [[groups/twgc/team_di | Team development and Innovation]] (Yaoguo Jiang, Zhangjiong Xuan)
+    - Code development on interested projects
+    - Share the technical FAQ to the maillist
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Linsheng Yu, Jiannan Guo)
+    - Process and work plan
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin, Haixu Cheng)
+    - Welcome companies to share usage cases at [[https://wiki.hyperledger.org/groups/twgc/team_cs|case collection ]]
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Zhou Xing, Zhoudong Ji and Sheng Huang)
+    - Will have a [[https://wiki.hyperledger.org/groups/twgc/wuhan-meetup-2017-12|meetup at Dec 9, Wuhan]]
+    - Will have a [[https://wiki.hyperledger.org/groups/twgc/beijing-meetup-2017-18|meetup at Dec 10, Beijing]]
+    - **[[groups/twgc/team_eo| Call for sponsors]] for Meetups in Jan, 2018.**
+    - Call for HL member news, will select to publish through official wechat channel. Feel free to contact TWGC.
+  - other issues
+    - New Member self-introduction
+    - [[https://jira.hyperledger.org/browse/FAB-5496 | SM2 support]] by Zhenhua Dong, Dijun Liu
+    - [[https://jira.hyperledger.org/browse/FAB-6263 | MongoDB support]] by HuiQi Li (oxchain)
+    - Others?
+
+
+==== Minutes ====
+
+  - [[https://lists.hyperledger.org/g/tsc| TSC meetings sync]]
+    - [[https://lists.hyperledger.org/g/tsc/attachment/1256/0/paper.pdf|Hyperledger Whitepaper Draft]]. People feel interested with this and wanna know when to publish.
+    - [[https://docs.google.com/document/d/1V2X9A2yTdHNbI1v3itspjisWashMOabHXWbxMEZFs90 | Hyperledger Training and Education WG]]. Our volunteers feel interested to help the activities.
+  - [[groups/twgc/team_di | Team development and Innovation]] (Yaoguo Jiang, Zhangjiong Xuan)
+    - Code development on projects including fabric, cello, sawtooth.
+    - **TODO: Sheng will help share the technical FAQ to the maillist to call for help answer**
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Linsheng Yu, Jiannan Guo)
+    - Process and work plan. **TODO: linsheng is prepare a website to host the docs**
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin, Haixu Cheng)
+    - Welcome companies to share usage cases at [[https://wiki.hyperledger.org/groups/twgc/team_cs|case collection ]]
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Zhou Xing, Zhoudong Ji and Sheng Huang)
+    - Will have a [[https://wiki.hyperledger.org/groups/twgc/wuhan-meetup-2017-12|meetup at Dec 9, Wuhan]], need everyone's help to promote the event. It is the first time we hold technical event in Wuhan.
+    - **TODO: Scott will share a presentation to represent LF and TWGC.**
+    - Will have a [[https://wiki.hyperledger.org/groups/twgc/beijing-meetup-2017-18|meetup at Dec 10, Beijing]]. Registration is full now.
+    - **[[groups/twgc/team_eo| Call for sponsors]] for Meetups in Jan, 2018.**
+    - Call for HL member news, will select to publish through official wechat channel. Feel free to contact TWGC.
+    - Ning Dong suggests to bridge Peking Univ. to co-hold technical events there.
+  - other issues
+    - New Member self-introduction: Wei Xiao (Baidu), Ning Dong (ChainNova)
+    - [[https://jira.hyperledger.org/browse/FAB-5496 | SM2 support]] by Zhenhua Dong, Dijun Liu. **TODO: Dijun will help prepare a design doc and share to the maillist**
+    - [[https://jira.hyperledger.org/browse/FAB-6263 | MongoDB support]] by HuiQi Li (oxchain)

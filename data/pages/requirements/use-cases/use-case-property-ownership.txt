@@ -1,0 +1,65 @@
+// Jonathan Mohan is going to work on this. //
+
+====== Property Ownership Use Case ======
+
+Track who has title to high-value assets including land, airplanes, boats and cars.
+
+See for example: 
+  * https://en.bitcoin.it/wiki/Smart_Property
+  * http://chromaway.com/papers/A-blockchain-based-property-registry.pdf
+
+===== User Stories =====
+Today the ownership registration is in most cases done highly decentralized – property is registered with the respective city, the ownership of cars, yachts or planes is often not registered with an authority but stated in papers or physical certificates. Within this application the property right is certified to the owner/user. After registering the asset the owner of a high-value asset can prove his/her ownership to relevant parties: I. e. potential buyers of the asset, banks in case the asset is supposed to be pledged as collateral, police in case of theft.
+
+Individual user stories 
+  * Proof of ownership to a potential buyer of the asset 
+  * Proof in ownership in legal disputes 
+  * Proof of ownership to insurance companies when concluding the insurance contract  and in case of an incident (e. g. theft, loss of property, damage of property, car accident) 
+  * Proof of ownership to law enforcement in case of theft 
+
+===== Usage Scenario Examples =====
+TBD
+
+===== Problem Definition =====
+TBD
+
+===== Related User Stories or Problems ====
+  * Use case Escrow
+  * Use case Custody 
+  * Use case global KYC database 
+  * Use case sensitive Record Tracking 
+  * Use case shipping Manifests 
+  * Use case Luxury Goods Tracking 
+
+===== Opportunity/Justification =====
+TBD
+
+===== Requirements =====
+The main requirements of this use case center around auditability and authentication
+
+==== Authentication ====
+Authentication is present at several levels, with different requirements re.  confidentiality/privacy 
+  * User authentication (access to the system) 
+  * Proof of the existence and authenticity of the assets 
+  * Owner authentication 
+  * Authentication of entity/mechanism legally confirming the ownership  
+  * Authentication of entity/mechanism with the right to extract and decrypt information (e. g. insurance companies, law enforcement) 
+
+==== Proof of the existence and authenticity of the assets ====
+Proof of the existence and authenticity of the assets can happen in principle in 2 different ways: 
+  * A copy of the current means of proof is created on the Blockchain and signed either by a notary public type of entity or the entity that holds/creates the official proof - These entities have to be registered and users must be able to convince themselves that their signature is a) authentic and b) the entity has the right to grant the certificate 
+  * The primary certificate of an asset's existence and authenticity is held on the Blockchain. In this case it also has to be ensured that the entity issuing the certificate is authentic and has the right of issuing the certificate 
+
+In order to prohibit the use of the Blockchain for initially unintended  purposes (e.g., creation of a catalogues of existing assets of a kind for marketing campaigns) accessing any asset data should be possible only with consent of the owner.  
+
+==== Owner authentication ====
+TBD 
+
+===== External References =====
+TBD
+
+===== Rejected User Stories / Usage Scenarios =====
+TBD
+
+===== Glossary/Appendices =====
+TBD

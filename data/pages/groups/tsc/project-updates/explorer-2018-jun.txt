@@ -1,0 +1,50 @@
+====== Hyperledger Explorer Update ======
+
+
+===== Project Health =====
+Project health is green. We are working with Fabric 1.1. 
+We use all of the following to help keep project health green: JIRA, RocketChat, email, Gerrit, Jenkins, GitHub, Zoom, Skype.
+Questions asked via rocket-chat are being answered in a timely manner. For greater efficiency in this regard, a FAQs page will be checked in into the repository soon.
+Daily standup calls are held M-F at 8:30 am. Some days there is one more early AM to accommodate our members in India.
+Good mix of backgrounds of contributors, from front-end to back-end expertise.
+Patch sets are reviewed internally within contributing organizations and then within the developer community. 
+
+
+
+===== Issues =====
+There is some added functionality that we would like to add to the Hyperledger Explorer project (such as a node's health-check and/or performance matrix), which rely on some functionality which, once added to the Fabric Node SDK, will be highly beneficial. These are not issues, but more of improvements... but we listed this here in this category as we are reporting and logging such requests and requirements via Hyperledger's JIRA issue system and are following closely.
+===== Releases =====
+v0.3.2: Release 3.2 of blockchain-explorer is going to be ready for Friday June 28th, 2018. Going forward releases will be clearly tagged. 
+
+
+===== Overall Activity in the Past Quarter =====
+In this quarter (Apr-Jun 2018) aim was to accomplish a lot more of the backend work. All of this is expected to be able with 0.3.2 release on June 28th, 2018.
+
+1. Upgrade to Fabric 1.1 
+2. Re-organization of project directory structure in order to accommodate future goal of cross-platform compatibility of Explorer.
+3. Docker containerization of Explorer.
+4. Complete unit test suites for front-end and backend testing.
+5. Integration of Swagger into the Node js project.
+
+
+
+===== Current Plans =====
+•	Create Block detail page
+•	Improve look and feel
+•	Provide a visual representation of blocks and transactions
+
+
+
+===== Maintainer Diversity =====
+Active maintainers are only from DTCC.
+
+
+
+===== Contributor Diversity =====
+Active contributors are only from DTCC. We are requesting help from the community to increase contributor diversity.
+
+
+===== Additional Information =====
+None
+
+ 

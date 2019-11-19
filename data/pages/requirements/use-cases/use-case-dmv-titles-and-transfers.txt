@@ -1,0 +1,5 @@
+====== DMV Titles and Transfers Use Case ======
+
+Car ownership titles are records of automobile ownership. When an automobile is sold, the title has to be transferred as well to the new owner. In some cases, the assigned titles may be held by a bank as lien towards the loan. The other day, I noticed a colleague struggle with title transfer from one owner to the other.
+
+Blockchain is a good way to represent titles, ownership, transfers across state boundaries and state-level Departments of Motor Vehicles (DMVs). It also facilitates other applications around law-enforcement, levying property taxes, used automobile valuations when combined with vehicle history and other records.

@@ -1,0 +1,20 @@
+=====Hyperledger Beijing Meetup=====
+
+====时间====
+13:30-17:00, Dec 23, 2017
+
+====地点====
+TBD
+
+====赞助商====
+场地赞助：Call for sponsor\\
+茶歇赞助：Call for sponsor
+
+====议程====
+^ 时间           ^ 题目                                  ^ 演讲者 ^
+| 13:30-13:40  | Opening                                | TBD |
+| 13:40-14:30  | TBD (Technical sharing)                | TBD |
+| 14:30-15:20  | TBD (Technical Deep dive)              | TBD |
+| 15:20-15:40  | Tea break                              | N/A |
+| 15:40-16:30  | TBD (Use case/Best practice sharing)   | TBD |
+| 16:30-17:00  | Open Discussion                        | All attendees |

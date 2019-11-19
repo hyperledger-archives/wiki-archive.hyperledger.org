@@ -1,0 +1,7 @@
+===== Ad hoc work teams =====
+[[healthcare-wg|Home]] : [[stakeholders|Stakeholders]] : [[stakeholders-groups|Groups]]
+----------
+
+  * [[stakeholders-adhoc-wiki-redesign|Wiki redesign team]]
+  * [[stakeholders-adhoc-academic-research|Academic research team]]
+  * [[stakeholders-adhoc-charter-review|Charter review team]] 

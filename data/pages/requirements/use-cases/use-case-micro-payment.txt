@@ -1,0 +1,31 @@
+====== Micro Payment Use Case ======
+
+Any monetary transaction has a transaction fee associated with it. In case of micropayments, the amount of the fee becomes especially important as any fixed amount would not leave any money to the final beneficiary. So, for micro payments, the transaction fee should be ideally zero (0).
+
+==== Private/public company equity issuance/trading/tracking/servicing ====
+
+** User Type #1**
+  * Operator of the ledger
+  * E.g., governments and states who perform incorporation, governance and servicing of Corps, LLCs, Partnerships
+
+** User Type #2**
+  * The consumers of the information stored on the ledger
+  * For example, these may include:
+    * Issuing agency (ex. State of New York)
+    * Exchanges
+    * Founders of companies
+    * Investors into companies
+    * Shareholders
+    * Employees with stock options
+    * Banks providing services and that must perform KYC
+
+** Assets **
+  * For example, these may include:
+    * Stock certificates (various classes of such stock)
+    * Membership interests
+    * Partnership interests
+  * Metadata to be attached on top and could include all sorts of compliance:
+    * Registered agents
+    * Annual reports
+    * Tax filings
+    * Certificates of good standing

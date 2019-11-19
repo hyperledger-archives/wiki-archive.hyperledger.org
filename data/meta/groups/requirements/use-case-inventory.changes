@@ -1,0 +1,74 @@
+1477574486	209.122.234.108	C	groups:requirements:use-case-inventory	jeremys	created	
+1477575272	209.122.234.108	E	groups:requirements:use-case-inventory	jeremys	amend - Initial migration from google spreadsheet version	
+1477576263	209.122.234.108	E	groups:requirements:use-case-inventory	jeremys	Amend - split into sections and added status definition section	
+1477576352	209.122.234.108	E	groups:requirements:use-case-inventory	jeremys	[Use Case Inventory] purpose of document	
+1477576371	209.122.234.108	e	groups:requirements:use-case-inventory	jeremys	[Use Case Inventory] 	
+1477579944	209.122.234.108	E	groups:requirements:use-case-inventory	jeremys	[Table] Updated link to migrated TF LOC use case	
+1479138291	209.122.234.108	E	groups:requirements:use-case-inventory	jeremys	[Table] cds status	
+1479140183	209.122.234.108	E	groups:requirements:use-case-inventory	jeremys	[Table] amend URL, status, as of for most cap mkt	
+1479140368	209.122.234.108	E	groups:requirements:use-case-inventory	jeremys	[Table] added money mkts back in	
+1479141490	209.122.234.108	E	groups:requirements:use-case-inventory	jeremys	Updated 1/2 of gov use cases' status date	
+1479142027	209.122.234.108	E	groups:requirements:use-case-inventory	jeremys	Updated remaining gov use cases' status/as-of	
+1479142753	209.122.234.108	E	groups:requirements:use-case-inventory	jeremys	Updated remaining use case status' except for Olegs	
+1479143796	209.122.234.108	e	groups:requirements:use-case-inventory	jeremys	Fixed URL of DvP	
+1480715841	172.56.27.137	E	groups:requirements:use-case-inventory	cliveb	[Table] 	
+1482436124	92.24.252.30	e	groups:requirements:use-case-inventory	cliveb	[Table] update per Monday's WG call in align/reconcile discussion with Oleg	
+1486447152	108.91.170.73	E	groups:requirements:use-case-inventory	david_boadita	[Table] 	
+1492647128	76.28.243.25	e	groups:requirements:use-case-inventory	cliveb	[Inventory] added Supply Chain Traceability place holder 	
+1492647239	76.28.243.25	E	groups:requirements:use-case-inventory	cliveb	[Table] 	
+1492652455	76.28.243.25	e	groups:requirements:use-case-inventory	cliveb	place holder for supply chain traceability Google doc 	
+1492729251	76.28.243.25	e	groups:requirements:use-case-inventory	cliveb	[Inventory] 	
+1494466127	76.28.243.25	E	groups:requirements:use-case-inventory	cliveb	[Table] 	
+1494466816	76.28.243.25	e	groups:requirements:use-case-inventory	cliveb	moved external google doc to internal pdf	
+1494467122	76.28.243.25	e	groups:requirements:use-case-inventory	cliveb		
+1494467476	76.28.243.25	e	groups:requirements:use-case-inventory	cliveb		
+1501542918	66.35.1.109	e	groups:requirements:use-case-inventory	cliveb	[Inventory] added After-The-Fact Mandate Changes placeholder for pdf	
+1501543026	66.35.1.109	e	groups:requirements:use-case-inventory	cliveb	[Inventory] 	
+1501543090	66.35.1.109	e	groups:requirements:use-case-inventory	cliveb	[Table] 	
+1501543498	66.35.1.109	e	groups:requirements:use-case-inventory	cliveb	[Table] 	
+1501543574	66.35.1.109	E	groups:requirements:use-case-inventory	cliveb	[Table] 	
+1501543618	66.35.1.109	E	groups:requirements:use-case-inventory	cliveb	[Table] 	
+1501543652	66.35.1.109	E	groups:requirements:use-case-inventory	cliveb	[Table] 	
+1501544399	66.35.1.109	E	groups:requirements:use-case-inventory	cliveb	[Table] 	
+1501544509	66.35.1.109	e	groups:requirements:use-case-inventory	cliveb	[Table] 	
+1501544662	66.35.1.109	E	groups:requirements:use-case-inventory	cliveb	[Table] 	
+1501544751	66.35.1.109	E	groups:requirements:use-case-inventory	cliveb	[Table] 	
+1501547079	66.35.1.109	e	groups:requirements:use-case-inventory	cliveb	[Inventory] Added a placeholder for Supply Chain Interoperability use case  	
+1505472843	86.129.2.64	e	groups:requirements:use-case-inventory	adrianblakey	Added medical insurance enrollment	
+1505473189	86.129.2.64	e	groups:requirements:use-case-inventory	adrianblakey	Added medical insurance claims	
+1505473452	86.129.2.64	e	groups:requirements:use-case-inventory	adrianblakey	Added provider credentialing	
+1505473915	86.129.2.64	e	groups:requirements:use-case-inventory	adrianblakey	Added medical insurance brokerage and reporting	
+1505753191	115.66.176.101	E	groups:requirements:use-case-inventory	nathanaw		
+1505753221	115.66.176.101	E	groups:requirements:use-case-inventory	nathanaw	[Table] 	
+1505753313	115.66.176.101	E	groups:requirements:use-case-inventory	nathanaw		
+1514484800	73.109.63.140	e	groups:requirements:use-case-inventory	cliveb	author name typo corrected	
+1516238261	68.172.237.160	E	groups:requirements:use-case-inventory	Psychomotikon	[Table] 	
+1516238335	68.172.237.160	E	groups:requirements:use-case-inventory	Psychomotikon	[Table] 	
+1517877407	172.254.55.75	e	groups:requirements:use-case-inventory	polleywong		
+1517877927	172.254.55.75	e	groups:requirements:use-case-inventory	polleywong		
+1518138359	73.225.57.104	E	groups:requirements:use-case-inventory	cliveb	new use case MaRSChain: Framework for a Fair Manuscript Review System Based on Permissioned Blockchain	
+1518138409	73.225.57.104	E	groups:requirements:use-case-inventory	cliveb		
+1518138763	73.225.57.104	e	groups:requirements:use-case-inventory	cliveb	[Table] 	
+1518138996	73.225.57.104	E	groups:requirements:use-case-inventory	cliveb	[Table] 	
+1519510093	99.245.132.214	E	groups:requirements:use-case-inventory	SandeepKanao	Added new use case - Population Health Data	
+1520217727	67.188.175.13	E	groups:requirements:use-case-inventory	CathySF	[Table] 	
+1520220271	67.188.175.13	E	groups:requirements:use-case-inventory	CathySF		
+1520306046	174.62.115.57	E	groups:requirements:use-case-inventory	adrianblakey		
+1520898997	174.62.115.57	E	groups:requirements:use-case-inventory	adrianblakey		
+1520899104	174.62.115.57	E	groups:requirements:use-case-inventory	adrianblakey		
+1520899209	174.62.115.57	E	groups:requirements:use-case-inventory	adrianblakey		
+1520899311	174.62.115.57	E	groups:requirements:use-case-inventory	adrianblakey		
+1520959606	174.62.115.57	E	groups:requirements:use-case-inventory	adrianblakey		
+1521051602	73.225.57.104	E	groups:requirements:use-case-inventory	cliveb	[Table] 	
+1522423408	12.202.171.194	E	groups:requirements:use-case-inventory	CathySF	[Table] 	
+1524087267	173.25.58.194	E	groups:requirements:use-case-inventory	tkuhrt	groups.io update	
+1525033744	174.62.115.57	E	groups:requirements:use-case-inventory	adrianblakey	[Table] 	
+1525033905	174.62.115.57	E	groups:requirements:use-case-inventory	adrianblakey		
+1525034168	174.62.115.57	E	groups:requirements:use-case-inventory	adrianblakey		
+1525035855	174.62.115.57	E	groups:requirements:use-case-inventory	adrianblakey		
+1525791162	12.202.171.194	E	groups:requirements:use-case-inventory	CathySF	[Table] 	
+1525791432	12.202.171.194	E	groups:requirements:use-case-inventory	CathySF	[Table] 	
+1525792661	12.202.171.194	E	groups:requirements:use-case-inventory	CathySF	[Table] 	
+1530023094	58.182.44.201	E	groups:requirements:use-case-inventory	samirneji	[Table] 	
+1530023202	58.182.44.201	E	groups:requirements:use-case-inventory	samirneji		
+1530023416	58.182.44.201	E	groups:requirements:use-case-inventory	samirneji	[Table] 	

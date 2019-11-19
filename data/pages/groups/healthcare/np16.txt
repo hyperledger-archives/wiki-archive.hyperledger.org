@@ -1,0 +1,54 @@
+Hyperledger Project\\
+Healthcare Working Group (HCWG) Payer Subgroup Meeting\\
+August 14, 2018 \\
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+Meeting Notes\\
+
+Prior Auth Process https://lists.hyperledger.org/g/healthcare-wg/attachment/540/1/prior-authorization-process.png
+
+PA Process flow https://lists.hyperledger.org/g/healthcare-wg/attachment/540/2/PA%20Process%20Flow.png
+
+VA problem is a problem that needs to be solved. Veterans choice program - split, outsource care to a payor network - too big of a problem, talk about a whitepaper
+
+Pre Authorization as a use case
+     *Soft Prior Auth
+     *Hard Prior Auth
+     *Patient has identity in a digital wallet
+          *Does person have auth for specialist consultation?
+          *Patient initiates medical encounter
+               *Depending on insurance either
+                    *Goes to primary physician
+                    *Goes to specialist
+               *Provider uses trust certificate to identify your payor
+               *Some kind of ID card, digital certificate, chip reader
+          *Exam, Dr wants to send you to a specialist for further tests
+          *Nurse uses your certificate to send to the payor to see if they need Prior Auth
+               *If no - order test
+               *If yes - place order form for prior auth
+                    *Auth process
+                         *Internal channel processes
+                              *Collaboration between physician, medical records, contractors, 
+                              *External info required
+               *Query against EHR in a zero knowledge proof
+               *Publish criteria for approval, submit all info up front for prior auth, immediate auth unless marginal result
+          *Build out private channel in Payor network
+               *Business
+               *Medical 
+               *Forms submitted
+                    *Goes onto ledger
+                    *Approve, reject, qualify request
+          *Data model that needs to go to the ledger, needs a consensus mechanism, endorsed, put a block on the ledger
+               *Valid patient
+               *Valid provider
+               *Payor notified Prior auth request made
+                    *Get transaction from the ledger and process it

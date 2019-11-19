@@ -1,0 +1,47 @@
+Hyperledger Project\\
+Healthcare Working Group (HCWG) \\
+September 21, 2018 \\
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+Meeting Notes\\
+
+Team Introductions\\
+- Please introduce yourself, where you're geographically located, and your interests in healthcare in general, and blockchain technologies in specific\\
+
+Announcements\\
+The Distributed healthcare conference is coming up in Nashville TN in early November. Who is going? If there are enough people Rich will put together an official working group event with Hyperledger staff.  Rich emailed out the current 20% off promo code. \\
+
+HLHCWG Subgroup Updates\\
+- Patient/Member Subgroup (Marissa Iannarone, Lead)\\
+Donor milk use case submitted to Asia Pacific conference. Marissa is working through the National Donor Milk guidelines. Ben doing the actual build out. \\
+- Payer Subgroup (Raveesh Dewer, Lead)\\
+Exploring what are various healthcare use cases and how can Blockchain be best used. Covered pre authorization, provider data, and next week value based care. Working toward a whitepaper on the challenges where blockchain would be a useful tool.  \\
+- EMR Subgroup (Robert Chu, Lead)\\
+Robert has been unavailable for quite some time. If EMR subgroup wants to keep going they need to figure out who will lead it next.  \\
+
+Old Business\\
+- Academic involvement in the Hyperledger Project, specifically within healthcare (status and updates)\\
+- Availability of blockchain framework evaluation papers and resources (status and updates)\\
+Healthcare relies on evidence based best practices. What is the value of blockchain? What is the pathway to adoption? Lack of guidance on what does HIPAA compliance looks like in blockchain?\\
+- Bringing Hyperledger learning resources to the HLHCWG (status and updates)\\
+Are Hyperledger technical presentations valuable and if so, how often would we like to have them? Yes! Every other or maybe every third meeting.  Raveesh thinks he might like to do this in his subgroup too.  \\
+
+New Business\\
+- Discussion of the appointment of a new HLHCWG lead\\
+Nate has given up his leadership role, is anyone besides Rich interested in being the leader? No, everyone who speaks up agrees Rich should lead the group.\\
+
+Next Meeting\\
+- A short discussion of pertinent topics for our next HLHCWG General Meeting\\
+- A review of the HLHCWG Charter (https://www.hyperledger.org/wp-content/uploads/2016/10/HealthcareWGCharter_public.pdf)
+- A discussion of new HLHCWG subgroups\\
+

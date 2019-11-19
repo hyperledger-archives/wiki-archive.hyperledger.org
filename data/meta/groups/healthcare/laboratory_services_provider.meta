@@ -1,0 +1,34 @@
+a:2:{s:7:"current";a:8:{s:4:"date";a:2:{s:7:"created";i:1539145278;s:8:"modified";i:1539356603;}s:7:"creator";s:13:"Mikhail Elias";s:4:"user";s:8:"melias11";s:11:"last_change";a:7:{s:4:"date";i:1539356603;s:2:"ip";s:13:"190.148.78.76";s:4:"type";s:1:"e";s:2:"id";s:46:"groups:healthcare:laboratory_services_provider";s:4:"user";s:8:"melias11";s:3:"sum";s:0:"";s:5:"extra";s:0:"";}s:5:"title";s:35:"Role : Laboratory services provider";s:11:"description";a:2:{s:15:"tableofcontents";a:6:{i:0;a:4:{s:3:"hid";s:32:"rolelaboratory_services_provider";s:5:"title";s:35:"Role : Laboratory services provider";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:1;a:4:{s:3:"hid";s:4:"name";s:5:"title";s:4:"Name";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:2;a:4:{s:3:"hid";s:11:"description";s:5:"title";s:11:"Description";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:3;a:4:{s:3:"hid";s:30:"services_systems_and_scenarios";s:5:"title";s:30:"Services systems and Scenarios";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:4;a:4:{s:3:"hid";s:13:"related_roles";s:5:"title";s:13:"Related roles";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:5;a:4:{s:3:"hid";s:13:"role_policies";s:5:"title";s:13:"Role policies";s:4:"type";s:2:"ul";s:5:"level";i:3;}}s:8:"abstract";s:461:"Role : Laboratory services provider
+
+	*  Home : Activities : Domain analysis : Human milk services
+	*  Home : Resources : Analytical models : Human milk services model
+
+----------
+
+Name
+
+Laboratory services provider
+
+Description
+
+tbd
+
+----------
+
+Services systems and Scenarios
+
+	*  Human milk services
+		*  Human milk donor services
+			*  Screen prospective milk donor
+			*  Screen milk
+
+
+
+----------
+
+Related roles
+
+	*  Laboratory manager
+	*  Role
+
+----------";}s:8:"relation";a:2:{s:10:"references";a:12:{s:50:"groups:healthcare:healthcare-wg-wikispace-redesign";b:1;s:28:"groups:healthcare:activities";b:1;s:35:"groups:healthcare:analysis-business";b:1;s:37:"groups:healthcare:analysis-human-milk";b:1;s:27:"groups:healthcare:resources";b:1;s:35:"groups:healthcare:analytical_models";b:1;s:43:"groups:healthcare:human_milk_services_model";b:1;s:37:"groups:healthcare:human_milk_services";b:0;s:43:"groups:healthcare:human_milk_donor_services";b:1;s:47:"groups:healthcare:screen_prospective_milk_donor";b:1;s:29:"groups:healthcare:screen_milk";b:1;s:36:"groups:healthcare:laboratory_manager";b:1;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:4:{s:4:"date";a:1:{s:7:"created";i:1539145278;}s:7:"creator";s:13:"Mikhail Elias";s:4:"user";s:8:"melias11";s:11:"last_change";a:7:{s:4:"date";i:1539356603;s:2:"ip";s:13:"190.148.78.76";s:4:"type";s:1:"e";s:2:"id";s:46:"groups:healthcare:laboratory_services_provider";s:4:"user";s:8:"melias11";s:3:"sum";s:0:"";s:5:"extra";s:0:"";}}}

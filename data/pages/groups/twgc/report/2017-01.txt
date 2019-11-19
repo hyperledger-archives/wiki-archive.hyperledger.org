@@ -1,0 +1,15 @@
+==== TWG China report for Jan 2017 ====
+
+=== Status ===
+  - Team: The team is setup with 3 initial chairs and 3 liaisons from LF. 8 persons are joined as volunteers who help drive the working items. 
+  - Meeting: 2 meetings are held with active discussions, all minutes are put on the wiki page.
+  - Events: An official announcement blog is published; The hackathon place and date is negotiated (plan to hold 100+ players); 2 meetups are held at beijing and shenzhen (each one has 100+ attendees).
+  - Technical communications: 62 subscribers to mail-list, with 85 msgs.
+  - Working charter was approved in TSC meeting.
+  - Others: 
+    - Volunteers are driving the i18n work for Hyperledger documentations (10+ persons show interests to help contribute).
+
+=== Issues ===
+  - Meeting tools: need global access number + screen sharing (julian and donald are helping)
+  - i18n work: Any recommended platform to use? And where can we put the translated results?
+  - Forum: Adopt the global one? Or use some local 3rd-party one?

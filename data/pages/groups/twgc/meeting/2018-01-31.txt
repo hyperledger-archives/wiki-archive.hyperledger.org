@@ -1,0 +1,83 @@
+===== TWG China Meeting =====
+
+==== Basic Info ====
+10AM ~ 11AM, 2018-01-31, GMT+8
+
+  * Option #1: Use computer to access [[ https://zoom.us/j/248676399 | zoom]] (Recommend using microphone and headset)
+  * Option #2: Dial in using the [[https://zoom.us/zoomconference?m=mTUdEBuT33gjEcR54Rqsi1KmFyNgSLYP|phone number]]. E.g.,	400 669 9381 or 010-87833177 (Premium Toll) for China area, code is 248676399.
+
+[[https://docs.google.com/presentation/d/1punUCr0mSZT9gMKCs3vCYqbWbjeS_RG-18ZrhkfwoYc/edit?ts=5a14dfdf | Antitrust Policy Notice]]
+
+==== Attendee ====
+
+**Pls add ur name here before the meeting.**
+
+  * Baohua Yang
+  * Sheng Huang
+  * Norbert Huang
+  * Haitao Yue
+  * Zhenbing Su
+  * Jiannan Guo
+  * Min Luo
+  * Haitao Yue
+  * Linsheng Yu
+  * Zhujun He
+  * Dijun Liu
+  * Zhenhua Dong
+  * Allen Shao
+
+
+==== Agenda ====
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - [[https://www.hyperledger.org/announcements/2018/01/23/2018-hyperledger-global-forum-announced | Hyperledger Global Forum, December 12-15, Basel, Switzerland]]
+    - 2018 Hackfest planning: February 20-22 | Los Angeles, April 29 - May 1 | Dubai (tentative -- more details soon), June 27-29 | Amsterdam
+  - [[groups/twgc/team_di | Team development and Innovation]] (Yaoguo Jiang, Zhangjiong Xuan, Haitao Yue)
+    - [[https://github.com/hyperledger/fabric/releases/tag/v1.1.0-alpha|Fabric 1.1.0-alpha]]  is released
+    - [[https://github.com/hyperledger/cello/releases/tag/v0.8.0-alpha| Cello 0.8.0-alpha]] is released
+    - [[https://github.com/hyperledger/sawtooth-core/releases/tag/v1.0.0| Sawtooth 1.0.0]] is released
+    - [[https://jira.hyperledger.org/browse/FAB-5496 | SM2 support]] by Zhenhua Dong, Dijun Liu
+    - [[https://jira.hyperledger.org/browse/FAB-6263 | MongoDB support]] by HuiQi Li (oxchain)
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Linsheng Yu, Jiannan Guo)
+    - Docs for fabric 1.1.0-alpha
+    - Regular post how to contribute
+    - [[groups/twgc/faq|Technical FAQ update]]
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin, Haixu Cheng)
+    - Welcome companies to share usage cases at [[https://wiki.hyperledger.org/groups/twgc/team_cs|case collection ]]
+    - Call for HL member news, will select to publish through official wechat channel. Feel free to contact TWGC.
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Jiannan Guo, Sheng Huang)
+    - **[[groups/twgc/team_eo| Call for meetup plans]] for year 2018.** 
+    - Report on meetups at Jan 25:[[http://www.huodongxing.com/event/6422462034800?td=5532621486715|Shanghai meetup]] and Jan 27: [[https://wiki.hyperledger.org/groups/twgc/beijing-meetup-2018-01|Beijing meetup]].
+    - Feb 4: [[https://wiki.hyperledger.org/groups/twgc/shanghai-meetup-2018-01|Shanghai meetup]]
+    - Guangzhou meetup discuss 
+    - Dalian meetup discuss(March 10th,zhangrui)
+    - Suggestion:Regular Meetup Plan for 2018，First weekend for Beijing(Possible Beijing university?), Second weekend for Shanghai(Fudan university), Third weekend for Hangzhou(Zhejinag University/Zhejiang association), Fourth weekend for Shenzhen(??). so Event group can arrange speaker/Topic one or two weeks ahead.  For special one, we can discuss it alone.
+    - [RFC] [[groups/twgc/events/guideline | Event organizing guideline (draft)]]
+  - Other issues
+    - The next meeting (Feb-14) is cancelled due to Chinese new year festival
+    - Feel free to add here
+
+==== Minutes ====
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - [[https://www.hyperledger.org/announcements/2018/01/23/2018-hyperledger-global-forum-announced | Hyperledger Global Forum, December 12-15, Basel, Switzerland]]
+    - 2018 Hackfest planning: February 20-22 | Los Angeles, April 29 - May 1 | Dubai (tentative -- more details soon), June 27-29 | Amsterdam; Call for more places and sponsors.
+  - [[groups/twgc/team_di | Team development and Innovation]] (Yaoguo Jiang, Zhangjiong Xuan, Haitao Yue)
+    - [[https://github.com/hyperledger/fabric/releases/tag/v1.1.0-alpha|Fabric 1.1.0-alpha]]  is released
+    - [[https://github.com/hyperledger/cello/releases/tag/v0.8.0-alpha| Cello 0.8.0-alpha]] is released
+    - [[https://github.com/hyperledger/sawtooth-core/releases/tag/v1.0.0| Sawtooth 1.0.0]] is released
+    - [[https://jira.hyperledger.org/browse/FAB-5496 | SM2 support]] by Zhenhua Dong, Dijun Liu. **Dijun will discuss with the fabric team on the implementation roadmap **
+    - [[https://jira.hyperledger.org/browse/FAB-6263 | MongoDB support]] by HuiQi Li (oxchain)
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Linsheng Yu, Jiannan Guo)
+    - Start setup docs for fabric 1.1.0-alpha
+    - ** TODO: linsheng will post how to contribute regularly **
+    - Questions on edx courses, **TODO: jiannan will help contact tracy to see how to help translate.**
+    - [[groups/twgc/faq|Technical FAQ update]], welcome to add questions/answers.
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin, Haixu Cheng)
+    - Welcome companies to share usage cases at [[https://wiki.hyperledger.org/groups/twgc/team_cs|case collection ]]
+    - Call for HL member news, will select to publish through official wechat channel. Feel free to contact TWGC.
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Jiannan Guo, Sheng Huang)
+    - **[[groups/twgc/team_eo| Call for meetup plans]] for year 2018. Feel free to add more.** 
+    - Report on meetups at Jan 25:[[http://www.huodongxing.com/event/6422462034800?td=5532621486715|Shanghai meetup]] and Jan 27: [[https://wiki.hyperledger.org/groups/twgc/beijing-meetup-2018-01|Beijing meetup]] (~200 attendees with active discussions).
+    - Feb 4: [[https://wiki.hyperledger.org/groups/twgc/shanghai-meetup-2018-01|Shanghai meetup]]; March in Guangzhou and Dalian.
+    - Discussions on [[groups/twgc/events/guideline | Event organizing guideline (draft)]], zhujun suggest consider more promotation activities after the meetup. **TODO: jiannan will help improve based on advices and share in maillist.**
+  - Other issues
+    - The next meeting (Feb-14) is cancelled due to Chinese new year festival

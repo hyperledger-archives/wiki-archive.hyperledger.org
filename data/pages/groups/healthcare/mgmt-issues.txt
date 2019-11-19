@@ -1,0 +1,10 @@
+===== Issue resolution =====
+[[healthcare-wg-wikispace-redesign|Home]] : [[management|Management]]
+----------
+
+==== Issues ====
+
+^ Issue ^ Status ^ Date created ^ Date resolved ^ Action ^
+| | | | | |
+| | | | | |
+| |||||

@@ -1,0 +1,64 @@
+===== TWG China Meeting =====
+
+==== Date ====
+10AM ~ 11AM, 2017-02-15, GMT+8
+
+==== Attendee ====
+
+  * Baohua Yang
+  * ZhouDong Ji
+  * Kai Chen
+  * Victor HU
+  * Ray Chen
+  * Yaoguo Jiang
+  * Yin Cao
+  * Scott Long
+  * Shenglei Yang (new from alibaba health)
+  * Sijie Wu (new, independent)
+
+==== Agenda ====
+  - TSC meeting sync (baohua, charles, victor)
+    - Call for mentor for the summer school
+    - Hackfest in SF: ~50 attendee, lots of great discussions
+  - Tools: Hyperledger has migrated to Rocket.Chat (chat.hyperledger.org)
+  - meetup/hackathon (zhou xing)
+  - mail-list, rocketchat activities report (yaoguo and zhipeng)
+  - Community development report (Ray Chen)
+  - i18n work (kewei and zhoudong)
+  - Linux conf/blockchain developer day: will be held in June, at Beijing.
+    - Any suggestion on this blockchain developer day?
+  - other issues
+
+==== Minute ====
+  - TSC meeting sync (baohua, charles, victor)
+    - Call for mentor for the summer school
+    - Hackfest in SF: ~50 attendee, lots of great discussions
+  - Tools: Hyperledger has migrated to Rocket.Chat (chat.hyperledger.org)
+    - Most people are already there.
+  - meetup/hackathon (zhoudong)
+    - venue placement are ready
+    - environment setup
+    - Energy-Blockchain will have a team to attend the hackathon
+    - **TODO**: help pr with official announcement soon
+  - mail-list, rocketchat activities report (yaoguo)
+    - yaoguo: since the new year holiday, not many topics. Mostly on setup/get-started issues.
+    - kewei sun: mail-list has some registration problem in last week, now fixed
+    - sijie wu: long delay after registration
+    - Can ask Todd (tbenzies@linuxfoundation.org) if meet any problem in mail-list
+  - Community development report (Ray Chen)
+    - In recent two weeks: fabric is the most active one, 125 patches, stl has 84 patches, iroha has 4 patches, cello has 10 patches.
+    - fabric 1.0 new features (ca, gossip, etc) are most active component.
+    - New contributors from wanda have 4 new patches in sdk and chaincode.
+    - Wanda is preparing some javascript support.
+    - We need to encourage more developers by helping low the entrance bar.
+  - i18n work (kewei and zhoudong)
+    - kewei: platform selection: have discussed OpenStack team, they are using .po files, we need to support .md files. Both transifex and zanata do not support .md.
+    - **TODO**: terminology form, platform
+    - zhoudong: guideline on setup/contribution
+  - Linux conf/blockchain developer day: will be held in June, at Beijing. Any suggestion on this blockchain developer day?
+    - shenglei and yin are interested to attend/help.
+  - other issues
+    - yin: shanghai meetup on energy-internet in March. 
+    - scott: wechat public subscription account will be ready soon.
+    - shenglei: suggest to have local mirror of the documentation.
+    - kewei: where to put the documentation? Maybe use the official project (**TODO**: setup documentation project).

@@ -1,0 +1,7 @@
+===== Domain analysis : Clinical trials services =====
+[[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]] : [[analysis-business|Domain analysis]]
+----------
+
+  * Participants : [[payor-swg|Payor SWG]]
+  * Meeting minutes : [[np14|26-JUN]]
+  * Business case : [[business-case-clinical-trials-services|Clinical trials services business case]]

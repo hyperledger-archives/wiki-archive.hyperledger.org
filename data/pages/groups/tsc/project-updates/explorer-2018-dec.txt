@@ -1,0 +1,36 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+HYPERLEDGER EXPLORER
+
+===== Project Health =====
+Project health is green. We released Tag v0.3.7.1 of HL Explorer for Fabric 1.2. We use all of the following to help keep project health green: JIRA, RocketChat, email, Gerrit, Jenkins, GitHub, Zoom, Skype. Questions asked via rocket-chat are being answered in a timely manner. For greater efficiency in this regard the FAQs page is updated with every check in. Good mix of backgrounds of contributors, from front-end to back-end expertise, however more community involvement is  very much encouraged and welcomed.
+
+
+===== Issues =====
+Maintaining contributor diversity is a little bit of a challenge at this time. 
+
+
+===== Releases =====
+v0.3.7.1: Release 3.7.1 of blockchain explorer was put out on October 4th, 2018 which is in support of Fabric 1.2, and Hyperledger Explorer made available via docker.
+
+
+===== Overall Activity in the Past Quarter =====
+In this quarter (October-December) aim was to make the fabric 1.2 compliant version of Explorer more complete and stable. An automated deployment of the Hyperledger Explorer is now available via docker. More details at https://github.com/hyperledger/blockchain-explorer/blob/master/release_notes/v0.3.7.md , and https://github.com/hyperledger/blockchain-explorer#Run-Hyperledger-Explorer-using-Docker
+
+===== Current Plans =====
+Bug fixes. Ongoing upgrade to fabric-1.3 on branch https://github.com/hyperledger/blockchain-explorer/tree/release-3.8
+
+
+===== Maintainer Diversity =====
+No new maintainers were added.
+
+
+
+===== Contributor Diversity =====
+Currently we have contributors from DTCC, Fujitsu, Altoros, there are some contributors wishing to join and add additional functionality
+
+===== Additional Information =====
+Need more active contributors.
+
+ 

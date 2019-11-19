@@ -1,0 +1,19 @@
+==== TWG China Group Report for October 2017 ====
+
+=== Status ===
+  - Team: The team were collaborating in development, adoption cases, i18n, event organization and other tasks. We have 1 new active volunteers joining: Sheng Huang from IBM.
+  - Meeting: 2 meetings were held with active discussions (with LF experts). All minutes can be found on the [[ groups/twgc/meetings | wiki]].
+  - [[groups/twgc/team_cs | Collaboration and Scenarios]]
+    - 2 more adoption cases will be discussed to add (Fudan Univ., Annie).
+  - [[groups/twgc/team_di | Technical Development]]
+    - New developers are joining, see the [[groups/twgc/team_di | development page]].
+    - Technical Communication: active discussions happen in the rocket chat channel/maillist.
+    - Code contributions to Hyperledger fabric, cello, sawtooth and other projects.
+  - [[groups/twgc/team_ie | i18n and education work]]
+    - The team has finished the evaluation of zanata platform and invite volunteers to use it.
+  - [[groups/twgc/team_eo | Event organization ]]
+    - We now have free places to host meetups in Beijing, Shanghai and Hangzhou, supported by our volunteers.
+    - The regular meetup plan is started, meetups in following months are in plan.
+
+=== Issues ===
+  - Meeting platform: The uber-conference system provides no local access number, sometimes not stable to access through web browser (reported by attendees). 

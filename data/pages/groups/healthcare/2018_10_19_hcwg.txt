@@ -1,0 +1,93 @@
+**Hyperledger Healthcare Working Group (HLHCWG) \\
+General Meeting Agenda for 2018-10-19**
+
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+---
+
+A. Welcome and Opening Statement
+  * Reading of the Linux Foundation Antitrust Policy (https://www.linuxfoundation.org/antitrust-policy)
+  * Antitrust Slide (https://tinyurl.com/HL-antitrust-slide)
+
+B. Introductions
+  * **If you’re new to the group, please…** 
+    * Introduce yourself
+    * Tell us where you're geographically located
+    * Share with us your interests in healthcare in general, and blockchain technologies in specific
+
+C. Community Announcements
+  * **Feel free to share community announcements as they relate to the Hyperledger community**
+  * Distributed Health 2018 Conference (https://health.distributed.com/), November 5-6
+    * 20% discount through Blockchain Healthcare Review website (https://blockchainhealthcarereview.com/)
+    * HLHCWG will not be offering a special session at the conference (not enough members)
+
+D. HLHCWG Subgroup Updates
+  * Patient/Member Subgroup (Marissa Iannarone, Lead)
+  * Payer Subgroup (Raveesh Dewer, Lead)
+  * EMR Subgroup (Robert Chu, Lead)
+
+E. Old Business
+  * TSC Quarterly Progress Report for HLHCWG is complete (Rich)
+
+//TSC has accepted our quarterly report and we are good for one more quarter. Moving forward we won't be presenting to the TSC, but they will review just to stay informed//
+
+  * Bringing Hyperledger learning resources to the HLHCWG (Rich)
+    * Confirmed: Change Healthcare (https://www.changehealthcare.com/) to present at upcoming HLHCWG General Meeting
+    * In talks with a technology attorney willing to speak on technology IP and open source collaborations
+
+//Rich is working to get dates on bringing Mark, an IP lawyer, and also Change Healthcare who is using Hyperledger Fabric//
+
+  * Update on academic research in the Hyperledger Project, specifically within healthcare (Adrian)
+    * Plan is to develop a proposal/presentation and submit to TSC
+    * Team: Adrian Berg and Mikhail Elias
+
+//Adrian provided an update - they have created a summary document that will be presented to the TSC. There are several options that they are proposing: replace the whitepaper working group with a research working group, ad hoc research, review of PoCs, etc. There is some reorganization of how the working groups report up to the TSC, but that might not be the case moving forward.
+//
+
+  * Update on the Hyperledger Project wiki environment (Rich)
+    * Standing up Confluence wiki in parallel with DocuWiki
+    * Our current wiki redesign efforts continue (Mikhail)
+      * Thanks to our wiki redesign team: Rayne DeVivo, Brian Ahier, and Mikhail Elias 
+      * Prototype link: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg-wikispace-redesign
+
+//Rayne confirmed that Confluence is coming soon. Next big step is when we migrate over to Confluence, we'll be able to leverage the JIRA/Confluence connectivity to our advantage for the donor milk use cases or other things
+
+Rich will send out an email asked for any feedback by next week before we cutover to the new landing page for the HCWG//
+
+F. New Business
+
+  * A review of the HLHCWG Charter
+    * Current charter is out of date (c. 2016) with newer HLWG charter template
+    * Our charter:
+      * https://www.hyperledger.org/wp-content/uploads/2016/10/HealthcareWGCharter_public.pdf
+    * New charter template:
+      * https://docs.google.com/document/d/16GJw2cxXf_Sw1DFbsInkgQ1jy_eXxteUgKdge09jw-k/view 
+    * Newer template will better capture HLHCWG mission statement/scope, and deliverables
+    *** Discussion: what is our mission statement?**
+
+//Rich would like to see the Charter revised so that we have a succession plan and allow others to get involved at the leadership level.//
+
+//We need to go from our current charter and revise with the template. Rich proposes doing a committee to draft it and then bring it back to the group.//
+
+//Committee will be Rich, Ken Allgood, Leonard Edwin with Adrian Berg and Marissa Iannarone to review before we bring it back to the group.//
+
+//Part of this rewrite will be looking at how we can present a value proposition for SMEs that we are looking to bring in.//
+
+//The Healthcare working group should be able to provide feedback to Hyperledger if the tools are not adding value to the healthcare space and that we're actively using these tools and that we communicate up the challenges that we face up to TSC leadership//
+
+  * A discussion of new HLHCWG subgroups
+    *** Discussion: do we need new subgroups?**
+
+G. Next Meeting
+  * Scheduled for Friday, 11/02, 0700 Pacific Time
+  * **Discussion: topics to add to agenda?**

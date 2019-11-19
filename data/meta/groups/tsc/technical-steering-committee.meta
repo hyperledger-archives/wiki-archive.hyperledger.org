@@ -1,0 +1,14 @@
+a:2:{s:7:"current";a:8:{s:4:"date";a:2:{s:7:"created";i:1547502120;s:8:"modified";i:1547502120;}s:4:"user";s:0:"";s:7:"creator";s:0:"";s:5:"title";s:28:"Technical Steering Committee";s:11:"description";a:2:{s:15:"tableofcontents";a:3:{i:0;a:4:{s:3:"hid";s:28:"technical_steering_committee";s:5:"title";s:28:"Technical Steering Committee";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:46:"tsc_call_-_weekly_on_thursday_1000am_1100am_et";s:5:"title";s:53:"TSC Call - Weekly on Thursday, 10:00am – 11:00am ET";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:2;a:4:{s:3:"hid";s:7:"minutes";s:5:"title";s:7:"Minutes";s:4:"type";s:2:"ul";s:5:"level";i:3;}}s:8:"abstract";s:395:"Technical Steering Committee
+
+ Members
+
+Chair: Dan Middleton  @Dan
+
+Mailing list:  https://lists.hyperledger.org/g/tsc
+
+TSC Call - Weekly on Thursday, 10:00am – 11:00am ET
+
+	*  See call time in different zones
+	*  Join from PC, Mac, Linux, iOS or Android: <https://zoom.us/my/hyperledger.community.backup>
+	*  Or iPhone one-tap :
+		*  US: +16699006833,,6223336701# or +16465588656,,6223336701#";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}s:8:"relation";a:1:{s:10:"firstimage";s:0:"";}s:11:"last_change";a:7:{s:4:"date";i:1547502120;s:2:"ip";s:14:"73.225.187.252";s:4:"type";s:1:"e";s:2:"id";s:39:"groups:tsc:technical-steering-committee";s:4:"user";s:7:"ryjones";s:3:"sum";s:10:"[Minutes] ";s:5:"extra";s:0:"";}}s:10:"persistent";a:4:{s:4:"date";a:1:{s:7:"created";i:1547502120;}s:4:"user";s:0:"";s:7:"creator";s:0:"";s:11:"last_change";a:7:{s:4:"date";i:1547502120;s:2:"ip";s:14:"73.225.187.252";s:4:"type";s:1:"e";s:2:"id";s:39:"groups:tsc:technical-steering-committee";s:4:"user";s:7:"ryjones";s:3:"sum";s:10:"[Minutes] ";s:5:"extra";s:0:"";}}}

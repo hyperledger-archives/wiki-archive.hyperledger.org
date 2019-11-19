@@ -1,0 +1,37 @@
+==== 2018-09-21 ==== 
+Meeting will be held at [[ https://zoom.us/my/hyperledger.community | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/cello|rocketchat]] (for text chat) at:
+  * 08:30AM   (UTC-4) [UTC -4 is Eastern Daylight Time EDT]
+  * 06:00PM   (UTC+0530)
+  * 08:30PM   (UTC+8)
+
+  * [[ https://jira.hyperledger.org/projects/CE/issues/CE-188?filter=allopenissues | Ongoing Jira task ]] 
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:cello+status:open | Open Patchset for review ]] 
+  * [[ https://wiki.hyperledger.org/projects/cello | Project Wiki Page ]] 
+
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  - Bug fix in User-dashboard (hightall)
+  - Bug fix in Kubernetes agent (Luke Chen)
+  - Recap the feedbacks at Hyperledger Meetup (Tong, Hightall)
+  - Who will go to attend hackfest in Montreal? Would ask for help to make a short cello progress sharing.
+  - [[https://wiki.hyperledger.org/projects/cello/internship-2018|Internship progress]] (shuo)
+
+
+=== Attendee ===
+**Please put your name before the meeting.**
+
+  * Baohua Yang
+  * Haitao Yue
+  * Tong Li
+  * Jiahao Chen
+  * Peng Du
+
+=== Minutes ===
+
+  - Will confirm bugs reported in rocket chat, and put them into jira.
+  - Almost done, will working on new feature for fabric 1.2.
+  - Meetup was going well, and asked a lot of questions about cello and ansible agent.
+  - Peng Du will join the hackfest and will give some introduction about cello project, hai tao will share the agenda with Peng Du.
+  - Fixed the bug for fabric ca server, and can run fabric network with crypto config files generated dynamically.

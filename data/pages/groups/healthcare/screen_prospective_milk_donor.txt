@@ -1,0 +1,167 @@
+===== Scenario : Screen donor =====
+[[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]] : [[analysis-business]] : [[analysis-human-milk|Human milk services]]
+
+----------
+==== Name ====
+
+** Screen donor **
+
+==== Narrative ====
+
+The prospective donor has contacted the milk bank and undergoes screening. 
+
+The screener conducts an in-person or phone interview in order to elicit and document the donor’s health status and history. 
+
+The screener sends the prospective donor additional educational information for review, along with a consent form to undergo further screening steps.
+
+The donor undergoes laboratory testing for a defined panel of diagnostic tests.  
+
+The donor’s healthcare provider certifies that the prospective donor has met the necessary criteria for milk donation. The donor’s infant’s healthcare provider also certifies that the prospective donor has met the criteria for milk donation.
+
+The milk bank's practitioners review the donor’s documentation and certify the prospective donor is qualified to donate milk.
+
+{{ :groups:healthcare:milk_donor_services_-_donate_milk_-_screen_donor_workflow.jpg }}
+
+
+----------
+===== Participants, Resources and Contexts =====
+
+==== Participants ==== 
+
+=== Roles ===
+
+  * [[Human milk donor]]
+  * [[Donor screener]]
+  * [[Milk bank practitioner]]
+  * [[Donor practitioner]]
+  * [[Donor-infant practitioner]]
+  * [[Laboratory services provider]]
+
+----------
+
+==== Resources ==== 
+
+  * [[Milk donor screening questionnaire]]
+  * [[Milk donor consent]]
+  * [[Milk donor health record]]
+    * [[Medication list]]
+    * [[Health history]]
+    * [[Diagnoses]]
+    * [[Diagnostic laboratory test reports]]
+  * [[Donor practitioner authorization]]
+  * [[Donor-infant practitioner authorization]]
+  * [[Milk bank donor certification]]
+
+=== Inputs ===
+
+  * //input//
+  * //input//
+
+=== Outputs ===
+
+  * [[Milk bank donor certification]]
+  * //output//
+
+----------
+==== Contexts ====
+
+=== Physical ===
+
+  * //physical context//
+  * //physical context//
+
+=== Virtual === 
+
+  * //virtual context//
+  * //virtual context//
+
+----------
+===== Goals, Flows and Policies =====
+
+==== Goals ====
+
+  * //goal//
+  * //goal//
+
+----------
+
+==== Preconditions ==== 
+
+=== Participant preconditions ===
+
+  * //precondition//
+  * //precondition//
+
+=== Resource preconditions ===
+
+  * //precondition//
+  * //precondition//
+
+=== Context preconditions ===
+
+  * //precondition//
+  * //precondition//
+
+=== Previous flows (input activities or events) ===
+
+  * [[Recruit prospective milk donor]]
+
+=== Concurrent flows (parallel activities or events) ===
+
+  * //activity or event//
+  * //activity or event//
+
+
+----------
+
+==== Flows ==== 
+
+=== Primary flows ===
+
+  * Administer donor screening questionnaire
+  * Obtain donor consent
+  * Perform diagnostic testing
+  * Obtain donor practitioner authorization
+  * Obtain donor-infant practitioner authorization
+  * Certify donor
+
+=== Alternate flows === 
+
+  * //activities or events//
+  * //activities or events//
+
+----------
+
+==== Post-conditions ==== 
+
+=== Outcomes (Goal-states) ===
+
+  * //outcome//
+  * //outcome//
+
+=== Outcomes (Other) ===
+
+  * //outcome//
+  * //outcome//
+
+----------
+
+==== Subsequent activities or events ====
+
+=== Subsequent flows (successful outcome) ===
+
+  * [[Educate milk donor]]
+
+=== Subsequent flows (compensating or terminating outcome) ===
+
+  * //activity//
+  * //activity//
+
+----------
+
+===== Supporting Resources =====
+
+==== Sources ==== 
+
+  * //resource//
+  * //resource//

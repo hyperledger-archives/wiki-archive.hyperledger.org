@@ -1,0 +1,10 @@
+// Jatinder Bali will author this //
+
+====== Payments (Interbank) Use Case ======
+
+**Payments (interbank)**:
+
+Financial institutions process hundreds of thousands of interbank payments per day on behalf of their clients. These payment transactions occur over multiple networks such as the Fed Wire, CHIPS, ACH.
+  * Money Markets
+  * Commodities
+  * Fixed Income

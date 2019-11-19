@@ -1,0 +1,9 @@
+===== Healthcare SIG planning =====
+  * [[healthcare-wg|Home]] : [[governance|Governance]] : [[planning|Planning]]
+  * [[healthcare-wg|Home]] : [[governance|Governance]] : [[wg-governance-plans|Plans]]
+
+----------
+
+    * [[planning-payor-subgroup|Payor Subgroup planning]]
+    * [[planning-patient-subgroup|Patient Subgroup planning]]
+    * [[planning-technical-subgroup|Technical Subgroup planning]]

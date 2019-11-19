@@ -1,0 +1,22 @@
+===== EMR Subgroup =====
+[[healthcare-wg-wikispace-redesign|Home]]
+-----------
+
+//Brief overview//
+
+----------
+==== Stakeholders, Activities & Resources ====
+
+  * [[stakeholders|Stakeholders]] : [[Rich Bloch (acting)]] (SWG lead), [[emr-swg-members|EMR SWG members]]
+
+  * [[activities|Activities]]
+    * [[marketing-communications|Marketing & Communications]]
+      * [[activities-whitepapers|Whitepapers]]
+      * [[activities-events|Events]]
+    * [[analysis-business|Domain analysis]]
+    * [[technical-solutions|Technical solutions]]
+      * [[activities-lab|Hyperledger Lab]]
+
+  * [[resources|Resources]]
+
+----------

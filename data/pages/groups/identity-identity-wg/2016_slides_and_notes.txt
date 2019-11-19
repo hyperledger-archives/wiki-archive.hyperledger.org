@@ -1,0 +1,37 @@
+==== Ethereum and uPort ====
+
+On August 10, 2016 [[mailto:christian.lundkvist@consensys.net|Christian Lundkvist]] shared with the Hyperledger Identity WG how identity works with Ethereum and how the uPort smart contract architecture extends that model.
+
+The recording for this session is at:
+https://meetings.webex.com/collabs/url/4fOxESiQ1vKyF2kMBDfdppKXDPJdqE_2hzAvrDz3Ff000000
+
+The slides are at:
+https://www.dropbox.com/s/8ljfcu22clqgj5k/hyperledger_uport.pdf?dl=0
+
+==== Membership Services Architecture ====
+
+In July 2016, we held 3 meetings on the topic of IBM’s Membership Services architecture as used by Hyperledger Fabric. //This model has changed quite a bit-20170809 vb//
+
+The recording of the 1st Identity WG meeting is available at:
+https://meetings.webex.com/collabs/url/i-271A2F8IRqjuDCoiWed_-ISAS5bOQTOm-1Vi5O_GS00000
+
+The slides for this 1st meeting are at:
+https://www.dropbox.com/s/d4geya90fbv3kw2/Hyperledger%20Membership%20Services%20Presentation%20June%2029%202016.pdf?dl=0
+
+The recording for the 2nd meeting is available at:
+https://meetings.webex.com/collabs/url/Sc3lILQRtXr7MwxQW7UITCPN7EDMsVrJT9Ie4r3VjiG00000
+
+The slides for the 2nd meeting are available at:
+https://www.dropbox.com/s/4my9v4uo9ynn8kf/2016-07-13_MembershipServicesInHyperledgerFabric_Part2.pdf?dl=0
+
+The recording for the 3rd meeting (no new slides) is available at: 
+https://meetings.webex.com/collabs/url/DuOi6XgjLT8s3WRp8MYPfR3n7iQHy7mggC_rfAsA5M400000
+
+==== Identity WG May 2016 F2F ====
+
+The Identity Working Group (WG) held a meeting as part of the face-to-face technical session hosted by the DTCC on May 5, 2016.
+
+The raw notes from the session are on the following pages:
+  * [[groups:identity:identity-wg-potential-substreams]]
+  * [[groups:identity:identity-wg-potential-work-items]]
+  * https://github.com/hyperledger/hyperledger/wiki/Identity-WG---Use-Cases-Inventory

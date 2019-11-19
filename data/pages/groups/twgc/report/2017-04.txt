@@ -1,0 +1,20 @@
+==== TWG China Report for April 2017 ====
+
+=== Status ===
+  - Team: The team has collaborated in development, adoption cases, i18n, event organization and other works. 
+  - Meeting: 2 meetings are held with active discussions (with new joiners). All minutes can be found on the [[ groups/twgc/meetings | wiki]].
+  - Volunteers: We have 2 new volunteers: Wenjie Xie from Wutongshu, and Qilei Li from Hyperchain.
+  - Collaboration and Scenarios
+    - The team is collecting local adoption cases of Hyperledger techniques and put on [[groups/twgc/team_cs | wiki]].
+  - Technical Development
+    - Deployment guideline: With discussions, we are organizing to draft some deployment guideline to help use hyperledger with best practice and recommended config.
+    - Technical Communication: 10+ new subscribers to mail-list. 100+ msgs in the rocket chat channel. 
+  - i18n and education work
+    - 10+ volunteers on i18n. 
+    - 11 design documentation are on-going and put on [[groups/twgc/team_ie | wiki]].
+    - Several education/training documentation are collected.
+
+=== Issues ===
+  - Meeting tools: Need global access number + screen sharing (julian and donald are helping)
+  - i18n work: Need the TSC help create the doc code repo and setup the readthedoc repo for translation.
+  - Forum: The global one is slow to access, need to setup local CDN.

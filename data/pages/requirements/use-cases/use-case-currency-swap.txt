@@ -1,0 +1,103 @@
+====== Currency Swap Use Case ======
+
+===== Section 1 - Intro =====
+
+==== Overview of the Business Problem or Opportunity ====
+
+Currency swaps help borrowers avoid exposure to changes in the exchange rate.
+
+Example: 
+
+AmeriGadget company would like to expand to Europe to produce their gadgets and sell them there for euros. It needs euros to fund their expansion but it cannot secure a loan in Europe nor can its American bank loan in euros. If the company took a loan of USD1000,000, converted it at a rate of USDEUR 0.9 to EUR900,000 but by the time to repay the loan the exchange rate moved to USDEUR 1.0 it would need to convert EUR900,000 back to USD900,000 and find itself short USD100,000 to pay back. In order to avoid it, AmeriGadget goes to a currency broker who searches for a counterparty in an opposite situation. The broker finds that a European company EuroTool needs USD1000,000 to expand to the US, but can only borrow in euros.
+
+The broker advises both companies to take out loans from their local banks in their currency and convert them for their use to the opposite currency. Then it arranges a contract where AmeriGadget will pay monthly installments in euros (which suits its needs as it sells its gadgets in euros) and EuroTool pays monthly in dollars. Their mutual benefit is served.
+
+In essence, AmeriGadget will pay monthly installments of the EuroTool's loan in euros, while EuroTool will pay AmeriGadget's loan in dollars. The companies don't pay each other's loans directly to the respective local banks but pay to the intermediary, the broker who in turn forwards the payments to the local banks, leaving itself a commission.
+
+==== Current Solution ====
+
+The above example, though greatly simplified, illustrates a common practice in international finance. This practice is facilitated by brokers who find matching parties to a swap contract and serve as trusted intermediaries to accept and forward payments. If there were other means to provide discovery and trust, parties to a swap contract would have liked to eliminate the third party and not pay the commission.
+
+An opportunity exists to replace the centralized brokers by other mechanisms that provide trust to the parties of a swap contract.
+
+==== Why Distributed Ledger technology? ====
+
+Trust between parties to a swap contract can be provided by a distributed ledger. Companies can join the ledger after passing a credit check, advertise their need for a swap, discover a counterparty, and entrust the exchange of their loan payments to a smart contract.
+
+==== User Stories ====
+
+=== Actors ===
+
+  * Borrower: a company interested to swap loan payments in a different currency
+  * Administrator: an entity running credit check of prospective participants
+  * Escrow: a legal entity whose purpose is to
+    * hold bank accounts in different currencies
+    * notify the ledger of payments received
+    * disburse payments on command from the ledger
+
+=== Stories ===
+
+Swap is initiated
+
+  * Borrower takes out a loan from a local bank, converts the principal into another currency.
+  * Borrower applies to join the interest swap ledger. Administrator runs a credit check and issues credentials.
+  * Borrower queries the ledger for a counterparty with a matching loan in the opposite currency.
+  * Parties agree to the terms and register their swap with the ledger.
+
+Loans are repaid
+
+  * Every month on the agreed payment day Borrower A sends its loan payment in a currency of the counterparty to Escrow. Escrow notifies the ledger.
+  * Borrower B sends its payment to Escrow which in turn notifies the ledger.
+  * Upon receipt of both notifications from Escrow, a smart contract on the ledger commands the Escrow to release the payments.
+  * Escrow pays the lenders: the monthly installment of Borrower A with the money payment of Borrower B and vice versa.
+
+Borrower defaults
+
+  * Borrower A sends its monthly payment to Escrow. Escrow notifies the ledger.
+  * Borrower B does not send its payment.
+  * At the end of the payment day the smart contract does not have a notification of B's payment. The contract commands Escrow to return the A's payment.
+  * Borrower A converts the returned payment to the currency of its loan and pays its monthly installment. The exposure to the exchange rate is minimized to one monthly payment.
+  * Borrower A queries the ledger for the new counterparty to continue the swap. 
+  * Borrower B is banned from the ledger.
+
+==== Opportunity/Justification ====
+
+  * Distributed ledger provides a mechanism of trust without a need for a third party
+  * Permissioned ledger allows only the participants that passed credit check
+  * Fees are reduced to a minimum needed to maintain one Escrow legal entity for all members of the ledger
+  * Default on a swap contract is resolved immediately on the ledger and exposes the borrower only to a few days of exchange rate fluctuation
+
+----
+
+===== Section 2 - States and Transactions =====
+
+=== States ===
+
+  *  Bid for a swap. A borrower advertises on the ledger its need for a swap with basic parameters: currency, principal, rate.
+  *  Swap contract. Both parties record the terms of their contract: loan parameters and an agreed payment date.
+  *  Payment record. A smart contract on the ledger records each party's monthly payment upon notification from Escrow.
+
+=== Transitions ===
+
+  *  Bid is deactivated when parties are matched and enter into a Contract.
+  *  Payment record is created by the smart contract upon notification from Escrow.
+  *  When both party's monthly payments are recorded the smart contract notifies Escrow to release the payments.
+  *  Contract is deactivated at the end of the contract term.
+
+----
+
+===== Section 3 - Requirements =====
+
+TBD
+
+==== External References ====
+
+TBD
+
+==== Glossary/Appendices ====
+
+TBD
+
+----
+
+Acknowledgement: This is very loosely based on the OpenStack [[https://github.com/openstack/openstack-user-stories/blob/master/user-story-template.rst|use case template]]

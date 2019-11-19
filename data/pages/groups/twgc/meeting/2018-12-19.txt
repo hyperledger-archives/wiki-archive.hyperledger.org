@@ -1,0 +1,96 @@
+===== TWG China Meeting =====
+
+==== Basic Info ====
+10AM ~ 11AM, GMT+8 ([[/groups/twgc/meetings|Bi-weekly hosted]])
+
+  * Option #1: Use computer to access [[ https://zoom.us/my/hyperledger.community | zoom]] (Recommend using microphone and headset)
+  * Option #2: Dial in using the [[https://zoom.us/zoomconference?m=mTUdEBuT33gjEcR54Rqsi1KmFyNgSLYP|phone number]]. E.g., 400 669 9381 or 010-87833177 (Premium Toll) for China area, code is 248676399.
+
+  * [[https://docs.google.com/presentation/d/1punUCr0mSZT9gMKCs3vCYqbWbjeS_RG-18ZrhkfwoYc/edit?ts=5a14dfdf | Antitrust Policy Notice]]
+  * [[/community/calendar-public-meetings | community meeting calendar ]]
+  * Community Wechat groups (contact the admin to join): 
+    * Beijing: a33443148
+    * Shanghai: yudianbabasheng
+    * Hangzhou: linalee1005
+    * Dalian: cn8888898
+    * Shenzhen: RichZhao
+    * Wuhan: grapebaba
+    * Hongkong: hwfighter1
+
+==== Attendee ====
+
+**Feel free to add ur name here to attend the meeting.**
+
+Attendees:
+
+  * Baohua Yang
+  * Zhenhua Zhao
+  * Jay Guo
+  * Scott Long
+  * David Liu
+
+==== Agenda ====
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - Recap of the [[https://events.linuxfoundation.org/events/hyperledger-global-forum-2018/|Hyperledger Global Forum, December 12-15 (Basel, Switzerland)]]
+    - Inter-op working group discussions
+    - New project: [[https://wiki.hyperledger.org/projects/ursa|Ursa]]
+  - [[groups/twgc/team_di | Team development and Innovation]] (Dijun Liu, Zhangjiong Xuan, Haitao Yue)
+    - [[groups/twgc/faq|Technical FAQ update]].
+    - Welcome to code contribution: node-sdk improvement(David) 
+    - blockly chaincode progress (Dijun Liu).
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Lidong Guo, Jiang Lu, Xueting Zhou)
+    - [[groups/twgc/team_ie/guideline| i18n work guideline]]
+    - Fabric documentation translation progress
+    - TWGC testnet progress
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yanqing Wang, Jian Chen)
+    - Collection of blockchain usage cases:[[https://wiki.hyperledger.org/groups/twgc/team_cs| China members and cases ]]
+    - Call for HL member news, select to publish via official wechat account. Feel free to [[twg-china@lists.hyperledger.org|contact TWGC]].
+    - Collaboration progress with universities (scott).
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Jiannan Guo, Sheng Huang, Zhenhua Zhao, Kai Chen)
+    - [[groups/twgc/events/guideline| Meetup guideline]]
+    - **[[groups/twgc/team_eo| Meetups for Dec]].** 
+      - Beijing: TBD, end of Dec
+      - Wuhan: Dec 8
+      - Nanjing: Dec 22
+      - Shenzhen: Dec 15
+  - Happy New Year Gathering Progress (Encourage each city to organize!)
+      - Beijing: Dec 22
+      - Shenzhen: Jan 5
+  - Review of 2018 (Scott)
+
+
+==== Minutes ====
+
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - Recap of the [[https://events.linuxfoundation.org/events/hyperledger-global-forum-2018/|Hyperledger Global Forum, December 12-15 (Basel, Switzerland)]]
+      - 500+ attendees
+      - lots of technical and business sessions
+      - focused on security and operations
+      - 10+ China companies
+    - Inter-op working group discussions
+    - New project: [[https://wiki.hyperledger.org/projects/ursa|Ursa]]
+  - [[groups/twgc/team_di | Team development and Innovation]] (Dijun Liu, Zhangjiong Xuan, Haitao Yue)
+    - [[groups/twgc/faq|Technical FAQ update]].
+    - Welcome to code contribution: node-sdk improvement(David) 
+    - Dijun will make a tls release in this month
+    - Dijun had an ursa discussions with pku team
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Lidong Guo, Jiang Lu, Xueting Zhou)
+    - [[groups/twgc/team_ie/guideline| i18n work guideline]]
+    - Fabric documentation translation progress
+    - TWGC testnet progress: lidong will check the inter-op work
+    - Scott can provide some souvenirs for contributors
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yanqing Wang, Jian Chen)
+    - Collection of blockchain usage cases:[[https://wiki.hyperledger.org/groups/twgc/team_cs| China members and cases ]]
+    - Call for HL member news, select to publish via official wechat account. Feel free to [[twg-china@lists.hyperledger.org|contact TWGC]].
+    - Collaboration progress with universities (scott).
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Jiannan Guo, Sheng Huang, Zhenhua Zhao, Kai Chen)
+    - [[groups/twgc/events/guideline| Meetup guideline]]
+    - **[[groups/twgc/team_eo| Meetups for Dec]].** 
+      - Beijing: TBD, end of Dec
+      - Wuhan: Dec 8
+      - Nanjing: Dec 22
+      - Shenzhen: Dec 15
+  - Happy New Year Gathering Progress (Encourage each city to organize!)
+      - Beijing: Dec 22
+      - Shenzhen: Jan 5
+  - Scott give a review of 2018 work

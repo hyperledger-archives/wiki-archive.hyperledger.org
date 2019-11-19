@@ -1,0 +1,28 @@
+====== Medical Insurance Regulatory Reporting ======
+
+===== Section 1 - Intro =====
+
+==== Business Problem / Opportunity ====
+
+
+
+==== Current Solution ====
+
+
+
+==== Why a Blockchain? ====
+
+
+
+==== User Stories ====
+
+
+
+==== Opportunity/Justification ====
+
+
+
+===== Section 2 - States and Transactions =====
+
+
+===== Section 3 - Requirements =====

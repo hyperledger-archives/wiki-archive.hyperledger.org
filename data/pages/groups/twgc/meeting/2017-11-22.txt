@@ -1,0 +1,71 @@
+===== TWG China Meeting =====
+
+==== Basic Info ====
+10AM ~ 11AM, 2017-11-22, GMT+8
+
+  * Option #1: Use computer to access [[ https://zoom.us/j/248676399 | zoom]] (Recommend using microphone and headset)
+  * Option #2: Dial in using the [[https://zoom.us/zoomconference?m=mTUdEBuT33gjEcR54Rqsi1KmFyNgSLYP|phone number]]. E.g.,	400 669 9381 or 010-87833177 (Premium Toll) for China area.
+
+[[https://docs.google.com/presentation/d/1punUCr0mSZT9gMKCs3vCYqbWbjeS_RG-18ZrhkfwoYc/edit?ts=5a14dfdf | Antitrust Policy Notice]]
+
+==== Attendee ====
+
+**Pls add ur name here before the meeting.**
+
+  * Baohua Yang
+  * Allen Shao
+  * Zhangjiong Xuan
+  * Jessie Wong
+  * Linsheng Yu
+  * Zhujun He
+  * Dijun Liu
+  * Zhenhua Dong
+  * Wan Yong
+  * Sheng Huang
+  * Jing Xiao Gu
+
+
+==== Agenda ====
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - [[https://urldefense.proofpoint.com/v2/url?u=https-3A__www.regonline.com_hyperledgerhackfestdecember2017&d=DwMFaQ&c=jf_iaSHvJObTbx-siA1ZOg&r=33Ksn4bRkfEi53BOWQorz0ej6pr527Q2SbGcvZWUBSE&m=wnimYue_gFBJ8rFK_JfJeePiQBWAtqRGJyGSoRrLOIc&s=EqNVXqreZgeAYMQAtoU6UKx-1Z0IqQVNzjrOzoqSg18&e=|Lisbon Hackfest (December 5-6)]]
+    - [[http://hlms17.sched.com/ | Hyperledger Summit Singapore]] Summary.
+  - [[groups/twgc/team_di | Team development and Innovation]] (Yaoguo Jiang, Zhangjiong Xuan)
+    - Code development on projects
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Linsheng Yu, Jiannan Guo)
+    - Process and zanata feedback
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin, Haixu Cheng)
+    - Welcome companies to share usage cases at [[https://wiki.hyperledger.org/groups/twgc/team_cs|case collection ]]
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Zhou Xing, Zhoudong Ji and Sheng Huang)
+    - Shanghai Meetup report
+    - **[[groups/twgc/team_eo| Call for sponsors]] for December Meetups.**
+    - Call for HL member news, will select to publish through official wechat channel. Feel free to contact TWGC.
+  - other issues
+    - [[https://jira.hyperledger.org/browse/FAB-5496 | SM2 support]] by  Zhenhua Dong, Dijun Liu
+    - [[https://jira.hyperledger.org/browse/FAB-6263 | MongoDB support]] by  huiq li (oxchain)
+    - need suggestion of demo use case, which is a IBM Lab University Program by Wan Yong.
+    - Others?
+
+
+==== Minutes ====
+
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - [[https://urldefense.proofpoint.com/v2/url?u=https-3A__www.regonline.com_hyperledgerhackfestdecember2017&d=DwMFaQ&c=jf_iaSHvJObTbx-siA1ZOg&r=33Ksn4bRkfEi53BOWQorz0ej6pr527Q2SbGcvZWUBSE&m=wnimYue_gFBJ8rFK_JfJeePiQBWAtqRGJyGSoRrLOIc&s=EqNVXqreZgeAYMQAtoU6UKx-1Z0IqQVNzjrOzoqSg18&e=|Lisbon Hackfest (December 5-6)]]
+    - [[http://hlms17.sched.com/ | Hyperledger Summit Singapore]] Summary: 200+ show up, 40+ from China company.
+  - [[groups/twgc/team_di | Team Development and Innovation]] (Yaoguo Jiang, Zhangjiong Xuan)
+    - Fabric: 1.1-preview is released;
+    - Cello: new features are added with ansible driver; user-dashboard support is on-going.
+    - Consensus discussions: kafka, and BFT
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Linsheng Yu, Jiannan Guo)
+    - Feedbacks: zanata is not easy to use, **TODO: will provide place to view result**
+    - Some volunteers wanna translate design spec and create new notes, **TODO: we encourage more docs**
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin, Haixu Cheng)
+    - Welcome companies to share usage cases at [[https://wiki.hyperledger.org/groups/twgc/team_cs|case collection ]]
+    - Will pick some to share through wechat channels
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Zhou Xing, Zhoudong Ji and Sheng Huang)
+    - Shanghai Meetup report: 150~180 people show up, major are company employee
+    - [[groups/twgc/team_eo| Call for sponsors]] for December Meetups.: **TODO: Beijing needs place, Wuhan needs speakers.**
+    - Call for HL member news, will select to publish through official wechat channel. Feel free to contact TWGC.
+  - other issues
+    - [[https://jira.hyperledger.org/browse/FAB-5496 | SM2 support]] by  Zhenhua Dong, Dijun Liu: **TODO: will share out design spec**
+    - [[https://jira.hyperledger.org/browse/FAB-6263 | MongoDB support]] by  huiq li (oxchain): **TODO: welcome for review**
+    - Wan yong: need suggestion of demo use case, which is a IBM Lab University Program.

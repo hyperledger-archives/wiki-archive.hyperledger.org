@@ -1,0 +1,55 @@
+**NOTE: This page is archived.  You can find the [[https://wiki2.hyperledger.org/display/events/Presentations+for+Meetups|current version of Presentations for Meetups]] on the new wiki.
+**
+
+Please feel free to use the following presentations when speaking about Hyperledger at a [[community:meetups|meetup]], internally at your organization or anywhere else where people are interested in learning more about the project.  
+
+You are also welcome to help us improve these resources by contributing a new presentation or by translating one of these presentations into another language.  If you are interested in helping improve these presentations, post on the [[https://lists.hyperledger.org/g/discuss|Hyperledger discuss list]].
+
+**Presentations in English**
+
+General
+
+  * [[https://docs.google.com/presentation/d/1l_kZCC76U6E1lgx3UwRNYoki6L_QTKPd7PVzyOZkMYA/edit#slide=id.p4|The Hyperledger Vision]] (Google Slides) -- This presentation covers Blockchain 101, About Hyperledger, Industry Use Cases
+  * [[https://docs.google.com/presentation/d/1lM_FSlTDDN-5yjL3lM61hW_PIFAvGA592XN-Sv_5LrU/edit#slide=id.p4|Hyperledger Overview]] (Google Slides) -- This presentation provides information about how the Hyperledger project and community is organized
+  * [[https://docs.google.com/presentation/d/1MqIKulo1wTDo3dAq7Zh1SCaBz7vXXw46Aus4bjbsaXs/edit#slide=id.p4|Hyperledger - Project Overview]] (Google Slides) -- This presentation provides an overview of the different Hyperledger projects
+  * [[https://drive.google.com/open?id=10umgO5xzxaJY6MkZxaSL1y-bz696zXHn|Blockchain Executive Workshop]] (PDF) -- This presentation provides an overview of the use of blockchain technology in businesses 
+  * [[https://drive.google.com/open?id=1FKkqRe6YZVjlO3zUjBR0tuN0K45jr07d|Get Involved! How to get started with Hyperledger projects (For General Audience)]] (PDF) -- This presentation provides a Hyperledger introduction and looks at a range of ways people can participate in the project.
+  * [[https://drive.google.com/open?id=1tgY2J9T5NHZTZr3c4t42FSE165SupYEtpNTqDgIEku4|Participating and Contributing to Hyperledger]] -- This presentation provides an overview of how to participate and contribute to Hyperledger.
+  * [[https://docs.google.com/presentation/d/1v618FB9b9qN_af62RB4bPfMwmyw7bWdPtwvvbKoAC8Y/edit#slide=id.g36320c4f82_0_533|Contributing to Hyperledger (For Developers)]] (Google Slides) -- This presentation provides details about how developers can get involved with Hyperledger projects.
+  * [[https://docs.google.com/presentation/d/1XDHuxuTHv3Y-BSag4NO3Ns_B3dxndPC--znGj3hrONE|Getting Started with Hyperledger for Developers]] (Google Slides) -- This presentation covers steps developers can take to get started coding on Hyperledger projects
+  * [[https://drive.google.com/file/d/1HgAh5XhqMLfRxCTMfOXs-o90e83tl3t0/view?usp=sharing| Hyperledger Consensus Algorithms]] (Google Slides) -- This presentation covers consensus fundamentals, the different Hyperledger projects and their algorithms, and getting involved with Hyperledger
+  * [[https://github.com/yeasy/seminar-talk/tree/master/hyperledger-tech-notes| Hyperledger Tech Notes]] - Several slides related to Hyperledger technologies.
+
+
+Project-specific
+
+  * [[https://docs.google.com/presentation/d/1sq4hnTRpH9qaPJe96f6Egx9LclbCC5KcQjnBmv2LO68|Hyperledger Cello Introduction]] (PowerPoint) -- This presentation provides an overview of the Hyperledger Cello project
+  * [[https://drive.google.com/open?id=1Xxmu3lHsVcLVDz4TuPRQQvCUOM1tUUoG|Hyperledger Composer Introduction]] (PowerPoint) -- This presentation provides an overview of the Hyperledger Composer project
+  * [[https://docs.google.com/presentation/d/e/2PACX-1vQlhbtxwgCOTJ22bacHqY5GpXR_Ucl9EJZKov2RzxlGYZXmi889X6yMW4Hzh6Rjzu4bh0qyYKYTZSF5/pub?start=false&loop=false&delayms=3000|Hyperledger Explorer Introduction]] (Google Docs) -- This presentation provides an overview of the Hyperledger Explorer project
+  * [[https://docs.google.com/presentation/d/1ZhZOydS4iQQumTcUg2ZH-ubvQ_WwJahvwBz9j_tog3g/edit#slide=id.p1|Hyperledger Fabric Introduction]] (Google Slides) -- This presentation provides an overview of the Hyperledger Fabric project
+  * [[https://docs.google.com/presentation/d/1p-5obfijoC1gBn9_FcUfOI7QytX8Oacekz9THd4-e00/edit|Hyperledger Fabric Architecture 1.0 Deep Dive]] (Google Slides) -- This presentation provides substantial information about Hyperledger Fabric
+  * [[https://docs.google.com/presentation/d/1twsgme2-VlD03OXo58k0PTflcn0rTEBP48jDayzwzS4|Hyperledger Indy Introduction]] (Google Docs) -- This presentation provides an overview of the Hyperledger Indy project
+  * [[https://bit.ly/oscon-2018-hyperledger-indy|Getting Started with Hyperledger Indy]] -- Presented at OSCON 2018. This presentation introduces The Linux Foundation and Hyperledger, looks at Decentralized Identity Concepts (identity models, decentralized identity, zero-knowledge proofs, and verifiable credentials), looks at a demo that utilizes Hyperledger Indy and these concepts, and then looks at Hyperledger Indy's software stack, its roadmap, and on how you can get involved.
+  * [[https://s3-ap-southeast-1.amazonaws.com/mredmundto-others/Hyperledger+Quilt+and+Interledger+Protocol+.pdf|Hyperledger Quilt and Interledger Protocol]] (PDF) -- This presentation provides an overview of the Hyperledger Quilt project
+  * [[https://www.dropbox.com/s/ofe0eaqu32dyqla/HyperledgerSawtooth-2018-02.2.pptx?dl=0| Hyperledger Sawtooth Introduction]] (PowerPoint) -- This presentation provides an overview of the Hyperledger Sawtooth project
+
+Misc
+
+  * [[https://docs.google.com/presentation/d/1YUEz2Npkc_Ng5qCS919WDJVu7kJqMdPQJXdS7zZMRc4/edit?usp=sharing| Hyperledger Introduction]] (Google Slides) -- This presentation covers an introduction to Hyperledger Fabric and Composer.
+ 
+Domains and Use Cases
+
+  * Coming soon
+
+**Presentations in Other Languages**
+
+  * **Chinese:** [[https://docs.google.com/presentation/d/1Fq2TytigQh54yD1oL0L9XKIcve6kR9NrvFfhGSVGxJs/edit#slide=id.g2f42822d40_2_30|Hyperledger – 项目概览]] (Google Slides) -- This presentation provides an overview of the different Hyperledger projects in Chinese
+  * **Japanese:** [[https://docs.google.com/presentation/d/1V_3fmSmuUPvABGJZyX43eqQkwvHvaP8GkidqLTCIZPM/edit#slide=id.g31f5e41b30_2_30|Hyperledger - プロジェクト概要 (ja)]] - This presentation provides an overview of the different Hyperledger projects in Japanese (thanks to @sachikoy and @Spicy5Shumai)
+  * **Portuguese:** [[https://drive.google.com/open?id=1vBq_VGYwFiT_PCs0zB1MeVhP0X0Q5tF_|Hyperledger – Detalhes do Projeto]] (PowerPoint) -- This presentation provides an overview of the different Hyperledger projects in Portuguese (thanks to @msarres)
+  * **Spanish:** [[https://drive.google.com/open?id=1QPHMc79MKSnqhOv6bK-77jePba8sdfsZ|Hyperledger Project]] (PowerPoint) -- This presentation provides an overview of the Hyperledger project in Spanish (thanks to Mauricio Ferreyra)
+
+
+
+**Other Resources**
+
+We're working on putting together more presentations that will cover other relevant topics, such as overviews of each Hyperledger project as well as presentations looking at how Hyperledger is being used in different industries.  We're also able to put other resources together that would be helpful for you, such as demos.  Please post on [[https://lists.hyperledger.org/g/discuss|Hyperledger discuss list]] and let us know what other resources would be helpful for you.

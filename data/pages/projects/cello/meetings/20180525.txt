@@ -1,0 +1,46 @@
+==== 2018-05-25 ==== 
+
+Meeting will be held at [[ https://zoom.us/my/hyperledger.community | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/cello|rocketchat]] (for text chat) at:
+
+  * 08:30AM   (UTC-4)
+  * 06:00PM   (UTC+0530)
+  * 08:30PM   (UTC+8)
+
+  * [[https://jira.hyperledger.org/projects/CE/issues/CE-188?filter=allopenissues | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:cello+status:open | Open Patchset for review]]
+  * [[https://wiki.hyperledger.org/projects/cello | Project Wiki Page]]
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  - Haitao present the [[https://wiki.hyperledger.org/groups/tsc/project-updates/cello-2018-may|quarterly update ]] in TSC meeting.
+  - Refine code for user dashboard (haitao)
+  - Integrate kubernetes with operator dashboard (luke)
+  - Video and tutorial progress (Jiang Lu)
+    - [[https://jira.hyperledger.org/browse/CE-315|Video Tutorial: Quick start cello]] Need to add the official video link and close.
+  - Recent Bugs
+    - [[https://jira.hyperledger.org/browse/CE-371 | can't open operator dashboard ]]
+    - [[https://jira.hyperledger.org/browse/CE-350| Ansible Agent - aws.yml stops with cryptogen file not found ]]
+  - Other issues
+    - Feel free to add here.
+
+=== Attendee ===
+**Please put your name before the meeting.**
+
+  * Haitao Yue
+  * Baohua Yang
+  * Tong Li
+  * Luke Chen
+  * Jeremiah Foster
+  * Yash Ganthe
+
+
+=== Minutes ===
+  - Baohua will contact Ry to confirm the dockerhub image auto-buidling.
+  - Haitao is working with the SDK connection profile to use it as the network configuration. **TODO: Haitao will lead the design of the network profile: entire lifecycle management.**
+  - Kubernetes agent code will be checked in by next weekend.
+  - Tong's ansible agent supports deploying an fabric with an existing kubernetes cluster. **TODO: tong will negotiate with the system testing team**.
+  - CE-371: Hightall will close.
+  - CE-350: Tong Li will close.
+  - Jeremiah Foster post the tools of using fabric with kubernetes: [[https://github.com/Luxoft/fabric-utils| fabric-utils]], wanna to be merged into Cello. Great news!
+  - Yash Ganthe (persistent systems) uses Cello for your customer.

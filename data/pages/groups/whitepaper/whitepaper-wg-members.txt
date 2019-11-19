@@ -1,0 +1,12 @@
+Whitepaper working group members:
+
+  * David Voell, JP Morgan
+  * Frank Lu->Nick Gaski, IBM
+  * Ram Jagadeesan, Cisco
+  * Renat Khasanshyn, Altoros
+  * Hart Montgomery, PhD, Fujitsu Labs
+  * Stefan Teis, PhD, Deutsch Borse Group
+  * Tamas Blummer, Digital Asset
+  * Murali Krishna Katipalli, DTCC
+  * Mic Bowman, PhD, Intel
+  * Seth Cohn, CPA, CFE

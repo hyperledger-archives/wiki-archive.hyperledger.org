@@ -1,0 +1,38 @@
+===== Role =====
+[[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]] : [[analysis-business|Domain analysis]] : [[analysis-human-milk|Human milk services]]
+----------
+
+==== Name ====
+
+//Human milk bank manager//
+
+==== Description ====
+
+tbd
+
+----------
+==== Services systems and Scenarios ====
+
+  * [[Human milk services]]
+    * [[Human milk donor services]]
+      * [[Order milk]]
+      * [[Approve milk order]]
+
+
+----------
+==== Actors ====
+
+  * //Actor//
+  * //Actor//
+
+----------
+==== Related roles ====
+
+  * //Role//
+  * //Role//
+
+----------
+==== Role policies ====
+
+  * //Policy//
+  * //Policy//

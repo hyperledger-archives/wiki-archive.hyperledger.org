@@ -1,0 +1,32 @@
+===== Role : Laboratory services provider =====
+  * [[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]] : [[analysis-business|Domain analysis]] : [[analysis-human-milk|Human milk services]]
+  * [[healthcare-wg-wikispace-redesign |Home]] : [[resources|Resources]] : [[analytical_models|Analytical models]] : [[human_milk_services_model|Human milk services model]]
+----------
+
+==== Name ====
+
+//Laboratory services provider//
+
+==== Description ====
+
+tbd
+
+----------
+==== Services systems and Scenarios ====
+
+  * [[Human milk services]]
+    * [[Human milk donor services]]
+      * [[Screen prospective milk donor]]
+      * [[Screen milk]]
+
+----------
+==== Related roles ====
+
+  * [[Laboratory manager]]
+  * //Role//
+
+----------
+==== Role policies ====
+
+  * //Policy//
+  * //Policy//

@@ -1,0 +1,71 @@
+=====Hackfest Beijing=====
+
+This page will be synced with the [[https://docs.google.com/document/d/1LfTtwHvQfZAHUz8k35-s3hmE3S_0uXSuAAnhTB7U-Hg/edit|Google doc version]].
+
+====Date&Location====
+09:00-17:00, June 19-20, 2017
+
+InterContinental Beijing Beichen
+
+8, Beichen West Road, Chaoyang District,Beijing, 100105, China
+
+[[https://www.regonline.com/hyperledgerhackfestjune2017|Registration]]
+
+[[groups/tsc/technical-working-group-china | Technical Working Group in China]]
+====Agenda====
+
+**Feel free to propose the topics and adjust time slot.**
+
+===Day 1: What is Hyperledger===
+
+Potential topics: Projects (Fabric, Cello, Composer etc) introduction
+
+^ Time Slot        ^ Topic                                                                                                                                                                   ^ Speaker                  ^ Room  ^
+| 9:00-10:00       | {{:groups:twgc:what_s_new_with_hyperledger_june_in_china.pdf|What's New With Hyperledger}}                                                                              | Brian Behlendorf         | Main  |
+| 10:00-10:45      | Introductions and Sharing                                                                                                                                               | Every attendee           | Main  |
+| **10:45-11:15**  |  **Tea Break**                                                                                                                                                          |  **Tea Break**           |       |
+| 11:15-12:00      | {{:groups:twgc:blockchainidentity.pdf|Identity Working Group Overview and Outline of Identity}}                                                                         | Hart Montgomery          | Main  |
+| **12:00-13:30**  |  **Lunch**                                                                                                                                                              |  **Lunch**               |       |
+| 13:30-14:15      | Fabric Overview and Roadmap                                                                                                                                             | Satoshi Oshima           | Main  |
+| 14:15-15:00      | [[https://github.com/yeasy/seminar-talk/blob/master/hyperledger-hackfest-20170619/Hyperledger%20Cello%20Overview-20170619.pdf|Cello Overview and Roadmap (with Demo)]]  |  Baohua Yang, Chang Chen | Main  |
+| **15:00-15:30**  |  **Tea Break**                                                                                                                                                          |  **Tea Break**           |       |
+| 15:30-16:15      | [[https://www.slideshare.net/SimonStone8/introduction-to-hyperledger-composer|Composer Overview and Roadmap (with Demo)]]                                               | Simon Stone              | Main  |
+| 16:15-17:00      |  Free Discussions                                                                                                                                                       | Every attendee           | Main  |
+
+
+
+
+^ Time Slot        ^ Topic                                 ^ Room  ^
+|   |   |  Phenix  |
+
+
+===Day 2: Development and Ecosystem===
+
+Potential topics include: How to Contribute, adoption scenarios sharing, community
+
+^ Time Slot        ^ Topic                                                                                                                                                                                                                              ^ Speaker                                           ^ Room  ^
+| 9:00-10:00       | {{:groups:twgc:20170619-beijing-hackfest-behlendorf-how-to-open-source.pdf|How To Be A Great Open Source Developer}}                                                                                                               | Brian Behlendorf                                  | Main  |
+| 10:00-10:45      | {{groups:twgc:china_community_overview.pdf|Technical Working Group China}}                                                                                                                                                         | Baohua Yang, Yaoguo Jiang, Wenjie Xie, Zhou Xing  | Main  |
+| **10:45-11:15**  |  **Tea Break**                                                                                                                                                                                                                     |  **Tea Break**                                    |       |
+| 11:15-12:00      | Iroha Overview and Roadmap                                                                                                                                                                                                         |  Makoto Takemiya                                  | Main  |
+| **12:00-13:30**  |  **Lunch**                                                                                                                                                                                                                         |  **Lunch**                                        |       |
+| 13:30-14:15      | [[https://wiki.chainnova.com/pages/worddav/preview.action?fileName=Build+Robust+Blockchain+Services+with+Hyperledger+and+Container.pdf&pageId=983701|ChainNova: Build Robust Blockchain Services with HyperLedger and Container]]  | Wenjie Xie                                        | Main  |
+| 14:15-15:00      | [[https://github.com/daijianw/public-talk/blob/master/BaaS-based-on-Kubernetes-solution-sharing-20170619-Hyperledger-hackfest.pdf| BaaS based on k8s solution sharing]]                                                            | Jian Wu Dai, Shan Yu                              | Main  |
+| **15:00-15:30**  |  **Tea Break**                                                                                                                                                                                                                     |  **Tea Break**                                    |       |
+| 15:30-16:15      | OnChain Application Case Sharing                                                                                                                                                                                                   | Wentao Yang, Yanbo Li                             | Main  |
+| 16:15-17:00      |  Free Discussions                                                                                                                                                                                                                  | Every attendee                                    | Main  |
+
+
+
+
+
+^ Time Slot        ^ Topic                                 ^ Room  ^
+| 15：00-15：30 | Blockchain Operation Management and Baas | Phoenix Pod1 |
+
+
+
+
+
+
+
+

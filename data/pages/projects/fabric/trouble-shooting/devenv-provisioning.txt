@@ -1,0 +1,121 @@
+ --- //[[ghaskins@lseg.com|Greg Haskins]] 2016/09/07 23:33//
+====== Introduction ======
+
+You may have been directed to this page because your development environment failed to provision.  This page will serve as a community rally point for diagnosing and (hopefully) fixing these issues whenever possible.
+
+====== FAQ ======
+
+
+===== How do I know if my provisioning was successful? =====
+
+
+==== Prompt ====
+
+Most any version of devenv will indirectly indicate a successful provision by the command-line prompt that is visible within the _vagrant ssh_ environment.  A successful provision will have a prompt that looks something like:
+
+```
+vagrant@hyperledger-devenv:v0.0.10-667d977:~$
+```
+
+Do not be too concerned on the exact numbers, as they change with release/commits.  However, if the prompt looks wildly different, such as "vagrant@ubuntu", something is likely wrong.
+
+==== MOTD ====
+
+More recent versions of devenv will display a very loud message-of-the-day (MOTD) upon login when something is wrong.  If you see a nondescript MOTD, things are probably working well:
+
+
+=== Example of success ===
+
+```
+$ vagrant ssh
+Welcome to Ubuntu 14.04.4 LTS (GNU/Linux 3.13.0-86-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com/
+
+  System information as of Fri Jul 15 14:27:13 UTC 2016
+
+  System load:  1.36               Processes:              93
+  Usage of /:   10.6% of 38.75GB   Users logged in:        0
+  Memory usage: 8%                 IP address for eth0:    10.0.2.15
+  Swap usage:   0%                 IP address for docker0: 172.17.0.1
+
+  Graph this data and manage this system at:
+    https://landscape.canonical.com/
+
+Last login: Fri Jul 15 14:27:13 2016 from 10.0.2.2
+vagrant@hyperledger-devenv:v0.0.10-667d977:~$
+```
+
+=== Example of failure ===
+
+```
+$ vagrant ssh
+Welcome to Ubuntu 14.04.4 LTS (GNU/Linux 3.13.0-86-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com/
+
+  System information as of Fri Jul 15 14:27:13 UTC 2016
+
+  System load:  1.36               Processes:              93
+  Usage of /:   10.6% of 38.75GB   Users logged in:        0
+  Memory usage: 8%                 IP address for eth0:    10.0.2.15
+  Swap usage:   0%                 IP address for docker0: 172.17.0.1
+
+  Graph this data and manage this system at:
+    https://landscape.canonical.com/
+
+##########################################################
+                       ,.-""``""-.,
+                      /  ,:,;;,;,  \  DANGER DANGER
+                      \  ';';;';'  /   WILL ROBINSON...
+                       `'---;;---'`
+                       <>_==""==_<>
+                       _<<<<<>>>>>_
+                     .'____\==/____'.
+                _____|__   |__|   __|______
+              /C \\\\\\\\  |..|  //////// C\
+              \_C////////  |;;|  \\\\\\\\C_/
+                     |____o|##|o____|
+                      \ ___|~~|___ /
+                       '>--------<'
+                       {==_==_==_=}
+                       {= -=_=-_==}
+                       {=_=-}{=-=_}
+                       {=_==}{-=_=}
+                       }~~~~""~~~~{
+                  jgs  }____::____{
+                      /`    ||    `\
+                      |     ||     |
+                      |     ||     |
+                      |     ||     |
+                      '-----''-----'
+##########################################################
+
+If you see this notice, it means that something is wrong
+with your hyperledger/fabric development environment.
+
+Typically this indicates that something failed during
+provisioning and your environment is incomplete.  Builds,
+execution, etc., may not operate as they were intended.
+Please review the provisioning log and visit:
+
+                https://goo.gl/yqjRC7
+
+for more information on troubleshooting and solutions.
+
+##########################################################
+Last login: Fri Jul 15 14:27:13 2016 from 10.0.2.2
+vagrant@ubuntu-14.04$
+```
+
+===== How do I figure out what failed? =====
+
+
+A log is generated to stdout on the terminal where you ran _vagrant up_.  If you are unable to spy or otherwise understand the error, please be sure to save it off somewhere so that you may ask a community member for help, or file a formal issue.
+
+===== Common Provisioning Problems =====
+
+
+==== Problem: Users in China lack access to some of the external repositories such as dockerproject. ====
+
+=== Solution: TBD ===

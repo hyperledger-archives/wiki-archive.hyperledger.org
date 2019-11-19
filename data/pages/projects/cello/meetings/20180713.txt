@@ -1,0 +1,39 @@
+==== 2018-07-13 ==== 
+Meeting will be held at [[ https://zoom.us/my/hyperledger.community | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/cello|rocketchat]] (for text chat) at:
+  * 08:30AM   (UTC-4) [UTC -4 is Eastern Daylight Time EDT]
+  * 06:00PM   (UTC+0530)
+  * 08:30PM   (UTC+8)
+
+  * [[ https://jira.hyperledger.org/projects/CE/issues/CE-188?filter=allopenissues | Ongoing Jira task ]] 
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:cello+status:open | Open Patchset for review ]] 
+  * [[ https://wiki.hyperledger.org/projects/cello | Project Wiki Page ]] 
+
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  - Dynamic crypto config generation spec (Haitao,Jiang Lu)
+  - Demo: composer onto K8S using ansible agent (Tong)
+  - Kubernetes native agent demo (Luke Chen)
+  - [[https://wiki.hyperledger.org/projects/cello/internship-2018|Internship progress]] (shuo)
+
+
+=== Attendee ===
+**Please put your name before the meeting.**
+
+
+  * Baohua Yang
+  * Haitao Yue
+  * Tong Li
+  * Peng Du
+  * Brenda
+  * rtxie
+  * jiahaoc
+  * Shuo Wang
+  * Fengyang
+
+=== Minutes ===
+
+  - Tong demo to use ansible agent to integrate with composer. Will record a video later.
+  - Luke demo the latest k8s agent. Will record a video later.
+  - Shuo finished fabric 1.2 support, will integrate fabric-ca in next week.

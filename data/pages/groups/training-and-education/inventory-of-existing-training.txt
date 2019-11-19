@@ -1,0 +1,13 @@
+====== Training Inventory ======
+Welcome to the Hyperledger Learning Materials Development Working Group Training Inventory. Participants in this workgroup develop training and education learning materials. Participants new to Hyperledger often offer tutorial testing and documentation readability ideas and feedback. All experience levels are welcome and appreciated.
+
+Feel free to peruse our [[https://docs.google.com/document/d/1kEuHb3rpQbHqLhVJEI8bdeCCQiTMtgZSI7CYEp8_oMc/|Meeting Minutes]] to see the types of training materials we are working on. [[https://drive.google.com/drive/u/0/folders/0B_NJV6eJXAA1TlpnbXpsbWw4UHc|Recordings of the meetings]]. The Training and Education Workgroup meets every second Monday at 8:00 (am) PST. The [[https://wiki.hyperledger.org/groups/training-and-education/training-and-education-wg|Hyperledger Training and Education Workgroup Page]] notes additional information and links. 
+
+In creating training and education for the Hyperledger community, we find participants often request preparation materials. For example, volunteers interested in creating or editing documentation for readability may request a tutorial on working with GitHub. In response, the T&E workgroup offers (in process) voluntary [[https://wiki.hyperledger.org/groups/training-and-education/technical_onboarding|Technical Onboarding]] resources. 
+
+August 2018 Update:
+  * The [[https://wiki.hyperledger.org/groups/training-and-education/list-of-blockchain-core-concepts|Core Concepts List]] welcomes reader and developer input.
+  * The [[https://drive.google.com/drive/u/0/folders/1hCe8FhzKAjnDx8HUEk9L0wwlzK5OyHCJ|Hyperledger Slide Template Style Guide]] and [[https://drive.google.com/drive/u/0/folders/0Bz1YdkaP6DJtSldCdVFJQlRsN2c|Logos]] are utilized for consistent training and education materials development.
+Pre-August 2018:
+  * [[https://goo.gl/9mi6Xs|Hyperledger Training Inventory Topics Worksheet]]: This list served as a guide for initial working group conversations.
+

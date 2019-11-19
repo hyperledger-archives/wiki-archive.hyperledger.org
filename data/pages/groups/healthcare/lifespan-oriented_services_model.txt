@@ -1,0 +1,8 @@
+===== Lifespan-oriented services model =====
+[[healthcare-wg-wikispace-redesign |Home]] : [[resources|Resources]] : [[analytical_models|Analytical models]]
+----------
+
+Lifespan-oriented health and human services are tailored to defined contexts based on factors such as age, development stage or life events or processes.
+
+{{ :groups:healthcare:human_lifespan-oriented_services_context.jpg }}
+

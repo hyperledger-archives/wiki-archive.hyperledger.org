@@ -1,0 +1,54 @@
+==== 2018-01-19 ==== 
+
+Meeting will be held at [[ https://zoom.us/j/248676399 | zoom]] (Recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/fabric-sdk-py|rocketchat]] at:
+
+  * 11AM (GMT+8)
+  * 8PM one day before (GMT-7).
+
+  * [[https://jira.hyperledger.org/browse/FAB-4623?jql=project%20%3D%20FAB%20AND%20status%20in%20(%22In%20Progress%22%2C%20%22To%20Do%22)%20AND%20component%20%3D%20fabric-sdk-py | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+status:open | Open Patchset for review]]
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]]
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  * Recent Progress: chaincode install, channel create, integration testing framework refinement
+  * MSP unknown bug fix: [[https://gerrit.hyperledger.org/r/16865 | bug fix]] by Dong Wang.
+  * chaincode Instantiate: Tony and kai are working on [[https://jira.hyperledger.org/browse/FAB-5489 | FAB-5489]]
+  * chaincode Invoke: Zhaofang Han is working on [[https://jira.hyperledger.org/browse/FAB-5491 | FAB-5491]], Dong Wang is working on [[https://jira.hyperledger.org/browse/FAB-6985|FAB-6985]]
+  * EventHub:  david dornseifer is working on [[https://jira.hyperledger.org/browse/FAB-4822|FAB-4822]]
+  * Register: Baohua is working on [[https://jira.hyperledger.org/browse/FAB-3165|FAB-3165]]
+  * TODO issues
+    * channel join: [[https://jira.hyperledger.org/browse/FAB-2871|FAB-2871]]
+    * chaincode Query?
+    * chaincode Upgrade?[[https://jira.hyperledger.org/browse/FAB-5490|FAB-5490]]
+  * Design Issues:
+    * [[ https://jira.hyperledger.org/browse/FAB-7743  |fabric-ca tls access]]
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Baohua Yang
+  * Kai Chen
+  * Wang Dong
+  * Manoel Vieira
+
+=== Log ===
+
+Today's meeting is completed on zoom. Three main topics are 
+as below:
+
+1. The CI error for the FAB-7751.We all got python2 and no python3.
+So the command "make check" may not check the code python3.
+The python3(3.6) will be tried if it works.
+   
+2. The chain code deploy and invoke error may result from the failure work of channel joining. 
+   
+3. The FAB-7743 item. More discussion will be held on the rocket chat.
+
+The next step:
+
+1. To complete the chaincode deploy and invoke, especially the e2e work flow.
+
+2. Baohua will update the fabric image of python sdk to 1.0.5. He will test it firstly.

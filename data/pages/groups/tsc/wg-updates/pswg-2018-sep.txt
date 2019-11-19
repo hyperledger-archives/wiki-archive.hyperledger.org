@@ -1,0 +1,39 @@
+====== Hyperledger Working Group Update ======
+
+===== Working Group =====
+**Performance and Scalability Working Group (PSWG) **
+
+===== Working Group Health =====
+
+The PSWG has passed off the [[https://docs.google.com/document/d/1vSwDsh0T9s_8-n870cof9SrpxFTgiZN0Ka9wkqsz1Dk/edit?usp=sharing|Metrics Document]] to the Hyperledger design team to get polished and wrapped up! 
+
+The goal is to have it ready for release and announcement(?) in Montreal. At this point, it would be great for all TSC members to invest some time with it so we can get it released. (Is there a formal process for this?) We are mostly looking for anything that you may find grossly technically inaccurate.  
+
+We have spent a lot of time on our calls coming to rough consensus on definitions that are a best fit for most blockchain implementations. This document attempts to provide common definitions for the measurements, etc for many types of DLTs. Given the wide range of implementations, this can sometimes be a bit challenging.
+
+The group has maintained a core of twelve regular participants spread across the globe and across many companies and academia. The discussions remain very technical and perhaps we get too deep. We continue to reach outside of the Hyperledger community and have regular contributions and feedback on our work from this population. The last few weeks have seen some new folks showing up on the calls. We shall see if we can get them to stick.
+
+===== Issues =====
+We have lost all of the original contributors from the APAC region. Some left after Caliper became a project, others left over time. Given that our calls are late at night in APAC this is somewhat understandable. In an effort to see if we could modifiy this I had sent out an email to our list to see if people would be more active if we held meetings at a different time.  Only one reply was received from someone in Australia. His feedback was that the time for the call was a barrier to entry for him but that he had moved on to other efforts.
+
+I think figuring out how to get even participation worldwide is something the TSC / Hyperledger should investigate and provide guidance on.
+
+===== Overall Activity in the Past Quarter =====
+
+We have tried to maintain a singular focus on the Metrics document as our work product. 
+
+As we approached our deadline, activity on the mailing list and chat channel increased. This was very helpful as it allowed some issues to get worked out ahead of the meeting times and also provided a way for people to review text, thoughts, suggestions, etc. and think about them.
+
+The move to weekly calls from every other week also appeared to have helped with our production and ability to move forward. 
+
+===== Planned Work Products =====
+
+We are pushing version 1.0 of the Metrics document out soon. There is some material that was held out and we will most likely need to continue to update the document over time. 
+
+We are planning to focus on "Use cases" and testing examples next. These will most likely be in a distinct document but TBD. 
+
+===== Participant Diversity =====
+
+This is a very active and diverse group of people from North America, Europe, and Russia. As mentioned above, we have a good mix of companies and folks from academia. From a gender diversity perspective, It is mainly male with an occasional female participant..
+
+===== Additional Information =====

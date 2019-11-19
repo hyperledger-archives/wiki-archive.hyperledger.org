@@ -1,0 +1,3 @@
+====== Custody Use Case ======
+
+The holding of securities and other assets on behalf of a customer. This is done to maintain the security and ownership of these assets, and can be maintained in either physical or digital copies. Additional services may be applied in the custodial agreement, such as administration, dividend collection and interest payment, tax support, etc. Fees are charged based upon services rendered and the size of the custodial holdings.

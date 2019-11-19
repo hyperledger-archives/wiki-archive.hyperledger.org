@@ -1,0 +1,14 @@
+====== Q4 2018 Burrow Roadmap Postmortem ======
+//**Author: Silas Davis, 26 November 2018**//
+
+The Agreements Network threw up significantly different priorities for Q4 than those planned at a high level - in particular implementing out proposal mechanism, STATICCALL, and completely reworking our error handling in the EVM - covering a number of swallowed issues.
+
+===== Roadmap =====
+^ Work item ^ Status and notes ^
+| State time travel (git rebase, git reset --hard) | Rescheduled as part of ForkTx |
+| Implement prototype web3 API  | Abandoned |
+| State save/restore | Rescheduled as ForkTx |
+| Forkable state channels | Rescheduled as ForkTx |
+| Provide trial HSM integaration | Abandoned |
+| Reintroduce ECRECOVER for secp256k1 | Abandoned |
+| Parallel EVM execution | Abandoned |

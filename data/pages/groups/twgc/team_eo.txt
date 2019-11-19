@@ -1,0 +1,112 @@
+===== TWGC Events Organization =====
+
+==== Description ====
+Help instruct the events organization like [[community/meetups|meetup]] and hackathon.\\
+If you want to join TWGC to host/organize a meetup, please start with our [[groups/twgc/events/guideline|guideline]].\\
+[[groups/twgc/events/space|Here]] is a list of available event spaces
+
+==== Volunteers ====
+
+^ Name             ^ Organization  ^ Email                         ^ Location  ^
+| Jiannan Guo      | IBM           | guojiannan1101@gmail.com      | Beijing   |
+| Zhou Xing        | IBM           | xingzhou@cn.ibm.com           | Beijing   |
+| Hao Han          | Anne inc.     | haohan@anne.com.cn            | Beijing   |
+| Zhujun He        | ChainNova     | hezhujun@chainnova.com        | Beijing   |
+| Chang Chen       | Ziggurat.cn   | calvin@ziggurat.cn            | Beijing   |
+| Sheng Huang      | IBM           | 119897460@qq.com              | Shanghai  |
+| Zhoudong Ji      | Wanda         | jizhoudong@wanda.cn           | Shanghai  |
+| Jingxiao Gu      | IBM           | dawnwords@163.com             | Shanghai  |
+| Kai Chen         | Ziggurat.cn   | 281165273@qq.com              | Wuhan     |
+| Hong Shen        | IBM           | hhshen@cn.ibm.com             | Wuhan     |
+| Zhangjiong Xuan  | Hyperchain    | xuanzhangjiong@hyperchain.cn  | Hangzhou  |
+| Zhong TIAN       | IBM           | tianz@cn.ibm.com              | Beijing   |
+| Zhenhua Zhao     | IBM           | zhao.zhenhua@gmail.com        | Shenzhen  |
+| Dijun Liu        | CETC-CS       | flyinox31@gmail.com           | Chengdu   |
+
+
+
+
+
+
+There are some free hosting places for community usage, provided from our volunteer companies. If you need help, pls email the following contacts and see how to apply the places. If you wanna offer own places to help community events, pls feel free to add ur name in the list, too, thanks.
+
+  - Beijing: Jiannan Guo <guojiannan1101@gmail.com> and Hao Han <haohan@anne.com.cn>
+  - Shanghai: Sheng Huang <119897460@qq.com>
+  - Hangzhou: Zhangjiong Xuan <xuanzhangjiong@hyperchain.cn>
+  - Wuhan: Kai Chen <281165273@qq.com> and Hong Shen <hhshen@cn.ibm.com>
+  - Shenzhen: Zhenhua Zhao <zhao.zhenhua@gmail.com>
+  - Chengdu: Dijun Liu <flyinox31@gmail.com>
+
+
+==== Events ====
+**Feel free to add a new row if you volunteer to host/organize a technical event, and welcome to join to support existing one, too**.
+
+^ Topic                                 ^ City & Date                      ^ Sponsor                      ^ Link                                                                                                                                                                 ^
+| Hyperledger Meetup                    | Nanjing, December 22, 2018       | 华为、南京大学                      | [[groups/twgc/nanjing-meetup-2018-12| Nanjing Meetup 2018-12-22]]                                                                                                    |
+| Hyperledger Meetup                    | Wuhan, December 8,2018           | 菠萝加速器                        |                                                                                                                                                                      |
+| Hyperledger Meetup                    | Shenzhen, December 15, 2018  | 腾讯                           | [[http://www.huodongxing.com/event/9468651089911| Shenzhen Meetup 2018-12-15]]                                                                                       |
+| Hyperledger Meetup                    | Shanghai, November 17, 2018      | 物数科技                         | [[http://www.huodongxing.com/event/6465644122011| Shanghai Meetup 2018-11-17]]                                                                                       |
+| Hyperledger Meetup                    | Beijing, October 28, 2018        | 安妮股份                         | [[http://www.huodongxing.com/event/3462448095411| Beijing Meetup 2018-10-28]]                                                                                        |
+| Hyperledger Meetup                    | Nanjing, October 20,2018         | 南京大学                         | [[http://www.huodongxing.com/event/6461149845911| Nanjing Meetup 2018-10-20]]                                                                                        |
+| Hyperledger Meetup                    | Wuhan, September 15, 2018        | 菠萝加速器                        | [[http://www.huodongxing.com/event/5456274236900| Wuhan Meetup 2018-09-15]]                                                                                          |
+| Hyperledger Meetup                    | Beijing, September 15, 2018      | 智链ChainNova & AWS            | [[groups/twgc/Beijing-meetup-2018-09| Beijing Meetup 2018-09-15]]                                                                                                    |
+| Hyperledger Meetup                    | Shenzhen, September 15, 2018     | 清华大学深圳研究生院                   | [[http://www.huodongxing.com/event/4456020698811| Shenzhen Meetup 2018-09-15]]                                                                                       |
+| Hyperledger Meetup                    | Shanghai, September 12, 2018     | 旺链科技，区块链兄弟                   | [[groups/twgc/Shanghai-meetup-2018-09| Shanghai Meetup 2018-09-12]]                                                                                                  |
+| Hyperledger Meetup                    | Changsha, september 8, 2018      | 湖南大学工商管理学院                   | [[http://www.huodongxing.com/event/3455984588611| Changsha Meetup 2018-09-08]]                                                                                       |
+| Hyperledger Meetup                    | Hangzhou，September 2, 2018       | 浙江省区块链技术应用协会                 | [[http://www.huodongxing.com/event/4455389242411| Hangzhou Meetup 2018-09-02]]                                                                                       |
+| Hyperledger Meetup                    | Shenzhen, August 11, 2018        | 网谷双创街                        | [[groups/twgc/Shenzhen-meetup-2018-08| Shenzhen Meetup 2018-08-11]]                                                                                                  |
+| Hyperledger Meetup                    | Guangzhou, August 05, 2018       | 中山大学                         | [[http://www.huodongxing.com/event/7450792004711| Guangzhou Meetup 2018-08-05]]                                                                                      |
+| Hyperledger Meetup                    | Beijing, August 25, 2018         | 民生银行                         | [[http://www.huodongxing.com/event/3453523350011| Beijing Meetup 2018-08-25]]                                                                                        |
+| Hyperledger Meetup                    | Shanghai, July 28, 2018          | 复旦大学                         | [[groups/twgc/shanghai-meetup-2018-07| ShangHai Meetup 2018-07-28]]                                                                                                  |
+| Hyperledger Meetup                    | Beijing, July 21, 2018           | 智链ChainNova                  | [[http://www.huodongxing.com/event/9448657128811| Beijing Meetup 2018-07-21]]                                                                                        |
+| Hyperledger meetup                    | HangZhou,July 15,2018            | 浙江省区块链技术应用协会                 | [[http://www.huodongxing.com/event/8448214209211| Hangzhou Meetup 2018-07-15]]                                                                                       |
+| Hyperledger Meetup                    | Wuhan, June 30, 2018             | Pineapple Accelerator 菠萝加速器  | [[http://www.huodongxing.com/event/4445455675500| Wuhan Meetup 2018-06-30]]                                                                                          |
+| Hyperledger Meetup                    | Shenzhen, June 23, 2018          | 深圳市互联网金融协会                   | [[groups/twgc/shenzhen-meetup-2018-06| Shenzhen Meetup 2018-06-23]]                                                                                                  |
+| Hyperledger Meetup                    | Shanghai, June 2, 2018           | 上海闵行漕河泾                      | [[http://sh.huodongxing.com/event/6441437969511| Shanghai Meetup 2018-06-02]]                                                                                        |
+| Hyperledger Meetup                    | HangZhou,May 27,2018             | 浙江省区块链技术应用协会                 | [[groups/twgc/hangzhou-meetup-2018-05| Hangzhou Meetup 2018-05-27]]                                                                                                  |
+| Hyperledger Meetup                    | Beijing, May 27, 2018            | 纸贵科技                         | [[http://www.huodongxing.com/event/4439409617100?td=3382916696680| Beijing Meetup 2018-05-27]]                                                                       |
+| Hyperledger Meetup                    | Shenzhen, May 26, 2018           | 深圳市融讯科技有限公司，清华大学深圳校友会金融投资分会  | [[http://www.huodongxing.com/event/6440053577100| Shenzhen Meetup 2018-05-26]]                                                                                       |
+| Hyperledger Meetup                    | Chengdu, May 19, 2018            | 中国网安保密通信重点实验室                | [[http://www.huodongxing.com/event/6439050878300| Chengdu Meetup 2018-05-19]]                                                                                        |
+| Hyperledger Meetup                    | HangZhou,Apr 29,2018             | 浙江省区块链技术应用协会                 | [[groups/twgc/hangzhou-meetup-2018-04| Hangzhou Meetup 2018-04-29]]                                                                                                  |
+| Hyperledger Meetup                    | Beijing, Apr 22, 2018            | 北京大学                         | [[groups/twgc/beijing-meetup-2018-04| Beijing Meetup 2018-04-22]]                                                                                                    |
+| Hyperledger Meetup                    | HangZhou, Mar 25, 2018           | 浙江大学、浙江省区块链技术应用协会            | [[groups/twgc/hangzhou-meetup-2018-03| HangZhou Meetup 2018-03-25]]                                                                                                  |
+| Hyperledger Meetup                    | Shanghai, Mar 24, 2018           | 旺链科技、复旦大学                    | [[groups/twgc/shanghai-meetup-2018-03| ShangHai Meetup 2018-03-24]]                                                                                                  |
+| Hyperledger Meetup                    | Wuhan, Mar 24, 2018              | 武汉理工大学经济学院                   | [[groups/twgc/wuhan-meetup-2018-03| Wuhan Meetup 2018-03-24]]                                                                                                        |
+| Hyperledger Meetup                    | Beijing, Mar 24, 2018            | 北京大学                         | [[groups/twgc/beijing-meetup-2018-03| Beijing Meetup 2018-03-24]]                                                                                                    |
+| Hyperledger Meetup                    | DaLian, Mar 10, 2018             | 东软信息学院                       | [[groups/twgc/dalian-meetup-2018-03| DaLian Meetup 2018-03-10]]                                                                                                      |
+| Hyperledger Meetup                    | Shanghai, Feb 04, 2018           | 复旦大学计算机科学技术学院“区块链技术联合创新中心”   | [[groups/twgc/shanghai-meetup-2018-01| Shanghai Meetup 2018-02-04]]                                                                                                  |
+| Hyperledger Meetup on BaaS&Operation  | Beijing, Jan 27, 2018            | 纸贵科技(Ziggurat)，VMware        | [[groups/twgc/beijing-meetup-2018-01| Beijing Meetup 2018-01-27]], Google Cloud: http://t.cn/R8zG0MW; Baidu Cloud: https://pan.baidu.com/s/1eTDVnsY, password: lray  |
+| Hyperledger Meetup                    | Shanghai, Jan 25, 2018           | 指旺金科                         | [[groups/twgc/shanghai-meetup-2018-01-25| Shanghai Meetup 2018-01-25]]                                                                                               |
+| Hyperledger Meetup                    | Wuhan, Dec 09, 2017              | 武汉OVU创客星                     | [[groups/twgc/wuhan-meetup-2017-12| Wuhan Meetup Dec 2017]]                                                                                                          |
+| Hyperledger Meetup                    | Beijing, Dec 10, 2017            | 安妮股份 版权区块链联盟                 | [[groups/twgc/beijing-meetup-2017-18| Beijing Meetup 2017]]                                                                                                          |
+| Hyperledger Meetup                    | Shanghai on Nov 18, 2017         | 复旦大学计算机科学技术学院“区块链技术联合创新中心”   | [[groups/twgc/shanghai-meetup-2017-11| Shanghai Meetup 2017-11-18]]                                                                                                  |
+| Hyperledger Meetup                    | Beijing On Sep 16,2017           | Anni                         | [[http://t.cn/RNJHbzY|huodongxing.com]]                                                                                                                              |
+| Hyperledger Meetup                    | Beijing On Aug 19, 2017          | ChainNova, IBM, TWGC         | [[http://www.huodongxing.com/event/1398659377000|huodongxing.com]]                                                                                                   |
+| Hyperledger Hackathon Day/Hackfest    | Beijing on June 19~20, 2017      | Linux Foundation, TWGC       | [[groups/twgc/hackfest-beijing| Hackfest-Beijing]]                                                                                                                   |
+| Hyperledger Workshop                  | Beijing on June 18               | IBM, TWGC                    | [[http://www.huodongxing.com/event/2391025106700|huodongxing.com ]]                                                                                                  |
+| Hyperledger Meetup                    | Shanghai on Mar 11, 2017         | Energy Blockchain Lab        | [[http://www.huodongxing.com/event/9377089962900| huodongxing.com]]                                                                                                  |
+| 1st Asia Hackathon                    | Shanghai on Mar 11&12, 2017      | Wanda, IBM, TWGC             | [[http://szqy.ffan.com/hack/Hack/| website ]]                                                                                                                        |
+| Shanghai Meetup                       | Shanghai on 2017-03-04           | IBM, TWGC                    | [[http://www.huodongxing.com/event/1375786308500| huodongxing.com]]                                                                                                  |
+| Shenzhen Meetup                       | Shenzhen on 2017-01-07           | IBM, TWGC                    | [[http://www.huodongxing.com/event/9365963362100| huodongxing.com]]                                                                                                  |
+| Beijing Meetup                        | Beijing on 2016-12-25            | IBM                          | [[https://www.meetup.com/Hyperledger-Beijing/events/236207313/| huodongxing.com ]] [[https://www.meetup.com/Hyperledger-Beijing/events/236207313/| meetup.com ]]     |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

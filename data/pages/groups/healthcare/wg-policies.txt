@@ -1,0 +1,7 @@
+===== Policies =====
+[[healthcare-wg|Home]] : [[governance|Governance]]
+----------
+
+  * [[https://www.linuxfoundation.org/antitrust-policy|Linux Foundation antitrust policy]]
+  * [[https://tinyurl.com/HL-antitrust-slide|Hyperledger antitrust slide]]
+

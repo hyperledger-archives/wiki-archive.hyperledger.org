@@ -1,0 +1,27 @@
+Hyperledger Project\\
+Healthcare Working Group (HCWG) Payor Subgroup Meeting\\
+October 2, 2018 \\
+
+Resources:\\
+Chat:  ​https://chat.hyperledger.org/​channel/​healthcare-wg  ​(you can use your LFID to login)\\
+Github:  ​https://github.com/​hyperledger \\
+Wiki:  https://wiki.hyperledger.org \\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org \\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy 
+
+Jeff Stollman walks the WG through the World Economic Forum flowchart on whether a project needs a blockchain.  
+
+Working Group decides to dissect each step in order to create a decision tree which better applies to healthcare use cases.  Short write ups will be created for next week.
+
+1. Many Writers - Raveesh\\
+2. Divergent incentives - Tony\\
+3. Hegemony - Jeff\\
+4. Data - Jeff\\
+5. Parties - Rich \\
+6. Tampering - Raveesh\\
+7. Attack Incentive - Steve\\
+8. Recourse - Tony\\

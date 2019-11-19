@@ -1,0 +1,7 @@
+===== Challenges =====
+[[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]]
+----------
+
+  * [[https://www.herox.com/Differential-Privacy-Synthetic-Data-Challenge|NIST Differential privacy synthetic data challenge]]
+  * [[http://www.kidneyx.org/|Kidney X Redesign Dialysis Prize Competition]]
+

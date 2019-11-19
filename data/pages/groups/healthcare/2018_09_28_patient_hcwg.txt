@@ -1,0 +1,21 @@
+Hyperledger Project
+Healthcare Working Group (HCWG) Patient Subgroup Meeting
+September 28, 2018 
+
+Resources:
+Chat:  ​https://chat.hyperledger.org/​channel/​healthcare-wg  ​(you can use your LFID to login)
+Github:  ​https://github.com/​hyperledger 
+Wiki:  https://wiki.hyperledger.org
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg 
+Public lists:  https://lists.hyperledger.org
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings 
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy
+
+Meeting Notes
+
+Updates - POC and HiMSS AsiaPac submission \\
+Overview of Donor Milk MVP workflow and future scenarios to build out - see Section 2 of the Wiki with the "Happy Path" MVP - begins at timestamp 16:00\\
+Review of current network and discussion of additional technical needs and ideas for resourcing (Ben D. will present) - begins at timestamp 31:30\\
+Wrap up and next steps
+

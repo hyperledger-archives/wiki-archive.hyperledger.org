@@ -1,0 +1,22 @@
+===== Payor Sub-workgroup =====
+[[healthcare-wg-wikispace-redesign|Home]]
+-----------
+
+//Brief overview//
+
+----------
+==== Stakeholders, Activities & Resources ====
+
+  * [[stakeholders|Stakeholders]] : [[Raveesh Dewan]] (SWG lead), [[payor-SWG-members|Payor SWG members]]
+
+  * [[activities|Activities]]
+    * [[payor-swg-meetings|SWG Meetings]] : [[2018_09_18_payor_hcwg|18-SEP]], [[2018_09_11_payor_hcwg|11-SEP]], [[2018_09_04_payor_hcwg|04-SEP]], [[2018_08_28_payor_notes|28-AUG]], [[2018_08_21_payer_notes|21-AUG]], [[np16|14-AUG]], [[np9|07-AUG]], [[np10|31-JUL]], [[np11|17-JUL]], [[np12|10-JUL]], [[np13|03-JUL]], [[np14|26-JUN]], [[np15|12-JUN]]
+    * [[marketing-communications|Marketing & Communications]]
+      * [[activities-whitepapers|Whitepapers]]
+    * [[analysis-business|Domain analysis]] : [[analysis-provider-credentialing|Provider credentialing services]], [[analysis-preauth|Pre-authorization services]]
+
+  * [[resources|Resources]] 
+
+----------
+
+

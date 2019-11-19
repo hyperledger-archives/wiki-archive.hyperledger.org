@@ -1,0 +1,60 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Iroha [[https://github.com/hyperledger/iroha]]
+
+===== Project Health =====
+Hyperledger Iroha project extends its number of features, technical debt is gradually lowered and velocity of development is expected to stabilise soon after several changes in development process and design of requirements. Community is expanded, the questions asked in Rocket.chat and Gitter are answered within maximum of 24 hours. Meetings with the community are conducted on demand. GitHub issues contain good first issues for curious contributors. Several project issues are identified and are under control. API documentation for developers is updated regularly and helps new developers to understand how to use capabilities of Hyperledger Iroha [[https://hyperledger.github.io/iroha-api/#overview]]
+
+
+===== Issues =====
+Following issues the project currently has:
+  * delay of alpha release — relates to Android, iOS and JavaScript SDK for developers being outdated. The reason is that team decision to design and integrate shared library for generation of immutable and signable transactions and queries took more time than expected. Also initially, the plan did not include the update of these libraries, and the target date was unrealistic.
+  * increased technical debt of the codebase, identified by maintainers team, which resulted in degrading of velocity. The decision is to focus on eliminating current technical debt, according to sonarqube metrics (SQALE maintainability grade B [[https://sonar.soramitsu.co.jp]]), introduce quality model in accordance with ISO 25010 and proceed with testing plan.
+
+
+===== Releases =====
+Alpha release was delayed, as mentioned above. Most recent release is preview v0.95 [[https://github.com/hyperledger/iroha/releases/tag/v0.95]], with codebase in development branch allowing to release at lease another preview version before alpha is released.
+
+
+===== Overall Activity in the Past Quarter =====
+Mailing lists purpose is to report on milestones achieved such as release or certain feature release. Gitter, telegram and Rocket.chat chats are active with many questions being asked primarily about deployment process. 
+Active bug fixes and delivery of new features are performed. This being said, a change log of following features and improvements that were delivered to development branch since v0.95 preview release is:
+
+  * Hot join of peer to the network
+  * Mac builds are checked in CI
+  * Transaction responses
+  * Separation of transport layer between ordering gate and ordering service
+  * Sonarqube bot, checking technical debt of the codebase
+  * Improved initialisation pipeline
+  * Fix of synchronisation service
+  * Effective implementation of cryptography: validation of payload signatures, signatures of block made by peer
+  * Improved representation of asset amount — now supports uint256
+  * RBAC permission model, supporting grant command
+  * New commands and queries in the project
+  * Integration test for transaction pipeline, wide usage of mocks
+  * Implementation of block index storage, based on Redis
+  * Pagination for queries, which return wide range of transaction (GetTransactionHistory, etc.)
+  * Improved implementation of Yet Another Consensus
+  * Provisioning of the system via Ansible Playbook
+  * Builds of Iroha delivered in .deb, .rpm, .tar.gz, brew for macOS
+  * Fixed build for ARMv7, macOS platform
+  * Python-based CLI for Iroha (Yet Another CLI) [[https://github.com/MizukiSonoko/iroha-cli]]
+  * Several improvements in iroha-cli (C++ command-line interface)
+===== Current Plans =====
+We are working toward alpha release, which should initiate active work related to performance improvements.
+Alpha release should contain following features:
+  * Assets with immutable amount
+  * Finish implementation of multi-signature transactions
+  * Rework launch of Iroha daemon with environment variables
+  * Peers state monitoring 
+  * Extended peer management
+  * Updated SDK for iOS, Android and JS platforms
+
+===== Maintainer Diversity =====
+Since last report, 8 new maintainers were added to the team, consisting primarily of Soramitsu employees, working in Russia, Innopolis. [[https://github.com/hyperledger/iroha/blob/develop/MAINTAINERS.md]]
+
+
+===== Contributor Diversity =====
+Now, Iroha is supported by contributors from Soramitsu in Japan and Russia, several Japanese companies, National Bank of Cambodia. 
+We had single Hyperledger intern, working actively on concept of anonymous transactions in Iroha.

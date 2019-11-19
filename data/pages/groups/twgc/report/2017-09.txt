@@ -1,0 +1,24 @@
+==== TWG China Group Report for September 2017 ====
+
+=== Status ===
+  - Team: The team were collaborating in development, adoption cases, i18n, event organization and other tasks. We have 1 new active volunteers: Zhangjiong Xuan.
+  - Meeting: 2 meetings were held with active discussions (with LF experts). All minutes can be found on the [[ groups/twgc/meetings | wiki]].
+  - [[groups/twgc/team_cs | Collaboration and Scenarios]]
+    - The team has collected 5 adoption cases of Hyperledger techniques and shared on the wiki. 
+    - We are collecting more adoption scenarios.
+  - [[groups/twgc/team_di | Technical Development]]
+    - New developers are joining, see the [[groups/twgc/team_di | development page]].
+    - Technical Communication: active discussions happen in the rocket chat channel/maillist.
+    - 2 new projects are proposed, including [[https://docs.google.com/document/d/1nw48VwDXmu5RqVmdI_MdmOx70f-AHZnIjN-AUMYMGXA | caliper]] and [[https://docs.google.com/document/d/1n8gxFOmYxvEI4tHVvp2GtHstMncgIDAT6c3cAu1HcBA|chaincode designer]].
+    - Code contributions to hyperledger fabric, hyperledger cello and hyperledger sawtooth projects.
+  - [[groups/twgc/team_ie | i18n and education work]]
+    - 10s of design documentation are done and put on github. 
+    - The team has chosen zanata platform after the evaluation.
+    - Will propose the demo process to do i18n translation.
+  - [[groups/twgc/team_eo | Event organization ]]
+    - 3 technical meetup has been held.
+    - Start the regular meetup plan, will call for meetup every month.
+
+=== Issues ===
+  - Meeting platform: The uber-conference system provides no local access number, sometimes not stable to access through web browser. 
+  - i18n work: Need the TSC and infrastructure teams' help to create official github repo.

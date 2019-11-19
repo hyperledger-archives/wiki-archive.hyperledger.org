@@ -1,0 +1,254 @@
+
+### 2016-10-28
+
+#### Agenda
+
+ * Baohua will introduce the SDK spec status
+ * Suggestion about JIRA work item(create a set of tasks after pick up the story)
+ * Everyone review the [SDK Spec](https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4)
+ * Everyone review the [Patchset UnderReivew](https://gerrit.hyperledger.org/r/#/q/status:open+project:fabric-sdk-py)
+ * Suggest read the * [hyperledger-fabric-protobuf-message-and-flow](https://files.slack.com/files-pri/T0J024XGA-F2VB5FXJ4/download/hyperledger-fabric-protobuf-messages-and-flow.pdf)
+
+#### Attendee
+
+ * Kai Chen
+ * Baohua
+ * Bryan
+ * Chuanjian
+ * Lei Li
+
+#### Log
+```
+The weekly meeting will start in 3 mins, agenda is [https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20161028.md](https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20161028.md)
+
+[10:57]    
+Kai:every meeting attendee, pls hands up :slightly_smiling_face:
+
+[10:57]  
+=== Meeting Start ===
+
+[10:58]  
+Kai:hand:
+
+[10:59]   
+Chuanjian:hand:
+
+[11:01]  
+Baohua: +1
+
+[11:01]  
+Baohua:finally get up:)
+
+[11:02]   
+Kai:ok_hand:
+
+[11:02]  
+Baohua:go on, kai~
+
+[11:02]  
+Kai: anyone else?
+
+[11:02]  
+Kai:ok
+
+[11:02]  
+Kai:first, let baohua update SDK spec status
+
+[11:02]  
+Baohua: Sure
+
+[11:02]  
+Baohua:Yesterday we have the SDK WG meeting, discussing the api.
+
+[11:03]  
+Baohua:Many issues are resolved in the meeting, however, there are still remaining ones, hence two work sessions are planed at 7pm Today and 10pm next Monday.
+
+[11:03]  
+Baohua:I highly encourage everyone to read and give comments to the spec.
+
+[11:03]  
+Baohua:Anyone can join today’s meeting, starting at 7PM?
+
+[11:03]  
+Kai: not sure
+
+[11:04]  
+Baohua:AM I may not be able to join those meetings due to time conflicts.
+
+[11:04]  
+Baohua:yes, today’s meeting is at 7PM, can anyone join representing our team?
+
+[11:05]  
+Kai:let me talk in the wechart
+
+[11:05]  
+Baohua:sure @grapebaba.
+
+[11:05]  
+Baohua:the agenda is here
+
+[11:05]  
+Baohua:https://mydtcc.webex.com/mydtcc/j.php?MTID=m31842cde5df681b888b95128fb36046e
+Fabric-SDK Client Review
+Friday, October 28, 2016
+7:00 am  |  Eastern Daylight Time (New York, GMT-04:00)  |  1 hr
+Meeting number: 594 143 585
+Meeting password: 159577
+mydtcc.webex.com
+Depository Trust and Clearing Corporatio WebEx Enterprise Site
+18
+
+[11:05]  
+Kai:got it.
+
+[11:06]  
+Baohua:And for next monday’s SDK working session, the agenda is here
+
+[11:06]  
+Baohua:https://mydtcc.webex.com/mydtcc/j.php?MTID=ma228df657f2144781e7a3fbf7f2e32cf
+fabric-sdk working session
+Monday, October 31, 2016
+10:00 am  |  Eastern Daylight Time (New York, GMT-04:00)  |  1 hr
+Meeting number: 592 319 761
+Meeting password: 159577
+mydtcc.webex.com
+Depository Trust and Clearing Corporatio WebEx Enterprise Site
+20
+
+[11:06]  
+Baohua:Ok, i’m done, and will leave for another meeting, now give back to u, kai, thanks!
+
+[11:06]  
+Kai:can you join the meeting on next Monday?
+
+[11:06]  
+Baohua:no, both time confilicts :disappointed:
+
+[11:07]  
+Baohua:got it.
+
+[11:07]  
+Baohua:we may ask for volunteer in the wechat group for those meetings.
+
+[11:07]  
+Baohua:suggest we have at least one guy there and share the status.
+
+[11:07]  
+Kai: yes, i think so
+
+[11:07]  
+Baohua :slightly_smiling_face: go on~~
+
+[11:08]  
+Kai:second, i have a suggestion about JIRA work item
+
+[11:09]  
+Kai:Right now, our story is a little big
+
+[11:09]  
+Kai:I want every owner split sub tasks after pick up the story
+
+[11:10]  
+Baohua:definitely, we should do that +1!
+
+[11:10]  
+Kai:every sub task not longer than 1w
+
+[11:10]  
+Kai:others?
+
+[11:11]  
+Chuanjian: +1
+
+[11:11]  
+Lei:agree
+
+[11:11]  
+Kai:ok
+
+[11:11]  
+Kai:let us follow it.
+
+[11:12]  
+Kai:Third, everyone review the SDK spec
+
+[11:12]  
+Kai:encourage everyone make suggestion
+
+[11:13]  
+Kai:any thoughts?any problem?
+
+[11:14]  
+Kai:if not we will go next topic
+
+[11:14]  
+Kai:Everyone review the patchset
+
+[11:15]  
+Kai:https://gerrit.hyperledger.org/r/#/c/2019/
+
+[11:15]  
+Kai:currently only one patch set need review
+
+[11:16]  
+Kai:this patch set failed CI
+
+[11:16]  
+Kai:it has some format problem
+
+[11:17]  
+Kai:anyone else has a patch set to be reviewd?
+
+[11:17]  
+Kai:or any problems?
+
+[11:18]  
+Yan:who is working on the kvstore
+
+[11:18]  
+Kai:i am doing
+
+[11:18]  
+Kai:a little busy this two weeks
+
+[11:18]  
+Yan:is it pluggable?
+
+[11:18]  
+Kai:yes
+
+[11:18]  
+Yan: cool
+
+[11:19]  
+Kai:i will follow the SDK spec Key Value Store interface
+
+[11:20]  
+Yan:What is the target date
+for kvstore
+
+[11:20]  
+Kai:next Tuesday 11.1
+
+[11:21]  
+Yan:okay, great
+
+[11:21]  
+Kai: ok
+
+[11:22]  
+Kai:that is all
+
+[11:22]  
+Kai:Thanks for joining
+
+[11:22]  
+Kai:See you next week
+
+[11:23]  
+Yan :+1:
+
+=== Meeting End === 
+```
+
+

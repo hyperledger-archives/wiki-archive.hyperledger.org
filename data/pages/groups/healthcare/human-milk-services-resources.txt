@@ -1,0 +1,36 @@
+===== Human milk service resources =====
+  * [[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]] : [[analysis-business|Domain analysis]] : [[analysis-human-milk|Human milk services]]
+  * [[healthcare-wg-wikispace-redesign |Home]] : [[resources|Resources]] : [[analytical_models|Analytical models]] : [[human_milk_services_model|Human milk services model]]
+
+----------
+
+==== Service resources : artifacts (assets, liabilities), outputs, products ====
+
+  * [[Human milk]]
+  * [[Livestock milk]]
+  * [[Infant formula]]
+  * [[Pooled milk]]
+  * [[Milk batch]]
+  * [[Milk container]]
+  * [[Milk container identifier]]
+  * [[Milk transport log]] 
+  * [[Milk storage unit]] (freezer)
+  * [[Storage unit temperature log]]
+  * [[Milk donor recruiting content]]
+  * [[Milk donor screening questionnaire]]
+  * [[Milk donor education content]]
+  * [[Milk donor consent]]
+  * [[Milk donor health record]] : 
+    * [[Health history]]
+    * [[Diagnoses]]
+    * [[Medication list]]
+    * [[Diagnostic laboratory test reports]]
+  * [[Donor practitioner authorization]]
+  * [[Donor-infant practitioner authorization]]
+  * [[Milk bank donor certification]]
+  * [[Milk sample screening results]] : [[Serology test results]], [[Bacterial culture results]]
+  * [[Milk quality certification]]
+  * [[Clinical order]], [[Prescription]]
+  * [[Patient health record]]
+  * [[Milk recipient queue]]
+

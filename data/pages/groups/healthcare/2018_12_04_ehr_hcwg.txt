@@ -1,0 +1,93 @@
+{{:groups:healthcare:hsm_logo.png?nolink&650}}
+
+===== EMR Subgroup Agenda for 2018-12-04 =====
+
+==== Resources: ====
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HLHC-SIG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+----
+
+===== Welcome and Opening Statements =====
+
+  * //A reminder to all HLHC-SIG members that this meeting is being recorded//
+  * [[https://www.linuxfoundation.org/antitrust-policy|Reading of the Linux Foundation Antitrust Policy]]
+  * [[https://tinyurl.com/HL-antitrust-slide|Hyperledger Antitrust Slide]]
+  * **Discussion: request for note-taking for this meeting**
+
+<WRAP box>
+[[https://drive.google.com/open?id=1Ka-OMfLCxZQm8xPNB7dTPG3FFOYhW0EE|Meeting recordings/transcript]] 
+</WRAP>
+
+<WRAP box>
+In attendance:
+  * Rich Bloch (Recording)
+  * Robert Coli
+  * Sonia
+  * Steven
+  * 16613804776 (Mikhail Elias)
+</WRAP>
+
+===== Introductions =====
+
+  * **If you’re new to the subgroup, please…** 
+    * Introduce yourself
+    * Tell us where you're geographically located
+    * Share with us your interests in healthcare in general, and blockchain technologies in specific, with emphasis in EHR/EMRs
+
+===== Community Announcements =====
+
+  * **Feel free to share your community announcements as they relate to the Hyperledger community**
+
+===== Old Business =====
+
+  * Status from Ad Hoc Subgroup Review Team (Benjamin Djidi, Mikhail Elias, Steven Elliot, Robert Coli, and Sonia Wagner, Lead)
+  * * **Discussion: continued discussions of understanding the focus of this subgroup, and the broader implications of approaching our work from a different perspective**
+
+  * Confirmation that the EMR Subgroup, as previously defined, should be disbanded
+    * **Discussion: recommendations/nominations?**
+
+<WRAP box>
+  * It's the decision of the active members of the EMR Subgroup, and the larger Ad Hoc Subgroup Review Team to disband the subgroup in the shorter term, as its initial charter/purpose, as stated, was unclear
+  * Rich will follow up with Hyperledger leadership to determine how best to make use of this meeting time slot
+  * This decision does not suggest that the HLHC-SIG will not entertain a future motion to reconstitute a SIG subgroup with a focus on EHR/EMRs
+</WRAP>
+
+===== New Business =====
+
+  * ** Discussion: "a bottom up approach" email follow up (Steven Elliot)**
+
+
+<WRAP box>
+  * Good general discussion around how a future subgroup will need to consider a more global (non-US) understanding of healthcare systems, whether public or private: we cannot be limited to a purely US-centric view of healthcare solutions (Mikhail)
+  * High level of continuing interest in an Interoperability Subgroup, or some form of communications channel that takes into account the cross-cutting nature of healthcare interoperability and blockchain technologies (Steven)
+  * Also a continued interest expressed in a future Public Health Subgroup, depending in large part on how the SIG re-aligned itself going forward (Mikhail)
+  * Bob introduced the group to the Healthcare Services Platform Consortium (HSPC), indicating that this group is doing some similar work with interoperability
+  * HSPC has some very big players in this space: Commonwell Health Alliance, Intermountain Healthcare, Care Equality, Cerner (creator), and others
+  * A mention that the HSPC might be tightly-wedded with Cerner (the #2 EHR vendor in the US)
+  * No known work being done in the HSPC using blockchain technologies
+  * Also a note that the HSPC might be US-centric (a counterpoint that there's work being done with the HSPC in Africa)
+  * Steven indicated that it'd be useful to consider the HSPC as a good resource in the future, perhaps a collaborator on some kind of future Hyperledger healthcare project/service
+  * Blockchain technologies using AI/predictive analytics/machine learning may be another area of future SIG subgroup interest
+  * Mention that India is significantly growing their investments in country-wide healthcare systems, many solutions heavily tech-centric
+  * Sonia asked and agreed to continue to lead the Ad Hoc Subgroup Review Team
+  * Sonia urged that we need to push to generate something concrete (a project or POC), but we need goals at the SIG level
+  * Rich indicated that this team (Ad Hoc team) will need to push the discussion "up" to the SIG level to engage membership, and particularly subgroup leads
+  * This EMR Subgroup focus needs to segue into a broader, membership-wide discussion that looks at SIG level changes in the coming year (2019)
+  * Mikhail asked that it would be good to put together some kind of plan or shorter-term goal (Steven in agreement)
+  * Some discussion on perhaps some level of confusion between what this team is proposing going forward ("what's the take-away?")
+  * Steven indicated that we should be focussed on developing a architecture for pluggable services
+  * Sonia indicated that she believes that all subgroup leads do need to understand what this team is proposing
+  * Some disconnect on where this Ad Hoc team needs to go next (need "clarity of vision" and another meeting before 12/14)
+</WRAP>
+===== Next Meeting =====
+
+  * Scheduled for Tuesday, 12/18, 0800 Pacific Time
+  * **Discussion: topics to add to agenda?**

@@ -1,0 +1,83 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Indy https://github.com/hyperledger/indy-node
+
+===== Project Health =====
+In the eleven months since acceptance into Hyperledger, Indy continues to gain more interest and developer support.  The mailing list now has regular traffic and activity in all channels has increased (commits, chat, mailing list).  The project has not yet completed all the incubation tasks needed for general availability, but stability is improving as the team pushes towards a feature complete state for General Availability.
+
+In Q12018 a number of community members are getting involved with updating and contributing documentation and improving the developer experience. Q12018 has seen new developer interest globally (US, Canada, Finland, Netherlands, UK). Community contributions-in-progress include a Node.js wrapper for Indy SDK as well as Wallet and DID-Auth features thanks to a bounty program from the government of British Columbia, CA.
+
+Current Community Roadmap: https://drive.google.com/drive/u/1/folders/0ByaxIFopqmUVOThlbEtsUk1OSDg
+
+
+===== Issues =====
+There is ongoing work to improve documentation and more easily on-board new users/developers, specifically we have started work on an "Indy Improvement Initiative" process in the indy-rfc repository to capture and document architecture and design resources with the appropriate license and commit signing. 
+The core team has also been focusing development efforts improve the stability of the ledger.  Many issues with view changes and catch-up were made manifest in recent updates to instances of Indy in production and these issues are being addressed as the top priority.
+
+Finally there is still more effort required to improve usability for verifiable claims exchange use cases.  In particular, gaps in the “Indy Agent”, or off-ledger data exchange portions of the system still exist, though the issues in the indy-sdk code have been addressed.  We have specific goals to add a "reference agent" to the indy code base to provide a more user-friendly starting point for leveraging the identity model and providing this functionality.
+
+===== Releases =====
+Since the last project update in November, Indy has released a new major update, including major stability improvements and a more complete Indy-SDK (libindy).  In addition, the crypto code in indy-sdk was separated out into its own repository (indy-crypto) and work has begun on a Hyperledger Crypto Library project where those implementations could be shared with other projects.
+
+
+===== Overall Activity in the Past Quarter =====
+New Features include:
+
+General
+  * Moving the build process over to Hyperledger Jenkins
+  * Unit testing and "artifact" testing improvements (testing from install-able packages)
+  * Documentation and Developer onboarding improvements
+  * Community Contributions
+Indy Node
+  * Node-Node message validation
+  * Bug fixes
+  * Multiple upgrades to the Sovrin Test Network and Sovrin Live ledger
+  * Beginning DID and Verifiable Claims improvements
+Indy SDK/Crypto
+  * SDK Wrappers (.NET)
+  * Anoncreds protocol enhancements
+  * New SDK based CLI
+  * New SDK based Getting Started Guide and examples
+
+
+
+===== Current Plans =====
+Q1 2018
+Per Hyperledger Jira and the Draft Product Roadmap:
+
+**General:**
+As of February 2017, Indy has revised the draft of the product roadmap for Indy Node (Ledger) and Indy SDK/Crypto and shared with the community. The team will be implementing major stability updates (INDY) and  revocation (INDY SDK) during Q1 as well as continuing documentation and community efforts. Distributed Key Management is also a big focus for Q1. Growing Community interest is helping expand the work being done on Indy and the features available. Indy and the Identity WG have submitted a proposal for an intern. 
+
+**Indy Node (Ledger):**
+During Q118 Indy Node is working on Stability, performance, ledger support for Revocation, DID/Verifiable claims support and monitoring. The thinking, design and base implementation of Observer nodes in Indy is also in progress. The Indy team continues to work with the Sovrin Ledger (the first instantiation of the Indy codebase) to help define the operating parameters and baseline performance of the ledger.
+
+**Indy SDK:**
+During Q118 Indy SDK is working on a new CLI, revised and improved Getting Started Guide and Revocation. Wallet design and work is being done this quarter as well. Due to Community contributions, the SDK team will also be working with contributors on merging their features into the overall Indy SDK project.
+
+**Indy Crypto:**
+During Q118 work will continue on the cross-Hyperledger “Shared Crypto Library” with future discussions and code TBD
+
+
+===== Maintainer Diversity =====
+Existing maintainers remain active, with increased involvement in developer calls and public discussions.  Nathan George has moved from Evernym over to the Sovrin Foundation (increasing organizational diversity), which has improved the use of public communication channels and lists. In Q1 the Community communication will improve and expand to include Community Sprint calls and other enhancements. 
+
+
+
+===== Contributor Diversity =====
+Increased interest in the project, including two bounties issued on BCDevExchange and a Node.js wrapper contribution have increased participation in community discussions and the number of developers using and contributing the system.
+
+
+
+ 
+
+
+
+===== Additional Information =====
+**Optional** Please provide any additional information that you feel would be useful for TSC to be aware.
+
+Join the Indy Mailing List: https://lists.hyperledger.org/g/indy
+
+Join the Indy Working Group Calls: every Thursday 8amPT, 9amMT, 11amET, 4pm BST
+
+Join from PC, Mac, Linux, iOS or Android: https://zoom.us/j/232861185

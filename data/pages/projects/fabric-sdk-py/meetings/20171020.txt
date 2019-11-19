@@ -1,0 +1,103 @@
+==== 2017-10-20 ==== 
+
+Meeting will be held at [[https://chat.hyperledger.org/channel/fabric-sdk-py|rocketchat]] at 11AM (GMT+8).
+
+  * [[https://jira.hyperledger.org/browse/FAB-4623?jql=project%20%3D%20FAB%20AND%20status%20in%20(%22In%20Progress%22%2C%20%22To%20Do%22)%20AND%20component%20%3D%20fabric-sdk-py | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+status:open | Open Patchset for review]]
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]]
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  * chaincode Instantiate: Kai finished the install operation, now Tony is working on [[https://jira.hyperledger.org/browse/FAB-5489 | FAB-5489]]
+  * chaincode Invoke: ZhaoFang is working on [[https://jira.hyperledger.org/browse/FAB-5491 | FAB-5491]]
+  * channel join: Dong Wang is working on [[https://jira.hyperledger.org/browse/FAB-5488|FAB-5488]]
+  * EventHub:  david dornseifer is working on [[https://jira.hyperledger.org/browse/FAB-4822|FAB-4822]]
+  * Register: Baohua is working on [[https://jira.hyperledger.org/browse/FAB-3165|FAB-3165]]
+  * Other issues
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Baohua Yang
+  * Kai Chen
+  * Tony Yang
+  * Frank Han
+
+=== Log ===
+
+grapebaba 10:56 AM
+hi,meeting will start
+who is online?
+
+baohua 10:57 AM
++1
+
+grapebaba 10:59 AM
+anyone else?
+
+tonyyang132 11:00 AM
++1
+
+grapebaba 11:00 AM
+k
+first, we should update ongoing jira task
+can you help update https://jira.hyperledger.org/browse/FAB-5489 @tonyyang132
+
+tonyyang132 11:03 AM
+um... a bit occupied with company project for the past weeks, so I don't have much update for the task yet...
+
+grapebaba 11:03 AM
+ok
+
+hanhzf 11:03 AM
++1
+
+grapebaba 11:03 AM
+😀
+zhao fang
+what about this one https://jira.hyperledger.org/browse/FAB-5491
+
+hanhzf 11:04 AM
+Yes, a little busy with company project after festival, will work on it this weekend
+
+grapebaba 11:05 AM
+thanks
+@david_dornseifer and @wangdong is not online
+@baohua https://jira.hyperledger.org/browse/FAB-3165
+are you there?
+
+baohua 11:06 AM
+no update, i may first help on the channel/tx operations first
+this is related to fabric-ca-sdk
+will update the status there
+🐌
+
+grapebaba 11:06 AM
+thanks
+currently only one WIP patch in gerrit, let us skip it
+any other issues, guys?
+we merged two patch this week
+
+baohua 11:09 AM
+great progress!
+lets keep moving forward!
+:woo:
+
+grapebaba 11:09 AM
+OK, seems no issues, we can end the meeting
+Happy weekends,guys
+
+baohua 11:09 AM
+thanks kai and everyone
+pls help post the minutes too
+
+grapebaba 11:10 AM
+k
+
+baohua 11:10 AM
+nice weekend!😃
+
+tonyyang132 11:11 AM 
+👏

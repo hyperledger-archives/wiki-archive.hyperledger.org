@@ -1,0 +1,95 @@
+===== TWG China Meeting =====
+
+==== Basic Info ====
+10AM ~ 11AM, 2018-05-09, GMT+8 ([[/groups/twgc/meetings|Bi-weekly hosted]])
+
+  * Option #1: Use computer to access [[ https://zoom.us/my/hyperledger.community | zoom]] (Recommend using microphone and headset)
+  * Option #2: Dial in using the [[https://zoom.us/zoomconference?m=mTUdEBuT33gjEcR54Rqsi1KmFyNgSLYP|phone number]]. E.g.,	400 669 9381 or 010-87833177 (Premium Toll) for China area, code is 248676399.
+
+  * [[https://docs.google.com/presentation/d/1punUCr0mSZT9gMKCs3vCYqbWbjeS_RG-18ZrhkfwoYc/edit?ts=5a14dfdf | Antitrust Policy Notice]]
+  * [[/community/calendar-public-meetings | community meeting calendar ]]
+
+
+==== Attendee ====
+
+**Pls add ur name here before the meeting.**
+
+Attendee: 32
+
+  * Baohua Yang
+  * Yong Wan
+  * Wei Lu
+  * Jesse Zhu
+  * Scott Long
+  * Hailing Ma
+  * Min Luo
+  * Jiannan Guo
+  * Dijun Liu
+
+==== Agenda ====
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - [[https://wiki.hyperledger.org/groups/tsc/wg-updates/technical-wg-china-2018-may|TWGC Quarterly working group update]]
+  - [[groups/twgc/team_di | Team development and Innovation]] (Zhangjiong Xuan, Yaoguo Jiang, Haitao Yue, Dijun Liu)
+    - [[groups/twgc/faq|Technical FAQ update]].
+    - [[https://jira.hyperledger.org/browse/FAB-5496 | SM2 support]] by Zhenhua Dong, Dijun Liu
+    - [[https://jira.hyperledger.org/browse/FAB-6263 | MongoDB support]] by HuiQiang Li (oxchain)
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Lidong Guo, Jiang Lu)
+    - [[groups/twgc/team_ie/guideline| i18n work guideline drafting]]
+    - [[https://github.com/HyperledgerCN/fabric-docs-i18n| Fabric 1.1 documentation translation]], welcome more volunteers to join
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yanqing Wang, Yin Cao, Kelvin)
+    - Call for member companies's blockchain applications and cases:[[https://wiki.hyperledger.org/groups/twgc/team_cs| China members and cases ]]
+    - Call for HL member news, will select to publish through official wechat channel. Feel free to contact TWGC(twg-china@lists.hyperledger.org).
+    - Community Wechat groups in each areas (contact the admin to join):
+      - Beijing (a33443148)
+      - Shanghai (yudianbabasheng)
+      - Hangzhou (linalee1005)
+      - Dalian (cn8888898)
+      - Shenzhen (RichZhao)
+      - Wuhan (grapebaba)
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Jiannan Guo, Sheng Huang, Zhenhua Zhao)
+    - [[groups/twgc/events/guideline| Meetup guideline]]
+    - **[[groups/twgc/team_eo| Meetup plans in May]].** 
+      - Beijing:
+      - Shanghai: May 26
+      - Hangzhou:
+      - chengdu: May 19
+      - Shenzhen: Zhenhua is calling for more speakers
+  - Other issues
+    - Feel free to add here
+
+
+==== Minutes ====
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - [[https://wiki.hyperledger.org/groups/tsc/wg-updates/technical-wg-china-2018-may|TWGC Quarterly working group update]]
+  - [[groups/twgc/team_di | Team development and Innovation]] (Zhangjiong Xuan, Yaoguo Jiang, Haitao Yue, Dijun Liu)
+    - [[groups/twgc/faq|Technical FAQ update]].
+    - [[https://jira.hyperledger.org/browse/FAB-5496 | SM2 support]] by Zhenhua Dong, Dijun Liu
+      - Lots of questions around the progress
+      - **Dijun will propose the new design into community and call for feedbacks**
+    - [[https://jira.hyperledger.org/browse/FAB-6263 | MongoDB support]] by HuiQiang Li (oxchain)
+      - **Huiqiang welcome others to help test the code, and wait for the code re-arch**
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Lidong Guo, Jiang Lu)
+    - [[groups/twgc/team_ie/guideline| i18n work guideline drafting]]
+    - [[https://github.com/HyperledgerCN/fabric-docs-i18n| Fabric 1.1 documentation translation]], welcome more volunteers to join
+      - **Lidong will publish into the maillist again to call for more contributors and reviewers**
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yanqing Wang, Yin Cao, Kelvin)
+    - Call for member companies's blockchain applications and cases:[[https://wiki.hyperledger.org/groups/twgc/team_cs| China members and cases ]]
+    - Call for HL member news, will select to publish through official wechat channel. Feel free to contact TWGC(twg-china@lists.hyperledger.org).
+    - Community Wechat groups in each areas (contact the admin to join):
+      - Beijing (a33443148)
+      - Shanghai (yudianbabasheng)
+      - Hangzhou (linalee1005)
+      - Dalian (cn8888898)
+      - Shenzhen (RichZhao)
+      - Wuhan (grapebaba)
+    - **Yanqing has negotiated places in Beijing and Shanghai for scenarios meetings**
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Jiannan Guo, Sheng Huang, Zhenhua Zhao)
+    - [[groups/twgc/events/guideline| Meetup guideline]]
+    - **[[groups/twgc/team_eo| Meetup plans in May]].** 
+      - Beijing: May 27 (ziggurat with tsinghua events discussions)
+      - Shanghai: May 26
+      - Hangzhou: TBD
+      - Chengdu: May 19
+      - Shenzhen: May 26, Zhenhua is calling for more speakers
+  - Other issues
+    - Feel free to add here

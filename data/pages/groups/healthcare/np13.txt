@@ -1,0 +1,34 @@
+Hyperledger Project\\
+Healthcare Working Group (HCWG) Payer Subgroup Meeting\\
+July 3, 2018 \\
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+Meeting Notes\\
+
+Introductions
+     *Timeline for a product 3-5 years
+     *We need to be keeping meeting notes so we can keep up when we can’t attend
+     *Think through whether to get into a use case now or whether to create a framework for use cases
+          *Three good use cases to focus on
+          *Need to work on whitepaper
+     *Tony Little Optim working on provider solution for credential - use case the farthest along
+     *When is blockchain effective? A paper on the conditions where blockchain is useful would be very good
+     *Eligibility for Medicaid, we had to figure out a way to change eligibility on a daily basis, complex problem
+     *posting all vital signs to the blockchain and figured out that was not useful, we only needed to post outlying vitals to the blockchain
+     *Is blockchain HIPAA compliant? Can we store any patient information in the hyperledger blockchain without getting into trouble?
+     *That’s why we should start with a whitepaper so we understand the landscape
+          *	Inform us and the audience as marketing
+          *	Identify one or two use cases we could run with
+     *VA is going to let vets start seeing doctors outside the VA, that’s a use case that’s manageable.  Self contained. It’s a lot of people with identifiers and a lot of moving parts, but they all have identifiers that are well defined. Blockchain between enterprises.
+
+

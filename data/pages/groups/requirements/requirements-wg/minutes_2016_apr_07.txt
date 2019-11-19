@@ -1,0 +1,21 @@
+====== Requirements WG Minutes - April 7th, 2016 ======
+
+  * Held the first online meeting. Agenda is [[https://docs.google.com/document/d/13FjPRZT1vzIMzUJfkjCA3lIIL_wjSOhwhUIf-jvKhL0/edit | here]]
+    * The meeting was [[https://hyperledgerproject.slack.com/archives/requirements/p1459813617000045 | announced]] on the Slack requirements channel and in an email to all of the members of record, but not on the TSC mailing list. The next meeting will be announced on the TSC mailing list.
+
+  * Consensus that the goal is to create system requirements, not use cases. However, most agree that the best way to do this is through use cases. Stay the course.
+
+  * We will start a project to begin defining how requirements will be created, organized and presented.
+
+  * We have a long list of use case and each of them in varying degrees of completeness (average is about 5%)
+
+  * Agreement to take at least one use case all the way through the process of completing the template, in an online meeting. 
+    * In the process, we can educate all of the team members of many of the existing requirement questions in the template and develop new ones as needed.
+    * Primrose Mbanefo (Accenture) volunteered to do this with the [[requirements:use-cases:use-case-counterfeit-drug-prevention-and-detection | Counterfeit Drugs]] use case.
+
+  * We will continue to use the Wiki for use cases (not Google Docs).
+
+  * Patrick to take a poll on Doodle to determine best day and time for the meeting
+
+  * We have a semi-active slack channel [[https://hyperledgerproject.slack.com/archives/requirements | here]]. Please join us!
+ 

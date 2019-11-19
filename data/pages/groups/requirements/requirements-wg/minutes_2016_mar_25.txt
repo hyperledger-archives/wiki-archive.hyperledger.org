@@ -1,0 +1,22 @@
+====== Requirement WG Minutes - March 25th, 2016 ======
+
+At the face-to-face (FTF) meeting, we:
+
+  *  Further developed the [[groups:requirements:use-case-template|use case template]].
+  *  Developed several use case titles (financial and non-financial).
+  *  Developed varying levels of content for each - none of them are to the point where we can clearly derive requirements.
+  *  Found several people who are interested in helping with use cases.
+
+----
+
+Here is the [[groups:requirements:use-case-inventory|Use Case Index]].
+
+Feel free to add new use cases or edit any of the existing use cases. If you'd like to commit to work on a use case, please edit it and put your name in it, indicating interest.
+
+----
+
+The Requirement WG will commence regular meetings soon. We will start by identifying a good day and time.
+
+----
+
+We've had some discussions about bringing in some industry experts (e.g. shipping industry) to give us their use cases. Chris and Patrick to follow up on this with Linux Foundation.

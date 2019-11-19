@@ -1,0 +1,21 @@
+====== Fabric v1.0.0-alpha2 May-2017 ======
+The goal of alpha 2 to complete all features that are expected for Fabric v1.0.0 professional release. This was not called a Beta because some of the underlying APIs did change. A complete list of all the changes can be found in [[http://hyperledger-fabric.readthedocs.io/en/latest/releases.html|release notes]].
+
+Delta improvements since Alpha 1 include:
+
+  * **Improved Tooling to bootstrap a network.** The bootstrap network tool is available and called the Configuration Transaction Generator (configtx.gen). The tool can not update the config block so you can add orgs.
+      * createChannel and joinChannel require the peer org admin
+      * getGenesisBlock requires the orderer org admin
+      * Consortiums were added to the configtx.gen
+
+  * **Cryptogen** generated directory structure changed
+
+  * **Chaincode** install and instantiate now require the peer org admin instead of users registered and enrolled with the CA.
+      * The returned values for keysIter changed
+
+  * **Event hub** now needs an initialized client when it is created
+
+  * **Config of key storage location** The method for configuring the key storage location used by the sdk cryptoSuite changed
+
+  * **Bug fixes** Many bug fixes, see release notes for details.
+

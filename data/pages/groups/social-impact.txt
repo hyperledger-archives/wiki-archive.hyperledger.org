@@ -1,0 +1,142 @@
+====== Social Impact Special Interest Group ======
+
+===== Charter =====
+
+Social Impact Special Interest Group (SI-SIG)
+
+**Introduction**
+
+Distributed ledger technologies (DLT) offers significant potential to deliver benefits for humanitarian aid, development, and civil society institutions in general. From uniting disparate processes, to increasing transparency, to improving data flows, DLT promises to reduce costs and promote efficiencies that will allow humanitarian aid and development to reach more people and improve outcomes.
+
+The open source mandate and collaborative nature of Hyperledger provides a convenient forum for like-minded individuals to work together to realize the full potential of blockchain technologies for social good. Accordingly, we seek to launch within Hyperledger a Social Impact Special Interest Group (SI-SIG). The SI-SIG will strive to document and foster technical and business-level conversations about appropriate applications for blockchain technology in the service of societal good.
+
+Our top-level mission is to identify specific opportunities for open source software development projects which could help various actors move more quickly on use cases with high potential to positively impact social good. Those efforts could be built upon existing Hyperledger code bases, but are not limited to that. To get started, we need to talk openly and frankly about what can be done, and how to move forward in a thoughtful and coherent manner that strives to promote best practices and works to avoid missed opportunities.
+
+**Scope**
+
+The Hyperledger Social Impact SIG is primarily focused on serving as a platform for exchanging ideas and exploration of ways to use blockchain technology in the context of social good. The Social Impact SIG will work with the other working groups and technical teams, especially in the areas of implementation. The areas of focus include:
+  * Identifying related use cases, current pilots and proofs of concept, and production case studies;
+  * Sharing stories of successes, failures, lessons learned, opportunities and challenges; 
+  * Exploring cross-cutting concerns like security, privacy, and identity in global South contexts; 
+  * Identifying existing or needed common critical software components that would serve the particular needs of global social impact; 
+  * Working towards proposing solutions to the problems identified;
+  * Identifying conferences or other opportunities to connect face to face, as well as submit talks or present as a group at an event.
+  * Identifying the business and NGO community and building an inclusive platform for early adopters to contribute with their experiences. 
+  * Facilitation and raising awareness of the opportunities blockchain can bring to the field. 
+  * Work Products
+
+The Group will focus on convening a broad ecosystem, leveraging the skills, capabilities and perspectives of individuals from the developer community, the social and humanitarian space, enterprises, government and non-government entities, and beyond. 
+
+The anticipated initial work products will include (but is not limited to):
+
+**Phase One: Ecosystem Analysis** 
+
+Opportunity Matrix -- this document and supporting material will highlight where DLT can be used for social impact and illustrate the specific areas of focus, across sectors, for the SI-SIG, weighing its feasibility and potential impact. It will include, but is not limited to: 
+  * Philanthropy and remittances (donation traceability, aid transparency, digital currencies in aid and development, governance and accountability) 
+  * Financial empowerment (financial inclusion, microfinance, microinsurance)
+  * Identity and land rights (refugee assistance, land ownership documentation)
+  * Governance and democracy (fighting censorship and fake news, voting rights and protections, election integrity)
+  * Supply chain and environmental protections (sustainable supply chain, fair trade, ethical sourcing, fair labor practices)
+Landscape analysis of existing blockchain solutions under development and currently being implemented.
+Identifying development challenges and pain points that blockchain could help to alleviate.
+Outlining technical challenges and opportunities for technical development.
+
+**Phase Two: Project Proposal and Plan**
+
+Based upon the outcome of Phase One, with input from the TSC, we will develop a proposed plan to engage a broader community in designing and applying a technical solution to select project(s). This may include, but is not limited to, outreach to member partners, soliciting RFIs, sponsoring campus-based competitions and hosting hackathons.  
+ 
+**Collaborators (other groups)**
+
+This SIG will collaborate with other Hyperledger groups, the TSC, Linux Foundation staff, and the project maintainers. The Social Impact SIG is interested in collaborating with other Hyperledger and non-Hyperledger groups that aim to identify and share blockchain solutions that increase impact in global development. Other relevant Hyperledger Groups include:
+  * Identity Working Group
+  * Public Sector SIG
+  * Technical Steering Committee
+  * Training and Education Working Group
+
+**Interested Parties**
+The following individuals have already expressed an interest in joining this SIG, and we hope they will become contributors over the first year:
+
+Accenture, Alissa Worley,
+Mercy Corps, Ric Shreves,
+
+IntellectEU, Hanna Zubko,
+
+World Vision, Stephen Chiu,
+
+World Vision, David Evans,
+
+Vitacoins, Adam,
+
+Kiva, Matthew Davie,
+
+slavefreetrade, Brian Iselin,
+
+IBM, Carmelle Cadet,
+
+Relief International, Eric Fullilove,
+
+Do Big Things, Cheryl Contee,
+
+Do Big Things, Christie Chirinos,
+City of Austin, Hector Torres,
+
+Blackbaud Inc, Roz Lemieux,
+
+Blackbaud Inc, Don Noonan,
+Blackbaud Inc, Cameron Black,
+
+Norwegian Refugee Council, Giulio Coppi,
+
+DAI, Rocio Holub,
+
+BitLumens, Veronica Garcia,
+
+Georgetown University, Cara LaPointe,
+
+USC, UCLA Alumni, Gaurav Bhatt,
+
+DAI, Andrew Mainhart,
+AVA Foundation, Caine Smith,
+
+**Proposed Chair** 
+
+The following individuals have volunteered to serve as the initial Co-Chairs for the SIG:
+Accenture, Alissa Worley,
+Mercy Corps, Ric Shreves,
+
+===== Meetings =====
+Meeting Schedule: Biweekly on Tuesdays at 11:00 am EST (New York). See the [[community:calendar-public-meetings|Hyperledger Calendar]] for the next meeting time.
+
+Call Details:
+Join from PC, Mac, Linux, iOS or Android: https://zoom.us/my/hyperledger.community.backup
+
+Or iPhone one-tap :
+US: +16699006833,,6223336701# or +16465588656,,6223336701#
+ 
+Or Telephone:
+Dial(for higher quality, dial a number based on your current location): 
+US: +1 669 900 6833 or +1 646 558 8656 or +1 877 369 0926 (Toll Free) or +1 855 880 1246 (Toll Free)
+Meeting ID: 622-333-6701
+International numbers available: https://zoom.us/zoomconference?m=BYDz1WGXJTTJ_s4_zumD9hqKjJv-Whgs
+
+===== Communication =====
+
+==== Mailing List ====
+
+  * mail alias is: social-impact-sig@lists.hyperledger.org\\ 
+  * mail archive is: https://lists.hyperledger.org/g/social-impact-sig/topics\\ 
+  * mail subscription is: https://lists.hyperledger.org/g/social-impact-sig\\ 
+
+==== Chat ====
+
+We use the [[https://chat.hyperledger.org/channel/social-impact-sig|#social-impact-sig]] channel on Rocket Chat.
+
+===== Working Documents =====
+
+https://drive.google.com/drive/folders/1tx70bfIZwg2Oiinf9fPTY2RLgdkrwhwL
+
+
+
+===== Meeting Minutes / Notes =====
+
+Meeting records are published [[https://drive.google.com/open?id=1NC8lshs00UA_iJ_FSNJOQQDvTxGDg40i|on Google Drive]]

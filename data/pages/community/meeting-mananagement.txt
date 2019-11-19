@@ -1,0 +1,14 @@
+====== Managing Zoom Meetings ======
+
+This information is for meeting owners.
+
+In order to keep meeting recording sizes appropriate, and to ensure timely posting of meeting recordings, here are the steps a meeting owner should take.
+
+  * Before the meeting starts, use the owner code to take ownership of the meeting.
+  * When the meeting starts, stop any ongoing recording and start a new recording (choosing to record locally).
+  * When the meeting ends, end the meeting for all participants (only end the meeting if participants from the next meeting have not joined; otherwise, stop the recording).
+  * Upload your local recording to the provided Google Drive
+
+If you are a meeting owner and do not have the owner code, please email community-architects@hyperledger.org.
+
+Here is a [[https://drive.google.com/open?id=1wBT7mTFlX3QefhMkqwPpqf9VlX1J-Jij|video that shows the process of claiming host on Zoom]].

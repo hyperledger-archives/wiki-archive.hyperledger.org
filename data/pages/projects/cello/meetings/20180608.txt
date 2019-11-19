@@ -1,0 +1,50 @@
+==== 2018-06-08 ==== 
+
+Meeting will be held at [[ https://zoom.us/my/hyperledger.community | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/cello|rocketchat]] (for text chat) at:
+
+  * 08:30AM   (UTC-4) [UTC -4 is Eastern Daylight Time EDT]
+  * 06:00PM   (UTC+0530)
+  * 08:30PM   (UTC+8)
+
+  * [[https://jira.hyperledger.org/projects/CE/issues/CE-188?filter=allopenissues | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:cello+status:open | Open Patchset for review]]
+  * [[https://wiki.hyperledger.org/projects/cello | Project Wiki Page]]
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  - Refine code for user dashboard (haitao)
+  - Integrate kubernetes with operator dashboard (luke)
+  - Video and tutorial progress (Jiang Lu)
+    - [[https://jira.hyperledger.org/browse/CE-315|Video Tutorial: Quick start cello]] Need to add the official video link and close.
+  - Internship Progress (shuo wang)
+  - [[https://docs.google.com/document/d/1hDlWTKSBmXM6UQW5s9qRjFwO_eZv0LU8nppHqMwoIxM/edit | Amsterdam Hackfest]] at June 27-29
+  - [[https://www2.thelinuxfoundation.org/e/6342/medium-email-utm-campaign-gf18/3zv1x3/883121698|Hyperledger Global Forum]] Proposal before July 13.
+  - [Proposed addition:] Luxoft's proposal to bring their additions to the Java Hyperledger SDK into Cello project: https://github.com/Luxoft/fabric-utils
+
+=== Attendee ===
+**Please put your name before the meeting.**
+
+  * Haitao Yue
+  * Baohua Yang
+  * Jeremiah Foster
+  * Yash Ganthe
+  * Tong Li
+  * Shuo Wang
+  * Brenda
+  * Bassem
+  * FLY
+  * Honor 9
+  * Huawei Mate 10
+  * Peng Du
+  * Zhongjie Qian
+
+=== Minutes ===
+
+  - Tong will attend the hackfest in Amsterdam to introduce Cello
+  - Base image issue (**TODO: baohua will ping jessica to confirm again**)
+  - User dashboard has TLS handshake problem, hightall will find baohua to discuss
+  - Welcome shuo as intern student to be onboard
+  - Tong has talked with fabric-utils projects, think the ansible scripts will helpful. Let's keep on attention with it.
+  - Yash: how to define a Chain? Chain is a fabric network.
+  - Yash: Channel joining should be specified. How does a peer request joining the channel through the dashboard. Hightall: not supported now. Will support in future. 

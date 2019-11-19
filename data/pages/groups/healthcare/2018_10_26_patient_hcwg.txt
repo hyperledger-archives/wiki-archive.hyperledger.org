@@ -1,0 +1,58 @@
+**Hyperledger Healthcare Patient SubGroup  \\
+Meeting Agenda and Meeting Notes for 2018-10-26**
+
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class 1: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]\\
+Hyperledger Class 2: [[https://www.edx.org/course/understanding-blockchain-and-its-implications|Understanding Blockchain and its Implications]]\\
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+A. Welcome and Opening Statement (5min)
+  * Reading of the Linux Foundation Antitrust Policy (https://www.linuxfoundation.org/antitrust-policy)
+  * Antitrust Slide (https://tinyurl.com/HL-antitrust-slide)
+  * //Completed//
+B. HMBANA Update and summary of current effort to share with them (5 min) 
+
+No update from HMBANA at the time of the call, but I heard back yesterday and they plan to review our summary next week
+
+C. Design document review - Mikhail and Anton (15min)
+  * We had planned to review the [[groups:healthcare:design_models|Design models]] that Mikhail had drafted, but the conversation was a bit broader about approach to the PoC.
+
+Two points of view were expressed on the call:
+
+
+1) we should take a step back from moving forward with the PoC to address some of the larger question around platform selection (Composer vs Fabric), identity solutions for donors in the ecosystem, data policy/access, controls and users in the system, and see if we can establish a generalizable design foundation that both the donor milk and other supply-chain use cases could use
+
+
+2) we drive forward with the current PoC and once we have the basic network up and running we can address additional complexities as needed. If we focus on clearly defining the assets, participants, and transaction in the network, we can connect these to the Java Script needed to facilitate the movement of the assets and we can provide clear guidance to RapidHealthcare to help them with the front-end build. The current CTO file (https://github.com/hyperledger-labs/milk-donor) is too complex to easily work with.
+
+Ultimately in order to get RapidHealthcare what they would need to build the front end of the product, they have asked for documents similar to these:
+
+{{:groups:healthcare:mm15-designguidelines_4_.pdf| example design guide for front end build}}
+{{:groups:healthcare:rh15_specimen_collection_workflow_c1_v1.pdf|example workflow for front end build}}
+
+
+There seemed to be agreement that we can continue to work these 2 options in tandem, but we do input and direction from RapidHealthcare and SMEs so that we're not operating in a vacuum without insight.
+
+
+Questions that came up on the call:
+  * From Anton, we need to understand the Node JS SDK to connect to the front end?
+  * Concerns with whether Fabric should be used instead of Composer?
+  * What identity solution are we using for donors in the ecosystem?
+  * What is our decision making process look like for the PoC?
+  * Should a donor should be a participant or an asset?
+  * What are the data and policy/access controls/users in they system?
+
+D. Discussion: What timeline are we working towards? Still targeting the Hyperledger Global Forum? What are next steps (15min)
+  * this item is on 
+
+E. Next Steps:
+  * Mikhail to continue to draft design documents that connect the CTO file to the diagrams so that we can concretely demonstrate how this network is being established
+  * Marissa will reach out to Anton and Ben to get feedback from this meeting and thoughts on next steps
+

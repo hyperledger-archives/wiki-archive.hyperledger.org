@@ -1,0 +1,4 @@
+====== Channel Guide for Hyperledger's Chat ======
+
+Hyperledger projects use RocketChat instead of Slack now; you can join channels at [[https://chat.hyperledger.org/]] You will need a [[http://hyperledger-fabric.readthedocs.io/en/latest/Gerrit/lf-account/|Linux Foundation ID]] to login. Please visit [[community:chat_channels|https://wiki.hyperledger.org/community/chat_channels]] for a list of current channels and their purpose.
+

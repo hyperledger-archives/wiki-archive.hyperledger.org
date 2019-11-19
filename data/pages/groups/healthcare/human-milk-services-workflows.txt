@@ -1,0 +1,46 @@
+===== Human milk service workflows =====
+  * [[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]] : [[analysis-business|Domain analysis]] : [[analysis-human-milk|Human milk services]]
+  * [[healthcare-wg-wikispace-redesign |Home]] : [[resources|Resources]] : [[analytical_models|Analytical models]] : [[human_milk_services_model|Human milk services model]]
+
+----------
+
+==== Service workflows ====
+
+  * [[scenario-modeling-instructions|Scenario modeling instructions]]
+  * [[scenario-template|Scenario template]]
+
+=== Events and activities ===
+
+  * [[Perinatal services]]
+    * //Primary flow//
+      * [[Feed preterm infant]]
+
+  * [[Human milk donor services]]
+    * [[Donate milk]]
+      * [[Recruit prospective milk donor]]
+      * [[Screen prospective milk donor]]
+      * [[Educate milk donor]]
+      * [[Produce milk]]
+      * [[Collect milk]]
+      * [[Screen milk]]
+      * [[Process milk]]
+
+  * [[Human milk recipient services]]
+    * [[Receive milk]]
+      * [[Order milk]]
+      * [[Approve milk order]]
+      * [[Distribute milk]]
+      * [[Dispense milk]]
+    * [[Transfer milk]]
+    * [[Recall milk]]
+
+  * [[Milk bank management services]]
+    * [[Accreditation services]]
+    * [[Contract management services]]
+    * [[Affiliate management services]]
+    * [[Billing and reimbursement services]]
+
+  * [[Milk storage services]]
+  * [[Milk distribution services]]
+  * [[Laboratory services]]
+

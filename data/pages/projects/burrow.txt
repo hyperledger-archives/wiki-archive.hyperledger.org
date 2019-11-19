@@ -1,0 +1,90 @@
+====== Hyperledger Burrow ======
+{{ :projects:hyperledger_burrow_logo_color.png?300&direct}}
+
+Burrow is a permissively licensed (Apache 2.0) EVM smart contract machine and Byzantine Fault Tolerant permissioned ledger that uses Tendermint consensus and implements some novel extensions to the EVM whilst remaining EVM-compliant. It provides EVM execution within the Ethereum account model and an internal token to meter computation in the permissioned setting with transactions finality.
+
+Burrow was [[https://lists.hyperledger.org/g/tsc/message/737|approved]] for incubation on the 6th of April 2017 by the Hyperledger TSC.
+
+Burrow has three primary aims:
+
+  * To be a good compliant and simple EVM library friendly towards integrators (see for example [[https://github.com/hyperledger/sawtooth-seth]])
+
+  * To be a fast, light, lean single-process full [[https://tendermint.com/|Tendermint]]/EVM permissioned ledger with transaction finality
+
+  * To provide a practical base for EVM extensions in a many-chain world
+
+Burrow is not trying to be:
+
+  * Highly pluggable (see Sawtooth or Fabric)
+
+  * Hard to deploy
+
+
+Burrow is named after the trans-dimensional intergalactic tubules used by [[https://www.youtube.com/watch?v=BXo1vCKTEQg|marmots]] to communicate.
+
+===== Releases =====
+For previous versions of standalone Burrow you can find:
+ 
+  * **binaries**: [[https://github.com/hyperledger/burrow/releases]]
+  * **docker images**: [[https://hub.docker.com/r/hyperledger/burrow]]
+
+===== Code =====
+Burrow's repository is on github here: [[https://github.com/hyperledger/burrow]]
+
+The Burrow binary contains everything you need to specify, configure, run, and deploy smart contracts to a chain.
+
+  * ''%%burrow spec%%'' - for describing template genesis state
+  * ''%%burrow configure%%'' - for realising a specific configuration (including key generation)
+  * ''%%burrow keys%%'' - both a standalone key signing daemon and key generation tool
+  * ''%%burrow deploy%%'' - a declarative Solidity compilation, chain management, testing, and smart contract deployment tool
+  * ''%%burrow dump%%'' - a forensics, auditing, and data extraction tool
+  * ''%%burrow snatives%%'' - a tool for interacting with Burrow's 'secure natives' - host code that is callable as if it were an EVM contract
+  * ''%%burrow start%%'' - for starting a blockchain node
+
+For deploying contracts you will need a local installation of [[https://github.com/ethereum/solidity/releases|Solidity]].
+
+Monax maintains [[https://github.com/monax/bosmarmot|Bosmarmot]] a satellite monorepo to Burrow that contains:
+
+  * **[[https://github.com/monax/bosmarmot/tree/develop/burrow.js|burrow.js]]** - a Javascript client library for interacting with Burrow smart contracts
+  * **[[https://github.com/monax/bosmarmot/tree/develop/vent|Vent]]** - an EVM event to SQL database mapping layer - currently under development.
+
+==== Deployment ====
+
+Burrow can be deployed in any environment but we have focussed on deploying related sets of validators (or validator pools) using Kubernetes/Helm and you can find helm charts here: [[https://github.com/helm/charts/tree/master/incubator/burrow]].
+
+==== Contributing ====
+Please fork, branch, and make pull requests to the [[https://github.com/hyperledger/burrow/tree/develop|develop]] branch.
+
+Our build, CI, and testing process is executed via our [[https://github.com/hyperledger/burrow/blob/develop/Makefile|Makefile]], see the comments there for details.
+
+===== Communication =====
+The Burrow mailing list can be found [[https://lists.hyperledger.org/g/burrow|here]], you can also seek help in the [[https://chat.hyperledger.org/channel/burrow|rocket chat room]].
+
+==== Quarterly updates ====
+=== 2018 ===
+  * [[groups:tsc:project-updates:burrow-2018-nov|Q4 2018 Update]]
+  * [[groups:tsc:project-updates:burrow-2018-Aug|Q3 2018 Update]]
+  * [[groups:tsc:project-updates:burrow-2018-May|Q2 2018 Update]]
+  * [[groups:tsc:project-updates:burrow-2018-Mar|Q1 2018 Update]]
+=== 2017 ===
+  * [[groups:tsc:project-updates:burrow-2017-dec|Q4 2017 Update]]
+
+===== Documentation =====
+Documentation is available on the main repo of Burrow and burrow.js. Having gone through a period of consolidation we need help creating more high quality general tutorial documentation and specific task/component documentation.  
+
+===== Future Direction and Roadmap =====
+
+Burrow is being heavily tested as the core of the [[https://agreements.network/|Agreements Network]]. It sits at the intersections of a number of emerging technologies:
+
+- EVM contracts and host-native code contracts
+- Public permissioned networks - permissioned Ethereum and public Tendermint/Cosmos
+- Layer 2 scaling - acting as a side-chain or state channel
+
+We aim to provide a robust blockchain node for running multiple interconnected chains in a many-chain world. As well as blurring the public/private chain divide.
+
+==== Roadmaps ====
+   * **[[projects:burrow:roadmap_2019_Q1| Q1 2019]]**
+   * **[[projects:burrow:roadmap_2018_Q4| Q4 2018]]** - //[[projects:burrow:roadmap_2018_Q4_postmortem| post-mortem]]//
+   * **[[projects:burrow:roadmap_2018_Q3| Q3 2018]]** - //[[projects:burrow:roadmap_2018_Q3_postmortem| post-mortem]]//
+   * **[[projects:burrow:roadmap_2018_Q2| Q2 2018]]**
+   * **[[projects:burrow:roadmap_2018_Q1| Q1 2018]]** - //[[projects:burrow:roadmap_2018_Q1_postmortem| post-mortem]]//

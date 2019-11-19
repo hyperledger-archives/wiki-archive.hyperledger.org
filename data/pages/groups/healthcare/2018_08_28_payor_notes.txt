@@ -1,0 +1,73 @@
+Hyperledger Project\\
+Healthcare Working Group (HCWG) Payor Subgroup Meeting\\
+August 28, 2018 \\
+
+Resources:\\
+Chat:  ​https://chat.hyperledger.org/​channel/​healthcare-wg  ​(you can use your LFID to login)\\
+Github:  ​https://github.com/​hyperledger \\
+Wiki:  https://wiki.hyperledger.org \\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org \\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy 
+
+Chris Cole is a pre auth SME
+     *Works at Care First 9 years - create population health tools
+     *Director in provider application space
+What’s an authorization?
+     *Prior authorization - based on some set of rules, or other mandates, laws
+     *Who submits pre auth? The person who wants to get paid is accountable (hospital itself)\\
+     *In patient notification - restricted to member is going to be hospitalized, skilled nursing, confinement of some kind
+1. determine whether you need prior auth
+     *This member needs this service, and now I want to understand if some kind of permission is required
+2. seeking the requests - put info together, here’s everything about the service i want to provide and is it approved\\
+3. I submitted request and i want to understand the status of the request\\
+4. sometimes more records are required based on what you asked to do. Follow on query\\
+
+I want to have a knee surgery
+     *Are all the elements around the member themself - (date of birth, etc.)
+     *Check eligibility - (active coverage? Which product?)
+     *Where is the surgery going to be done? Each setting has unique rules. 
+     *What? Procedure is knee surgery, these certain codes are associated
+     *Why? Damage or problems, Diagnosis codes
+     *Date/s? How many units during what time period?
+     *Billing provider - ABC surgical assoc is the biller
+     *Rendering doctor - Dr Jones\\
+
+
+We may ask for additional information - particular codes sent in trigger a questionnaire or to upload certain types of records - clinic team to access the request needs additional information
+
+     *This entire request is wrapped into one data ball and gets a unique identifier then it’s routed, business rules engine, routed to a reviewer set,general surgical review, work queue and a person is going to apply some clinical judgment on this
+     *If it’s approved there is generally a clock counting down to the final decision
+     *Approved or denied
+          *If approved, electronically we notify the asker
+          *If denied, more rules and regulations
+          *Right of appeal
+          *Why was this denied?
+          *Any other kinds of information about what they can do about the negative decision
+     *If in authorization I wanted to do knee procedures A and B
+           *Say yes to one and no to the other - called partial 
+           *The no is treated like a denial with right of appeal, etc
+           *
+Flag, routine, emergent, emergency\\
+Behavioral health and emergency requests are turned over very quickly  \\
+
+As people do their job through the pool, status changes are reflected\\
+
+Pain points?\\
+     *A lot of the things we talked about rely on a person coming to a screen to do part of it. Standardized transactions have more latitude
+     *A lot to like around making this space more standard, picking up the pace, reducing manual touch points
+     *A custom set of questions is not supported - non standard is a problem
+     *What are the scenarios you feel are not standard? If there is an exchange of information on blockchain that eliminate issues?
+     *Once something is pre approved, how long does it take to get paid? Information is sent to the claim platform in real time. Claim platform is waiting for a claim that matched. Claim comes in, this service matches the authorization, claim paid
+     *Outcome - part of your benefit requirement, line up at point of payment, if I can’t do that then it’s not a good process
+     *Precision on authorizations is used to predict upcoming expenses
+     *What percentage are handled manually v automatically?
+          *60% based around benefit design, goes through without human intervention
+          *With the right additional info you could increase that percentage
+          *If you authorize something 100% of the time, why are you requiring a pre auth? \\
+
+
+Next steps: what areas can blockchain be applied to?

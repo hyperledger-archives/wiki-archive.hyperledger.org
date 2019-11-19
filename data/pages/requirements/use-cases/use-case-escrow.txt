@@ -1,0 +1,15 @@
+====== Escrow Payment Verification Use Case ======
+
+A trusted third party takes responsibility for verifying the availability of funds in advance of the closing of the sale of a good (e.g., real estate purchase).
+
+All of the steps to close including verifying payment, title search, etc., could be on the blockchain:
+
+  - Sale agreement/contract
+  - Clearing of contingencies to sale
+  - Certificate of ownership/title search
+  - Good Faith Estimate for closing costs
+  - Proof of transfer of funds from buyer and mortgage lender to an escrow account
+  - Final closing costs (HUD-1 in the US)
+  - Financial clearing of seller's financial obligations (if appropriate)
+  - Proof of purchase and transfer of title
+

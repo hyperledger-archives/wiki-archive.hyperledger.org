@@ -1,0 +1,239 @@
+==== 2017-07-28 ==== 
+
+Meeting will be held at [[https://chat.hyperledger.org/channel/fabric-sdk-py|rocketchat]] at 11AM (GMT+8).
+
+  * [[https://jira.hyperledger.org/browse/FAB-4623?jql=project%20%3D%20FAB%20AND%20status%20in%20(%22In%20Progress%22%2C%20%22To%20Do%22)%20AND%20component%20%3D%20fabric-sdk-py | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+status:open | Open Patchset for review]]
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]]
+
+=== Agenda ===
+
+  * chaincode Install: Kai is working on [[https://jira.hyperledger.org/browse/FAB-5151 | FAB-5151]]
+  * E2E: Dong Wang is working on [[https://jira.hyperledger.org/browse/FAB-2871 | FAB-2871]]
+  * User Role: Wei Hu is working on [[https://jira.hyperledger.org/browse/FAB-3885|FAB-3885]]
+  * EventHub: Chang Chen is working on [[https://jira.hyperledger.org/browse/FAB-4822|FAB-4822]]
+  * Register: Baohua is working on [[https://jira.hyperledger.org/browse/FAB-3165|FAB-3165]]
+  * TODO issues:
+    * Update license header: [[https://jira.hyperledger.org/browse/FAB-4742|FAB-4742]]
+  * Other issues
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Baohua Yang
+  * Kai Chen
+  * Chang Chen
+  * Qiang Wang
+  * Tony Yang
+
+
+=== Log ===
+
+baohua 11:01 AM
+ok
+Today's agenda: https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20170728
+item 1: chaincode Install: Kai is working on FAB-5151
+@grapebaba how's going?
+https://jira.hyperledger.org/browse/FAB-5151
+@tonyyang132 pls add ur name to the agenda page
+
+grapebaba 11:02 AM
+not passed test
+
+baohua 11:02 AM
+hope there's no big issue with it
+
+grapebaba 11:02 AM
+still investigate
+
+tonyyang132 11:03 AM
+@baohua OK, on it
+
+baohua 11:03 AM
+sure, feel free to throw out the log if needing help
+@WangDong online?
+@WeiHu
+chang is on a leave today
+
+WeiHu 11:04 AM
+✋
+
+baohua 11:04 AM
+great, wei
+can u update the status on https://jira.hyperledger.org/browse/FAB-3885?
+
+WangDong 11:05 AM
+yes
+
+WeiHu 11:05 AM
+no progress this week, still waiting chain code install
+
+baohua 11:06 AM
+OK, pls keep close cooperation with kai, then.
+@luj
+dong, can u help update the status on https://jira.hyperledger.org/browse/FAB-2871?
+
+WangDong 11:07 AM
+I will finish the first sub task this week. Some basic confused me a lot. I have figure out them.
+Ok
+
+baohua 11:07 AM
+ok, is there any question u wanna ask now?
+or issues to discuss?
+i guess for the e2e, we can first have some quick doc and framework code.
+
+WangDong 11:09 AM
+OK
+
+baohua 11:09 AM
+feel free to drop out question if there's 🙂
+🌺
+
+WangDong 11:09 AM
+I was confused by the relation ship between the nodes
+when the docker compose up
+
+baohua 11:09 AM
+nodes? u mean peer node or orderer node?
+
+WangDong 11:09 AM
+yes
+they are just working but no relation with each other I think
+
+baohua 11:10 AM
+aha, @grapebaba any quick comments?
+
+grapebaba 11:11 AM
+not understand your question
+
+baohua 11:11 AM
+IMHO, those peers work together as the fabric network, to provide service. so they should have relationship.
+can u elaborate ur question?
+@WangDong
+
+WangDong 11:13 AM
+我在想怎么把问题说清楚
+
+baohua 11:14 AM
+sure, take ur time. meanwhile, i'm working on https://jira.hyperledger.org/browse/FAB-3165
+now need the last part of using signingidentity to make an auth token
+hopefully can finish the register functionality soon.
+Another item is the license header
+https://jira.hyperledger.org/browse/FAB-4742
+We need to add/check the header for every code/doc
+@lujiang has some experience, hopefully she can help this work
+:woo: @WangDong ready for ur question, now?
+
+WangDong 11:16 AM
+有一个操作，我比较看困惑，在做这个测试的时候，node sdk 需要把配置文件的所有node enroll.如果他们都在网络而且互相有关系，那他们肯定已经enroll 了，为什么还要enroll。
+enroll我理解就是把节点在ca注册，获得身份
+
+baohua 11:17 AM
+enroll means to let the fabric network recognize the client.
+each client is independent with each other.
+so every client need to enroll himself.
+so is this answering ur question?
+
+WangDong 11:18 AM
+但是这些节点在docker compose 起来的时候不是都已经在网络里面了么
+你的意思是当客户端链接这些节点的时候比如重新enroll?
+
+baohua 11:18 AM
+yeap, in this case, these nodes work like client to enroll themselves.
+
+WangDong 11:18 AM
+必须
+
+baohua 11:18 AM
+nooo.
+to keep the e2e case more simple, we can simple write down like : 1) client enrolls in the network; 2) client installs a chaincode to some peer; 3) client instantiates the chaincode; 4) client invokes the chaincode.
+does this make sense?
+more details can be added after we pass through the basic workflow.
+
+WangDong 11:20 AM
+so when the compose up ,these nodes are not enrolled, right
+?
+
+baohua 11:20 AM
+if u mean the compose.yaml inside sdk-py project, yes, no need to enroll them.
+only client sdk needs to enroll now.
+@grapebaba any comments?
+
+grapebaba 11:22 AM
+i haven't seen those codes
+
+baohua 11:22 AM
+@WangDong any more confusing now?
+
+grapebaba 11:23 AM
+since CA is not necessary, i assume nodes no need to enroll when docker-compose up
+
+WangDong 11:23 AM
+OK, 我问的简洁些，当compose up 的时候，这些节点已经enroll了。我在操作的时候不需要重新enroll 了哈
+
+grapebaba 11:23 AM
+应该没有enroll
+
+baohua 11:23 AM   
+yeap, client enrolls once, then u will get all the required cert/key files.
+
+grapebaba 11:24 AM
+因为可以 不要ca
+也能启动网络
+
+baohua 11:24 AM
+@WangDong the sdk-py is to design a client sdk, so u do not need to care the peer nodes, actually.
+
+WangDong 11:25 AM
+嗯， 我只想搞清楚他们怎么工作的。不然我只能依照node 来写。
+
+baohua 11:25 AM
+any more issue?
+aha, then suggest u have a look at our documentation
+
+grapebaba 11:26 AM
+你把代码位置发来看看
+
+WangDong 11:26 AM
+OK
+
+baohua 11:26 AM
+Here's lot! https://wiki.hyperledger.org/groups/twgc/team_ie
+
+WangDong 11:26 AM
+我是先看node 再想着实现py
+
+baohua 11:26 AM
+somehow, the node one is very complicated, can just use as a reference.
+have a quick look, then good enough
+OK, any more issues from everyone?
+
+WangDong 11:27 AM
+OK
+I will have a look at this
+
+baohua 11:27 AM
+Sure, and feel free to discuss with the team
+OK, any more issue to discuss today? everyone
+
+WangDong 11:28 AM
+@grapebaba lets discuss later in wechat
+
+grapebaba 11:28 AM
+sure
+
+baohua 11:28 AM
+great!
+
+tonyyang132 11:29 AM
+the doc compile is really great resource👍
+
+baohua 11:29 AM
+OK. if no more issue, will end the meeting, thanks every attendee and have a nice weekend!🍤🌮
+
+grapebaba 11:30 AM
+👏
+
+tonyyang132 11:31 AM 
+👏

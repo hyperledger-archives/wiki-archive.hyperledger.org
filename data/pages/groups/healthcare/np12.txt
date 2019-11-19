@@ -1,0 +1,31 @@
+Hyperledger Project\\
+Healthcare Working Group (HCWG) Payer Subgroup Meeting\\
+July 10, 2018 \\
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+Meeting Notes\\
+
+Introductions
+     *DOD and VA have a huge amount of historic effort in sharing information between the two agencies, as well as insurors and getting info from 3rd party and contract providers
+     *Get clinical data from treatment areas and pass data back and forth to provide longitudinal care. 
+     *Actual details from a clinical perspective. Looking for use cases to take part in.
+     *Key challenge - providers move around a lot and as they move facilities and knowing what they can and cannot do
+This group just got started and there are not many use cases yet, we are still trying to identify use cases.
+
+There is a course on edx.org that is very helpful. [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]
+
+Not clear from business standpoint how the technology will apply, looking for use cases to figure that out, what kinds of use cases are best
+
+Need to include someone from the Identity working group to talk about patient privacy.
+Sequencing of use cases is critical.
+Quorum for white paper planning
+

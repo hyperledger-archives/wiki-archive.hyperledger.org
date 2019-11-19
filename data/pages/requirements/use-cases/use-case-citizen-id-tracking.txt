@@ -1,0 +1,4 @@
+Jonathan Mohan will work on this.
+(this use case DID NOT come from any government - result of brainstorming. Should follow up with governments before spending time on this) 
+
+It would be possible to write birth certificates, death certificates, ID number (e.g. US Social Security number) and associated biometric data to a blockchain. Some data could be public, other data could be confidential to the government.

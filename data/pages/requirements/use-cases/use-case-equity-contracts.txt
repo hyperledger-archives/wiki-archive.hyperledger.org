@@ -1,0 +1,27 @@
+====== Equity Contracts Use Case ======
+
+**Equity** (finance), the value of an ownership interest in property, including shareholders' equity in a business. Equity or shareholders´ equity is part of the total capital of a business. Hyperledger technology can be used to implement some of the use cases.
+
+===== Transfer the ownership =====
+The process of changing ownership is more complex than simply giving someone a piece of paper. Transfer of ownership is the means by which the ownership of a property is transferred from one hand to another. This includes the purchase of a property, assumption of mortgage debt, exchange of possession of a property or any other land trust device.
+
+Each transaction of ownership transfer should be confirmed by authority. Such "Transaction confirmation" role can be delegated to community with the help of Hyperledger.
+
+== Sample application ==
+
+An example of Hyperledger-based application, which emulates share exchange mechanism, is published [[https://github.com/stanliberman/obc-peer/tree/master/openchain/example/chaincode/asset_manager | here]] 
+
+Application emulates transfer of 'shares'  between registered users' accounts. There are following users' roles: 
+
+  * **Issuer** - Only user with role 'Issuer' can issue new shares on the market by placing them in their account.
+  * **Transactor** - Can transfer shares from their account.
+  * **Auditor** - Read-only role. Has an access to information bout transactions and current state for all accounts.
+  * **Administrator** - Can create new user accounts. Can grant or revoke permissions. 
+
+Matrix of responsibilities:
+
+^ Role ^ Issue new stocks ^ Read balance (( In this example all registered users have an access to information about other users' account state. )) ^ Transfer stocks between accounts ^ Manage Users
+|Issuer|+|+|+|
+|Transactor| |+|+|
+|Auditor| |+| |
+|Administrator| |+|+|

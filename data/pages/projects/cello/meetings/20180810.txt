@@ -1,0 +1,40 @@
+==== 2018-08-10 ==== 
+Meeting will be held at [[ https://zoom.us/my/hyperledger.community | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/cello|rocketchat]] (for text chat) at:
+  * 08:30AM   (UTC-4) [UTC -4 is Eastern Daylight Time EDT]
+  * 06:00PM   (UTC+0530)
+  * 08:30PM   (UTC+8)
+
+  * [[ https://jira.hyperledger.org/projects/CE/issues/CE-188?filter=allopenissues | Ongoing Jira task ]] 
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:cello+status:open | Open Patchset for review ]] 
+  * [[ https://wiki.hyperledger.org/projects/cello | Project Wiki Page ]] 
+
+
+=== Agenda ===
+Feel free to update before the meeting.
+  - Fixed [[https://jira.hyperledger.org/projects/CE/issues/CE-428|Bug: can not open user-dashboard]]
+  - Tong is on vacation in following 2 weeks
+  - Dynamic crypto config generation (Haitao,Jiang Lu)
+  - K8s bug fix and tutorial video (Luke Chen)
+  - Fabric-ca support feature (shuo)
+    - [[https://wiki.hyperledger.org/projects/cello/internship-2018|Internship progress]]
+  - Welcome to review the [[https://docs.google.com/document/d/1HnvHom3R4O9v40IgZmyaxoKJhnq3Xxn5Focx54ylqFs/edit|Tutorial video script]].
+  - Support fabric 1.1, 1.2 feature in user dashboard (Haitao)
+  - Prepare for v0.9.0 at the end of this month, need to improve documentation and testing and fix bugs!
+
+
+=== Attendee ===
+**Please put your name before the meeting.**
+
+  * Baohua Yang
+  * Haitao Yue
+  * Luke Chen
+  * Shuo Wang
+
+
+=== Minutes ===
+  - Dynamic crypto config will start work after support fabric 1.1, 1.2 done.
+  - Luke have upload k8s tutorial video, and need to upgrade grpc client for fabric to fix with nginx.
+  - shuo keep working on fabric ca feature.
+  - review [[https://docs.google.com/document/d/1HnvHom3R4O9v40IgZmyaxoKJhnq3Xxn5Focx54ylqFs/edit|Tutorial video script]].
+  - Will support 1.2 directly, and skip v1.1 support in user dashboard.
+  - Do the prepare work for v0.9 release, do more testing.

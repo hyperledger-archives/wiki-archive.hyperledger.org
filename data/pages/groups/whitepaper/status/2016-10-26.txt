@@ -1,0 +1,9 @@
+====== Whitepaper WG Status 2016 Oct 26 ======
+
+In attendance: Hart, Ram, Stefan, David. Regrets: Tamas, Murali, Renat, Mic, Nic
+
+   * Discussed feedback from last weeks open whitepaper panel discussion with special guests Brian Behlendorf and Richard G Brown as well as mailing list discussions.
+   * Agreed that we have sufficient feedback to proceed with next version of draft.
+   * New target for paper... December user group meeting
+   * Hart is taking charge on revamping several sections
+   * Hart has produced a Latex version 

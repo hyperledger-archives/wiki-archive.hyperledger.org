@@ -1,0 +1,37 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Fabric
+
+===== Project Health =====
+Fabric continues to grow and mature. Our version v1.3 was delivered on October 10th. We have experienced a slight drop in the mix of contributors with IBM comprising 50% of the contributors over the past quarter (+6%) although the number of IBMers increased by only two. 
+
+There are a good mix of questions in chat, email and on [[https://stackoverflow.com/questions/tagged/hyperledger-fabric|Stackoverflow]] -- now nearly 2,800 questions for the 'hyperledger-fabric' tag, with the majority being answered. The questions themselves continue to be increasingly sophisticated, which is also a good sign. 
+
+===== Issues =====
+We discussed at length at the Member Summit and the Hackfest some of the issues that inhibit new contributors and/or users. Chat being one of the more prevalent theme as we have about 20 channels and it can be extremely daunting for new members to find who and what they were seeking. Taking more question and answer sessions to the mailing list and reducing the number of channels are approaches we aim to take. At the same time, developers have been asking for more focused channels to enable discussion on a certain topic at depth. We will need to balance the needs of the users and the needs of the developers. Dedicated user and developer mailing lists and chat channels has been proposed.
+
+We have mixed feedback on our [[https://jira.hyperledger.org/secure/Dashboard.jspa?selectPageId=10104|release roadmap]]. Many at the Summit and Hackfest commented how easy it was now to find our epic roadmap (or [[https://wiki.hyperledger.org/projects/fabric/roadmap|the wiki page that points to the roadmap]]) and understand where things stand. Many others had just the opposite reaction. It may be a function of familiarity with JIRA and finding the right starting point.
+
+===== Releases =====
+As noted, Fabric team published its 1.3.0 on October 10th, and since 1.2.0 (July 2018 release), has published one additional bugfix release (1.2.1). The rate of downloads of Fabric binaries and images continues to average just under 100/day.The project maintainers plan to maintain a quarterly release cadence with the next release scheduled for December 2018 which we currently plan to serve as our first long term support release (LTS).
+
+===== Overall Activity in the Past Quarter =====
+email traffic spiked in July and dipped in September, but still stronger than the prior year. The RocketChat traffic seems to have increased as well, but there are so many channels to track it is hard to get a sense for how much of an increase there's been. [[https://stackoverflow.com/questions/tagged/hyperledger-fabric|Stackoverflow]] traffic is steadily increasing, reaching nearly 2,800 questions. 
+
+===== Current Plans =====
+With version 1.3.0 just released, the project is working on 1.4.0 and 2.0.0 releases. The project maintains a [[projects:fabric:roadmap|release roadmap]], and maintains a [[https://jira.hyperledger.org/secure/Dashboard.jspa?selectPageId=10104|JIRA dashboard]] to track specific items.
+
+v1.4.0 is targeted to be a long term support release in Q4, and as such the priority is operational improvements such as providing operational metrics, grpc monitoring, health checks, and improved logging.
+
+v2.0.0 is the 2019 target release for more substantial new features, including an enhanced chaincode lifecycle, a raft consensus mechanism (stepping stone to full BFT ordering service), and deeper token support.
+
+We hold playback meetings for design reviews and intend to continue regular maintainer hangouts (see community calendar)  every other week to track the release plan's progress against objectives.
+
+===== Maintainer Diversity =====
+Maintainer diversity was static though there is potential on the horizon. 
+
+===== Contributor Diversity =====
+As noted, we saw a slight drop in the diversity of contributors the past quarter. We'll want to watch to see if this is a trend.
+
+===== Additional Information =====

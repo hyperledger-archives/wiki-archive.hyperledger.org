@@ -1,0 +1,18 @@
+====== Q4 2018 Burrow Roadmap ======
+//**Author: Silas Davis, 23 August 2018**//
+
+This quarter, three focus areas:
+
+  - Chain stability
+  - Governance
+  - Cross-chain and public chain groundwork
+
+===== Roadmap =====
+^ Work item ^ Effort (1, 2, 3, 5, 8, 13) ^ Priority  ^
+| State time travel (git rebase, git reset --hard) | 5 | High |
+| Implement prototype web3 API  | 8 | Medium |
+| State save/restore | 8 | High |
+| Forkable state channels | 13 | Low |
+| Provide trial HSM integaration | 5 | Low |
+| Reintroduce ECRECOVER for secp256k1 | 5 | Medium |
+| Parallel EVM execution | 13 | Low |

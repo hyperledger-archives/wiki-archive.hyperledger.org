@@ -1,0 +1,5 @@
+# Whitepaper WG Status 2016 Jun 22
+* Frank Lu has left IBM, Nick Gaski (of IBM) will be taking his place. Thanks Frank for your valuable contributions to the whitepaper! 
+* Initial draft of Glossary section reviewed and the group agreed it needs more edits before publishing.
+* Additional edits we're reviewed and accepted
+* Draft v1.0.1 published with edits of past 2 weeks.

@@ -1,0 +1,24 @@
+==== TWG China Group Report for August 2017 ====
+
+=== Status ===
+  - Team: The team were collaborating in development, adoption cases, i18n, event organization and other tasks. We have two new active volunteers: Linsheng Yu and Jiannan Guo.
+  - Meeting: 2 meetings were held with active discussions (with LF experts). All minutes can be found on the [[ groups/twgc/meetings | wiki]].
+  - [[groups/twgc/team_cs | Collaboration and Scenarios]]
+    - The team has collected 5 adoption cases of Hyperledger techniques and shared on the wiki. 
+    - Need to add more cases through community channels like maillist and wechat public account.
+    - Need to collaborate with other WGs like the requirement WG.
+  - [[groups/twgc/team_di | Technical Development]]
+    - New developers are joining, see the development page.
+    - Technical Communication: active discussions happen in the rocket chat channel/maillist.
+    - SM2 work is starting with jira issue [[https://jira.hyperledger.org/browse/FAB-5496|FAB-5496]].
+  - [[groups/twgc/team_ie | i18n and education work]]
+    - 10s of design documentation are done and put on the wiki. 
+    - The team has evaluated the platforms like transifex and zanata.
+    - Will propose some formal proposal on an i18 work.
+  - [[groups/twgc/team_eo | Event organization ]]
+    - A technical meetup has been held in Beijing.
+    - Plan more meetups in following months.
+
+=== Issues ===
+  - Meeting platform: The uber-conference system provides no local access number, sometimes not stable to access through web browser. 
+  - i18n work: Need the TSC and infrastructure teams' help to link to official github repo.

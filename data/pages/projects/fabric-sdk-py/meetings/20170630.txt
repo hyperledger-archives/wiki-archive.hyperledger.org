@@ -1,0 +1,48 @@
+==== 2017-06-30 ==== 
+
+Meeting will be held at [[https://www.uberconference.com/hyperledger-community|uberconf]] at 11AM (GMT+8).
+
+  * [[https://jira.hyperledger.org/browse/FAB-4623?jql=project%20%3D%20FAB%20AND%20status%20in%20(%22In%20Progress%22%2C%20%22To%20Do%22)%20AND%20component%20%3D%20fabric-sdk-py | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+status:open | Open Patchset for review]]
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]]
+
+=== Agenda ===
+
+  * MVP remaining tasks: [[https://jira.hyperledger.org/browse/FAB-4877|FAB-4877]] done by Kai Chen
+  * Images/docker-compose-files update: [[https://jira.hyperledger.org/browse/FAB-4741|FAB-4741]] done by Qiang Wang
+  * E2E: Dong Wang is working on [[https://jira.hyperledger.org/browse/FAB-2871 | FAB-2871]]
+  * User Role: Wei Hu is working on [[https://jira.hyperledger.org/browse/FAB-3885|FAB-3885]]
+  * Proto Files Update: Tony Yang is working on [[https://jira.hyperledger.org/browse/FAB-4592|FAB-4592]]
+  * EventHub: Chang Chen is working on [[https://jira.hyperledger.org/browse/FAB-4822|FAB-4822]]
+  * TODO issues:
+    * Update license header: [[https://jira.hyperledger.org/browse/FAB-4742|FAB-4742]]
+    * Support provided password in the enroll request: [[https://jira.hyperledger.org/browse/FAB-3165|FAB-3165]]
+  * Other issues
+    * Design Discussion
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Baohua Yang
+  * Kai Chen
+  * Chang Chen
+  * Wei Hu
+  * Qiang Wang
+  * Tony Yang
+
+
+=== Log ===
+
+  * Baohua introduces the functionalities of sdk, what it should do and how it interacts with fabric with gRPC.
+  * Kai introduces existing implementation of sdk.
+  * TODO: wei hu will finish the fabric-ca interaction with kai (high priority).
+  * TODO: Core chaincode operation: install, instantiate, invoke (high priority).
+  * TODO: Eventhub processing (chang is working).
+  * TODO: environment setup (qiang is working).
+  * TODO: Error/exception handling (low priority).
+  * TODO: Support certificate key-value permanently storage (low priority).
+  * TODO: grpc options (low priority).
+  * TODO: channel creation (low priority).
+
+

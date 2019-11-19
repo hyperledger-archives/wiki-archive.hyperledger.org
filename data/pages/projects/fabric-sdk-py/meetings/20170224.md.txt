@@ -1,0 +1,222 @@
+### 2017-02-24
+
+#### Agenda
+
+* [Jira board](https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85) status. There are several old tasks need to be clear soon.
+  * Yan: [FAB-697](https://jira.hyperledger.org/browse/FAB-697), [FAB-738](https://jira.hyperledger.org/browse/FAB-738)
+  * Fan: [FAB-737](https://jira.hyperledger.org/browse/FAB-737)
+  * Lei: [FAB-801](https://jira.hyperledger.org/browse/FAB-801)
+
+* [Patchset](https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py) for review.
+* MVP design and implementation progress (chang helps drive this).
+* [SDK Spec](https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4) is publicly available.
+* [Hackathon at shanghai](http://szqy.ffan.com/hack/Hack/)
+* Other issues
+
+#### Attendee
+
+* Baohua Yang
+* Kai Chen
+* Chang Chen
+* Lei Li
+* Ray Chen
+
+
+#### Log
+
+```
+=== Meeting Start ===
+
+ok, meeting start
+today's agenda is https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20170224.md
+first, we have new volunteer @ray, welcome, would u like to introduce urself?
+
+ray 11:03 AM
+Hi all, this is Ray from Qulian Tech, hope I can make contribution to the python SDK dev!
+
+baohua 11:04 AM
+welcome!
+
+lafenicecc 11:04 AM
+welcome!
+
+baohua 11:04 AM
+OK, item#1: jira board: https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85.
+@SeeGo any update on https://jira.hyperledger.org/browse/FAB-801)?
+
+SeeGo 11:05 AM
+yes
+
+baohua 11:05 AM
+@huang
+
+SeeGo 11:06 AM
+The the some func of client is updated by author of other class.
+
+baohua 11:07 AM
+so it's fixed? saw a done mark
+
+SeeGo 11:07 AM
+yes
+
+baohua 11:07 AM
+thanks for that!
+
+SeeGo 11:07 AM
+i am available now, can pick up other task.
+
+baohua 11:08 AM
+thanks, yan, pls pick the new tasks, especially for the MVP. And we do not have yan and fan today, so will ping them offline.
+item #2: patchsets: https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py
+
+SeeGo 11:08 AM
+ok
+
+baohua 11:08 AM
+We made great progress in last week!
+9 patchsets!
+everyone pls help review for new patchset
+we appreciate any kind of comment and contribution!
+item #3: MVP design. any update @lafenicecc
+
+lafenicecc 11:10 AM
+Hi
+In the last 2 weeks, we did some ... inevitable works to carry the MVP work forward
+for example, the user module, identity and msp module, crypto sign...
+Thanks for all your help!
+Now we have removed some of the obstacles, but still a lot ahead
+@grapebaba any plans or comments about the current work?
+
+grapebaba 11:12 AM
+for the e2e test
+we still need preventmalleability feature and complete MSP feature
+
+baohua 11:13 AM
+@tcz001 said to help on this feature
+are we blocked on that now, to finish the MVP?
+
+grapebaba 11:14 AM
+i think so
+
+lafenicecc 11:14 AM
+why blocked by preventmalleability?
+
+baohua 11:14 AM
+assume the users are not doing evil first?
+
+grapebaba 11:15 AM
+i am not quite sure
+but i saw the code will change the signature
+in node SDK
+i am not sure if it will fail in server side
+
+baohua 11:16 AM
+IMHO, i guess we can ignore the preventmalleability feature for the e2e currently, as it's only for security. @grapebaba can u help make sure the code change in node sdk? whether it's matter to the e2e test?
+
+grapebaba 11:16 AM
+another we missing signing_identity serialize() method
+
+lafenicecc 11:17 AM
+@SeeGo can u help look at this method?
+is it the only block before we can send the proposal and get response? @grapebaba
+
+baohua 11:18 AM
+i suppose @SeeGo will be back later :)🐱
+
+grapebaba 11:19 AM
+seems
+
+baohua 11:20 AM
+@ray feel free to pick tasks, too. now we are finishing the MVP with e2e testing 🙂
+OK, any more comments on the MVP work?
+
+lafenicecc 11:20 AM
+yea, i can help explain the work, feel free to ask me anything anytime
+
+baohua 11:20 AM
+🐪
+
+ray 11:20 AM
+Thanks @lafenicecc 🙂
+
+baohua 11:20 AM
+ok, cool~
+SDK spec can be found at ttps://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4
+although some minor differ from that. can also look at the node sdk as reference.
+but we can be flexible to adopt the pythonic way 🐍
+
+ray 11:22 AM
+Thanks, will do some investigation first. I love 🐍
+
+baohua 11:22 AM
+thanks
+item #5: hackathon!
+pls help share and also encourage to attend as players: http://szqy.ffan.com/hack/Hack
+
+lafenicecc 11:23 AM
+will go
+
+baohua 11:24 AM
+I was told the food standard is 5+ stars, over 1000Y/day!🍤🌮🍲
+
+lafenicecc 11:24 AM
+i've got three teams, 😜
+
+baohua 11:24 AM
+cool
+the registration is closing, so hurry up~~
+OK. any other issue to discuss today?
+
+grapebaba 11:26 AM
+```
+func (csp *impl) verifyECDSA(k *ecdsa.PublicKey, signature, digest []byte, opts bccsp.SignerOpts) (valid bool, err error) {
+	r, s, err := unmarshalECDSASignature(signature)
+	if err != nil {
+		return false, fmt.Errorf("Failed unmashalling signature [%s]", err)
+	}
+
+	// check for low-S
+	halfOrder, ok := curveHalfOrders[k.Curve]
+	if !ok {
+		return false, fmt.Errorf("Curve not recognized [%s]", k.Curve)
+	}
+
+	// If s > halfOrder Then
+	if s.Cmp(halfOrder) == 1 {
+		return false, fmt.Errorf("Invalid S. Must be smaller than half the order [%s][%s].", s, halfOrder)
+	}
+
+	return ecdsa.Verify(k, digest, r, s), nil
+}
+```
+i still suspect preventmalleability will block
+
+baohua 11:28 AM
+aha, let's ask @tcz001 to help confirm. besides that, let's finish other part soon.
+signing_identity serialize() method, @ray i may ask u to pick up this task as a practice on hand 🙂
+
+grapebaba 11:30 AM
+i invite @muralisr to help us review the tasks for MVP
+
+baohua 11:30 AM
+sure, welcome, he is nice guy
+and @latitiah will help on that later with bdd experience, too.
+OK, any other issue to talk?
+
+grapebaba 11:32 AM
+no for me
+
+baohua 11:32 AM
+@ray feel free to discuss with kai and chang on it. guess will be not difficult too much 🐟
+
+ray 11:32 AM
+@baohua I see, will try to implement this task 🙂
+
+grapebaba 11:33 AM
+thanks
+
+baohua 11:33 AM
+thanks, OK, thanks for everyone, have a nice weekend! 🍷
+
+=== Meeting End ===
+```

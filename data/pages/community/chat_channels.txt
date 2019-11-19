@@ -1,0 +1,182 @@
+====== Channel Guide for Hyperledger's Rocket Chat ======
+
+<WRAP center round box 75%>
+NOTE: This page is no longer maintained. If you want a full list of chat channels, please visit https://chat.hyperledger.org/directory.
+</WRAP>
+
+Hyperledger projects use RocketChat to conduct ephemeral discussions; whereas, mailing lists are used to conduct larger discussions for which we want to maintain a history.  To join our chat discussions, you will need a [[https://identity.linuxfoundation.org/|Linux Foundation ID]] to login to [[https://chat.hyperledger.org/]].
+
+  * [[https://chat.hyperledger.org/channel/ambassadors|#ambassadors]]\\ Used by the [[community:ambassador |Technical Ambassadors]] to communicate amongst themselves and with others who are interested in having a technical ambassador speak at an event
+
+  * [[https://chat.hyperledger.org/channel/architecture-wg|#architecture-wg]]\\ Used by the [[groups:architecture:architecture-wg|Architecture Working Group]] to announce meeting updates and adhoc meetings
+
+  * [[https://chat.hyperledger.org/channel/blockchain4good|#blockchain4good]]\\ Used for discussions for the participants of the 2017 Dublin Blockchain for Good Hackathon held at Accenture The Dock 
+
+  * [[https://chat.hyperledger.org/channel/burrow|#burrow]]\\ Used by the Hyperledger Burrow project to discuss creating a permissioned smart contract machine based on the Ethereum Virtual Machine (EVM) specification
+
+  * [[https://chat.hyperledger.org/channel/burrow-contributors|#burrow-contributors]]\\ Used for discussions by the contributors/maintainers of the Hyperledger Burrow project
+
+  * [[https://chat.hyperledger.org/channel/caliper|#caliper]]\\ Used by the Hyperledger Caliper project for questions and ephemeral discussions
+
+  * [[https://chat.hyperledger.org/channel/caliper-contributors|#caliper-contributors]]\\ Used by the Hyperledger Caliper project to discuss implementation details of the project
+
+  * [[https://chat.hyperledger.org/channel/cello|#cello]]\\ Used by the Hyperledger Cello project to discuss bringing an on-demand “as-a-service” deployment model to the blockchain ecosystem
+
+  * [[https://chat.hyperledger.org/channel/ci-pipeline|#ci-pipeline]]\\ Used to discuss the Continuous Integration pipeline with respect to [[https://jenkins.hyperledger.org]]
+
+  * [[https://chat.hyperledger.org/channel/composer|#composer]]\\ Used for user discussions on the Hyperledger Composer project
+
+  * [[https://chat.hyperledger.org/channel/composer-ci|#composer-ci]]\\ Used to discuss the Continuous Integration for the Hyperledger Composer project
+
+  * [[https://chat.hyperledger.org/channel/composer-dev|#composer-contributors]]\\ Used for discussions by the contributors/maintainers of the Hyperledger Composer project
+
+  * [[https://chat.hyperledger.org/channel/composer-quality|#composer-quality]]\\ Used for quality assurance and weekly verification test discussion for the Hyperledger Composer project
+
+  * [[https://chat.hyperledger.org/channel/crypto-lib|#crypto-lib]]\\ Used to discuss a shared crypto library across the different Hyperledger projects
+
+  * [[https://chat.hyperledger.org/channel/deployment|#deployment]]\\ Used to discuss deploying any of the Hyperledger projects
+
+  * [[https://chat.hyperledger.org/channel/fabric|#fabric]]\\ Used to discuss the Hyperledger Fabric project
+
+  * [[https://chat.hyperledger.org/channel/fabric-ca|#fabric-ca]]\\ Used to discuss the Certificate Authority of the Hyperledger Fabric project
+
+  * [[https://chat.hyperledger.org/channel/fabric-chaincode-dev|#fabric-chaincode-dev]]\\ Used to discuss the chaincode development system or application chaincode
+
+  * [[https://chat.hyperledger.org/channel/fabric-chaintool|#fabric-chaintool]]\\ Used by the Chaintool project to discuss creating a utility to assist in various phases of Hyperledger Fabric chaincode development, such as compilation, test, packaging, and deployment 
+
+  * [[https://chat.hyperledger.org/channel/fabric-ci|#fabric-ci]]\\ Used to discuss the Continuous Integration for Hyperledger Fabric
+
+  * [[https://chat.hyperledger.org/channel/fabric-connect-a-cloud|#fabric-connect-a-cloud]]\\ Used to discuss connecting Hyperledger Fabric across multiple hosted environments
+
+  * [[https://chat.hyperledger.org/channel/fabric-crypto|#fabric-crypto]]\\ Used to discuss cryptography for Hyperledger Fabric
+
+  * [[https://chat.hyperledger.org/channel/fabric-dev-env|#fabric-dev-env]]\\ Used to discuss setting up and configuring the developer environment for Hyperledger Fabric
+
+  * [[https://chat.hyperledger.org/channel/fabric-documentation|#fabric-documentation]]\\ Used to discuss the documentation for Hyperledger Fabric
+
+  * [[https://chat.hyperledger.org/channel/fabric-evm|#fabric-evm]]\\ Used to discuss the integration of the EVM with Hyperledger Fabric
+
+  * [[https://chat.hyperledger.org/channel/fabric-gossip|#fabric-gossip]]\\ Used to discuss the gossip protocol used by Hyperledger Fabric
+
+  * [[https://chat.hyperledger.org/channel/fabric-java-chaincode|#fabric-java-chaincode]]\\ Used to discuss creating Java chaincode to use with Hyperledger Fabric 
+
+  * [[https://chat.hyperledger.org/channel/fabric-kubernetes|#fabric-kubernetes]]\\ Used to discuss support for Hyperledger Fabric on Kubernetes
+
+  * [[https://chat.hyperledger.org/channel/fabric-ledger|#fabric-ledger]]\\ Used to discuss the technical aspects of the ledger used by Hyperledger Fabric
+
+  * [[https://chat.hyperledger.org/channel/fabric-maintainers|#fabric-maintainers]]\\ Used for discussion amongst or with the maintainers of Hyperledger Fabric
+
+  * [[https://chat.hyperledger.org/channel/fabric-orderer|#fabric-orderer]]\\ Used for discussions regarding orderers and consensus protocols. Questions should be related to the ordering service code and its APIs (Broadcast/Deliver), configuration transactions, or the ordering service consensus plugins (Solo/Kafka/SBFT).  See [[community:chat_channels:fabric-orderer|#fabric-orderer guidelines]] for more information.
+
+  * [[https://chat.hyperledger.org/channel/fabric-orderer-dev|#fabric-orderer-dev]]\\ Used for discussions by the contributors/maintainers of the Hyperledger Fabric's ordering service
+ 
+  * [[https://chat.hyperledger.org/channel/fabric-peer-endorser-committer|#fabric-peer-endorser-committer]]\\ Used for technical discussions of both endorser and committer used by Hyperledger Fabric
+
+  * [[https://chat.hyperledger.org/channel/fabric-playbacks|#fabric-playbacks]]\\ Used to show developers the most current work on Hyperledger Fabric
+
+  * [[https://chat.hyperledger.org/channel/fabric-pr-reviews|#fabric-pr-reviews]]\\ Used to review pull requests for Hyperledger Fabric
+
+  * [[https://chat.hyperledger.org/channel/fabric-quality|#fabric-quality]]\\ Used to discuss testing of Hyperledger Fabric
+
+  * [[https://chat.hyperledger.org/channel/fabric-questions|#fabric-questions]]\\ Used to ask questions about Hyperledger Fabric
+
+  * [[https://chat.hyperledger.org/channel/fabric-release|#fabric-release]]\\ Used for Hyperledger Fabric release-related questions, surveys, feedback, inquiries, requests, along with discussions of all sorts around: priorities, planning, schedule, milestones, and, of course, announcements
+
+  * [[https://chat.hyperledger.org/channel/fabric-samples|#fabric-samples]]\\ Used to discuss the [[https://github.com/hyperledger/fabric-samples|fabric-samples repository]]
+
+  * [[https://chat.hyperledger.org/channel/fabric-scrum|#fabric-scrum]]\\ Used to hold the Scrum meetings for Hyperledger Fabric
+
+  * [[https://chat.hyperledger.org/channel/fabric-sdk|#fabric-sdk]]\\ Used for discussions on Hyperledger Fabric SDK agnostic of programming language
+
+  * [[https://chat.hyperledger.org/channel/fabric-sdk-go|#fabric-sdk-go]]\\ Used for discussions of Hyperledger Fabric's Go SDK
+
+  * [[https://chat.hyperledger.org/channel/fabric-sdk-java|#fabric-sdk-java]]\\ Used for discussions of Hyperledger Fabric's Java SDK
+
+  * [[https://chat.hyperledger.org/channel/fabric-sdk-node|#fabric-sdk-node]]\\ Used for discussions of Hyperledger Fabric's Node SDK
+
+  * [[https://chat.hyperledger.org/channel/fabric-sdk-py|#fabric-sdk-py]]\\ Used for discussions of Hyperledger Fabric's Python SDK
+
+  * [[https://chat.hyperledger.org/channel/general|#general]]\\ Used for generic discussions relating to blockchain or Hyperledger in general -- Discussions here should not be specific to a particular project
+
+  * [[https://chat.hyperledger.org/channel/github-taskforce|#github-taskforce]]\\ Used to discuss the potential migration from Gerrit to Github
+
+  * [[https://chat.hyperledger.org/channel/hackfest|#hackfest]]\\ Used for discussions during the Hyperledger Hackfests
+
+  * [[https://chat.hyperledger.org/channel/healthcare-wg|#healthcare-wg]]\\ Used by the [[groups:healthcare:healthcare-wg |Healthcare Working Group]] to announce meeting updates and adhoc meetings
+
+  * [[https://chat.hyperledger.org/channel/hyperledger-bot|#hyperledger-bot]]\\ Used by those interesting in contributing to the Hyperledger Hubot that runs on Rocket.Chat (see also https://github.com/hyperledger/hyperledger-rocket-chat-hubot)
+
+  * [[https://chat.hyperledger.org/channel/hyperledger-explorer|#hyperledger-explorer]]\\ Used by the Hyperledger Explorer project to collaborate on creating a blockchain UI for all Hyperledger blockchain framework projects
+
+  * [[https://chat.hyperledger.org/channel/identity-wg|#identity-wg]]\\ Used by the [[groups:identity:identity-wg |Identity Working Group]] to announce meeting updates and adhoc meetings
+
+  * [[https://chat.hyperledger.org/channel/indy|#indy]]\\ Used to discuss the Hyperledger Indy project
+
+  * [[https://chat.hyperledger.org/channel/indy-agent|#indy-agent]]\\ Used to discuss Hyperledger Indy's Agent (p2p endpoints of the network)
+
+  * [[https://chat.hyperledger.org/channel/indy-node|#indy-node]]\\ Used to discuss Hyperledger Indy's validator and observer nodes
+
+  * [[https://chat.hyperledger.org/channel/indy-pr-review|#indy-pr-review]]\\ Used to review pull requests for Hyperledger Indy
+
+  * [[https://chat.hyperledger.org/channel/indy-sdk|#indy-sdk]]\\ Used for discussions on Hyperledger Indy's SDK
+
+  * [[https://chat.hyperledger.org/channel/infra-support|#infra-support]]\\ Used for discussions related to Infrastructure Support provided by The Linux Foundation for Hyperledger projects
+
+  * [[https://chat.hyperledger.org/channel/iroha|#iroha]]\\ Used to discuss the Hyperledger Iroha project
+
+  * [[https://chat.hyperledger.org/channel/iroha-smartcontracts|#iroha-smartcontracts]]\\ Used for technical discussions related to Hyperledger Iroha smart contracts
+
+  * [[https://chat.hyperledger.org/channel/japanese|#japanese]]\\ Used for discussion amongst Japanese community developers (Hyperledger に関する日本語での議論)
+
+  * [[https://chat.hyperledger.org/channel/jenkins-robot|#jenkins-robot]]\\ Used by Jenkins to notify success/failure of CI pipelines (Not currently used)
+
+  * [[https://chat.hyperledger.org/channel/jira|#jira]]\\ Used to discuss setting up Jira for new projects
+
+  * [[https://chat.hyperledger.org/channel/jira-notifications|#jira-notifications]]\\ Used by Jira to notify about new bugs (Not currently used)
+
+  * [[https://chat.hyperledger.org/channel/jobs|#jobs]]\\ Used for posting Hyperledger-specific job openings
+
+  * [[https://chat.hyperledger.org/channel/labs|#labs]]\\ Used for [[https://github.com/hyperledger-labs|Hyperledger Labs]] as a place to communicate
+
+  * [[https://chat.hyperledger.org/channel/learning-materials-development-wg|#learning-materials-development-wg]]\\ Used by the [[groups:training-and-education:training-and-education-wg|Learning Materials Development Working Group]] to announce meeting updates and adhoc meetings
+
+  * [[https://chat.hyperledger.org/channel/marketing|#marketing]]\\ Used by the Hyperledger marketing team
+
+  * [[https://chat.hyperledger.org/channel/meetup|#meetup]]\\ Used by Hyperledger meetup.com organizers to share best practices and material
+
+  * [[https://chat.hyperledger.org/channel/performance-and-scale-wg|#performance-and-scale-wg]]\\ Used by the [[groups:pswg:performance-and-scale-wg|Performance and Scale Working Group]] to announce meeting updates and adhoc meetings
+
+  * [[https://chat.hyperledger.org/channel/portuguese|#portuguese]]\\ Used for discussion amongst Portuguese community developers (Canal para comunicação de membros da comunidade Hyperledger em língua portuguesa)
+
+  * [[https://chat.hyperledger.org/channel/quilt|#quilt]]\\ Used for discussions regarding Hyperledger Quilt
+
+  * [[https://chat.hyperledger.org/channel/requirements-wg|#requirements-wg]]\\ Used by the [[groups:requirements:requirements-wg|Requirements Working Group]] to announce meeting updates and adhoc meetings
+
+  * [[https://chat.hyperledger.org/channel/rocketchat-chat|#rocketchat-chat]]\\ Used to discuss issues with Rocket.Chat
+
+  * [[https://chat.hyperledger.org/channel/russia|#russia]]\\ Used for discussion amongst Russian community developers
+
+  * [[https://chat.hyperledger.org/channel/sawtooth|#sawtooth]]\\ This is the main channel for asking Sawtooth application and deployment questions.
+
+  * [[https://chat.hyperledger.org/channel/sawtooth-consensus-dev|#sawtooth-consensus-dev]]\\ Discuss development of consensus algorithms and interfaces for Sawtooth.
+
+  * [[https://chat.hyperledger.org/channel/sawtooth-core-dev|#sawtooth-core-dev]]\\ Discuss internal development of the Sawtooth platform (as opposed to transaction family or smart contract development).
+
+  * [[https://chat.hyperledger.org/channel/sawtooth-ci|#sawtooth-infra]]\\ Used to discuss the Continuous Integration for Hyperledger Sawtooth and other infrastructure systems.
+
+  * [[https://chat.hyperledger.org/channel/sawtooth-next-directory|#sawtooth-next-directory]]\\ Discuss development and use of the role based access control sub-project called Next Directory.
+
+  * [[https://chat.hyperledger.org/channel/sawtooth-pr-reviews|#sawtooth-pr-reviews]]\\ Used to review pull requests for Hyperledger Sawtooth
+
+  * [[https://chat.hyperledger.org/channel/sawtooth-sabre|#sawtooth-sabre]]\\ Used for discussions on the Sawtooth web assembly smart contract engine (Sabre) 
+
+  * [[https://chat.hyperledger.org/channel/sawtooth-seth|#sawtooth-seth]]\\ Used for discussions on the integration of Hyperledger Sawtooth and Hyperledger Burrow (SETH - Sawtooth Ethereum)
+
+  * [[https://chat.hyperledger.org/channel/sawtooth-release|#sawtooth-release]]\\ Used for release planning and management
+
+  * [[https://chat.hyperledger.org/channel/tsc|#tsc]]\\ Used by the [[groups:tsc:technical-steering-committee|Hyperledger Technical Steering Committee]] to announce meeting updates and adhoc meetings
+
+  * [[https://chat.hyperledger.org/channel/twg-china|#twg-china]]\\ Used by the [[groups:tsc:technical-working-group-china|Technical Working Group China]] to announce meeting updates, adhoc meetings, and other discussions
+
+  * [[https://chat.hyperledger.org/channel/whitepaper-wg|#whitepaper-wg]]\\ Used by the [[groups:whitepaper:whitepaper-wg|Whitepaper WG]] to announce meeting updates and adhoc meetings
+ 

@@ -1,0 +1,105 @@
+====== Fabric SDK Py ======
+
+===== Status =====
+
+This project is [[/community:project-lifecycle#active | Active]].
+
+===== Description =====
+
+Python SDK for [[/projects/fabric | Hyperledger Fabric]].
+
+===== Key Characteristics =====
+
+  * Integrated with Fabric, written in Python.
+
+===== Documentation =====
+
+  * [[ https://github.com/hyperledger/fabric-sdk-py/blob/master/README.md | Main doc ]]
+
+===== Project Management =====
+
+  * [[ https://jira.hyperledger.org/browse/FABP-164?jql=project%20%3D%20FABP%20AND%20status%20in%20(%22In%20Progress%22%2C%20%22To%20Do%22)%20 | Jira Tasks in Processing ]]
+
+===== Repository =====
+
+  * [[ https://gerrit.hyperledger.org/r/#/admin/projects/fabric-sdk-py | Gerrit ]] - Main repository.
+    * [[ https://gerrit.hyperledger.org/r/#/q/status:open+project:fabric-sdk-py | Patchsets to Review ]]
+    * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py | All Patchsets ]]
+  * [[ https://github.com/hyperledger/fabric-sdk-py | Github ]] - Read-only repository.
+
+===== Communication =====
+
+==== Mailing List ====
+
+  * [[ mailto:fabric@lists.hyperledger.org | fabric@lists.hyperledger.org ]] for general discussions.
+    * [[ https://lists.hyperledger.org/g/fabric | Subscribe ]]
+    * [[ https://lists.hyperledger.org/g/fabric/messages | Archives ]]
+
+==== Rocket.Chat ====
+
+  * [[ https://chat.hyperledger.org/channel/fabric-sdk-py | #fabric-sdk-py ]]
+
+==== Slack (archives, see Rocket.Chat) ====
+
+  * [[ https://hyperledgerproject.slack.com/archives/fabric-sdk-py | #fabric-sdk-py ]] archived
+
+==== Meeting ====
+
+13:00 UTC every Friday on [[ https://chat.hyperledger.org/channel/fabric-sdk-py | #fabric-sdk-py ]].
+[[https://calendar.google.com/calendar/embed?src=linuxfoundation.org_nf9u64g9k9rvd9f8vp4vur23b0%40group.calendar.google.com&ctz=Asia/Shanghai|Calendar]]
+
+  * [[ /projects/fabric-sdk-py/meetings | Meeting Minutes ]]
+  * [[https://zoom.us/my/hyperledger.community | Zoom]]
+
+===== Related Pages =====
+
+  * [[ projects/fabric | Fabric ]]
+  * [[ https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | Fabric SDK Spec ]]
+  * [[ https://files.slack.com/files-pri/T0J024XGA-F2VB5FXJ4/download/hyperledger-fabric-protobuf-messages-and-flow.pdf | hyperledger-fabric-protobuf-message-and-flow ]]
+  * [[ https://google.github.io/styleguide/pyguide.html#Comments | Python Style Guide from Google]]
+  * [[ https://developers.google.com/protocol-buffers/docs/reference/python-generated | Python Protobuf Generated Code ]]
+
+===== Contributors =====
+
+New contributors are welcome, feel free to help contribute.
+
+^ Name                ^ LF ID             ^ Email                          ^ Orgnization       ^
+| Baohua Yang         | baohua            | yangbaohua@gmail.com           | Oracle            |
+| Kai Chen            | grapebaba         | 281165273@qq.com               | ziggurat.cn       |
+| Chang Chen          | lafenicecc        | ccchenbj@cn.ibm.com            | IBM               |
+| Qiang Wang          | qiang0723         | wqiang0723@gmail.com           | independent       |
+| Chuanjian Wang      | ckeyer            | me@ckeyer.com                  | independent       |
+| Lei Li              | SeeGo             | 3stones.li@gmail.com           | independent       |
+| Jianhua Geng        | gengjh            | david@arxanfintech.com         | arxanfintech.com  |
+| Zhaofang Han        | hanhzf            | frank@arxanfintech.com         | arxanfintech.com  |
+| Yan Huang           | bryanhuang        | bryan@arxanfintech.com         | arxanfintech.com  |
+| Latitia Haskins     | latitiah          | latitia.haskins@gmail.com      | IT People Corp.   |
+| Fan Jiang           | tcz001            | fan.torchz@gmail.com           | Thoughtworks      |
+| Ray Chen            | oldsharp          | oldsharp@gmail.com             | Independent       |
+| Wei Hu              | WeiHu             | wei@hyperchain.cn              | Hyperchain        |
+| Chao Li             | camelbeck         | hfutuzi@gmail.com              | independent       |
+| David Dornseifer    | david_dornseifer  | david.paul.dornseifer@sap.com  | SAP               |
+| Lu Jiang            | sallymilu         | lujjiang@cn.ibm.com            | IBM               |
+| Mukkaysh Srivastav  | srivmukk          | srivmukk@gmail.com             | BiGVai            |
+| Ramesh Babu Thoomu  | rameshthoomu      | rameshbabu.thoomu@gamil.com    | IT People Corp.   |
+| Dong Wang           | MichaelWang       | xdragon007@gmail.com           | independent       |
+| Dixing Xu           | DexHunter         | dixingxu@gmail.com             | independent       |
+
+
+
+
+
+
+
+
+===== Adoptions =====
+
+Adoption cases are welcome, feel free to update if you are using the project.
+
+^ Org             ^ Since When      ^ Project & Usage                   ^ Feedbacks     ^ Contact Info ^
+| IBM             | April, 2016     | Cloud for interaction with fabric |               | ccchenbj@cn.ibm.com |
+
+===== History =====
+
+  * [[ https://docs.google.com/document/d/1N-KbwlFb7Oo_pTG2NjjLTqwlhqp_kjyv5fco7VH8WrE | Proposed ]] by Baohua Yang (IBM Research), Chang Chen (IBM Research), Kai Chen (IBM CIC China), Zhenlong Zhao (VLIS Lab ZJU), and Chuanjian Wang (Nicescale).
+  * [[ https://lists.hyperledger.org/g/tsc/message/293 | Approved ]] by the TSC on September 8, 2016.

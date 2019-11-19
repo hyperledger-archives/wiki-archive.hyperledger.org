@@ -1,0 +1,40 @@
+==== 2018-12-07 ==== 
+Meeting will be held at [[ https://zoom.us/my/hyperledger.community | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/cello|rocketchat]] (for text chat) at:
+  * 08:30AM   (UTC-4) [UTC -4 is Eastern Daylight Time EDT]
+  * 06:00PM   (UTC+0530)
+  * 08:30PM   (UTC+8)
+
+  * [[ https://jira.hyperledger.org/projects/CE/issues/CE-188?filter=allopenissues | Ongoing Jira task ]] 
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:cello+status:open | Open Patchset for review ]] 
+  * [[ https://wiki.hyperledger.org/projects/cello | Project Wiki Page ]] 
+
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  - Operator & User dashboard database engine changed to parse server (Haitao)
+  - Kubernetes progress (Luke Chen)
+  - [[https://wiki.hyperledger.org/projects/cello/internship-2018|Internship progress]] (shuo)
+  - [[https://jira.hyperledger.org/issues/?filter=12626 | v1.0.0 on going issues ]]
+  - [[https://docs.google.com/document/d/1Dw6cEKaul6FenORNkDcxvPDDKwpl0A5EmcJBlqAWJoU/edit|v1.0.0 governing feature design]]
+  - Should we cancel next week meeting due to the HGF?
+
+=== Attendee ===
+**Please put your name before the meeting.**
+
+11 attendees:
+
+  * Baohua Yang
+  * Haitao Yue
+  * Jiahao Chen
+  * Shuo
+  * rt Xie
+  * tmm
+  * xueying
+  * 
+
+=== Minutes ===
+  * Haitall is refining the database backend
+  * Luke is working on k8s agent and need some persistent storage, will look at minion
+  * Baohua refined the workflow in governing feature spec, and will collect feedbacks of cello in HGF
+  * Shuo is busy with exams, will prepare the code before his vacation

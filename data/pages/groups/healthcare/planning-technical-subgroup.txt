@@ -1,0 +1,267 @@
+===== Technical subgroup planning =====
+  * [[healthcare-sig|Home]] : [[governance|Governance]] : [[planning|Planning]] : [[planning-healthcare-SIG|Healthcare SIG planning]]
+  * [[healthcare-sig|Home]] : [[governance|Governance]] : [[wg-governance-plans|Plans]]
+
+----------
+
+===== Organization assessment =====
+
+==== Linux Foundation ====
+
+  * Independent non-profit
+  * Membership organization
+
+=== Mission ===
+
+{{:groups:healthcare:linux-foundation-mission-strategies.jpg|}}
+
+  * Maintain critical information technology (IT) infrastructure resources
+
+== Key strategies ==
+
+  * Manage technology resources portfolio
+  * Manage project communities
+
+=== Stakeholders ===
+
+{{:groups:healthcare:linux-foundation.jpg|}}
+
+  * Membership : corporate, individual
+  * Sub-foundations
+  * Linux Foundation Project communities
+
+=== Governance ===
+
+{{:groups:healthcare:linux-foundation-governance.jpg|}}
+
+  * Governing board : corporate membership
+  * Technical advisory board
+  * Networking governing board
+  * Project governance
+
+=== Organization services ===
+
+{{:groups:healthcare:software-foundation-services.jpg|}}
+
+  * Portfolio management : programs, organizations, organization units
+  * Organization support services : administrative support
+  * Member services
+  * Marketing services
+  * Community services : community development, management
+
+=== Organization portfolio ===
+
+{{:groups:healthcare:linux-foundation-portfolio-management.jpg|}}
+
+  * Linux Foundation Projects : organizations, programs, projects
+  * Technology, organization resources : open-source software projects
+  * IT infrastructure resources : tools, frameworks, platforms; global public goods
+
+{{:groups:healthcare:linux-foundation-project-services.jpg|}}
+
+=== Key projects ===
+
+{{:groups:healthcare:linux-foundation-key-portfolio-projects.jpg|}}
+
+  * Operating system : Linux
+  * Cloud and container : Cloud Native Computing Foundation, Open Container Initiative, CloudFoundry, Kubernetes
+  * Networking : OpenDaylight, ONAP, Envoy
+  * Security and compliance : Core infrastructure initiative, Civil infrastructure platform
+  * Blockchain : Hyperledger
+
+
+
+----------
+==== Hyperledger project ====
+
+
+=== Stakeholders ===
+{{:groups:healthcare:hyperledger-project.jpg|}}
+
+  * Project communities
+  * Members
+  * Working groups
+  * Special interest groups
+
+=== Membership ===
+
+  * Corporate
+  * Alliances, associations, consortia
+  * Non-profits
+  * Public sector entities
+  * Academic and research
+    
+=== Governance ===
+{{:groups:healthcare:hyperledger-project-governance.jpg|}}
+
+  * Linux Foundation board
+  * Hyperledger governing board
+  * Technical steering committee
+  * End user technical advisory board
+  * Marketing committee
+  * Project governance
+
+== Governance model ==
+
+  * Policies : governance, membership, management policies
+  * Plans : strategic, operational program plans, project plans
+  * Evaluations : quarterly reports
+  * Decisions : governance (board) decisions; committee, team, group (management) decisions
+
+=== Management ===
+
+  * Executive director
+  * Managers
+
+=== Working groups ===
+
+Framework (platform-product), tool development
+
+  * Architecture WG
+  * Identity WG
+  * Interoperability WG ?
+  * Performance and Scale WG
+  * Learning materials development WG
+
+=== Services and activities ===
+{{:groups:healthcare:blockchain-project-services.jpg|}}
+
+  * Governance : organization unit, program, portfolio, project
+  * Organization management : projects, workgroups, services
+  * Project portfolio management
+  * Technical resource development
+  * Community services : events, publications
+  * Marketing services : program, project, product marketing
+  * Member services : relationship management, professional development
+  * Training services : internships
+
+
+=== Project portfolio ===
+{{:groups:healthcare:hyperledger-project-portfolio-management.jpg|}}
+
+  * Project communities : Maintainers, Release managers
+  * Project services
+
+{{:groups:healthcare:hyperledger-project-project-services.jpg|}}
+
+== Project incubation model : Hyperledger labs ==
+{{:groups:healthcare:hyperledger-incubation-lifecycle-model.jpg|}}
+
+  * Project incubation lifecycle model : proposal, incubation, active, first major release, deprecated, end of life
+
+{{:groups:healthcare:hyperledger-incubation-project-portfolio.jpg|}}
+
+== Hyperledger framework project portfolio ==
+
+  * Fabric
+  * Indy
+  * Iroha
+  * Burrow
+  * Sawtooth
+
+Hyperledger technical toolsets portfolio
+
+  * Ursa : cryptography
+  * Caliper : performance
+  * Cello : administration
+  * Explorer : web-based browser
+  * Quilt : interoperability
+    
+{{:groups:healthcare:hyperledger-project-tech-resources-portfolio.jpg|}}
+
+
+=== Hyperledger Special Interest Groups ===
+
+  * Healthcare
+  * Public sector
+  * Social impact
+  * Trade finance
+
+
+
+----------
+==== Hyperledger healthcare SIG ====
+
+
+=== Group stakeholders ===
+
+  * Members
+  * Subgroups
+
+=== Group governance ===
+{{:groups:healthcare:healthcare-sig-governance.jpg|}}
+
+== Governance model ==
+
+  * Mission
+  * Goals
+  * Policies : governance, membership, management policies
+  * Plans : strategic, operational program plans, project plans
+  * Evaluations : quarterly reports
+  * Decisions : SIG officers, membership, subgroup, project team decisions
+
+=== Group management ===
+
+  * SIG officers : chair, vice-chair
+  * Biweekly meetings
+  * Resources : meeting agendas/recordings/minutes, wiki, mailing list, chat, jira, github
+
+=== Subgroups ===
+
+  * Communities of interest : Patient Subgroup, Payor Subgroup
+  * Ad hoc teams
+  * Proposed : Technical subgroup
+
+=== Group Services ===
+{{:groups:healthcare:healthcare-sig-services-model.jpg|}}
+
+  * Community services : communications, surveys; events
+  * Member services : relationship management
+  * Professional development
+  * Domain analysis
+  * Architecture and planning
+  * Project portfolio management
+  * Project incubation services
+  * Knowledge development : publications
+  * Technology resource development : software components, frameworks, products, tools
+  * Marketing services : program, project marketing; solution, product marketing
+  * Training services : internships
+
+=== Collaboration model ===
+{{:groups:healthcare:hyperledger-group-collaboration-model.jpg|}}
+
+  * Shared activities
+
+== Collaboration : Hyperledger WGs ==
+
+  * Domain expertise
+
+== Collaboration : Hyperledger SIGs ==
+
+  * Domain expertise
+
+== Collaboration : Hyperledger projects ==
+
+  * Domain expertise
+  * Product requirements
+  * Verification & Validation
+  * Evaluation
+
+=== Services model ===
+
+  * Service relationships
+
+== Services model : Domain subgroups ===
+{{:groups:healthcare:service-model-domain-subgroups.jpg|}}
+
+== Services model : Technical subgroup ==
+{{:groups:healthcare:service-model-technical-subgroups.jpg|}}
+
+== Project portfolio management ==
+{{:groups:healthcare:healthcare-sig-portfolio-management.jpg|}}
+
+== Project services ==
+{{:groups:healthcare:healthcare-sig-project-services.jpg|}}
+
+== Technology resources development ==
+{{:groups:healthcare:healthcare-sig-tech-resource-development.jpg|}}

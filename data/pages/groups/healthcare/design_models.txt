@@ -1,0 +1,142 @@
+===== Design models =====
+  * [[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]] :  [[technical-solutions|Technical solutions]] : [[human-milk-poc|Human milk POC]]
+  * [[healthcare-wg-wikispace-redesign |Home]] : [[resources|Resources]]
+
+----------
+
+==== Physical & virtual contexts ====
+
+{{ :groups:healthcare:physical-grid-virtual-spaces.jpg }}
+
+
+
+=== Physical hosts and host spaces ===
+
+{{ :groups:healthcare:hosts-spaces.jpg }}
+
+
+
+=== Hosted agents model ===
+
+{{ :groups:healthcare:humans-grid-agents.jpg }}
+
+
+
+=== Peer-agent world state model ===
+
+{{ :groups:healthcare:humans-grid-agents-world-state.jpg }}
+
+
+
+----------
+
+==== Human & peer-agent communication channels ====
+
+{{ :groups:healthcare:humans-channels-agents.jpg }}
+
+
+
+=== Peer communication channels & peer groups ===
+
+{{ :groups:healthcare:peers-channels-groups.jpg }}
+
+
+
+=== Peer organizations & peer groups ===
+
+{{ :groups:healthcare:peers-organizations-channels-groups.jpg }}
+
+
+
+----------
+
+==== Agent roles & groups ====
+
+{{ :groups:healthcare:agents-groups-roles.jpg }}
+
+
+
+----------
+
+==== Peer ledgers & world state model ====
+
+{{ :groups:healthcare:peer-ledgers-world-state.jpg }}
+
+
+
+----------
+
+==== Actor-peer interaction & control ====
+
+
+=== Actor-peer parallel activity model ===
+
+{{ :groups:healthcare:actors-interact-peers-control.jpg }}
+
+
+=== Actor interaction space ===
+
+{{ :groups:healthcare:actors-interact-space.jpg? }}
+
+
+=== Actor-peer interaction & control space ===
+
+{{ :groups:healthcare:actors-interact-peers-control-space.jpg }}
+
+
+
+=== Actor-peer interaction & control policies ===
+
+{{ :groups:healthcare:actors-interact-peers-control-policies.jpg }}
+
+
+
+=== Actor-peer interaction & control : world state model ===
+
+{{ :groups:healthcare:actors-interact-peers-control-world-state-model.jpg }}
+
+
+
+=== Actor-peer interaction & control : donor milk ===
+
+{{ :groups:healthcare:actors-interact-peers-control-donate-milk-use-case.jpg }}
+
+
+
+----------
+
+==== Activity state control model ====
+
+{{ :groups:healthcare:activity-state-control-model.jpg }}
+
+
+
+=== Activity control policy enforcement ===
+
+{{ :groups:healthcare:controllers-policy-enforcement.jpg }}
+
+
+
+----------
+
+==== Peer control flow model ====
+
+{{ :groups:healthcare:peers-control-flow-endorse-order-validate.jpg }}
+
+
+
+----------
+
+==== Activity metrics ====
+
+{{ :groups:healthcare:activity-metrics.jpg }}
+
+
+
+----------
+
+==== Administer peers ====
+
+{{ :groups:healthcare:administer.jpg }}
+
+

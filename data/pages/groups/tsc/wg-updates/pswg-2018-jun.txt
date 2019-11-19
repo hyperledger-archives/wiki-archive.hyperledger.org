@@ -1,0 +1,37 @@
+====== Hyperledger Working Group Update ======
+
+===== Working Group =====
+
+Performance and Scalability Working Group (PSWG)
+
+===== Working Group Health =====
+The PSWG is making good progress on a [[https://docs.google.com/document/d/1DQ6PqoeIH0pCNJSEYiw7JVbExDvWh_ZRVhWkuioG4k0/edit?usp=sharing|Metrics Document]]. This provides common definitions for the measurements, etc for many types of DLTs. Given the wide range of implementations, this can sometimes be a bit challenging.
+
+The group has maintained a core of 8 -12 regular participants spread across the globe and across many companies and academia. The discussions remain very technical and perhaps we get too deep. We continue to reach outside of the Hyperledger community and have regular contributions and feedback on our work from this population. 
+
+We need to start wrapping up this document and are exploring bringing things "up" a level in terms of technical depth. Given the wide range of DLT architectures, its hard to come up with a very technical definition that works in all cases. 
+
+The team will start moving towards a model of "rough consensus" on the work unless it is clear that something technically inaccurate.  
+
+
+===== Issues =====
+There are no major issues at this time. 
+
+Progress is slower than expected but I think we have addressed that above. 
+
+===== Overall Activity in the Past Quarter =====
+
+The mailing list and chat channels are not that active. We tend to work outside of the meetings and then discuss during our calls. We moved to weekly calls in order to speed things up.
+
+At this time we are trying to wrap up the Metrics Document.
+
+===== Planned Work Products =====
+
+We need to wrap up the metrics document in the next few months. 
+
+===== Participant Diversity =====
+This is a very active and diverse group of people. The group is growing and we are gaining more regular attendees. As mentioned above, we have a good mix of companies and folks from academia. 
+
+
+===== Additional Information =====
+

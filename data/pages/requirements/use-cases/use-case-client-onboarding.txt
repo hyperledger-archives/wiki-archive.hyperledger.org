@@ -1,0 +1,63 @@
+====== Client Onboarding of a Buy-Side Fund by a Broker/Dealer ======
+
+===== Section 1 - Intro =====
+
+==== Business Problem / Opportunity ====
+
+When a mutual fund or pension fund wants to buy or sell stocks, bonds or options, they will typically conduct the transactions through a broker/dealer. Before the fund can start trading through the broker/dealer, they need to establish a formal, legally-recognized business relationship.
+
+The process for establishing this relationship is known as, "Client Onboarding." It is a complex, heavily regulated, costly, risky and manually intensive process. Participants, the industry and the general public could benefit from faster, more automated and more certain boostrapping of these formal trading relationships.
+
+==== Current Solution ====
+
+The current approach to client onboarding of funds by broker/dealers typically involves a combination of processes, data and documents spread out across multiple departments, systems and firms. For example:
+
+  *  Sales & Trading
+  *  New Business
+  *  Know-Your-Customer (KYC) / Anti-Money Laundering (AML) / Office of Foreign Assets Control (OFAC)'s list of Specially Designated Nationals and Blocked Persons
+  *  Account Opening
+  *  Risk
+  *  Legal
+  *  Operations
+  *  Collateral Management
+
+==== Why a Blockchain? ====
+
+Blockchains could be applied in several different areas to improve client onboarding. For example:
+
+  *  Legal Entity Identifier - Provide an internal and external mechanism to record and lookup unique identifiers for parties to the transactions
+  *  AML/KYC/OFAC - Transition OFAC list from a list of textual aliases to governement-issued PKI identifiers for certainty of either whitelist or blacklist lookup and provide non-reputiatable mechanism that check was made and when and by whom
+  *  New Business Committee - Provide non-repudiatable, immuttable record for audit and regulatory purposes of who signed off based upon what documentation for establishing the relationships
+  *  Legal - Provide a formal, networked mechanism for e-signatures among counterparties, for signing authority attestation and for document transmission and formal legal notices
+  *  Ready-to-trade - Provide clear, formal, auditable internal and external mechanism to signal formal readiness for trading to begin
+
+==== User Stories ====
+
+TBD
+
+==== Opportunity/Justification ====
+
+TBD
+
+----
+
+===== Section 2 - States and Transactions =====
+
+TBD
+
+----
+
+===== Section 3 - Requirements =====
+
+TBD
+
+----
+
+
+==== External References ====
+
+TBD
+
+==== Glossary/Appendices ====
+
+----

@@ -1,0 +1,29 @@
+====== Hyperledger Working Group Update ======
+
+===== Working Group =====
+//**Required** Specify the working group that this report covers//
+
+===== Working Group Health =====
+//**Required** Sum up the status and health of your working group and the community in a few sentences. Consider this the TL;DR for the rest of the report. How is your working group doing health-wise? Are work products being created? Are there new contributors/participants showing up?//
+
+
+===== Issues =====
+//**Required** If there are any specific issues that the TSC should be aware of or specifically address, then please call them out. If not, then it is helpful to state something like: "There are no issues at this time." When in doubt, it is better to include information, concerns, or questions, rather than waiting.//
+
+
+===== Overall Activity in the Past Quarter =====
+//**Required** Discuss briefly how active the working group mailing lists and chat channels are. Are there regular meetings being held? What work products are being worked on? Reports should list the work products created since your last report, along with the creation date of each. Conversely, if activity is minimal, discuss how the working group plans to address that - whether through seeking out new contributors/participants/leaders or planning towards a move to an End of Life state.//
+
+
+===== Planned Work Products =====
+//**Required**: What deliverables will you be working on in the upcoming quarter?//
+
+
+===== Participant Diversity =====
+//**Required** A healthy working group should survive the departure of any single participant. Is the working group growing/shrinking?//
+
+
+===== Additional Information =====
+//**Optional** Please provide any additional information that you feel would be useful for TSC to be aware.//
+
+ 

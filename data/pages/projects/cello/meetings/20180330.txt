@@ -1,0 +1,41 @@
+==== 2018-03-30 ==== 
+
+Meeting will be held at [[ https://zoom.us/j/519936723 | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/cello|rocketchat]] (for text chat) at:
+
+  * 08:30AM   (UTC-4)
+  * 06:00PM   (UTC+0530)
+  * 08:30PM   (UTC+8)
+
+  * [[https://jira.hyperledger.org/projects/CE/issues/CE-188?filter=allopenissues | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:cello+status:open | Open Patchset for review]]
+  * [[https://wiki.hyperledger.org/projects/cello | Project Wiki Page]]
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  - Version [[https://gerrit.hyperledger.org/r/#/c/19857/ | 0.8.0]] released.
+  - Discuss features in the next release.
+    - Refine operator & user dashboard?
+    - Support chain deployed in kubernetes engine?
+  - Other issues
+    - Feel free to add here.
+  
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Haitao Yue
+  * Luke chen
+  * Jiang Lu
+  * Baohua Yang
+  * Yunhao
+  * Amit
+
+
+=== Minutes ===
+  - Need study more about auto build in docker hub, for simplify the auto build.
+  - Feature in next release.
+    - Refine operator & user dashboard with react, and remove unused theme for operator dashboard.
+    - Support kubernetes engine will be submitted soon.
+  - Other issues
+    - Jiang Lu will create the private channel for publish tutorial video temporary.

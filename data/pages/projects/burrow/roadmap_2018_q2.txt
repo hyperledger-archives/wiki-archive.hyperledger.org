@@ -1,0 +1,22 @@
+====== Q2 2018 Burrow Roadmap ======
+//**Author: Silas Davis, 7 March 2018**//
+
+Currently this is a draft.
+
+===== Roadmap =====
+^ Work item ^ Effort (1, 2, 3, 5, 8, 13) ^ Priority  ^
+| [[https://github.com/hyperledger/burrow/issues/674|EVM compatibility]] | 5 | High |
+| Implement prototype web3 API  | 8 | Medium |
+| Co-located transaction signing (send address) | 5 | High |
+| Add (self-hosted) monax-keys functionality to Burrow | 8 | Medium |
+| Merkle tree replacement | 5 | High |
+| Queryable complete state history (per block, possibly call frame) | 13 | Medium |
+| State save/restore | 8 | High |
+| Forkable state channels | 13 | Low |
+| Provide event firehose | 3 | Medium |
+| Historic queryable | 8 | Medium |
+| Reintroduce validator bonding | 5 | High |
+| Add governance Tx for redistributing voting power and value | 13 | High |
+| Provide trial HSM integaration | 5 | Low |
+| Reintroduce secp256k1 keys & ECRECOVER | 5 | Medium |
+| Parallel EVM execution | 13 | Low |

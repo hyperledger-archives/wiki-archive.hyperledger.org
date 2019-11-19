@@ -1,0 +1,81 @@
+===== TWG China Meeting =====
+
+==== Date ====
+10AM ~ 11AM, 2017-10-11, GMT+8
+
+Join [[https://www.uberconference.com/hyperledger-community | uberconference]]:
+  * Option 1: Use the **My Computer** audio to connect in (Recommend using microphone and headset)
+  * Option 2: Dial in using the phone number at the website, e.g., +1 480-757-9435 (No local number support now)
+
+[[https://drive.google.com/drive/folders/0B_NJV6eJXAA1R04zZ05FdE9WVGM | Audio record]]
+
+==== Attendee ====
+
+**Pls add ur name here before the meeting.**
+
+  * Baohua Yang
+  * Zhangjiong Xuan
+  * Scott Long
+  * Zhong Tian
+  * Haixu Cheng
+  * Jay Guo
+  * Linsheng Yu
+  * Sheng Huang
+
+
+==== Agenda ====
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - [[https://docs.google.com/document/d/1KVrakb2JsqgMo2aG-QIYl743VHsU9NWYKxy7n-WeXv4/edit | [HIP] Hyperledger Quilt]]
+    - [[https://docs.google.com/document/d/1n8gxFOmYxvEI4tHVvp2GtHstMncgIDAT6c3cAu1HcBA | [HIP] Chaincode Designer]]
+    - [[https://wiki.hyperledger.org/groups/tsc/project-updates/template.txt| Project Reporting Template]]
+    - [[https://docs.google.com/document/d/1V2X9A2yTdHNbI1v3itspjisWashMOabHXWbxMEZFs90| Training Working Group]]
+    - New HL members: Baidu (premier), Cognition Foundry, Xiaomi
+  - [[groups/twgc/team_di | Team development and Innovation]] (Yaoguo Jiang, Zhangjiong Xuan)
+    - Code development on projects
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Linsheng Yu, Jiannan Guo)
+    - Zanata evaluation result.
+    - Demo the entire process?
+    - **TODO: Linsheng and Jiannan will help send out the usage link to maillist**
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin, Haixu Cheng)
+    - Welcome companies to share usage cases at [[https://wiki.hyperledger.org/groups/twgc/team_cs|case collection ]]
+    - **TODO: Haixu's feedback from TsingDao conf**
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Zhou Xing and Zhoudong Ji)
+    - **Call for sponsors of October and November Meetups.**
+    - Call for HL member news, will select to publish through official wechat channel. Feel free to contact TWGC.
+  - other issues
+    - [[https://docs.google.com/document/d/1ukZFkP11qF56vt-WmLsGI5BTex2wOOSl8-Ecp0Y8yOc/edit?usp=sharing | Fabric crypto technical report]] for CCSC (Zhenhua Dong), welcome for review and comments.
+    - [[https://jira.hyperledger.org/browse/FAB-5496 | SM2 support]] by  Zhenhua Dong
+    - [[https://jira.hyperledger.org/browse/FAB-6263 | MongoDB support]] by  huiq li (oxchain)
+    - Others?
+
+
+==== Minutes ====
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - [[https://docs.google.com/document/d/1KVrakb2JsqgMo2aG-QIYl743VHsU9NWYKxy7n-WeXv4/edit | [HIP] Hyperledger Quilt]]
+    - [[https://docs.google.com/document/d/1n8gxFOmYxvEI4tHVvp2GtHstMncgIDAT6c3cAu1HcBA | [HIP] Chaincode Designer]]
+    - [[https://wiki.hyperledger.org/groups/tsc/project-updates/template.txt| Project Reporting Template]]
+    - [[https://docs.google.com/document/d/1V2X9A2yTdHNbI1v3itspjisWashMOabHXWbxMEZFs90| Training Working Group]]
+    - New HL members: Baidu (premier), Cognition Foundry, Xiaomi
+      - Waiting for official statement
+  - [[groups/twgc/team_di | Team development and Innovation]] (Yaoguo Jiang, Zhangjiong Xuan)
+    - Code development on projects
+    - Jay: sdk need to handle multi-orderers polling
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Linsheng Yu, Jiannan Guo)
+    - Zanata evaluation result.
+    - Demo the entire process?
+    - **TODO: Linsheng and Jiannan will help send out the usage link to maillist**
+    - Zhong suggests: Can start to draft a working process proposal
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin, Haixu Cheng)
+    - Welcome companies to share usage cases at [[https://wiki.hyperledger.org/groups/twgc/team_cs|case collection]]
+    - Haixu and Scott's feedback from TsingDao conf: many companies feel interested with HL.
+    - TODO: more feedback for TsingDao Conf.
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Zhou Xing and Zhoudong Ji)
+    - **Call for sponsors of October and November Meetups, pls add in the [[groups/twgc/team_eo | Event Organization]] page.**
+    - Sheng: Fudan Univ. can offer regular meetup place at Shanghai
+    - Jay: Confirming regular meetup place at Beijing
+    - Call for HL member news, will select to publish through official wechat channel. Feel free to contact TWGC.
+  - other issues
+    - [[https://docs.google.com/document/d/1ukZFkP11qF56vt-WmLsGI5BTex2wOOSl8-Ecp0Y8yOc/edit?usp=sharing | Fabric crypto technical report]] for CCSC (Zhenhua Dong), welcome for review and comments.
+    - [[https://jira.hyperledger.org/browse/FAB-5496 | SM2 support]] by  Zhenhua Dong
+    - [[https://jira.hyperledger.org/browse/FAB-6263 | MongoDB support]] by  huiq li (oxchain)
+    - Others?

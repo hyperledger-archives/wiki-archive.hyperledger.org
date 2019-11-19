@@ -1,0 +1,18 @@
+In attendance: Hart, Mic, Ram, David. Regrets: Tamas, Murali, Renat, Nic, Stefan
+
+Reviewed and agreed last week's minutes
+
+Reflecting on the broad range of feedback received during the TSC whitepaper walk through we explored the following questions:
+  * Unordered List ItemWho is the audience we are writing to?
+  * What are the objectives of the whitepaper?
+  * Is the whitepaper the medium for detailing and solidifying our new vision of the HLP as an umbrella organization for multiple blockchain projects?
+  * How do we best reconcile the new umbrella organization vision with the original objective of establishing standards that enable distributed application developers to develop their applications for the broadest customer base? Are we trying to prevent fragmentation or are we embracing it?
+  * What are the next steps we need to take to move this paper forward?
+
+Proposal: allocate time during the next TSC to propose and vote on acceptance on a short list of objectives for the whitepaper:
+  * Call for action to back and drive the HLP as the preeminent means for advancing distributed ledger technologies
+  * Capture the concepts of the 'Umbrella organization' and clarify
+  * Establish a common vocabulary for discussing technology and usages
+  * Establish a future vision of HLP... where do we see HLP 1, 2, 4 years from now
+
+Let's get Brian and Richard to attend our next working group in preparation for soliciting additional feedback from the TSC on moving the paper forward.

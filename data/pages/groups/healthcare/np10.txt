@@ -1,0 +1,34 @@
+Hyperledger Project\\
+Healthcare Working Group (HCWG) Payer Subgroup Meeting\\
+July 31, 2018 \\
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+Reminders\\
+     *Please make sure you review Linux Foundation’s Anti-Trust Policy - Linux Foundation's Anti-trust requirements.
+     *Please include #payer-subgroup tag in your emails to the mailing lists for communication\\
+     *Next Meeting - Tuesday August 13, 2018 at 3:00 PM EST – Payer Subgroup Meeting and will be chaired by Steven since I cannot make it.\\
+
+What was discussed in last two meetings\\
+     *Thanks for Steven to cover the first use case. Attached is the document what was covered and below are some questions that came up to think through [[https://docs.google.com/document/d/1LZJhbhDCqwkPssmKzBrdpoRPEhTsqzxZ13NYfdoMTYc/edit?usp=sharing|VA Payer Use Case]]
+          *How to manage the referrals if the referral is for a group just in the VA use case– can that relate to double spend?\\
+          *How can we relate waste and abuse with the double spend?\\
+          *How do we manage the data - what is not on the chain – In this case what should be on chain and off chain?\\
+          *How are we going to handle format changes like 4010 – 5010 etc.\\
+          *Digital ID – How to we address this for each member\\
+          *Sub Use cases\\
+               *Orchestrating the work load\\
+               *Verifying the services was performed before payment\\
+               *Authentication and Authorization for parties that are participating\\
+     *Team brainstormed on what is right for blockchain implementation and Jeff reviewed a flow chart that facilitates the decision. Jeff – can you please send the document that you were sharing the other day.\\
+     *Group discussed an opportunity to go deeper into one use case and agreed to start with Pre-Auth use case\\
+          *Everyone felt it would be worthwhile to take this discussion to next level.\\
+  

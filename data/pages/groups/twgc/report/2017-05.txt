@@ -1,0 +1,21 @@
+==== TWG China Report for May 2017 ====
+
+=== Status ===
+  - Team: The team has collaborated in development, adoption cases, i18n, event organization and other works. 
+  - Meeting: 1 meeting was held with active discussions (with new joiners and LF experts). All minutes can be found on the [[ groups/twgc/meetings | wiki]].
+  - Collaboration and Scenarios
+    - The team has collected local adoption cases of Hyperledger techniques and shared on [[groups/twgc/team_cs | wiki]]. Now is working on sharing on more community channels like maillist and wechat public account.
+  - Technical Development
+    - New developers are joining, see [[groups/twgc/team_di | development page]].
+    - Technical Communication: active discussions happen in the rocket chat channel/maillist. 
+  - i18n and education work
+    - 10+ volunteers on i18n. 
+    - 11 design documentation are done and put on [[groups/twgc/team_ie | wiki]]. Now will do the review work and update following the newer version.
+    - Education/training documentation have been collected.
+  - Event organization
+    - Promote the linuxcon&hackfest in channels.
+    - We are organizing a technical workshop before the hackfest as warmup, targetting 50-60 people with hands-on seminars.
+
+=== Issues ===
+  - Meeting platform: Need global/local access number + screen sharing
+  - i18n work: Need the TSC help create the doc code repo and setup the readthedoc repo for various languages.

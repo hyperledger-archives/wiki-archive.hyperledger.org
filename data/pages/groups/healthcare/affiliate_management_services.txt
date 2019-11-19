@@ -1,0 +1,8 @@
+===== Affiliate management services =====
+  * [[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]] : [[analysis-business|Domain analysis]] : [[analysis-human-milk|Human milk services]]
+  * [[healthcare-wg-wikispace-redesign |Home]] : [[resources|Resources]] : [[analytical_models|Analytical models]] : [[human_milk_services_model|Human milk services model]]
+
+----------
+
+=== Milk bank management services : Affiliate management services ===
+{{ :groups:healthcare:human_milk_services_-_affiliate_management_services.jpg }}

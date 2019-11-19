@@ -1,0 +1,19 @@
+=====Hyperledger Shanghai Meetup=====
+
+[[ https://wiki.hyperledger.org/groups/twgc/events/guideline | Meetup Event guideline]]
+
+====时间====
+Nov 17, 2018
+
+====地点====
+复旦大学 （具体教室待定）
+
+====承办方====
+物数科技
+
+====演讲题目====
+  * 工业互联网联盟 工业区块链组和可信区块链联盟工业应用组POV 黄胜
+  * fabric 1.3 new feature 赵超毅
+  * fabric order service deep dive 郭剑南
+  * how to contribute to Hyperledger
+

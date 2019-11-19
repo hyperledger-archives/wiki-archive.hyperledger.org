@@ -1,0 +1,38 @@
+==== 2018-10-18 ==== 
+
+Meeting will be held at [[ https://zoom.us/my/hyperledger.community | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/fabric-sdk-py|rocketchat]] (for text chat) at:
+
+  * 11:00AM   (UTC-2)
+  * 02:00PM   (UTC+1)
+  * 06:30PM   (UTC+0530)
+  * 09:00PM   (UTC+8)
+
+  * [[https://jira.hyperledger.org/browse/FAB-4623?jql=project%20%3D%20FAB%20AND%20status%20in%20(%22In%20Progress%22%2C%20%22To%20Do%22)%20AND%20component%20%3D%20fabric-sdk-py | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+status:open | Open Patchset for review]]
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]]
+
+    
+=== Agenda ===
+Feel free to update before the meeting.
+
+  * fabric v1.3.0 support progress
+  * problems with updating to fabric v1.3.0
+      * connection error
+      * configtx update
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+  * Baohua Yang
+  * Dixing Xu
+
+=== Minutes ===
+ 
+  * By default, we are enabling TLS, but this should be OK without TLS;
+  * For the integration test, we can use solo;
+  * Steps to update to fabric v1.3.0:
+      * config.yaml --> crypto-config/: identity and credential;
+      * configtx.yaml --> channel-artifacts: genesis block, tx files;
+      * Update images versions in docker-compose file;
+      * Update network.json;
+      * Protobuf files re-generation;
+      * Test step by step following tutorial.

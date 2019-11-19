@@ -1,0 +1,7 @@
+# Whitepaper WG Status 2016 Jun 01
+
+* Majority of the meeting was spent discussing RGB's thoughtful feedback. We noted that Richard had grabbed a version of draft v.01 before we updated remainder of the OBC diagrams which led to some of the comments.
+* We agreed to request updates to the hyperledger.org site to make the links to the whitepaper and feedback more visable.
+* We discussed mechanisms to make feedback visible to the community (but ran out of time).
+
+

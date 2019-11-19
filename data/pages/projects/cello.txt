@@ -1,0 +1,107 @@
+====== Cello ======
+{{ :projects:hyperledger_cello_logo_color.png?direct&300|}}
+
+[[/projects/cello/faq | FAQ]] and [[/projects/cello/feedback | Feedback]].
+
+===== Status =====
+
+This project is in [[ /community:project-lifecycle#incubation | Incubation ]].
+
+===== Description =====
+
+Cello helps mitigate the operation and management cost for blockchain users/app developers. It also provides Blockchain as a Service. [[ http://cello.readthedocs.io/en/latest/tutorial/ | Getting started Quickly]]. And it's written in Python!!
+
+Key Characteristics include:
+
+  * Deploy, manage and operate blockchains efficiently and automatically. 
+  * Support blockchain platforms like Fabric. 
+  * Support various infrastructures like baremetal, vm platform, and container cloud (e.g., Swarm, Kubernetes).
+  * Support advanced operational analytics for the system status and ledger behaviors, see [[ https://wiki.hyperledger.org/projects/cello-analytics | Cello-analytics]].
+
+===== Documentation =====
+
+Wanna know where to start? Take a look at the [[ https://cello.readthedocs.io | Main Documentation ]] or [[ http://cello.readthedocs.io/en/latest/CONTRIBUTING | How to Contribute ]].
+
+  - [[https://docs.google.com/document/d/1SRS8A6l-Wf64qVVoPkLuyOlPbZd5CckG-nGxHVnK6SM/edit#heading=h.1mpkkk5bshe1|Blockchain Provision and Operation with Cello]]
+  - [[https://docs.google.com/document/d/1V1-gB-DIgF96gpfysdx-3jdD3_LowJU9vGp8amQLLgA/edit#heading=h.usox65z7llw1|Cello RESTful API Design]]
+  - [[https://docs.google.com/presentation/d/1sq4hnTRpH9qaPJe96f6Egx9LclbCC5KcQjnBmv2LO68| Cello Overview, Architecture and Roadmap]], updated at Oct 2018
+  - [[https://docs.google.com/document/d/19Ezh2bakm-drWFbiwwH0LLZz5f1Wi70QFPHWCVQgAeA/edit#heading=h.12ig4t86qn37 | Support vSphere agent on Cello]]
+  - [[https://docs.google.com/document/d/1jfA2FoU6C5XRCWT6hasxOFr4FGaxdf-nqIgVnyXA_-0/edit | Dynamic Generation of Crypto Material for Docker Agent]]
+  - [[https://docs.google.com/document/d/1HfaWl8jXH75wua-hZCXgrpS-AQlYtTqSwlII1_1pi4s/edit | Enterprise BaaS based on Hyperledger Cello]]
+  - [[ https://drive.google.com/file/d/1ufLXf8EVZyps1w5lWu_ua-aXwKJqi3vQ/view?usp=sharing  | User guide of Kubernetes agent]]
+  - [[https://docs.google.com/document/d/1Dw6cEKaul6FenORNkDcxvPDDKwpl0A5EmcJBlqAWJoU/|Blockchain Consortium Governing with Cello]]
+
+===== Tutorial Videos =====
+  - [[ https://youtu.be/LVGW1fuZ98c | Quick Start ]]
+  - [[ https://youtu.be/3v_H9-JlBLw | New version cello tutorial for v0.9 release ]]
+
+===== Project Management =====
+
+Feel free to report a bug, make a fix or know what happens now at the [[ https://jira.hyperledger.org/projects/CE/issues | Jira Board]].
+
+The main repository is at [[ https://gerrit.hyperledger.org/r/#/admin/projects/cello | Gerrit ]], while we have mirrored read-only repository at [[ https://github.com/hyperledger/cello | Github ]]. You can also find the [[ https://gerrit.hyperledger.org/r/#/q/project:cello | Development History]].
+
+===== Communication =====
+
+==== Rocket Chat ====
+Feel free to ask questions at the [[ https://chat.hyperledger.org/channel/cello | Rocket Channel]].
+
+==== Email ====
+
+Wanna send an Email?  [[ https://lists.hyperledger.org/g/cello | Subscribe ]] to the maillist, and send email to [[ mailto:cello@lists.hyperledger.org | cello@lists.hyperledger.org ]]. You can also find the [[https://lists.hyperledger.org/g/cello/messages | Discussion History ]].
+
+==== Meeting ====
+
+12:30--13:00 UTC every Friday: 
+[[https://zoom.us/my/hyperledger.community | Zoom]]. 
+[[https://calendar.google.com/calendar/embed?src=linuxfoundation.org_nf9u64g9k9rvd9f8vp4vur23b0%40group.calendar.google.com&ctz=Asia%2FShanghai|Calendar]][[https://drive.google.com/drive/u/0/folders/14mgYTpz2wIuNUdwAcKJKwnpHWKQvJu7g | Meeting Records]]
+[[ /projects/cello/meetings | Meeting Minutes ]]
+
+
+===== Developers =====
+
+New developers are welcome, feel free to contact us to join. [[https://github.com/hyperledger/cello/blob/master/docs/CONTRIBUTING.md | How to contribute ]].
+[[https://github.com/hyperledger/cello/graphs/contributors|Contribution Statistics]]
+
+
+^ Name                  ^ LF ID           ^ Email                        ^ Orgnization             ^
+| Baohua Yang           | baohua          | yangbaohua@gmail.com         | Oracle                  |
+| Haitao Yue            | hightall        | hightallyht@gmail.com        | IBM                     |
+| Tong Li               | tongliofcary    | litong01@us.ibm.com          | IBM                     |
+| Jiang Lu              | sallymilu       | lujjiang@cn.ibm.com          | IBM                     |
+| Makoto Takemiya       |                 | takemiya@soramitsu.co.jp     | Soramitsu               |
+| Ryan Beck-Buysse      |                 | ryanx.beck-buysse@intel.com  | Intel                   |
+| Kai Chen              | grapebaba       | 281165273@qq.com             | IBM                     |
+| Feihu Jiang           | flyingtiger     | jiangfeihu@huawei.com        | Huawei                  |
+| Zhipeng Huang         | zhipengh        | huangzhipeng@huawei.com      | Huawei                  |
+| Jia He Fan            | wonderfan       | fanjiahe2000@126.com         | IBM                     |
+| Mike Zaccardo         | mikezaccardo    | mikez@cloudsoft.io           | Cloudsoft               |
+| Andrew Kennedy        | grkvlt          | andrew@cloudsoft.io          | Cloudsoft               |
+| Chang Chen            | lafenicecc      | ccchenbj@cn.ibm.com          | Ziggurat                |
+| Xucheng Li            | lixucheng       | lixucheng@aliyun.com         | IBM                     |
+| Nikhil Chawla         | chawlanikhil24  | chawlanikhil24@gmail.com     | TLF                     |
+| Qiang Wang            | qiang0723       | wqiang0723@gmail.com         | Ziggurat                |
+| Chaoran Li            | waaagh          | pkwarcraft@gmail.com         | Independent             |
+| Amit Kumar Gupta      | eramitg         | amit.gupta@sai-infratel.com  | Sai Infratel Pvt. Ltd.  |
+| Nishanth Kumar Pathi  | nishanthkp      | pathinishanth@gmail.com      | Independent Consultant  |
+| Shuo Wang             | ShuoWang        | shuo.wang94@gmail.com        | Intern in Hyperledger   |
+
+===== Adoptions =====
+
+Adoption cases are welcome to share, free free to update if you are using the project.
+
+^ Organization ^ Since When ^ Project & Usage  ^ Contact Info ^ Project ^
+| IBM Research| May, 2016 | Cloud, fabric cluster management | https://ptopenlab.com/cloudlabconsole/ | [[https://crl.ptopenlab.com:8800/bc/|SV BaaS]] |
+| Cloudsoft | March, 2017 | Cloud, fabric cluster management | hyperledger@cloudsoft.io | [[https://github.com/cloudsoft/brooklyn-cello|Project]] |
+| Midea | March, 2017 | fabric cluster management | xing1.liu@midea.com | [[http://jr.midea.com|Website]] |
+
+
+===== History =====
+
+  * [[ https://docs.google.com/document/d/1E2i5GRqWsIag7KTxjQ_jQdDiWcuikv3KqXeuw7NaceM | Proposed and sponsored ]] by Baohua Yang (IBM Research), Haitao Yue (IBM Research), Makoto Takemiya (Soramitsu), Zhipeng Huang (Huawei), and Ryan Beck-Buysse (Intel) 
+  * [[ https://lists.hyperledger.org/g/tsc/message/536| Approved by the TSC on Jan 5, 2017 ]]
+
+===== Related Links =====
+
+  * [[ https://google.github.io/styleguide/pyguide.html#Comments | Python Style Guide from Google ]]
+  * [[ http://blog.cello.ink | Cello Blog ]]

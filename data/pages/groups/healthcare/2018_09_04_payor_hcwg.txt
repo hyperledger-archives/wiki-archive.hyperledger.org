@@ -1,0 +1,48 @@
+Hyperledger Project\\
+Healthcare Working Group (HCWG) Payor Subgroup Meeting\\
+September 4, 2018 \\
+
+Resources:\\
+Chat:  ​https://chat.hyperledger.org/​channel/​healthcare-wg  ​(you can use your LFID to login)\\
+Github:  ​https://github.com/​hyperledger \\
+Wiki:  https://wiki.hyperledger.org \\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org \\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy 
+
+What are the key elements that can leverage blockchain and what problem would it solve to do that?
+*Segment 1: gathering the health records - other working group
+*Segment 2: once pre auth request submitted, there’s a lot of opportunity for harmonization of processes / improvement opportunities
+*Segment 3: One authorization has been obtained, smart contracts can be used for quick payments in conformance of authorization
+
+I'm a provider and I want to ask permission to do X
+     *Challenge, the authorization is dumb to begin with, the authorization is different data than the claim
+     *Member / payor / who did it? / what was it? / why did you do it? 
+     *We’ve made two loops that are slightly different than each other, but if I was going to try to make something different, the first time I send that info, why do I have to have two different transactions? 
+
+Shared data set, send data once, remove resubmission process 
+
+Contracts built, automatic payments, additional function to say pre auth is flipping to a claim
+
+Baby steps - visibility across the steps
+
+Smart contract based on the insurance product, 
+
+Coordination of benefits - more than one insurance - need a better way to coordinate among payors
+
+Problem of provider data, insurance companies have to keep track of providers, only good information 65% of the time. Need a blockchain phone book of doctors?
+
+Pre auth owned by the patient, they know what each provider costs, out of network provider could validate the pre auth, allows patient to move around easier, prevent medical fraud, blockchain used to mark each transaction, evidence a procedure has been done
+
+Fraud waste & abuse use case would interest any payor
+     *Can we do a checklist to see what hyperledger would actually provide as a solution, would it make business sense or not?
+     *Asset that lives and is visible, patient gets push notification, did you get shoulder surgery, digital signature, claim paid
+
+Is the goal to create a tool that can propel use cases forward?
+
+Next week - come back and discuss out of these use cases, what is a feasible piece of sub use case where we can start building some framework around it
+
+Go through workflow process, break down the transaction, what might the asset look like?

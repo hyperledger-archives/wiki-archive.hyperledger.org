@@ -1,0 +1,80 @@
+====== Technical Working Group China（超级账本中国技术工作组） ======
+
+Initial charter and members are approved by the Technical Steering Committee on [[https://lists.hyperledger.org/g/tsc/message/505| 2016/12/01]]. More details, please see the [[https://docs.google.com/document/d/1sXVltDZxnlB5Srd1A-EW0jtTz7P2cDLG8JmgaAYvMzU | group charter]].
+
+
+===== 1. Governance =====
+
+==== Committee Board ====
+
+^ Name               ^ Organization  ^ Email                     ^ Location  ^ Rocket.Chat ID  ^
+| 杨保华(Baohua Yang)   | Oracle        | yangbaohua@gmail.com      | Beijing   | @baohua         |
+| 郭剑南(Jay Guo)       | IBM           | guojiannan1101@gmail.com  | Beijing   | @guoger         |
+| 赵振华(Zhenhua Zhao)  | IBM           | zhao.zhenhua@gmail.com    | Shenzhen  | @zRich          |
+
+
+
+==== Active Members/Volunteers ====
+If you are willing to make continuous contributions in TWGC, e.g., driving meetings and plans, helping new developers, organizing events, promoting Hyperledger technologies, contributing code & documentations... Feel free to do self-nomination in the [[twg-china@lists.hyperledger.org|mail-list]]. If keeping inactive for 3+ months (e.g., not show up in meetings/events), will consider to retire. It is possible to become active again via the nomination process.
+
+^ Name             ^ Organization            ^ Email                         ^ Location  ^ Rocket.Chat ID  ^
+| Yaoguo Jiang     | Huawei                  | jiangyaoguo@huawei.com        | Nanjing   |                 |
+| Yin Cao          | Energy-Blockchain Labs  | caoyin@energy-blockchain.com  | Shanghai  |                 |
+| Lidong Guo       | ChainNova               | guolidong@chainnova.com       | Beijing   |                 |
+| Zhangjiong Xuan  | Hyperchain              | xuanzhangjiong@hyperchain.cn  | Hangzhou  | @TopJohn        |
+| Sheng Huang      | UMARK                   | huangsheng@umarkcloud.com     | Shanghai  |                 |
+| David Liu        | Mediconcen              | david-khala@hotmail.com       | Hongkong  | @davidkhala     |
+
+
+
+
+
+And appreciate the great contributions by those [[groups/twgc/retired_member|retired members]] in past.
+
+Three liaisons are appointed by Linux foundation to help the work, including [[ dliu@linuxfoundation.org | Donald Liu(廖享德) ]], [[ myu@linuxfoundation.org | Min Yu(余敏) ]] and [[ slong@linuxfoundation.org | Scott Long(龙文选) ]].
+
+===== 2. Meetings =====
+
+Meetings are open to access, welcome anyone to join. 
+{{:groups:twgc:twg-china_biweekly_invite.ics|Calendar file}}.
+
+<WRAP center round box 75%>
+  * **Time**: [[https://calendar.google.com/calendar/embed?src=linuxfoundation.org_nf9u64g9k9rvd9f8vp4vur23b0%40group.calendar.google.com&ctz=Asia%2FShanghai|10AM ~ 11AM, Wednesday Bi-weekly (GMT+8)]]
+  * **Access**: [[ https://zoom.us/my/hyperledger.community | zoom]] or [[https://zoom.us/u/bAaJoyznp|Phone dial-in]]
+  * **[[groups/twgc/meetings | Meetings Minutes]]**
+  * **[[https://drive.google.com/open?id=0B_NJV6eJXAA1R04zZ05FdE9WVGM|Meeting Recordings]]**
+  * **[[https://docs.google.com/presentation/d/1punUCr0mSZT9gMKCs3vCYqbWbjeS_RG-18ZrhkfwoYc/edit#slide=id.p4 | Antitrust Policy Notice]]**
+</WRAP>
+
+
+
+===== 3. Communications =====
+Currently we support open communication - email list, Rocketchat. Feel free to join. [[https://hyperledgerproject.slack.com/messages/twg-china/ |Previous slack archive]].
+
+^ Tool ^ Description ^ How to Use ^
+| [[twg-china@lists.hyperledger.org| Email-list ]]（邮件列表）           | Official announcement, event information, and threaded discussions, etc.  | [[https://lists.hyperledger.org/g/twg-china| Subscribe here]].[[http://lists.hyperledger.org/g/twg-china/messages| Archive]].  |
+| [[https://chat.hyperledger.org/channel/twg-china| Rocketchat ]]  | Instant online discussions                                                | Login into the [[https://chat.hyperledger.org/channel/twg-china| twg-china channel]] with your LF id.                          |
+| Wechat groups（微信群）                                               | For wechat users to discuss online, can join via those owners             | Beijing (a33443148), Shanghai (dawnwords), Hangzhou (linalee1005), Dalian (cn8888898), Shenzhen (RichZhao), Wuhan (grapebaba),Hongkong(hwfighter1)  |
+
+
+===== 4. What we are working on =====
+
+The team is working together in the following areas:
+
+^ Areas                                                         ^ Description                                                                                                                  ^ Contacts                                         ^
+| [[groups/twgc/team_DI| Development and Innovation]]（开发创新）     | Help lead the development of hyperledger projects in code, tutorial, demos, with instructions on maillist, rocketchat, etc.  | Yaoguo Jiang, Zhangjiong Xuan, Dijun Liu  |
+| [[groups/twgc/team_IE| i18n and Education ]]（国际化教育）           | Help lead the documentation writing/translation, seminar and education/trainings                                             | Lidong Guo, Jiang Lu, Xueting Zhou  |
+| [[groups/twgc/team_CS| Collaborations and Scenarios ]]（合作应用）  | Help encourage the collaborations between organizations and projects, with landing more scenarios/apps                       | Yanqing Wang, Yin Cao, Haixu Cheng                   |
+| [[groups/twgc/team_EO| Events Organization ]]（活动组织）           | Help instruct the events organization like meetup/hackathon                                                                  | Jiannan Guo, Sheng Huang, Zhenhua Zhao, Kai Chen     |
+
+
+
+===== 5. Reporting =====
+Now TWGC is following the [[https://wiki.hyperledger.org/groups/tsc/wg-updates| quarterly report rule]].
+
+Previous reports:
+  - 2018: [[groups/tsc/wg-updates/technical-wg-china-2018-may| Q1]], [[groups/tsc/wg-updates/technical-wg-china-2018-jul | Q2]], [[groups/tsc/wg-updates/technical-wg-china-2018-oct | Q3]], [[groups/tsc/wg-updates/technical-wg-china-2019-jan | Q4]]
+  - 2017 Q4: [[groups/twgc/report/2017-10|2017-10]], [[groups/twgc/report/2017-11|2017-11]], [[groups/twgc/report/2017-12|2017-12]]
+  - 2017 Q3: [[groups/twgc/report/2017-07|2017-07]], [[groups/twgc/report/2017-08|2017-08]], [[groups/twgc/report/2017-09|2017-09]]
+  - 2017 Q2: [[groups/twgc/report/2017-04|2017-04]], [[groups/twgc/report/2017-05|2017-05]], [[groups/twgc/report/2017-06|2017-06]]
+  - 2017 Q1: [[groups/twgc/report/2017-01|2017-01]], [[groups/twgc/report/2017-02|2017-02]], [[groups/twgc/report/2017-03|2017-03]]

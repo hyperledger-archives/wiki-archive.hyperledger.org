@@ -1,0 +1,118 @@
+**Hyperledger Healthcare Working Group (HLHCWG) \\
+General Meeting Agenda for 2018-10-05**
+
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+---
+
+A. Welcome and Opening Statement
+  * Reading of the Linux Foundation Antitrust Policy (https://www.linuxfoundation.org/antitrust-policy)
+  * Antitrust Slide (https://tinyurl.com/HL-antitrust-slide)
+
+B. Introductions
+  * If you’re new to the group, please… 
+    * Introduce yourself
+    * Tell us where you're geographically located
+    * Share with us your interests in healthcare in general, and blockchain technologies in specific
+
+//Folk agreed that doing introductions are helpful, but keeping them brief or doing them only for new members or every other meeting should be considered moving forward in order to save time.// 
+
+C. Community Announcements
+  * Feel free to share community announcements as they relate to the Hyperledger community
+  * Distributed Health 2018 Conference (https://health.distributed.com/), November 5-6
+    * 20% discount through Blockchain Healthcare Review website (https://blockchainhealthcarereview.com/)
+    * HLHCWG will not be offering a special session at the conference (not enough members)
+
+//Covered during the meeting//
+
+D. HLHCWG Subgroup Updates
+  * Patient/Member Subgroup (Marissa Iannarone, Lead)
+  * Payer Subgroup (Raveesh Dewer, Lead)
+  * EMR Subgroup (Robert Chu, Lead)
+
+
+//Patient/Member subgroup continues to drive forward the donor milk PoC. HiMSS AsiaPacific Innovation Challenge application was not accepted, but if anyone is interested in attending, there are discount codes available.//
+
+
+//Payer Subgroup continues to look at use cases and analyze some of the frameworks that are out there to help determine whether or not a use case is valid. Vipin B recommended leveraging pre-existing frameworks like this one: https://www.multichain.com/blog/2015/11/avoiding-pointless-blockchain-project. //
+
+//EMR Subgroup: Not in attendance: no report//
+
+E. Old Business
+  * Academic involvement in the Hyperledger Project, specifically within healthcare
+    * Plan is to develop a proposal/presentation and submit to TSC
+    * Team: Mikhail Elias, Adrian Berg, Rich Bloch
+
+
+//Mikhail provided update and they continue to work towards putting a proposal together for TSC//
+
+
+  * Bringing Hyperledger learning resources to the HLHCWG
+    * In talks with leadership from Change Healthcare (https://www.changehealthcare.com/) to present at upcoming HLHCWG General Meeting
+    *** Discussion: what specific topics do we want to learn more about?**
+      * Rich has a colleague who's a technology attorney and is willing to speak on the topic of technology IP and managing open source collaborations. A useful future topic to consider?
+
+
+//No specific suggestions were provided during the call, but everyone agreed that the technology attorney would be a very interesting and helpful conversation. We didn't have any specific requests for Vipin's time either, but we should continue to see where an identity talk would be helpful, Raveesh had dropped off the call by this point.//
+
+
+F. New Business
+  * TSC Quarterly Progress Report review
+    * DRAFT: https://wiki.hyperledger.org/groups/tsc/wg-updates/healthcare-wg-2018-oct 
+    *** Action: membership review of 2018 Q3 report**
+
+
+//Marissa ask everyone to review offline and let us know via email any concerns since we were running out of time.//
+
+
+  * Upcoming changes to the Hyperledger Project wiki environment
+    * Backend changes (managed through the TSC)
+      * Currently using DocuWiki, planning to stand up Confluence in parallel (at least in the shorter term)
+      * Stand up of Confluence TBD (determined by TSC), but we believe it to be sooner than later
+    * Frontend redesign of the HLHCWG wiki planned
+      * Why a redesign?
+        * Provide a more meaningful “front door” experience for new members to quickly discover HLHCWG resources and subgroups
+        * For established members, serve as a dashboard of activities and accomplishments
+        * Better separate (and highlight) our subgroups (where the real action is) from general WG coordinating activities/governance
+      * From general email request (9/25) we have a team identified (thank you!):
+        * Rayne DeVivo, Brian Ahier, and Mikhail Elias
+       *** Action: possible early prototype demo?**
+          * Prototype link : https://wiki.hyperledger.org/groups/healthcare/healthcare-wg-wikispace-redesign
+
+
+//Summary of changes was provided and Mikhail took us through a high-level review of the changes. People were encouraged to review and provide any feedback as available.//
+
+
+  * Time-Permitting:
+    * A review of the HLHCWG Charter
+      * Current charter is out of date (c. 2016) with newer HLWG charter template
+      * Our charter:
+        * https://www.hyperledger.org/wp-content/uploads/2016/10/HealthcareWGCharter_public.pdf
+      * New charter template:
+        * https://docs.google.com/document/d/16GJw2cxXf_Sw1DFbsInkgQ1jy_eXxteUgKdge09jw-k/view 
+      * Newer template will better capture HLHCWG mission statement/scope, and deliverables
+      *** Discussion: what is our mission statement?**
+
+
+//We did not get to this topic during the meeting.//
+
+
+    * A discussion of new HLHCWG subgroups
+      *** Discussion: do we need new subgroups?**
+
+
+//We did not get to this topic during the meeting.//
+
+G. Next Meeting
+  * Scheduled for Friday, 10/19, 0700 Pacific Time
+  * **Discussion: topics to add to agenda?**

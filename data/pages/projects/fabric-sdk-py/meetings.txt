@@ -1,0 +1,122 @@
+====== Meeting Minutes - Fabric SDK Python ======
+  * 20190207 (canceled due to holidays)
+  * 20190131 (canceled due to holidays)
+  * 20190124 (canceled due to low agenda)
+  * [[ projects/fabric-sdk-py/meetings/20190117 | 20190117 ]] 
+  * 20190110 (canceled due to low agenda)
+  * 20190103 (canceled due to low agenda)
+  * [[ projects/fabric-sdk-py/meetings/20181220 | 20181220 ]] 
+  * 20181213 (canceled due to attending HGF)
+  * 20181206 (canceled due to low profile)
+  * [[ projects/fabric-sdk-py/meetings/20181129 | 20181129 ]] 
+  * 20181122 (canceled due to development)
+  * 20181115 (canceled due to development)
+  * [[ projects/fabric-sdk-py/meetings/20181108 | 20181108 ]] 
+  * 20181101 (canceled due to development)
+  * 20181025 (canceled due to development)
+  * [[ projects/fabric-sdk-py/meetings/20181018 | 20181018 ]] 
+  * [[ projects/fabric-sdk-py/meetings/20181011 | 20181011 ]] 
+  * 20181004 (canceled due to holidays)
+  * [[ projects/fabric-sdk-py/meetings/20180927 | 20180927 ]] 
+  * 20180920 (canceled)
+  * [[ projects/fabric-sdk-py/meetings/20180913 | 20180913 ]] 
+  * 20180906 (canceled due to release)
+  * 20180830 (canceled due to low profile)
+  * [[ projects/fabric-sdk-py/meetings/20180823 | 20180823 ]] 
+  * 20180816 (canceled due to low profile)
+  * [[ projects/fabric-sdk-py/meetings/20180809 | 20180809 ]] 
+  * [[ projects/fabric-sdk-py/meetings/20180802 | 20180802 ]] 
+  * 20180726 (canceled due to low profile)
+  * [[ projects/fabric-sdk-py/meetings/20180719 | 20180719 ]] 
+  * 20180712 (canceled due to low profile)
+  * [[ projects/fabric-sdk-py/meetings/20180705 | 20180705 ]] 
+  * 20180628 (canceled due to trip)
+  * [[ projects/fabric-sdk-py/meetings/20180621 | 20180621 ]] 
+  * [[ projects/fabric-sdk-py/meetings/20180614 | 20180614 ]] 
+  * 20180607 (canceled due to few agenda)
+  * [[ projects/fabric-sdk-py/meetings/20180531 | 20180531 ]] 
+  * 20180524 (canceled due to few agenda)
+  * [[ projects/fabric-sdk-py/meetings/20180517 | 20180517 ]] 
+  * 20180510 (canceled due to few agenda)
+  * [[ projects/fabric-sdk-py/meetings/20180503 | 20180503 ]] 
+  * 20180426 (canceled due to Labor day holidays)
+  * 20180419 (canceled due to no enough issue to discuss)
+  * [[ projects/fabric-sdk-py/meetings/20180412 | 20180412 ]] 
+  * 20180405 (canceled due to holidays)
+  * [[ projects/fabric-sdk-py/meetings/20180329 | 20180329 ]] 
+  * [[ projects/fabric-sdk-py/meetings/20180322 | 20180322 ]] (Adjust to Thursday)
+  * 20180316 (canceled due to few issues)
+  * [[ projects/fabric-sdk-py/meetings/20180309 | 20180309 ]]
+  * [[ projects/fabric-sdk-py/meetings/20180302 | 20180302 ]]
+  * 20180223 (canceled due to Spring Festival Holidays)
+  * 20180216 (canceled due to Spring Festival Holidays)
+  * [[ projects/fabric-sdk-py/meetings/20180209 | 20180209 ]]
+  * [[ projects/fabric-sdk-py/meetings/20180202 | 20180202 ]]
+  * 20180126 (canceled due to development)
+  * [[ projects/fabric-sdk-py/meetings/20180119 | 20180119 ]]
+  * 20180112 (canceled due to development)
+  * [[ projects/fabric-sdk-py/meetings/20180105 | 20180105 ]]
+  * 20171229 (canceled due to New year holidays)
+  * 20171222 (canceled due to christmas holidays)
+  * [[ projects/fabric-sdk-py/meetings/20171215 | 20171215 ]]
+  * 20171208 (canceled due to meetup preparation)
+  * [[ projects/fabric-sdk-py/meetings/20171201 | 20171201 ]]
+  * [[ projects/fabric-sdk-py/meetings/20171124 | 20171124 ]]
+  * [[ projects/fabric-sdk-py/meetings/20171117 | 20171117 ]]
+  * 20171110 (canceled due to member summit)
+  * [[ projects/fabric-sdk-py/meetings/20171103 | 20171103 ]]
+  * 20171027 (canceled due to developing)
+  * [[ projects/fabric-sdk-py/meetings/20171020 | 20171020 ]]
+  * 20171013 (canceled due to developing)
+  * 20171006 (canceled due to holidays)
+  * [[ projects/fabric-sdk-py/meetings/20170929 | 20170929 ]]
+  * 20170922 (canceled due to developing)
+  * [[ projects/fabric-sdk-py/meetings/20170915 | 20170915 ]]
+  * [[ projects/fabric-sdk-py/meetings/20170908 | 20170908 ]]
+  * [[ projects/fabric-sdk-py/meetings/20170901 | 20170901 ]]
+  * 20170825 (canceled due to developing)
+  * [[ projects/fabric-sdk-py/meetings/20170818 | 20170818 ]]
+  * 20170811 (canceled due to developing)
+  * [[ projects/fabric-sdk-py/meetings/20170804 | 20170804 ]]
+  * [[ projects/fabric-sdk-py/meetings/20170728 | 20170728 ]]
+  * 20170721 (canceled due to developing)
+  * [[ projects/fabric-sdk-py/meetings/20170714 | 20170714 ]]
+  * 20170707 (canceled due to developing)
+  * [[ projects/fabric-sdk-py/meetings/20170630 | 20170630 ]]
+  * [[ projects/fabric-sdk-py/meetings/20170623 | 20170623 ]]
+  * [[ projects/fabric-sdk-py/meetings/20170616 | 20170616 ]]
+  * 20170609 (canceled due to developing)
+  * [[ projects/fabric-sdk-py/meetings/20170602 | 20170602 ]]
+  * 20170526 (canceled due to holiday)
+  * [[ projects/fabric-sdk-py/meetings/20170519 | 20170519 ]]
+  * [[ projects/fabric-sdk-py/meetings/20170512 | 20170512 ]]
+  * 20170505 (canceled due to developing)
+  * [[ projects/fabric-sdk-py/meetings/20170428 | 20170428 ]]
+  * 20170421 (canceled due to developing)
+  * [[ projects/fabric-sdk-py/meetings/20170414 | 20170414 ]]
+  * [[ projects/fabric-sdk-py/meetings/20170407 | 20170407 ]]
+  * 20170331 (canceled due to holiday)
+  * [[ projects/fabric-sdk-py/meetings/20170324 | 20170324 ]]
+  * [[ projects/fabric-sdk-py/meetings/20170317 | 20170317 ]]
+  * 20170310 (canceled due to hackathon)
+  * [[ projects/fabric-sdk-py/meetings/20170303.md | 20170303 ]]
+  * [[ projects/fabric-sdk-py/meetings/20170224.md | 20170224 ]]
+  * 20170217 (canceled due to developing)
+  * [[ projects/fabric-sdk-py/meetings/20170210.md | 20170210 ]]
+  * 20170203 (canceled due to holidays)
+  * 20170127 (canceled due to holidays)
+  * 20170120 (canceled due to holidays)
+  * [[ projects/fabric-sdk-py/meetings/20170113.md | 20170113 ]]
+  * [[ projects/fabric-sdk-py/meetings/20170106.md | 20170106 ]]
+  * 20161230 (canceled due to holidays)
+  * 20161223 (canceled due to holidays)
+  * [[ projects/fabric-sdk-py/meetings/20161216.md | 20161216 ]]
+  * [[ projects/fabric-sdk-py/meetings/20161209.md | 20161209 ]]
+  * [[ projects/fabric-sdk-py/meetings/20161202.md | 20161202 ]]
+  * 20161125 (canceled due to holidays)
+  * [[ projects/fabric-sdk-py/meetings/20161118.md | 20161118 ]]
+  * [[ projects/fabric-sdk-py/meetings/20161111.md | 20161111 ]]
+  * [[ projects/fabric-sdk-py/meetings/20161104.md | 20161104 ]]
+  * [[ projects/fabric-sdk-py/meetings/20161028.md | 20161028 ]]
+  * [[ projects/fabric-sdk-py/meetings/20161021.md | 20161021 ]]
+  * [[ projects/fabric-sdk-py/meetings/20161014.md | 20161014 ]]

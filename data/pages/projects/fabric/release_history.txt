@@ -1,0 +1,47 @@
+====== Fabric v1 Alpha (Available March-16-2017) ======
+
+The alpha release is to utilize the basic functions in the Fabric, see and understand the flow of the new v1.0 architecture and start writing applications and chaincode. For details regarding the capabilities, see the [[http://hyperledger-fabric.readthedocs.io/en/latest/|documentation]].
+
+The following is a high level look at what you can do out of the box:
+
+  *  **Docker images for easy deployment for Hyperledger-fabric 1.0.** Docker images will be available for all major components to run a network (peers, solo	orderer, CLI, CA, Kafka, CouchDB).  A [[http://hyperledger-fabric.readthedocs.io/en/latest/|"Getting started"]] section will be available in the publications.  The [[http://fabric-rtd.readthedocs.io/en/latest/end-to-end.html|end to end flow]] will help anyone easily start the network, run a simple application, and learn the basics of running fabric 1.0. 
+
+  * **Tooling that helps bootstrap a network.** The bootstrap network tool is available and called the Configuration Transaction Generator (configtxgen). The tool is designed to configure the network with organizations included in the ordering service genesis block and generates the configuration transaction artifacts used for channel creation.
+
+  * **Multiple membership, using the provided fabric-ca, or bring your own.** Membership services authenticates, authorizes, and manages identities for a permissioned blockchain network.  Membership services code runs in peers and orderers and both authenticates and authorizes blockchain operations utilizing a PKI-based implementation. Fabric-CA provided is an implementation of membership services, handling the issuance and revocation of enrollment certificates (enrollment certificate is a long term identity credential). Only verified member can create asset tokens, allowing a number of transaction certificates to be issued through parent enrollment certificates with a guarantee that the private keys of asset tokens can be regenerated if lost.  Issuers are also able to revoke transaction certificates or designate them to expire within a certain time frame, allowing great control within a network. Tcerts allow for role based transactions to occur. TCERTs also helps offer unlikability of transactions.  Along with membership services, Hardware Security Module(HSM) is supported to help increase safeguarding of keys.
+
+  * **SDK.** Support for SDKs providing a structured environment of libraries for developers to write and test chaincode application.  Node.js and Java SDKs are available this month, with Go and Python versions coming very soon.   Below are the specific capabilities available within the SDK:
+      * Client: create a new chain, get a chain, query chain information, set/get state store, install chaincode, get/set crypto suite, get/set user context with enrollment signed by fabric/external ca
+      * Chain: instantiate chaincode, add/remove/get peer, add/remove/get orderers, initialize/update chain, query info/block/transactions, create/send transaction proposal, create/send transaction.
+      * Users: register users, get names, get enrollment certificates, set names/enrollment certificate, 
+      * Events: connectEvent Source, add listner, remove listener, event types include blocks, per transaction id, and per chaincode events and rejection events
+      * Crypto:   suite supports software based, PKCS11 compliant HSM such as generate key, derive key, importkey, get key, hash, sign, verify
+
+
+  * **Chaincode (business logic code) development.** Chaincode is a piece of code that is written in one of the supported languages that currently is Go or Java. It is installed and instantiated through the SDK or CLI onto a network of Hyperledger peer nodes. Chaincode is able to call chaincode on the same channel.  Chaincode Query support is also supported across channels with proper authorization.
+
+  * **Endorsement policy with boolean functions (and/or).** Chaincode applications have corresponding endorsement policies, where specific peer nodes execute a transaction and return a YEs/NO response to the client.  Policies could require a transaction to be endorsed by a minimum number of endorsing peers, a minimum percentage of encorsing peers, or by all endorsing peers assigned to a specific chaincode application. 
+
+  * **Consensus.** Consensus is defined as the full-circle verification of the correctness of a set of transactions comprising a block. Ordering support service includes Solo and Kafka. With Crash Fault Tolerance ordering service (ie Kafka), there is ability to add and remove ordering service nodes and create channels. See further information on [[http://fabric-rtd.readthedocs.io/en/latest/fabric_model.html#consensus|Consensus]] here.
+
+  * **Channels.**  A channel is a private blockchain overlay on a consortia blockchain network, allowing for data isolation and confidentiality.  A channel specific ledger is enacted per channel creation. See further information on [[http://fabric-rtd.readthedocs.io/en/latest/fabric_model.html#privacy-through-channels|Channels]] here.
+
+  * **Peers.**  A peer is a network entity that maintains a ledger and runs chaincode containers to perform [[http://fabric-rtd.readthedocs.io/en/latest/readwrite.html|read/write]]operations to the ledger.  Peers can be dynamically added to and removed from the network.
+
+  * **Peer scalability.** Message dissemination using gossip protocal where peers manage discovery and channel membership, disseminates ledger data across all peers on channel, and syncs the ledger state across all peers on the channel.
+
+  * **Ledger.** A [[http://fabric-rtd.readthedocs.io/en/latest/ledger.html|ledger]] is a sequenced, tamper resistant record of all state transactions in the fabric.  State transactions are a result of chaincode invocations submitted by participating peers.  There is one ledger per channel.  Each peer maintains a copy of the ledger for each channel, where ledgers support can be done through LevelDB orCouchDB , Rich queries are supported if using CouchDB as the state database
+
+  * **Modular and pluggable component.** Clear interfaces were defined for membership services, SDK, Peer, Endorsement, consensus service, and ledger.  This provides the  opportunity for individuals, startup, or enterprises companies to plug in their own pieces for these various components.  As an example, a startup may want to plug in their own authentication and authorization capabilities for membership services instead of fabric ca, or a company may want to plug in other encryption algorithms based on country requirements.
+
+  * **Pluggable crypto algorithms.** The built in crypto library may be replaced with other suitable algorithms/implementations to address regional regulations or different technical requirements
+
+For a list of known [[https://jira.hyperledger.org/issues/?jql=project%20%3D%20FAB%20AND%20issuetype%20%3D%20Bug%20AND%20resolution%20%3D%20Unresolved%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC|bugs]] 
+
+
+----
+
+====== Previous release notes: ======
+
+
+https://github.com/hyperledger/fabric/blob/master/docs/source/releases.rst

@@ -1,0 +1,43 @@
+**October 2017 Dublin Blockchain for Good Hackathon**
+
+//Hyperledger Indy Notes and Pointers//
+
+Thanks so much for taking a look at Hyperledger Indy. We are a new, small and growing community within Hyperledger and are really excited to see the kinds of projects you and your teams are going to propose and take on (hopefully using Indy!).
+
+What is Hyperledger Indy?
+
+Indy is a distributed ledger, purpose-built for decentralized identity. Because distributed ledgers cannot be altered after the fact, it is essential that use cases for ledger-based identity carefully consider foundational components, including performance, scale, trust model, and privacy. In particular, Privacy by Design and privacy preserving technologies are critically important for a public identity ledger where correlation can take place on a global scale. 
+
+For all these reasons, Hyperledger Indy has developed specifications, terminology, and design patterns for decentralized identity along with an implementation of these concepts that can be leveraged and consumed both inside and outside the Hyperledger Project. 
+
+Hyperledger Indy Wiki ([[https://wiki.hyperledger.org/projects/indy]])
+
+Hyperledger Indy GitHub
+  * https://github.com/hyperledger/indy-node
+  * https://github.com/hyperledger/indy-sdk
+  * https://github.com/hyperledger/indy-plenum
+  * https://github.com/hyperledger/indy-crypto
+  * https://github.com/hyperledger/indy-anoncreds
+
+Hyperledger Indy Rocketchat ([[https://chat.hyperledger.org/channel/indy]])
+Team members and contributors will be hanging out in the Rocketchat all weekend to answer questions and help. We are planning on having team members monitoring the rocketchat during business hours for Dublin (and possibly Saturday evening)
+
+Hackathon Zoom Room ([[https://zoom.us/j/6466466446]])
+We have set aside a Zoom Room for the Hackathon in case folks in Rocketchat want to do a video conference to answer questions, have a more in depth discussion, etc. 
+The password for the Zoom Room is 10dublin01
+
+Hackathon Test Network
+(if you don’t want to use the Getting Started Guide)
+We have set up a test network for Indy (based on the Sovrin Distributed Ledger). This test network will support up to 10 accounts (ask TracyK from Hyperledger for a key!).
+
+Getting Started Guide ([[https://github.com/hyperledger/indy-node/blob/master/getting-started.md]])
+For those who do not want to use the Test Network we have set up and want to build their own we have the Sovrin Getting Started guide.
+
+Whitepapers ([[https://sovrin.org/library/]])
+If you want to learn more about the concepts behind Indy, you can check out the Sovrin library (Sovrin donated the Indy codebase to Hyperledger). 
+
+Welcome to Indy / Self Sovereign Identity Videos:
+  * [[https://drive.google.com/open?id=0ByaxIFopqmUVR0FFaVVGdTNKcWc | Drummond Reed on DIDs and Verifiable Claims]]
+  * [[https://drive.google.com/open?id=0ByaxIFopqmUVRmQ3SXNhb0xqQ0E | Nathan George on Architecture and Code]]
+
+

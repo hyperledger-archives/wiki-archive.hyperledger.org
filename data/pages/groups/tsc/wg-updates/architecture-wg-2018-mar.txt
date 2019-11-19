@@ -1,0 +1,27 @@
+====== Hyperledger Working Group Update ======
+
+===== Working Group =====
+Architecture Working Group
+
+===== Working Group Health =====
+The Architecture working group continues to make steady progress on several work items. The second Architecture position paper covering smart contracts is nearing completion and should be released soon. Work continues on the Identity services section of the Architecture, as well as on the privacy and confidentiality track. Participation has been steady, with 8 to 12 participants, representing various companies attending the bi-weekly teleconference meetings and working sessions. 
+
+
+===== Issues =====
+There are no major issues. Progress tends to be slower than desired - dependent on pace of contribution. Need to encourage more active contribution from broader Hyperledger community. F2F meetings and working sessions have been productive - need to do more of these.
+
+
+===== Overall Activity in the Past Quarter =====
+Regular bi-weekly teleconferences were held for the main Arch-WG track (with the exception of a couple of meetings skipped around the holiday season). A second track on privacy and confidentiality also has biweekly calls. Most of the discussion happens on the WG teleconferences, with light use of rocket-chat and mail-list. Notes and working documents are captured on Google Docs collaboratively, and teleconferences are recorded.
+
+
+===== Planned Work Products =====
+Smart Contract Paper targeted for release soon. Identity services paper, and privacy and confidentiality paper are in the pipeline.
+
+
+===== Participant Diversity =====
+There is diverse participation with participants from several different companies. Solid core of active participants, with some churn.
+
+
+
+ 

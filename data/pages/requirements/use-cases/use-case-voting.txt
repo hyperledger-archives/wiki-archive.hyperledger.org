@@ -1,0 +1,6 @@
+====== Voting Use Case ======
+
+**Voting**- record that a particular person voted no more than once and ability to count votes.
+
+See, for example:  
+  * http://www.v-initiative.org/

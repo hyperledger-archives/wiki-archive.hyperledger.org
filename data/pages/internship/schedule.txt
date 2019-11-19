@@ -1,0 +1,27 @@
+**Program Timeline** (tentative and subject to change)
+
+  * Call for Internship Projects and Mentors: <del>February 2 - 23, 2018</del>
+  * TSC Review and Approval of Internship Projects: <del>February 26 - March 1, 2018</del>
+  * Application Period: <del>March 5, 2017 - March 23, 2018</del>
+  * Intern Acceptance: mid-April
+  * Intern/Mentor Introduction and Bonding: May
+  * **Full-Time Internship Timetable:**
+      * Start Date: June 4, 2018 (10% start-up stipend will be paid if the intern has begun the project )
+      * 1st Quarter Evaluation: end of week 3, June 22, 2018 (20% of the stipend will be paid if the intern is in good standing with the mentor following the 1st quarter evaluation)
+      * 2nd Quarter Evaluation: end of week 6, July 13, 2018 (20% of the stipend will be paid if the intern is in good standing with the mentor following the 2nd quarter evaluation)
+      * 3rd Quarter Evaluation: end of week 9, August 3, 2018 (20% of the stipend will be paid if the intern is in good standing with the mentor following the 3rd quarter evaluation)
+      * Final Evaluation: upon conclusion of the internship, end of week 12, August 24, 2018 (remaining 30% stipend will be paid if the mentor determines that the intern has successfully completed the internship following the final evaluation)
+  * **Part-Time Internship Timetable:**
+      * Start Date: June 4, 2018 (10% start-up stipend will be paid if the intern has begun the project)
+      * 1st Quarter Evaluation: end of week 6, July 13, 2018 (20% of the stipend will be paid if the intern is in good standing with the mentor following the 1st quarter evaluation)
+      * 2nd Quarter Evaluation: end of week 12, August 24, 2018 (20% of the stipend will be paid if the intern is in good standing with the mentor following the 2nd quarter evaluation)
+      * 3rd Quarter Evaluation: end of week 18, October 5, 2018 (20% of the stipend will be paid if the intern is in good standing with the mentor following the 3rd quarter evaluation)
+      * Final Evaluation: upon conclusion of the internship, end of week 24, November 16, 2018 (remaining 30% stipend will be paid if the mentor determines that the intern has successfully completed the internship following the final evaluation)
+  *Attending Hyperledger Global Forum or the 4th quarter Hackfest: December 
+
+
+
+  
+
+
+

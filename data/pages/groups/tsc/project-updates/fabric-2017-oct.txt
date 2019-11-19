@@ -1,0 +1,33 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Fabric
+
+===== Project Health =====
+Fabric continues to grow and mature following our 1.0.0 release (yay!). We have a growing mix of contributors with IBM comprising only 42% of the contributors and 49% of the commits since the 1.0.0 release. There have been 69 developers representing 14 companies (and not obviously affiliated individuals) contributing 443 commits and changing over 500k LOC. The project published three bugfix releases (1.0.1, 1.0.2, 1.0.3) and is in the process of working towards a 1.1-preview release around EOM October 2017 that will hopefully include 21 new features or major improvements.
+
+There seems to be a good mix of questions in chat, email and on stackoverflow with the majority being answered. The questions themselves are increasingly sophisticated, which is also a good sign. One of the more commonly asked is how to deploy Fabric to a network of nodes using Kubernetes or Swarm, etc.
+
+A couple of areas that need improvement are in keeping the number of JIRA defects down (they tend to grow while new features are developed) and improving the documentation and samples.
+
+===== Issues =====
+The team is trying to make more effective use of JIRA for project management, and we could definitely use some expertise to help configure JIRA to be more useful to the development community and those who wish to track our work.
+
+===== Releases =====
+As noted, Fabric team published its 1.0.0 release in July and in the three+ months since, has published bugfix releases on approximately a monthly schedule. The project maintainers plan to publish a 1.1-preview release by EOM October, 2017.
+
+===== Overall Activity in the Past Quarter =====
+email traffic spiked in July and August as new users started to make use of the 1.0.0 release. Presently it remains about consistent with the levels of traffic in the months preceding the 1.0.0 release. The RocketChat traffic seems to have increased as well, but there are so many channels to track, so hard to get a sense for how much of an increase there's been. Stackoverflow traffic is steady, adding about 250 new questions since the 1.0.0 release. Lots of questions being driven by Composer use with Fabric.
+
+===== Current Plans =====
+As noted, the project maintainers plan a 1.1 release before EOY 2017, and a 1.1-preview by EOM October, 2017.There are 21 major features and epics being tracked for 1.1. These are captured in [[https://jira.hyperledger.org/issues/?filter=10904|JIRA]] and also on the [[https://jira.hyperledger.org/secure/Dashboard.jspa?selectPageId=10104|Fabric dashboard]]. Notable are ensuring live-upgrade compatibility for 1.0.x->1.1, Chaincode lifecycle management improvement, Javascript chaincode support, servicability, performance and scale improvements.
+
+===== Maintainer Diversity =====
+Maintainer diversity grew by virtue of the fact that two of the IBM maintainers joined another member company: State Street Bank. The project now has 18 maintainers. IBM (10), State Street (3), Digital Assets (2), HACERA (1), Huawei (1), Salesforce (1). 
+
+===== Contributor Diversity =====
+As noted, in the quarter since we published the 1.0.0 release, Fabric has had 433 contributions from 69 contributors representing 14 companies and individuals, with IBM representing only 42% of the contributors and 49% of the commits. Notable are increased contribution levels from Secure Key, State Street, Hitachi, SAP, and IT People.
+
+===== Additional Information =====
+None at this time
+ 

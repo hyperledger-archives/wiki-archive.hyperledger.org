@@ -1,0 +1,46 @@
+Hyperledger Project
+
+Healthcare Working Group (HCWG) Meeting
+
+July 27, 2018 
+
+
+Resources:
+
+Rocket.Chat:  chat.hyperledger.org (you can use your LFID to login)
+
+Github:  www.github.com/hyperledger
+
+Wiki:  https://wiki.hyperledger.org
+Public lists:  lists.hyperledger.org
+Meetings:  wiki.hyperledger.org/community/calendar-public-meetings
+Rapid Healthcare: https://www.rapid-healthcare.com/
+Medicalchain: https://medicalchain.com/en/
+
+
+Summary
+Rapid Healthcare and Medical Chain were invited by patient subgroup to speak with the main group.
+  * Rapid Healthcare is concerned with donor milk use case
+  * Medical Chain is concerned with “patient health data across silos” use case 
+
+Meeting notes
+Marissa update: to get GitHub up, a hyperledger lab application has to be submitted. Marissa is working on that, Angela has started code which will be placed on GitHub when the application is approved. 
+Rapid Healthcare
+Anton and Ron are located in Southern CA where they work with NICU (infant ICU) to track both mother’s milk and donor’s milk to ensure that babies are fed from the correct milk supply at the correct time. 
+They discovered a bigger problem through this work. There is a human milk shortage.  Hospitals need 80 million units, the supply is 20 million units. 
+Rapid Healthcare would like help developing a blockchain solution for a national or global network. 
+There are a mix of for-profit, coop, and not-for-profit milk (NFP) banks
+Lactating women are either uncompensated or undercompensated for donating. 
+Human milk is sold for between $4 per ounce (NFP) to $16 per ounce (for profit).
+There is a huge first mile problem, there is little incentive to donate milk
+Get donors compensated
+Milk banks need to track inventory
+National tracking of supply and demand
+NICU unable to procure donor milk
+Federal and State government regulation down the road
+Bring in international donor milk source
+Trace all source so that contamination can be controlled thru the distribution 
+No state or federal oversight currently
+Except California, Oregon, Washington, Massachusetts to begin exploring oversight
+How to move from proof of concent to enterprise? To final business product? How to get all milk banks on the same page? Using GS1 (international standard bar code) technology to track milk?
+Getting guidance on end-to-end story - tech is doable, how to transition to full product. Others at hyperledger have done so, just not in healthcare yet. 

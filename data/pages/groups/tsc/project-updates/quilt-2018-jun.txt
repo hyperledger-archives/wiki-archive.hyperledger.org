@@ -1,0 +1,36 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Quilt
+
+===== Project Health =====
+Quilt is not in a great state currently. One major contributor from Ripple has been unable to commit significant time to the project due to other commitments toward an internal pending deadline and the other major contributor has left Ripple.
+
+Not much has changed, or been updated, since Q1.
+
+===== Issues =====
+Major staffing and resource changes have impacted the project resulting in little progress on the code this quarter.
+
+Attempts to get work on a Java-based Interledger node have not drawn any contributions or interest.
+
+===== Releases =====
+Codecs for the BTP and ILDCP protocols used in the ILP stack were released but have also introduced significant technical debt (lack of tests).
+
+===== Overall Activity in the Past Quarter =====
+Activity has been slower than Q1.
+A change of focus may be required to attract contributors to the project.
+
+
+===== Current Plans =====
+The maintainers recommend that the scope of the project is changed to focus primarily on providing integrations for other Hyperledger projects or any applications requiring JVM-based components.
+
+Rather than focus on developing a second ILP node implementation the maintainers will shift focus to providing integrations between the existing reference implementation (written in NodeJS) and any application that uses the JVM.
+
+This would be a shift in focus and scope and should be reviewed by the TSC.
+
+===== Maintainer Diversity =====
+No new contributors
+Adrian Hope-Bailie is no longer working for Ripple but intends to continue contributing as an employee of Coil Technologies.
+
+===== Contributor Diversity =====
+One new contributor provided assistance with code licensing requirements

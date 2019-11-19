@@ -1,0 +1,38 @@
+**Hyperledger Healthcare Patient SubGroup  \\
+Meeting Agenda for 2018-10-12**
+
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+---
+A. Welcome and Opening Statement (5min)
+  * Reading of the Linux Foundation Antitrust Policy (https://www.linuxfoundation.org/antitrust-policy)
+  * Antitrust Slide (https://tinyurl.com/HL-antitrust-slide)
+B. HMBANA Update and summary of current effort to share with them (5 min)
+
+  * We need to create a brief summary of the project so that she can take that to HMBANA leadership. Here is what we have so far:
+
+We are working on a donor milk technology solution. At a high-level, we're looking to create a tool to help hospitals have more visibility into the supply of milk coming from donor banks; allow donor banks to better understand the babies that receive the milk; and to help donor banks scale, as we know that an increase in supply is needed.
+
+C. Review tools and how to engage with each: wiki, GitHub, JIRA (15min)
+  * Discussion: what are our test network needs and approach?
+  * We didn't discuss the testing approach, but reviewed the wiki changes that Mikhail has made:
+  * https://wiki.hyperledger.org/groups/healthcare/human_milk_services_model
+  * https://wiki.hyperledger.org/groups/healthcare/perinatal_services
+  * https://wiki.hyperledger.org/groups/healthcare/human_milk_donor_services
+  * https://wiki.hyperledger.org/groups/healthcare/human_milk_recipient_services
+ 
+D. Working session - populate the JIRA board with Epics and Task for the product -prioritizing MVP but including future functionality to consider (20min)
+  * We did not have a chance to start this work. but we'll take this down to the task level and start building those out in JIRA. We will have a check in meeting end of next week to ensure we're all on the same page on how these tasks get created
+
+E. Discussion: What timeline are we working towards? Still targeting the Hyperledger Global Forum? (5min)
+  * We will discuss this at the check in meeting

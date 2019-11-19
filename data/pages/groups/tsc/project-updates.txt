@@ -1,0 +1,87 @@
+Every quarter, projects must submit an update to the TSC. The report must be submitted according to the [[https://lists.hyperledger.org/g/tsc/calendar|schedule]] to allow for the TSC to review the contents before its meeting on Thursday. The project updates must follow the 
+[[groups:tsc:project-updates:template.txt|Hyperledger Project Update Template]]. This can be done by creating a new link on this page utilizing the following syntax:
+
+  [[groups:tsc:project-updates:<project-name>-<year>-<month>|<Project> Update, <Month> <Year>]]
+
+For example, if the project Foo wanted to submit its June, 2017 update, they would create a page as follows:
+
+  [[groups:tsc:project-updates:foo-2017-june|Foo Update, June 2017]]
+  
+Next, the person would edit the page to include the contents of the monthly update.
+
+====== Project Updates ======
+
+===== 2019 Q1 Updates =====
+  * [[groups:tsc:project-updates:fabric-2019-jan|Hyperledger Fabric Update, January 2019]]
+  * [[groups:tsc:project-updates:sawtooth-2019-jan|Hyperledger Sawtooth Update, January 2019]]
+  * [[https://wiki2.hyperledger.org/display/HYP/2019+Q1+Hyperledger+Iroha|Hyperledger Iroha Update, January 2019]]
+  * [[groups:tsc:project-updates:composer-2019-jan|Hyperledger Composer Update, January 2019]]
+  * [[groups:tsc:project-updates:indy-2019-feb|Hyperledger Indy Update, February 2019]]
+  * [[groups:tsc:project-updates:burrow-2019-feb|Hyperledger Burrow Update, February 2019]]
+  * [[groups:tsc:project-updates:cello-2019-feb|Hyperledger Cello Update, February 2019]]
+  * [[groups:tsc:project-updates:explorer-2019-feb|Hyperledger Explorer Update, February 2019]]
+  * [[groups:tsc:project-updates:quilt-2019-mar|Hyperledger Quilt Update, March 2019]]
+  * [[groups:tsc:project-updates:caliper-2019-mar|Hyperledger Caliper Update, March 2019]]
+  * [[groups:tsc:project-updates:ursa-2019-mar|Hyperledger Ursa Update, March 2019]]
+
+===== 2018 Q4 Updates =====
+  * [[groups:tsc:project-updates:fabric-2018-oct|Hyperledger Fabric Update, October 2018]]
+  * [[groups:tsc:project-updates:sawtooth-2018-oct|Hyperledger Sawtooth Update, October 2018]]
+  * [[groups:tsc:project-updates:iroha-2018-oct|Hyperledger Iroha Update, October 2018]]
+  * [[groups:tsc:project-updates:composer-2018-nov|Hyperledger Composer Update, November 2018]]
+  * [[groups:tsc:project-updates:indy-2018-nov|Hyperledger Indy Update, November 2018]]
+  * [[groups:tsc:project-updates:burrow-2018-nov|Hyperledger Burrow Update, November 2018]]
+  * [[groups:tsc:project-updates:cello-2018-nov|Hyperledger Cello Update, November 2018]]
+  * [[groups:tsc:project-updates:explorer-2018-dec|Hyperledger Explorer Update, December 2018]]
+  * [[groups:tsc:project-updates:quilt-2018-dec|Hyperledger Quilt Update, December 2018]]
+  * [[groups:tsc:project-updates:caliper-2018-dec|Hyperledger Caliper Update, December 2018]]
+
+
+===== 2018 Q3 Updates =====
+  * [[groups:tsc:project-updates:fabric-2018-jul|Hyperledger Fabric Update, July 2018]]
+  * [[groups:tsc:project-updates:sawtooth-2018-jul|Hyperledger Sawtooth Update, July 2018]]
+  * [[groups:tsc:project-updates:iroha-2018-jul|Hyperledger Iroha Update, July 2018]]
+  * [[groups:tsc:project-updates:composer-2018-aug|Hyperledger Composer Update, August 2018]]
+  * [[groups:tsc:project-updates:indy-2018-aug|Hyperledger Indy Update, August 2018]]
+  * [[groups:tsc:project-updates:burrow-2018-aug|Hyperledger Burrow Update, August 2018]]
+  * [[groups:tsc:project-updates:cello-2018-aug|Hyperledger Cello Update, August 2018]]
+  * [[groups:tsc:project-updates:explorer-2018-sep|Hyperledger Explorer Update, September 2018]]
+  * [[groups:tsc:project-updates:quilt-2018-sep|Hyperledger Quilt Update, September 2018]]
+  * [[groups:tsc:project-updates:caliper-2018-sep|Hyperledger Caliper Update, September 2018]]
+
+
+===== 2018 Q2 Updates =====
+
+  * [[groups:tsc:project-updates:fabric-2018-apr|Hyperledger Fabric Update, Apr 2018]]
+  * [[groups:tsc:project-updates:sawtooth-2018-apr|Hyperledger Sawtooth Update, Apr 2018]]
+  * [[groups:tsc:project-updates:iroha-2018-apr|Hyperledger Iroha Update, Apr 2018]]
+  * [[groups:tsc:project-updates:composer-2018-apr|Hyperledger Composer Update, Apr 2018]]
+  * [[groups:tsc:project-updates:indy-2018-may|Hyperledger Indy Update, May 2018]]
+  * [[groups:tsc:project-updates:burrow-2018-may|Hyperledger Burrow Update, May 2018]]
+  * [[groups:tsc:project-updates:cello-2018-may|Hyperledger Cello Update, May 2018]]
+  * [[groups:tsc:project-updates:explorer-2018-jun|Hyperledger Explorer Update, Jun 2018]]
+  * [[groups:tsc:project-updates:quilt-2018-jun|Hyperledger Quilt Update, Jun 2018]]
+  * [[groups:tsc:project-updates:caliper-2018-jun|Hyperledger Caliper Update, Jun 2018]]
+
+===== 2018 Q1 Updates =====
+
+  * [[groups:tsc:project-updates:fabric-2018-jan|Hyperledger Fabric Update, Jan 2018]]
+  * [[groups:tsc:project-updates:sawtooth-2018-jan|Hyperledger Sawtooth Update, Jan 2018]]
+  * [[groups:tsc:project-updates:iroha-2018-jan|Hyperledger Iroha Update, Jan 2018]]
+  * [[groups:tsc:project-updates:composer-2018-feb|Hyperledger Composer Update, Feb 2018]]
+  * [[groups:tsc:project-updates:indy-2018-feb|Hyperledger Indy Update, Feb 2018]]
+  * [[groups:tsc:project-updates:burrow-2018-mar|Hyperledger Burrow Update, Mar 2018]]
+  * [[groups:tsc:project-updates:cello-2018-mar|Hyperledger Cello Update, Mar 2018]]
+  * [[groups:tsc:project-updates:explorer-2018-mar|Hyperledger Explorer Update, Mar 2018]]
+  * [[groups:tsc:project-updates:quilt-2018-mar|Hyperledger Quilt Update, Mar 2018]]
+
+===== 2017 Q4 Updates =====
+
+  * [[groups:tsc:project-updates:fabric-2017-oct|Hyperledger Fabric Update, Oct 2017]]
+  * [[groups:tsc:project-updates:sawtooth-2017-oct|Hyperledger Sawtooth Update, Oct 2017]]
+  * [[groups:tsc:project-updates:iroha-2017-oct|Hyperledger Iroha Update, Oct 2017]]
+  * [[groups:tsc:project-updates:composer-2017-nov|Hyperledger Composer Update, Nov 2017]]
+  * [[groups:tsc:project-updates:indy-2017-nov|Hyperledger Indy Update, Nov 2017]]
+  * [[groups:tsc:project-updates:burrow-2017-dec|Hyperledger Burrow Update, Dec 2017]]
+  * [[groups:tsc:project-updates:cello-2017-dec|Hyperledger Cello Update, Dec 2017]]
+  * [[groups:tsc:project-updates:explorer-2017-dec|Hyperledger Explorer Update, Dec 2017]]

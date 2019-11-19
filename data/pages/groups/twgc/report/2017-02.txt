@@ -1,0 +1,14 @@
+==== TWG China report for Feb 2017 ====
+
+=== Status ===
+  - Team: The team has collaborated in event organization, developments and other works. 
+  - Meeting: 1 meeting is held with active discussions (with new joiners), all minutes are put on the wiki page. The other meeting is canceled due to sprint festival.
+  - Events: 1 hackathon event is settled in Shanghai; 1 new [[http://www.huodongxing.com/event/1375786308500 | meetup]] is planed at shanghai.
+  - Technical communications: 62 subscribers to mail-list, with 23 msgs. 38 users and 30+ msgs in the rocket chat channel. And we have the official wechat subscription account now.
+  - Technical development: We have new members to contribute to the projects. New contributors from Wanda have 4 new patches in SDK and chaincode.  Wanda is also preparing Javascript support. Will encourage individual/sponsored developers to contribute by helping low the entrance bar.
+  - The i18n team has started to work, with 10 new volunteers.
+
+=== Issues ===
+  - Meeting tools: Need global access number + screen sharing (julian and donald are helping)
+  - i18n work: Need to fix the platform problem.
+  - Forum: Adopt the global one? Or use some local 3rd-party one?

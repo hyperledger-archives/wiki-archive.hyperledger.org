@@ -1,0 +1,9 @@
+
+====== Your Attention Please ======
+
+==== The Hyperledger Healthcare Working Group (HLHCWG) has been renamed to the Hyperledger Healthcare Special Interest Group (HLHC-SIG) ====
+
+
+
+
+Please redirect to our new [[groups:healthcare:healthcare-sig|HLHC-SIG page]].

@@ -1,0 +1,42 @@
+Hyperledger Project\\
+Public Sector Working Group (PSWG) Meeting\\
+September 14, 2018 \\
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/public-sector-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+PSWG Wiki: https://wiki.hyperledger.org/groups/public-sector-wg/public-sector-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+Meeting Notes\\
+
+1. Hyperledger Tools Overview\\
+Bobbi provides an overview of Hyperledger tools: Caliper, Cello, Composer, Explorer, Quilt\\
+Caliper is a benchmarking tool.\\
+Cello is a management toolkit for creating blockchains from scratch. Python based. Provides deep analyticals for best allocation of resources.  \\
+Composer is an application development framework used with Fabric. Set of tools to build networks. Java based. \\
+Explorer is a web based application to allow you to view what’s going on in your blockchain.\\
+Quilt promotes interoperability between blockchains. Can route payments across different ledgers.  \\
+
+2. Hyperledger Explorer and Composer Technical Overview\\
+Waleed El Sayed from 4eyes will lead the call's technical presentation, on Hyperledger Explorer and Composer beginning at 19:00. Composer playground demonstration beginning at 28:00 to 41:00 in the video
+
+Discussion of Waleed’s presentation\\
+
+Group Introductions\\
+
+Planning for next meeting\\
+
+4. Other Topics\\
+
+a) Working at any stage on a project and can discuss it\\
+b) Considering Hyperledger, but have questions, need clarification, or would appreciate advice,\\
+c) Willing to present on a Hyperledger Tool or Framework for the group\\
+
+
+

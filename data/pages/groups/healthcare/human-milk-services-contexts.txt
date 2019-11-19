@@ -1,0 +1,16 @@
+===== Human milk service contexts =====
+  * [[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]] : [[analysis-business|Domain analysis]] : [[analysis-human-milk|Human milk services]]
+  * [[healthcare-wg-wikispace-redesign |Home]] : [[resources|Resources]] : [[analytical_models|Analytical models]] : [[human_milk_services_model|Human milk services model]]
+
+----------
+
+==== Contexts : settings ====
+
+  * [[Home]]
+  * [[Healthcare facility]] : [[Clinic]], [[Acute care facility]], [[Neonatal care unit]], [[Intensive care unit]], [[Inpatient unit]] 
+  * [[Diagnostic laboratory]]
+  * [[Milk bank]]
+  * [[Milk storage facility]], [[Milk depot]]
+  * [[Milk distribution facility]]
+
+

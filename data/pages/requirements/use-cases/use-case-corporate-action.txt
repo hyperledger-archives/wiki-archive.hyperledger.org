@@ -1,0 +1,51 @@
+====== Corporate Action ======
+
+===== Section 1 - Intro =====
+
+==== Overview of the Business Problem or Opportunity ====
+
+Company A announces its intention to raise 2 Billion USD by way of rights issue. Because this is a voluntary action, Company A needs to ensure that complete details of the offer are sent to shareholders in real time, regardless of how many intermediaries are involved in the process (such as receiving/paying agents, CSD, ICSD, local/global custodian banks, asset management firms, etc). Once a shareholder has made a decision, that decision will also be processed and settled (including the new issuance of shares) in real time. If a shareholder sold its rights to a third party, the securities depository must be able to record the new shares under the name of their new rightful owner.
+
+==== Current Solution ====
+
+
+==== Why Distributed Ledger technology? ====
+
+TBD 
+
+==== Opportunity/Justification ====
+
+TBD
+
+----
+
+===== Section 2 - States and Transactions =====
+
+TBD
+
+----
+
+===== Section 3 - Requirements =====
+
+==== General Requirements ====
+
+**Direct communication with asset owners** – ability to allow authorized parties to connect with asset owners without going through third parties.
+  * User Story: E-Fun Inc, a hypothetical gaming company use blockchain to manage its common stock, should be allowed to access the contact information of its investors without going through intermediaries. However, such information must be kept confidential from unauthorized entities monitoring blockchain data and traffics.
+
+**Selective Dissemination of Information** – ability to alert asset owners of corporate action events, and provide them necessary information and mechanism for them to perform follow up action.
+  * User Story: In an annual general meeting, E-Fun Inc’s board of directors come up with a list of proposals that would require voting approval from its shareholders. E-Fun can use blockchain to pass the voting method and related information to its shareholders.
+
+**Ability to transact actions** － Be able to transact actions made by asset owners back to asset issuer promptly and securely.
+  * User Story: Alice decided to vote “Yes” on all proposals made by E-Fun’s board, and her vote shall be sent back to E-Fun’s board through blockchain in near real time without the involvement of third party intermediaries.
+
+
+==== Privacy Requirements ====
+
+**Confidentiality of actions** – Asset owners shall be able to take actions without fearing their identity being exposed, or fear coercion or retribution based on their actions.
+  * User Story: Alice shall be able to vote anonymously in a proxy voting setting, so that she can vote based on the merit of the proposals without influence and pressure from management to her decision (e.g. confidential voting). 
+
+**Confidentiality of user information** - Allow users to put confidential information on blockchain (such as their contact information and payment information), and such information can only be read/decrypted by authorized entities
+
+----
+==== External References ====
+TBD

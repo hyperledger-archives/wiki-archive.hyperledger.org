@@ -1,0 +1,70 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Composer
+
+===== Project Health =====
+We are continuing to deliver weekly releases of new features and bug fixes to the community. The community are regularly opening bugs in our GitHub repository, and they are being turned around quickly. We are also receiving and answering a significant number of questions on both Rocket.Chat and Stack Overflow. We are seeing a noticeable uptick in new contributors to the project, however contributions are mostly limited to documentation updates at this time.
+
+===== Issues =====
+There are no issues at this time.
+
+
+===== Releases =====
+We are delivering weekly releases of new features and bug fixes to the community. The information about each release is available in GitHub in the release notes:
+https://github.com/hyperledger/composer/releases
+
+
+===== Overall Activity in the Past Quarter =====
+We see very little activity on the project mailing lists. We see significant amounts of activity on Rocket.Chat, Stack Overflow, and GitHub issues. In IBM, we have two team members dedicated to providing assistance to end users on Rocket.Chat and Stack Overflow (Paul O'Mahoney and Rob Thatcher) and they regularly and quickly answer all questions. We are also starting to see other people in the community regularly answer questions as well, which is a good step forwards. The current contributors are also good at responding to comments GitHub issues in a timely manner.
+
+We have been regularly delivering new features over the last three months. Some of the key features delivered to end users are:
+
+  * Completed support for business network cards in the CLI and APIs.
+  * Support for Hyperledger Fabric v1.1 preview/alpha builds.
+  * Node.js 8 and ES7 support for transaction processor functions.
+
+===== Current Plans =====
+We are starting to work towards a version of Composer that would be suitable for a v1.0 release. This has been made possible thanks to the delivery of the Fabric v1.1 preview/alpha builds, which give us a "standard" Node.js runtime environment. 
+
+There are a set of big features being worked on by the team at the moment. These are being managed under an "improvement proposal" process and can be found using the following link: https://github.com/hyperledger/composer/issues?q=is%3Aopen+is%3Aissue+label%3A%22improvement+proposal%22
+
+The key features for end users are:
+
+  * Ability to require external modules and dependencies from a transaction processor function (#3169)
+  * Native Fabric deployment and governance, made possible by Fabric v1.1 (#3160)
+  * Automated CouchDB index generation and creation (#3152)
+  * Improving and completing the Angular application generator (#3136)
+  * Improving and simplifying our vehicle lifecycle demo (#3130)
+  * Documentation generation for model files (#3126)
+  * Ability to store business network cards anywhere, "cloud wallets" (#3121)
+  * Exposing the underlying native Fabric smart contract API, made possible by Fabric v1.1 (#3120)
+  * Providing a standard HTTP client for use in a transaction processor function (#3092)
+
+In addition, we are doing some additional work which will benefit end users and contributors alike:
+
+  * Migration of CI builds to Jenkins, to provide additional platform support - for example Windows (#3134)
+  * Automated performance testing (#3125)
+  * Data collection tool to collect information for use in bug analysis/problem determination (#3051)
+
+===== Maintainer Diversity =====
+No new maintainers since the last project update. The current set of maintainers are:
+
+  * Caroline Church, IBM
+  * Daniel Selman, Clause
+  * Simon Stone, IBM
+
+===== Contributor Diversity =====
+Contributions have been received from the following organisations in the 3 months since the last update:
+
+  * IBM (numerous)
+  * Clause (dselman)
+  * Canonical (elopio)
+  * Skcript (varun-raj, nav_devl)
+  * Hyperledger (ryjones)
+  * Unknown (lucasdf, vitorduarte, krtk6160, saichaitanya88)
+
+===== Additional Information =====
+//**Optional** Please provide any additional information that you feel would be useful for TSC to be aware.//
+
+ 

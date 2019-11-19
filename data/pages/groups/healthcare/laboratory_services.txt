@@ -1,0 +1,10 @@
+===== Laboratory services =====
+  * [[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]] : [[analysis-business|Domain analysis]] : [[analysis-human-milk|Human milk services]]
+  * [[healthcare-wg-wikispace-redesign |Home]] : [[resources|Resources]] : [[analytical_models|Analytical models]] : [[human_milk_services_model|Human milk services model]]
+
+----------
+
+=== Laboratory services ===
+{{ :groups:healthcare:human_milk_services_-_laboratory_services.jpg }}
+
+ 

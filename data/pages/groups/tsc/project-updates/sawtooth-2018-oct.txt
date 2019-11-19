@@ -1,0 +1,82 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Sawtooth
+https://sawtooth.hyperledger.org/examples/
+
+===== Project Health =====
+The state of the Sawtooth is good.
+
+We are preparing for our 1.1 release this month. 
+New features are being developed and released.
+
+New features: 
+  * PBFT Consensus - [[https://github.com/hyperledger/sawtooth-pbft]]
+  * Raft Consensus - [[https://github.com/hyperledger/sawtooth-raft]]
+  * Getting //RUSTY//: Continuing porting internal components from python->rust
+  * Smart Permissions for Sabre:[[https://github.com/hyperledger/sawtooth-sabre]]
+  * Support and documentation for  [[https://sawtooth.hyperledger.org/docs/core/nightly/master/app_developers_guide/creating_sawtooth_network.html?highlight=kubernetes#proc-multi-kube-label|running in Kubernetes]]
+  * Extensive documentation updates
+  * The SDK (besides Python and Rust) have been split out into their own repos
+
+Sawtooth Next Directory has been very active.
+  
+
+===== Issues =====
+Prior Issues
+  * Disconnection between TSC and projects. //Continuing to improve//.
+  * Maintainer access to project page managed by LF. //Inconclusive//.
+  * Increase in PR backlog given increased submissions. //No change//.
+  * Porting build from Intel provided servers to LF/HL. //No change//.
+
+New Issues
+  * As the community grows communication becomes a risk. We’ve dropped a sprint planning call and there is currently no single meeting that gathers all maintainers.
+
+===== Releases =====
+  * 1.0.5 July - bug fixes
+  * 1.0.6 - Cancelled in favor of 1.1. 
+  * 1.1-RC1 Sept - Developer Preview - We have made a 1.1 branch, but this will not be published release. 
+    Next release will be the 1.1 release, coming soon. 
+
+
+===== Overall Activity in the Past Quarter =====
+  * Chat activity continues to increase.
+  * listserv traffic remains light.
+  * Very positive reaction to Application Developer weekly calls.
+  * We have added an Asia-friendly timeslot.
+
+See community calendar [[https://wiki.hyperledger.org/community/calendar-public-meetings]] for occurrences of our 
+  * Tech Forum
+  * Application Developer Support
+
+
+===== Current Plans =====
+Sawtooth 1.1 targeting October timeframe to include:
+  * Hyperledger Indy collaboration on Plenum replacement
+  * Performance enhancements via Rust port
+  * Multi-language Consensus support
+  * Raft (also performance)
+  * Enhanced documentation
+
+With PoET2 and PBFT being added later as they are completed.
+
+Working is being done to get Sabre to a 1.0 as well as adding functionality around “Smart Permissions”. 
+
+Continuation of converting Sawtooth-Core to rust. 
+
+Discussion at Montreal (and copied to mail list) about evolutionary testnets. The initial goal is to expand out of LR7 integration testing to identify stability issues. Progress from that to developer and security-centric testnets (i.e. app deployment testing and penetration testing).
+
+
+===== Maintainer Diversity =====
+Maintainers are roughly evenly distributed across Bitwise.io, Cargill, Intel, and T-Mobile
+
+
+===== Contributor Diversity =====
+  * Commits    from 2018-07-01 to 2018-10-01 :  1114
+  * Committers from 2018-07-01 to 2018-10-01 :  35
+  * Domains    from 2018-07-01 to 2018-10-01 :  8
+
+===== Additional Information =====
+
+
+ 

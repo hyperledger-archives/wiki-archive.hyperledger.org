@@ -1,0 +1,42 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+HYPERLEDGER EXPLORER
+
+===== Project Health =====
+Project health is green. We released Tag v0.3.6 of HL Explorer for Fabric 1.2. We use all of the following to help keep project health green: JIRA, RocketChat, email, Gerrit, Jenkins, GitHub, Zoom, Skype. Questions asked via rocket-chat are being answered in a timely manner. For greater efficiency in this regard a FAQs page was checked in into the repository during this quarter which is updated with every check in. Daily scrum meetings. Good mix of backgrounds of contributors, from front-end to back-end expertise.
+
+
+===== Issues =====
+There are no issues at this time.
+
+
+===== Releases =====
+v0.3.6: Release 3.6 of blockchain explorer was put out on Friday August 31st, 2018 which is in support of Fabric 1.2
+
+v0.3.5: Release 3.5 of Explorer was put out a couple of weeks ago as a stable release for fabric 1.1.
+
+
+===== Overall Activity in the Past Quarter =====
+In this quarter (July-September) we aimed to make the fabric 1.1 compliant version of Explorer more complete and stable. Fabric Cello and Composer setup instructions were added. Containerization of explorer was achieved. Project was restructured to allow for cross-platform use of Explorer at some point. More details [[https://github.com/hyperledger/blockchain-explorer/blob/master/release_notes/v0.3.5.md]] .
+
+Meanwhile on a branch we were developing fabric 1.2 compliant code which was released recently. Data sync from ledger was made flexible to allow running from app or run standalone. More details [[https://github.com/hyperledger/blockchain-explorer/blob/master/release_notes/v0.3.6.md]]. 
+
+
+===== Current Plans =====
+Make sure non-TLS support still exists. Bug fixes. 
+Look into upcoming fabric 1.3 release support in Explorer.
+
+
+===== Maintainer Diversity =====
+Active maintainers are only from DTCC.
+
+
+===== Contributor Diversity =====
+Currently we have active contributors from DTCC, Fujitsu, Caixa Bank, Technalia and recently we had someone from Altoros join.
+
+
+===== Additional Information =====
+NONE
+
+ 

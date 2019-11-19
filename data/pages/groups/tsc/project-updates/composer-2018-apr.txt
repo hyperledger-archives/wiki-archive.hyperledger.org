@@ -1,0 +1,55 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Composer
+
+===== Project Health =====
+We are continuing to deliver weekly releases of new features and bug fixes to the community. The community are regularly opening bugs in our GitHub repository, and they are being turned around quickly. We are also receiving and answering a significant number of questions on both Rocket.Chat and Stack Overflow. We are continuing to see an uptick in new contributors to the project, however contributions are mostly limited to documentation updates at this time.
+
+===== Issues =====
+There are no issues at this time.
+
+
+===== Releases =====
+We are delivering weekly releases of new features and bug fixes to the community. The information about each release is available in GitHub in the release notes:
+https://github.com/hyperledger/composer/releases
+
+
+===== Overall Activity in the Past Quarter =====
+We see very little activity on the project mailing lists. We see significant amounts of activity on Rocket.Chat, Stack Overflow, and GitHub issues. In IBM, we have two team members dedicated to providing assistance to end users on Rocket.Chat and Stack Overflow (Paul O'Mahoney and Rob Thatcher) and they regularly and quickly answer all questions. We are continuing to see other people in the community regularly answer questions as well, which is a good step forwards. The current contributors are also good at responding to comments GitHub issues in a timely manner.
+
+We have delivered a significant release in the last three months, Composer v0.19.0. This release is significant because it includes a completed set of features that we think mean Composer is ready for production. Those features are:
+
+  * Exploiting the Node.js chaincode support in Fabric v1.1, which allows Composer to run in the industry standard JavaScript VM. Previously, we used a lesser known, and less capable, JavaScript interpreter called Duktape. This also gives us ES7 support for transaction processor functions.
+  * Deploying Composer business network archives in the same way as Fabric chaincode, allowing proper approval and governance of first time deployment and subsequent updates. Previously, anyone could update the business network archive without manual approval/sign-off from the other members of the network.
+  * Automatically creating CouchDB indexes that give Composer users performant queries of assets and participants recorded on the ledger straight after deployment, without them having to perform any manual post-deployment configuration.
+  * A plugin mechanism and several plugins that allows Composer users to store their business network cards (containing blockchain identities and connection information) anywhere, instead of the just the local file system - we call this "cloud wallets". 
+  * Exposing the underlying Fabric chaincode and application programming APIs through the Composer APIs, allowing Composer users to "drop down" and use all of the functionality available in the Fabric APIs. This has been done in a generic way, maintaining our ability to be ported to other blockchain platforms.
+  * Exposing the Node.js "request" module to transaction processor functions, allowing users to develop code that calls out from the smart contract to external systems, such as databases or other HTTP/RESTful APIs.
+  * Significant improvements to the Angular application generator, which mean the generated application is much more capable in terms of the Composer features that it demonstrates, and that it also looks pretty good now!
+  * Data collection tool to collect system information and logs to aid the Composer community in diagnosing problems and bugs reported by Composer users.
+
+We also received a sizable external contribution from nicolapaoli to add API key support to the Composer REST server, allowing Composer users to secure their REST APIs in a easy fashion without having to use an external authentication system such as LDAP or OAuth2. This is the biggest contribution from someone outside the core contributor team we have seen to date!
+
+===== Current Plans =====
+As discussed on previous TSC calls, we would like to work towards a Composer v1.0 release. We think that v0.19.0 is a great base for a v1.0, and are currently focusing on outstanding bug fixes and test debt to harden the codebase whilst we let the community try it out. We are working through the outstanding legal concerns (around copyright/license headers etc) and are awaiting the external security audit which begins in May.
+
+===== Maintainer Diversity =====
+No new maintainers since the last project update. The current set of maintainers are:
+
+  * Caroline Church, IBM
+  * Daniel Selman, Clause
+  * Simon Stone, IBM
+
+===== Contributor Diversity =====
+Contributions have been received from the following organisations in the 3 months since the last update:
+
+  * IBM (numerous)
+  * Evrone (npenzin)
+  * AID:Tech (nicolapaoli)
+  * Unknown (emailnjv, zachgoll, nerogit)
+
+===== Additional Information =====
+//**Optional** Please provide any additional information that you feel would be useful for TSC to be aware.//
+
+ 

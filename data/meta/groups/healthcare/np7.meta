@@ -1,0 +1,23 @@
+a:2:{s:7:"current";a:8:{s:4:"date";a:2:{s:7:"created";i:1533837501;s:8:"modified";i:1533837672;}s:7:"creator";s:15:"Jennifer DeVivo";s:4:"user";s:11:"raynedevivo";s:11:"last_change";a:7:{s:4:"date";i:1533837672;s:2:"ip";s:13:"173.23.232.73";s:4:"type";s:1:"E";s:2:"id";s:21:"groups:healthcare:np7";s:4:"user";s:11:"raynedevivo";s:3:"sum";s:0:"";s:5:"extra";s:0:"";}s:11:"contributor";a:1:{s:11:"raynedevivo";s:15:"Jennifer DeVivo";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}s:11:"description";a:1:{s:8:"abstract";s:503:"Hyperledger Project
+
+Healthcare Working Group (HCWG) Patient Subgroup Meeting
+
+June 29, 2018 
+
+
+Resources:
+
+Chat:  <https://chat.hyperledger.org/channel/healthcare-wg> (you can use your LFID to login)
+
+Github:  <https://github.com/hyperledger>
+
+Wiki:  <https://wiki.hyperledger.org>
+
+HCWG Wiki: <https://wiki.hyperledger.org/groups/healthcare/healthcare-wg> 
+
+Public lists:  <https://lists.hyperledger.org>
+
+Meetings:  <https://wiki.hyperledger.org/community/calendar-public-meetings> 
+
+
+Linux Founda…";}s:8:"relation";a:1:{s:10:"firstimage";s:0:"";}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1533837501;s:8:"modified";i:1533837672;}s:7:"creator";s:15:"Jennifer DeVivo";s:4:"user";s:11:"raynedevivo";s:11:"last_change";a:7:{s:4:"date";i:1533837672;s:2:"ip";s:13:"173.23.232.73";s:4:"type";s:1:"E";s:2:"id";s:21:"groups:healthcare:np7";s:4:"user";s:11:"raynedevivo";s:3:"sum";s:0:"";s:5:"extra";s:0:"";}s:11:"contributor";a:1:{s:11:"raynedevivo";s:15:"Jennifer DeVivo";}}}

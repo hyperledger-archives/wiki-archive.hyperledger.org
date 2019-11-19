@@ -1,0 +1,78 @@
+Changes are required to migrate from github wiki's .md format to docuwiki's format. The following types of conversions had to be applied:
+
+<code>
+
+1. Highlighting
+
+   A) _ italic _ --> // italic //
+      Regex replace: \_(.+)\_
+      with: //$1//
+
+    B) <b> bold </b> --> **bold**
+
+2. Section headers
+
+    A) # header --> ====== header ======
+       E.g., Regex replace:^## (.+)$
+       with:===== $1 =====
+         
+    B) The section header hierarchy indicator assumptions are reversed:
+       Docuwiki has six markers for H1; github wiki has one
+
+    C) The Page title is inside the body; GitHub has separate text field
+
+    D) GitHub pages skip levels of headings: we can fix this during migration
+
+3. Tables
+
+    A) Header row post-row indicator ==== --> Header row ^ cell prefix
+
+    B) Vertical spanning cells are now indicated by ...
+
+    C) Docuwiki's WYSIWYG table editor doesn't seem to allow marking of cells as headers
+    
+    D) Rows require a leading pipe separator in Docuwiki
+    
+    E) Docuwiki treats flush pipe separators as spanning cells rather than empty cells as in github wiki
+
+4. URLs
+
+    A) (link text | URL) --> [[ URL | link text]]
+       Regex replace:\[([^\]]+)\]\(([^\)]+)\)
+       with:[[$2 | $1]]
+
+5. Bullet Lists
+
+    A) Docuwiki requires two leading spaces on each list line;
+       Github wiki md is ok with zero leading spaces
+       Regexp replace:^\* (.+)$
+       with:  \* $1
+       
+    B) Docuwiki requires two spaces to separate hierarchical lists' levels;
+       Github requires four
+
+    C) DocuWiki does not support hyphens as prefixes for each list line;
+       use space space star instead
+       Regexp replace: ^\-(.+)$
+       with:  \*$1
+
+6. Section Separators
+
+   A) *** --> ----
+      Regex replace:\*\*\*
+      with:----
+
+7. Footnotes
+   A) xyz*
+      * this is a footnote describing xyz that is manually kept at the bottom of a github wiki page
+      becomes an inline footnote in docuwiki:
+      xyz (( this is a footnote describing xyz ))
+
+</code>
+
+----
+
+Syntax page for docuwiki is: https://www.dokuwiki.org/wiki:syntax
+
+Syntax page for github wiki .md (markdown) is: https://guides.github.com/features/mastering-markdown/#syntax
+

@@ -1,0 +1,327 @@
+*This is an on-going work from the Protocol Workgroup.*
+
+### Blockchain Protocol
+
+#### Abstract
+This document specifies the proposed blockchain protocol for the Hyperledger project. https://hyperledger.org
+
+The specification outlines the architecture of the protocol and its functionality, including transport, encode, message structures, message flows, message processing instructions, message formats, and semantics.
+
+#### Copyright Notice
+
+
+#### Table of Contents
+
+#### 1. Introduction
+
+#### 1.1. Terminology
+
+#### 1.2. Example of Transaction Flow - Jeremy Sevareid
+
+The following excerpt is taken from the Post-Trade use case being developed by the Requirements Working Group for a type of post-trade settlement in capital markets. The URL is https://github.com/hyperledger/hyperledger/wiki/Use-Case-Post-Trade
+
+Delivery versus payment, or DvP, is a common form of settlement for securities trading. During the settlement process, obligations incurred during the trading process are met. Specifically, the physical delivery and/or book-keeping transfers of securities and of cash agreed to during trading occurs.
+
+In this example, Alice and Bob have previously agreed to trade securities for cash. They have agreed to settle the trade via DvP on the ledger. They have put these items of value--the securities and the cash--onto the ledger through Trent, a mutually-trusted third-party custodian.
+
+
+User	|As a . . .	|Wants to . . .		|Because . . .          |
+--------|---------------|-----------------------|-----------------------|
+Alice	|Seller of Securities			|Sell securities for cash in a contingent all-or-nothing exchange									|She wants to minimize the risk that she delivers the agreed-upon securities into Bob's account but he fails to transfer the agreed-upon cash into her account
+Bob	|Buyer of Securities			|Buy securities with cash in a contingent all-or-nothing exchange									|He wants to minimize the risk that he pays the agreed-upon cash into Alice's account but she fails to deliver the agreed-upon securities into his account
+Trent	|Custodian of Cash and Securities	|Provide all-or-nothing exchange of securities and cash if and only if matching delivery and payment instructions are received		|Alice and Bob need a trusted third party to act as a settlement intermediary to minimize Alice's cash payment risk and Bob's securities delivery risk
+
+
+
+~~~
+Steps 1,2	Alice and Bob fund their on-ledger locations through DvPs that Trent attests to.
+Step 3		The all-or-nothing exchange of Alice's on-ledger securities for Bob's on-ledger cash occurs.
+Steps 4,5	Alice and Bob withdraw their on-ledger locations through DvPs that Trent attests to.
+~~~
+
+Each DvP has two legs. Each leg is a transfer of a quantity of cash or securities from one location to another. The two legs of a single DvP are processed as one - a single, indivisible atomic step. If and only if both legs are valid, do they go through. If either is invalid, then neither is applied.
+
+Step	|Leg1_Source_Location							|Leg1_Type								|Leg1_Quantity					|Leg1_Destination_Location	|Leg2_Source_Location		|Leg2_Type		|Leg2_Quantity	|Leg2_Destination_Location					|Signatories_to_Transfer
+--|--|--|--|--|--|--|--|--|--
+1	|Foreign Key of Bob's Off-Ledger Cash Account with Trent			|Foreign Key of Bob's Off-Ledger Funding Transaction with Trent		|Foreign Key of Bob's Off-Ledger Quantity	|OFF_LEDGER_LOCATION_FLAG	|OFF_LEDGER_LOCATION_FLAG	|USD			|10,000,000.00	|Bob's_On-Ledger_Location					|Bob, Trent
+2	|Foreign Key of Alice's Off-Ledger Securities Account with Trent		|Foreign Key of Alice's Off-Ledger Funding Transaction with Trent	|Foreign Key of Alice's Off-Ledger Quantity	|OFF_LEDGER_LOCATION_FLAG	|OFF_LEDGER_LOCATION_FLAG	|T-BILL			|10		|Alice's_On-Ledger_Location					|Alice, Trent
+3	|Alice's_On-Ledger_Location						|T-BILL									|10						|Bob's_On-Ledger_Location	|Bob's_On-Ledger_Location	|USD			|10,000,000.00	|Alice's_on-ledger_location					|Alice, Bob, Trent
+4	|Alice's_On-Ledger_location						|USD									|10,000,000.00					|OFF_LEDGER_LOCATION_FLAG	|OFF_LEDGER_LOCATION_FLAG	|OFF_LEDGER_TYPE_FLAG	|10,000,000.00	|Foreign Key of Alice's Cash Account with Trent			|Alice, Trent
+5	|Bob's_On-Ledger_Location						|T-BILL									|10						|OFF_LEDGER_LOCATION_FLAG	|OFF_LEDGER_LOCATION_FLAG	|OFF_LEDGER_TYPE_FLAG	|10		|Foreign Key of Bob's |Off-Ledger Securities Account with Trent	|Bob, Trent
+
+
+#### 1.3 Proposed Transaction Flow - Andrew Bransford Brown
+
+This conforms to contract law and will describe any transaction in any form of value, with any number of equilateral participants.
+
+Selling stock:
+
+CommerceID     |EventType     |Description
+---------------|--------------|------------
+MyID           |Offer         |1000 shares of IBM stock
+MyID           |Terms         |2000 Great Britain Pounds
+
+
+Buying stock:
+
+CommerceID     |EventType     |Description
+---------------|--------------|------------
+MyID           |Offer         |2000 Great Britain Pounds
+MyID           |Terms         |1000 shares of IBM stock
+
+
+NOTE: the structure of both the Selling and Buying is identical.
+
+The Offer & Terms are separate events in what I term a "transaction stack".  A legal offer does not exist until the Terms event.  Alternative "Terms" are allowed, to accept other forms of value.  
+
+A matching Offer:
+
+CommerceID     |EventType     |Description
+---------------|--------------|------------
+YourID         |Offer         |2000 Great Britain Pounds
+Your           |Terms         |1000 shares of IBM stock
+OR|
+YourID        | Accept
+
+That creates a legal binding contract.
+
+CommerceID     |EventType     |Description
+---------------|--------------|------------
+MyID           |Deliver       |1000 shares of IBM stock
+YourID         |Deliver       |2000 Great Britain Pounds
+
+This completes the contract, including negotiation and settlement.  It's an audit trail and a complete description of the transaction.  The events can easily be rolled up into any accounting structure or displayed as a real-time exchange with Bid/Ask.
+
+
+One UI for this transaction flow could be called a Contract Scripting Language (CSL).  
+
+An example of a 3-party equilateral contract:
+
+Scenario:
+~~~
+Andrew has Dollars and wants Yen.
+Matthew has British Pounds and wants Dollars.
+Since we have non-matching value, we advertise on Bank of England's settlement book and also market it on Forex.
+Bank of Japan sees the opportunity and translates the value.
+~~~
+
+Contract script:
+
+CommerceID     |EventType     |Description
+---------------|--------------|------------
+Andrew         |Offer           |2,000 USD
+Andrew         |Terms           |200,000 JPY
+Computer       |Notice          |"This is a legal binding offer from Andrew."
+||
+Matthew        |Offer           |1,500 GBP
+Matthew        |Terms           |2,000 USD
+Computer       |Notice          |"This is a legal binding offer from Matthew."
+||
+Andrew         |Terms           |210,000 JPY
+Andrew         |Counter
+Computer       |Notice          |"Terms-value change from Andrew."
+||
+Matthew        |Terms-Advertise Bank of England
+Matthew        |Counter
+||
+Andrew         |Terms-Advertise Forex
+Andrew         |Terms-Advertise Bank of England
+Andrew         |Counter
+||
+Bank of Japan  |Offer           |210,000 JPY
+Bank of Japan  |Terms           |1,500 GBP
+Computer       |Notice          |"This is a 3-party equilateral contract between Andrew, Matthew, and Bank of Japan."
+||
+Andrew         |Deliver         |2,000 USD
+Matthew        |Deliver         |1,500 GBP
+Bank of Japan  |Deliver         |210,000 JPY
+Computer       |Notice          |"Contract complete"
+||
+Andrew         |Complete
+Matthew        |Complete
+Bank of Japan  |Complete
+
+
+NOTE: Computer is performing as the lawyer above.  This introduces the idea of Computer as a legal entity.  If one creates a contract creating a currency as above, the Computer enters into a contract with a Human with specific Terms, such as the Human must keep the computer running and the Computer must keep the ledger.
+
+
+#### 2. Protocol Architecture
+
+##### Layers
+
+It is critical to identify separation of duties among layers. This will assist with, for example, evaluating whether or not an alternative transport might be possible such as message queues (MQ), publish-subscribe (pub-sub) or multi-cast over UDP.
+
+###### Application
+
+Application layer is responsible for defining business level interactions required to implement a particular use case. It would, generally, describe protocols for multiple parties to leverage the blockchain without explicitly talking about the communication and storage needs. Term `transaction` is this context refers to business transactions between the specified participants.
+
+These protocols will vary depending on a use case and are out of scope for this document.
+
+###### Messaging
+
+Messaging portion of the specification should include both message flows and message definitions (fields and types). These are the messages required to enable application level transactions within the blockchain. Term `transaction` is traditionally used in this context to describe an entry on a ledger or a state machine transition.
+
+Depending on the definition language we choose, it may also specify encoding (e.g. if protobuf format is used). Eventually, we may consider using a more formal definition language for this, such as ABNF (RFC5234).
+
+###### Encoding
+	
+Message encoding specification should describe unambiguously the types of data used in all messages. It may also define the format of the data on the wire, assuming this format is not dictated by the choice of transport.
+
+###### Transport
+
+Transport is responsible for communicating encoded messages among the participants. Communication may be over: network, inter-process, inter-thread. Some transports require specific encoding to be used, e.g. gRPC uses protobuf.
+
+##### Types of Errors
+
+- gRPC-style
+
+#### 2.1. Messaging Model
+- Request/Response
+- Streaming
+- Broadcast
+
+#### 2.2. State Machine
+- Hello -> Transfer -> Operation -> Terminate
+
+#### 2.3. Message Flows
+- Normal
+- Error
+
+#### 3. Protocol Specification
+
+#### 3.1. Overall Structure
+- header, payload, extension (application or implementation specific area)
+
+#### 3.2. Message Types
+- Handshake
+
+~~~
+message Hello {
+    
+    // ID of the peer
+    bytes id = 1;
+
+    // Address of the peer
+    bytes address = 2;
+
+    // Type of peer
+    bytes type = 3;
+
+    // PKI ID of peer
+    bytes pkiID = 4;
+
+    // Current block hash
+    bytes currentBlockHash = 5;
+
+    // Current chain height
+    bytes chainHeight = 6;
+
+}
+~~~
+
+- Synchronization
+- Transaction
+~~~
+// A proposal for a Transaction
+message Proposal {
+
+    // Signing of hash of all other properties in the message
+    bytes signature = 1;
+
+    // A version for identifying the format of this transaction
+    int32 version = 2;
+
+    // The ID of the peer that submitted this proposal
+    bytes peerID = 3;
+
+    // An ID indicating the originator of this proposal
+    bytes onBehalfOf = 4;
+
+    // Indicate delivery address of this transaction, such as a contract, account, endorser, etc.
+    bytes deliverTo = 5;
+
+    // The payload of the proposal
+    bytes payload = 6;
+
+    // Script that is associated with the proposal
+    bytes script = 7;
+
+    // Simulation results of this proposal
+    bytes simulationResults = 8;
+
+    // Certificate associated with this proposal
+    bytes certificate = 9;
+
+    // Nonce for this proposal
+    bytes nonce = 10;
+
+}
+
+// An endorsement of a Proposal
+message Endorsement {
+
+    // Signing of the Proposal hash
+    bytes signature = 1;
+
+}
+
+// The transaction to be sent to consensus
+message Transaction {
+
+    // Signing of hash of all other properties in the message
+    bytes signature = 1;
+
+    // Proposal
+    Proposal proposal = 2;
+
+    // The endorsed proposals
+    repeated Endorsement endorsements = 3;
+
+}
+~~~
+- Consensus
+- Status codes
+
+#### 3.3. Requests and Responses
+- For each message types, describe structure of request and response
+
+#### 3.4. Encoding and Operation
+- Establish connection
+- Encode/decode message structures
+- Example for each interaction
+
+#### 4. Data and Identity Protection for Entities
+
+#### 5. Guidelines for Extending
+
+#### 6. REST API
+
+A basic common REST API between Hyperledger projects will help to facilitate the ability to build common tools and user interfaces.
+
+TODO - define responses
+
+- /chain
+- /block/<number>
+- /transaction/<id>
+- /statistics
+- /network
+
+#### 7. References
+
+- Protocol implementation.  Binh Q Nguyen, Elli Androulaki, Angelo De Caro, Sheehan Anderson, Manish Sethi, Thorsten Kramp, Alessandro Sorniotti, Marko Vukolic, Florian Simon Schubert, Jason K Yellick, Konstantinos Christidis, Srinivasan Muralidharan, Anna D Derbakova, Dulce Ponceleon, David Kravitz, Diego Masini. https://github.com/hyperledger/fabric/blob/master/docs/protocol-spec.md (Accessed 2016-07-12). "This document is the protocol specification for a permissioned blockchain implementation for industry use-cases. It is not intended to be a complete explanation of the implementation, but rather a description of the interfaces and relationships between components in the system and the application." 
+
+- "Protocol buffers are a language-neutral, platform-neutral extensible mechanism for serializing structured data."	https://developers.google.com/protocol-buffers/ (Accessed 2016-06-28).
+
+- "Protocol Buffers Version 3 Language Specification." https://developers.google.com/protocol-buffers/docs/reference/proto3-spec/ (Accessed 2016-06-28).
+
+- Suggested reference model for semantics and definitions of types of errors - "Error Handling." http://www.grpc.io/docs/guides/error.html (Accessed 2016-06-28).
+
+- "IP multicast." From Wikipedia, the free encyclopedia. https://en.wikipedia.org/w/index.php?title=IP_multicast&oldid=721325368  (Accessed 2016-06-28).
+
+- "Augmented BNF for Syntax Specifications: ABNF". Crocker & Overell. RFC 5234. https://tools.ietf.org/html/rfc5234  (Accessed 2016-07-05). Potentially useful for formal grammar syntax definitions meant to minimize potential for ambiguity.
+
+- "ISO 15022 Data Field Dictionary" International Organization for Standardization. http://www.iso15022.org/  (Accessed 2016-07-05).  Potentially useful example for semantic meaning of business layer message fields.
+
+- "Technical Resources / Specifications" FIX Trading Community. http://www.fixtradingcommunity.org/pg/structure/tech-specs/fix-protocol%20  Accessed 2016-07-05.  Potentially useful example for splitting out of protocol layers (e.g., application, presentation, session) and for concerns (e.g., possible duplicates/resends) and for semantic meanings for business layer messages.
+
+- "Digital Currency/Blockchain Working Group". Fix Trading Community. http://www.fixtradingcommunity.org/pg/workinggroup/2410076/digital-currencyblockchain-working-group/  (Accessed 2016-07-05).  "The mission of FIX Trading Digital Currency Working Group is to identify, analyze and define use cases and integration points for digital currency and distributed ledger technologies across the spectrum of capital markets requirements, and recommend best practices for FIX implementation and usage of this emerging technology in financial markets."

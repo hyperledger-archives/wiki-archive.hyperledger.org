@@ -1,0 +1,30 @@
+a:2:{s:7:"current";a:8:{s:4:"date";a:2:{s:7:"created";i:1540439474;s:8:"modified";i:1540443675;}s:7:"creator";s:13:"Mikhail Elias";s:4:"user";s:8:"melias11";s:11:"last_change";a:7:{s:4:"date";i:1540443675;s:2:"ip";s:14:"190.148.78.189";s:4:"type";s:1:"e";s:2:"id";s:31:"groups:healthcare:design_models";s:4:"user";s:8:"melias11";s:3:"sum";s:0:"";s:5:"extra";s:0:"";}s:5:"title";s:13:"Design models";s:11:"description";a:2:{s:15:"tableofcontents";a:10:{i:0;a:4:{s:3:"hid";s:13:"design_models";s:5:"title";s:13:"Design models";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:1;a:4:{s:3:"hid";s:25:"physical_virtual_contexts";s:5:"title";s:27:"Physical & virtual contexts";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:2;a:4:{s:3:"hid";s:39:"human_peer-agent_communication_channels";s:5:"title";s:41:"Human & peer-agent communication channels";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:3;a:4:{s:3:"hid";s:18:"agent_roles_groups";s:5:"title";s:20:"Agent roles & groups";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:4;a:4:{s:3:"hid";s:30:"peer_ledgers_world_state_model";s:5:"title";s:32:"Peer ledgers & world state model";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:5;a:4:{s:3:"hid";s:30:"actor-peer_interaction_control";s:5:"title";s:32:"Actor-peer interaction & control";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:6;a:4:{s:3:"hid";s:28:"activity_state_control_model";s:5:"title";s:28:"Activity state control model";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:7;a:4:{s:3:"hid";s:23:"peer_control_flow_model";s:5:"title";s:23:"Peer control flow model";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:8;a:4:{s:3:"hid";s:16:"activity_metrics";s:5:"title";s:16:"Activity metrics";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:9;a:4:{s:3:"hid";s:16:"administer_peers";s:5:"title";s:16:"Administer peers";s:4:"type";s:2:"ul";s:5:"level";i:3;}}s:8:"abstract";s:329:"Design models
+
+	*  Home : Activities :  Technical solutions : Human milk POC
+	*  Home : Resources
+
+----------
+
+Physical & virtual contexts
+
+
+
+Physical hosts and host spaces
+
+
+
+Hosted agents model
+
+
+
+Peer-agent world state model
+
+
+
+----------
+
+Human & peer-agent communication channels
+
+
+
+Peer communication channels & peer groups";}s:8:"relation";a:3:{s:10:"references";a:5:{s:50:"groups:healthcare:healthcare-wg-wikispace-redesign";b:1;s:28:"groups:healthcare:activities";b:1;s:37:"groups:healthcare:technical-solutions";b:1;s:32:"groups:healthcare:human-milk-poc";b:1;s:27:"groups:healthcare:resources";b:1;}s:5:"media";a:20:{s:50:"groups:healthcare:physical-grid-virtual-spaces.jpg";b:1;s:34:"groups:healthcare:hosts-spaces.jpg";b:1;s:40:"groups:healthcare:humans-grid-agents.jpg";b:1;s:52:"groups:healthcare:humans-grid-agents-world-state.jpg";b:1;s:44:"groups:healthcare:humans-channels-agents.jpg";b:1;s:43:"groups:healthcare:peers-channels-groups.jpg";b:1;s:57:"groups:healthcare:peers-organizations-channels-groups.jpg";b:1;s:41:"groups:healthcare:agents-groups-roles.jpg";b:1;s:46:"groups:healthcare:peer-ledgers-world-state.jpg";b:1;s:51:"groups:healthcare:actors-interact-peers-control.jpg";b:1;s:43:"groups:healthcare:actors-interact-space.jpg";b:1;s:57:"groups:healthcare:actors-interact-peers-control-space.jpg";b:1;s:60:"groups:healthcare:actors-interact-peers-control-policies.jpg";b:1;s:69:"groups:healthcare:actors-interact-peers-control-world-state-model.jpg";b:1;s:72:"groups:healthcare:actors-interact-peers-control-donate-milk-use-case.jpg";b:1;s:50:"groups:healthcare:activity-state-control-model.jpg";b:1;s:52:"groups:healthcare:controllers-policy-enforcement.jpg";b:1;s:63:"groups:healthcare:peers-control-flow-endorse-order-validate.jpg";b:1;s:38:"groups:healthcare:activity-metrics.jpg";b:1;s:32:"groups:healthcare:administer.jpg";b:1;}s:10:"firstimage";s:50:"groups:healthcare:physical-grid-virtual-spaces.jpg";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:4:{s:4:"date";a:1:{s:7:"created";i:1540439474;}s:7:"creator";s:13:"Mikhail Elias";s:4:"user";s:8:"melias11";s:11:"last_change";a:7:{s:4:"date";i:1540443675;s:2:"ip";s:14:"190.148.78.189";s:4:"type";s:1:"e";s:2:"id";s:31:"groups:healthcare:design_models";s:4:"user";s:8:"melias11";s:3:"sum";s:0:"";s:5:"extra";s:0:"";}}}

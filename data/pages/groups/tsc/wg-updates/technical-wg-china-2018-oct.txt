@@ -1,0 +1,42 @@
+====== Hyperledger Working Group Update ======
+
+===== Working Group =====
+Technical Working Group China (TWGC)
+
+===== Working Group Health =====
+In last quarter, TWGC kept focusing on 4 areas: Development & Innovation, i18n & Education, Collaboration & Scenarios, Event Organizations. Most of them went well and we kept seeing new volunteers.
+
+
+===== Overall Activity in the Past Quarter =====
+[[https://wiki.hyperledger.org/groups/twgc/meetings|Regular bi-weekly meetings]] were held as planned, with 20+ attendees on average. Most discussions happen in WeChat groups. Two board members were retired and two backfills were elected (Zhenhua and Jay)
+
+- Translation of Fabric v1.2 is mostly done, and i18n team is moving forward to work on v1.3
+
+- TWGC has organized 12 meetups across 6 cities in last quarter, accumulatively 30 meetups across 10 cities this year. 40-200 attendees per meetup, depending on popularity of Blockchain in a particular city.
+
+- Keeps helping developers in China to contribute. Notable items: China Encryption, Cello, SDK, Blockly (graphic smart contract development), etc
+
+- Several volunteers have been discussing to launch a China testnet using Fabric, connecting BaaS and standalone nodes.
+
+===== Issues =====
+- Less momentum in Collaboration & Scenarios. Companies and organizations are not motivated enough to present and promote their use cases in TWGC
+
+- Lack of talents, especially for projects other than Fabric. Also, TWGC has been encouraging contributions in China, however not much progress has been achieved
+
+- To comply with China Encryption Regulations, several developers have been proposing to make Fabric crypto pluggable, some code has been done. They are suggested to work with crypto-lib
+
+- Funding for meetups will be highly appreciated. It could cover space fee, live webcasting, and other materials, e.g. posters.
+
+
+===== Planned Work Products =====
+Technical Events, documentations & translation, code contribution.
+
+
+===== Participant Diversity =====
+Geographically we have participants from most major cities in China, either from big companies (Baidu, IBM), or startups (Chainnova, Ziggurat). Also, we have more engagement with universities (Peking Univ, etc). Overall, diversity is good.
+
+
+===== Additional Information =====
+N/A
+
+ 

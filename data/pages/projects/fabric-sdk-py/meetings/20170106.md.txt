@@ -1,0 +1,64 @@
+### 2017-01-06
+
+#### Agenda
+
+* [Jira board](https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85) status syncing.
+* [Patchset](https://gerrit.hyperledger.org/r/#/q/status:open+project:fabric-sdk-py) under review.
+* [SDK Spec](https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4) is publicly available.
+* Other issues
+
+#### Attendee
+
+* Kai Chen
+* Qiang Wang
+* Chuanjian Wang
+
+
+#### Log
+
+```
+=== Meeting Start ===
+
+grapebaba
+[11:02]grapebaba ok, let us wait one min
+[11:03]grapebaba anyone else?
+[11:03]grapebaba ok, let's begin
+[11:04]grapebaba first topic is JIRA status update
+[11:05]grapebaba as yan and jiang not here, should no update
+[11:06]grapebaba ckeyer, Do you want to pick one ?:grinning:
+[11:06]ckeyer sure
+[11:07]grapebaba feel free to choose one
+[11:07]grapebaba https://jira.hyperledger.org/browse/FAB-1050?filter=-1
+[11:07]grapebaba this is for me,  need another patch to add generate CSR feature
+[11:08]grapebaba will push next week
+[11:09]grapebaba Let us go to second item
+[11:09]grapebaba review the patch
+[11:09]grapebaba https://gerrit.hyperledger.org/r/#/q/status:open+project:fabric-sdk-py
+[11:10]grapebaba currently only one patch in review,
+[11:10]grapebaba i think fan jiang will do a little fix soon
+[11:10]grapebaba otherwise looks good
+[11:11]qiang Sorry to be late ,i'm in charge of FAB-803, But i hope someone can help me design it  together,Thanks!
+[11:11]grapebaba ok
+[11:11]grapebaba qiang
+[11:11]grapebaba let us discuss later
+[11:12]grapebaba everyone can review the patch
+[11:12]qiang Ok,thanks
+[11:12]grapebaba third one, review the SDK spec
+[11:13]grpaebaba https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4
+[11:13]grapebaba I think it need some change as currently many design changes
+[11:13]grapebaba everyone can make comment and suggestion
+[11:14]grpaebaba any questions? qiang, ckeyer
+[11:15]qiang nope
+[11:15]ckeyer no, if there is a problem, WeChat to ask you
+[11:16]grapebaba OK
+[11:16]grapebaba that is all for today's topics
+[11:17]grapebaba we can discuss other issues now
+[11:17]grapebaba if you have
+[11:17]grapebaba qiang, for FAB-803, could you make a basic structure first?
+[11:18]grapebaba like peer
+[11:18]qiang ok
+[11:18]grapebaba any other issues need to discuss?
+[11:20]grpababa if no we can finish, thank you guys
+[11:21]qiang thanks
+=== Meeting End ===
+```

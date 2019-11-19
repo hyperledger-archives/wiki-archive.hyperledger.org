@@ -1,0 +1,187 @@
+====== Hyperledger Healthcare Working Group (HLHCWG) ======
+===== General Meeting Agenda for 2018-11-16 =====
+
+==== Resources: ====
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+----
+
+===== Welcome and Opening Statements =====
+
+  * //A reminder to all HLHCWG members that this meeting is being recorded//
+  * [[https://www.linuxfoundation.org/antitrust-policy|Reading of the Linux Foundation Antitrust Policy]]
+  * [[https://tinyurl.com/HL-antitrust-slide|Hyperledger Antitrust Slide]]
+  * **Discussion: request for note-taking for this meeting**
+
+<WRAP box>
+[[https://drive.google.com/open?id=1QH66nb0EBmYHJDg0ce6ceRaRX3D-5Tli|Meeting recordings/transcript]] 
+</WRAP>
+
+<WRAP box>
+In attendance:
+  * Rich Bloch
+  * Marissa Iannarone
+  * Adrian Berg
+  * Leonard Edwin
+  * Alex Zhovnuvaty (Guest Speaker)
+  * Jeff Stollman
+  * Natassa Theodouli
+  * Kosta Moschchou
+  * Satarupa Bose
+  * Silona
+</WRAP>
+===== Introductions =====
+
+  * **If you’re new to the group, please…** 
+    * Introduce yourself
+    * Tell us where you're geographically located
+    * Share with us your interests in healthcare in general, and blockchain technologies in specific 
+
+<WRAP box>
+Silona - new VP of community architecture at Hyperledger joined the call
+
+Natassa Theodouli (Hyperledger associated company) - Research associate at CERTH Greek entity working in the blockchain space - focus on data sharing and permission handling; interested in Healthcare, IoT, and global energy: https://www.certh.gr/root.en.aspx
+</WRAP>
+===== HLHCWG Guest Speaker =====
+  * [[https://www.linkedin.com/in/alexander-zhovnuvaty-88004026/|Alex Zhovnuvaty]], CTO of RideChain, and the creator of [[https://github.com/AlexZhovnuvaty/sawtooth-healthcare|Sawtooth Healthcare]], a blockchain application built on Hyperledger Sawtooth, allowing clinics to keep history regarding patients health and claims on the blockchain, will present to membership to gauge interest in his solution.
+
+<WRAP box>
+  * Alex has a background in IT and startups particularly in the ride-sharing space
+  * Use flow is for an individual with a "claim" to a healthcare provider, gets prescribes treatment (tests, medication, procedure), patient gets treatment, gets a follow up visit, and claim is followed until 'claim' is satisfied
+  * Qualities of blockchain to be leveraged: Immutability, Transparency, and Finality
+  * It can be expanded to a variety of use cases including insurance company claims, malpractice validation, physician reviews, data sharing between clinics, etc.
+  * The project is currently in GitHub (see link above)
+  * Currently only Alex and one junior developer is working on this
+
+Team feedback:
+  * This seems like a multitude of projects as each use case has different requirements and really is "Sawtooth for Healthcare"
+  * How is data privacy protected through a private blockchain network would help prevent this
+  * Silona recommends coordinating with the Indy privacy DID work to ensure they understand the use cases and can work towards to solution
+  * Access control is also an issue for having data on the blockchain - (i.e. the patient is unconcious and can't give permission to access data)
+  * TO DO: Rich to follow up on what is defined as a "sponsor" - the question is also if there is financial support for Labs
+
+</WRAP>
+
+===== Community Announcements =====
+
+  * **Feel free to share your community announcements as they relate to the Hyperledger community**
+
+  * [[https://events.linuxfoundation.org/events/hyperledger-global-forum-2018/|Hyperledger Global Forum]]
+    * December 12-15, Basel, Switzerland
+    * Silona and Marissa are planning to attend, and will be able to report back
+    * Marissa will be moderating a panel on permissioned vs private blockchain
+  * [[http://www.ieee-lifetech.org/2019/index.html|IEEE LifeTech 2019 Conference]]
+    * March 12-14, 2019, Osaka, Japan
+    * Emphasis on life sciences, with topics of interest to include healthcare and medical technologies
+    * 2-Page Short Paper Submission (All Categories) deadline is November 30, 2018
+    * **Discussion: anyone planning or interested in attending?**
+
+<WRAP box>
+  * Marissa will be attending Hyperledger Global Forum; Len may be attending, but currently unlikely
+  * No current interest in IEEE LifeTech Conference
+</WRAP>
+===== HLHCWG Subgroup Updates =====
+
+  * Patient/Member Subgroup (Marissa Iannarone, Lead)
+
+<WRAP box>
+Donor milk continues to work on donor milk use case and are looking for a pivot to look at leveraging pre-existing supply chain builds that are out there and connect with EMR systems to see if we can address a very specific issue that the milk bank has.
+</WRAP>
+
+  * Payer Subgroup (Raveesh Dewan, Lead)
+
+<WRAP box>
+Continuing to work on decision framework for leveraging blockchain for healthcare use cases
+</WRAP>
+
+  * EMR Subgroup (Robert Chu, Lead)
+    * **Discussion: we are looking for a new EHR Subgroup Lead**
+
+===== Old Business =====
+
+  * Redesigned HLHCWG Wiki is now complete (Rich)
+    * //Ad Hoc Wiki Redesign Team//: Rayne DeVivo, Brian Ahier, and Mikhail Elias
+    * We are now using this redesign as our HLHCWG wiki homepage
+    * Expect periodic updates going forward as the Confluence solution gets developed
+
+<WRAP box>
+  * Now officially moved over to newly-redesigned wiki home page
+  * Still making minor tweaks to the design
+  * Continued plan is to migrate over to the Confluence wiki when that site has stabilized
+</WRAP>
+
+  * Update on academic research in the Hyperledger Project, specifically within healthcare (Rich, Adrian)
+    * //Ad Hoc Academic Research Team//: Adrian Berg and Mikhail Elias
+    * Plan is to develop a proposal/presentation and submit to TSC
+    * Currently in works, [[https://drive.google.com/open?id=1q-d8rGcRK2k_sq4xMUGinwhqwRYg-HOPK0vggaq7XkU|draft located here]]
+
+<WRAP box>
+  * Work continues on draft proposal
+  * Currently in draft edit phase
+</WRAP>
+
+  * Update on the HLHCWG Charter Review (Ken, Leonard)
+    * Thanks to our //Ad Hoc Charter Review Committee//: Ken Allgood and Leonard Edwin
+    * Currently in final edit, [[https://drive.google.com/open?id=14wLdVKvFcsKdkTTsjFfheJEPUqIqq4g8FmCB5p9AyQE|draft located here]]
+
+<WRAP box>
+  * Great work done on charter review/revision to date
+  * Currently in final external edit (thank you Marissa and Adrian)
+  * Expected external edit to be completed EOD 11/23
+  * Final step will be to open up to HLHCWG membership for review
+</WRAP>
+
+  * Healthcare technologies challenges (Rich)
+      * Upcoming opportunities: [[https://www.herox.com/Differential-Privacy-Synthetic-Data-Challenge|NIST Differential Privacy Synthetic Data Challenge]], [[http://www.kidneyx.org/|KidneyX Redesign Dialysis Prize Competition]]
+      * From community feedback, plan is to pursue the KidneyX challenge, and forego the NIST challenge
+
+<WRAP box>
+  * Discussion tabled for next meeting (time constrained)
+</WRAP>
+
+  * A HIPAA-compliant Hyperledger (Rich)
+    *** Discussion: not much community feedback to date... next steps?**
+
+<WRAP box>
+  * Discussion tabled for next meeting (time constrained)
+</WRAP>
+
+===== New Business =====
+
+  * Summary of the [[https://health.distributed.com/|2018 Distributed Health Conference]]
+    * Conference report from HLHCWG members in attendance (Satarupa Bose, Adrian Berg, and Michael Johnson)
+    * [[https://drive.google.com/open?id=1U2ldEkLpmk-ypAQOIIqM4yvdbmVcdURo|Attendee notes available for review here]]
+
+
+<WRAP box>
+  * Satarupa provided an overview in addition to the report
+  * Adrian provided a brief summary, indicating that the notes that he and Michael Johnson published are available for membership review
+</WRAP>
+
+  * End of Year HLHCWG Survey
+    * **Discussion: specific areas of focus for this upcoming survey?**
+
+<WRAP box>
+  * Discussion tabled for next meeting (time constrained)
+</WRAP>
+
+  * Onboarding slide presentation for HLHCWG
+    * Great example presented by the [[https://docs.google.com/presentation/d/1LEOU7kJOmu64IlbXU2WKapvto1oi60rJtovcwRoJXW0/edit#slide=id.p2|Social Impact Working Group]]
+    * Ostensibly used for onboarding a new chair/officer, but could be used for new members?
+    * **Discussion: would there be good utility/value to something like this?**
+
+<WRAP box>
+  * Discussion tabled for next meeting (time constrained)
+</WRAP>
+===== Next Meeting =====
+
+  * Scheduled for Friday, 11/30, 0700 Pacific Time
+  * **Discussion: topics to add to agenda?**

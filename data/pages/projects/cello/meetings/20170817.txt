@@ -1,0 +1,59 @@
+==== 2017-08-17 ==== 
+
+Meeting was held at 2017-08-17.
+
+=== Agenda ===
+
+  * Discussion on CE-106 about deploying Fabric on vSphere 
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Baohua Yang
+  * Kai Chen
+  * Haitao Yue
+  * Henry Zhang
+  * Yixing Jia
+  * Jiahao Chen
+  * Xinqi Wang
+
+
+=== Log ===
+
+Discussion on CE-106 for vSphere support in Cello. 
+
+To implement this feature, we’d discussed the requirements and changes needed:
+
+0. We will add a new type of host (vSphere agent). The creation of this type of host will result in a VM on vSphere. On this VM, a Docker engine is running and its remote API is exposed to Cello’s upper layer framework. When the host is removed from Cello, the corresponding VM on vSphere will be removed as well. 
+
+1. Data model
+
+We will add a few new attributes to the host’s existing data structure to capture some vSphere specific items.  
+
+The data structure to be changed is shown in the below source code: 
+
+https://github.com/hyperledger/cello/blob/master/src/modules/host.py
+
+       h = {
+            'id': ' ',
+            'name': name,
+            'worker_api': worker_api,
+            'create_ts': datetime.datetime.now(),
+            'capacity': capacity,
+            'status': 'active',
+            'clusters': [],
+            'type': host_type,
+            'log_level': log_level,
+            'log_type': log_type,
+            'log_server': log_server,
+            'autofill': autofill,
+            'schedulable': schedulable
+        }
+
+2. UI modification
+
+We will create a simple UI to allow the provisioning of vSphere host. This is mostly for demonstration purpose. Once Cello’s UI has moved to vue, we will help implementing the UI in vue. Vue’s UI is expected to be ready in about 2 months.
+
+3. The first version of this feature is targeted on Sept 30. 
+

@@ -1,0 +1,36 @@
+==== 2019-01-17 ==== 
+
+Meeting will be held at [[ https://zoom.us/my/hyperledger.community | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/fabric-sdk-py|rocketchat]] (for text chat) at:
+
+  * 11:00AM   (UTC-2)
+  * 02:00PM   (UTC+1)
+  * 06:30PM   (UTC+0530)
+  * 09:00PM   (UTC+8)
+
+  * [[https://jira.hyperledger.org/browse/FAB-4623?jql=project%20%3D%20FAB%20AND%20status%20in%20(%22In%20Progress%22%2C%20%22To%20Do%22)%20AND%20component%20%3D%20fabric-sdk-py | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+status:open | Open Patchset for review]]
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]]
+
+    
+=== Agenda ===
+Feel free to update before the meeting.
+
+  * Roadmap discussions
+  * Fabric-1.4 support
+    * discover API
+    * event service API
+  * fabric-ca API
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Baohua Yang
+  * Dixing Xu
+  * Guillaume Cisco
+  * Kelvin Moutet
+
+=== Minutes ===
+  * Dixing finished the final exam, and will work on the project in the coming weeks;
+  * Guillaume asked the progress and efforts
+  * Kelvin asked the support of the fabric-ca support
+  * The roadmap of v1.0.0 is to finish the fabric-1.4 support

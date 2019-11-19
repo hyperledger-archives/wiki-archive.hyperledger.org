@@ -1,0 +1,23 @@
+===== Interviews =====
+[[healthcare-wg-wikispace-redesign|Home]] : [[resources|Resources]] : [[resources-primary-data|Primary data]]
+----------
+
+==== Interview templates ====
+  * //<Add>//
+
+==== Interview transcripts ====
+
+  * [[Naomi Bar Yam]] : [[mothers-milk-bank-ne|Mothers Milk Bank NE]]
+    * Interviews : [[2018_08_31_patient_hcwg|31-AUG-18]], [[np17|17-AUG-18]]
+  * [[Tony Little]] : [[optum360|Optum360]], [[united-healthgroup|United HealthGroup]]
+    * Interview : [[2018_09_18_payor_hcwg|18-SEP-18]]
+  * [[Chris Cole]] : [[care-first|Care First]] 
+    * Interview : [[2018_08_28_payor_notes|28-AUG-18]]
+  * [[Pam Erickson]] : ?organization?
+      * Interview : ?transcript?
+  * //<Add>//
+
+==== Interview summaries ====
+  * [[interview-PamErickson-27-SEP-18|Pam Erickson, Interview, 27-SEP-18]]
+  * //<Add>//
+

@@ -1,0 +1,54 @@
+====== Explorer ======
+{{ :projects:hyperledger_explorer_logo_color.png?direct&300|}}
+
+===== Status =====
+
+This project is in [[community:project-lifecycle#incubation|Incubation]]
+
+====== Description ======
+
+Hyperledger Explorer aims to create a user friendly web application for Hyperledger to view/query blocks, transactions and associated data, network information (name, status, list of nodes), chain codes/transaction families (view/invoke/deploy/query) and any other relevant information stored in the ledger.
+
+Current project proposal [[https://docs.google.com/document/d/1GuVNHZ5Jqq-gTVKflnZ1YiJfEoozvugqenC6QEQFQj4/edit|Google Doc]].
+
+====== Repository ======
+
+[[https://gerrit.hyperledger.org/r/gitweb?p=blockchain-explorer.git;a=summary|Gerrit]]
+[[https://github.com/hyperledger/blockchain-explorer|Github]] (read-only)
+====== Communication ======
+
+===== Mailing List =====
+
+[[https://lists.hyperledger.org/g/explorer|explorer]]
+
+===== RocketChat (for questions and ephemeral discussions, replaces Slack) =====
+
+[[https://chat.hyperledgerproject.org/channel/blockchain-explorer|#blockchain-explorer]]
+
+====== Meetings ======
+
+We have daily stand up meeting every weekday from 8:30 AM to 9:00 AM EST.
+
+[[https://meet.dtcc.com/jdipiazza/5MFLBY1C|Join Skype Meeting]]
+
+Join by phone
+
+1 (212) 855-5000 (DTCC)                    English (United States) 
+
+44 (020) 7650 1500 (DTCC)                                English (United Kingdom)  
+
+02 865 7999 (DTCC)                            English (United States)  
+
+(91) 44-6691-7701 (DTCC)                 English (United States)  
+
+China (Toll Free) : 4001-204833       English (United States)
+
+[[https://dialin.dtcc.com/|Find a local number ]]
+
+
+Conference ID: 457578906
+
+====== History ======
+
+  * [[https://docs.google.com/document/d/11VfetBwc-AhFwihJU9cT37lShkkAVkUCvb8RCnS85Fw|Proposed]] by Christopher Ferris (IBM), Dan Middleton (Intel) and Pardha Vishnumolakala (DTCC)
+  * [[https://lists.hyperledger.org/g/tsc/message/275|Approved]] by the TSC on August 11, 2016

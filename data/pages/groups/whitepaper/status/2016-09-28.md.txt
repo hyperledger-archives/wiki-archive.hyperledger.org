@@ -1,0 +1,16 @@
+# Whitepaper WG Status 2016 Sep 28
+* Murali, Tamas, Hart, Ram, Renat, David. Regrets: Stefan, Mic, Nick
+* Reviewed Brian's straw man proposal from the white paper walkthrough
+   * should we not call it a whitepaper? mixed opinions on this point. important thing is to properly set expectations so the reader understands what this document covers, and what it does not.
+   * describe HLP as an umbrella for lots of projects? Yes, sounds like a good idea. 
+   * reference project level white papers for each blockchain stack under incubation? Yes, that sounds like a good idea.
+* Discussed other feedback received during walkthrough
+* Suggested changes 
+   * Add an intro section
+   * keep most of existing sections
+   * possibly remove the Architecture section
+   * discuss the advantage of HLP for governance reasons
+   * discuss how we can mix -n match the best of tech from different projects
+   * insure reader understands the whitepaper describes a long term vision, some of the features described being "aspirational"
+   * cover Interoperability somewhere
+* take aways... team to consider a new outline for the paper to discuss in the next meeting

@@ -1,0 +1,39 @@
+===== Resources =====
+[[healthcare-wg-wikispace-redesign|Home]]
+----------
+
+  * [[resources-primary-data|Primary data]]
+      * [[data-collection-interviews|Interviews]]
+      * [[data-collection-focus-groups|Focus groups]]
+      * [[data-collection-surveys|Surveys]]
+      * [[data-collection-field-observations|Field observations]]
+
+  * [[resources-knowledge|Knowledge resources]]
+    * [[resources-research-journals|Journals]]
+      * [[research-studies|Studies]]
+      * [[research-reviews|Reviews]]
+    * [[resources-research-policy|Policy resources]]
+      * [[research-evidence-base|Evidence base]]
+    * [[resources-publications|Publications]]
+      * [[publications-whitepapers|Whitepapers]]
+      * [[publications-articles|Articles]]
+      * [[publications-news|News]]
+      * [[publications-editorials|Editorials]]
+      * [[publications-blogs|Blogs]]
+      * [[publications-podcasts|Podcasts]]
+    * [[resources-websites|Websites]]
+
+  * [[Analytical models]]
+    * [[Household services ecosystem model]]
+    * [[Lifespan-oriented services model]]
+    * [[Human milk services model]]
+      * [[Human milk services catalog]]
+      * [[human-milk-services-participants|Service participants]]
+      * [[human-milk-services-workflows|Service workflows]]
+      * [[human-milk-services-resources|Service resources]]
+      * [[human-milk-services-contexts|Service contexts]]
+      * [[human-milk-services-policies|Service policies]]
+      * [[human-milk-services-metrics|Service metrics]]
+
+
+

@@ -1,0 +1,17 @@
+====== Independent Security Audits ======
+
+At Hyperledger, we are committed to a trust-but-verify security philosophy for our open source projects.  The engineering, change management, and risk reduction processes we use in our software supply chain we trust to greatly reduce the risk of security flaws in the finished product.  But to verify that is the case, we are organizing outside, independent security audits of the projects as they reach their 1.0 milestone.  This page contains the reports as the audits are completed and the reports are published.
+
+===== Hyperledger Fabric =====
+
+Hyperledger Fabric was the first project to reach the 1.0 milestone.  We hired Nettitude to conduct a security audit of the source code and to work closely with the developers to fix any issues that they found.
+
+  * {{:security:management_report_linux_foundation_fabric_august_2017_v1.1.pdf|Hyperledger Fabric - Security Assessment Management Report}}
+  * {{:security:technical_report_linux_foundation_fabric_august_2017_v1.1.pdf|Hyperledger Fabric - Security Assessment Technical Report}}
+
+===== Hyperledger Sawtooth =====
+
+Hyperledger Sawtooth reached 1.0 in the Spring of 2018.  Nettitude conducted the security audit of the code base and all reported issues have been addressed.
+
+  * {{:security:management_report_linux_foundation_hyperledger_december_2017_v1.0.pdf|Hyperledger Sawtooth - Security Assessment Management Report}}
+  * {{:security:technical_report_linux_foundation_hyperledger_december_2017_v1.0.pdf|Hyperledger Sawtooth - Security Assessment Technical Report}}

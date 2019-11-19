@@ -1,0 +1,60 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Cello
+
+===== Project Health =====
+Cello community is very active.
+
+  * Channel [[https://chat.hyperledger.org/channel/cello|#cello]] on rocket.chat is the main communication method.   
+  * New ideas are proposed and discussed constantly on the [[https://chat.hyperledger.org/channel/cello|channel]].
+  * Weekly call on every Friday 12:30 PM UTC was setup, first regular meeting was held on March 9, 2018
+  * Majority of the patch sets gets reviewed and commented within 24 hours
+
+===== Issues =====
+
+No urgent issues, the current main job is kubernetes agent support, and refactoring for operator & user dashboard.
+
+
+===== Releases =====
+
+Release history:
+
+  - [[https://github.com/hyperledger/cello/releases/tag/v0.6|v0.6.0]]: 2017-06-24
+  - [[https://github.com/hyperledger/cello/releases/tag/v0.7|v0.7.0]]: 2017-10-20
+  - [[https://github.com/hyperledger/cello/releases/tag/v0.8.0-alpha|v0.8.0-alpha]]: 2018-01-22
+  - [[https://github.com/hyperledger/cello/releases/tag/v0.8.0-beta|v0.8.0-beta]]: 2018-03-06
+  - [[https://github.com/hyperledger/cello/releases/tag/v0.8.0|v0.8.0]]: 2018-03-29
+  - v0.9.0: 2018-06-31 (planed)   
+
+===== Overall Activity in the Past Quarter =====
+
+  * Conversation mostly happen on the [[https://chat.hyperledger.org/channel/cello|rocketchat channel]], emails were answered as well.
+  * When people asking Hyperledger deployment method or questions from outside of the community,response emails often point people to the [[https://github.com/hyperledger/cello|cello project readme]] docs and rocket channel.
+  * Cello currently has 3 [[https://github.com/hyperledger/cello/blob/master/MAINTAINERS.md|maintainers]] who are actively working on the project and contributing.
+  * Cello maintainers also take turns updating the cello wiki pages and required document like this.
+  * The community is working hard to support kubernetes agent, so that user can deploy fabric network on kubernetes easily,
+
+===== Current Plans =====
+  * refactor code of ui for operator&user dashboard, and rewrite user dashboard back service.
+  * Implement the kubernetes agent.
+  * Integrate blockchain-composer.
+  * Support dynamic certificate generation&management.
+  * Support import existed fabric network into cello pool.
+  * Support fabric log monitor, and smart contract edit online for user dashboard.
+  * Ensure release of 0.9.0.
+
+
+===== Maintainer Diversity =====
+
+There are 3 maintainers from IBM (2) and Oracle (1), covering both North America and Asia Pacific.
+
+We nominate new maintainers based on continuous contributions in terms of code, QA/education, doc and review activities.
+
+===== Contributor Diversity =====
+
+Current number of project contributors is 37 with 35 patch sets merged since last April. With project gets more attention, this number will certainly increase.  
+
+===== Additional Information =====
+
+Cello developers have been participating in local meetups and global hackfest events to promote and demo the project, and help attract more people to join and use hyperledger products.

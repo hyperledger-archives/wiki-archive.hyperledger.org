@@ -1,0 +1,13 @@
+From hyperledgerproject.slack.com on May 6, 2016:
+
+jeremysevareid [12:20 PM] 
+Related to "Fiduciary Code" are "Fiduciary Events". Runtime events like a smart contract that evals to false needs to be recorded in the blockchain for non-repudiation purposes. Likewise, voting a validator node in or out has business / regulatory implications, so should also be recorded on the block.
+
+chetsky [12:45 PM] 
+@jeremysevareid: waht does "a smart contract that evals to false" mean?  Just want to get clarity ....
+
+jeremysevareid [1:02 PM] 
+i.e., transaction that is validated / confirmed or not (e.g., signatures are valid or if they are not)
+
+chetsky [1:07 PM] 
+aha.  ok, so you mean a submitted tran, that wasn't validated.  gotit.  indeed, we agree.

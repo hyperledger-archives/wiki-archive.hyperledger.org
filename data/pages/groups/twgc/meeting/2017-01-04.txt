@@ -1,0 +1,28 @@
+===== TWG China Group Meeting =====
+
+==== Date ====
+10AM ~ 11AM, 2017-01-04, GMT+8
+
+==== Attendee ====
+
+  * Baohua Yang
+  * Ruifeng Hu
+  * Zhoudong Ji
+  * Donald Liu
+
+==== Minute ====
+  - Status syncing
+      - Beijing Meetup was held at Dec 25, 2016
+      - Shenzhen Meetup will be held at Jan 7, 2017
+      - Hackathon place is negotiated
+      - **TODO**: Shanghai Meetup plan
+  - Volunteer's list voting
+      - 5 initial volunteers was voted and passed unanimously
+  - Working guideline drafting
+      - **TODO**: Donald will help find meeting call solution and funding support
+      - **TODO**: Donald will help see if we can have a Wechat public subscription number
+      - **TODO**: When the official forum will be available and accessed fast in China
+  - Reporting
+      - **TODO**: Since the Chinese new year at the end of Jan, will summary a work report to TSC at middle of Jan.
+  - Others
+      - **TODO**: The official forum is slow to access in China, while there're several 3rd forum. We need to find some solution ASAP.

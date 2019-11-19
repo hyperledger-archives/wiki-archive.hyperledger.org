@@ -1,0 +1,327 @@
+====== Lists of blockchain core concepts for 10 different but related audiences in Hyperledger======
+
+
+2018-08-27-1926-CET
+
+=== Introduction ===
+The Hyperledger Training & Education WG approved June 1st, 2018 the following: "Proposed transaction: Let us select the 15 (estimate at that time) most essential concepts (is not terms) in Fabric, Sawtooth, Burrow, (later added)Indy and Iroha, and describe clearly, using illustrating relevant examples, understandable to end users and management, how they relate, overlap and where they are different; look forward to endorsements."
+The proposed transaction was endorsed by the WG in the meeting of 2018-06-01.
+
+After about 3 months of work, we have completed the first list of concepts for end users and decision makers.
+
+On behalf of the WG I submit to you the first 36 concepts descriptions for the first target audience: decision makers and end users. The longer term plan is there will be a specific list for several target audiences. 
+ 
+The goal is to have each of the lists, except the last, as a subset of the next; where this is considered not appropriate, the reasons will be explicitly mentioned.
+
+
+
+===== List of blockchain core concepts for decision makers and end users ===== 
+
+
+
+==== Decision maker ====
+
+What is a decision maker? A person or group of persons that decide on a business case whether or not to use permissioned blockchain technology, also referred to as blockchain for enterprises.
+
+==== End user ====
+
+What is an end user? A person that can use a client application to propose a transaction like create a new car, transfer the ownsership of a car, modify the color of a car, by filling a screen with data, or a transaction in which he asks retrieval services like: given me the entire history of CAR1, or who is the current owner of CAR2, or give a list of cars currently owned by Tomoko.
+
+Hence this audience only wants to know which functionalities are available in the Blockchain network. For them the blockchain network is a black box. What does that mean for the preferred knowledge acquisition sequence? That we first have to explain what a blockchain is, and what the two terms block and chain mean, and probably many persons in that audience are interested to know in conceptual terms how the chain aspect is realized. This is the subject of the first 8 concept definitions, blockchain, block (in Fabric, Sawtooth and Burrow), chain, cryptography and hash.
+
+Once those 8 concepts are defined, the attention needs to go to the contents of the block that is relevant for the organizations that are involved in the blockchain network. For an organization the contents of a block is a set of transactions, in some frameworks distinguished between valid and invalid transactions. But what exactly is a transaction in business terms? The most common transaction in the Enterprise world is an invoice, consisting of a header and one or more invoice detail lines. For the Enterprise the combination of the invoice header and the associated invoice lines is a unit of interaction. How does the blockchain software support this? In the medical world the concept of a prescription header and one or more prescription detail lines are well known. This is the subject of the concept definitions of Transaction proposal, transaction, batch and batch in Sawtooth.
+
+A transaction describes a //transition// and often many people are more interested in the new resulting state. Hence it is needed to specify the relationship between the contents of a block (the transitions) and the concept of state. This is the subject of the concept definitions of state, world state (Fabric) and Global State (Sawtooth). 
+
+** This list is in knowledge acquisition sequence. The same contents will also be presented in alphabetical sequence once approved by the maintainers. ** 
+  
+
+**Blockchain**	
+
+A blockchain is a chain of blocks each containing transaction data. Each block, except the first block, is linked with the previous block and each block, except the last block, is linked with the next block, together forming a chain. 
+
+Once a block has entered the blockchain, it is like chiselled in granite. This characteristic delivers the immutability of the data in the blockchain, also referred to as practically tamper-resistant data or virtually incorruptible data. This aspect is one of the main reasons for the broad interest in blockchain technology.  
+
+[For those with software developent experience: In computer science language a blockchain is an append-only data structure; a blockchain (instance) consists at any moment in time of a number of blocks. If the chain has N blocks, then it has N-1 links, valid for N>=1. The blockchain contains all the transitions, while the World State is dervived from all transitions (there is a better optimization as World State (N) = valid transactions in block N applied to World State (N-1).] 
+
+			
+**Block** 
+	
+A block contains one or more transactions. The contents of the block is not encrypted in the blockchain.
+A block, in general, contains valid and invalid transactions. However invalid transactions have no effect on the  State. 
+
+A block usually contains three sections: a blockheader, the payload (with at least the transactions) and the metadata section(containing the valid/invalid indicator per transaction).
+
+//Fabric:// A block in Fabric contains both valid and invalid transactions.	
+
+//Sawtooth:// A block in Sawtooth contains only valid transactions.
+
+//Burrow:// A block in Burrow contains only valid transactions.
+
+//Iroha:// A block in Iroha contains only valid transactions.
+
+//Indy:// TO-DO
+
+**Chain**
+
+Each blockheader contains, besides its identifier within the scope of the blockchain, a hash of the data in the block and it also contains a copy of the hash of the previous block. Because of this relationship (the third field) the term chain is used. This is the basis for the tamper-resistant characteristic of a blockchain.
+
+**Cryptography**
+
+{cryptography} is the practice and study of techniques for secure communication in the presence of third parties called adversaries. More generally, cryptography is about constructing and analyzing protocols that prevent third parties or the public from reading private messages; various aspects in information security such as data confidentiality, data integrity, authentication, and non-repudiation are central to modern cryptography. Modern cryptography exists at the intersection of the disciplines of mathematics, computer science, electrical engineering, communication science, and physics. Applications of cryptography include electronic commerce, chip-based payment cards, digital currencies, computer passwords, and military communications. Adapted from: Wikipedia 
+		
+		
+**Hash**
+	
+A hash of a (variable length) piece of data results in a unique fixed length data field. 
+The hash is a one-way function function that assigns to the variable length field a unique fixed length data field. 
+It is not possible to reconstruct from the hash of the original variable length data field. Therefore a hash is a one-way function.
+
+**PKI Public Key Infrastructure**
+
+A public key infrastructure (PKI) is a set of roles, policies, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates and manage public-key encryption. The purpose of a PKI is to facilitate the secure electronic transfer of information for a range of network activities such as e-commerce, internet banking and confidential email. It is required for activities where simple passwords are an inadequate authentication method and more rigorous proof is required to confirm the identity of the parties involved in the communication and to validate the information being transferred.[1] 
+
+In cryptography, a PKI is an arrangement that binds public keys with respective identities of entities (like people and organizations). The binding is established through a process of registration and issuance of certificates at and by a certificate authority (CA). Depending on the assurance level of the binding, this may be carried out by an automated process or under human supervision. 
+
+The PKI role that assures valid and correct registration is called a registration authority (RA). An RA is responsible for accepting requests for digital certificates and authenticating the entity making the request.[2] In a Microsoft PKI, a registration authority is usually called a subordinate CA.[3] 
+
+An entity must be uniquely identifiable within each CA domain on the basis of information about that entity. A third-party validation authority (VA) can provide this entity information on behalf of the CA. Source: Wikipedia.
+
+**Public key** 
+
+Public Key is the PKI component that a person or organization shares with third-parties.  Such a third party uses the Public Key to encrypt messages that are sent back to the owner of the public key.  The owner of the Public Key then uses the associated Private Key to decrypt the message.
+
+**Private key**
+
+Private Key is the PKI component that a person or organization should keep confidential.  The Private Key is used to decrypt messages sent by third parties that were encrypted using the Public Key.
+
+"In a public key signature system, a person can combine a message with a private key to create a short digital signature on the message. Anyone with the corresponding public key can combine a message, a putative digital signature on it, and the known public key to verify whether the signature was valid, i.e. made by the owner of the corresponding private key. Changing the message, even replacing a single letter, will cause verification to fail. In a secure signature system, it is computationally infeasible for anyone who does not know the private key to deduce it from the public key or any number of signatures, or to find a valid signature on any message for which a signature has not hitherto been seen. Thus the authenticity of a message can be demonstrated by the signature, provided the owner of the private key keeps the private key secret." Source: Wikipedia
+
+**Digital Certificate**
+
+A document that contains attributes related to the bearer of the certificate, that is secured by cryptography.  Digital Certificates are issued by a Certificate Authority (CA), and is used by the bearer to prove their identity provided that the other party trusts the CA. 
+
+**Blockchain technology that makes it possible to respect laws and regulations**
+
+In Hyperledger the scope is to use Enterprise grade blockchain technology that makes it possible to respect laws and regulations of every country in which the blockchain application is used. 
+
+**Enterprise blockchain technology**
+
+For many enterprises and consortia of enterprises use cases the identity of the participants is a hard requirement, such as Know-Your-Customer and Anti-Money-Laundering. They furthermore need high transaction throughput performance, low latency of transaction confirmation and privacy and confidentiality of transactions and the state. 
+Hyperledger Fabric can leverage consensus protocols that do not require a native cryptocurrency to incent costly mining or to fuel smart contract execution. 
+The absence of cryptographic mining operations in Hyperledger Fabric means that the platform can be deployed with roughly the same operational costs as any other disctributed platform.  Adapted from source: Hyperledger Fabric Docs, section Introduction, Juli 2, 2018.
+
+**Blockchain for business**
+
+The term blockchain for business is sometimes used as a synonym for blockchain for enterprises.
+
+**Permissioned blockchain technology** 
+
+The term permissioned blockchain technology is sometimes uesed as a synonym for blockchain for enterprises.
+
+**Consensus**
+
+Consensus is a broader term overarching the entire transactional flow, which serves to generate an agreement on the order of the transactions and to classify each transaction as either valid or invalid in a block. 
+
+In Hyperledger Fabric consensus covers the entire flow of a transaction in Hyperledger Fabric from 
+
+a. proposal (by the client application), via
+
+b. endorsement (by the endorser peers), via
+
+c. ordering (by the orderer peers), via
+
+d. validation (by the committing peers) to
+
+e. committment (by the committing peers).
+  
+					
+**Transaction proposal**
+	
+A transaction proposal is a proposal by a client application or administrator outside the blockchain network but linked to it by a communication facility, to the blockchain network community. The network community can decide to make the transaction proposal a valid transaction, or can decide it is classified as an invalid transaction. The transaction proposal is in most cases the object of distributed decision making.
+
+Illustration: It is proposed by client application ABC to include in the blockchain the following transactions: The car with identifier CAR0 is currently of colour blue, is made by Toyota, is of model Prius and is currently owned by Tomoko. 
+A second example could be: The car with identifier CAR1 is currently of colour red, is made by Ford, is of model Mustang and is currently owned by Brad.
+
+A third example could be: The car with identifier CAR0 is now transferred to Brad.
+
+A fourth example could be: The car with identifier CAR1 is now of color blue. 
+					
+**Transaction**	
+
+A transaction consists of facts (populated fields) about a state transition in the Universe of Discourse (the scope of the business communication).This could regard anything, not just monetary assets.
+
+Illustration: Assuming the two transaction proposals are considered valid by the blockchain system, these two transactions will show up in a block as: 
+The car with identifier CAR0 is currently of colour blue, is made by Toyota, is of model Prius and is currently owned by Tomoko. 
+A second example would be: The car with identifier CAR1 is currently of colour red, is made by Ford, is of model Mustang and is currently owned by Brad.
+ 
+
+**Batch**
+
+A group of related transactions. Illustrations: Given an invoice header and the 3 associated invoice lines, or the prescription header and the 2 associated medications, then we want the entire invoice or the entire prescription accepted or rejected. The concept of batch is introduced to have the batch as an atomic transaction, that means either all transactions in a batch are declared valid, or if any number of transactions in a batch fails, the entire batch is declared invalid.
+
+Sawtooth: Sawtooth does not use the term valid for a transaction but uses the term fail.
+
+**State**	
+
+The State consists of facts (populated fields) about the current state of the Universe of Discourse as agreed by the blockchain network community. This could regard anything, not just monetary assets.
+The State changes after each block that is added to the Blockchain; see exception for Fabric.
+	
+//Fabric:// In case there is a block with only invalid transactions, there is no new state in Fabric after adding such a block to the blockchain.										
+				
+==== **World State**
+
+World State is the preferred term in the Fabric community for the concept state.
+
+==== **Global state**
+
+Global state is the preferred term in the Sawtooth community for the concept state.
+
+
+**Immutablility**
+
+Immutability of a block means that once the contents of the block is committed to the blockchain, it is free from tampering. 
+
+**Incorruptibility** Synonym for immutability.
+
+**Tamper-free** Synonym for immutability
+
+**No single point of failure**
+
+No single point of failure is a concept used in many disciplines. It means in the context of blockchain that there is quite some redundancy using peers (nodes) to avoid single point of failure. 
+
+Fabric: every peer maintains a copy of the ledger, of which the blockchain part is immutable. Some nodes are peers, some nodes are orderers. No orderer is a peer and no peer is an orderer. This is part of the job specialization of nodes in Fabric to be used in performance enhancements. 
+
+Sawtooth: TO-DO
+
+Iroha: TO-DO
+
+Burrow: TO-DO
+
+Indy: TO-DO
+
+**Distributed decision making**
+
+A permissioned blockchain or blockchain for enterprise provides the functionality of distributed and definable democratic decision making as an extension of decision making in one single organization. See also transaction proposal.
+
+**Identity of actors known**
+
+In a permissioned blockchain the digital identity of actors is known. This enables accountability for the organizations that make up the consortium of the permissioned blockchain network.
+
+**Trust**
+
+"A blockchain is a distributed database with no central authority and no [single] point of trust. When
+you want to share a database, but you don’t have a lot of trust in the other people who might
+use it, a blockchain can be very helpful.
+In this context, “trust” could mean many things. Trust could mean trusting others to perform
+actions on the database properly. Trust could mean not trying to pry into each other’s private
+information. Or trust could mean not degrading someone else’s performance to gain a
+competitive advantage.
+Discussing trust brings up the two main kinds of blockchain.
+Most cryptocurrencies use permissionless blockchains where anyone can join and have full
+rights to use it. For example, anyone can buy Bitcoin or Ether because those use wide-open,
+permissionless blockchains.
+On the other hand, business blockchains tend to be permissioned. This means a person
+needs to meet certain requirements to perform certain actions on the blockchain. Some
+permissioned blockchains restrict access to pre-verified users who have already proven they
+are who they say they are. Others allow anyone to join, but only let trusted identities verify
+transactions on the blockchain.
+Remember our example of the database shared between head office and the field reps of a
+company. If a blockchain was used to manage that database, it would definitely be permissioned:
+Everyone accessing the blockchain would have to be an employee of the company or
+perhaps a trusted trading partner." Source: An Introduction to Hyperledger, The Hyperledger White Paper WG, v1.1
+
+**Governance**
+
+Governance is all of the processes of governing, whether undertaken by a government, a market or a network, over a social system (family, tribe, formal or informal organization, a territory or across territories) and whether through the laws, norms, power or language of an organized society.[1] It relates to "the processes of interaction and decision-making among the actors involved in a collective problem that lead to the creation, reinforcement, or reproduction of social norms and institutions."[2] In lay terms, it could be described as the political processes that exist in between formal institutions. 
+
+A variety of entities (known generically as governing bodies) can govern. The most formal is a government, a body whose sole responsibility and authority is to make binding decisions in a given geopolitical system (such as a state) by establishing laws. Other types of governing include an organization (such as a corporation recognized as a legal entity by a government), a socio-political group (chiefdom, tribe, family, religious denomination, etc.), or another, informal group of people. In business and outsourcing relationships, governance frameworks are built into relational contracts that foster long-term collaboration and innovation. 
+
+Governance is the way the rules, norms and actions are structured, sustained, regulated and held accountable. The degree of formality depends on the internal rules of a given organization and, externally, with its business partners. As such, governance may take many forms, driven by many different motivations and with many different results. For instance, a government may operate as a democracy where citizens vote on who should govern and the public good is the goal, while a non-profit organization may be governed by a small board of directors and pursue more specific aims. 
+
+In addition, a variety of external actors without decision-making power can influence the process of governing. These include lobbies, think tanks, political parties, non-government organizations and the media. Source: Wikipedia.
+
+
+**Channel**
+
+A channel is a virtual blockchain with its own private ledger only visible to the organizations that make up the channel.
+ 
+Fabric: A Fabric blockchain network will have at least two channels (exactly 1 system channel and at least 1 application channel). The visibility of an application channel's ledger is limited to the organizations that make up the channel. 
+
+An organization can be involved in any number of application channels and any application channel can have any number of organizations. Each network has at least one application channel with its own blockchain and every application channel has its own private blockchain.
+
+**Node**
+
+A node is a HLF blockchain network is a piece of software. 
+
+Fabric: In Hyperledger Fabric it is either a peer, which is either an endorsing peer or a committing peer, or element of the ordering service.
+For Hyperledger Fabric the follow integrity rules hold: The endorsing peers are a subset of the committing peers. Every peer is a committting peer. No element of the set of peers is an orderer.
+
+**Peer**
+
+A peer is a participant in blockchain; in general, a peer can endorse a transaction, commit a transaction or order transactions in a block.
+
+Fabric: The nodes inside a Fabric network consists of peers and orderers. The set of peers and the set of orderers have no element in common. All peers have the role of maintaining the ledger of the channel, consisting of the blockchain and the World State; some peers use smart contracts to simulate the transaction and to decide on the endorsement of a submitted transaction.
+
+**Chaincode**
+
+Chaincode is a computer program that either provides functionalities for Enterprise transactions or state.
+It is useful to distinguish chaincode specific for an enterprise and chaincode that provides domain agnostic functions.
+
+Fabric: The current trend in Fabric is to use the term chaincode to cover both enterprise specific and domain agnostic chaincode. Enterprise specific chaincode is what most people call smart contracts.
+
+
+**Ledger**
+
+The ledger consists of two components, the immutable chain containing the transactions (transitions) and the state.
+
+According to the Fabric documentation (v1.2) the ledger consists of the blockchain and the World State.
+
+**Smart contract**
+
+Smart contract is the software that can read business data from and write business data to the Ledger
+
+
+**Private Data Collections**
+
+If a channel is made up of say 10 organizations, and any subset of these 10 has an extra need for privacy, then the functionality of Private Data Collections (Fabric v1.2) provides this additional privacy within a channel. Within a Private Data Collection, the actual private data is shared between the subset of organizations only. However, a hash of the data is written to the ledgers of all 10 organizations.  The hash serves as evidence of the transaction, and can be used for audit purposes. 
+
+**Policies**
+A policy describes rules, like which actor has access to which resource, which actor can exercise which right or which actor can modify a policy.
+
+Fabric: one of the most powerful concepts in Fabric is the set of declarative policies for endorsement, network creation and maintenance operations, channel creation and maintenance operations, access control and the policy that describes which actor can modify which policies. 
+
+
+====== Current plan for further work ======
+
+
+===== List of blockchain core concepts for blockchain architects and blockchain consultants =====	
+
+The list of blockchain core concepts for blockchain architects and blockchain consultants encompasses the list of core concepts for decision makers and end users enlarged with a number of concepts that are relevant for blockchain architects and blockchain consultants. The list will be integrated.	
+
+
+
+===== List of blockchain core concepts for administrators =====
+
+
+===== List of blockchain core concepts for client application developers =====
+						
+						
+===== List of blockchain core concepts for smart contract developers =====
+
+===== List of blockchain core concepts for Hyperledger Platform developers =====
+
+===== List of blockchain concepts and fields for Hyperledger Fabric developers =====
+
+==== Why do we need an extended architectural description for new Fabric developers? ====
+
+==== Why do we need a description of the programming strategy for new Fabric developers? ====
+
+==== Why do we need a complete and consistent field list plus explanation for new Fabric developers? ====
+
+===== List of blockchain concepts and fields for Sawtooth developers =====
+
+===== List of blockchain concepts and fields for Iroha developers =====
+
+===== List of blockchain concepts and fields for Burrow deveopers ===== 
+

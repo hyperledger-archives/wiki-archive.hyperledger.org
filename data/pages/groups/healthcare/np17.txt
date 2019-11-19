@@ -1,0 +1,86 @@
+Hyperledger Project\\
+Healthcare Working Group (HCWG) Patient Member Subgroup Meeting\\
+August 17, 2018 \\
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Donor Milk Lab Github: https://github.com/hyperledger-labs/milk-donor \\
+Wiki:  https://wiki.hyperledger.org\\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+Meeting Notes\\
+
+Bottom Line Up Front:
+First half was a conversation with Naomi Bar Yam from Mothers Milk Bank NE, Boston on some of the processes related to the donor milk ecosystem such as donor screening, milk security in transport, etc. Overall Naomi feels that processes that are currently in place are effective. Her two major pain points are thinking about scalability and standards with growth as well as a lack of feedback from hospitals on the babies that get the milk.
+
+
+The second half of the meeting was to discuss the Hyperledger Composer build that has been started by Angela Courtney and to collect feedback and initial thoughts
+
+Next steps are to get feedback from Rapid Healthcare on both the conversation with Naomi and the build. We will try to connect with Naomi again to discuss participants in the system, regulatory needs/guidelines, information management to ensure that the network that is built is compliant and also get more clarity on the information/feedback they would like to see from NICUs
+
+Attendees: Marissa, Pam Erickson, Angela Courtney, Michael Tran, Markus, Rich Bloch, Jeff Stollman, Michael Johnson, Marta Piekarska, Steven, Ben Djidi, Rayne (list incomplete)
+
+Guest speaker: Naomi Bar Yam from Mothers Milk Bank NE, Boston & immediate past president of Human Milk Bank of North America
+
+The aim of the patient subgroup is to:
+     *Build a use case with the patient at the center
+     *The aim of this call was to collect subject matter expertise related to donor milk supply chain and transparency and opportunities for building a solution to help in these areas
+
+Naomi:
+     *Hospitals have contracts with milk banks
+          *Primary and secondary contracts
+     *If not enough milk, the milk bank has to find milk to fulfill supply
+          *If milk bank short, send raw milk to one another OR send directly to other hospitals
+          *These orgs are small, they email each other and current communication channels work well
+
+Quality assurance
+     *They carefully screen donors modeled after blood bank screening and there are several steps to the process:
+     *Phone screening
+     *Packet with consent, detailed health screen, mom’s doctor and pediatrition permissions
+     *Blood test
+     *Moms ship frozen milk, pasteurized, tested for safety, refrozen until hospital uses to feed
+     *Milk is pooled 3-7 donors in each unit for a better mix of micronutrients/fat content
+
+Every Milk Bank is a stand alone and sets their own process
+     *Some use barcodes, some do not
+     *Track which donors milk is in every batch
+     *How do recalls occur and how is the milk traced back?
+          *Records are kept in two databases, a pool number and a batch number
+          *Mock contamination event is conducted every two years. Milk goes both to hospitals and to patient homes, during mock contamination, the milk bank was able to identify and respond within one hour
+
+Secure storage through process
+     *Locking freezers -> fedex to hospital
+     *Occasional delay, milk thaws, milk replaced
+     *No history of adulteration or tampering
+
+What is biggest paint point?
+     *Valuable to standardize across milk banks
+     *Good to get data back from hospitals
+     *How hospitals use milk is a black hole
+     *Nurses are way too busy to send this, but an anonomous aggregated data back to milk bank would be a powerful data set (ie gestational age, diagnosis, etc)
+
+No documented case of infant harm by donor milk
+
+Is all milk going out the same?
+Could milk be differentiated for the different needs of infant patients?
+     *Some banks measure macronutrients and calories
+There is powerful research to be done on human milk
+     *Do nursing moms do better when they supplement with human donor milk than when they use formula? Do they themselves nurse longer?
+
+Dr. Angela Courtney
+
+The build for the donor milk project has started and is readily available to try\\
+     *Feedback is encouraged
+     *Link to repo is above and Angela sent out instructions in this email: https://lists.hyperledger.org/g/healthcare-wg/message/535
+Angela took us through the network to show how we can identify different participants, assets and transactions in the network
+
+Initial feedback:
+
+It will be good to add more explicit role for participants for regulators/public health department
+We have also added to the business case the additional participants abd attributes we’ve wanting to include for assets: https://wiki.hyperledger.org/groups/healthcare/donor_milk_transparency_and_traceability

@@ -1,0 +1,29 @@
+Template for a Working Group Charter-Hyperledger
+
+**WG Name**
+
+**Introduction**:
+Basic definitions and introduction to the WG.
+
+**Scope**:
+What is the scope of the WG
+
+**Work Products**:
+Specific work products of the WG
+
+**Collaborators**:
+other WGs with which this groups will collaborate 
+
+**Process of the Group**:
+Who is eligible to attend. Chair, consensus among members etc.
+
+
+**Transparency**:
+How can one access the proceedings of the WG; emails, docs, audio recordings
+
+**Amendments**:
+Process for changes to charter
+
+
+**Disbanding**:
+When and how does this WG disband

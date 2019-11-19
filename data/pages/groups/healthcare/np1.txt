@@ -1,0 +1,69 @@
+Hyperledger Project\\
+Healthcare Working Group (HCWG) Meeting\\
+July 27, 2018\\
+ 
+
+
+Resources:\\
+Rocket.Chat:  chat.hyperledger.org (you can use your LFID to login)\\
+Github:  www.github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings\\
+Rapid Healthcare: https://www.rapid-healthcare.com/\\
+Medicalchain: https://medicalchain.com/en/\\
+
+
+Summary\\
+Rapid Healthcare and Medical Chain were invited by patient subgroup to speak with the main group.\\
+     *Rapid Healthcare is concerned with donor milk use case\\
+     *Medical Chain is concerned with “patient health data across silos” use case\\ 
+
+Meeting notes\\
+Marissa update: to get GitHub up, a hyperledger lab application has to be submitted. Marissa is working on that, Angela has started code which will be placed on GitHub when the application is approved.\\ 
+     *Rapid Healthcare
+          *Anton and Ron are located in Southern CA where they work with NICU (infant ICU) to track both mother’s milk and donor’s milk to ensure that babies are fed from the correct milk supply at the correct time.\\ 
+          *They discovered a bigger problem through this work. There is a human milk shortage.  Hospitals need 80 million units, the supply is 20 million units.\\ 
+          *Rapid Healthcare would like help developing a blockchain solution for a national or global network.\\ 
+               *There are a mix of for-profit, coop, and not-for-profit milk (NFP) banks\\
+               *Lactating women are either uncompensated or undercompensated for donating.\\ 
+               *Human milk is sold for between $4 per ounce (NFP) to $16 per ounce (for profit).\\
+               *There is a huge first mile problem, there is little incentive to donate milk.\\
+                    *Get donors compensated\\
+                    *Milk banks need to track inventory\\
+                    *National tracking of supply and demand\\
+                    *NICU unable to procure donor milk\\
+                    *Federal and State government regulation down the road\\
+                    *Bring in international donor milk source\\
+                    *Trace all source so that contamination can be controlled thru the distribution \\
+                    *No state or federal oversight currently\\
+                    *Except California, Oregon, Washington, Massachusetts to begin exploring oversight\\
+               *How to move from proof of concent to enterprise? To final business product? How to get all milk banks on the same page? Using GS1 (international standard bar code) technology to track milk?\\
+               *Getting guidance on end-to-end story - tech is doable, how to transition to full product. Others at hyperledger have done so, just not in healthcare yet.\\
+               *A product like this provides the end user - the hospital - to get liability protections with an expanded donor base\\
+
+
+     *Medicalchain\\
+          *Based in London, funded organization.\\
+          *Goal: establish health records under the control of the patient. Adopt open standards so it is not another silo of data, be portable.\\
+          *In UK, 90% of general practitioners use one of two systems. Collaborate with a large family practice which does telemedicine. Flow data from 2 systems into Medicalchain’s blockchain system built on Fabric. Puts a patient’s longitudinal data in their own hands in one spot from many spots.\\
+          *Crypto-token component:\\
+               *patients get paid for their longitudinal health data by being involved in clinical studies.\\
+               *Patients can private pay for healthcare using tokens or money.\\
+               *Challenge - finding a bank that will handle tokens\\
+          *Vendor lock-in is a hurdle\\
+          *Aggregate data onto Medicalchain. Medicalchain would be the single source truth.\\
+               *Angela asks about handling large file sizes. David answers Medicalchain intends to move in a decentralized direction, at this stage they are persisting data into Medicalchain.\\
+               *Angela suggests pointers and hash so that the data lives where it originated.\\
+          *Is code available to look at? No.\\
+          *How does Medicalchain identify patients? Open question at this point.\\
+          *How are the tokens done? Ethereum network.\\
+          *Medicalchain would like to start in the US as a partner with Mayo Clinic\\
+          *Anton thinks Apple has a big team with grand ambitions in this area, more than a device\\
+          *How can HCWG be helpful to Medicalchain? David doesn’t know, let's keep in touch, look at business cases, and collaborate going forward.
+
+
+
+Meeting adjourned
+ 
+

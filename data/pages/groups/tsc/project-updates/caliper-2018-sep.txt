@@ -1,0 +1,47 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Caliper
+===== Project Health =====
+
+Caliper developement has been scilent for some time in the past quarter. For 2 major developers has moved on from their work with Caliper. So we had some pending PRs and unanswered questions.
+
+In last two weeks, Caliper team took multiple means to improve project health. Including reviewing and merging PRs, introducing new contributors and maintainers, have online meetings and making new plans. Now we've closed most pending PRs, the project is recovering and is becoming active again.
+
+===== Issues =====
+There are no new issues at this time.
+
+===== Releases =====
+No release yet. The project is still under development.
+
+===== Overall Activity in the Past Quarter =====
+Our main work focus on code improvement such as added event subscription ,event listener and supporting long time running.  Thanks every contributor's efforts.
+Below are some main updates in the past 3 months:
+  * Improve caliper to support long time testing
+  * Added lightweight dev network
+  * Added event subscription approach to get block commit status instead of rest get batch status query (sawtooth part)
+  * Split caliper into transaction sender and event listener
+  * Improve transaction sending speed with single client(to be upstreamed)
+  * Better resource monitor, integrated with Grafana(to be upstreamed)
+
+Now the project has 170+ starts and 110+ forks. 31 PRs and 25 issues have been handled and most questions are well answered.
+
+Trusted Blockchain Alliance has complete evaluation of 20+ platforms with Caliper.
+
+===== Current Plans =====
+We plan to publish the first release at the end of this year.
+Now we are going to formulate some rules to keep Caliper healthy, such as making health indicator to evaluate project's work, regular meeting, reviewing the project healthy objectives weekly, making merge Rule and attending PSWG meeting.
+
+A [[https://docs.google.com/document/d/1QQFmuRW4QXk0HCUIw1NoqweNQBnQ4P3eOhAE10m1vng/ | development plan]] is under discussion
+.
+===== Maintainer Diversity =====
+A new maintainer from Budapest University has joined Caliper project. 
+
+===== Contributor Diversity =====
+There are 17 contributors from various companies/organisations such as Huawei, IBM, Intel, Soramitsu, Budapest University, Persistentsystems. 
+Potential contributors from Ontology, Sinochain, Tencent and others
+
+===== Additional Information =====
+
+
+ 

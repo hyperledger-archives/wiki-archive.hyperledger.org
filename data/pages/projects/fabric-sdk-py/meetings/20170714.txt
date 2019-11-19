@@ -1,0 +1,281 @@
+==== 2017-07-14 ==== 
+
+Meeting will be held at [[https://chat.hyperledger.org/channel/fabric-sdk-py|rocketchat]] at 11AM (GMT+8).
+
+  * [[https://jira.hyperledger.org/browse/FAB-4623?jql=project%20%3D%20FAB%20AND%20status%20in%20(%22In%20Progress%22%2C%20%22To%20Do%22)%20AND%20component%20%3D%20fabric-sdk-py | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+status:open | Open Patchset for review]]
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]]
+
+=== Agenda ===
+
+  * MVP remaining tasks: [[https://jira.hyperledger.org/browse/FAB-4877|FAB-4877]] done by Kai Chen
+  * Environment setup: [[https://jira.hyperledger.org/browse/FAB-5121|FAB-5121]] done by Qiang Wang
+  * Proto Files Update: [[https://jira.hyperledger.org/browse/FAB-4592|FAB-4592]] done by Tony Yang
+  * E2E: Dong Wang is working on [[https://jira.hyperledger.org/browse/FAB-2871 | FAB-2871]]
+  * User Role: Wei Hu is working on [[https://jira.hyperledger.org/browse/FAB-3885|FAB-3885]]
+  * EventHub: Chang Chen is working on [[https://jira.hyperledger.org/browse/FAB-4822|FAB-4822]]
+  * Register: Baohua is working on [[https://jira.hyperledger.org/browse/FAB-3165|FAB-3165]]
+  * TODO issues:
+    * Update license header: [[https://jira.hyperledger.org/browse/FAB-4742|FAB-4742]]
+  * Other issues
+    * Congrats to chang and david as new maintainers, they will take more responsibility.
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Baohua Yang
+  * Kai Chen
+  * Chang Chen
+  * Qiang Wang
+  * Tony Yang
+  * Dong Wang
+
+
+=== Log ===
+
+baohua 11:00 AM
+OK
+today's agenda: https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20170714
+first, let's see the MVP status @grapebaba any progress?
+
+grapebaba 11:02 AM
+i am working on sync install chaincode to latest fabric this week
+not complete yet
+
+baohua 11:02 AM
+nice, we have the new fabric 1.0.0 release now
+
+tonyyang132 11:02 AM
+✋sorry a bit late
+
+lafenicecc 11:02 AM
+🤚
+
+baohua 11:02 AM
+let's use it as the base env
+
+grapebaba 11:02 AM
+@david_dornseifer pick up the create channel task
+
+baohua 11:02 AM
+we will keep a stable version to work with
+thanks for @qiang0723 and @david_dornseifer 's help in the env setup
+ok, any other problem? @grapebaba
+
+grapebaba 11:04 AM
+no
+
+baohua 11:04 AM
+hope @WangDong and @WeiHu are online
+
+WeiHu 11:04 AM
+✋yes
+
+baohua 11:05 AM
+great, how's https://jira.hyperledger.org/browse/FAB-3885 going?
+
+WangDong 11:05 AM
+I am here
+
+baohua 11:05 AM
+any problem to meet?
+
+WangDong 11:05 AM
+some network problem
+
+baohua 11:06 AM
+sure, pls feel free to discuss with the team here 🙂
+
+WangDong 11:06 AM
+ok
+
+baohua 11:06 AM
+@WangDong any problem with https://jira.hyperledger.org/browse/FAB-2871?
+
+WeiHu 11:07 AM
+I've communicated with kai, and we agreed that this task should wait `install chaincode` task done
+
+baohua 11:07 AM
+OK, then pls add the comments in jira board
+we need to explore the status of the work 🤔
+
+WangDong 11:08 AM
+last week, I got two patches related to client
+one sent, the other is on the way
+
+baohua 11:08 AM
+yeap, and hope we can have the e2e doc/framework soon 🙂
+
+WeiHu 11:08 AM
+ok
+
+baohua 11:08 AM
+https://jira.hyperledger.org/browse/FAB-2871 is very important for users
+
+WangDong 11:08 AM
+this is the warm up, I will focus on e2e then
+
+baohua 11:08 AM
+thanks
+
+WangDong 11:08 AM
+OK
+
+baohua 11:09 AM
+and thanks to @tonyyang132 https://jira.hyperledger.org/browse/FAB-4592 is done!
+
+WangDong 11:09 AM
+Sorry for the long delay
+
+baohua 11:09 AM
+pls also help make sure we keep sync with the fabric 1.0 release.
+🚋
+
+tonyyang132 11:09 AM
+@baohua sure, will look into it
+
+baohua 11:10 AM
+@lafenicecc how's going with https://jira.hyperledger.org/browse/FAB-4822?
+and hope u get familiar with the maintainer's responsibility, which is more challenging :woo:
+
+lafenicecc 11:11 AM
+Sorry a bit busy recently, but will get it done asap. BTW i'll invite two phd students to join us
+
+baohua 11:11 AM
+nice! hope they like Python!
+
+lafenicecc 11:11 AM
+yea.. one of them loves go more than python..
+
+baohua 11:12 AM
+aha, we got an open issue here today: https://jira.hyperledger.org/browse/FAB-4742
+
+WeiHu 11:12 AM
+👍
+
+baohua 11:12 AM
+which Phd could pickup this one?
+PhD is valuable always 😉
+
+lafenicecc 11:13 AM
+I'll let them handle this as a start
+
+baohua 11:13 AM
+great, thanks!
+aha, everything goes on as planed. so we do not have more on the agenda. Hope everyone are more clear during last week's design discussions.
+feel free to post any issue/question in the team during the contribution.
+So any more issue to discuss today? @grapebaba @lafenicecc
+and other members certainly
+
+WangDong 11:14 AM
+I got question regarding the org in client class
+yesterday ,we have a short discussion about it
+but i want know more about it
+
+baohua 11:15 AM
+yeap
+
+WangDong 11:15 AM
+As I found this org now is only used for user key in state store
+any import use in other place ?
+
+baohua 11:16 AM
+u can simply think an org as a MSP, while MSP represent some identity.
+so the identity should be used in key related scenarios
+at the same time, the org is mostly in used in those id, key, permission checking scenarios.
+from client side, it should be with the identity related methods 🙂
+
+WangDong 11:17 AM
+ok
+
+baohua 11:17 AM
+is that clear for u?
+
+WangDong 11:17 AM
+yes
+I try to restore the user from state store
+
+baohua 11:18 AM
+yes?
+
+WangDong 11:18 AM
+Then I have to use it to build the key
+
+baohua 11:18 AM
+if u need it, then feel free to create some Organization class
+
+grapebaba 11:19 AM
+as mentioned state store
+
+baohua 11:19 AM
+i guess the node one doesn't have that concept although
+
+grapebaba 11:19 AM
+have another question
+
+baohua 11:19 AM
+actually, we finally may need to remove the states from client side
+it's a workaround currently using state store
+
+grapebaba 11:20 AM
+really?
+
+WangDong 11:21 AM
+sure
+
+baohua 11:21 AM
+i guess so, the client could be stateless
+
+grapebaba 11:21 AM
+where we save certs and private keys
+
+WangDong 11:21 AM
+I just got a phone
+
+baohua 11:21 AM
+it may use some external store
+but the sdk itself should not manage this store in future, how do u think?
+i remember u got a question to discuss @grapebaba
+
+grapebaba 11:23 AM
+ok, sdk already provide state store interface
+
+baohua 11:23 AM
+yes?
+
+WangDong 11:24 AM
+the state store in sdk may be the front end, the back end can be pluggable?
+
+grapebaba 11:26 AM
+user enrollement and MSP files should be all certs and priv key files
+must store in security way i think
+
+baohua 11:26 AM
+yeap
+we can enhance the security later, that's must
+
+grapebaba 11:28 AM
+ok
+
+qiang0723 11:28 AM
+supplement: I set up a task to adjust the environment to meet the needs of development and testing, https://jira.hyperledger.org/browse/FAB-5121, and plan the following environmental adjustment can be placed under this task, any suggestions?
+
+baohua 11:28 AM
+sure, can continue with this on env improvement
+
+qiang0723 11:29 AM
+ok
+
+baohua 11:29 AM
+ok, any other question to discuss?
+If no more issue, will end the meeting, thanks every attendee and have a nice weekend!
+
+tonyyang132 11:30 AM
+thank you and see you around
+
+WangDong 11:30 AM
+have a nice weekend
+
+grapebaba 11:32 AM 
+👏

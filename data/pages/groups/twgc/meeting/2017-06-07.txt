@@ -1,0 +1,72 @@
+===== TWG China Meeting =====
+
+==== Date ====
+10AM ~ 11AM, 2017-06-07, GMT+8
+
+Phone Number:
+  * 800-820-0027 (toll free) 
+  * 400-821-0751 (caller paid)
+Passcode: 71173794
+
+[[https://www.uberconference.com/hyperledger-community | uberconference]]
+
+==== Attendee ====
+
+**Pls add ur name here before the meeting.**
+
+  * Baohua Yang (IBM)
+  * Zhou Xing (IBM)
+  * Yaoguo Jiang (HUAWEI)
+  * Haiyang Ding (HUAWEI)
+  * Fei Cao (HUAXIN)
+  * Qilei Li (QULIAN)
+  * Zhangjiong Xuan (QULIAN)
+
+==== Agenda ====
+  - TSC meeting sync (baohua, charles, victor)
+    - Linux Con: [[https://www.lfasiallc.com/linuxcon-containercon-cloudopen-china/about/schedule|Schedule]].
+    - Hyperledger Hackfest: [[ https://www.regonline.com/hyperledgerhackfestjune2017|Register]], [[https://docs.google.com/document/d/1LfTtwHvQfZAHUz8k35-s3hmE3S_0uXSuAAnhTB7U-Hg/edit|Agenda]]
+    - [[https://lc3china2017.sched.com/event/AebU/meet-the-hyperledger-technical-working-group-china-ce-baohua-yang-ibm-charles-cai-wanda-victor-huruifeng-huawei|Hyperledger China Community work session at LinuxCon]]
+  - Development and Innovation sync (Yaoguo and Ray Chen)
+    - Code development on projects
+    - [[https://wiki.hyperledger.org/groups/twgc/team_di | Team development and Innovation]]
+  - i18n and Education work status (Kewei Sun, Linsheng Yu, Wenjie Xie)
+    - Have some [[https://wiki.hyperledger.org/groups/twgc/team_ie|docs]], work is actively on-going.
+  - Scenario and Collaboration (Yin Cao, Kelvin)
+    - [[https://wiki.hyperledger.org/groups/twgc/team_cs|case book ]] design and sharing
+  - Event organization (Zhou Xing and Zhoudong Ji)
+    - Workshop proposal for warmup the hackfest
+  - other issues
+    - **Scott helps ask the call system**
+    - Evaluate to new meeting system on [[https://www.uberconference.com/hyperledger-community | uberconference]]
+
+
+==== Minutes ====
+
+  - TSC meeting sync (baohua, charles, victor)
+    - Linux Con: [[https://www.lfasiallc.com/linuxcon-containercon-cloudopen-china/about/schedule|Schedule]].
+    - Hyperledger Hackfest: [[ https://www.regonline.com/hyperledgerhackfestjune2017|Register]], [[https://docs.google.com/document/d/1LfTtwHvQfZAHUz8k35-s3hmE3S_0uXSuAAnhTB7U-Hg/edit|Agenda]]
+    - [[https://lc3china2017.sched.com/event/AebU/meet-the-hyperledger-technical-working-group-china-ce-baohua-yang-ibm-charles-cai-wanda-victor-huruifeng-huawei|Hyperledger China Community work session at LinuxCon]]
+      - **Scott: agenda discussion on hackfest. Will talk with LF**
+      - **Zhong: suggest need PTL from each projects attend.**
+  - Development and Innovation sync (Yaoguo and Ray Chen)
+    - Code development on projects
+    - [[https://wiki.hyperledger.org/groups/twgc/team_di | Team development and Innovation]]
+      - yaoguo: fabric 20+, other projects < 10
+      - jiannan: help contribute to fabric UT
+  - i18n and Education work status (Kewei Sun, Linsheng Yu, Wenjie Xie)
+    - Have some [[https://wiki.hyperledger.org/groups/twgc/team_ie|docs]], **welcome to review**.
+  - Scenario and Collaboration (Yin Cao, Kelvin)
+    - [[https://wiki.hyperledger.org/groups/twgc/team_cs|case book ]] design and sharing
+      - Yin: help publish into the mail-list and Wechat channels
+  - Event organization (Zhou Xing and Zhoudong Ji)
+    - Workshop proposal for warmup the hackfest& technical meetup
+    - zhou: next weekend in ZhongGuanCun, **Will send to community maillist**
+      - hyperledger community&projects
+      - hands on demo&workshop
+      - composer project
+      - TBD: scenario sharing or round table
+    - scott: next weekend is too near to the hackfest
+  - other issues
+    - **Scott help ask the call system**
+    - Evaluate to new meeting system on [[https://www.uberconference.com/hyperledger-community | uberconference]]

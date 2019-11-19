@@ -1,0 +1,85 @@
+===== TWG China Meeting =====
+
+==== Date ====
+10AM ~ 11AM, 2017-09-13, GMT+8
+
+[[https://www.uberconference.com/hyperledger-community | uberconference]]
+  * option 1: Use the computer audio to connect in (Recommend using microphone and headset)
+  * option 2: Dial in using the phone number at the website, e.g., +1 480-757-9435 (No local number support now)
+
+[[https://drive.google.com/drive/folders/0B_NJV6eJXAA1R04zZ05FdE9WVGM | Audio record]]
+
+==== Attendee ====
+
+**Pls add ur name here before the meeting.**
+
+  * Baohua Yang
+  * Hao Han Hero （Anne inc.）
+  * Zhangjiong Xuan(Hyperchain)
+  * Scott Long(Linux Foundation)
+  * Allen Shao
+  * Kelvin Wang （Energy Chain）
+  * Jing Cao(Hyperchain)
+  * Jay Guo (IBM)
+
+
+==== Agenda ====
+  - Welcome Zhangjiong Xuan (from hyperchain) as new [[groups/tsc/technical-working-group-china | active volunteer]].
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - [[https://www.regonline.com/hyperledgerhackfestseptember2017 | Hackfest in Chicago, September 21&22]]
+    - [[https://docs.google.com/document/d/1OtGmVvHa_LDhIm5t1HEI7XwCQt1Lpr4gRmWixoJWQzg | PSWG Charter]] Approved.
+    - [[https://docs.google.com/document/d/1cwScsNgYUj72vP2fqZ6vihYiuQcy45Ml2C_yLRI7EoQ/edit?ts=59955891# | [HIP] Hyperledger Caliper - a benchmark framework for performance testing]]
+    - [[https://docs.google.com/document/d/1KVrakb2JsqgMo2aG-QIYl743VHsU9NWYKxy7n-WeXv4/edit | [HIP] Hyperledger Interledger-Java]]
+  - [[groups/twgc/team_di | Team development and Innovation]] (Yaoguo, Zhangjiong Xuan)
+    - Code development on projects
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Linsheng Yu, Jiannan Guo)
+    - Zanata evaluation result.
+    - Demo the entire process?
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin, Haixu Cheng)
+    - [[https://wiki.hyperledger.org/groups/twgc/team_cs|case collection ]] sharing
+    - Haixu's feedback from TsingDao conf
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Zhou Xing and Zhoudong Ji)
+    - Meetup for September, call for sponsors.
+    - Regular monthly meetup plan.
+    - 2017-09-16 Meetup at Pangu building in Beijing.（HaoHan.Hero,ChenChang,LaoDao） [[http://t.cn/RNJHbzY|huodongxing]]
+  - other issues
+    - [[https://docs.google.com/document/d/1ukZFkP11qF56vt-WmLsGI5BTex2wOOSl8-Ecp0Y8yOc/edit?usp=sharing | Fabric crypto technical report]] for CCSC (Zhenhua Dong), welcome for review and comments.
+    - Technical FAQ collection (Zhou Xing and Jay Guo)
+
+
+==== Minutes ====
+
+  - Welcome Zhangjiong Xuan (from hyperchain) as new [[groups/tsc/technical-working-group-china | active volunteer]].
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - [[https://www.regonline.com/hyperledgerhackfestseptember2017 | Hackfest in Chicago, September 21&22]]
+    - [[https://docs.google.com/document/d/1OtGmVvHa_LDhIm5t1HEI7XwCQt1Lpr4gRmWixoJWQzg | PSWG Charter]] Approved.
+    - [[https://docs.google.com/document/d/1cwScsNgYUj72vP2fqZ6vihYiuQcy45Ml2C_yLRI7EoQ/edit?ts=59955891# | [HIP] Hyperledger Caliper - a benchmark framework for performance testing]]
+    - [[https://docs.google.com/document/d/1KVrakb2JsqgMo2aG-QIYl743VHsU9NWYKxy7n-WeXv4/edit | [HIP] Hyperledger Interledger-Java]]
+  - [[groups/twgc/team_di | Team development and Innovation]] (Yaoguo, Zhangjiong Xuan)
+    - Code development on projects: fabric and cello made progress
+    - Fabric
+      - Fabric release 1.0.2
+      - orderer reimplementation, to expect a 100% performance increasing
+      - fabric sdk: node, java, python, go
+      - TCert and SBFT are not implemented yet
+    - Cello
+      - New ansible driver to deploy fabric on baremetal and cloud
+      - New vsphere driver to support vsphere cloud env
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Linsheng Yu, Jiannan Guo)
+    - Zanata evaluation done, will share the link to welcome more user evaluations.
+    - Sign-off not supported to commit to git?
+    - **TODO: Jay will connect to the CI team for jenkins plugin setup.**
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin, Haixu Cheng)
+    - [[https://wiki.hyperledger.org/groups/twgc/team_cs|case collection ]] sharing
+    - **TODO: Haixu's feedback from TsingDao conf**
+    - Call for more case sharing at [[groups/twgc/team_cs| here ]]
+    - Allen Shao (AIIB) share the thoughts on encouraging more adoption cases.
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Zhou Xing and Zhoudong Ji)
+    - 2 Meetups for September, 1 meetup for Octomber in plan. Regular monthly meetup plan.
+    - Call for sponsors for more meetups, pls feel free to add at [[groups/twgc/team_eo| here ]].
+  - other issues
+    - [[https://docs.google.com/document/d/1ukZFkP11qF56vt-WmLsGI5BTex2wOOSl8-Ecp0Y8yOc/edit?usp=sharing | Fabric crypto technical report]] for CCSC (Zhenhua Dong), welcome for review and comments.
+    - Technical FAQ collection (Zhou Xing and Jay Guo)
+      - **TODO: Jay will share the link in maillist.**
+    - 2017-09-16 Meetup at Pangu building in Beijing.（HaoHan,ChenChang,LaoDao） [[http://t.cn/RNJHbzY|huodongxing]]
+    - Scott shared the info about 1worldblockchain

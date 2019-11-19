@@ -1,0 +1,18 @@
+===== Whitepapers =====
+[[healthcare-wg-wikispace-redesign |Home]] : [[resources|Resources]] : [[resources-knowledge|Knowledge resources]] : [[resources-publications|Publications]]
+----------
+
+//Whitepapers are non-peer-reviewed publications, typically self-published by vendors or other business entities. Research papers that qualify as part of the scientific evidence-base are published in peer-reviewed [[resources-research-journals|Research journals]].//
+
+
+==== Blockchain & Healthcare ====
+
+  * [[https://www.pwc.com/us/en/health-industries/health-research-institute/blockchain-in-healthcare.html|A prescription for blockchain and healthcare: Reinvent or be reinvented. PwC (2018).]]
+
+
+==== Blockchain ====
+
+  * [[https://eprint.iacr.org/2017/375.pdf|Wust, Karl & Gervais, Arthur. (2017). Do you need a blockchain? International Association for Cryptologic Research.]]
+    * Does this belong in [[research-reviews|Reviews]]? Citation?
+  * [[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2874598|Catalini, Christian and Gans, Joshua S., Some Simple Economics of the Blockchain (September 21, 2017). Rotman School of Management Working Paper No. 2874598; MIT Sloan Research Paper No. 5191-16.]] 
+    * Available at SSRN: [[https://ssrn.com/abstract=2874598]] or [[http://dx.doi.org/10.2139/ssrn.2874598]]

@@ -1,0 +1,7 @@
+====== Release Testing on Hyperledger Fabric v1.1 ======
+
+  - On March 16, 2018, a final set of Release Tests were triggered and executed on the released images, many from the fabric-samples repository: byfn, efyn with default channel, custom channel, couchdb, node chaincode on x86_64, s390x and ppc64le platforms, and fabcar, balance-transfer, fabric-ca samples on x86_64 and mac. All worked as expected.
+  - Many people contributed manual testing effort with positive and negative testing with these and other scripts.
+  - All the usual Unit Tests and merge jobs tests were executed in every repository using jenkins.
+  - [[https://jenkins.hyperledger.org/view/Daily/job/fabric-test-daily-x86_64/288/|Automated Daily Test Suite, executed March 16, 2018]] - Using CLI scripts, Behave, and some traffic generation tools for testing each component
+  - [[https://docs.google.com/spreadsheets/d/1E3-PXchMOWm6DC5xq6RN-NT2YmngKNcG_zQqW0ireY4/|SVT - System Verification Tests]] - Feature tests and System tests for this release

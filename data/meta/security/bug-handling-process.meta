@@ -1,0 +1,5 @@
+a:2:{s:7:"current";a:8:{s:4:"date";a:2:{s:7:"created";i:1497921725;s:8:"modified";i:1497921725;}s:7:"creator";s:11:"Tracy Kuhrt";s:4:"user";s:6:"tkuhrt";s:11:"last_change";b:0;s:5:"title";s:21:"Security Bug Handling";s:11:"description";a:2:{s:15:"tableofcontents";a:1:{i:0;a:4:{s:3:"hid";s:21:"security_bug_handling";s:5:"title";s:21:"Security Bug Handling";s:4:"type";s:2:"ul";s:5:"level";i:1;}}s:8:"abstract";s:471:"Security Bug Handling
+
+The Apache Project’s vulnerability handling procedure is great and we use the same process.
+
+No information should be made public about the vulnerability until it is formally announced at the end of this process. That means, for example that a JIRA issue must NOT be created to track the issue since that will make the issue public. Also the messages associated with any commits should not make ANY reference to the security nature of the commit.";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}s:8:"relation";a:1:{s:10:"firstimage";s:0:"";}}s:10:"persistent";a:4:{s:4:"date";a:1:{s:7:"created";i:1497921725;}s:7:"creator";s:11:"Tracy Kuhrt";s:4:"user";s:6:"tkuhrt";s:11:"last_change";b:0;}}

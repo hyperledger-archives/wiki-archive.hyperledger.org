@@ -1,0 +1,9 @@
+# Whitepaper WG Status 2016 Apr 20
+
+1. Reviewed and accepted Renat's proposal for soliciting and processing whitepaper feedback.
+   * A link to a "Feedback" form will be included on the WP WG wiki along side our initial draft paper. 
+   * The Feedback form will be implemented using Google Forms which also provides an Editors view (Google Sheet) that consolidates the feedback submissions. 
+   * A portion of our weekly WG meeting will be devoted to reviewing the feedback for updates to the whitepaper.
+2.  Discussed process and timing of 'publishing' our first draft. 
+   * Agreed we needed to have a full meeting to review and approve the 'finished' draft prior to generating the PDF snapshot of the google doc. This will make the timing of our initial draft out by 2 weeks at a minimum. As the whitepaper is not holding up any of the incubation projects the group doesn't see this as an issue.
+3.  The remaining time of the meeting was spent reviewing edit suggestions.

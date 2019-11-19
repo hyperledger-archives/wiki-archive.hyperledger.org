@@ -1,0 +1,59 @@
+====== Hyperledger Burrow Project Update Q3 2018 ======
+
+===== Project Health =====
+
+Burrow is being deployed to an ever-widening group through the ([[https://agreements.network/]]) now on its T3 test networks. This is producing a lot of feedback (and issues). Code-wise Burrow is in best shape of its life and we are moving away from paying down technical debt to working now new features such as our ETL and governance systems. Community engagement is good from users - though it has been frustrating for some as we have consolidated our tooling (which now overwhelming resides in the single burrow binary). Now would be the right time to put effort into documenting the detail of Burrow since anything produced is likely to be durable now the shape of the project is in less flux. We had disappointment with maintainer diversity - in that one developer on a maintainer track has been relocated by his employer and two other who could have done useful advanced work have decided, regrettably, to fork Burrow. They have said they would like to contribute but there action makes this harder given they could have depended on us as a library. Still Burrow has four full-time developers and receives useful contributions from the community on a regular basis - but not on a maintainer level. Any assistance from Hyperledger would be useful in this respect.
+
+
+===== Issues =====
+  * Help with documentation
+  * Help with maintainers - finding and mentoring them
+  * Common testing framework/infrastructure from Hyperledger would be useful (e.g. managed Kubernetes cluster, long-running chain tests, etc) and would free us up to work on stability and features
+  * Common release infrastructure - e.g. apt/yum/snap/flatpak would be similarly useful ancillary help.
+
+===== Releases =====
+Post-refactor our release cadence has increased significantly and we have automated cross-compilation and release to github:
+
+
+  * [[https://github.com/hyperledger/burrow/releases/tag/v0.21.0|v0.21.0]] - 21st August 2018
+  * [[https://github.com/hyperledger/burrow/releases/tag/v0.20.1|v0.20.1]] - 17th August 2018
+  * [[https://github.com/hyperledger/burrow/releases/tag/v0.20.0|v0.20.0]] - 24th July 2018
+  * [[https://github.com/hyperledger/burrow/releases/tag/v0.19.0|v0.19.0]] - 26th June 2018
+
+
+===== Overall Activity in the Past Quarter =====
+
+We have received several pull requests and issue that demonstrate actual bugs and are actionable beyond requests for help. Our mailing list remains fairly inactive, but Hyperledger chat generates a steady stream of questions which we respond to within a day or so at most.
+
+In terms of features we have added:
+
+  * Historical transaction and block execution tracing service
+  * Postgres SQL datasbase mapping layer [[https://github.com/monax/bosmarmot/tree/develop/vent|Vent]]
+  * State checkpointing to recover a previous height after a crash
+  * GRPC interfaces for transactions, query, and execution events
+  * Integrated keys service
+  * Apache2 licensed EVM ABI module (allowing us to sever go-ethereum dependency bring contract deployment and calling into the burrow binary and repo)
+  * Metrics (Prometheus) and profiling services
+  * GovTx - allowing validator set (and tracking in preparation for fee dispersement), roles, token balance, permissions, and code changes across multiple account in an atomic batch.
+
+===== Current Plans =====
+We have three buckets of functionality we are working on:
+
+  - Chain stability - including state time travel (c.f. ``%%git rebase%%``/``%%git reset --hard%%``, dealing with non-determinism, tracking Tendermint's bleeding edge, self-healing in kubernetes, node connectivity
+  - Governance - building on the ``%%GovTx%%`` primitive to implement governance policies to change permissions, validators, token allocation with voting and proposals
+  - Interacting with other chains - notably public Ethereum - tracking validator sets there, providing multisig contracts to hash lock state and transfer there. In time also working as a Cosmos zone.
+
+
+===== Maintainer Diversity =====
+We had hoped to be able to say we had added three new maintainers outside Monax, but one has ceased contributing to the project because he has been reallocated, and two have decided to work on a fork of Burrow having initially begun by copy and pasting the code.
+
+Many of our developer users are working on prototypes and often do not have the project security such that they feel able to get more involved. The amount of movement in all aspects of the code base over the last quarter (whilst much needed) also made it more difficult for contributions to be accepted (or indeed mergeable). We would appreciate help and advice on improving our maintainer diversity.
+
+
+===== Contributor Diversity =====
+Over the last quarter we have received contributions for 3-5 contributors unrelated to Monax.
+
+
+===== Additional Information =====
+We continue to work with Tendermint/Cosmos and have been collaborating over some of there efforts in building EVM state, and their authenticated data structure [[https://github.com/tendermint/iavl|IAVL]].
+ 

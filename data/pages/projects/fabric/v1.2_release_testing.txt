@@ -1,0 +1,9 @@
+====== Release Testing on Hyperledger Fabric v1.2 ======
+
+On July 03, 2018, after the usual Unit Tests and merge jobs tests were executed in every repository in the hyperledger fabric project, a final set of Release Tests were triggered and executed on the released images. These included many from the fabric-samples repository: byfn, efyn with default channel, custom channel, couchdb, node chaincode on x86_64 and s390x platforms, and fabcar, balance-transfer, fabric-ca samples on x86_64 and mac. All worked as expected.
+In addition, many people contributed by running through positive and negative test scenarios with variations of these scripts.
+Finally, refer back to the [[https://wiki.hyperledger.org/projects/fabric/quality_assurance|QA Release page]] for more information about the System Verification Testing (SVT) and the daily automated regression testing that was part of the release verification. Here are the most relevant sets of tests:
+
+  * [[https://jira.hyperledger.org/browse/FAB-10853?filter=12248|V1.2 TOP 10 New SVT Tests]]
+  * [[https://jira.hyperledger.org/browse/FAB-10853?filter=12197|V1.2 SVT Regression test scripts initiated manually during release testing]]
+  * [[https://jira.hyperledger.org/browse/FAB-4683?filter=12202|V1.2 SVT Regression test scripts executed automatically as part of the Continuous Integration daily test suite]]

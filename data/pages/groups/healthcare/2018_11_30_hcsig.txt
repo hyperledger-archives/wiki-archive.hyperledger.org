@@ -1,0 +1,81 @@
+{{:groups:healthcare:hsm_logo.png?nolink&650}}
+
+===== PROPOSED General Meeting Agenda for 2018-12-14 =====
+
+==== Resources: ====
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HLHC-SIG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+----
+
+===== Welcome and Opening Statements =====
+
+  * //A reminder to all HLHC-SIG members that this meeting is being recorded//
+  * [[https://www.linuxfoundation.org/antitrust-policy|Reading of the Linux Foundation Antitrust Policy]]
+  * [[https://tinyurl.com/HL-antitrust-slide|Hyperledger Antitrust Slide]]
+  * **Discussion: request for note-taking for this meeting**
+
+===== Introductions =====
+
+  * **If you’re new to the group, please…** 
+    * Introduce yourself
+    * Tell us where you're geographically located
+    * Share with us your interests in healthcare in general, and blockchain technologies in specific
+
+===== Community Announcements =====
+
+  * **Feel free to share your community announcements as they relate to the Hyperledger community**
+
+  * [[https://www.himssconference.org|HIMSS Conference 2019]]
+    * February 11-15, Orlando, Florida
+    * **Discussion: anyone planning or interested in attending?**
+
+===== HLHC-SIG Subgroup Updates =====
+
+  * Patient/Member Subgroup (Marissa Iannarone, Lead)
+  * Payer Subgroup (Raveesh Dewan, Lead)
+  * EMR Subgroup (Rich Bloch, Acting Lead)
+
+===== HLHC-SIG Ad Hoc Team Updates =====
+
+  * Wiki Redesign Team (Brian Ahier, Raveesh Dewan, and Mikhail Elias, Lead)
+  * Academic Research Team (Mikhail Elias and Adrian Berg, Lead)
+    * Currently in works, [[https://drive.google.com/open?id=1q-d8rGcRK2k_sq4xMUGinwhqwRYg-HOPK0vggaq7XkU|draft located here]]
+  * Charter Review/Revision Team (Len Edwin and Ken Allgood [writers], with Adrian Berg and Marissa Iannone [editors])
+    * Currently in final edit, [[https://drive.google.com/open?id=14wLdVKvFcsKdkTTsjFfheJEPUqIqq4g8FmCB5p9AyQE|draft located here]]
+  * Subgroup Review Team (Benjamin Djidi, Mikhail Elias, Steven Elliot, Robert Coli, and Sonia Wagner, Lead)
+    * Kick off meeting on 11/26
+    * Purpose is twofold:
+      * Fundamentally to understand the future direction of the EMR Subgroup
+      * To determine if a revised EMR Subgroup strategy might also apply to other subgroups
+
+===== Old Business =====
+
+  * Healthcare technologies challenges (Rich)
+      * Upcoming opportunities: [[https://www.herox.com/Differential-Privacy-Synthetic-Data-Challenge|NIST Differential Privacy Synthetic Data Challenge]], [[http://www.kidneyx.org/|KidneyX Redesign Dialysis Prize Competition]]
+      * From community feedback, plan is to pursue the KidneyX challenge, and forego the NIST challenge
+
+  * A HIPAA-compliant Hyperledger (Rich)
+    *** Discussion: not much community feedback to date... next steps?**
+
+===== New Business =====
+
+  * End of Year HLHC-SIG Survey (Rich)
+    * **Discussion: specific areas of focus for this upcoming survey?**
+
+  * Onboarding slide presentation for HLHC-SIG (Rich)
+    * Great example presented by the [[https://docs.google.com/presentation/d/1LEOU7kJOmu64IlbXU2WKapvto1oi60rJtovcwRoJXW0/edit#slide=id.p2|Social Impact Working Group]]
+    * Ostensibly used for onboarding a new chair/officer, but could be used for new members?
+    * **Discussion: would there be good utility/value to something like this?**
+
+===== Next Meeting =====
+
+  * Scheduled for Friday, 12/28 (tentative due to holidays), 0700 Pacific Time
+  * **Discussion: topics to add to agenda?**

@@ -1,0 +1,152 @@
+==== 2017-12-01 ==== 
+
+Meeting will be held at [[https://chat.hyperledger.org/channel/fabric-sdk-py|rocketchat]] at:
+
+  * 11AM (GMT+8)
+  * 8PM one day before (GMT-7).
+
+  * [[https://jira.hyperledger.org/browse/FAB-4623?jql=project%20%3D%20FAB%20AND%20status%20in%20(%22In%20Progress%22%2C%20%22To%20Do%22)%20AND%20component%20%3D%20fabric-sdk-py | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+status:open | Open Patchset for review]]
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]]
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  * Recent Progress: chaincode install, channel create, integration testing framework refinement
+  * chaincode Instantiate: Tony and kai are working on [[https://jira.hyperledger.org/browse/FAB-5489 | FAB-5489]]
+  * chaincode Invoke: Zhaofang Han is working on [[https://jira.hyperledger.org/browse/FAB-5491 | FAB-5491]], Dong Wang is working on [[https://jira.hyperledger.org/browse/FAB-6985|FAB-6985]]
+  * EventHub:  david dornseifer is working on [[https://jira.hyperledger.org/browse/FAB-4822|FAB-4822]]
+  * Register: Baohua is working on [[https://jira.hyperledger.org/browse/FAB-3165|FAB-3165]]
+  * TODO issues
+    * channel join: [[https://jira.hyperledger.org/browse/FAB-2871|FAB-2871]]
+    * chaincode Query?
+    * chaincode Upgrade?[[https://jira.hyperledger.org/browse/FAB-5490|FAB-5490]]
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Baohua Yang
+  * Kai Chen
+  * Dong Wang
+
+
+=== Log ===
+```
+baohua 10:58 AM
+@here meeting will start
+@grapebaba @DongWang online?
+
+DongWang 11:03 AM
+hes
+yes
+
+baohua 11:04 AM
+good to see u, dong
+today's agenda is at https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20171201
+
+grapebaba 11:04 AM
+😅
+
+baohua 11:04 AM
+@grapebaba get up, ahahaha
+
+grapebaba 11:05 AM
+🙂
+
+baohua 11:05 AM
+How's going, guys
+
+DongWang 11:05 AM
+I try to test the invoke function. But I got some errors, I will read the go sdk for reference
+
+baohua 11:06 AM
+ok, basically u can use peer cli cmd to do other operations before we have them
+and feel free to ask in the channel for help
+
+grapebaba 11:06 AM
+don't have much time focus on SDK work
+recently
+
+baohua 11:07 AM
+ok, kai and tony are working on FAB-5489
+
+JIRA @hyperledger-jira-l BOT 11:07 AM
+Found 1 issue
+FAB-5489 
+install and initiate chain code
+Assigned To
+Tony Yang  
+Status
+In Progress  
+Reporter
+Dong Wang  
+Priority
+Medium
+
+baohua 11:07 AM
+@tonyyang132 guess tony is not online today
+things getting better? @grapebaba
+
+DongWang 11:07 AM
+OK, I will
+
+baohua 11:07 AM
+thanks
+
+grapebaba 11:08 AM
+a little
+
+baohua 11:09 AM
+OK, i plan to add some block structure analysis tool in the sdk
+to let people manipulate blocks smoothly
+
+grapebaba 11:11 AM
+not heard before
+
+baohua 11:11 AM
+oh, when update config block, currently, need to use manual tools
+like `jq`
+actually, python is quite good in processing json structure
+@grapebaba make sense?
+
+grapebaba 11:13 AM
+yea
+
+baohua 11:13 AM
+nice
+OK, keep going together, @DongWang @grapebaba , hope we can get a workable e2e testing by our sdk soon.
+Dec 10, there will be a meetup in beijing, will u join?
+@DongWang
+
+DongWang 11:14 AM
+I will
+
+baohua 11:14 AM
+i guess kai cannot attend, pity
+
+DongWang 11:14 AM
+I have signed up
+
+baohua 11:14 AM
+ok, let's talk then on the sdk work
+
+grapebaba 11:14 AM
+yeah
+
+DongWang 11:14 AM
+sure
+
+baohua 11:14 AM
+ok, anything else to discuss today?
+if not, we will end the meeting. @DongWang pls help send the minutes link to the maillist
+
+DongWang 11:15 AM
+OK
+
+baohua 11:15 AM
+Thanks and have a nice weekend! 🌼
+
+DongWang 11:15 AM 
+have a nice weekend
+```

@@ -1,0 +1,15 @@
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1523426205;s:8:"modified";i:1523426734;}s:4:"user";s:0:"";s:7:"creator";s:0:"";s:5:"title";s:26:"Hyperledger Beijing Meetup";s:11:"description";a:2:{s:15:"tableofcontents";a:9:{i:0;a:4:{s:3:"hid";s:26:"hyperledger_beijing_meetup";s:5:"title";s:26:"Hyperledger Beijing Meetup";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:1;a:4:{s:3:"hid";s:6:"时间";s:5:"title";s:6:"时间";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:2;a:4:{s:3:"hid";s:6:"地点";s:5:"title";s:6:"地点";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:3;a:4:{s:3:"hid";s:12:"会议议题";s:5:"title";s:12:"会议议题";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:4;a:4:{s:3:"hid";s:12:"会议主办";s:5:"title";s:12:"会议主办";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:5;a:4:{s:3:"hid";s:12:"会议承办";s:5:"title";s:12:"会议承办";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:6;a:4:{s:3:"hid";s:12:"场地赞助";s:5:"title";s:12:"场地赞助";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:7;a:4:{s:3:"hid";s:12:"会议协办";s:5:"title";s:12:"会议协办";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:8;a:4:{s:3:"hid";s:12:"会议流程";s:5:"title";s:12:"会议流程";s:4:"type";s:2:"ul";s:5:"level";i:3;}}s:8:"abstract";s:373:"Hyperledger Beijing Meetup
+
+ Meetup Event guideline
+
+时间
+
+13:30-17:30, Apr 29, 2018
+
+地点
+
+杭州市西湖区西溪路550号西溪新座西溪谷互联网金融小镇多功能厅（6号楼九谷日料对门）
+
+会议议题
+
+Hyperledger Sawtooth 1.0的发布，对物联网和供应链的将会产生极大的助推作用，让我们一起来深度了解Sawtooth吧。";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}s:8:"relation";a:1:{s:10:"firstimage";s:0:"";}s:11:"last_change";a:7:{s:4:"date";i:1523426734;s:2:"ip";s:15:"113.247.183.184";s:4:"type";s:1:"E";s:2:"id";s:35:"groups:twgc:hangzhou-meetup-2018-04";s:4:"user";s:10:"scott-long";s:3:"sum";s:15:"[会议流程] ";s:5:"extra";s:0:"";}s:11:"contributor";a:1:{s:10:"scott-long";s:10:"Scott Long";}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1523426205;s:8:"modified";i:1523426734;}s:4:"user";s:0:"";s:7:"creator";s:0:"";s:11:"last_change";a:7:{s:4:"date";i:1523426734;s:2:"ip";s:15:"113.247.183.184";s:4:"type";s:1:"E";s:2:"id";s:35:"groups:twgc:hangzhou-meetup-2018-04";s:4:"user";s:10:"scott-long";s:3:"sum";s:15:"[会议流程] ";s:5:"extra";s:0:"";}s:11:"contributor";a:1:{s:10:"scott-long";s:10:"Scott Long";}}}

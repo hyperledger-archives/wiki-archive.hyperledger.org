@@ -1,0 +1,53 @@
+===== TWG China Meeting =====
+
+==== Date ====
+10AM ~ 11AM, 2017-03-01, GMT+8
+
+==== Attendee ====
+
+  * Baohua Yang
+  * Kewei Sun
+  * Donald Liu
+  * Scott Long
+  * Yaoguo Jiang
+  * Kai Chen
+  * Yanbo Li
+
+
+==== Agenda ====
+  - TSC meeting sync (baohua, charles, victor)
+    - internship proposal (6 out of 13)
+    - East Coast hackfest in April [[http://doodle.com/poll/xwdefutqhpwsqszr | event time voting]]
+  - meetup/hackathon (zhou xing and zhoudong)
+    - Mar 11,12 at Shanghai
+    - up to 30 teams
+  - mail-list, rocketchat activities report (yaoguo and zhipeng)
+  - Community development report (Ray Chen)
+  - i18n work (kewei and zhoudong)
+    - glossary
+  - other issues
+    - wechat subscription number
+
+
+==== Minute ====
+  - TSC meeting sync (baohua, charles, victor)
+    - internship proposal (6 out of 13)
+    - East Coast hackfest in April [[http://doodle.com/poll/xwdefutqhpwsqszr | event time voting]]
+  - meetup/hackathon (zhou xing and zhoudong)
+    - Mar 11,12 at Shanghai
+    - up to 30 teams
+  - mail-list, rocketchat activities report (yaoguo and zhipeng)
+    - maillist: 82 subscribers, 39 mails, focusing on community, and fabric 1.0, sdk, linux conf, hackathon
+    - rocketchat: 60 users, 80+ msgs, focus on documentation, java chaincode. scott: how to join rocketchat? Login using LF id at chat.hyperledger.org.
+    - website may use cdn to accelerate the access from China.
+  - Community development report (Ray Chen)
+    - fabric updates frequently recently, on chaincode, ca.
+    - fabric sdk python (kai): finishing the mvp, start the endorsement.
+  - i18n work (kewei and zhoudong)
+    - Kewei has setup a platform with zhoudong, using Zennata. Have done some tests.
+    - Will send a email to those volunteers in the maillist.
+    - Start from some stable ones, e.g., glossary and overview.
+  - other issues
+    - wechat subscription number, can send mail to scott for publicity.
+    - scott: rocket chat login successfully, and join the twg-china group channel.
+    - hackathon: scott and yaoguo will be present

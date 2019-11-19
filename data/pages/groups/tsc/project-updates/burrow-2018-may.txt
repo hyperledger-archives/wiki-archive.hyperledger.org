@@ -1,0 +1,55 @@
+====== Hyperledger Burrow Project Update Q2 2018 ======
+
+
+===== Project Health =====
+Burrow is running the first T1 testnet of the Agreements Network ([[https://agreements.network/]]) and has undergone various operability improvements to be put into production with validators running in multiple pools. We now have two companies actively contributing to the development effort. Our grand refactor is complete and the entire stack including Javascript libraries, packaging tooling is in a consistent working version with some end-to-end tests running in CI. We are one opcode away from full EVM compatibility.
+
+
+===== Issues =====
+   * We need a flexible fee structure compatible with new Tendermint (ability to charge for gas, on value transferred, on contract, based on volumes, etc)
+   * We need to build governance primitives around our validator bonding/unbonding flow
+   * We need the ability to escrow between chains
+
+
+===== Releases =====
+Burrow v0.18.0 released 9th May 2018 with a large number of improvements: [[https://github.com/hyperledger/burrow/blob/develop/CHANGELOG.md]]
+
+
+===== Overall Activity in the Past Quarter =====
+Hyperledger chat channels are increasingly busy, particularly #burrow-contributors which is generating useful development discussion. Burrow mailing list is quiet, but I will provide an update with recent information and see if that generates any interest.
+
+===== Current Plans =====
+Our big ticket items are:
+   * Pulling out key management and crypto into Burrow (from monax-keys). Updating libraries, stripping away intermediate layers (go-crypto), and making Burrow more 'self hosted' for validators. See: [[https://github.com/hyperledger/burrow/pull/776]]
+   * Implementing GovTx the base mechanism for changing validator sets according to bonding rules and other 'governance fork' events
+   * Adding an event firehose from which consumers can stream all events occurring within a range of blocks - to be used to drive Kafka and other integrations
+
+The major theme for Burrow this quarter is operability in the sense of running a production validator pool which includes ideas/work around:
+   * Network formation - starting networks from a single genesis validator and provisioning an initial secret to bond validators within a pool on
+   * Introducing hierarchical identity to validator pools to differentiate from the key matter on individual nodes (that can be generated on those nodes and never leave) and the human/organisational authority that runs those nodes
+   * Improvements to config generation
+   * Kubernetes helm charts
+   * State snapshotting backup and recovery 
+
+===== Maintainer Diversity =====
+We have added Sean Young (sean@monax.io) as a maintainer, joining:
+
+   * Silas Davis (silas@monax.io)
+   * Casey Kuhlman (casey@monax.io)
+   * Tyler Jackson (tyler@monax.io)
+
+We have a health pipeline of intended maintainers coming through, with two developers joining us from Finterra who have already done good work and I hope to have onboarded by next update:
+
+   * Ahmad Pouladzade (pouladzade@gmail.com - Finterra)
+   * Mostafa Sedaghat (mostafa.sedaghat@gmail.com - Finterra)
+   * Sean Blucker (sean.blucker@tcs.com - TCS)
+
+
+===== Contributor Diversity =====
+We have added 3 new contributors and 1 entirely new satellite project [[https://github.com/pouladzade/snack]] (providing package management).
+
+A few contributions are around our documentation hitting the Bosmarmot repo and we have had some significant contributions from Sean Blucker on the EVM bringing us into compatibility.
+
+
+===== Additional Information =====
+Burrow is known in Hyperledger as being the project with an EVM. As we deploy our own public network and work more closely with Tendermint/Cosmos I think there is scope for Burrow to become the project for building permissioned public chains as part of the Tendermint/Cosmos ecosystem or 'The Hyperledger App for Tendermint'. Burrow will increasingly have means for: constructing dynamic fee/gas schemes, running BPMN process models on across an ABCI (not necessarily limited to Tendermint) interface, and sending messages across Tendermint zones with IBC. It might warrant a brief discussion in the TSC. 

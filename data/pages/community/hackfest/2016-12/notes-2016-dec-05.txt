@@ -1,0 +1,936 @@
+=====  Notes from NYC Hackfest 05-DEC-2016  =====
+
+notes from Sharon Cocco (weeds):
+
+<file>
+
+[10:08]  Today, there are 80 people registered to come and the 
+         room is full.  People from various companies, but also 
+         Hyperledger members who are focusing on fabric, Sawtooth Lake, 
+         and R2.  I am posting what is being presented at Hyperledger 
+         Hackathon on fabric-dev channel from Binh. He thanked the 
+         community for all their contributions and is looking for further 
+         input.. HE also highlighted 2 companies are already in 
+         production with Hyperledger-fabric on 0.6.  He also covered 
+         lessons learned from the production and working with other 
+         companies that are baked into the version 1.0 design-- the 
+         details are posted on the slack channel fabric-dev
+
+[10:01]  We are at the Hyperledger Hackathan here in NY- IBM 
+         Binh Nguyen is presenting today--
+[10:01]  He thanked the community members for all their code 
+         contribusion- LSEG, CLS, JPMC, and so many others
+[10:02]  He did indicate there are two companies in production 
+         with the 0.6 version of the fabric.
+[10:02]  He indicated that there are many things we have learned
+[10:02]  that have been integrated into the new design
+[10:02]  Data and decisions remain with stakeholders (endorser 
+         model, multi-chain architecture)
+[10:02]  Plug-ability to enable fleibility in development and 
+         deployment ( Identity- MSP, Consensus, Data store)
+[10:02]  Transaction history on an Asset
+[10:03]  Native SDK- SDK spec for developers to implement in any 
+         language, where we have development occurring on Java, Node.js, 
+         Python and more to come
+[10:03]  Hardware Security model support- 2 implementations: 
+         modified, and unmodified PKSC11 for T-cert generation
+[10:03]  Access control on whho can query or submit transactions
+[10:03]  Upgradeable chaincode
+[10:04]  Binh inidcated given consensus is pluggable  he would 
+         like to partner closely with intel to see what could plug into 
+         the fabric
+[10:09]  Binh indicated a lot of this capability is going to 
+         complete very soon... and that they will be giving a demo.
+[10:11]  Binh showed Organization peer 1.1, 1.2, and 13... and 
+         then organization peer 2.1, 22, 2.3,.. and an ordering service-- 
+         they are not connected at this point (except for peers in their 
+         own organization).
+[10:12]  Let's say members of 1.1, 1.2, and 1.3 and 2.1, 2.2, 
+         and 2.3 want to create a chain
+[10:12]  #./peer chain create <config file> ,....................
+         #./peer chain join <1.1, 1.2><configuration block>
+[10:13]  This org 1 peer tells which node they can connect to... 
+         node 1.3 is an anchor of the chain so that te orgs can connect 
+         to each other.
+[10:14]  These nodes then form the gossip group... the leader 
+         will then connect to the ordering service to receive data from 
+         that particular chain.
+[10:14]  Anchors have become 1.3, 2.3,... leaders were 1.1, 2.1
+[10:14]  Another Example.
+[10:14]  Chain 2 we want to create chain with 1.1, 1.3,2.2, 2.3
+[10:15]  You can do that,.. and then you can also add 
+         organization 3 as well if needed
+[10:15]  So How do you define a transaction?
+[10:15]  Transaction starts with a proposal and sent to a 
+         specific set of peers to get an endorsement.
+[10:16]  Once endorsement happens, you send to orderer and will 
+         organization transactions and send back to the peer
+[10:16]  Peer will validate the transaction and commit wit 
+         consensus
+[10:16]  -> Transaction transforms data, scoped by chaincode on 
+         ledger from which it operates
+[10:16]  -> Transaction types: chaincode configuration, and any 
+         custom. Each type is associated with a handler (system chaincode)
+[10:17]  application SDK-> endorse (TX) -> peers--> respond 
+         (endorse tx)--> application/sdk--> broadcast to the order on the 
+         specific chain--> put in sequence to blocks and send only back 
+         to the peers within that chain
+[10:18]  --->Transaction Flow inside a peer<----
+[10:18]  Application needs ability to control endorsement and 
+         validation logic
+[10:18]  - Each chaincode is associated with an endorsement 
+         (ESCC) and validation system chaincode (VSCC) when deployed
+[10:19]  - Default implementation: simple declarative language
+[10:19]  - ESCC signs the proposal response (endorsement)
+[10:19]  -VSCC validates the endorsement and MVCC
+[10:20]  --> Dynamic Multichain <--
+[10:20]  Chain is peers + ledger + ordering cahnnel
+[10:20]  Achain is isolates data and code to specific 
+         stakeholders
+[10:20]  What happens to the ledger- you can now replace te 
+         database
+[10:21]  The blocks , the # of transactions of blocks are still 
+         there-- all of tat is persisted in transaciton log on file 
+         database.  From file, we extract out tat is related to state.
+[10:21]  You have read set and write set... that database is 
+         cached.. but not a database tat stores the transaction
+[10:22]  You can do sophisticated query depending on how you 
+         plug in the database... Level DB is limited to key value only,.. 
+         But we already have couchdb in master that as full query on 
+         JSON, which is much more powerful
+[10:22]  We also  can keep track of another database for 
+         indexing-- maybe transaction 1, 2, 3 or give me block 5,.. you 
+         can go to index and extract it really quickly.
+[10:23]  Jim Zhang shows a demo
+[10:23]  Jim Shows a Demo of where we are with Version 1.0 on 
+         Hyperledger fabric
+[10:26]  Jim shows everything native on his MAC.  He is starting 
+         up COP (originally known as membership services).  This is where 
+         he has the trust anchor for SDK involving the user. Users can 
+         then sign transactions and can be verified by the peers.  Jim 
+         then starts up the network with 4 nodes and each will be using 
+         CouchDB under the cover 
+[10:28]  Binh presents the Schedule.  
+[10:28]  of what he would like to propose for the roadmap 
+[10:30]  What we have today- Endorsement model, dynamic 
+         multichain, SDK application, SDK, Pluggable identity, Pluggable 
+         data store, HSM support, access control, upgradeable chaincode, 
+         pluggable consensus 
+[10:30]  For January- work with it for performance, security 
+         code hardening and what remaining items.  
+[10:30]  In February- we want to propose exit incubator possibly 
+         if community approves 
+[10:31]  We would continue to work in February and sometime we 
+         try to wrap everything up in release of version 1.0 
+[10:32]  The Incubator designation is not about the product... 
+         the incubator graduation requirements is how is the team 
+         operating and checklist of other items.  Brian is indicating 
+         that Fabric can do earlier than February and is independent .  
+         He felt we might be able to exit as incubation this month.  
+[10:33]  Question: Is same way you could switch out couchdb  and 
+         level db. Yes, you can contribute with database.. some people 
+         are already experimenting with MySQL and DB2.  
+[10:35]  Back to the demo-> here is the cop that is providing 
+         trust anchor.  The application can use the SDK using the 
+         specifications led by DTCC.  Every transaction has 2 steps- one 
+         is to send the proposal,.. once the proposal comes back, you can 
+         inspect the endorsement results and compliant to your policy.  
+         The application decides whether to proceed with transaction and 
+         send to orderer.. and VSCC is the final validation.  You can run 
+         w ith marbles end to end.  Jim showed Marbles to couch db so the 
+         state is saved JSON documents... This allows you to do faster 
+         query.
+[10:35]  So now you can ask chaincode to do the state lookup or 
+         you can go directly to couchdb 
+[10:36]  I sent a couple of transactions.  He put three 
+         transactions in it already.  Jim showed the native query on 
+         couch db-- showed json look up with nice Couch ui-- could do 
+         with perl or other clients.. He shows the result where there is 
+         no involvment of the peer nodes at all.  This is helpful with 
+         data analytics,etc,.  
+[10:37]  Question: Where is the consensus algorithm executed?  
+         The way we define consensus is multiple steps. three steps--> at 
+         the endorser, the ordering, and the validation.  This is 
+         different from 0.6 release where it was integrated.  So now, we 
+         execute transaction and endorse,.. then we order,.. and validate
+[10:38]  There is a lot of ways to detect malicious peer.  If 
+         replay attack- we can detect that. If it's honest, but malicious 
+         inside somehow- the transaction would ge through some 
+         endorsements if the endorsement is malicious somehow.  Let's say 
+         transaction A and B... say A is malicious.  It requires both of 
+         the signatures to endorse that transaction.  The application can 
+         catch that quite quickly
+[10:39]  The consensus starts when transaction enters the system 
+         to where it ends.
+[10:41]  Brian Behlendorf asks what do you need from community?  
+         Binh responded on fabric such as- > Please contribute,.. please 
+         contribute on samples,. on please contribute on documentation,.. 
+         We do have tags in the code such as "help wanted"... Brian 
+         suggested maybe we need to produce a query for "help wanted"
+[10:45]  Binh indicated we had 100's of pocs from numerous 
+         companies and several people in production with the 0.6 version 
+         of the fabric.  One important element is to take this level of 
+         code and to start really testing/ moving these pocs  to version 
+         1.0 and testing out the stability/quality finding all the 
+         relevant bugs
+[10:46]  Chris suggested- jumping in deep into code if you are 
+         not familiar probably isn't the best way to start if you aren't 
+         already there.  He suggested get it up and working, improve the 
+         automation of getting it up and working, develop some samples to 
+         get it started,.. and help us improve documentation for the next 
+         guy.   Additional tests, additional help , ease of use and user 
+         experience would be really helpful.
+[10:47]  Jim says we also want input on the SDK for stateless 
+         implementation for design.  We have a task lined up in JIRA to 
+         do this.
+[10:48]  Brian Belendorf indicated for your code to be labeled 
+         Alpha, Beta, 1.0 release.  This characterizes performance, 
+         security review,etc,.. is that aligned when you cut the release? 
+         We need to meet those.
+[10:50]  *Norbloc*
+[10:51]  introduced themselves- they plan to do KYC with 
+         Fabric.. they want to talk about deletion on the blockchain,.. 
+         ie the "Right to Be Forgotten".
+greg_not_so [10:51]  did someone say there is a scenario on 
+         'deletion' of blockchain?
+weeds [10:52]  Norbloc said they are interested in it.. but 
+         nothing in detail
+[10:52]  *Hyperledger Sawtooth Lake Update- Tod Barnes/Intel*
+[10:53]  Tom said he's really able to talk about stats, but he 
+         did have a few notes to share... he's going to give a quick 
+         snapshot of where project is
+[10:53]  Sawtooth update-->
+[10:54]  - New and improved CLI: cluster command and others, 
+         better interop with docker, cloud; improved support for 
+         launching and maintaining large networks
+[10:54]  - improved/improving developer flows: with respect to 
+         PR, integration testing, and Jenkins
+[10:54]  - Performance enhancements (in progress)- resulting 
+         from testing over global networks; better threading model to 
+         support ledger transfer and transaction handling; details to 
+         follow
+[10:54]  - New and improved stats client (tom will present 
+         later): Modularity, integration with CLI
+[10:55]  - Opensourced Ledger Explorer (Zac will present later)
+[10:57]  We'd like to know what's working, documentation, what 
+         tools and what needs improved automation?
+[10:57]  Question: If you want to spin up an AWS mode- is that 
+         out there?  No
+greg_not_so [10:58]  how about on Bluemix, would sawtooth host there?
+weeds [10:58]  We do not have production level quality,.. and 
+         can't comment on time frame?
+[10:59]  @greg_not_so  I know that I was interested personally 
+         (I'm from IBM) to see if Sawtooth lake would like to plug into 
+         fabric as i see it as a very scalable capability.. potentially 
+         running AWS, Bluemix,etc,. Maybe something worth discussing here?
+[11:00]  Zach from Sawtooth decided to demo a GUI--- Smartplace 
+         navigator that recently open sourced
+[11:00]  Sawtooth is another Hyperledger implementation.  It is 
+         a trusted environment and proof of elapsed time consensus that 
+         gets used to prove consensus without so many resources (hardware 
+         implementation)
+[11:01]  Marketplace Navigator- We break our  implementation 
+         transaction familes
+[11:01]  UI is written in closure script  (they are doing a 
+         demonstration live)
+greg_not_so [11:01]  @weeds i'm only a Bluemix partner, but have 
+         seen Intel do other partnerships, so would be interested to see 
+         if they want to do something together with IBM, on their own or 
+         with someone else
+weeds [11:02]  You use a wiki to verify identity -->shown on 
+         screen generate WIF key, create participant
+[11:02]  We are going to create market  participant itself .  On 
+         screen- waiting for participant to be provisioned, this may take 
+         a few minutes
+[11:03]  Now the participant is going to get a few assets-- in 
+         backcground green screen- you can see it running in background
+[11:03]  In main dashboard - the market place is broken into 
+         assets and holdings of those assets.
+[11:04]  As a market- I'm going to create an asset-- on screen 
+         create asset- he filled out name, description, and asset type (a 
+         new one is being created)
+[11:04]  Why asset and asset types? You  may want to categorize 
+         drugs- FDA approves all drugs and control drug approval, but 
+         then individual drug types for one particular company..
+[11:04]  So he showed currency,.. and we are restricting (only 
+         our market can create it)
+[11:05]  US $ are divisible and tradeable and can be consumed...
+[11:05]  Transaction submitted to blockchain- it got approved 
+         and pops up on te left... under assets (screen had assets, 
+         holdings and then working environment on right btw)
+[11:06]  Create holding- he had name , description, asset  and 
+         count  -- he created 2000000
+[11:06]  He created a holding in $'s which showed... and then 
+         created token
+[11:06]  Token allows you to validate participant.. this is a 
+         way to provision money to people and verify individuals
+[11:07]  So he then create sell offer-- Provision,.. we input 
+         the token in the amount of 1 and pay out amount of us $ of 
+         1000...it can be executed once per participant
+[11:07]  Once it's committed, we have everything for our 
+         market/setup...
+[11:08]  He then showed another example with Baker-- 
+         provisioning a token and that's about it.
+[11:08]  we are going to create holding for $ tat the market put 
+         out and we will get us $ and create a new asset type of cookies
+[11:11]  He has bonds/transactions example that he is going to 
+         open source
+[11:11]  He has an example of concert tickets as well
+[11:15]  Questions:
+[11:16]  What is distinctive about Sawtooth Lake? This 
+         application is so generic and compare between the branches is a 
+         good way to go-- it sort of buys and sells anything in 
+         simulation.  It's built as a generic proof of concept.
+[11:18]  *Comment from audience*- the thing I found interesting 
+         is the concept of transaction families.. It seems like there is 
+         some basic architectural constructs.  Here is how you plug in 
+         consensus, here is communication protocols,. and with 
+         transaction families, give a blockchain a flavor.  Here is type 
+         of data you want.  So you have generic thing, you deploy it and 
+         can see stuff go around.  If you want give it some flavor and 
+         use JSON formats- you can replace the ledger,.. or you can use 
+         the transaction primitives. The transaction family concept,... 
+         it turns it into a blockchain for x, y, z,.. without having to 
+         re-ode the primitives.   This is an interesting 
+         differentiation....
+[11:19]  --> Fabric has that same infrastructure model, but the 
+         tooling and construction is better in Sawtooth lake,.. in 
+         chaincode, you can do anything you want, but this upper level 
+         model is very interesting and drive into Sawtooth lake,.. and if 
+         we can find common ground, we could execute it.. maybe make some 
+         tweeks on chaincode model.  It's pretty cool
+[11:20]  Comment- we need to start talking about each one- 
+         Sawtooth Lake, Corda, and Fabric to see if we can help clarify 
+         the differences.. and try to get the best 
+[11:22]  In Sawtooth lake- marketplace is the transaction 
+         family-- which is asset types, how they get created, and how 
+         they transfer... Right now, it's programmed in Python.  
+[11:23]  PNB Parabase team said- seems like types and 
+         structure.. there are similarities, but almost like a type in a 
+         language... higher level constricut 
+[11:24]  User perspective comment- I like the popup box.. and I 
+         go into using Amazon and drop stuff in there, what Amazon is 
+         stuff behind the scenes, so i don't see latency. When i drop 
+         something in shopping basket, even though it takes days to get 
+         this done.. So what's going on ere is you are dealing with the 
+         biscotti, and I would try to do myself it would take me days to 
+         source and get msg back.  But here,.. you see eventually 
+         consistency in minutes instead of days.   I don't think people 
+         realize that blockchain is similar to Amazon and the real world.
+[11:26]  comment- there is in sawtooth core repo- there is an 
+         extension directory which you will find marketplace and 
+         navigator 
+[11:27]  Question: Does this provide any equivalent functioning 
+         as fabric, consensus? Or are we focusing more on fabric and this 
+         is a side project 
+greg_not_so [11:27]  not sure if blockchain is Amazon like just 
+         yet. if i go out on the street and ask what each is and would 
+         probably get stares when asking for blockchain, while Amazon is 
+         a huge brand now
+weeds [11:27]  Brian said this is an independent project, what 
+         is preferred consensus mechanism and for what use cases?  it may 
+         be very subtle -- maybe we take application and implement it
+[11:28]  (please note i'm just taking notes in the room, 
+         apologize for spelling mistakes)
+         jonathanlevi [11:28]  Just as an aside (as it has just been 
+         asked) Zac’s demo’s code/marketplace is available here: 
+         https://github.com/hyperledger/sawtooth-mktplace GitHub 
+         hyperledger/sawtooth-mktplace sawtooth-mktplace - Example 
+         trading system for Sawtooth Lake distributed ledger.  
+greg_not_so [11:29]  ok, blockchain is more like Apachi than 
+         Amazon as former is well knows among developers but not 
+         population at large #branding
+         boydjohnson [11:29]  HI @jonathanlevi, The link you provided is 
+         old. This is where marketplace is now: 
+         https://github.com/hyperledger/sawtooth-core/tree/master/extensio
+         ns/mktplace GitHub hyperledger/sawtooth-core sawtooth-core - 
+         Core repository for Sawtooth Lake Distributed ledger 
+weeds [11:30]  Brian indicated- There are multiple projects in 
+         Apache, and there are multiple projects in Hyperledger. We would 
+         encourage these projects to combine-- we would look for 
+         combination of services within to consolidate on one code base.  
+         We wanted the developers to work together and look to align.  
+         Sawtooth came out of Intel's work and came out with Proof of 
+         Elapsed Time.  I'm keen to see example code and applications 
+         that novel approach for consensus.  This is a slightly 
+         unpermissioned version of consensus.  Hopefully what we can do 
+         in Hackfest and see how we bring them to converge or usefully 
+         differentiate.  This is true for Aroha, Corda, and other 
+         projects coming in
+[11:31]  Last point I'd make- is marketplace something tied to 
+         sample code for Sawtooth,.. or does it make sense to split out 
+         in separate project so we could utilize for multiple DLTs?   
+         MAybe common UI and paradigm to deploy for different 
+         marketplaces?
+[11:32]  Intel: The front end code is totally portable,.. there 
+         are some like how transactions are formatted.  The server would 
+         require change.  Sawtooth has a validator and a rethink DB and 
+         python code that syncs between them so we don't send too many 
+         get requests to validator.  I imagine that is very distinct to 
+         fabric.. with that said, I don't think it would be that much int 
+         he end.
+[11:32]  User: Could we get this working on fabric?  Is anyone 
+         interested in doing the work? Everything under Apache license 
+         and suitable to explore on top of other DLTs.
+[11:33]  Chris: We have a session tomorrow on these differnet 
+         project and have a discussion on how we move forward in a way
+         jonathanlevi [11:34]  [ Thank you @boydjohnson! Was done on a 
+         best-effort basis, that is, by Google’ing it :wink: ]
+         boydjohnson [11:35]  No problem. @jonathanlevi
+weeds [11:36]  We are now onto showing Hyperledger Explrorer
+[11:36]  This is a standard explorer- it has information about 
+         the blocks
+[11:36]  It shows the current state of blockchain (current hash, 
+         previous hash)
+[11:37]  Shows network information- names, addresses
+[11:37]  They are working on updating for 0.6- they did show a 
+         visualization which is performance, transaction rate, block 
+         rate, transaction per block , transaction per chaincode, and 
+         approved/rejected transaction (the last two are mocked, but 
+         everything else is real)
+[11:38]  Under chaincode- I have all these different chaincodes 
+         and developer friendly that is new to fabric- you can easily 
+         deploy -- it shows the code and constructs available.. you can 
+         do init and deploy the code... you can also run simple 
+         function--> transfer and added the arguments
+[11:39]  Question; What are you doing under chaincode?  Are you 
+         inspecting chaincode and you can invoke and deploy?
+[11:39]  Yes,. you can do all those tings
+[11:39]  This is still at the 0.6 version,.. but we want to 
+         update it to version 1.0
+[11:40]  Guy from PNB Paribas--> so now you have to talk about a 
+         bit of a different animal with multi-chains/multi-channel . This 
+         has to be worked out.. We wanted to make sure the feature is 
+         available.
+[11:44]  Comment from audience: We don't have all the APIs 
+         clearly defined yet on  how you would do that. so you could take 
+         approach.  Here is the data you want to get out for version 1l0? 
+          From user perspective- here's what I want- connect to node,.. 
+         what chains that node has,... etc,.. if we can define that .. so 
+         we can keep those APIs backwards compatible.  WE can start with 
+         that and get a document and share with others.
+[11:45]  and get feedback
+[11:45]  This is only deploying chaincode, it is not deployment
+[11:46]  There is an aspect of Cello that has monitoring 
+         dashboard,etc,.. this is why we want to talk on commonality of 
+         this and Cello.
+weeds [12:35]  We just returned after lunch
+[12:38]  IROHA is another contribution in Hyperledger (from 
+         Soramitsu,, Hitachi, NTT Data, and Colu)
+[12:38]  What did we try to accomplish- simple APIs, digital 
+         asset tools and emphasis on mobile first, android, IOS... 
+         generate private/public key pairs on device versus going to a 
+         server
+[12:39]  Rakatani Securities- we are working with them on KYC on 
+         top of IROHA (I probably have not spelled it)
+[12:40]  WE also are working with a 3rd largest casualty 
+         insurance company, and we are working with weather derivatives 
+         and options for insurance contracts and putting that on a 
+         private blockchain.  We are doing some things with logistics.
+[12:41]  We have use case partners- people who sit with us and 
+         working with use cases and provide feedback- University of Aizu. 
+         Colu (thinktank who works with Japanese government), Glocom, NTT 
+         Data,  Mizuho financial technical research group which does SI 
+         work, Ratkan securities
+[12:42]  Goals: 
+[12:42]  - high throughput- handle thousans of transactions per 
+         second eventually 
+[12:42]  - low latency- attain transction finality within 2 
+         seconds 
+[12:42]  Scalability- scale to petabytes of data, distributed 
+         across many clusters 
+[12:43]  Modularity- make all core components modular so that 
+         fabric/Sawtooth lake/etc,. can use them 
+[12:44]  differences with fabric/sawtooth lake 
+[12:44]  from Iroha: 
+[12:44]  --> new consensus algorithim: chain based BFT 
+         algorithm: Sumeragi 
+[12:44]  --> mobile app and Javascript libraries- attain 
+         transaction finality within 2 seconds 
+[12:45]  --> tools for creating digital assets: special 
+         transaction types for asset creation 
+[12:45]  Consensus in Iroha: Smeragi 
+[12:46]  Client submits- phase 1 broadcast (leader verifies, 
+         order, and sign transactions and then broadcasts to validating 
+         peers--> pase 2 verify and sign (verify ,sigh, broadcast 
+         transaction to 2f+ 1 validating peer)--> phase 3 commit (commit 
+         after receiving 2f+ 1 signatures 
+[12:49]  The way that we group transacitons-- we handle finality 
+         on a per transaction basis.  There is no block concept in 
+         consensus, but there is a logical construct.  
+[12:49]  When you are performing consensus- it's not on 
+         transaciton itself,.. it's on the merkle root and is populated 
+         with the transactions themselves 
+[12:51]  Transaciton structure: 
+[12:52]  tx= transaction <command<object>> 
+[12:52]  add asset 
+[12:52]  transfer domain 
+[12:52]  We wrote C++ templates and they are checked at compile 
+         time.l you can do some nice tings with name spacing 
+[12:53]  There is a command and an object- add an asset, 
+         transfer from one public key to another... you can ave assets 
+         and a namespace with domain.  
+[12:53]  You can expand to include membership service- add a 
+         peer/remove a peer 
+[12:53]  *Recent progress* 
+[12:53]  Field test of IOS and Adroid mobile apps in Aizu, Japan 
+[12:54]  Joined Sbertech hackathon and built an adroid app for 
+         digital vodka 
+[12:55]  He showed- they are doing a currency for an event- 
+         buying coffee, buying popcorn... we wanted to see how a currency 
+         based on people doing social interaction.  Shake te app- 5 
+         seconds scan barcode, you get a new unity of currency... and 
+         they give you the currency- merit for both of you to get this- 
+         you could get coffee, popcorn and anime goods for free... a lot 
+         of these are anime nerds... so forced social interaction 
+[12:57]  They showed a video, but a couple of hundred people 
+         used it... it's still open to play with, but it's not completely 
+         bug free 
+[12:57]  We also replaced Aeron wtih GRPC 
+[12:58]  We created a docker image and can be found off of 
+         hyperledger 
+[12:59]  Another demonstration- if you want to brew 1000 liters 
+         of vodka... instead of going to bank to get financing and buying 
+         potatoes.. you give rights to the vodka to the potato owners... 
+         and you do crowd funding of the vodka.  
+[12:59]  Simple android app for a couple of days to send and 
+         receive this type of capability 
+[13:01]  We could see if we could combine forces and creating a 
+         combined datalayer 
+[13:02]  We have a team of about 13 people-- so if you are 
+         interested in buildling pieces that other projects can use-- 
+         distributed high performance network layer,.. or other projects 
+[13:03]  *NEXT SESSION DISCUSSION* 
+[13:03]  Enough people with Fabric, Iroha, Corda, Sawtooth lake 
+[13:03]  to help users 
+[13:04]  Agenda for architecture session- Tomas is going to 
+         continue presentation on paper he describe earlier.  Discussion  
+         of separation of storage layer and abstraction. and third topic 
+         is documentation 
+[13:05]  We are going to split- main room architecture; other 
+         room hacking 
+[13:05]  Expect 3pm for R3 to be here
+         bharat [13:57]  Hi, I am using chaincode on bluemix, having 
+         issues with getting username, I am using x509. 
+         Subject.commonname. I always gets value "Transaction 
+         Certificate" any idea?  
+cloud.strife [14:01]  @weeds is there a video posted from this 
+         1.0 demo you talked about today?
+weeds [14:16]  @cloud.strife I did see fabric playbacks on the 
+         playbacks channel- i think that has more than what we may have 
+         seen today or may be similar- might be worth asking that channel
+weeds [15:33]  *Richard presents from R3* 
+[15:34]  He will be doing  a deep dive from Corda
+[15:34]  (side note- our location WeWorks shuts down at 5pm)
+[15:35]  Richard Brown is the Chief Technology Officer at R3
+[15:36]  He's been designing R3 Corda with first code commit on 
+         November of last year
+[15:36]  They open sourced last week  His plan is to 15-20 
+         minutes why building... highlight the key concepts,.. and then 
+         go into more detail as progress
+[15:38]  What does Richard hope to get from hackfest?  would be 
+         good for people to understand, contribute, deploy it.. also here 
+         to learn about the other projects specifically Fabric and 
+         Sawtoothlake and Ihora
+[15:38]  What is Corda?
+[15:38]  Corda is a distributed ledger platform -- we don't say 
+         blockchain-- designed and built from the ground up to record, 
+         manage, and synch agreements (legal contracts) between 
+         identifiable parties, designed for regulated financial 
+         institutions.  WE do think it's applicability is much broader 
+         than that
+[15:39]  It is inspired by and captures the benefits of 
+         blockchain systems without the design choices that make 
+         blockchains inappropriate for many bank scenarios.
+[15:39]  The question driving our thinking derives from simple 
+         thought experiment- what is defining characteristic of 
+         blockchain platforms that is relevant and valuable to financial 
+         entities.
+[15:40]  Corda.net has link to github repos, slack,.. and 
+         incoming days we want Corda accepted as an incubation project.
+greg_not_so [15:41]  we need a better explanation of what makes 
+         a blockchain inappropriate for a bank
+weeds [15:41]  I'll see if I can ask him at appropriate time @greg_not_so
+greg_not_so [15:41]  sure think @weeds, and thx for doing all the typing
+[15:42]  sure thing, rather
+weeds [15:42]  Mission- to establish the architecture for open, 
+         enterprise grade, shared platform for immutable recording of 
+         financial events ad execution of logic
+[15:43]  This is the first time we have systems built at scale 
+         for organizations who don't trust each other and bring together 
+         for shared set of facts through consensus and these technologies.
+[15:45]  look at all the financial companies that have separate 
+         systems and we spend 10 to 100 million dollars a year-we could 
+         save a massive amount of cost based on this technology
+[15:46]  Corda- it does not follow that the systems that taught 
+         us Bitcoin/Ehtereum that they solve the problems in finance. If 
+         a problem in finance is that counterparties in trade are in 
+         consensus and maintain consensus until the deal is committed.
+[15:46]  when you look at Bitcoin/Ehtereum when they existed 
+         back then- full broadcast happens which becomes a non-starter 
+         with financial use cases
+[15:47]  You have to be very precise who could validate, who 
+         gets the data-- this led us to Corda
+[15:48]  Question: when there is something manipulated of 
+         currency- was that notary became concept... or everyone has to 
+         see it if you act on it? The idea of a notary, which in reality 
+         is a generalization of the resource miners provided, you need to 
+         know who is authoritative if that record is updated or not-- the 
+         most current record (that's what miners do).  You always  need 
+         that and that is how notary came about.  The original name was 
+         the "uniqueness service".  It's really been there from the start.
+[15:49]  What is defining characteristic of distributed ledgers? 
+         Distributed ledgers- or decentralised databases- are systems 
+         that enable parties who don't fully trust each other to form and 
+         maintain consensus about the existence, status and evolution of 
+         a set of shared facts
+greg_not_so [15:51]  consensus as balance confirmation? so, only 
+         one (counter-)party has to agree?
+weeds [15:51]  There are 3 motivating concepts that we used with 
+         the membership so that our engineering is in right direction- 
+         can you bring people into consensus with a management of broad 
+         financial instruments?  We chose cash, security (corporate 
+         bond), and derivative (credit/default swap).  We worked through 
+         each one to ensure Corda met those use cases.  WE also needed to 
+         bring people into consensus and evolve over time.  We know that 
+         tey need to go consensus at state-- how do we come to consensus 
+         on one shared fact,.. and then try to scale up from there.
+[15:52]  The foundational object is 1) the state object-- piece 
+         of data that represents an agreement.  Creates properties/fields 
+         from given financial agreement.
+[15:52]  Ledger is an atomic unit of data- that represents sared 
+         fact.
+[15:52]  STate objects always reference one or two documents.
+[15:54]  The first one is 2) contract code) verify that transfer 
+         (which) rule 1 (code) transfer (portal) rule 1(code)rule 
+         2(code)-- this is constraint based programming.. minimal of 
+         whether an update to object is valid or not.   You can offer as 
+         many of these in parallel and it's the narrowing piece of what 
+         has to be deterministic-- and this is where the security 
+         problems will be.  This approach allows scale and running in 
+         parallel
+[15:55]  The other thing that is optional 3) we are trying to 
+         have real world agreements- no way you can model all the legal 
+         prose in code.. there will always be an overarching contract on 
+         how disputes are resolved. when you model contracts, you link to 
+         the overarching document... state object might be te master 
+         agreement between counterpart in documents ,.. "Ricardian 
+         Contract is composed of legal prose, parameters, and contract 
+         code"
+[15:56]  4) systems works with transactions- transactions enable 
+         transition between states- do the inputs exist ,are they 
+         current, and is it valid and inputs available
+[15:56]  We don't want to send the data to everybod- so we try 
+         to be very precise contract validity and contract uniqueness
+[15:57]  Inputs that are valid and outputs are valid- but you 
+         could have several equally valid contracts, and only 1 can be 
+         processed.
+[15:57]  You need to rely on someone you committed to in advance 
+         that it is a unique inputer to the system
+[15:58]  This is the notary- any transaction- it commits to 
+         which notary cluster is authority of whether output is committed 
+         or not and who is the authority.
+[15:58]  5) consensus is reached on transaction validity and 
+         uniqueness
+[15:58]  6) Flows defined for specific sent to each node/identity
+[15:58]  You see a lot of out of band messaging which goes to a 
+         subset -- and you see a huge amount that negotiate and agree 
+         ..or you see people using consensus for ephemeral workflow to 
+         simulate
+[15:59]  We overlaid flow framework to overlay the 
+         communication/negotiation and come to agreement before comitting 
+         to the ledger.
+[16:01]  2 of us want to update something- and we need a notary 
+         to be the authority 
+[16:03]  answering from question- if you go back to model here- 
+         contract code can tell you whether transaction is valid or not-- 
+         if contract says only require one to sign,.. only one will 
+         sign,.. if contract says only require 2 to sign- then 2 to 
+         sign.. you model what has to be true. Things you might have is 
+         structural or validity of the entity.  Both buyer/seller may 
+         have to sign it.  For example secondary use cases- the financial 
+         instrument an option- you have a right to exercise a price to a 
+         certain deadline.  What happens right before the expiry.. if 
+         contract you owner and seller to sign- and you could play a game 
+         and you lost your money.. so you have to have ability that 
+         certain transaction only require one to sign...
+[16:04]  Does Corda consider notary a centralized single 
+         clusterized or is it a decentralized set of nodes for notary?  
+         Let's use the option
+[16:06]  Greg/Richard entered contract and Greg can execute at  
+         midnight.  Richard wants to move from active to expired  right 
+         after midnight.. and Greg wants to transition to exercise.  Now 
+         you have a race and you have a time stamping issue.  The actor 
+         of whether a transaction of the system- it is time stamping, you 
+         have to be the time stamp of the system (the notary)... The 
+         notary only signs if input object if it has not been consumed.  
+         the notary is saying- i will only sign that transaction if not 
+         the same input signed.  And he will figure out and will sign if 
+         the appropriate time and within the bounds of contract.  Notary 
+         is important for time and whether inputs are spent enough.  In 
+         essence, this is what miners also do....
+[16:07]  We allow multiple consensus providers in the network... 
+         so for our option case, we trust a regulated market 
+         infrastructure and operated by CME for example. For another 
+         scenario for cash, the only authoritative of Barclays to be 
+         spent would be Barclays.   We have multiple difference 
+         providers- some are centralized,.. some can be BFT... we have 
+         not implemented BFT notary.  We have a raft one already
+greg_not_so [16:07]  are notaries miners?
+weeds [16:10]  non validating notary will only have to remember 
+         the previous inputs and validate and read time stamp... 
+         reliability and privacy is a tradeoff. Is the notary is only 
+         looking at inputs and not validating the transaction.  There is 
+         possibility for nefarious party can enter-- because that 
+         nefarious party has signed prior
+[16:10]  We have two approaches-- first, we have permissioned 
+         system, so we don't include malicious... but honestly people do 
+         make mistakes second, we do have a validating notary which 
+         validates itself...
+[16:11]  There is active debate of going with nonvalidating 
+         notary or validating notary--- there is a trade off.
+[16:11]  we are supporting both on same network
+[16:12]  Data model at heart of corda is immutable state objects 
+         and code governing the allowable transitions. You can look at a 
+         transaction to see if it's valid or not. by looking at notaries 
+         and you know which notary  cluster- and whether the transaction 
+         is confirmed-- so we seperated validity from confirmed as a 
+         result.  [16:13]  I talk about the replicated machine and UTXO 
+         model-- this is on the UTXO model side of the debate. this is 
+         how we can parallelize the system and see the diagram of states- 
+         it's how we get to the best privacy system without advanced 
+         crypto 
+[16:13]  Q: is the  contract code bilateral?  So all the 
+         examples i give are billateral. but contracts can be with large 
+         parties.  So for a transaction to be valid- there could be 10's 
+         of 100's party to sign it and you can specify what sigs are 
+         required.  
+[16:14]  You might have one contract in system for cash- and 
+         millions of cash records that represent banks- these have to be 
+         significantly tested.  
+[16:15]  Q: what happens in event if contract code is updated? 
+         these references are by hash sha256 hash. so what i'm talking 
+         about design. when you look at state object, it may be 
+         com.r3.com.cash and then another class with the same name... you 
+         would still have the hash,..  
+[16:17]  how do you upgrade? there is a contract upgrade - this 
+         batch of states get to upgrade to cash version 2.. you can't 
+         change the data- you can only evolve what you have... in 
+         addition, who must sign? it may be advantageous ---who must sign 
+         to upgrade the contract.. so think about the DAO-- this could be 
+         hard.
+[16:19]  i don't see how you do cash on ethereum and get the 
+         privacy that you need--
+[16:19]  we also want to make sure what we built compatible with 
+         zeroknowledge proofs or consensus layer is lightweight,.. as 
+         technology progresses,..
+[16:20]  if you look at what you need to be consensus on- the 
+         logic to agree with counterparty, what transactions are we going 
+         to do is not in consensus- only the validation logic is in 
+         consensus
+[16:21]  States represent agreements in Corda (there is no Corda 
+         cash by the way)
+[16:21]  There is no such thing as cash in a bank,.100$ in Chase 
+         is different than 100$ in Bank of America-- what there is is 
+         liability.
+[16:22]  Cash in Corda- -- what are the fields- who is the 
+         issuer, issue date, amount currency, owner ---> this is a signed 
+         issuance that links to overarching legal prose to describe what 
+         it means to be a balance
+[16:23]  Example: Cashpayment
+[16:24]  i started with oject of Barclays with 100 pounds and 
+         proving someone else that Shipping company is owed 100$
+[16:24]  We do a transaction- we construct a payment that 
+         consumes the 100$ i had and creates 100$ for shipping-- do the 
+         balances match, is it the same issuer barclays on the input, 
+         because i no longer have the money am I the one that signs the 
+         transaction?
+[16:26]  xyz ends up with this transaction- it is an object, 
+         richard signed and owed 100$ by barclays.. all shipping company 
+         is richard said he had 100 pounds and it has not previously 
+         spent.. and here is a valid transaction.. you don't have the 
+         chain of custody back to barclays--- here is the set of objects 
+         and barclays owes money--i also have to send transaction tat the 
+         transaction was issued to me-- i have to send precursor where it 
+         was issued to me- it's the chain that provides that proof that 
+         it was actively conveyed to me.
+[16:26]  Q: how do you get privacy/confidentiality if you have 
+         to share all the chain of custody?
+[16:27]  we look at this in depth and what we got to -there are 
+         5 pieces to this?  why does this not degrade to full broadcast?
+[16:29]  technical side is things we have address 
+         randomization... but then you bring legal/regulatory part of 
+         this.  Richard has this cash that he has at barclays and signed 
+         that... you can do that from one to two hops-- but you must do 
+         this-- the chains don't get that long for cash- so you only have 
+         to provide the narrow part for the ledger.  the issuer has to 
+         countersign the transaction or are they ave to go further and 
+         reissue it.   You can actually snip the chain regularly if you 
+         use the UTXO... the issuers will require needing multiple 
+         notaries.. and we need to do a lot to be compliant with 
+         regulation. As technologists, we need to make it clear the 
+         strong downside at this point- only when you have common 
+         notaries... so if everyone has to notarize gets less interesting.
+[16:31]  Can a transaction generate an output with a different 
+         notary from the input? Yes absolutely.. I have some cash that is 
+         committed to Barclays and IBM stock to IBM notary... I have a 
+         problem if I want to swap cash and stock.. I can do a 2 phase 
+         commit and IBM notary to work with Barclays notary.  I will 
+         support a notary exchange -- create a transaction that only 
+         requires one notary.... you could still do both if you have to.  
+         downside at this point- only when you have common notaries... so 
+         if everyone has to notarize gets less interesting .  
+[16:31]  Can a transaction generate an output with a different 
+         notary from the input? Yes absolutely.. I have some cash that is 
+         committed to Barclays and IBM stock to IBM notary... I have a 
+         problem if I want to swap cash and stock.. I can do a 2 phase 
+         commit and IBM notary to work with Barclays notary.  I will 
+         support a notary exchange -- create a transaction that only 
+         requires one notary.... you could still do both if you have to.  
+[16:31]  The design is not for all use cases- it's based on 
+         trying to solve specific problems, but the design is pretty 
+         baked and feel it's quite baked. the code base is very young, 
+         but the quality is quite high. We are about to kick off corda 
+         going in for incubation in Hyperledger . Corda.net is where it 
+         lives right now.  
+[16:33]  Q: there is a lot of similar concepts for example to 
+         fabric.. which has also been on it's path.. How do we start to 
+         reconcile some of these things and have greater collaboration 
+         between these projects? we are seeing questions on comparisons.. 
+         but we need to move forward together.  
+weeds [16:35]  Richard: Until we open sourced- it's hard to have 
+         those conversations-- Corda was not visible unless you were 
+         members.  Sharing components will come sooner-- Corda targets 
+         JVM-- we minimized the part that to be deterministic.. and we 
+         are creating whitelist sandbox to keep deterministic.  I suspect 
+         there are implementations on BFT that we can benefit from.. 
+         there are other projects.. I have a theory (not R3) the utxo and 
+         replicated VM model- i think they are different. they solve 
+         different problems.  I see a world where we converge to a 
+         permanent UTXO model and permanent VM model.  It's not obvious 
+         to me that the code base to one makes sense
+[16:36]  Q: with replicated VM and replicated state- we can try 
+         to do un-natural thing.. Statements have been made that no 
+         technology met these needs before.  There is a lot of common 
+         architectural that ended up this way.  The notary is at trusted 
+         service that is out there- and fabric has ordering service. 
+         There is a notion of channels and privacy similar to the R3.. 
+         there is a lot of commonality. Maybe we do that separate.. would 
+         be great to talk 
+[16:36]  Brian: even if we don't use common code- we use common 
+         terminology that might help 
+[16:37]  Maybe starting with common glossary,..  
+[16:39]  *editable blockcain* 
+[16:39]  We have moved to a different topic-- there is 
+         healthcare records- and someone posts an unencrypted aids test 
+[16:40]  there are real use cases where there is some threshold 
+         where stakeholders- we all collectively agree or 90% of us plus 
+         a regulator agree that we may want to take this off the chain 
+         and white it out,.. and remember we whited it out and not 
+         remember what is there 
+[16:40]  This first came out with Chameleon Hash- they 
+         implemented this and not sure it's in hyperledger code.  
+[16:41]  In the mean time Norbloc suggested a similar 
+         implementation.  Brian suggested that it's worth thinking about- 
+         you have to have 100% of the stakeholders agree or 2/3 majority 
+         or whatever- it's still immutable "ish" and might be able to use 
+         in regulated environments where we need things like right to be 
+         forgotten 
+greg_not_so [16:42]  then i would encrypt them back make them 
+         inadmissible and they would stay like that for the eternity 
+         without editing (mutating) the blockchain 
+weeds [16:45]  This is Norbloc- this is about immutability in blockchain 
+[16:46]  How do we solve one of the possible immutability of the 
+         feature 
+[16:46]  block 0 header /previous hash/merkle root--: block 1 
+         header/previous header hash/merkle root--> block 2 
+         header/previous headerh hash/merkle root 
+[16:47]  taking Block 1 header-> h(a), H(b), H(c), H(d)  where 
+         a, b, c, d are related  h(a) to a ---note might be easier to see 
+         charts but it's essentially merkle tree 
+[16:47]  abcd were the block 1 transactions 
+[16:49]  So essence proposal-- introduce a transaction that 
+         happens sometime later-- we propose a request for transaction in 
+         the later block can holds all the data and modified view of the 
+         data.. after confirmed by enough # say 100.. it issues that 
+         transaction and confirmed by large # of blocks- then we have all 
+         the transactions except the modified transaction which has the 
+         same trust/same level of security 
+[16:50]  To be more technical- each blockchain has it's own 
+         implementation details.. in our whitepaper, we described on 
+         bitcoin blockchain.. for bitcoin blockchain- you can not 
+         arbitrary modify transaction, because there are links between 
+         the transaction such as inputs and outputs.  the only part that 
+         you can modify --- each blockchain will have to maintain how 
+         modifiable the transaction will be.  
+[16:50]  If we specify that certain part of transaction is 
+         authorized for deletion from very beginning and we don't sign 
+         for authorized for deletion..then that is the process of 
+         modification.  
+[16:51]  Surprisingly, I learned fabric 1.0 is implementing 
+         exactly that. we are not the only ones thinking about that-- our 
+         solution based on fabric is more suitable... we can comply with 
+         the right to be forgotten.  
+[16:52]  Binh then speaks up-- the evidence of the prviate 
+         transaciton, but the actual data is not on the transaction.  In 
+         fabric, we have a parameter on the protocl called transient. so 
+         applciation in this case can pass in private data and then hash 
+         that data or do whatever to get the evidence into the 
+         transaction.. that allows me to put the evidence on transaction 
+         parameters. it will be part of the endorsements,.. but the 
+         endorsers could drop the transient data on the transaction.  
+         That is a current implementation which is available in master 
+         today.  
+[16:53]  Q- as far as I understand for those nodes that still 
+         hold the data- only the nodes are allowed to hold that data can 
+         keep that data... but at some point, when that data of the 
+         personal data of bonds-- customer may execute right to be 
+         forgotten and wants that data to be deleted... so you are 
+         introducing delayed transaction type 
+[16:53]  Binh- now it's part of the chaincode, or it's part of 
+         the application.  
+[16:54]  Q- We are in a project with google and we have a 
+         different way of handling this- the database stays immutable, 
+         that data is marked that it is no longer viewable, but you can't 
+         really delete it- is it not more elegant with permissions versus 
+         removing transactions 
+[16:55]  Norbloc- that depends- do you include it in the data in 
+         database or not... that is the problem of the definition. if it 
+         was in original transaction- some party will hold that data,.. 
+         even if it's separated from main blockchain.. someone has it. 
+         those parties are holding it- they will look at all of that 
+         data-- But not for each party...
+[16:55]  We are not pretending there are no transactions
+[16:57]  Gari- I'm not saying whether i argue for or against. 
+         But that being said, the problem- you can have database access 
+         permissions- record exists or not-- but there is nothing that 
+         chains the records together.  The only way you validate the 
+         history of ledger is to have all of the ledger. Anyone has 
+         access to the ledger- so you can't give permissions on that.  
+[16:58]  So it's a sublte difference.. that's exactly what 
+         happened- facebook never deletes data and google doesn't 
+         either,. just prevents access.  The feature -- the notion is if 
+         you have mechanism in place- it's a data distribution- whether 
+         peer to peer. normally here is my content, hash on blockchain, 
+         and content is distributed some other way.  the concept here is 
+         you have a distribution mechanism and you pop that into the 
+         distribution mechanism but only keep the hash of it on there.. 
+         the hash is what's hashed in the blockchain-- and it's a means 
+         to distribute that data.. in that case, we can delete it from 
+         the database or delete access. the ledger is still valid because 
+         you have the hash.  
+[16:58]  So what if law enforcement undelete the deletes-- "the 
+         right to undelete" (chuckling) 
+[17:00]  In a decentralized system- i own the peer- i can alway 
+         s decline that this transaciton is removed.. how do you enforce 
+         this?  
+[17:01]  the only way is you do it through regulation-- and then 
+         there are penalties if you don't do it.  
+[17:01]  The only way you can detect that-- you can never do 
+         this on Ethereum or Bitcoin networks...  
+[17:02]  (more discussion) Blockchain is immutable- you would 
+         have to - come down and mandate and fine that you have to delete 
+         this data, is this going to invalidate the blockchain?  The bank 
+         has to do it by regulation,.. so the big concern is does this 
+         invalidate my blockchain?
+</file>

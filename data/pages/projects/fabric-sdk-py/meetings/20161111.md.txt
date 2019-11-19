@@ -1,0 +1,403 @@
+### 2016-11-11
+
+#### Agenda
+
+* [Jira work](https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85) review (kai)
+* Everyone review the [Patchset](https://gerrit.hyperledger.org/r/#/q/status:open+project:fabric-sdk-py)
+* Suggest read the spec and attend the discussion
+ * [SDK Spec](https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4)
+ * [hyperledger-fabric-protobuf-message-and-flow](https://files.slack.com/files-pri/T0J024XGA-F2VB5FXJ4/download/hyperledger-fabric-protobuf-messages-and-flow.pdf)
+* Other issues
+
+#### Attendee
+
+* Baohua
+* Kai Chen
+* Chuanjian
+* Bryan
+* Latitia
+
+#### Log
+
+```
+=== Meeting Start ===
+
+11:00]  
+Baohua Yang	OK, let’s start
+
+[11:00]  
+the meeting agenda is here: https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20161111.md
+
+[11:00]  
+Item 1: Jira work review (kai)
+
+[11:00]  
+@grapebaba any comments?
+
+[11:01]  
+Kai Chen	suggest split member class implementation
+
+[11:01]  
+as now it should include many features
+
+[11:01]  
+it is better for us to pick up sub task
+
+[11:02]  
+Baohua Yang	Agree, who is the owner of the member class story now?
+
+[11:02]  
+Bryan HUANG	already splited to 3 tasks
+
+[11:02]  
+Kai Chen	thanks
+
+[11:03]  
+Bryan HUANG	Transaction related functions
+Basic attribute functions
+Register, enroll functions
+
+[11:03]  
+Baohua Yang	i saw 6 sub-tasks on Membership Registration and Enrollment
+
+[11:03]  
+Bryan HUANG	is it okay
+
+[11:03]  
+Baohua Yang	I suggest we make each sub-task as small as could be finished within a week.
+
+[11:04]  
+@bryan-huang Could you help check that?
+
+[11:04]  
+Bryan HUANG	sure, will split to more smaller
+
+[11:04]  
+Baohua Yang	Cool and thanks~~
+
+[11:05]  
+any more comments on item1?
+
+[11:05]  
+Kai Chen	yes
+
+[11:05]  
+i have a question
+
+[11:05]  
+do we have a docker-compose to do E2E test now?
+
+[11:06]  
+Baohua Yang	yes, we have one, but not finish the E2E checking now.
+
+[11:06]  
+the docker-compose just boot a sdk and chain, with connecting them together.
+
+[11:07]  
+are u expecting to run test using it in ci or?
+
+[11:07]  
+Kai Chen	As i and @lhaskins works on some V1.0 API
+
+[11:07]  
+but V1.0 is not ready
+
+[11:07]  
+Baohua Yang	Yes
+
+[11:07]  
+Kai Chen	it seems not easy to test
+
+[11:08]  
+Baohua Yang	understand, we cannot do real test today until 1.0 works.
+
+[11:08]  
+Latitia Haskins	Should I switch to pick up a subtask from that Jira issue instead of working on the peer? I can work on the testing certain parts that are in place with you as needed
+
+[11:08]  
+Baohua Yang	So i suggest we may try to use tools like mock, any better idea?
+
+[11:09]  
+Latitia Haskins	For example the happy path with a solo orderer, 1 peer, and ca
+
+[11:09]  
+Baohua Yang	@lhaskins feel free to talk to those work/story owners and make update. The jira is just a tool  to help collaborate.
+
+[11:10]  
+Latitia Haskins	ok. will do
+
+[11:10]  
+Baohua Yang	IMHO, we first make it work, then keep improving.
+
+[11:10]  
+Kai Chen	@lhaskins maybe we can follow what node SDK do
+
+[11:10]  
+Baohua Yang	dislike reviewing a huge patchset submitted :slightly_smiling_face:
+
+[11:10]  
+Agree @grapebaba
+
+[11:10]  
+Kai Chen	I will try to do that
+
+[11:10]  
+Baohua Yang	currently we already have a good ref from nodejs
+
+[11:11]  
+OK. any more?
+
+[11:11]  
+Kai Chen	no comment for item1
+
+[11:11]  
+Bryan HUANG	I have a question on the release supporting,
+
+[11:11]  
+do we need support both 0.6 and 1.0 ?
+
+[11:11]  
+Baohua Yang	is it related to jira work?
+
+[11:12]  
+if not, we can discuss as other issues
+
+[11:12]  
+@bryan-huang how do u think?
+
+[11:12]  
+Bryan HUANG	my thinking is 1.0
+
+[11:12]  
+only
+
+[11:13]  
+:slightly_smiling_face:
+
+[11:13]  
+Baohua Yang	@bryan-huang so i will move to item2, and then discuss the releasing problem later.
+
+[11:13]  
+:slightly_smiling_face:
+
+[11:13]  
+Bryan HUANG	sure, thx
+
+[11:13]  
+Baohua Yang	Item 2: Everyone review the Patchset
+
+[11:13]  
+https://gerrit.hyperledger.org/r/#/q/status:open+project:fabric-sdk-py
+
+[11:13]  
+Kai Chen	agree @bryan-huang
+
+[11:14]  
+Baohua Yang	We get lots patchset to review, everyone please help throw your voting there :slightly_smiling_face:
+
+[11:14]  
+Any question on those patchsets?
+
+[11:14]  
+Kai Chen	make some comments
+
+[11:15]  
+Baohua Yang	Item 3: SDK spec: https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4
+
+[11:15]
+slackbot BOT That looks like a Google Drive link. Do you want us to import it and all future Google Drive links from you?
+Yes • Just this once • Not now • Never
+Only visible to you
+
+[11:15]  
+Baohua Yang	We made lots of update on SDK spec this week.
+
+[11:15]  
+I highly recommend everyone to involve into the discussion, making comments, etc.
+
+[11:16]  
+There is a meeting at 8PM tonight.
+
+[11:16]  
+Meeting link: https://mydtcc.webex.com/mydtcc/j.php?MTID=md41d422ecf1067beb48aa27cf7d3ff40
+
+Participant Pin Code: 893 074 1
+ mydtcc.webex.com
+Depository Trust and Clearing Corporatio WebEx Enterprise Site
+9 
+
+[11:16]  
+More meeting info can be found at https://wiki.hyperledger.org/groups/fabric-sdk/fabric-sdk-wg
+
+[11:16]  
+OK, any questions on that?
+
+[11:17]  
+Latitia Haskins	Is that 8pm your time? orUTC?
+
+[11:17]  
+Baohua Yang	yes, 8pm for UTC+8.
+
+[11:17]  
+Latitia Haskins	ok. I probably will be asleep :slightly_smiling_face:
+
+[11:17]  
+Baohua Yang	And next one is 10AM(UTC+8) next Tuesday
+
+[11:18]  
+Then will recommend you look at the spec doc.
+
+[11:18]  
+Latitia Haskins	ok. will do
+
+[11:18]  
+Baohua Yang	btw, what is the time now for you latitia
+
+[11:18]  
+Latitia Haskins	10:18pm
+
+[11:18]  
+Baohua Yang	aha, EST timezone
+
+[11:18]  
+not too bad for you :slightly_smiling_face:
+
+[11:18]  
+Kai Chen	ok
+
+[11:19]  
+Baohua Yang	OK, will move to item 4: other issues.
+
+[11:19]  
+@bryan-huang
+
+[11:19]  
+the releasing problem?
+
+[11:19]  
+Bryan HUANG	yep
+
+[11:19]  
+Kai Chen	agree only focus V1.0
+
+[11:20]  
+Bryan HUANG	:+1:
+
+[11:20]  
+Kai Chen	I think we have no much time:stuck_out_tongue:
+
+[11:20]  
+Baohua Yang	if anyone want to use 0.6, i guess he can adopt the original code repo at https://github.com/yeasy/hyperledger-py
+ GitHub
+yeasy/hyperledger-py
+hyperledger-py - Python SDK for hyperledger fabric 
+ 
+ 
+
+[11:20]  
+OK, @lhaskins
+
+[11:20]  
+latitia, can u help make a brief self-introduction?
+
+[11:20]  
+it’s great to have you
+
+[11:21]  
+Kai Chen	:clap:
+
+[11:21]  
+Latitia Haskins	Thanks! I work for IT People corp working on building test tools for IBM's test team here in NC
+
+[11:22]  
+Bryan HUANG	Raleigh?
+
+[11:22]  
+Latitia Haskins	Yes :slightly_smiling_face:
+
+[11:22]  
+Bryan HUANG	cool
+
+[11:22]  
+Latitia Haskins	I'm very excited to be able to work on the SDK as well
+
+[11:22]  
+Baohua Yang	great, welcome! and feel free to input your info at https://wiki.hyperledger.org/projects/fabric-sdk-py.md. There is a member table.
+
+[11:22]  
+Bryan HUANG	:clap:
+
+[11:22]  
+Latitia Haskins	I will be part-time working with you guys and part time with the test tool
+
+[11:23]  
+Thanks!
+
+[11:23]  
+Baohua Yang	Cool~
+
+[11:23]  
+any other issues to discuss today?
+
+[11:23]  
+Kai Chen	we are all part-time :joy:
+
+[11:23]  
+Latitia Haskins	:smile:
+
+[11:24]  
+Baohua Yang	we have 7 mins left, any more issues?
+
+[11:24]  
+6 mins now :slightly_smiling_face:
+
+[11:25]  
+Kai Chen	i have not seen endorser API in the spec
+
+[11:25]  
+Baohua Yang	The endorser? thought should have some.
+
+[11:25]  
+will check and talk to you later.
+
+[11:26]  
+Bryan HUANG	the 1.0 preview will be released in next weeks, right ?
+
+[11:26]  
+next two weeks
+
+[11:26]  
+Baohua Yang	i do not know the release time, we can ask in fabric-dev channel.
+
+[11:26]  
+Bryan HUANG	ok
+
+[11:27]  
+Baohua Yang	OK, in summary, kai and bryan-huang will review the jira board; everyone will review the patchset and SDK spec; and welcome new contributor: @lhaskins .
+
+[11:27]  
+Latitia Haskins	Yes, there is a basic preview with only 1 peer in master now, but kafka and multi-peer is supposed to be ready in 2 weeks.
+
+[11:28]  
+Baohua Yang	cool, thanks for the upate
+
+[11:28]  
+any more question? if no other issue, will end the meeting.
+
+[11:28]  
+Bryan HUANG	@lhaskins thx
+
+[11:29]  
+Baohua Yang	OK, thanks everyone for the joining, have a nice weekend!
+
+[11:29]  
+Latitia Haskins	You too!
+
+[11:29]  
+Bryan HUANG	thx, bye
+
+new messages
+[11:30]  
+Kai Chen	bye
+=== Meeting End === 
+```

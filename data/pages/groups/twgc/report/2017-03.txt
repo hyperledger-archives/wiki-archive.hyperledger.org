@@ -1,0 +1,16 @@
+==== TWG China report for Mar 2017 ====
+
+=== Status ===
+  - Team: The team has collaborated in event organization, developments and other works. 
+  - Meeting: 2 meetings are held with active discussions (with new joiners). All minutes can be found on the [[ https://wiki.hyperledger.org/groups/twgc/meetings | wiki page ]].
+  - Events: 
+    - The 1st Asia hackathon is held in Shanghai, with 3 tracks (coding, forum, training), 36 teams, 130+ attendees. 6 teams got prize, Tsinghua team won the 1st prize. Got positive feedbacks from various people.
+    - 1 new [[http://www.huodongxing.com/event/1375786308500 | meetup]] is held at shanghai.
+  - Technical communications: 82 subscribers to mail-list, with 19 msgs. 84 users and 100+ msgs in the rocket chat channel. 
+  - Technical development: We have 2 new members to contribute to the projects. Will encourage individual/sponsored developers to contribute by helping low the entrance bar.
+  - The i18n team has started to work, with 10+ new volunteers. The terminology part has been discussed.
+
+=== Issues ===
+  - Meeting tools: Need global access number + screen sharing (julian and donald are helping)
+  - i18n work: Need the TSC help create the doc code repo and setup the readthedoc repo for translation.
+  - Forum: The global one is slow to access, can we use some local 3rd-party one?

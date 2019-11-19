@@ -1,0 +1,152 @@
+===== Analysis of HMBANA 2018 Guidelines =====
+[[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]] : [[analysis-business|Domain analysis]] : [[analysis-human-milk|Human milk services domain analysis]]
+----------
+
+  * Analyst : [[Marissa Iannarone]]
+  * Source : [[https://www.hmbana.org/our-work/publications-credit-card.html|Online purchase]]
+
+----------
+
+==== Introduction ====
+
+  * Volume of ounces dispensed by banks (currently 26) has increased up to 25% for the last 5 years
+  * Research shows that there are both short and long term benefits for infant and society (and a cost-effectiveness) when donor milk is made available
+  * Guidelines provide evidence based direction to support screening, handling, and distribution of donor milk
+  * There are 3 layers of protection when it comes to recipient protection against disease: 
+    * Donor screening for medical and life-style risk factors: HIV, HTLV, syphilis, Hep B and C
+    * Milk pasteurization
+    * No milk is dispensed after pasteurization until a culture is negative for bacteria growth.
+  * 1% of lactating American women donate milk, an indicator of under-utilization
+
+
+==== Definitions ====
+
+  * Defines a variety of terms used in the chain of custody for the donated milk.
+
+
+==== Organization of a Donor Milk Bank ====
+
+=== Administrative Structure ===
+
+Each HMBANA bank has : 
+
+  * A director with a medical background
+  * A panel of consultants from a variety of medical specialties 
+
+All banks must comply with privacy and confidentiality rules at the federal and state/providence (i.e. HIPAA in the US or HIA in Canada)
+
+
+==== Donor Qualifications ====
+
+  * Donor screening must include in-person on on-the-phone contact and cannot be limited to electronic communication
+  * Two approved staff must review, approve, and sign off on donor screening completion
+
+Donors are healthy lactating women that have been :
+
+  * Screened verbally an in writing
+  * Given materials to educate them on characteristics that might increase their chances of transmitting blood-borne disease
+  * Have sign off from their doctor and their own infants doctor
+  * Go through serological screening for above stated diseases no longer than 6 months prior to donation
+
+Verify that no medications they are taking are grounds for exclusion - donor are deferred indefinitely for any positive results on a diagnostic/confirmatory serological test.
+
+Exclusion criteria include a variety of items that are somewhat similar to what you might find for blood donation.
+
+Temporary disqualification may also occur for certain medications, vaccinations or other activities.
+
+If a donor tests positive for any diagnostic or sterological test - they are referred to a medical provider of the donor's choice and any milk already collected is disposed of.
+
+Donors are encouraged to communicate with milk banks if any aspects of their health change, and the bank is required to document communication with donors at a minimum every 2 months
+
+
+==== Donor Education and Procedures ====
+
+To ensure safety and quality of donated milk, donors are instructed in proper methods for milk collection, handling, storage and transportation
+
+Donors are given written instructions covering :
+
+  * Clean techniques for milk collection
+  * Time when donor should refrain from donating
+  * Labeling of milk: includes donor ID and date of collection
+  * How to freeze and store milk optimally
+  * Safe transportation of the milk to the bank
+
+If the milk was collected before the individual was registered as a donor the screening process will include information gathering around how the milk was collected, stored, and any medications or supplements the donor was taking during the time of collection.
+
+
+==== Milk Bank Procedures ====
+
+=== Procedure Manual ===
+
+A detailed procedures manual is available to all milk bank personnel at all times and is reviewed annual and signed by the medical director or other qualified staff.
+
+== Additional guidelines are provided for these areas ==
+
+  * The physical building where the milk storage and processing occurs
+  * The standards and care for all equipment - especially thermometers and their routine calibrations
+  * Milk Analysis not required by HMBANA banks, but if it is done, guidelines on the analyzers is provided
+  * Handling of the milk from logging of incoming milk from a donor, to freezer storage, defrosting/pooling, heat processing, labeling, shipping
+
+While not required, if bar-coding of milk is done the request is that manufacturers directions be followed, that the bank report out to recipient hospitals about the type they are using, and ideally use the same type as the hospital.
+
+
+==== Milk Dispensing ====
+
+  * Milk is only dispensed for clinical use by prescription or hospital purchase order only
+  * Dispensed milk is always heat treated unless the prescription specifically calls for raw milk
+  * There are recommendations on the content for the prescription (name, date of birth, date of order, amount of milk needed per day/week), which are for no longer than 1 year
+  * This section covers they types of conditions that milk is prescribed for - including both a priority list and a list of conditions that are less severe and where prescriptions will be filled if the supply at the bank is sufficient
+  * If the bank is unable to meet the needs of recipients, they reach out to other banks to ask for assistance in filling the order, if there is no additional supply there, bank leadership will decide how they dispense the limited supply, filling of prescriptions on a priority basis looking at diagnosis, severity of illness, alternative treatments and previous milk use.
+  * Transfer of milk between HMBANA banks can be for either raw milk or pasteurized milk; a fee per ounce is established prior to transferring the milk, which covers bank's overhead and processing expenses; for raw milk, transferring bank leaves milk deposit tracking # associated with it; and in the case of pasteurized milk the original label indicating where it was processes is kept, while the receiving bank can also add their label next to, but not on top of the original label.
+
+
+==== Milk Bank Records ====
+
+The bank holds a variety of records for the following groups :
+
+  * Donors (laboratory tests and physician release form)
+  * Administrative needs (batch, pool, temperature, financial records)
+  * Recipient (ordering provider, quantities, documentation of quarterly outreach
+
+Annual statistics are sent to HMBANA and published in the annual report
+
+
+==== Donor Human Milk Depots ====
+
+While the bank accepts responsibility for screening, processing, and distribution of milk, the depots are agencies affiliated with the banks for collecting and storing the milk that is then transported to the milk bank for processing. The guideline provides information for depot:
+
+  * Equipment
+  * Storage (heat-treated milk and unprocessed milk are ideally stored in separate freezers or at least physical separation within the same freezer
+  * Records they must keep on donations and temperature logs
+
+Affiliate bank is responsible for depot compliance with guidelines and must indicate compliance via written or verbal confirmation.
+
+
+==== Donor Human Milk Distribution site ====
+
+A donor milk distribution site is a facility that has contracted with a milk bank to carry a supply of donor milk to where it is distributed to receivers of the milk. The donor bank is responsible for certifying compliance of the Distribution sites on an annual basis guidelines include stipulations around
+
+  * Equipment
+  * Records of milk received from banks - log of various variables
+  * Log of milk transferred from the center of various variables
+  * Freezer temp logs
+
+The distribution center has to demonstrate records upon request of the bank.
+
+
+==== Tracking and Recall of Donor Human Milk ====
+
+A system of tracking donor milk from donor to recipient is maintained
+
+  * Mock recalls have the expectation to be able to identify the contaminated milk source within 6 hours and these mock recalls are once the 1st year and then once every 2 years following
+  * Banks are responsible for being compliance with state, federal, and provincial operations requirements
+  * If a recall is suspected, a designated individual will do a root cause analysis and implement process changes as needed. A written report is the required to be submitted to HQ
+
+
+==== Annual Assessment and Accreditation ====
+
+  * All bank required annual HMBANA accreditation
+  * There is a set schedule for assessment depending on the years the bank has been opened; can include both self and external assessement
+  * There can be monetary penalties or suspension of membership if assessment results do not pass
+  * Developing milk banks (early on in their establishment) have different assessment requirements
+

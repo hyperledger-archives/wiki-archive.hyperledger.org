@@ -1,0 +1,17 @@
+===== Planning =====
+[[healthcare-wg|Home]] : [[governance|Governance]]
+----------
+
+==== Planning activities ====
+
+  * [[planning-academic-research|Academic research partnerships planning]]
+  * [[planning-healthcare-SIG|Healthcare SIG planning]]
+    * [[planning-payor-subgroup|Payor Subgroup planning]]
+    * [[planning-patient-subgroup|Patient Subgroup planning]]
+    * [[planning-technical-subgroup|Technical Subgroup planning]]
+
+==== Planning resources ====
+
+  * [[wg-governance-plans|Plans]]
+    * [[https://drive.google.com/open?id=1q-d8rGcRK2k_sq4xMUGinwhqwRYg-HOPK0vggaq7XkU|Academic research plan (draft)]]
+    * [[sig_workplan_2019|Healthcare SIG Plan 2019]]

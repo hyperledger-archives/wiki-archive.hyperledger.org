@@ -1,0 +1,10 @@
+====== Requirements WG Minutes - April 21st, 2016 ======
+
+  * Held first regular meeting on Monday the 18th.
+  * Primrose Mbanefo walked through the [[requirements:use-cases:use-case-counterfeit-drug-prevention-and-detection|Counterfeit Drugs use case]]. 
+  * Recognized several improvements that could be made to the use case template. The [[groups:requirements:use-case-template|changes have been made]] in sections 1 and 2. Section 3, Requirements needs much more work.
+  * [[groups:requirements:requirements-wg|Next meeting on 25-Apr]] will walk through the requirements section of the use case template.
+  * If you know of people with skills in writing use cases and requirements, please send them to us.
+
+Links:
+  * [[http://www.coindesk.com/hyperledger-counterfeit-drugs-blockchain/|Hyperledger Project Explores Fighting Counterfeit Drugs with Blockchain]]

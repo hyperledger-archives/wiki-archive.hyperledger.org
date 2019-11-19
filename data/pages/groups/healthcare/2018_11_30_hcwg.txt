@@ -1,0 +1,181 @@
+{{:groups:healthcare:hsm_logo.png?nolink&650}}
+
+===== General Meeting Agenda for 2018-11-30 =====
+
+==== Resources: ====
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HLHC-SIG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+----
+
+===== Welcome and Opening Statements =====
+
+  * //A reminder to all HLHC-SIG members that this meeting is being recorded//
+  * [[https://www.linuxfoundation.org/antitrust-policy|Reading of the Linux Foundation Antitrust Policy]]
+  * [[https://tinyurl.com/HL-antitrust-slide|Hyperledger Antitrust Slide]]
+  * **Discussion: request for note-taking for this meeting**
+
+<WRAP box>
+[[https://drive.google.com/open?id=1uixRBfaqHw0PZIOHBcZMS_V5HGFAvmfd|Meeting recordings/transcript]] 
+</WRAP>
+
+<WRAP box>
+In attendance:
+  * Rich Bloch
+  * Marissa Iannarone
+  * Adrian Berg
+  * Leonard Edwin
+  * Jeff Stollman (Recording)
+  * Satarupa Bose
+  * Bryan McWhorter (Guest Speaker)
+  * Ken Moyle (Guest Speaker)
+  * Gerry M
+  * Kamlesh Nagware
+  * Linwan
+  * Tony Hussain
+  * 155595158164
+  * 13605254961
+  * 15303016746
+</WRAP>
+
+===== Introductions =====
+
+  * **If you’re new to the group, please…** 
+    * Introduce yourself
+    * Tell us where you're geographically located
+    * Share with us your interests in healthcare in general, and blockchain technologies in specific
+
+<WRAP box>
+Linwan - healthcare interoperability: health information exchange and working on blockchain use cases for EMR\\
+Kamlesh - exploring Hyperledger Fabric use cases for a client (company: Diaspark located in the US)
+</WRAP>
+
+===== HLHC-SIG Guest Speaker(s) =====
+  * Speaking on the topic of enterprise collaboration and sensitive information sharing in an open-source business context, we have the following guests joining us:
+    * Ken Moyle, Technology Attorney with [[https://www.k6partners.com/|K6 Partners]] is a board member and Chair of the Public Policy Committee for the Electronic Signature & Records Association (ESRA) 
+    * Bryan McWhorter, Partner at [[https://www.knobbe.com/|Knobbe Martens]], Seattle, Washington, USA. Bryan focuses on patent procurement and dispute resolution, particularly for companies in the software, telecommunications, and food and beverage areas.  
+
+<WRAP box>
+* Enterprise collaboration (how do we approach selective sharing IP)
+
+  * Presenters:
+    * Ken Moyle, Chair of Public Policy Committee for Electronic Signature and Records Association
+    * Bryan McWhorter, IP attorney at Knobbe Martens
+
+  * Copyrights vests in creator unless explicit transfer via "work for hire" contract or clause in employment agreement (in most jurisdictions)
+  * Copyrights don't require formal registration
+  * General Public License ("copyleft") open-source agreements require anyone who uses and/or enhances code to make it publicly available
+    * Consider it like a virus: once infected, it spreads to anything that it touches
+    * Lesser General Public License agreement allows some ability to retain private rights of open-source software that is enhanced by private parties
+      * Mozilla license  -- provide least ability for private licenses
+      * Apache license  -- greater ability to patent enhancements (Hyperledger uses Apache 2.0 license)
+
+  * Apache 2.0 tends to be viral -- all derivative works are covered by Apache 2.0
+  * Patent rights are automatically granted under this
+  * If you provide code to Hyperledger, anyone can use it without copyright and you give up patent protection rights, you can still create unique derivative works and copyright them
+  * It includes a promise not to sue people who use Apache 2.0 software for patent infringement
+    * MIT license  -- most ability for private use
+    * Unlicense -- merely limits liability
+
+  * Two issues
+    * What are the limitations for me to use it?
+    * What are the limitations for me to capitalize my IP built on top of open-source licensed code?
+
+  * Patents vs copyrights
+    * Patents cover "ideas"
+    * Copyrights cover code
+
+  * Questions
+    * What's benefit of patent vs cheaper copyright?
+      * Copyright covers only code, not the concept which could be implemented using different code
+</WRAP>
+
+===== Community Announcements =====
+
+  * **Feel free to share your community announcements as they relate to the Hyperledger community**
+
+  * [[https://events.linuxfoundation.org/events/hyperledger-global-forum-2018/|Hyperledger Global Forum]]
+    * December 12-15, Basel, Switzerland
+  * [[http://www.ieee-lifetech.org/2019/index.html|IEEE LifeTech 2019 Conference]]
+    * March 12-14, 2019, Osaka, Japan
+    * Emphasis on life sciences, with topics of interest to include healthcare and medical technologies
+    * 2-Page Short Paper Submission (All Categories) deadline is November 30, 2018
+    * **Discussion: anyone planning or interested in attending?**
+  * [[https://www.himssconference.org|HIMSS Conference 2019]]
+    * February 11-15, Orlando, Florida
+    * **Discussion: anyone planning or interested in attending?**
+
+<WRAP box>
+  * Discussion tabled for next meeting (time constrained)
+</WRAP>
+
+===== HLHC-SIG Subgroup Updates =====
+
+  * Patient/Member Subgroup (Marissa Iannarone, Lead)
+  * Payer Subgroup (Raveesh Dewan, Lead)
+  * EMR Subgroup (Rich Bloch, Acting Lead)
+
+<WRAP box>
+  * Discussion tabled for next meeting (time constrained)
+</WRAP>
+
+===== HLHC-SIG Ad Hoc Team Updates =====
+
+  * Wiki Redesign Team (Brian Ahier, Raveesh Dewan, and Mikhail Elias, Lead)
+  * Academic Research Team (Mikhail Elias and Adrian Berg, Lead)
+    * Currently in works, [[https://drive.google.com/open?id=1q-d8rGcRK2k_sq4xMUGinwhqwRYg-HOPK0vggaq7XkU|draft located here]]
+  * Charter Review/Revision Team (Len Edwin and Ken Allgood [writers], with Adrian Berg and Marissa Iannone [editors])
+    * Currently in final edit, [[https://drive.google.com/open?id=14wLdVKvFcsKdkTTsjFfheJEPUqIqq4g8FmCB5p9AyQE|draft located here]]
+  * Subgroup Review Team (Benjamin Djidi, Mikhail Elias, Steven Elliot, Robert Coli, and Sonia Wagner, Lead)
+    * Kick off meeting this past Monday (11/26)
+    * Purpose is twofold:
+      * Fundamentally to understand the future direction of the EMR Subgroup
+      * To determine if a revised EMR Subgroup strategy might also apply to other subgroups
+
+<WRAP box>
+  * Discussion tabled for next meeting (time constrained)
+</WRAP>
+
+===== Old Business =====
+
+  * Healthcare technologies challenges (Rich)
+      * Upcoming opportunities: [[https://www.herox.com/Differential-Privacy-Synthetic-Data-Challenge|NIST Differential Privacy Synthetic Data Challenge]], [[http://www.kidneyx.org/|KidneyX Redesign Dialysis Prize Competition]]
+      * From community feedback, plan is to pursue the KidneyX challenge, and forego the NIST challenge
+
+  * A HIPAA-compliant Hyperledger (Rich)
+    *** Discussion: not much community feedback to date... next steps?**
+
+<WRAP box>
+  * Discussion tabled for next meeting (time constrained)
+</WRAP>
+
+===== New Business =====
+
+  * We're getting a new name (Rich)
+    * Sector Working Groups (non-technical, community-facing) will be renamed to Special Interest Groups (SIGs)
+    * HLHCWG --> HLHC-SIG
+    * Currently in transition, so please be patient
+
+  * End of Year HLHC-SIG Survey (Rich)
+    * **Discussion: specific areas of focus for this upcoming survey?**
+
+  * Onboarding slide presentation for HLHC-SIG (Rich)
+    * Great example presented by the [[https://docs.google.com/presentation/d/1LEOU7kJOmu64IlbXU2WKapvto1oi60rJtovcwRoJXW0/edit#slide=id.p2|Social Impact Working Group]]
+    * Ostensibly used for onboarding a new chair/officer, but could be used for new members?
+    * **Discussion: would there be good utility/value to something like this?**
+
+<WRAP box>
+  * Change from HLHCWG to HLCH-SIG announced. All other discussions tabled for next meeting (time constrained)
+</WRAP>
+
+===== Next Meeting =====
+
+  * Scheduled for Friday, 12/14, 0700 Pacific Time
+  * **Discussion: topics to add to agenda?**

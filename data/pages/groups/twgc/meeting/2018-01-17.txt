@@ -1,0 +1,82 @@
+===== TWG China Meeting =====
+
+==== Basic Info ====
+10AM ~ 11AM, 2018-01-17, GMT+8
+
+  * Option #1: Use computer to access [[ https://zoom.us/j/248676399 | zoom]] (Recommend using microphone and headset)
+  * Option #2: Dial in using the [[https://zoom.us/zoomconference?m=mTUdEBuT33gjEcR54Rqsi1KmFyNgSLYP|phone number]]. E.g.,	400 669 9381 or 010-87833177 (Premium Toll) for China area.
+
+[[https://docs.google.com/presentation/d/1punUCr0mSZT9gMKCs3vCYqbWbjeS_RG-18ZrhkfwoYc/edit?ts=5a14dfdf | Antitrust Policy Notice]]
+
+==== Attendee ====
+
+**Pls add ur name here before the meeting.**
+
+  * Baohua Yang
+  * Zhong TIAN
+  * Scott Long
+  * Yong Wan
+  * Jay Guo
+  * Zhangjiong Xuan
+  * WenHui Du
+  * Yong Wan
+  * Linsheng Yu
+  * Zhujun He
+  * Zengjun Zhang
+  * Ruifei Liu
+
+
+
+==== Agenda ====
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - [[https://docs.google.com/document/d/1VbgmlIqDnUnvjxSJ5QTUBV-Qn3eA7Gduw0edjYgDXIY/edit?usp=sharing|Hyperledger Lab]]
+  - [[groups/twgc/team_di | Team development and Innovation]] (Yaoguo Jiang, Zhangjiong Xuan)
+    - Code development on interested projects: fabric, cello, and?
+    - Share the technical FAQ to the maillist
+    - [[https://jira.hyperledger.org/browse/FAB-5496 | SM2 support]] by Zhenhua Dong, Dijun Liu
+    - [[https://jira.hyperledger.org/browse/FAB-6263 | MongoDB support]] by HuiQi Li (oxchain)
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Linsheng Yu, Jiannan Guo)
+    - Website to host and present the doc
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin, Haixu Cheng)
+    - Welcome companies to share usage cases at [[https://wiki.hyperledger.org/groups/twgc/team_cs|case collection ]]
+    - Call for HL member news, will select to publish through official wechat channel. Feel free to contact TWGC.
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Jay Jiannan GUO, Zhoudong Ji and Sheng Huang)
+    - **[[groups/twgc/team_eo| Call for meetup plans]] for year 2018.** 
+    - Jan 25:[[http://www.huodongxing.com/event/6422462034800?td=5532621486715|Shanghai meetup]] with topic "Hyperledger应用实例分析".
+    - Jan 27: [[https://wiki.hyperledger.org/groups/twgc/beijing-meetup-2018-01|Beijing meetup]] with topic of "baas & operation".
+    - Feb 4: [[https://wiki.hyperledger.org/groups/twgc/shanghai-meetup-2018-01|Shanghai meetup]]
+    - Guangzhou meetup discuss 
+    - Dalian meetup discuss(March 10th,zhangrui)
+    - Beijing、Shanghai、Shenzhen member dinner
+    - OpenTech*IBM Mini Academy Special Series on Hyperledger Fabric code walk-through (Jan 18, Jan 25, Feb 01) [[https://mp.weixin.qq.com/s?__biz=MzI1OTQzNjc4OQ==&mid=2247483744&idx=1&sn=9eeadc7d4766486bd246012af8aeac30&chksm=ea79b8fadd0e31ec73693815a679f60609bc1a6826c583e81cfb5436ec47a45b57ebec250058&mpshare=1&scene=1&srcid=0115dnCva0Jo3io4gi2AgChr&key=1405b426e268d33ac70af1a2675298dc9538d33b7ddacfaeb653d8b16c00f1c3eb4b614debc0f89ace718860c318a160d4acd434fda32c0731f9e7a0c23a8d49561158b498c3a48017ae79c9735b4c26&ascene=0&uin=MjQyNTg3NjE4Mw%3D%3D&devicetype=iMac+MacBookPro11%2C5+OSX+OSX+10.11.6+build(15G31)&version=12020810&nettype=WIFI&lang=en&fontScale=100&pass_ticket=HpKwSzFBD3Z8LkNc1MyjrKbybpOBaSPHKilcj8jQNk2d8P3YOG6tyBFxH4wOZOp6 | register]]
+  - Other issues
+    - Feel free to add here
+
+==== Minutes ====
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - [[https://docs.google.com/document/d/1VbgmlIqDnUnvjxSJ5QTUBV-Qn3eA7Gduw0edjYgDXIY/edit?usp=sharing|Hyperledger Lab]]
+    - Questions on how to propose into Hyperledger Lab
+  - [[groups/twgc/team_di | Team development and Innovation]] (Yaoguo Jiang, Zhangjiong Xuan)
+    - Code development on interested projects: fabric, cello, and?
+    - Cello will release v0.8.0 this month
+    - Share the technical FAQ to the maillist
+    - [[https://jira.hyperledger.org/browse/FAB-5496 | SM2 support]] by Zhenhua Dong, Dijun Liu, **Zhenhua will share the design and poc to the community for more comments.**
+    - [[https://jira.hyperledger.org/browse/FAB-6263 | MongoDB support]] by HuiQi Li (oxchain)
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Linsheng Yu, Jiannan Guo)
+    - Website to host and present the doc
+    - **Linsheng regularly post contribution guide.**
+    - **Jiannan suggest refine existing fabric doc for the coming 1.1.0-alpha release.**
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yin Cao, Kelvin, Haixu Cheng)
+    - Welcome companies to share usage cases at [[https://wiki.hyperledger.org/groups/twgc/team_cs|case collection ]]
+    - Call for HL member news, will select to publish through official wechat channel. Feel free to contact TWGC.
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Jay Jiannan GUO, Zhoudong Ji and Sheng Huang)
+    - **[[groups/twgc/team_eo| Call for meetup plans]] for year 2018.** 
+    - Jan 25:[[http://www.huodongxing.com/event/6422462034800?td=5532621486715|Shanghai meetup]] with topic "Hyperledger应用实例分析".
+    - Jan 27: [[https://wiki.hyperledger.org/groups/twgc/beijing-meetup-2018-01|Beijing meetup]] with topic of "baas & operation".
+    - Feb 4: [[https://wiki.hyperledger.org/groups/twgc/shanghai-meetup-2018-01|Shanghai meetup]]
+    - Guangzhou meetup discuss 
+    - Dalian meetup discuss(March 10th,zhangrui)
+    - OpenTech*IBM Mini Academy Special Series on Hyperledger Fabric code walk-through (Jan 18, Jan 25, Feb 01) [[https://mp.weixin.qq.com/s?__biz=MzI1OTQzNjc4OQ==&mid=2247483744&idx=1&sn=9eeadc7d4766486bd246012af8aeac30&chksm=ea79b8fadd0e31ec73693815a679f60609bc1a6826c583e81cfb5436ec47a45b57ebec250058&mpshare=1&scene=1&srcid=0115dnCva0Jo3io4gi2AgChr&key=1405b426e268d33ac70af1a2675298dc9538d33b7ddacfaeb653d8b16c00f1c3eb4b614debc0f89ace718860c318a160d4acd434fda32c0731f9e7a0c23a8d49561158b498c3a48017ae79c9735b4c26&ascene=0&uin=MjQyNTg3NjE4Mw%3D%3D&devicetype=iMac+MacBookPro11%2C5+OSX+OSX+10.11.6+build(15G31)&version=12020810&nettype=WIFI&lang=en&fontScale=100&pass_ticket=HpKwSzFBD3Z8LkNc1MyjrKbybpOBaSPHKilcj8jQNk2d8P3YOG6tyBFxH4wOZOp6 | register]]
+    - **TODO: jiannan will help draft a meetup guideline**
+  - Other issues
+    - Feel free to add here

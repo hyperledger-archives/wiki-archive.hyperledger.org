@@ -1,0 +1,287 @@
+
+### 2016-11-04
+
+#### Agenda
+
+* Zhaofang will introduce the SDK meeting status
+* Suggestion about JIRA work item
+ * Create a set of tasks after picking up the story, every task should be within 1 week.
+* Everyone review the [Patchset](https://gerrit.hyperledger.org/r/#/q/status:open+project:fabric-sdk-py)
+* Suggest read the
+ * [SDK Spec](https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4)
+ * [hyperledger-fabric-protobuf-message-and-flow](https://files.slack.com/files-pri/T0J024XGA-F2VB5FXJ4/download/hyperledger-fabric-protobuf-messages-and-flow.pdf)
+* Other issues
+
+#### Attendee
+
+* Baohua
+* Chang Chen
+* Kai Chen
+* ZhaoFang Han
+* Jianhua Geng
+* Chuanjian Wang
+
+#### Log
+
+```
+=== Meeting Start === 
+10:59]  
+Baohua Yang @hanhzf are u there?
+
+[11:00]  
+OK, let’s start
+
+[11:00]  
+today’s agenda is at https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20161104.md
+
+[11:01]  
+@hanhzf might be not in, so we ignore the 1st item.
+
+[11:01]  
+Kai proposed a suggestion about the JIRA work item
+
+[11:01]  
+Suggestion about JIRA work item
+Create a set of tasks after picking up the story, every task should be within 1 week.
+
+[11:01]  
+@grapebaba can u give your comments?
+
+[11:02]  
+zhaofang han hi, sorry for late , just back from a meeting
+
+[11:02]  
+Baohua Yang @hanhzf , sure will discuss your item later.
+
+[11:02]  
+zhaofang han ok
+
+[11:02]  
+Kai Chen no
+
+[11:03]  
+Baohua Yang i guess you can help arrange the jira usage?
+
+[11:04]  
+Kai Chen suggest by onwer
+
+[11:04]  
+who pick the story
+
+[11:05]  
+Baohua Yang https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85
+
+[11:05]  
+Kai Chen before development owner need make a todo list first
+
+[11:06]  
+and make that to several sub tasks
+
+[11:06]  
+for a large story
+
+[11:06]  
+Baohua Yang So you may mean each story owner create a sub tasks list for each story?
+
+[11:06]  
+Kai Chen yes
+
+[11:06]  
+that is also useful for development
+
+[11:07]  
+Baohua Yang OK, let’s cleanup the task board today, and follow this style.
+
+[11:07]  
+Thanks for the suggestion
+
+[11:07]  
+Other comments?
+
+[11:07]  
+Kai Chen no
+
+[11:08]  
+Baohua Yang @hanhzf @lafenicecc ?
+
+[11:09]  
+zhaofang han @gengjh please help me attend the meeting, in meeting with customer
+
+[11:09]  
+David Geng hi, I am here, @hanhzf is not available now
+
+[11:09]  
+Baohua Yang OK, let’s move to the next item.
+
+[11:09]  
+Zhaofang will introduce the SDK meeting status
+
+[11:09]  
+any updates on that?
+
+[11:09]  
+@gengjh
+
+[11:10]  
+David Geng i think no more update for now, still go through the SDK spec
+
+[11:10]  
+Baohua Yang OK
+
+[11:11]  
+by the way, yesterday’s TSC meeting, a paper on global sync log is sharing, everyone interested can take a look at https://docs.google.com/document/d/1aJXZJQENRRRyu1lqOyT-DuQotl3xDbRabAgRMZxsI1A/edit?ts=581b5538#
+
+[11:11]
+slackbot BOT That looks like a Google Drive link. Do you want us to import it and all future Google Drive links from you?
+Yes • Just this once • Not now • Never
+Only visible to you
+
+[11:11]  
+Baohua Yang Next item: Everyone review the Patchset
+
+[11:11]  
+https://gerrit.hyperledger.org/r/#/q/status:open+project:fabric-sdk-py
+
+[11:12]  
+We have 3 new patchset, everyone please give your comments there today.
+
+[11:12]  
+David Geng sure
+
+[11:12]  
+Chang Chen np
+
+[11:12]  
+David Geng for now, we are in v1 dev cycle, right?
+
+[11:12]  
+Baohua Yang Yes, we’re targeting v1 following spec at https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4
+
+[11:12]
+slackbot BOT That looks like a Google Drive link. Do you want us to import it and all future Google Drive links from you?
+Yes • Just this once • Not now • Never
+Only visible to you
+
+[11:13]  
+Kai Chen what is the next high priority story?
+
+[11:13]  
+peer implementation?
+
+[11:14]  
+Baohua Yang I think 1) those APIs following the spec, we should init those API framework ASAP. 2) Then implement the peer and 3) memberservice. How do u guys think?
+
+[11:15]  
+The spec will be hopefully freezed in mid-Nov.
+
+[11:15]  
+So we need setup those APIs around that time.
+
+[11:16]  
+Any comments?
+
+[11:17]  
+OK, then is there any other issue need to discuss today?
+
+[11:19]  
+David Geng do we have any update on the getMembers and getPeers impl and design? I am a little out of day?
+
+[11:19]  
+Baohua Yang U mean in the Client module?
+
+[11:20]  
+David Geng yes
+
+[11:20]  
+Baohua Yang Not yet
+
+[11:20]  
+Kai Chen first we need enroll and register
+
+[11:22]  
+Baohua Yang @gengjh OK for that?
+
+[11:22]  
+I guess we may support it if we think it’s helpful.
+
+[11:23]  
+And encourage you give comments on the spec.
+
+[11:23]  
+We will try best to make it as a guideline.
+
+[11:24]  
+David Geng i am ok. just want to see more clean priority stories list in jiira or what ever somewhere to let us check
+
+[11:25]  
+Baohua Yang Ok, we can talk more about that later if needed.
+
+[11:25]  
+Kai Chen besides enroll and register
+
+[11:25]  
+Baohua Yang y
+
+[11:25]  
+Kai Chen i think deploy, invoke, query
+
+[11:25]  
+should high priority
+
+[11:25]  
+Baohua Yang yes, those are very basic operations.
+
+[11:26]  
+even higher
+
+[11:26]  
+Kai Chen i have a question about endoser API
+
+[11:27]  
+Baohua Yang ok
+
+[11:27]  
+Kai Chen is this overlap with invoke,deploy?
+
+[11:28]  
+Baohua Yang i guess not. IMHO, the endorser api is just for getting the endorsement.
+
+[11:28]  
+then sdk can do the deploy/invoke.
+
+[11:29]  
+Kai Chen ok
+
+[11:29]  
+Baohua Yang OK, here is the message flow, also a good ref: https://files.slack.com/files-pri/T0J024XGA-F2VB5FXJ4/download/hyperledger-fabric-protobuf-messages-and-flow.pdf
+
+Pinned by you 
+Oct 28th at 10:35 Pinned by you
+[11:29]  
+Baohua Yang mentioned a file 
+hyperledger-fabric-protobuf-messages-and-flow.pdf
+805KB
+PDF
+ Click to view
+Add Comment
+
+[11:29]  
+Baohua Yang Any more issues today?
+
+[11:29]  
+Kai Chen no for me
+
+[11:30]  
+David Geng me too. thx for u pdf :slightly_smiling_face:
+
+[11:30]  
+Baohua Yang Thanks to everyone! Let’s end the meeting, have a nice weekend!
+
+new messages
+[11:30]  
+David Geng bye
+
+=== Meeting End === 
+```
+
+

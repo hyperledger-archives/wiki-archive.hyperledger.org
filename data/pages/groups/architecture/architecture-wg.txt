@@ -1,0 +1,65 @@
+====== Architecture Working Group ======
+
+===== Charter =====
+  * [[https://docs.google.com/document/d/1gB_frdRVBhVRJJV8IwpE1k9-2sWXqBYAKiW8-JbWJ9s | Hyperledger Arch-WG Charter]]
+
+===== Mailing List =====
+  * [[https://lists.hyperledger.org/g/architecture-wg | architecture-wg mailing list]]
+
+===== Meetings =====
+
+Teleconference bi-weekly on Wed. 9 AM Pacific alternating with Identity-WG meetings \\
+
+<WRAP center round box 75%>
+Join from PC, Mac, Linux, iOS or Android: https://zoom.us/my/hyperledger.community
+
+Or iPhone one-tap :
+    US: +16465588656,,4034983298#  or +16699006833,,4034983298# 
+Or Telephone:
+    Dial(for higher quality, dial a number based on your current location): 
+        US: +1 646 558 8656  or +1 669 900 6833  or +1 855 880 1246 (Toll Free) or +1 877 369 0926 (Toll Free)
+    Meeting ID: 403 498 3298
+    International numbers available: https://zoom.us/u/bAaJoyznp
+</WRAP>
+
+Meeting updates and adhoc meetings are posted on the  [[https://chat.hyperledger.org/channel/architecture-wg |#architecture-wg rocket chat channel]]
+ 
+==== Antitrust Policy ====
+
+All Hyperledger meetings are run under the following [[https://docs.google.com/presentation/d/1gpxrwPli1xpRCL8lWg-KQc3MncDatiFQ5oS1ppLWiRs/edit|Antitrust Policy]]
+
+==== Meeting Minutes ====
+  * [[https://docs.google.com/document/d/139zLiMCJBLYVFR4dQd_2UqJOyJVEBjAB8PwxIwV6Wf0/edit | Arch WG meeting minutes]]
+  * [[https://docs.google.com/document/d/1gR82yEY6q7M5rWuRV4f0kCnSItOH-d6cZSzYzvR2Vnc/edit?usp=sharing | notes from the Privacy/Confidentiality Track]]
+  * [[https://drive.google.com/open?id=0B_NJV6eJXAA1R0NXcUZTT0tzRTg|Meeting Recordings]]
+==== Arch WG Doc Working Drafts ====
+  * [[https://docs.google.com/document/d/1bdr4MdnpUvv_3jN5DYSNp1ctjKGPH7K_yiMSQYcwBBo/ | Arch WG Working Document]]
+  * [[https://docs.google.com/document/d/1hsgbQzZaFmi5aZF6GCA6se8CEQmVvOo0NvE7cAmX-bw/ | Arch  Paper: Volume 1 - Design Philosophy & Consensus - Published]]
+  * [[https://docs.google.com/document/d/1BKyxyMbSu-I0vjwC-OicLGZyWEPPLbparEkJOGeksh0/ | Arch  Paper: Volume 2 - Smart Contracts]]
+  * [[https://docs.google.com/document/d/10D0WgbMV91YBPzKTutc5TNirDC1RRzB_8GSF84hv4l4/ | Ledger System Identities]] 
+  * [[https://docs.google.com/document/d/14paUx8CC_lWV01TMHNmeu3NGxtxb5rgtipyMr3vrR8w/ | Privacy & Confidentiality]]
+  * [[https://docs.google.com/document/u/1/d/16bwxgnJ-mOQ6Vp_eCo0vXhLF3uMzhJ6dV8ZxiVbTZYA/ | Interoperability]]
+
+ 
+===== Publications =====
+  * [[https://www.hyperledger.org/wp-content/uploads/2017/08/Hyperledger_Arch_WG_Paper_1_Consensus.pdf | Hyperledger Architecture Volume 1 - Design Philosophy & Consensus]]
+  * [[https://www.hyperledger.org/wp-content/uploads/2018/04/Hyperledger_Arch_WG_Paper_2_SmartContracts.pdf|Hyperledger Architecture Volume 2 - Smart Contracts]]
+===== Active Members =====
+  * Architecture working group members:
+
+
+
+| Ram Jagadeesan      | Cisco                      |
+| Mic Bowman          | Intel                      |
+| Binh Nguyen         | State Street               |
+| Hart Montgomery     | Fujitsu                    |
+| Stan Liberman       | CME Group                  |
+| Murali Krishna      | DTCC                       |
+| Vipin Bharathan     | BNP Paribas                |
+| Alexander Yakovlev  | NSD.RU                     |
+| Todd Little         | Oracle                     |
+| Nathan George       | Sovrin                     |
+| Clive Boulton       | CertifiedTrue              |
+| Tracy Kuhrt         | The Linux Foundation       |
+
+

@@ -1,0 +1,106 @@
+===== TWG China Meeting =====
+
+==== Basic Info ====
+10AM ~ 11AM, GMT+8 ([[/groups/twgc/meetings|Bi-weekly hosted]])
+
+  * Option #1: Use computer to access [[ https://zoom.us/my/hyperledger.community | zoom]] (Recommend using microphone and headset)
+  * Option #2: Dial in using the [[https://zoom.us/zoomconference?m=mTUdEBuT33gjEcR54Rqsi1KmFyNgSLYP|phone number]]. E.g., 400 669 9381 or 010-87833177 (Premium Toll) for China area, code is 248676399.
+
+  * [[https://docs.google.com/presentation/d/1punUCr0mSZT9gMKCs3vCYqbWbjeS_RG-18ZrhkfwoYc/edit?ts=5a14dfdf | Antitrust Policy Notice]]
+  * [[/community/calendar-public-meetings | community meeting calendar ]]
+  * Community Wechat groups (contact the admin to join): 
+    * Beijing: a33443148
+    * Shanghai: yudianbabasheng
+    * Hangzhou: linalee1005
+    * Dalian: cn8888898
+    * Shenzhen: RichZhao
+    * Wuhan: grapebaba
+    * Hongkong: hwfighter1
+
+==== Attendee ====
+
+**Feel free to add ur name here to attend the meeting.**
+
+Attendees: 14
+
+  * Baohua Yang
+  * Zhenhua Zhao
+  * Jay Guo
+  * Scott Long
+  * David Liu
+  * Yong Wan
+  * Dorothy Cheng
+  * Yang Cheng
+  * Peng Du
+
+==== Agenda ====
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - Hyperledger Wiki is migrating to [[https://wiki2.hyperledger.org/display/tools/Wiki+Migration|confluence]], targeted date is end of Jan.
+    - [[https://wiki2.hyperledger.org/display/fabric/Fabric+Interop+Working+Group|Fabric inter-op working group]]
+  - [[groups/twgc/team_di | Team development and Innovation]] (Dijun Liu, Zhangjiong Xuan, David Liu)
+    - [[groups/twgc/faq|Technical FAQ update]].
+    - [[https://github.com/hyperledger/fabric/releases/tag/v1.4.0 | Fabric v1.4.0 LTS is released]].
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Lidong Guo)
+    - [[groups/twgc/team_ie/guideline| i18n work guideline]]
+    - Fabric v1.4.0 documentation translation progress
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yanqing Wang, Jian Chen)
+    - Collection of blockchain usage cases:[[https://wiki.hyperledger.org/groups/twgc/team_cs| China members and cases ]]
+    - Call for HL member news, select to publish via official wechat account. Feel free to [[twg-china@lists.hyperledger.org|contact TWGC]].
+    - Dorothy will introduce the user-case collection work
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Jiannan Guo, Sheng Huang, Zhenhua Zhao)
+    - [[groups/twgc/events/guideline| Meetup guideline]]
+    - Beijing and Shenzhen organized the New Year parties
+    - **[[groups/twgc/team_eo| Meetups for Feb]].** 
+      - Beijing:
+      - Shanghai:
+      - Nanjing:
+      - Shenzhen:
+  - Developer Marketing (Dorothy Cheng, Scott Long)
+    - Add more articles for developer flavour : e.g.roadmap, release note
+    - Encourage international team to involve, add name
+    - [[https://drive.google.com/open?id=1DrWjdbug9OHRvYhgtP3R0zZFYRXR_Zwd|Use Case Submission Program]][[ Use Case Submission Program https://drive.google.com/open?id=1DrWjdbug9OHRvYhgtP3R0zZFYRXR_Zwd]]
+    - [[https://drive.google.com/open?id=1tLgExJv72aalUfL2xX4dieGEHDvLhBlE|Hyperledger Blog/article translation]]
+    - Announce developer contribution regularly, include code summit, article translation
+    - Hyperledger Bootcamp 
+      - Any concern on the naming "Bootcamp"?
+      - Comments and inputs on [[Hyperledger Bootcamp Wiki]] https://wiki2.hyperledger.org/display/events/Hyperledger+BootCamp+-+Hong+Kong
+      - Comments and inputs on [[Hyperledger Bootcamp registration questions]]https://docs.google.com/spreadsheets/d/19OCAV1J1W25J5hXSjlk9zkJNt2k9vTx_ZhOZVwkIT20/edit#gid=800459079 
+  - Happy New Lunar Year to Every one!
+    - Plan to cancel the next meeting
+
+==== Minutes ====
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - Hyperledger Wiki is migrating to [[https://wiki2.hyperledger.org/display/tools/Wiki+Migration|confluence]], targeted date is end of Jan.
+    - [[https://wiki2.hyperledger.org/display/fabric/Fabric+Interop+Working+Group|Fabric inter-op working group]]
+  - [[groups/twgc/team_di | Team development and Innovation]] (Dijun Liu, Zhangjiong Xuan, David Liu)
+    - [[groups/twgc/faq|Technical FAQ update]].
+    - [[https://github.com/hyperledger/fabric/releases/tag/v1.4.0 | Fabric v1.4.0 LTS is released]].
+      - Scott asked how to test: CI/CD
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Lidong Guo)
+    - [[groups/twgc/team_ie/guideline| i18n work guideline]]
+    - Fabric v1.4.0 documentation translation progress
+      - Active recently, contributed by jiachuan, yang cheng, zhonghui, etc.
+    - **TODO: Lidong will contact Tong to discuss the inter-op work**
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yanqing Wang, Jian Chen)
+    - Collection of blockchain usage cases:[[https://wiki.hyperledger.org/groups/twgc/team_cs| China members and cases ]]
+    - Call for HL member news, select to publish via official wechat account. Feel free to [[twg-china@lists.hyperledger.org|contact TWGC]].
+    - Dorothy will introduce the user-case collection work
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Jiannan Guo, Sheng Huang, Zhenhua Zhao)
+    - [[groups/twgc/events/guideline| Meetup guideline]]
+    - Beijing and Shenzhen organized the New Year parties
+    - It is suggested to have more workshop in addition to meetups
+    - **[[groups/twgc/team_eo| Meetups for Feb]].** 
+      - Beijing: End of Feb
+      - Shanghai:
+      - Nanjing:
+      - Shenzhen: End of Feb
+  - Developer Marketing (Dorothy Cheng, Scott Long)
+    - Dorothy will help promote the marketing and events
+      - Need collaborations from TWGC i18n working group
+      - User cases collection
+      - New events like Bootcamp: How to contribute
+        - Comments and inputs on [[Hyperledger Bootcamp Wiki]] https://wiki2.hyperledger.org/display/events/Hyperledger+BootCamp+-+Hong+Kong
+        - Comments and inputs on [[Hyperledger Bootcamp registration questions]]https://docs.google.com/spreadsheets/d/19OCAV1J1W25J5hXSjlk9zkJNt2k9vTx_ZhOZVwkIT20/edit#gid=800459079
+        - **TODO: Dorthy will shared related docs after the meeting.**
+  - Happy New Lunar Year to Every one!
+    - Plan to cancel the next meeting

@@ -1,0 +1,20 @@
+=====Hyperledger Beijing Meetup=====
+
+====时间====
+13:30-17:00, Jan 27, Saturday, 2018
+
+====地点====
+北京海淀区中关村车库咖啡
+
+====赞助商====
+纸贵科技，VMware
+
+====议程====
+^ 时间 ^ 题目 ^ 演讲者 ^
+| 13:30-14:00  | 超级账本社区与项目进展 | 杨保华 Oracle |
+| 14:00-14:30  | Fabric Production Deployment | 陈楷 IBM |
+| 14:30-15:00  | 用Kubernetes实现Hyperledger Fabric区块链即服务的实践 | 张海宁 VMware |
+| 15:00-15:15  | 茶歇 | |
+| 15:15-15:45  | Hyperledger Cello介绍 | 岳海涛 IBM |
+| 15:45-16:15 | 基于Hyperledger Cello的BaaS实战 | 陈昌 纸贵科技 |
+| 16:15-16:45 | blockchain-explorer那些事 | 冯翔、吴寿鹤 指旺金科 |

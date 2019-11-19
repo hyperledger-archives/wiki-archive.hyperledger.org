@@ -1,0 +1,55 @@
+===== Payer Subgroup Meeting Minutes for January 08, 2019 =====
+**Unfortunately, the meeting was not recorded due to some issue. All meetings will be recorded going forward**
+
+==== Resources: ====
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HLHC-SIG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-sig \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+----
+
+===== Welcome and Opening Statements =====
+
+  * //A reminder to all HLHC-SIG members that this meeting is being recorded//
+  * [[https://www.linuxfoundation.org/antitrust-policy|Reading of the Linux Foundation Antitrust Policy]]
+  * [[https://tinyurl.com/HL-antitrust-slide|Hyperledger Antitrust Slide]]
+  * **Discussion: request for note-taking for this meeting**
+
+===== Introductions =====
+
+  * **If you’re new to the group, please…** 
+    * Introduce yourself
+    * Tell us where you're geographically located
+    * Share with us your interests in healthcare in general, and blockchain technologies in specific
+
+----
+
+===== Meeting Minutes =====
+
+===== Old Business =====
+  * Decision Framework Paper in Progress - High level structure for review. Draft available [[https://drive.google.com/open?id=1k8LDb5XuMoTDktQkB2PV0lXowjGws0ltco6QFpOvIAc|Draft High Level Structure of Decision Framework Paper]] 
+  * Raveesh will convert this into a Google Docs document so everyone can edit and add comments. 
+  * Alan will add [[https://drive.google.com/open?id=1nulx-_V9_0FmLqpJ30s6mi2DpK9B-QeM|business value section]] in the document and upload some examples. 
+
+===== New Business =====
+
+  * Meeting frequency - Should we keep it weekly or bi-weekly to ensure we have enough time to work on deliverables. 
+      * We will take a poll in a meeting with higher number of attendees so we can decide the schedule for the meeting.
+
+  * Charter for Payer Subgroup - Let's redo the charter for payer subgroup. Charter for Heatlhcare SIG, [[https://drive.google.com/open?id=14wLdVKvFcsKdkTTsjFfheJEPUqIqq4g8FmCB5p9AyQE|draft located here]]
+  * Finalize author for each section to be completed - Could not get this completed due to attendance. 
+
+  * Additional Resources Information 
+      * As I talked about below is the [[https://blog.joget.org/2019/01/blockchain-made-simple-no-code-apps.html|link for the article]] to create applications using Joget and Hyperledger with low code. Something that anyone can try. 
+      * A great source to look at for [[https://blockchain-working-group.github.io/blockchain-playbook/appendices/A/|Blockchain Play book]] 
+
+===== Next Meeting =====
+
+  * Scheduled for Tuesday, Jan 15, 2019, 1200 Pacific Time
+  * **Discussion: topics to add to agenda?**

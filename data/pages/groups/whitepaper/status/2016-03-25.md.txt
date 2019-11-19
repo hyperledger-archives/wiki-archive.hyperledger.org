@@ -1,0 +1,5 @@
+# Whitepaper WG Status 2016 Mar 25
+* Initial whitepaper working group meeting during the F2F meeting in Brooklyn.
+* Discussed OBC Whitepaper and agreed to modify OBC paper as a starting point.
+* Began editing on Google Docs. Agreed to process of using "Comments and Suggestions" for individual efforts, then review those for acceptance (or modification) during group edit sessions.
+* Agreed to regroup on April 7 for next meeting.

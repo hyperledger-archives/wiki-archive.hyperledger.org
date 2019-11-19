@@ -1,0 +1,44 @@
+==== 2018-03-23 ==== 
+
+Meeting will be held at [[ https://zoom.us/j/519936723 | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/cello|rocketchat]] (for text chat) at:
+
+  * 08:30AM   (UTC-4)
+  * 06:00PM   (UTC+0530)
+  * 08:30PM   (UTC+8)
+
+  * [[https://jira.hyperledger.org/projects/CE/issues/CE-188?filter=allopenissues | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:cello+status:open | Open Patchset for review]]
+  * [[https://wiki.hyperledger.org/projects/cello | Project Wiki Page]]
+  * [[/community/calendar-public-meetings | community meeting calendar ]]
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  - Bugs report.
+  - Preparing release v0.8.0 (baohua)
+    - Testing for v0.8.0 release.
+  - Tutorial videos prepare (hightall).
+  - Documentation work (jiang lu)
+  - k8s/composer integration discuss (luke, tongli)
+  - Process of application for CI/Testing machines.
+  - Other issues
+    - [[https://gerrit.hyperledger.org/r/#/c/19341/|Docker image size]]
+    - Feel free to add here.
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Haitao Yue
+  * Baohua Yang
+  * Luke chen
+  * Tong Li
+
+=== Minutes ===
+  - user dashboard need fix initiate chain code bug
+  - Need more test for release v0.8.0.
+  - Have prepared start service video on youtube, lira task [[https://jira.hyperledger.org/browse/CE-315 | https://jira.hyperledger.org/browse/CE-315]]
+  - Documentation refine is on going.
+  - kubernetes and composer support will be put in 0.9.0 release
+  - request of machines is on going.
+  - Other issues
+    * Need more developer to help review.

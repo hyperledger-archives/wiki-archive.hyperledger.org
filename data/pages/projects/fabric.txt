@@ -1,0 +1,81 @@
+====== Hyperledger Fabric ======
+{{ :projects:hyperledger_fabric_logo_color.png?direct&300|}}
+
+===== Status =====
+
+This project is [[community:project-lifecycle|Active]]. The last quarterly TSC project report can be found  [[groups:tsc:project-updates|here]].
+
+===== Description =====
+
+Fabric is an implementation of blockchain technology, leveraging familiar and proven technologies. It is a modular architecture allowing pluggable implementations of various functions. It features powerful container technology to host any mainstream language for smart contracts development.
+
+===== Key Characteristics =====
+
+High-performance, secure, permissioned blockchain network. Code written in Go, chaincode (smart contracts) in Go or Java, SDKs in Node.js, Java, Go, REST and Python.
+
+===== Development Roadmap =====
+
+  * [[projects:fabric:roadmap|Hyperledger Fabric Release Roadmap]]
+  * [[https://jira.hyperledger.org/secure/Dashboard.jspa?selectPageId=10701|Fabric Release Planning Dashboard]]
+
+===== Resources =====
+
+  * [[projects:fabric:welcome|Welcome]] - Details on how to get started 
+  * [[http://hyperledger-fabric.readthedocs.io/en/latest/|Main documentation]]
+  * [[http://hyperledger-fabric.readthedocs.io/en/latest/getting_started.html|Getting Started]] for application developers
+  * [[http://hyperledger-fabric.readthedocs.io/en/latest/CONTRIBUTING.html|Development setup]] for contributors
+  * [[projects:fabric:design-docs |Design docs]]
+  * [[projects:fabric:meeting-notes:start |Meeting notes]]
+  * [[https://www.youtube.com/channel/UCCFdgCWH_1vCndMPVqQlwZw/playlists|Videos]] on youtube for Hyperledger Fabric. Includes informational and playbacks. Subscribe to be automatically notified when new videos are posted. 
+
+===== Project Management =====
+
+  * [[https://jira.hyperledger.org/secure/Dashboard.jspa?selectPageId=10104|Jira Dashboard]]
+  * [[https://wiki.hyperledger.org/community/jira-navigation|Jira Navigation]] will show you how to see the work in progress and track all issues.
+
+===== Repository =====
+
+  * [[https://gerrit.hyperledger.org/r/gitweb?p=fabric.git;a=summary|Gerrit]] - Main repository
+  * [[https://github.com/hyperledger/fabric|GitHub]] - Read-only repository
+
+===== Releases =====
+
+  * The [[projects:fabric:roadmap|Hyperledger Fabric release roadmap]] outlines the themes for the next two releases, and the specific feature JIRA items for the next release.
+  * [[projects:fabric:release_exit_criteria|Fabric Release Exit Criteria]] details our release checklist
+  * [[projects:fabric:release_process_notes|Fabric Release Process]] details the process for cutting a release
+  * [[https://github.com/hyperledger/fabric/releases|Fabric Release history]] provides the list of releases
+  * [[projects:fabric:quality_assurance|Fabric Quality Assurance (QA)]] - Test Strategy, Testcases, and Reports
+  
+===== Links =====
+
+  * [[https://hyperledger-fabric.readthedocs.io|Documentation]] - extensive documentation, tutorials, reference, architectural concepts
+  * [[https://github.com/hyperledger/fabric|GitHub mirror]]
+  * [[https://jira.hyperledger.org|JIRA issues and roadmap]]
+  * [[https://stackoverflow.com/questions/tagged/hyperledger-fabric|Stackoverflow Q&A]]
+  * [[https://chat.hyperledger.org|RocketChat]]
+  * [[https://lists.hyperledger.org/g/fabric|mailing list]]
+
+===== Communication =====
+
+==== Mailing List ====
+
+  * [[fabric@lists.hyperledger.org|fabric@lists.hyperledger.org]] for general discussions ([[https://lists.hyperledger.org/g/fabric|subscribe]] - [[https://lists.hyperledger.org/g/fabric/messages|archives]])
+  * Fabric [[http://hyperledger-fabric.readthedocs.io/en/latest/MAINTAINERS.html|Maintainers]]
+
+==== Rocket Chat ====
+
+  * [[https://chat.hyperledger.org|RocketChat]] - **Slack alternative** - note as with other tools, you will need a [[http://hyperledger-fabric.readthedocs.io/en/latest/Gerrit/lf-account/|Linux Foundation ID]] to login to our Rocket Chat instance. We will be looking to migrate content from Slack, first we need to do some preliminary testing, but we think we can import the historical Slack chats.
+  * [[community:chat_channels|RocketChat Channels]] guide to which channels you want to follow
+
+==== Meetings ====
+
+  * Discussions are conducted on the fabric@lists.hyperledger.org (see above) mailing list and in Rocket Chat, to allow for community-wide participation.
+  * Scrums take place on Monday, Wednesday, and Friday at 9:30 AM EST. Join the [[https://chat.hyperledger.org/channel/fabric-scrum|#fabric-scrum]] channel.
+  * [[projects:fabric:playbacks|Playbacks]] are conducted for contributers to show regular progress and get feedback from the community. agenda and dates can be found here.  
+  * Past meeting recordings can be found in the [[https://drive.google.com/drive/u/0/folders/15w14LqjdgREkCabSzWfsgZpj4BPypa9a|Hyperledger Fabric Meeting Recordings]] folder.
+  * There is a bi-weekly maintainers meeting every other Wednesday at 9 am ET held to review progress against a release and to do release planning and epic proposal reviews. Please consult the [[community:calendar-public-meetings|community calendar]].
+===== History =====
+
+  * [[https://docs.google.com/document/d/1XECRVN9hXGrjAjysrnuNSdggzAKYm6XESR6KmABwhkE|Proposed by Christopher Ferris (IBM) and Tamas Blummer (DAH)]]
+  * [[https://lists.hyperledger.org/g/tsc/message/117|Approved by the TSC on March 31, 2016]]
+  * Moved out of Incubation on March 2, 2017 - [[https://lists.hyperledger.org/g/tsc/message/630|Request]], [[https://lists.hyperledger.org/g/tsc/message/651|TSC Approval]]

@@ -1,0 +1,93 @@
+======Indy Documentation Index======
+
+Below please find links to documentation, diagrams, and examples for Hyperledger Indy. We will try to update this page regularly with useful links so it can be the de facto reference index to the Indy documentation in our ecosystem until we are able to build a more comprehensive reference guide.
+
+**Note:** Indy Documentation is in the process of migrating to:[[https://indy.readthedocs.io/|indy.readthedocs.io]]
+====Prerequisite Understanding====
+Here are the most useful links to learn about self-sovereign identity and how to Indy project relates to it. 
+
+**Basics**
+  * [[https://github.com/hyperledger/indy-hipe/tree/master/text/0014-ssi-notation | SSI Notation Conventions]]:This RFC describes a simple, standard notation for various concepts related to independent identity (II) and self-sovereign identity (SSI). (II and SSI are related but not synonymous [need reference]; the RFC covers both but uses SSI in its name as the more recognized term.)
+  * [[https://docs.google.com/document/d/1giOzpTFXypJ6bAUp_6g93kYOEiNa5eWI1KeIg6wb598/edit | Sovrin Glossary]]: A list of terms that we use at when talking about self-sovereign identity (SSI)
+  * [[https://sovrin.org/library/ | Sovrin Library]]: A library of whitepapers and documents related to Sovrin
+
+**Architecture**
+  * [[http://bit.ly/dkmsv3 | Decentralized Key Management System Design and Architecture V3]]: A good overview of how Indy works at scale.
+  * [[https://drive.google.com/file/d/1PHAy8dMefZG9JNg87Zi33SfKkZvUvXvx/view | Agent to Agent Communication]]: Daniel Hardman explains the goals of agent to agent communication
+
+**Further Reading**
+  * [[https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS171x+3T2017/course/ | Hyperledger Blockchain Course]]: Discover the power of business blockchains and distributed ledger technologies with an overview of Hyperledger and introductions to its key frameworks. 
+  * [[https://www.youtube.com/watch?v=RllH91rcFdE&feature=youtu.be&t=4m30s| Drummond Reed's webinar on digital identity models and SSI ]]: Drummond Reed gives us the background on the foundation of Self Sovereign Identity. Drummond explains the technical and development aspects of DIDs, DKMS, DID Auth and Verifiable Credentials that will make Self Sovereign Identity possible.
+  * [[http://ssimeetup.org/ | SSI Meetup]]: This online meetup publishes regular webinars teaching concepts about self-sovereign identity
+
+
+====Onboarding Indy==== 
+Start here to learn about installing and working with Indy
+
+  * [[https://github.com/IBM-Blockchain-Identity/indy-ssivc-tutorial/raw/master/docs/video/IndyWorldVideo2.mp4 | Alice uses Indy to get credentials (demo video by IBM)]]: This video is based on the original getting started guide provided by Indy. 
+  * [[https://github.com/IBM-Blockchain-Identity/indy-ssivc-tutorial | The code for the above video can be found here.]]
+  *  [[https://github.com/hyperledger/indy-sdk/blob/master/doc/getting-started/getting-started.md | Getting Started Guide (Stable Branch)]]: A Developer Guide for the Implementation of the Indy Code Base 
+
+**Contributing**
+  * [[https://github.com/hyperledger/indy-node/blob/master/docs/indy-file-structure-guideline.md|Indy File Folders Structure]]
+  * [[https://github.com/hyperledger/indy-node/blob/master/docs/ci-cd.md|Continuous Integration and Delivery]]
+  * [[https://github.com/hyperledger/indy-node/blob/master/docs/write-code-guideline.md|Code Quality Requirements]]
+  * [[projects:indy:contributing_docs|Contributing to the Documentation]]
+
+**Installing Indy:**
+  *  [[https://github.com/hyperledger/indy-node/blob/stable/environment/vagrant/training/vb-multi-vm/TestIndyClusterSetup.md | Setting up a Test Indy VM Network with Vagrant]] 
+  *  [[https://github.com/hyperledger/indy-node/blob/master/environment/vagrant/sandbox/DevelopmentEnvironment/Virtualbox/Vagrantfile | Setting up a DEV Environment with Vagrant]]
+  * [[https://github.com/hyperledger/indy-node/blob/master/docs/start-nodes.md|Create a network and start nodes]]
+  * [[https://github.com/hyperledger/indy-node/blob/master/docs/transactions.md|Supported Transactions in Indy]]
+
+
+====How Tos===
+
+**Contributing to Indy**
+
+  * [[https://docs.google.com/presentation/d/1zbb1-4TjH1-iYN7LnFZyPWvB1w-YcoUwKYCfByugSE0/edit#slide=id.p | Indy Contributor Guidelines]]
+  * [[https://github.com/hyperledger/indy-node/blob/master/MAINTAINERS.md|Indy Maintainers]]
+  * [[https://github.com/hyperledger/indy-node#how-to-send-a-pr|How to Send a Pull Request]]
+
+====Repo/Code Specific Documentation====
+
+
+  * [[https://github.com/hyperledger/indy-node/tree/master/docs | indy-node]]
+  * [[https://github.com/hyperledger/indy-sdk/tree/master/doc | indy-sdk]]
+  * [[https://github.com/hyperledger/indy-plenum/tree/master/docs | indy-plenum]]
+  * [[https://github.com/hyperledger/indy-crypto/blob/master/README.md | indy-crypto]]
+  * [[https://github.com/hyperledger/indy-anoncreds/tree/master/docs | indy-anoncreds]]
+  * [[https://github.com/hyperledger/indy-agent | indy-agent]]: a reference agent for indy.
+  * [[https://github.com/hyperledger/indy-rfc | indy-rfc]]
+
+
+====Indy Product Information====
+
+
+**[[projects:indy:roadmap|Indy Roadmap]]:** Running roadmap for Hyperledger Indy showing what the various teams are working on. (Old roadmaps are in [[https://drive.google.com/drive/u/1/folders/0ByaxIFopqmUVOThlbEtsUk1OSDg | a Google Drive folder]].)
+
+**[[projects:indy:use_cases|Use Cases:]]** Short use cases that Indy makes possible (Coming Soon)
+
+**[[projects:indy:uml_diagrams|UML Diagrams:]]** UML diagrams for specific Indy concepts (Coming Soon)
+
+**[[projects:indy:glossary|Indy Glossary]]:** Definitions for concepts and jargon used in Indy
+
+**[[projects:indy:faqs|FAQs]]:** Frequently asked questions from the Indy Node and Indy SDK RocketChat
+
+**[[projects:indy:graduating_incubation|Graduating Incubation]]:** Requirements for graduating incubation (Coming Soon)
+
+**[[projects:indy:videos|Indy Videos]]**: Educational videos specific to concepts and code found in Indy
+
+**[[projects:indy:required_reading|Required Reading]]**: Links to specific topics and articles relevant to Indy
+
+====Indy WG Call Documentation====
+
+  * [[https://drive.google.com/drive/u/1/folders/1wNnp1pPS6-1Y4B2oygfI6tOU4eHGmpRH|WG Agendas]]
+  * [[https://drive.google.com/drive/u/1/folders/0B_NJV6eJXAA1UlJZMXd3cm1zNDQ|Meeting Recordings]]
+
+====Protocol==== 
+Indy complies with the [[https://github.com/sovrin-foundation/protocol | Sovrin Protocol]] 
+
+====Helpful Links====
+  * [[https://docs.google.com/document/d/14GrhB5nDkRg3DkRre1OeoYGlmKbp9bq6gHIV1kPpgHg/edit | Use cases of SSI]]
+  * [[https://github.com/infominer33/awesome-decentralized-id/tree/master/awesome-indy | Awesome Hyperledger Indy Resources]]

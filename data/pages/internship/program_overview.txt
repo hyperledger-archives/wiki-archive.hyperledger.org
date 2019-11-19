@@ -1,0 +1,27 @@
+**2018 Hyperledger Internship Program Overview**
+
+
+The Hyperledger internship program is aimed at student developers who desire to gain real-world development experience in blockchain technologies by working with the industry’s leading technologists while at the same time helping contribute to the Hyperledger project. Students will have the opportunity to expand their knowledge of existing and emerging trends in blockchain, to work closely with mentors who are active developers in blockchain, and to network with business decision makers and other open source professionals. The internship program also enables Hyperledger to engage academic and research institutions to assist in the teaching and training of the blockchain engineers and developers of tomorrow. 
+
+  * [[internship:for mentors | Call for Internship Projects and Mentors]] CLOSED
+  * [[internship:project ideas | Internship Projects]] 
+  * [[internship:how to apply | How to Apply]] Application Period: March 5 - 23. Application is now CLOSED
+  * [[internship:schedule | Full Program Timeline]]
+
+**Intern Stipend and Funding for Travel to Hyperledger Global Forum**
+
+Hyperledger will soon be accepting student interns to work in the Hyperledger development community. Each intern will be matched and work closely with a mentor for the duration of his/her internship. 
+
+Interns will be eligible to receive a stipend. The total stipend amount will be calculated using [[https://developers.google.com/open-source/gsoc/help/student-stipends/|a tiered structure based on where the intern is currently enrolled]]. The stipend will be paid in several installments provided that regular interval evaluations show the intern is making satisfactory progress. The final installment will be paid upon successful project completion.
+
+Each intern will work remotely from his/her location of choice. There is no physical work facility provided or required.
+
+Each intern who has successfully completed the program will be invited to attend and present at the [[https://events.linuxfoundation.org/events/hyperledger-global-forum-2018/ | Hyperledger Global Forum]] in Basel, Switzerland, December 12-15th, or the 4th quarter Hyperledger hackfest if s/he can’t make it to the Global Forum. Hyperledger will provide a stipend for travel and coaching resources to help build the intern’s presentation skills. This is a great opportunity for interns to showcase their work to the broader community and to network with professionals in the field.
+
+
+**For Mentors: Tips for Effective and Successful Mentorship**
+
+  * **Communicate:** Communicate with your intern often, whether it is to provide feedback, offer training, or check on the intern’s progress. By keeping the line of communication open you will build trust, respect, and a positive relationship that facilitates the successful completion of the project.
+  * **Mentor:** Schedule a regular review meeting with your intern. Mentorship is a critical and essential part of an internship experience, and an attribute that differentiates from regular employment. As a mentor, it’s important to give your intern honest feedback on professionalism and career preparedness.
+  * **Connect:** To foster learning outside of your intern’s job duties, encourage your intern to develop relationships outside or his or her immediate team. Allowing your intern to gain a broader understanding of your organization, industry, and potential career paths can help generate new ideas and make him or her a more effective contributing member.
+  * **Revisit:** Periodically revisit the learning objectives and expected outcomes established at the beginning of the internship. Discuss what the student has learned and how it can be applied in the future. Be flexible to adjust the project scope, learning objectives, and outcomes based on the intern's background and skill set.

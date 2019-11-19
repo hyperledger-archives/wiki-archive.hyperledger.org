@@ -1,0 +1,16 @@
+====== Shipping Manifest Use Case ======
+
+===== User Stories =====
+Multiple parties need simultaneous access to the manifest.  IoT (Internet of Things) devices on the containers could read the manifest directly and correlate to GPS to ensure they are in the right place.  Sensors on the contents can guarantee environmental quality during shipping.
+
+===== User Scenario Examples =====
+When temperature sensitive material, like live samples, medicines, perishable foods (e.g., seafood, meats, dairy items), or even wines are shipped, the environment during shipping and storage needs to be guaranteed for the proper preservation of the product.  IoT sensors can be attached to ensure the temperature, humidity, or air pressure around the containers are maintained within an acceptable range.  Accelerometers can ensure the package has not been tipped over.  For example, if a sensor reading goes out of range for a certain amount of time, previously agreed upon by a contract, the customer would not have to accept the package.  This avoids accountability issues, especially between the manufacturer and all the different parties within the storage, shipping, and handling businesses.  The exact time and location of the spec violation from the sensors would be recorded in the blockchain.  
+
+===== Related User Stories or Problems =====
+None.
+
+===== Opportunity/Justification =====
+Full transparency and accountability of all members, as well as quality assurance of sensitive items in transit.  
+
+===== Requirements =====
+Since IoT sensors are always taking data, but often the data isn't changing.  Only changes in the data should be sent to the blockchain to be recorded.  How to ensure data integrity without taking and recording readings from every sensor every second?   

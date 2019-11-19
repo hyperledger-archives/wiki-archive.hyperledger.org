@@ -1,0 +1,54 @@
+==== 2018-03-16 ==== 
+
+Meeting will be held at [[ https://zoom.us/j/519936723 | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/cello|rocketchat]] (for text chat) at:
+
+  * 08:30AM   (UTC-4)
+  * 06:00PM   (UTC+0530)
+  * 08:30PM   (UTC+8)
+
+  * [[https://jira.hyperledger.org/projects/CE/issues/CE-188?filter=allopenissues | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:cello+status:open | Open Patchset for review]]
+  * [[https://wiki.hyperledger.org/projects/cello | Project Wiki Page]]
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  - [[projects/cello/feedback | Feedback collection page]]
+  - Operator Dashboard
+    - Discuss the UI framework for operator dashboard, hightall prepare a comparison on antd, bootstrap, foundation, material ui. [[https://npmcompare.com/compare/antd,bootstrap,foundation,material-ui,mjml | https://npmcompare.com/compare/antd,bootstrap,foundation,material-ui,mjml]]
+  - User Dashboard progress
+  - Documentation progress (jiang lu)
+  - Video tutorial progress (hightall)
+  - Composer integration with ansible agent driver (tongli)
+  - Preparing release v0.8.0 (baohua)
+  - k8s/composer integration (luke)
+  - Other issues
+    - Docker image size
+    - Use Fabric 1.1.0 in Cello
+    - Feel free to add here.
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Haitao Yue
+  * Baohua Yang
+  * Chris Lim
+  * Amit Kumar Gupta
+  * Jiang Lu
+  * Luke Chen
+  * Tong Li
+
+=== Minutes ===
+
+  - [[projects/cello/feedback | Feedback collection page]]
+  - Operator Dashboard
+    - Need more discussion offline for framework choice.
+  - No update.
+  - Refined & Update setup, operator, user-dashboard docs, want to write more introduction about chain code, e.g how to invoke, query
+  - Prepared some bullet, will prepare video.[[https://blog.cello.ink/2018/03/15/Cello-tutorial-videos/#more | https://blog.cello.ink/2018/03/15/Cello-tutorial-videos/#more]] 
+  - Composer integration with ansible agent driver (tongli)
+  - Preparing release v0.8.0 (baohua)
+  - k8s/composer maybe overlapping with composer integration with ansible agent driver? tong li will discuss with luke offline for details.
+  - Other issues
+    - Chris will create jira task working for reducing docker image size.
+    - Need check it again, if want to launch & apply & use fabric 1.1.0 in cello, maybe need push to v0.9.0?

@@ -1,0 +1,300 @@
+==== 2017-03-24 ==== 
+
+=== Agenda ===
+  * Welcome for new contributor: Chao Li from IBM
+  * [[ https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85 | Jira board ]] status (chang will sync). 
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py | Patchset]] for review. 
+  * MVP remaining tasks discussion (kai will sync, 1768 to @lafenicecc and 1769 to @grapebaba).
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]] is publicly available.
+  * Other issues
+    * test coverage discussion
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Baohua Yang 
+  * Kai Chen
+  * Wei Hu
+  * Ray Chen
+  * Chao Li
+  * Chang Chen
+
+
+=== Log ===
+
+
+==Meeting start==
+
+OK, let's start! thanks for all the attendees!
+today's agenda is at https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20170324
+item #1, we have new contributor from IBM, Chao Li.
+he is working in the system lab, and very hand-on at chaincode development.
+item #2, Jira board status (chang will sync).
+https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85
+
+lafenicecc 11:03 AM
+there are 2 ongoing tasks now
+focusing on the mvp
+
+baohua 11:03 AM
+nice progress!
+now we have two steps before the MVP!
+thanks to @grapebaba and @lafenicecc and others, for the efforts towards sdk with such agile work!
+sorry, network issues....
+item #3, patchset on gerrit
+here is the status, https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py
+@ray @WeiHu would encourage u both make some record there as the new contributors.
+
+ray 11:08 AM
+👌🏼
+
+baohua 11:08 AM
+👍
+thanks
+
+WeiHu 11:08 AM
+😺好的
+
+baohua 11:09 AM
+ok
+
+camelbeck 11:09 AM
+hi, every one, glad to take part in this project
+🐓 2  
+
+baohua 11:09 AM
+item #4: MVP remaining tasks discussion (kai will sync, 1768 to @lafenicecc and 1769 to @grapebaba).
+@camelbeck will give u 5 mins at last for self-brief. 🙂
+
+camelbeck 11:09 AM
+sure
+
+baohua 11:10 AM
+@grapebaba can u sync and indicate what items we still need people to help?
+🐧
+
+grapebaba 11:10 AM
+sorry, this week is busy so that no progress for 1769
+
+baohua 11:12 AM
+ok, do we need more people on 1769? kai
+@grapebaba
+
+grapebaba 11:12 AM
+no, will catch up next week
+
+baohua 11:13 AM
+thanks
+
+lafenicecc 11:13 AM
+do we need to add an e2e example, like node-sdk did?
+
+baohua 11:13 AM
+exactly @ray would u like to start writing the e2e test case?
+
+grapebaba 11:13 AM
++1
+
+baohua 11:14 AM
+and @WeiHu can help, i suggest.
+
+ray 11:14 AM
+ok I will pick this together with Wei
+
+WeiHu 11:14 AM
+ok
+
+grapebaba 11:14 AM
+maybe one thing we can discuss
+
+lafenicecc 11:14 AM
+i'll add a jira task
+
+baohua 11:14 AM
+thanks, @lafenicecc pls help create a jira task.
+sure, kai
+
+grapebaba 11:15 AM
+now i introduce rxpy lib for handle parallel invoke multiple endorers
+but it may be not usual
+
+baohua 11:16 AM
+yeap, saw it
+
+grapebaba 11:16 AM
+anyone knows other options
+
+baohua 11:16 AM
+i guess rxpy is suitable for this case, but not sure how's the perf gurantee
+otherwise, will use thread/event mode with more complicated code, i suppose
+
+ray 11:18 AM
+https://github.com/ReactiveX/RxPY this lib you guys are talking about, right?
+
+baohua 11:18 AM
+yeap
+
+grapebaba 11:18 AM
+yes
+
+baohua 11:18 AM
+and i suggest we do not optimize too earlier 🙂
+so the code can work, that's rule #0!
+
+grapebaba 11:19 AM
+ok
+however need guys familiar the API
+it is more like RxJS
+
+baohua 11:20 AM
+yeap that's learning curve
+i would suggest we keep using it first to finish the MVP, then see if there's problem in practice. how do u guys think?
+
+grapebaba 11:20 AM
+yeah
+
+ray 11:21 AM
+I agree with it
+
+baohua 11:21 AM
+and, maybe kai can help write some notes in the doc, introducing the basic apis and best-practice.
+
+grapebaba 11:21 AM
+sure
+
+baohua 11:21 AM
+that would be even cooler! 🎻
+OK, sdk spec link again: https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4. suggest the new comer have a look @camelbeck
+
+camelbeck 11:22 AM
+you guys did great work, 👍
+no problem
+
+baohua 11:22 AM
+and there's some out-of-dated content in the spec. the code is the final rule. we have the java/nodesdk now.
+
+camelbeck 11:22 AM
+maybe i can start with it
+
+baohua 11:22 AM
+#item 6: test coverage discussion
+@camelbeck aha, sure.
+
+grapebaba 11:23 AM
+i think first we can add a coverage report lib in build
+
+baohua 11:23 AM
+any comments on #6? is it good time to start this discussion now?
+
+ray 11:23 AM
+agree with kai
+
+baohua 11:24 AM   
+sure, any suggested candidate lib to use?
+
+grapebaba 11:24 AM
+could add a task first
+
+baohua 11:24 AM
+@camelbeck are u familiar with the test coverage tool?
+
+grapebaba 11:25 AM
+owner can help investigate
+
+baohua 11:25 AM
+it should be not that difficult to learn.
+@grapebaba sure, create the issue first.
+
+camelbeck 11:25 AM
+sorry, have no knowledge about it, does it easy to learn?
+
+baohua 11:25 AM
+and maybe @camelbeck can pick that as the starting job.
+aha, python world is always easy to get on hand.
+u can do some investigation first
+
+camelbeck 11:26 AM
+ok, i will have a try
+
+baohua 11:26 AM
+Thanks!
+
+camelbeck 11:26 AM
+😀
+
+baohua 11:27 AM
+And now, welcome @camelbeck to give a self-introduction!!
+🌻🌺⛹
+
+camelbeck 11:27 AM
+OK
+Hi, everyone, self intro: li chao, now working in IBM CSL on mainframe os rletated development.
+Previously, have studied fabric source code from chaincode view.
+And now I have some intersts in open source, I think this project may be a good start for me.
+
+WeiHu 11:28 AM
+👏
+
+baohua 11:29 AM
+welcome @camelbeck
+
+camelbeck 11:29 AM
+Hope to make some contributions to this project in future cooperating with you guys.
+👍 1  
+😁
+thanks
+
+baohua 11:30 AM
+and we're an opensource team, so self-motivation is encouraged, by actively contributing code, discussion, and find issues to solve, and improving existing tool, etc. no one will blame if you make any trouble.
+so, come on, show urself and do something, also to everyone~~
+
+camelbeck 11:30 AM
+got it, thanks.
+
+baohua 11:30 AM
+😉
+
+ray 11:31 AM
+about the coverage tool topic: https://github.com/vinta/awesome-python#testing endorse `coverage`
+
+baohua 11:31 AM
+OK
+
+ray 11:31 AM
+https://pypi.python.org/pypi/coverage
+
+baohua 11:31 AM
+thanks ray's suggestion. good start point
+ok, any more issues to discuss today?
+
+camelbeck 11:32 AM
+😀
+my network is poor,😁
+
+baohua 11:32 AM
+the network really sucks today...
+
+camelbeck 11:32 AM
+thanks @ray
+
+ray 11:32 AM
+😅
+
+grapebaba 11:33 AM
+👍
+
+baohua 11:33 AM
+Ok, if no other issue, will end the discussion, we overdue 3 mins
+
+camelbeck 11:33 AM
+👍
+
+baohua 11:33 AM
+Thanks everyone, and have a nice weekend!
+
+WeiHu 11:33 AM 
+👍
+
+lafenicecc 11:34 AM 
+👍
+==Meeting end==

@@ -1,0 +1,117 @@
+======  Welcome to the Hyperledger Wiki! ======
+
+Hyperledger is a consortium of communities which works on two different levels.
+
+  - Projects focus on implementations of blockchain frameworks, tools, and modules
+  - Working groups focus on different aspects, typically independent of any specific implementation
+
+
+=====  Projects =====
+^ Frameworks                                                                           ^                                                        ^                                                                                                                                       ^                                                                                                                                                                       ^                                              ^
+^ Name                                                                                 ^ Status                                                 ^ CII Badge                                                                                                                             ^ Description                                                                                                                                                           ^                                              ^
+| [[projects:burrow|{{ :projects:hyperledger_burrow_logo_color.png?300&direct}}]]      | [[community/project-lifecycle#incubation|Incubation]]  | [[https://bestpractices.coreinfrastructure.org/projects/1000|{{https://bestpractices.coreinfrastructure.org/projects/1000/badge}}]]   | Permissioned Ethereum smart-contract blockchain                                                                                                                       |                                              |
+| [[projects:fabric|{{ :projects:hyperledger_fabric_logo_color.png?300&direct}}]]      | [[community/project-lifecycle#active|Active]]          | [[https://bestpractices.coreinfrastructure.org/projects/955|{{https://bestpractices.coreinfrastructure.org/projects/955/badge}}]]     | Distributed ledger in Golang                                                                                                                                          |                                              |
+| [[projects:indy|{{ :projects:hyperledger_indy_logo.png?300&direct}}]]                | [[community/project-lifecycle#incubation|Incubation]]  | [[https://bestpractices.coreinfrastructure.org/en/projects/1983|94%]]                                                                 | Distributed ledger purpose-built for decentralized identity                                                                                                           |                                              |
+| [[projects:iroha|{{ :projects:hyperledger_iroha_logo.png?300&direct}}]]              | [[community/project-lifecycle#active|Active]]          | [[https://bestpractices.coreinfrastructure.org/projects/960|{{https://bestpractices.coreinfrastructure.org/projects/960/badge}}]]     | Distributed ledger in C++                                                                                                                                             |                                              |
+| [[projects:sawtooth|{{ :projects:hyperledger_sawtooth_logo.png?300&direct| }}]]      | [[community/project-lifecycle#active|Active]]          | [[https://bestpractices.coreinfrastructure.org/projects/954|{{https://bestpractices.coreinfrastructure.org/projects/954/badge}}]]     | Distributed ledger with Multi-Language Support                                                                                                                        |                                              |
+^ Tools                                                                                ^                                                        ^                                                                                                                                       ^                                                                                                                                                                       ^                                              ^
+^ Name                                                                                 ^ Status                                                 ^ CII Badge                                                                                                                             ^ Description                                                                                                                                                           ^ Supports (Potentially)                       ^
+| [[projects:caliper|{{ :projects:hyperledger_caliper_logo_color.png?300&direct| }}]]  | [[community/project-lifecycle#incubation|Incubation]]  | [[https://bestpractices.coreinfrastructure.org/projects/2381|{{https://bestpractices.coreinfrastructure.org/projects/2381/badge}}]]   | Blockchain benchmark framework which allows users to measure the performance of a specific blockchain implementation with a set of predefined use cases.              | Fabric, Sawtooth, Iroha                      |
+| [[projects:cello|{{ :projects:hyperledger_cello_logo_color.png?300&direct}}]]        | [[community/project-lifecycle#incubation|Incubation]]  | [[https://bestpractices.coreinfrastructure.org/projects/new|0%]]                                                                      | Blockchain management/operation                                                                                                                                       | Fabric,Explorer (Sawtooth, Iroha, Composer)  |
+| [[projects:composer|{{ :projects:hyperledger_composer_logo_color.png?300&direct}}]]  | [[community/project-lifecycle#incubation|Incubation]]  | [[https://bestpractices.coreinfrastructure.org/projects/1071/|{{https://bestpractices.coreinfrastructure.org/projects/1071/badge}}]]  | Development framework/tools for building Blockchain business networks                                                                                                 | Fabric, (Sawtooth, Iroha)                    |
+| [[projects:explorer|{{ :projects:hyperledger_explorer_logo_color.png?300&direct}}]]  | [[community/project-lifecycle#incubation|Incubation]]  | [[https://bestpractices.coreinfrastructure.org/projects/new|0%]]                                                                      | Blockchain Web UI                                                                                                                                                     | Fabric, (Sawtooth, Iroha)                    |
+| [[projects:quilt|{{ :projects:hyperledger_quilt_logo.png?300&direct}}]]              | [[community/project-lifecycle#incubation|Incubation]]  | [[https://bestpractices.coreinfrastructure.org/projects/new|0%]]                                                                      | An interoperability solution for blockchains, DLTs and other types of ledgers                                                                                         |                                              |
+| [[projects:ursa|Hyperledger Ursa]]                                                   | [[community/project-lifecycle#incubation|Incubation]]  | [[https://bestpractices.coreinfrastructure.org/projects/new|0%]]                                                                      | A shared cryptographic library that would enable people (and projects) to avoid duplicating other cryptographic work and hopefully increase security in the process.  |                                              |
+
+
+
+
+
+
+==== Modules ====
+^ Name                                                                                 ^ Status      ^ CII Badge                                                                                                                             ^ Supports (Potentially)                                  ^ Description                                                                                                                                               ^
+| [[projects:cello-analytics|Cello Analytics]]                                         | [[community/project-lifecycle#incubation|Incubation]]  | [[https://bestpractices.coreinfrastructure.org/projects/new|0%]]                                                                      | Cello                                                   | Blockchain analytics                                                                                                                                      |
+| [[projects:fabric-chaintool.md|Fabric Chaintool]]                                    | [[community/project-lifecycle#incubation|Incubation]]      | [[https://bestpractices.coreinfrastructure.org/projects/new|0%]]                                                                      | Fabric                                                  | Chaincode packaging for Fabric                                                                                                                            |
+| [[projects:fabric-sdk-py|Fabric SDK Py]]                                             | [[community/project-lifecycle#incubation|Incubation]]      | [[https://bestpractices.coreinfrastructure.org/projects/new|0%]]                                                                      | Fabric                                                  | Fabric SDK in Python                                                                                                                                      |
+| [[projects:fabric-sdk-go|Fabric SDK Go]]                                             | [[community/project-lifecycle#incubation|Incubation]]  | [[https://bestpractices.coreinfrastructure.org/projects/new|0%]]                                                                      | Fabric                                                  | Fabric SDK in Golang                                                                                                                                      |
+
+
+=====  Community Working Groups (WG) =====
+  * [[https://www.hyperledger.org/community | How To Connect with Hyperledger Projects and WGs]]
+  * [[groups:TSC:Technical-Steering-Committee | Technical Steering Committee (TSC)]]
+  * [[groups:architecture:Architecture-WG | Architecture Working Group]]
+  * [[groups:identity:Identity-WG| Identity Working Group]]
+  * [[groups:pswg:Performance-and-Scale-WG | Performance and Scale Working Group]]
+  * [[groups:whitepaper:Whitepaper-WG | Whitepaper Working Group]]
+  * [[groups:twgc | Technical Working Group China (TWG-China, 中国技术工作组) ]]
+  * [[groups:training-and-education:Training-and-Education-WG | Learning Materials Development Working Group]]
+
+
+====  Archived Working Groups (WG) ====
+
+  * [[groups:protocol:Protocol-WG.md | Protocol Working Group]]
+  * [[groups:requirements:Requirements-WG | Requirements Working Group]]
+
+
+===== Special Interest Groups (SIGs) =====
+  * [[groups:SIG-application|**Application Process for launching a new Special Interest Group**]]
+  * [[groups:healthcare:healthcare-sig | Healthcare SIG]]
+  * [[groups:public-sector-sig | Public Sector SIG]]
+  * [[groups:social-impact | Social Impact SIG]]
+  * [[groups:trade-finance| Trade Finance SIG]]
+
+=====  Governing Documents of the Hyperledger Technical Community =====
+  * [[https://www.hyperledger.org/about/charter | Charter]] of the Hyperledger Project overall.
+  * [[community:Scope | Scope]] of planned projects covering core ledger functionality.
+  * [[community:Hyperledger-Project-Code-of-Conduct | Code of Conduct]] for all project workspaces.
+  * [[community:Project-Lifecycle | Project Lifecycle]] defines stages of projects within Hyperledger, from Proposal -> Incubation -> Active. 
+  * [[community:Project-Incubation-Exit-Criteria | Project Incubation Exit Criteria]] required before a project is declared Active and production-ready.
+  * [[community:Release Taxonomy]] provides guidelines for release and pre-release versioning and tags.
+  * [[community:copyright-and-license-policy|Copyright and License Policy]] 
+  * [[community:Proposal-Template-for-a-Hyperledger-Improvement-Project-HIP | Proposal Template]] for a new Hyperleger project community.
+  * [[community:Proposals | Current Proposals]] for new projects at Hyperledger.
+  * [[https://docs.google.com/document/d/16GJw2cxXf_Sw1DFbsInkgQ1jy_eXxteUgKdge09jw-k/edit | Working Group Charter Template]]
+  * [[security | Security Bug Handling Process]]
+  * [[groups:tsc:project-updates | Quarterly Project Updates]]
+  * [[groups:tsc:wg-updates | Quarterly Working Group Updates]]
+  * [[https://docs.google.com/presentation/d/1gpxrwPli1xpRCL8lWg-KQc3MncDatiFQ5oS1ppLWiRs/edit|Antitrust Policy Notice]]
+=====  How We Communicate =====
+  * [[https://lists.hyperledger.org | Email]] - most development communication is on archived mailing lists by project area.
+  * [[https://chat.hyperledger.org | Chat]] - is where daily conversations and questions happen.  You will need a [[http://hyperledger-fabric.readthedocs.io/en/latest/Gerrit/lf-account/ | Linux Foundation ID]] to login to our chat instance.
+  * [[community:chat_channels | Chat Channels]] - lists all chat rooms available.
+
+
+=====  Meeting & Event Schedules =====
+  * [[community:Calendar-Public-Meetings | Calendar of Public Meetings]] - where Working Groups have regular calls/chats to plan.
+  * We encourage people to [[community:meetups|run their own Meetups about Hyperledger]] and our projects.
+
+=====  Security =====
+  * [[security | Security]] 
+  * [[security:audits | Independent Security Audit Reports]]
+  * [[security:cii | CII Badge Security Section]]
+  * [[security:analysis-tools | Static and Dynamic Analysis Tools]]
+  * [[security:learning-design | Learning: Designing and Building Secure Software]]
+  * [[security:learning-crypto | Learning: Crypto Best Practices]]
+  * [[security:learning-delivery | Learning: Strategies for Secure Delivery]]
+
+===== Labs =====
+  * [[labs | Hyperledger Labs]]
+
+=====  Miscellaneous =====
+  * [[community:resource_map | Ecosystem Map]]
+  * [[community:participating | Participating in the Community]]
+  * [[community:Frequently-Asked-Questions-FAQ | Frequently-Asked-Questions, or FAQ]]
+  * [[https://gerrit.hyperledger.org/r/#/admin/projects/ | Gerrit]] or [[https://github.com/hyperledger|Github]] - is used for submitting PRs and managing code reviews and checkins.
+  * [[https://jira.hyperledger.org|Jira]] or [[https://github.com/hyperledger|Github]] - is used for submitting bugs.
+  * [[community:presentations | Presentations]]
+  * [[community:POCs | POCs]]
+  * [[community:hackathon-organizers-guide | Hackathon Organizer's Guide]]
+  * [[community:hackfest:start | Hackfests]]
+  * [[community:ambassador | Technical Ambassador program]]
+  * [[community:Slack-Archives | Slack Archives]]
+  * [[projects:fabric:fabric_ci_documentation | Getting Started with Fabric CI ]]
+  * [[community:meeting-mananagement | Managing Zoom Meetings ]]
+
+=====  Internship Program =====
+  * [[internship:program overview | 2018 Program Overview]]
+

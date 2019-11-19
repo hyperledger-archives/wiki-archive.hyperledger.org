@@ -1,0 +1,185 @@
+====== Technical Steering Committee ======
+
+[[https://www.hyperledger.org/about/leadership | Members]]
+
+Chair: Dan Middleton [[https://github.com/dcmiddle | @Dan]]
+
+Mailing list: [[https://lists.hyperledger.org/g/tsc | https://lists.hyperledger.org/g/tsc]]
+
+===== TSC Call - Weekly on Thursday, 10:00am – 11:00am ET =====
+  * See [[https://www.timeanddate.com/worldclock/converter.html?iso=20180614T140000&p1=179&p2=48&p3=33|call time in different zones]]
+  * Join from PC, Mac, Linux, iOS or Android: https://zoom.us/my/hyperledger.community.backup
+  * Or iPhone one-tap :
+    * US: +16699006833,,6223336701# or +16465588656,,6223336701# 
+  * Or Telephone:
+    * Dial(for higher quality, dial a number based on your current location): 
+    * US: +1 669 900 6833 or +1 646 558 8656 or +1 877 369 0926 (Toll Free) or +1 855 880 1246 (Toll Free)
+    * Meeting ID: 622 333 6701
+    * International numbers available: https://zoom.us/zoomconference?m=BYDz1WGXJTTJ_s4_zumD9hqKjJv-Whgs
+==== Minutes ====
+  * January 10, 2019 no meeting
+  * January 3, 2019 no meeting
+  * December 27, 2018 no meeting
+  * December 20, 2018 no meeting
+  * December 13, 2018 no meeting
+  * December 6, 2018 [[https://lists.hyperledger.org/g/tsc/message/1889|minutes]] / [[https://drive.google.com/open?id=1cqUiJsHDPHC11J6FgAh1xA8LJA5AOHI7|recording]]
+  * November 29, 2018 [[https://lists.hyperledger.org/g/tsc/message/1869|minutes]] / [[https://drive.google.com/open?id=19Tw_6yy_d7N9G6rdmKbNIzSGj0M-N1QR|recording]]
+  * November 22, 2018 no meeting
+  * November 15, 2018 no meeting
+  * November 8, 2018 [[https://lists.hyperledger.org/g/tsc/message/1840 | minutes]] / [[https://drive.google.com/open?id=1HyV8uw28ZoAieF9ZNX8kGF2fPs6G0BC2| recording]]
+  * November 1, 2018 [[ https://lists.hyperledger.org/g/tsc/message/1832 | minutes]] / [[https://drive.google.com/open?id=19nn5Uv4mVp-GtTY4XPGvhkSRJ5qXspr8 | recording]]
+  * October 25, 2018 [[ https://lists.hyperledger.org/g/tsc/message/1807 | minutes]] / [[https://drive.google.com/open?id=19ph3itrD8_rfAACTRyUVwYg5TloBUdIq | recording]]
+  * October 18, 2018 [[https://drive.google.com/open?id=1abT389ovS_fwtmi3ONmzw1G53oPYt5eqm6SqS9hEa-4 | minutes]] / [[https://zoom.us/recording/share/6lxfj0ZGjY16jt9vZBsqr-yoeUMlJtvT4vFvGqB3ATawIumekTziMw | recording]]
+  * October 11, 2018 [[https://docs.google.com/document/d/1lVyFNV1LiniwXVVIyBfe1pZ5VR3XafClAFhSxM02Jls/edit | minutes ]] / [[ https://drive.google.com/open?id=1WZBRU6pwTVM6vg3Z5cvoNAr4HLxUrvUi | recording]]
+  * October 4, 2018 no meeting
+  * September 27, 2018 [[https://drive.google.com/open?id=1Cejh3lWfYaM4dgqYQmb25Jr0J3a3b9KwnFL4ce1Xzu8 | minutes]] / [[https://zoom.us/recording/share/gLLT33GQAl3PzDJGaRwQs1Kch3bRwfPkJcmXMwsAYaiwIumekTziMw | recording]]
+  * September 20, 2018 [[https://drive.google.com/open?id=1PzCssgZt_pDIofghz3YlTq6ySlHsuuO-eKO50k_BTtY | minutes]] / [[https://zoom.us/recording/share/9kYiATpSOx8OEPvh9wpMOzEGa8onVX7DBytncQRVu46wIumekTziMw | recording]]
+  * September 13, 2018 [[https://drive.google.com/open?id=1c6x4hEYDbl_1cSNlozolwtb_4KllK5umFt9M2kY67Ao | minutes]] / [[https://zoom.us/recording/share/MG_4KOzK9u1PqYXDU84px9kqBdTFkBDQGXvAO9dnRguwIumekTziMw | recording]]
+  * September 6, 2018 [[https://drive.google.com/open?id=1m7HkV1XNtkx7KP1WS2Jwbcbnx-xsQj6GdoI1wHRoxzw | minutes]] / [[https://zoom.us/recording/share/oV8tqsb5NvKawnyEnfYsSSinw2bFHXDBqjByMM0opU2wIumekTziMw | recording]]
+  * August 30, 2018 [[https://drive.google.com/open?id=1HHiP8wPi4QoWqxtpcFwRK51shjiOnfZi1IkkJh8bK7E | minutes]] / [[https://zoom.us/recording/share/5FvHSRb9ayHEh9zj64edpYPcHrCIBYsi-PHWskcE6qqwIumekTziMw | recording]]
+  * August 23, 2018 [[https://drive.google.com/open?id=19lLX4pGB-zm-58wExAc0t4SqhVAkJUCx_c0qhFlVlA4 | minutes]] / [[https://zoom.us/recording/share/9Z44a9JEBK2Cj5aHMkW5ld9QR7c4qVY_103LcgrCAL6wIumekTziMw | recording]]
+  * August 16, 2018 [[https://drive.google.com/open?id=1BOd1_ePih91LZBxccNmfTIwPDxNhm8nLI6LWwRBwHuo | minutes]] / [[https://zoom.us/recording/share/L9VsepkKekHehZlV7JfYgjwq5bZlDU9ZxTpBWg20AFywIumekTziMw | recording]]
+  * August 9, 2018 [[https://drive.google.com/open?id=19mmu2OcfyoIsjEM1H9A-4PDloxH9IhOQLjkpAYQT2Nk | minutes]] / [[https://zoom.us/recording/share/lxtm14jhfIpC4d0z6zXjRU70GkH08NHTGmph05CclTqwIumekTziMw  | recording]]
+  * August 2, 2018 no meeting
+  * July 26,2018 [[https://drive.google.com/open?id=1fwI6mAFryP4kCGv-F7jV9o0Meq-Vepp4uQh8OJOkxvE | minutes]] / [[https://zoom.us/recording/share/EQejizRTtu8rSnRomXFmmmvwGENnFR6n8Ex55xUaYAuwIumekTziMw | recording]]
+  * July 19, 2018 [[https://drive.google.com/open?id=10tKuhWSGvSdw7DGoeI4DxDNl3ZCbUfzFHhH8Zmbhea0 | minutes]] / [[https://zoom.us/recording/share/i7c-xY-av7g5dtk6lkjiLou-jDe__lIlrzBoSlrrrv6wIumekTziMw | recording]]
+  * July 12, 2018 [[https://drive.google.com/open?id=1e49LHGp7FdElJ-NRl5uPCrAzgmQw4YdsoWRDRCGMWms | minutes]] / [[https://zoom.us/recording/share/ldabh_ak_r8q6OHFlabgP_3KiUXez7hujoFRLLLybIWwIumekTziMw | recording]]
+  * July 5, 2018 [[https://docs.google.com/document/d/1Lgbcxg39BPo7SeSwjZsyx817SIJN0qsUWqN1o67Aob4/edit | minutes]] / [[https://zoom.us/recording/share/Yg8bHrsZUQgLoOyYA8nwgImHMNBUirse4iHjxh2PQ-WwIumekTziMw | recording]]
+  * June 28, 2018 no meeting
+  * June 21, 2018 [[https://drive.google.com/open?id=1CVeh-EqDKI3wsW_B-ke3KhuKhIeQaQsVVW7-XqsI8pM | minutes]]
+  * June 14, 2018 [[https://docs.google.com/document/d/1fNI6MQNxx_2Lu790ZHasrgaocdSups9phiLjPZEObvU/edit | minutes]] / [[https://zoom.us/recording/share/xrZIBzvvps9lcdW0U-o8Av-9JHAruSMwNaFeKKBn_LqwIumekTziMw | recording]]
+  * June 7, 2018 [[https://docs.google.com/document/d/1s_CkxoVvU2OBqiQ6_ktJDR3_3qlQ-HLloZ7iqzcWd2Q/edit | minutes]] / [[https://zoom.us/recording/share/14lBNGKMCtqIFKIRkpy8iyJYiX5KhjeSazIJGx12rKCwIumekTziMw | recording]]
+  * May 31, 2018 no meeting
+  * May 24, 2018 [[https://drive.google.com/open?id=1-lmSllqLDTUdu_Xwu6lmoguIYt32lXoWPG2BhlAww-o | minutes]] / [[https://zoom.us/recording/share/WsPlRvR0R_kBBawnz4E2MC-04O_UjlQO0IJVTiGboqewIumekTziMw | recording]]
+  * May 17, 2018 no meeting
+  * May 10, 2018 [[https://docs.google.com/document/d/1XN6pr8CBhWCyIl1hglOFL_pP7pjVpIUhmoyW74X4N0k/edit | minutes]] / no recording
+  * May 3, 2018 [[https://drive.google.com/open?id=1s9s3h1HvuFVnGHWsqOQSH7nGZr9LS-XQE8OUWlZ8uRo | minutes]] / [[https://zoom.us/recording/share/JDBgR767urOr-BweP2IoyjSQfkrG847EhVAlBCWBpHewIumekTziMw | recording]]
+  * April 26, 2018 [[https://drive.google.com/open?id=1aVEnQ9czEi9FbyX868rfy57C-Frh2fZoswY1HJtpTzs | minutes]] / [[https://zoom.us/recording/share/G6xNmeoX7cI-laqONQhn_16MTtnWZkSlwVdt3Ma_S5KwIumekTziMw | recording]]
+  * April 19, 2018 no meeting
+  * April 12, 2018 [[https://drive.google.com/open?id=1hvyE6wRmTMnGL18WDXlP7teDyIrc__cuWD4M9NsyfeA | minutes]] / [[https://zoom.us/recording/share/1icv08IZgBxaNC17ChTE7SRZLASMXMWJqnnxe3E1m-WwIumekTziMw | recording]]
+  * April 5, 2018 [[https://drive.google.com/open?id=1TcTzveWHapw-2CFUR5pijQYl3jnHFso-IvJsC7-VNvM | minutes]] / [[https://zoom.us/recording/share/ooJi82T0323-jQNp5Od2JfHOcxEG-2oUiIAxXzEnRbuwIumekTziMw | recording]]
+  * March 29, 2018 [[https://drive.google.com/open?id=1xf94EWBixfUkjVlbXuXoqXsVXFUikqEhtA_Iz0x7HMU | minutes]] / [[https://zoom.us/recording/play/sSasEfYI9FLElt7drJM-vclqTwa5oQjO-JEmkfnszUWP8eaAwxh1Do5sbE5qxNIs | recording]]
+  * March 22, 2018 [[https://docs.google.com/document/d/11ZNf1HVTyHknYPATSTcqf8c_e42CtNY1lI8Cu1EqOSk/edit | minutes]] / [[https://zoom.us/recording/play/l3zvRdyNgotdhwiSVlfnKHmQdDowXPf9NfsT0ak8KgQ3VI4OzQJHwxhuvQqDESIn | recording]] 
+  * March 15, 2018 [[https://drive.google.com/open?id=157gAYoBpfMAxr68eZvR-oqi8xNaZJgMcsVy2va-tkJg |
+ minutes]] / [[https://zoom.us/recording/play/BiBYGCvQG6B9LvDuYFn84OiduqvFwG7tANG-EeeMOMwGZGKrlzTKxcfVZWV7u-fT | recording]]
+  * March 8, 2018 [[https://drive.google.com/open?id=1ulntEBUQy8a7Y5LUS_ltRp7j3cQBAKE-MbO3QnT_L1M |
+ minutes]] / [[https://zoom.us/recording/play/QWZAFQyLXBO8Is0nUkJ399xLaPbS6iXrKoo06sm3y6uBFdrOrEKeKCxftqS4lJQ1 | recording]]
+  * March 1, 2018 [[https://drive.google.com/open?id=1eJE38jdBUnBt_IC6r-_Hi3YXLsc-lwBvE0Dbyntivy0 |
+ minutes]] / [[https://zoom.us/recording/play/Hyuqxn3Ss-RhAfM0G7cA9lKcyvqEXvvlqWzvZOCYvz23zirsUTK2k7TK-voE248k  | recording]]
+  * February 22, 2018 no meeting
+  * February 15, 2018 [[https://drive.google.com/open?id=1Tck28XAVDeleF_V_7f7x69cttQwppax7vckhrNmrxR4 |
+ minutes]] / [[https://drive.google.com/open?id=1I4mc43xiuPMXWU1yLObJNzq_5dJ0P8HF | recording]]
+  * February 8, 2018 no meeting
+  * February 1, 2018 [[https://drive.google.com/open?id=1CqyVUSc9s2_KDZOE4qmBfXgPDCswBQatv30JH6600wk |
+ minutes]] / [[https://drive.google.com/open?id=1bh3GwKa0sgO-7eN0jCbqUjFoSmuJt9Cl | recording]]
+  * January 25, 2018 [[https://drive.google.com/open?id=1TVWKXBVskc8QVABeSAjrmaPcd81Hg-pEMoGaYCj_W_U |
+ minutes]] / [[https://drive.google.com/open?id=1OGObFO6cUzQE7fe7_3Z4mKqd7oKHTvRE | recording]]
+  * January 18, 2018 [[https://drive.google.com/open?id=1CKFTpQ1x1SzVPhLUqwdoEkGV0gmdMK-DBVzL66HYzCk |
+ minutes]] / [[https://drive.google.com/open?id=1SM18JqBYUXVZu3UUn6SZLEY8Yv1vqVgN | recording]]
+  * January 11, 2018 [[https://drive.google.com/open?id=1SMuHOZLPgy_JYqBqLJiw4Itbl30ijQpz0wnolWekhMU |
+ minutes]] / [[https://drive.google.com/open?id=1ASxyT1UOc-2xWxY7TIVGEdkChqbwuVz_ | recording]]
+  * January 4, 2018 [[https://drive.google.com/open?id=1ah7Np1SUZNG-Z6Dsmw4oqkvX2JEu6AYZ4qEnm0LLdq0 |
+ minutes]] / [[https://drive.google.com/open?id=1IQcDAG200zeP1vrvmQ2gYTzgkj3APUw1 | recording]]
+  * December 28, 2017 no meeting
+  * December 21, 2017 no meeting
+  * December 14,2017 [[https://docs.google.com/document/d/1RlLgaiA5m2_sjyQo3VUi5Zxaih9ZPdTAYRAXXLUROOM | minutes]] / [[https://drive.google.com/open?id=1wMvwQ9WHEO-x0vBiYHi1SZ_uC3XW49-x | recording]]
+  * December 7, 2017 no meeting
+  * November 30, 2017 [[https://drive.google.com/open?id=1U9bQZWqvbj8ou_UQdvi9s_dX1gFzqVzTgm2mCMLD5gc | minutes]] / [[https://drive.google.com/open?id=1kjyQ4744c37xHMUPttlmFGUraGgKBICD | recording]]
+  * November 23, 2017 no meeting
+  * November 16, 2017 [[https://drive.google.com/open?id=1XZasCUO87LhWrZkt_3R0-WSd9gywKUQW8Jcp19hd7Y8 | minutes]] / [[https://drive.google.com/open?id=1FjGDxe7JaAAM-h9U7Q8wE1yHzAvQQh2l | recording]]
+  * November 9, 2017 no meeting
+  * November 2, 2017 [[https://drive.google.com/open?id=1V_V3HICafrvkriCRjyFA_Xssu1sdgJTVgtqNciBAkb4 |
+ minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MbXRVTkNRWWlzVE0 | recording]]
+  * October 26, 2017 [[https://drive.google.com/open?id=1jp6Z79Q8xPDmFkCZ1RIKeWH39dn12kMV8eDQ5QrfLUg |
+ minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MM0xOMXhCWmstOEk | recording]]
+  * October 19, 2017 [[https://drive.google.com/open?id=149QHodsKvY120uKWryOkq9BBf8bmwZhBAsX8lfIN28k |
+ minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MaGcyRVBqSGlwSHM | recording]]
+  * October 12, 2017 [[https://drive.google.com/open?id=1lyF5wadhs38SV72hDK5m38sidSWA05EcXncFW-iGAKU | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MS09jaFFCZXlrbUE | recording]]
+  * October 5, 2017 [[https://drive.google.com/open?id=1I3qfKIKjgq701OmdfMiSG362-MpahQBXRBz_pkfd4-I | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MeW9VdXlFaVBpNWM | recording]]
+  * September 28, 2017 [[https://drive.google.com/open?id=1cWRdJL_mhR1Rc0AUVMEc5PUYkzO7JVViUY_RPkzBAd0 | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MdmJvOWRzNGpNNUk | recording]]
+  * September 21, 2017 no meeting
+  * September 14, 2017 [[https://docs.google.com/document/d/14hzJCndiUaltqOU5FW4jcLKXjBXob0jpThTHFc_lnBA/edit | minutes]] / [[https://drive.google.com/open?id=0ByNnb7m90tBlX3BKS2hQYk8tM00|recording]]
+  * September 7, 2017 [[https://drive.google.com/open?id=1kB0z-QrUPwYpQV_LHQKB8DxZFZ4vMB71ufkQnycR8PI | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MeURhMF9abW5aQU0 | recording]]
+  * August 31, 2017 no meeting
+  * August 24, 2017 [[https://docs.google.com/document/d/1b29FebrgfZbKN5BGBmG2Q1cSOTKMTS8AJmbdgfv_dOw/edit?usp=sharing | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MTzFRZ1Zab014MDQ | recording]]
+  * August 17, 2017 [[https://drive.google.com/open?id=1tgkbkszkaZMJYm9m43DsEbAx_hXnAj5aIV4Ns0XWHHk | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MZVB0bEJrUHpTRXc | recording]]
+  * August 10, 2017 [[https://drive.google.com/open?id=15Fbq0B4k565yN1IduciBBKyDi8vSDhnjmKVX7HZB54Y | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MdmR2TXM0cDBIUlE | recording]]
+  * August 3, 2017 no meeting
+  * July 27, 2017 [[https://drive.google.com/open?id=1MD5_mtthd-hZcSgrpjqlX1v8Vf9ZW0PbJDrL_f9SM-k | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MemVrMlFoV3RIQk0 | recording]]
+  * July 20, 2017 [[https://drive.google.com/open?id=1lOgPhPTuPi1hYbczl8B9zpppB6NITDn1gWSF_IdbwJY | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MVHhPZ254TEhtYkk | recording]]
+  * July 13, 2017 [[https://drive.google.com/open?id=1gQEjSkenyyskPXE-u5Nc9anUAHte5gMUbFMTybRPUAE | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MYnVyTmhhSmVpak0 | recording]]
+  * July 6, 2017 [[https://drive.google.com/open?id=1LxmKuCaqv5zkh4X0Ie6cAe09ozYOZl_SPIW0wKkEyJg | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MRHhJdjlBc0ZzOUU | recording]]
+  * June 29, 2017 [[https://drive.google.com/open?id=1SGJqlYri9XDnMs_e-cTkaaspoP5JhBE8qLvBTC12Tio | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MajFqYUh6MTRHUkE | recording]]
+  * June 22, 2017 no meeting
+  * June 15, 2017 [[https://docs.google.com/document/d/19JCDVFrkni0MbXAWDTAnTn5yk53zkayX-hT8bH1UAnI/edit | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MbHlqM3RscGM0STg | recording]]
+  * June 8, 2017 [[https://drive.google.com/open?id=1TW3kW1sCUjeOaM7EyPA0dkZuzW6DRAZcz-osyd0oaWQ | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MTkdHcnFTNUdQMUk | recording]]
+  * June 1, 2017 no meeting
+  * May 25, 2017 [[https://docs.google.com/document/d/12b8xfE2PKcz8DNjYOFwuaM1xHwFfnK0n4mO8z6PS1UU/edit | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MTk5SVmJUMExXMFE | recording]]
+  * May 18, 2017 [[https://docs.google.com/document/d/1zS1VBPt-56WTct779ysIrFmOXmv5DQemQh3IwHPg53E/edit | minutes]] / recording (coming shortly)
+  * May 11, 2017 [[https://docs.google.com/document/d/1AxKWHsS_32WHr8Fj_GEgJKN6yIyyOPXy2faUR2YDhXM/edit | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MQ0JxTHNDaW9fejA | recording]]
+  * May 4, 2017 no meeting
+  * April 27, 2017 [[https://docs.google.com/document/d/1dVucNai9v2Y6JwlTq-DbnOOGPHLl_QWtkIcuHdQXucs/edit?usp=sharing | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MME5SSk1uZEdMeU0 | recording]]
+  * April 20, 2017 no meeting
+  * April 13, 2017 no meeting
+  * April 6, 2017 [[https://drive.google.com/open?id=1_CQmRXZst4RehoDDXAY-4wnK1N35ZHOamESm3bnwGII | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MN0RSUTVaLXlPYUE | recording]]
+  * March 30, 2017 [[https://drive.google.com/open?id=1Qw4nFyclW0-RlbcSoNa8KUFqR8U8fPRu63OKuirBjDw | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MVUdZRm1BNDRLMVE | recording]]
+  * March 23, 2017 [[https://drive.google.com/open?id=1RDrWU6VDWhnxkRYOeYSgFYcqSsrynZbsbFh9IAo1TZE | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MLTQ1WW42dDRheDg | recording]]
+  * March 16, 2017 [[https://drive.google.com/open?id=1yyc5eTYjMGjk5dKnmqjG-tg5Tm4-rh5a37YDG40WgYA | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MaWU3UXdRSkcxZ2s | recording]]
+  * March 9, 2017 no meeting
+  * March 2, 2017 [[https://drive.google.com/open?id=1L-oyN0UdBTj3_b_0FuPe6RZChTCFGrMAtz9o7f1TPV4 | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MZEVQVFNncVVYcms | recording]]
+  * February 23, 2017 [[https://drive.google.com/open?id=1Nk4QHZKNHtIoNKUdzfIqIV03ViehK9daBL68SiMzhb0 | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MSFp5NnNQZFFXc0E | recording]]
+  * February 16, 2017 [[https://drive.google.com/open?id=1nyOm3Bk0X41CF1sJM20OyVl5n8Ivwi5AH-CUt372t1I | minutes]] / [[https://drive.google.com/open?id=0Bz1YdkaP6DJtTGg0cmVpZ05EdDQ | recording]]
+  * February 9, 2017 [[https://drive.google.com/open?id=1GB7Mfue_-Xv-KbKbPWzHgWQB5_Crt8znGDJ4JhABbzc | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MUjRzWjc4ZmlIUlE | recording]]
+  * February 2, 2017 no meeting
+  * January 26, 2017 [[https://drive.google.com/open?id=12WQKhK3iPyT4wC1cMnq24TlhGpxhn0zxIn0t-oVujDA | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MREM2T0RWYmk5cFU | recording]]
+  * January 19, 2017 [[https://drive.google.com/open?id=16dzVGd5wgADyH2kijm60NLfkerfVdapQb1H4zqlZrUc | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1McTQwR1B0MkVNZjA | recording]]
+  * January 12, 2017 [[https://drive.google.com/open?id=1aEYq5_GP4HIf6Mv8pwzWA152z3hg0vVYBl5vWImrNMc | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MNk9Kc1RvRXltS1U | recording]]
+  * January 5, 2017 [[https://drive.google.com/open?id=1pcfoe04WE9KG84q16LHNq3XI6pcxE4zZnDLiB6L0mF4 | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MckJDZnMtaHMyMWM | recording]]
+  * December 29, 2016 no meeting
+  * December 22, 2016 no meeting
+  * December 15, 2016 [[https://drive.google.com/open?id=1zYJZZnC4Zk0r5gYcVB830xoMjGwuTwXoOy7EqQOYMhY | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MUHZja0VSYUZMZ1U | recording]]
+  * December 8, 2016 no meeting
+  * December 1, 2016 [[https://drive.google.com/open?id=18nLAfjFkEqOgupr0UWHVBNGTkBqWqZLn4kTzOy_eCHg | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MY29pM3hpWmt0Wlk | recording]]
+  * November 24, 2016 no meeting
+  * November 17, 2016 no meeting
+  * November 10, 2016 [[https://docs.google.com/document/d/1lolLFRVuZ3LM5pIHSgEawJ0JQib7egFkZ5mfqAjqIKI/edit | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MNVhlak1BbnNJcnc | recording]]
+  * November 3, 2016 [[https://drive.google.com/open?id=1ewIKMF4znkB8u_yYF0CNeQaE8AORCokJaVYqYYL9p6k | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MdUNUSDR4Nm9TcFU | recording]] / [[https://docs.google.com/document/d/1aJXZJQENRRRyu1lqOyT-DuQotl3xDbRabAgRMZxsI1A/edit?ts=581b5578 | Global Synchronization Log]]
+  * October 27, 2016 [[https://drive.google.com/open?id=1Up8yK3E6C6H6se6M6JMc2cPjU8p2Jn-UUk03LjYKDqo | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MZTFydTdMSzdXMWc | recording]]
+  * October 20, 2016 [[https://drive.google.com/open?id=1SKRrZBW00A8WLaKRzsQ18bgHz8fctbEgfyb3n1ugS3c | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MLUNsd2gzN2N3SG8 | recording]] / [[https://drive.google.com/file/d/0B42vMkapQi1MbzRQNzM1MW93Mkk/view?usp=sharing | Corda Introduction to Hyperledger TSC]]
+  * October 13, 2016 [[https://drive.google.com/open?id=1MxZKNKGFJ27ETXktMUltGvGGv3rKwXjnFp3u7P2MtHk | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MQnVyc214ZDdOWmc | recording]]
+  * October 6, 2016 [[https://drive.google.com/open?id=1dBCAMt2bg-lvAuXqUp1A0k9V8L4P4iwBNWbmdKdZb9E | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MLUNlSHlzYkM0dmM | recording]]
+  * September 29, 2016 no meeting
+  * September 22, 2016 [[https://drive.google.com/open?id=1Nm2PCUqNFVgjZA9auD4Q-v-pVyLT11qndPI1AZ596ss | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MXy1SRU5UVnV0YkU | recording]] / [[https://drive.google.com/open?id=0B42vMkapQi1MSEVaa2tuVEtXZXM | JPM Quorum Intro Deck]]
+  * September 15, 2016 [[https://drive.google.com/open?id=1fnonb-SYdHCHmpQmzJEeLpHLWPzb1T7Z2irHtPnRxT8 | minutes]] / [[https://drive.google.com/open?id=0Bz1YdkaP6DJtcWMyRDdQOWVvb2M | recording]]
+  * September 8, 2016 [[https://drive.google.com/open?id=1KDRLMR5vQMzsvW-9UM7nreFkW6gdtu7CXcv9kSnTafs | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MMHloWVJpeFpZRWc | recording]]
+  * September 1, 2016 [[https://drive.google.com/open?id=1oY-ZSv58dw6k7nCPZKPj5h_ROwH-yjTOawdqKbGUcBE | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MX1FTcjEweTFfWEU | recording]]
+  * August 25, 2016 no meeting
+  * August 18, 2016 [[https://drive.google.com/open?id=1fCetL8V8mssFms1YTQjSRcdakVyFgJYHjAXIA_1iFAA | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MblBaSVRvQ0JmUTg | recording]]
+  * August 11, 2016 [[https://docs.google.com/document/d/1Z8uR_w9E9XITEe88PzkLjzH9t5bPivUhQO8OiEP7s_U/edit?usp=sharing | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MVE1GdEtTMVRGeVE | recording]]
+  * August 4, 2016 [[https://docs.google.com/document/d/15jlFnZiB63GRNN4ApoeHesptKxcc5Hz6O20UniK4rks/edit?usp=sharing | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MOU9ub20zZ1F1Mm8 | recording]]
+  * July 28, 2016 no meeting
+  * July 21, 2016 [[https://drive.google.com/open?id=1mhuLhT2NhF-e7y5ZrXUNQRLjMGEr2iDQVks3qzXp8uQ | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MS2pkQ1kweVlXVlk | recording]]
+  * July 14, 2016 [[https://drive.google.com/open?id=1sAEwv5_hutX1gM63nJESszLqW2ZRugYBwK8S9lgS08A | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MMkhXS3dKY0h5ZnM | recording]]
+  * July 7, 2016 no meeting
+  * June 30, 2016 no meeting
+  * June 23, 2016 [[https://docs.google.com/document/d/1Daq-TA2WsTaNQBccnwz4WMbYJTRR7QRamQKQpGp6uzc/edit | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MMTBnT1c1SEVkRkU | recording]]
+  * June 16, 2016 [[https://drive.google.com/open?id=1U--LqHLDfOZGyYaAICbfe-P4967ak0qmEGer-iP7RMI | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MZG0yQldpM1pIbjA | recording]]
+  * June 9, 2016 [[https://docs.google.com/document/d/1DqaaVPlUSO8BBta7q7INzP8Ol5WoiQJ9J-9O22sr0uw/edit?usp=sharing | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MWWJ5cVRZOUhCbUU | recording]]
+  * June 7, 2016 [[https://drive.google.com/open?id=0B42vMkapQi1MSzRjYlhfSkFRSzA | Immersion into Gerrit]]
+  * June 2, 2016 no meeting
+  * May 26, 2016 [[https://drive.google.com/open?id=1WSr1NVlGfDy6j_X-Anzmh-1EfV3MtXG_Q4DnSkKerrc | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MN0RJZGl4dTVUSFE | recording]]
+  * May 19, 2016 [[https://drive.google.com/open?id=18zlyh5QsLRnq_qGxpWKFJTGiPjia8Qw2BidXmf5oxlA | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MSGprQnpIMC1QLVk | recording]]
+  * May 12, 2016 [[https://drive.google.com/open?id=1KORopOgUP4eRRUUI_oliHqwwt55pRkYaUINWoC5vZ_4 | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MbUh6UGpBTThXUkE | recording]]
+  * May 5, 2016 skipped due to F2F meeting
+  * April 28, 2016 [[https://docs.google.com/document/d/1Ue9pZsT1j7lJMC6Z7rfXdV82LVusMfAjlYdiI-MVJuU/edit?usp=sharing | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MREpMMlUwR2V1UDQ | recording]] / [[https://drive.google.com/open?id=0B42vMkapQi1MeHh5OVg3bnpQTDg | Ethereum Deck]]
+  * April 21, 2016 [[https://drive.google.com/open?id=1H1ntBfvdkftJ2i19oxItiWYJQj0dslpd29D2l-Fi-Z0 | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1Mb3VPM3JTb3kzRVE | recording]]
+  * April 14, 2016 [[https://drive.google.com/open?id=1x0PUrD-kRa9x5C4uaaPrCUgmh-ALT_dadjw12NA1gjM | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MYkt2Ml9DemY4V2M | recording]]
+  * April 7, 2016 [[https://docs.google.com/document/d/17Rn5QOybbDJuOM2LLHA_pkY2xV9BGUutp5QqV1nYclo/edit?usp=sharing | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1McEFRR3VUdVljWkk | recording]]
+  * March 31, 2016 [[https://drive.google.com/open?id=1g9ieTGL_mGDO2kWyQVaiDBXA6jCCp-Z2BHep7PgCF4w | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MV3RpTDU5YjZtQkk | recording]]
+  * March 25, 2016 [[https://docs.google.com/document/d/1-DfXWC8uCv10g6l8rxHjlrAuXvsWcWTf6_0KZR1XqbM/edit | minutes]] / [[https://meetings.webex.com/collabs/url/9xtZOuAxB4VHUzS62GwBlC2kamfMqK7Oi4WHVv21e8q00000 | recording]]
+  * March 17, 2016 [[https://docs.google.com/document/d/1_DpxIumfzWNYYJZrfw2NAu6h5s8D_9dCfOADidessBQ/edit | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MVm9zbmtqMkl3QTg | recording]] / [[https://drive.google.com/open?id=0B42vMkapQi1MT2QxRDhKR2x4MzA | proposed F2F agenda]]
+  * March 10, 2016 [[https://docs.google.com/document/d/1LXrnbjuPnNiC61gLeJDV-LQwh92fM1xSpau20uggfxw/edit | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MeWNPLURMZ2E1Zk0 | recording]]
+  * March 3, 2016 [[https://drive.google.com/open?id=1_4HMcCVuc4LUA3HtXzjEY5dmsztDtclq11dXFfBFUWM | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MUm93QlNobkxoRG8 | recording]] / [[https://drive.google.com/open?id=0B42vMkapQi1Mb043Qm0wZThqQzA | Juno Deck]]
+  * Feb 25, 2016 [[https://docs.google.com/document/d/1e2WTwBWDCu8Otd-ZewOJM0Mz7VKAki7Hwh47FQ0YkBs/edit | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MQ2RTRXpudzEySUE | recording]]
+  * Feb 18, 2016 [[https://drive.google.com/open?id=1573SUIkIJPzqUV0uWEKWCXizKk5EF6qr6xWgPB_WEnM | minutes]] / [[https://drive.google.com/open?id=0B42vMkapQi1MTm84TDJoTjIxbFU | recording]]
+  * Feb 11, 2016 [[https://drive.google.com/open?id=1Vzij1qi0_aUqhQqEFI_zZ4R_TR7kBOgvdZ4aytX92s4 | minutes]]

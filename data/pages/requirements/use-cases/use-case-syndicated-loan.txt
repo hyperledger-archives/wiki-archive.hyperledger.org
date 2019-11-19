@@ -1,0 +1,20 @@
+====== Syndicated Loan Use Case ======
+
+** Parties include**: 
+  * Borrower 
+  * Loan Admin
+  * Investor
+  
+** Actions**:
+  * Initial creation of the deal with the borrower
+  * KYC check that the borrower is available
+  * Syndication of cash from investors in order to fulfill the loan tranche
+  * Borrower consent check that the investor is allowed to purchase
+  * OFAC blacklists check to make sure investor is allowed
+  * Payment of coupons by % down to each investor
+  * Voting rights on amendments of loans
+  
+** Process Flow**: 
+  - A borrower asks an agent to broker an agreement under given terms
+  - After drafting terms, agent reaches out to investors to syndicate (fulfill liquidity of cash to front the loan)
+  - Once the loan is created, it can be traded in the OTC market

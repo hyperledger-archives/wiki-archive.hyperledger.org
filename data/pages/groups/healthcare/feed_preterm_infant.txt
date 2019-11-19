@@ -1,0 +1,142 @@
+===== Scenario =====
+[[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]] : [[analysis-business|Domain analysis]] : [[analysis-human-milk|Human milk services]]
+
+----------
+==== Name ====
+
+** Feed preterm infant **
+
+==== Narrative ====
+
+Following a preterm delivery, a newborn is transferred to the Neonatal ICU. Based on a clinical assessment, the responsible practitioner decides to place a dietary order for human milk.
+
+The [[human_milk_recipient_services|Human milk recipient services]] workflow is initiated, during which 
+a prescription is generated and sent to one of the affiliated milk banks. The healthcare provider submits relevant details from the patient’s diagnostic and health history. The milk bank manager acknowledges receiving the prescription and health records and initiates review of the request. Once approved, the order is prioritized on a delivery queue, and filled by the milk distributor.
+
+The milk is received and dispensed according to the patient's dietary orders.
+
+----------
+===== Participants, Resources and Contexts =====
+
+==== Participants ==== 
+
+=== Roles ===
+
+  * [[Responsible practitioner]]
+  * [[Patient]]
+
+----------
+
+==== Resources ==== 
+
+  * //resource//
+  * //resource//
+
+=== Inputs ===
+
+  * //input//
+  * //input//
+
+=== Outputs ===
+
+  * //output//
+  * //output//
+
+----------
+==== Contexts ====
+
+=== Physical ===
+
+  * //physical context//
+  * //physical context//
+
+=== Virtual === 
+
+  * //virtual context//
+  * //virtual context//
+
+----------
+===== Goals, Flows and Policies =====
+
+==== Goals ====
+
+  * //goal//
+  * //goal//
+
+----------
+
+==== Preconditions ==== 
+
+=== Participant preconditions ===
+
+  * //precondition//
+  * //precondition//
+
+=== Resource preconditions ===
+
+  * //precondition//
+  * //precondition//
+
+=== Context preconditions ===
+
+  * //precondition//
+  * //precondition//
+
+=== Previous flows (input activities or events) ===
+
+  * //activity or event//
+
+=== Concurrent flows (parallel activities or events) ===
+
+  * //activity or event//
+  * //activity or event//
+
+
+----------
+
+==== Flows ==== 
+
+=== Primary flows ===
+
+  * //activities or events//
+
+=== Alternate flows === 
+
+  * //activities or events//
+  * //activities or events//
+
+----------
+
+==== Post-conditions ==== 
+
+=== Outcomes (Goal-states) ===
+
+  * //outcome//
+  * //outcome//
+
+=== Outcomes (Other) ===
+
+  * //outcome//
+  * //outcome//
+
+----------
+
+==== Subsequent activities or events ====
+
+=== Subsequent flows (successful outcome) ===
+
+  * //activity//
+
+=== Subsequent flows (compensating or terminating outcome) ===
+
+  * //activity//
+  * //activity//
+
+----------
+
+===== Supporting Resources =====
+
+==== Sources ==== 
+
+  * //resource//
+  * //resource//

@@ -1,0 +1,105 @@
+====== Public Sector Special Interest Group======
+
+Hyperledger Public Sector Special Interest Group (public-sector-sig) is a Special Interest group focused on applying distributed ledger technology in general, and Hyperledger technologies in particular, to the public sector (e.g., government and government-related) uses and needs. See [[https://docs.google.com/document/d/1FImw2aGwES-8QyK_rusfGeNQCx0PYnCKyyZKRHFhZlM|TSC proposal]] for more details. Thank you
+
+===== Meetings =====
+
+Meeting schedule: Biweekly, Friday's at 3 PM UK time. See the [[community:calendar-public-meetings]] for the next meeting time.
+
+<WRAP center round box 75%>
+Join from PC, Mac, Linux, iOS or Android: https://zoom.us/my/hyperledger.community
+
+Or iPhone one-tap :
+    US: +16465588656,,4034983298#  or +16699006833,,4034983298# 
+Or Telephone:
+    Dial(for higher quality, dial a number based on your current location): 
+        US: +1 646 558 8656  or +1 669 900 6833  or +1 855 880 1246 (Toll Free) or +1 877 369 0926 (Toll Free)
+    Meeting ID: 403 498 3298
+    International numbers available: https://zoom.us/u/bAaJoyznp
+</WRAP>
+
+==== Meeting Recordings ====
+
+Current meeting recordings and materials from 2018 and beyond can be found on [[https://drive.google.com/drive/folders/1-GnRAbWhT_64dJmRvohGAtereS_KISOS | Google Drive]] 
+
+=== 2018 Archive ===
+
+Friday, Nov 09, 2018 [[https://drive.google.com/file/d/1gVPEADyKdDQlna7sNeZ3OZthwz8dfO5x/view?usp=sharing|Recording]]
+[[https://drive.google.com/file/d/1M38kiFNpmLupjFSG5Wur61DlOIhjEFlf/view?usp=sharing|Chat]]  
+ 
+
+Friday, Oct 26, 2018 [[https://drive.google.com/file/d/1ApBZd1n9oceaO0kED4RjweHb0naStqyA/view?usp=sharing|Recording]]
+[[https://drive.google.com/file/d/1AYwZ3cm4MUHuLn_TYh9Xb5djlhpayLJ6/view?usp=sharing|Chat]]  
+[[https://drive.google.com/file/d/1AXiYmfSsHD6zM7pkhnpCguEjanQYvbPB/view?usp=sharing|Transcript]] 
+
+Friday, Oct 12, 2018 [[https://drive.google.com/file/d/13dSdIvs_HIPCEyk4bKlDGVsDPb3YmU71/view?usp=sharing|Recording]]
+[[https://drive.google.com/file/d/13fQ_knb4QRHl210rhZ49HUfFwq6D0NiM/view?usp=sharing|Chat]]  
+[[https://drive.google.com/file/d/13dj-uOWHghK0TNh--6HQAAN37soXouPK/view?usp=sharing|Transcript]] 
+
+Friday, Sept 14, 2018 [[https://drive.google.com/file/d/1j2FEH_ZP6bKA8CTziAfhENcyA2KWqHEf/view?usp=sharing|Recording]] [[2018 09 14 pswg|Notes]] [[https://drive.google.com/file/d/1j9BlzUV5_KSU1MVzxhQ32TdeGAYr5VeS/view?usp=sharing|Transcript]] 
+
+Friday, Aug 31, 2018 [[https://drive.google.com/file/d/1MCibWkuDGl7N93Ahr7O4o4lEm5nAlxIv/view?usp=sharing|Recording]] [[Notes 2018 08 31 pswg|Notes]] [[https://docs.google.com/presentation/d/1ads_1rIOSObLFZSqFBXZhlXfo_YFdaSsCA-5E2OJcnk/edit?usp=sharing|Intro to Hyperledger Indy presentation]]
+
+Friday, Aug 17, 2018 [[https://drive.google.com/open?id=1I7UXI-Hv-bX-iE7a0lSPzFZcJQ7awujQ|Recording]] [[Notes 2018 08 17|Notes]] [[https://drive.google.com/open?id=1I5iyEXHKdw1iTXgbvRldh03M2u8P7Y2G|Chat]] [[https://drive.google.com/open?id=1IA6OgDyf5jixU5dna7t39EGj5kDild3t|Transcript]]
+
+Friday, Aug 03, 2018 [[https://drive.google.com/open?id=130Fb29IBZ45AyeUud_w_LRW_S-p8O0EB|Recording]] [[Notes 2018 08 03|Notes]] [[https://drive.google.com/open?id=13-sD9EeQvmpr9ocsagZMgtAXSXSF73R-|Chat]]  [[https://drive.google.com/open?id=13-dbuovl5kqjmXKTVZHD7KWgElhuPrXX|Transcript]]
+
+Friday, Jul 20, 2018 [[https://drive.google.com/open?id=16NrEQ2k8hqn5R6njAS7MuVI22CVTdl1G|Recording]] [[Notes 2018 07 20 PSWG|Notes]] [[https://drive.google.com/open?id=16Bm3zu3jhLn17QguuxvgB8exbYINJHm1|Recording]] [[https://drive.google.com/open?id=16G7MOENl27K0bxncEzslODBBtDXOhMfm|Chat]] [[https://drive.google.com/open?id=16CTsB0k5c7PoUjEWwyeueODzA9oZcFPi|Transcript]]
+
+Friday, Jul 06, 2018 [[https://drive.google.com/open?id=13GYu7soTH4XuqJSxWwYZbpImwJ9ZIZYd|Recording]]  [[https://drive.google.com/open?id=1362dDc6UXPr23hI8vXT23Ne6AVumP4Tb|Audio Recording]]  [[https://drive.google.com/open?id=1EpPfwWetrjoft970yhvYyZPRuD8wG_xg|Chat]]  [[https://drive.google.com/open?id=136V3dSqN8h9u2GEyEAT1eTLpvNxtBolT|Chat]] [[https://drive.google.com/open?id=136gYbgFP8dWu_OQ2BjV6m1szJIwJOG0G|Transcript]] [[https://drive.google.com/open?id=1Exr_HuemqD7ftiLdnXDYEAK4JJhNM-SG|Transcript]]
+
+Friday, Jun 22, 2018 [[https://drive.google.com/open?id=11qJ3pAlb5dp5CmtnhehS55W7Cy87sRfH|Recording]]  [[https://drive.google.com/open?id=11prah8i0Y7-UEP5pL2pFb0XQooJeZVRy|Audio Recording]]  [[https://drive.google.com/open?id=11ul6uZSFzhqx-OA_mgPYpoqUdHd1reZC|Transcript]]
+
+Friday, Jun 08, 2018 [[https://drive.google.com/open?id=1WvAWzPz6wtGAi1TWbGONVKT-_lGeu8aT|Recording]] [[https://drive.google.com/open?id=1X17M385tw1EJIdFGMnNV0IMYuvWWQhc3|Recording]] [[https://drive.google.com/open?id=1XOiS9hiYhJL2Q6x_c5tf34ajzIifvBeC|Chat]] [[https://drive.google.com/open?id=1XC0yGMmsEJYEJzjd3PEv4540zqQ723px|Transcript]]
+===== Charter and FAQ =====
+==== Scope ====
+The activities of the Public-SIG  include:
+  * identifying related use cases, current pilots, and proofs of concept;
+  * sharing stories of successes, failures, opportunities, and challenges; 
+  * exploring cross-cutting concerns like security, privacy, and identity in government contexts; 
+  * identifying existing or needed common critical software components that would serve the particular needs of the public sector; 
+  * identifying conferences or other opportunities to connect face to face, as well as submit talks or present as a group at an event.
+
+This activity will be automatically recorded in email archives when conducted over the mailing list.  When this activity is conducted in other media, it will be captured as notes or other formats and posted to the list (so it is archived), or possibly to the Hyperledger Wiki.  This activity might also be turned into reports from the Special Interest group (recommendations to the rest of Hyperledger, for example) or other kinds of content (blog posts, content for publications, etc).
+
+<WRAP center round box 75%>
+The Public-SIG is prohibited from performing or engaging in any form of lobbying or attempts to influence government policy-making or regulatory processes.  It is also not intended as a platform for procurement of services. 
+</WRAP>
+
+==== Work Products ====
+The initial work product will be a set of documents which analyze the space of government and regulatory use cases for blockchain technology. This will be an inventory of example use cases which captures common government processes, which may suggest applications that are built or could be built using software being developed at  Hyperledger. The public-sector-sig may also host in-person meetings intended to accelerate the Special Interest group's mission.
+
+===== Communication Tools =====
+  * [[https://lists.hyperledger.org/g/public-sector-sig/ | public-sector-sig mailing list]]
+  * [[https://chat.hyperledger.org/channel/public-sector-sig | #public-sector-sig chat channel]]
+
+===== Preliminary Survey =====
+
+===== Use Case Inventory =====
+
+DIGITAL TRUST project, British Columbia, Canada[[https://bc-von.s3.amazonaws.com/2018-06-VON-Webinar-for-Sovrin-Indy-Community.mp4|DIGITAL TRUST project presentation]]
+
+Verifiable Organizations Network, British Columbia and Ontario, Canada [[https://drive.google.com/file/d/1aVSN4khMpP8iToP4zzIVHj3aGzZf5Piu/view|TheOrgBook introductory slides]] [[https://von.pathfinder.gov.bc.ca/clicky-things/|Quick links]] [[https://docs.google.com/presentation/d/1WbTcnMpXh9vjMJrfNCDg2Kk-t7tT2wKhJE2-e8TYnJ4/edit#slide=id.p1|What's on the Ledger?]]
+
+List of Blockchain Projects in International Development [[https://docs.google.com/spreadsheets/d/14BPQIqnDUTyinkp9eJ7bwYwsg22RJz0AVU9vOSSU94o/edit#gid=1835238919]]
+
+Blockchain in Government Tracker- Database [[https://airtable.com/shreIXQjzluCxam37/tbl7qVDFKKiEcFFrc]]
+
+Flowbikes - Earn loyalty points by cycling [[https://drive.google.com/file/d/1rgWzv3EUyEts1zmh5YzyiTSxsA15Qetz/view?usp=sharing]]
+===== Presentations =====
+Hyperledger Meetup Presentation : HYPERLEDGER FRAMEWORKS AND TOOLS
+[[https://drive.google.com/open?id=1N2ZYteKgDBBzF6_PT0P0ELMGFCqqgFSU]]
+
+===== Articles =====
+
+Blockchain for Government [[https://www.ibm.com/blogs/blockchain/category/blockchain-for-government/]]
+
+Blockchain Technology for Government [[https://www.mitre.org/sites/default/files/publications/blockchain-technology-for-government-18-1069.pdf]]
+
+Blockchain Case Study - Smart Dubai [[https://sdgn.smartdubai.ae/pdf/blockchain-case-study.pdf]]
+
+Blockchain: The next innovation to make our cities smarter [[https://www.pwc.in/assets/pdfs/publications/2018/blockchain-the-next-innovation-to-make-our-cities-smarter.pdf]]
+
+Blockchain 101 for Governments  [[http://www.un.org/esa/ffd/wp-content/uploads/2017/10/15STM_Blockchain-101.pdf]]
+
+Blockchain in Public Sector [[https://www2.deloitte.com/content/dam/Deloitte/in/Documents/public-sector/in-ps-blockchain-noexp.pdf]]

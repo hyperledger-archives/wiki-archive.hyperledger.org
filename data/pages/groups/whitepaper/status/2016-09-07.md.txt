@@ -1,0 +1,22 @@
+# Whitepaper WG Status 2016 Sep 07
+
+* Attendees: Renat, Murali, Stefan, Hart, Mic, Dave. Regrets: Ram, Tamas, Nic
+* Reviewed and approved prior minutes
+* Whitepaper Walkthrough Planning: Agreed to schedule for Wednesday, Sept 14. Dave to reach out to Todd to help with the webconference, audio conference, promotion, etc.
+* Discussed state of visuals in the whitepaper... Renat volunteered to propose enhanced diagrams.
+* Reviewed the structure of the whitepaper walkthrough
+
+Section|Name                 |Pages|Duration (min)|Time|Who
+-------|---------------------|-----|--------------|----|---
+       |Introductions	      |     |4	        |13:00	|Dave
+1	|Abstract	      |1    |5	        |13:04	|Murali
+2	|Background	      |2-3  |5          |13:09	|Murali
+3	|Why a new Blockchain |4    |5	        |13:14	|Hart
+4	|Our Vision	      |4-8  |7   	|13:19	|Hart
+5	|Industry Use Cases   |8-11 |7	        |13:26	|Stefan
+6      |Featured Requirements|11-14|7          |13:33  |Stefan 
+7	|Architecture	      |14-19|8	        |13:40	|Ram
+8	|API's	              |20   |2	        |13:48	|Hart
+9	|Network Topology     |20   |3	        |13:50	|Hart
+10	|Conclusion	      |21   |7	        |13:53	|Dave
+11	|Glossary	      |22-27|0	        |14:00	|

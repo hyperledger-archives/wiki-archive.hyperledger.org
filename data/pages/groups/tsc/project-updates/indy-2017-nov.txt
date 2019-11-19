@@ -1,0 +1,73 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Indy https://github.com/hyperledger/indy-node
+
+===== Project Health =====
+Six months into Incubation, Indy has shown steady growth in the codebase and feature set. It has also completed onboarding within the Hyperledger platforms (Jira, Jenkins, GitHub, Rocketchat, Mailing Lists). Indy is starting the process of growing a sustainable community of external developers and code maintainers.
+
+Current DRAFT Community Roadmap: https://drive.google.com/open?id=0ByaxIFopqmUVRkhyRWZ1X0RpQ1U
+
+
+===== Issues =====
+There is ongoing work to improve documentation, more easily onboard new users/developers, improve the scalability of the ledger, add calls to complete the SDK, and improve usability for verifiable claims exchange use cases.  In particular, there have been gaps in the “Indy Agent”, or off-ledger data exchange portions of the system that are being addressed through improvements in the indy-sdk code, as well as various open source agent code projects being worked on in the developer community.  Other than specific technical deliverables to support these types of functionality, our main focus is attracting developers to Indy and growing the community.
+
+
+===== Releases =====
+Indy has released four major releases and one hotfix since joining Hyperledger, including the first main “provisional network” release used by Sovrin ( https://sovrin.org/ ), and three major upgrades, each including significant functionality.  A hotfix release to handle pool upgrade releases was also produced to address issues with the third upgrade release.  A release candidate for our fourth major upgrade (including state proof functionality for improving read throughput) is underway now with another release expected as soon as testing and validation is complete.  The indy-sdk was not officially available at the time of the first release and subsequent upgrade, but the last two releases have included a release of a compatible indy-sdk.
+
+
+===== Overall Activity in the Past Quarter =====
+The project is extremely active with new features rolling in throughout Q3. As mentioned above these include:
+
+General
+  * Completing Onboarding & transition: Jira, GitHub
+  * Incubation tasks including “Clean-up” rebranding of “Sovrin” mentions in the code to “Indy”
+  * Active weekly WG meetings discussing Node and SDK efforts as well as crypto
+  * Attracting new participants to the community from South Africa, Europe, and Canada
+Indy Node
+  * Node-Node message validation
+  * Bug fixes
+  * Standing up the Sovrin DLT in Provisional mode (first live instantiation of Indy)
+  * Logging
+  * Acceptance Testing
+Indy SDK/Crypto
+  * PySovrin interoperability
+  * Wallet APIs
+  * Wrappers (iOS, Java, Python)
+  * Anoncreds
+  * Documentation
+  * Sharable indy-crypto module
+  * BLS signatures implementation for state proofs
+
+
+
+===== Current Plans =====
+Q4 2017
+Per Hyperledger Jira and the Draft Product Roadmap:
+
+**General:**
+As of November 2017, Indy has released a draft of the product roadmap for Indy Node (Ledger) and Indy SDK/Crypto to the community. The team will be implementing CI and CD pipelines (Node, SDK, Crypto) during Q4 as well as updating and improving documentation and community efforts.
+
+**Indy Node (Ledger):**
+During Q417 Indy Node is working on Hyperledger Incubation tasks, bug fixes, implementing State Proofs, node upgrades, node performance, monitoring and integration with Indy SDK. In addition, the Indy team is working with the Sovrin Ledger (the first instantiation of the Indy codebase) to define the operating parameters and baseline performance of the ledger for future (Q1 2018) performance features and optimization.
+
+**Indy SDK:**
+During Q417 Indy SDK is working on implementation of SQL Cipher, Agent-Agent Communications, State Proof support, key rotation for Wallets and the Indy SDK CLI, which will provide enhanced and optimized functionality for developers using the CLI to bootstrap their own development. 
+
+**Indy Crypto:**
+During Q417 Indy Crypto team is working on Agent APIs with libsodium authenticated encryption wrapper support for generic crypto methods and a cross-Hyperledger effort with the other projects to build a shared crypto library. The “Shared Crypto Library” work in progress will be brought to the December 6 Hackfest in Lisbon for discussion and hacking.
+
+
+
+===== Maintainer Diversity =====
+Currently there are 9 maintainers for Indy, employed by 3 different companies (Evernym, DSR Corporation, and Danube Tech), including new maintainers Markus Sabadello (Danube Tech) and Symon Rottem (independent) who are working on indy-sdk language wrappers.  Additional new maintainers are expected soon as we reactivate the indy-agent repository and migrate tutorial/documentation from locations that were not previously migrated to Hyperledger and combine them with new community contributions.
+
+
+
+===== Contributor Diversity =====
+Growing a diverse, active community is the main non-code priority for the Indy team. Indy Contributor Diversity is healthy and we continue to encourage new contributors.
+
+
+
+ 

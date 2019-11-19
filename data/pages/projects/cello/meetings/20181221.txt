@@ -1,0 +1,45 @@
+==== 2018-12-21 ==== 
+Meeting will be held at [[ https://zoom.us/my/hyperledger.community | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/cello|rocketchat]] (for text chat) at:
+  * 08:30AM   (UTC-4) [UTC -4 is Eastern Daylight Time EDT]
+  * 06:00PM   (UTC+0530)
+  * 08:30PM   (UTC+8)
+
+  * [[ https://jira.hyperledger.org/projects/CE/issues/CE-188?filter=allopenissues | Ongoing Jira task ]] 
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:cello+status:open | Open Patchset for review ]] 
+  * [[ https://wiki.hyperledger.org/projects/cello | Project Wiki Page ]] 
+
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  - HGF experience (baohua)
+  - Kubernetes progress (Luke Chen)
+  - [[https://wiki.hyperledger.org/projects/cello/internship-2018|fabric-ca support progress]] (shuo)
+  - [[https://jira.hyperledger.org/issues/?filter=12626 | v1.0.0 on going issues ]]
+  - [[https://docs.google.com/document/d/1Dw6cEKaul6FenORNkDcxvPDDKwpl0A5EmcJBlqAWJoU/edit|governing feature spec]]
+  - Separate api & dashboard, rewrite api engine.
+
+
+=== Attendee ===
+**Please put your name before the meeting.**
+
+10 attendees:
+  * Baohua Yang
+  * Haitao Yue
+  * Jiahao Chen
+  * Peng Du
+  * Brenda
+  * rtxie
+  * 
+
+=== Minutes ===
+
+  - baohua shared his experience with HGF
+    - business & tech topics, session, workshops
+    - meet alexanjra, todd, tong, shuo and others, demo cello poster there and discuss roadmaps and features;
+    - many people feel interested with operational tools, that's cello's work
+  - Luke is busy with company works, no much update
+  - Shuo is busy with final exam
+  - Tong is having vacation
+  - Haitao discuss the new idea for api server, will lead an API design spec for review
+

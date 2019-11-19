@@ -1,0 +1,64 @@
+Hyperledger Project\\
+Healthcare Working Group (HCWG) Payer Subgroup Meeting\\
+August 7, 2018 \\
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+Links from meeting chat\\ 
+https://eprint.iacr.org/2017/375.pdf\\
+https://medium.com/datadriveninvestor/do-i-really-need-blockchain-4-important-factors-to-consider-57b06e4ffbb6\\
+http://ashtonkemerling.com/blog/2018/02/21/no-you-probably-dont-need-a-blockchain\\
+https://spectrum.ieee.org/computing/networks/do-you-need-a-blockchain\\
+https://blockchainatberkeley.blog/building-it-better-a-simple-guide-to-blockchain-use-cases-de494a8f5b60\\
+
+
+Blockchain\\
+     *Want to come up with a use case, the donor milk use case doesn’t require features of blockchain
+     *People are so anxious to demonstrate blockchain and are eager to apply it, they want to go forward with a use case that doesn’t require it
+     *Business case in constant flux, standard database solution would be appropriate\\
+     *What are the characteristics of a problem that should be solved with blockchain?\\
+          *Strong business case plus capability gap in what’s available\\
+
+Do you need a blockchain solution? Flowchart\\
+https://spectrum.ieee.org/computing/networks/do-you-need-a-blockchain
+
+Open source provider data management use case - what does blockchain add to that use case?\\
+     *Only beneficial in a limited trust situation\\
+     *Sufficient dollar value in fraud, corrupting the database\\
+     *Mobile doctors in rural areas, verifying in limited situation\\
+     *Provider data - 30% or plus provider data is not correct, claims come in and don’t match, it’s a valid provider, but claims are mismatched to information and there is a 30 day mandate or incurs interest, providers move frequently, challenge to keep up with that, fraud comes into the picture, mimic old provider, ID of provider managed in central database, strong value proposition
+
+Fraud - \\
+     *potentially strong use case for payer use case, make the blocks clais transactions, strong ability to not hijack claims transactions, more difficult to mimic a provider\\
+     *A ledger is a database, a distributed database is a unique quality, another unique quality in consensus, trusted third party is like Visa, can you trust person to transfer the money, private & permissioned very different, let's dive into as simple a use case and begin to pick it apart, distributed applications that can ride on a blockchain, with Fabric you can have channels that provide transactions off the chain, \\
+     *I understand feature creep, lets get a use case and start iterating thru that, way too much time worrying about validity of a use case, lets move on, we’re never going to get anything done, let's start parceling out the work to get something done, \\
+
+We want to validate a claim, what do we need to do? \\
+     *You have insurance, you either are constrained to go to a certain provider, and they’ll refer u you a known specialist in the network, then lets build a blockchain solution, let's worry about whether it’s an appropriate use later.
+
+
+Simple use case: I need to see a specialist for my allergy\\
+     *I am required by my insurance co, contact primary care physician and get an office visit to get  a referral,\\
+     *go to specialist, allergist uses smart contract to enroll me, I have eligibility, this is my co-pay, all done by chain code, \\
+     *they perform treatment and file a claim. \\
+     *Treatment is a prescription, I go to the pharmacist, pharm validates me, here's what it costs, I pay.  Lots of small use cases here. \\
+     *If we have the ability in chain code the rule to approve a claim, then you can pre approve a claim prior to procedure, payment become automatic process,\\
+     *Project permission or consensus mechanism, chain code can do that with an endorser, proof of consensus, we can articulate in chain code the rules for a particular claim, doctor can get approval to set up appointment and procedure and payment immediately. Automate decision. 
+
+Tackle base essence of this idea, preauth happening instantly, getting contracts into programmatic chain is a challenge, auth is a function of eligibility and benefits, put it into a distributed app, smart contract beneficial, auth up front, execution of contract for payment, pricing issue is critical, these business issues and rules are very complicated
+
+Car insurance and blockchain might be easier - how much of contracts are automatable? 
+
+Next steps\\
+     *Put together business use case, steps for pre auth, then apply technology to it, auth use case for instant payment when procedure is done\\
+     *Put together business flow doc for auth together for next meeting, drill a little further into use case, from smart contracts perspective, as good as real time adjudication\\
+     *Shape up use case, need a lot of subject matter expertise, start having a meaningful discussion
+

@@ -1,0 +1,48 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Cello
+  
+===== Project Health =====
+Cello community is active in the past quarter and just made the v0.9.0 release (Nov 12). 
+
+  * Rocketchat channel [[https://chat.hyperledger.org/channel/cello|#cello]] and wechat are the main communication methods.   
+  * Questions and ideas are also proposed and discussed at the [[cello@lists.hyperledger.org|maillist]].
+  * Weekly call meeting happens on every Friday 12:30 PM UTC with online discussions, review, and demo. Around 10 persons present.
+  * Majority of the patch sets gets reviewed and commented within 2 days.
+  * More and more adoption cases of the project.
+
+
+===== Issues =====
+Currently, most contributors are still in China, US and India, we call for more from other countries. 
+
+
+===== Overall Activity in the Past Quarter =====
+
+  * Cello currently has 4 [[https://github.com/hyperledger/cello/blob/master/MAINTAINERS.md|maintainers]] who are actively working on the project and contributing.
+  * All communication methods are active with rocketchat/wechat/maillist/wiki.
+  * Tong helped demo and present cello at Canada Hackfest, collects 10+ feedbacks, which we reviewed carefully and take action for some features.
+
+===== Current Plans =====
+
+  * After v0.9.0, will switch the architecture to support a [[https://docs.google.com/document/d/1Dw6cEKaul6FenORNkDcxvPDDKwpl0A5EmcJBlqAWJoU/edit|more general consortium model]].
+  * Plan to make the release of 1.0.0 for next quarter.
+
+
+===== Maintainer Diversity =====
+There are 4 maintainers from IBM (2) and Oracle (1) and VMware(1), covering both North America and Asia Pacific.
+We nominate new maintainers based on continuous contributions in terms of code, QA/education, doc and review activities.
+
+===== Contributor Diversity =====
+
+Code contributors are stable now and we found more and more users come into the community asking questions and using cello for their products.
+
+Two new companies appear as H3C and Yongyou.
+
+===== Additional Information =====
+Cello developers have been participating in meetups and hackfest events to promote and demo the project, and help attract more people to join and use hyperledger products. 
+
+Would seek more opportunities to collaborate more with other projects and communities.
+
+ 
+

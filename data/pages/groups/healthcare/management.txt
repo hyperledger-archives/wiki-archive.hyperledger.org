@@ -1,0 +1,17 @@
+===== Management =====
+[[healthcare-wg-wikispace-redesign|Home]]
+----------
+
+==== Activities ====
+
+  * [[mgmt-communications|Communications]]
+
+  * [[mgmt-risks|Risk management]]
+  * [[mgmt-issues|Issue resolution]]
+  * [[mgmt-change|Change control]]
+
+  * [[mgmt-stakeholders|Stakeholder management]]
+  * [[mgmt-resources|Resource management]]
+  * [[mgmt-work|Work management]]
+  * [[mgmt-financial|Financial management]]
+  * [[mgmt-performance|Performance management]]

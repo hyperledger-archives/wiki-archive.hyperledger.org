@@ -1,0 +1,3 @@
+# Whitepaper WG Status 2016 Aug 03
+* reviewed and accepted the revised glossary section of the document
+* agreed to publish current version as Draft 2.0

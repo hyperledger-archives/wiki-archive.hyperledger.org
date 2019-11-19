@@ -1,0 +1,125 @@
+==== 2017-09-08 ==== 
+
+Meeting will be held at [[https://chat.hyperledger.org/channel/fabric-sdk-py|rocketchat]] at 11AM (GMT+8).
+
+  * [[https://jira.hyperledger.org/browse/FAB-4623?jql=project%20%3D%20FAB%20AND%20status%20in%20(%22In%20Progress%22%2C%20%22To%20Do%22)%20AND%20component%20%3D%20fabric-sdk-py | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+status:open | Open Patchset for review]]
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]]
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  * chaincode Install: Kai is working on [[https://jira.hyperledger.org/browse/FAB-5151 | FAB-5151]]
+  * E2E: Dong Wang is working on [[https://jira.hyperledger.org/browse/FAB-2871 | FAB-2871]]
+  * User Role: Wei Hu is working on [[https://jira.hyperledger.org/browse/FAB-3885|FAB-3885]]
+  * EventHub: Chang Chen is working on [[https://jira.hyperledger.org/browse/FAB-4822|FAB-4822]]
+  * Register: Baohua is working on [[https://jira.hyperledger.org/browse/FAB-3165|FAB-3165]]
+  * Update license header: Qiang Wang is working on [[https://jira.hyperledger.org/browse/FAB-4742|FAB-4742]]
+  * Other issues
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Baohua Yang
+  * Kai Chen
+  * Tony Yang
+  * Qiang Wang
+  * David Dornseifer
+
+
+=== Log ===
+
+baohua 7:55 PM weekly meeting will start soon. Ok, who's online?
+
+grapebaba 7:59 PM ✋
+
+baohua 8:00 PM 😀 today's agenda is https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20170908
+There're some progress. Update license header: Qiang Wang is working on FAB-4742 https://jira.hyperledger.org/browse/FAB-4742
+
+qiang0723 8:01 PM 🤚
+
+baohua 8:01 PM @qiang0723 has committed a patchset, and tracy gave review comments
+would suggest qiang to ping tracy for the new revision.
+
+qiang0723 8:01 PM i have changed according to tracy's comments
+
+baohua 8:01 PM Then we can do the review and merge
+
+qiang0723 8:01 PM ok
+
+baohua 8:01 PM good. Feel free to find tracy at rkt chat and leave a msg
+
+qiang0723 8:02 PM i will
+
+baohua 8:02 PM And how's going with u @grapebaba
+
+tonyyang132 8:02 PM here now. sorry a bit late.
+
+baohua 8:02 PM chaincode Install: Kai is working on FAB-5151 https://jira.hyperledger.org/browse/FAB-5151
+
+baohua 8:02 PM @tonyyang132 welcome
+
+grapebaba 8:02 PM I am writing test right now
+
+baohua 8:02 PM great, lft it! ok @tonyyang132 how's going on ur side?
+
+david_dornseifer 8:04 PM hi
+
+baohua 8:04 PM nice having u here @david_dornseifer
+
+tonyyang132 8:04 PM well, on a tight schedule for the company project... just rolled out a version and on development of the next one...
+
+baohua 8:04 PM thanks for ur previous patch
+
+tonyyang132 8:05 PM that's quite my pleasure
+
+baohua 8:05 PM cool, there remains several open issues: https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+status:open
+welcome everyone to help review, and certainly @david_dornseifer :woo:
+
+david_dornseifer 8:06 PM sure 🙂 - will add the changelog patch tomorrow
+
+baohua 8:06 PM @wangdong is not online, and he submitted 2 patchsets: https://gerrit.hyperledger.org/r/12087
+and https://gerrit.hyperledger.org/r/13119
+OK. a quick sync today, any other issues to discuss?
+I guess most of the team is busy, but we made stable progress towards the 1.0 release.
+how's going with u @david_dornseifer
+
+david_dornseifer 8:09 PM hmm busy with other stuff right now, will do the changelog and some small improvement tasks
+
+baohua 8:09 PM thanks, feel free to drop any thoughts in the channel 🙂
+we recommend close communication in the community
+
+david_dornseifer 8:10 PM what i saw from the channel patch we have to add some more unit tests to stabilize the code
+
+baohua 8:10 PM yes UT is necessary! fabric just release v1.0.2. But i guess we can stay on top of v1.0 unless meeting any problem, thoughts?
+
+david_dornseifer 8:12 PM guess that should be fine to implement the basics at least
+
+baohua 8:12 PM yeap @grapebaba @tonyyang132 @qiang0723 ideas? Seems unstable connection....
+OK, any other issue to discuss? All attendees pls help update ur name at the minutes
+@david_dornseifer could u help send the minutes later for today's meeting?
+
+david_dornseifer 8:17 PM the mailinglist?
+
+baohua 8:17 PM yeap, as previous ones to fabric-sdk-py mailllist
+
+david_dornseifer 8:18 PM ok
+
+baohua 8:18 PM thanks. OK. If no further question, we will end the meeting. Thanks every participant, and have a nice weekend!
+
+qiang0723 8:18 PM Thanks
+
+wangdong 8:18 PM it seems I missed the meeting.
+
+baohua 8:19 PM 🐣
+
+tonyyang132 8:19 PM thanks and bye
+
+wangdong 8:19 PM about the patch set ,the latter one is the one
+
+david_dornseifer 8:19 PM bye
+
+baohua 8:19 PM @wangdong then can abandon unused 🙂
+
+wangdong 8:20 PM OK

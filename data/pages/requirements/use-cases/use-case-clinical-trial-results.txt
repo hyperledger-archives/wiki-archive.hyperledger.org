@@ -1,0 +1,42 @@
+// Vikram Dhillon is working on this use case. Will finish it very shortly. //
+
+====== Storing Clinical Trial Results ======
+
+===== Section 1 - Intro =====
+
+==== Business Problem / Opportunity ====
+
+The Federal Drug Administration (FDA) requires all publically funded labs conducting clinical trials to submit the data on human subjects to public repositories. Presently, very few research groups follow through, especially in the case of negative data. Additionally, the groups that do upload their data fail to maintain it over the long-term. The end result is that the data often goes missing in action. 
+
+==== Current Solution ====
+
+There are some public repositories provided by the NIH where data from clinical trials can be deposited such as [[https://clinicaltrials.gov/|ClinicalTrials.gov]] and research data sharing services like [[https://figshare.com/|figshare]].
+
+==== Why a Blockchain? ====
+
+A blockchain can provide accountability and transparency into the reporting process of clinical trials. The data itself can be deposited anywhere, but the blockchain can store the links to those clinical trials. All the trials associated with a published study can be curated within a "block" and published on the blockchain. 
+
+This service can be made available as a subscription for research labs where the partner institutions have dedicated project pages that list all the trials that were conducted or currently going on. This can significantly help gain transparency into what trials are happening and offer an opportunity to the research groups to upload negative data links into the blockchain. The links also have an advantage of being timestamped. Being on a blockchain, the curated links and blocks can also be entered into a "rewards" program that promotes a healthy environment to publish as much of the trials data as possible.
+
+==== User Stories ====
+
+1) A research study in which one or more human subjects are prospectively assigned to one or more interventions (which may include placebo or other control) to evaluate the effects of those interventions on health-related biomedical or behavioral outcomes.
+
+2) The recruitment, long-term tracking and identification of clinical trial participants.
+Pharma companies are combining efforts to develop a blockchain framework with which they hope to address current efficiency logjams in the clinical trials process, including working with the IEEE technology standards body on implementation testbeds. To reduce the average $2.6bn per drug R&D expenditure, a blockchain-based system could be used that allows individuals who want to participate in trials to aggregate their health data and make it visible to clinical trial recruiters. While the data on the ledger wouldn't immediately be connected to a particular identity, recruiters could prompt an anonymous eligible candidate, and once the individual consented, their identity would be revealed. See https://www.coindesk.com/blockchain-day-big-pharma-seeks-dlt-solution-drug-costs/ for more details.
+
+3) Definition of a clinical trial by [[http://grants.nih.gov/grants/guide/notice-files/NOT-OD-15-015.html|National Institutes of Health (NIH)]]
+
+==== Opportunity/Justification ====
+
+[[https://www.ted.com/talks/ben_goldacre_what_doctors_don_t_know_about_the_drugs_they_prescribe|Unreported negative data]] from clinical trials led to another drug coming into market and causing the same issues. 
+
+The Economist talking about using [[http://www.economist.com/news/science-and-technology/21699099-blockchain-technology-could-improve-reliability-medical-trials-better|blockchain]] for clinical trials
+
+===== Section 2 - States and Transactions =====
+
+TBD
+
+===== Section 3 - Requirements =====
+
+TBD

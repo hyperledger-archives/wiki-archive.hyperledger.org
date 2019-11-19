@@ -1,0 +1,32 @@
+Hyperledger Project\\
+Healthcare Working Group (HCWG) Patient Subgroup Meeting\\
+July 20, 2018\\
+
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings\\
+Hyperledger Speaker Bureau: https://www.hyperledger.org/news/speakersbureau\\
+Rapid Healthcare: https://www.rapid-healthcare.com\\
+
+Antitrust policy\\
+
+Meeting Notes\\
+
+At a high-level we:\\
+     *Reviewed our Connecting Patient Data Across Silos for Diagnostics and Treatment use case and how to engage with a build while not duplicating the work of another Hyperledger effort: Medicalchain (all notes have been added to the wiki page above and we are looking forward to getting some questions answered at the 7/27 HCWG meeting if a Medicalchain representative is available)\\
+     *Discussed the donor milk proof of concept (POC) that Anton Ansalmar and Ron Block with Rapid Healthcare presented and are looking to build - If anyone knows of any donor milk use cases being explored in other Hyperledger projects, please let us know\\
+     *Decided that the donor milk use case and POC is what the patient/member subgroup would like to pursue as top priority, and to track to the Hyperledger Global Forum timeline for completion
+Outcomes of the meeting:\\
+     *A use case has been created on the Hyperledger wiki that includes major points and references from yesterday's conversation (please feel free to add anything that I might have missed: https://wiki.hyperledger.org/groups/healthcare/donor_milk_transparency_and_traceability
+     *I had mentioned Rocket.Chat during the meeting - see here where you can connect to specific channels: https://wiki.hyperledger.org/community/chat_channels \\
+     *Anton will send over initial architecture documentation for the subgroup to review - I will post it on the wiki when it is received\\
+Next steps:\\
+     *If you would like to be identified as a member of the patient/member subgroup of the healthcare working group, please add your LinkedIn profile or other method of contact for the group here: https://wiki.hyperledger.org/groups/healthcare/patient_subgroup\\
+     *For our 8/3 meeting we will review any updates to the donor milk use case that we have, timeline, and engagement from the developer and identity working groups (Vipin Bharatham (@vipinb) who leads the Identity working group has offered to join one of our meetings to answer any questions we have, but my suggestion is to have him join on 8/17 so that we have an opportunity to collect questions) \\
+
+Meeting Adjourned
+

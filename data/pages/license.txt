@@ -1,0 +1,3 @@
+All documentation contributed to and made available on this wiki by Hyperledger Project shall be licensed under the [[https://creativecommons.org/licenses/by/4.0/|Creative Commons Attribution 4.0 International License.]] 
+
+Any code contributed to this wiki will be contributed under the [[https://www.apache.org/licenses/LICENSE-2.0|Apache License, Version 2.0]]

@@ -1,0 +1,256 @@
+### Agenda
+* SDK status sync (baohua)
+* [Jira task](https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85) process review (chenkai)
+* Everyone review the [Patchset UnderReivew](https://gerrit.hyperledger.org/r/#/q/status:open+project:fabric-sdk-py)
+* Open discussion
+
+### Attendee
+
+* baohua
+* chuanjian
+* hanzhaofang
+* Qiang Wang
+* Chang Chen
+* Lei Li
+
+### Log
+```
+The weekly meeting will start in 3 mins, agenda is https://wiki.hyperledger.org/fabric-sdk-py/meetings/20161021
+
+[11:00]  
+every meeting attendee, pls hands up :slightly_smiling_face:
+
+[11:00]  
+=== Meeting Start ===
+
+[11:01]  
+Chang Chen :hand:
+
+[11:02]  
+Baohua Yang Anyone else?
+
+[11:02]  
+Ry Jones well, I’m watching, but I don’t know if I count towards quorum :slightly_smiling_face:
+
+[11:03]  
+Baohua Yang welcome, ry~
+
+[11:03]  
+Chuanjian Wang :hand:
+
+[11:03]  
+Baohua Yang we need at least 3 persons, haha
+
+[11:03]  
+lei li i am here like I
+
+[11:03]  
+Baohua Yang OK, the planned agenda is at https://wiki.hyperledger.org/fabric-sdk-py/meetings/20161021
+
+[11:03]  
+zhaofang han +1
+
+[11:03]  
+lei li Lilei
+
+[11:04]  
+Baohua Yang Task 1: SDK status sync (baohua)
+
+[11:04]  
+Yesterday, I attend the SDK WG meeting, and we got great progress.
+
+[11:04]  
+Most important, the main part sdk spec will be finished in 11/04, please help review and keep watching the updates.
+
+[11:05]  
+Then it will be sent in community for feedbacks as the 1st draft.
+
+[11:05]  
+https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4/edit#heading=h.z6ne0og04bp5
+
+[11:05]
+slackbot BOT That looks like a Google Drive link. Do you want us to import it and all future Google Drive links from you?
+Yes • Just this once • Not now • Never
+Only visible to you
+
+[11:05]  
+Baohua Yang Any question on this spec?
+
+[11:06]  
+lei li Not yet
+
+[11:06]  
+Baohua Yang OK
+
+[11:06]  
+Task 2: Jira task process review
+
+[11:06]  
+We made good progress in past week, like the ci, member and mermberservice has owner now.
+
+[11:07]  
+I guess everyone now learned how to use the task board already?
+
+[11:07]  
+zhaofang han yes
+
+[11:07]  
+lei li Yes
+
+[11:07]  
+Baohua Yang Great! Please feel free to create the task there and set assignee.
+
+[11:08]  
+You can feel free to ask any question if not sure whether the task is already taken by someone else :slightly_smiling_face:
+
+[11:08]  
+Thanks to jianhua’s help, now we have ci enabled for each patchset!
+
+[11:09]  
+For next step, we need the initial framework for member, membersrvc, peer, client, etc. I will create the tasks after the meeting.
+
+[11:09]  
+Any question on the jira board?
+
+[11:09]  
+lei li No
+
+[11:10]  
+1question
+
+[11:10]  
+Baohua Yang sure
+
+[11:10]  
+lei li How to set the story point for every task
+
+[11:11]  
+Baohua Yang you mean the deadline?
+
+[11:11]  
+lei li Yes
+
+[11:11]  
+Baohua Yang aha, just click the edit button. can u find it?
+
+[11:12]  
+Then u will see the orginal estimate and remaining estimate
+
+[11:12]  
+And the story points
+
+[11:12]  
+See https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85&view=detail&selectedIssue=FAB-625 for example.
+
+[11:12]  
+The OE is 3d, and the RE is 3d too.
+
+[11:13]  
+@seego Does that answer ur q?
+
+[11:13]  
+lei li Ok
+
+[11:13]  
+Baohua Yang Good~~
+
+[11:13]  
+lei li Yes thanks
+
+[11:13]  
+Baohua Yang :slightly_smiling_face:
+
+[11:13]  
+OK
+
+[11:13]  
+Any more q?
+
+[11:14]  
+zhaofang han y
+
+[11:14]  
+Baohua Yang yes, just type ur q :slightly_smiling_face:
+
+[11:15]  
+zhaofang han like member interface will depend on chain interface, we can implement member first just assume the interface of chain has been implemented?
+
+[11:15]  
+Or I can implement the chain interface first
+
+[11:16]  
+Baohua Yang Well, i guess both way should work. And we need tight syncing between different module owners.
+
+[11:16]  
+zhaofang han sure :smiley:
+
+[11:16]  
+Baohua Yang So for api, you can first create the member part, then work together with the chain part to see if need little changes.
+
+[11:16]  
+guess it should not be that much, as the api is nearly stable currently.
+
+[11:17]  
+OK
+
+[11:17]  
+Task 3: Everyone review the patchsets at Patchset UnderReivew
+
+[11:17]  
+We finished review and merged on numerers of patchs last week! and let's keep this self-motivation style!
+
+[11:17]  
+We will recommend those who gives significant code contributions as new maintainers in future. Let’s see who is the first luckyer :slightly_smiling_face:
+
+[11:18]  
+any q on item 3?
+
+[11:19]  
+OK
+
+[11:19]  
+Task 4: Open discussion
+
+[11:19]  
+We have several minutes left, any open questions?
+
+[11:20]  
+lei li Can we have a public training for our model
+
+[11:20]  
+?
+
+[11:20]  
+Baohua Yang Sure, but what kind of training u would like to see?
+
+[11:22]  
+lei li Introducing of the model
+
+[11:22]  
+Baohua Yang You means the working model or programming model?
+
+[11:23]  
+lei li Sorry for Typing on the phone so slow
+
+[11:23]  
+Baohua Yang :slightly_smiling_face: Maybe let's talk about this offline?
+
+[11:23]  
+lei li Ok
+
+[11:23]  
+Baohua Yang OK
+
+[11:23]  
+Any further open discussion?
+
+[11:24]  
+OK, if there's no further discussions.
+
+[11:24]  
+Let's finish the meeting, and thanks everyone for joining!
+
+[11:24]  
+=== Meeting End ===
+```
+

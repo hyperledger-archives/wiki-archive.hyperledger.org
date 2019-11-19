@@ -1,0 +1,33 @@
+====== Static and Dynamic Analysis Tools ======
+
+This page lists the recommended tools for doing static and dynamic analysis of code used in Hyperledger projects.  There is a great [[https://github.com/mre/awesome-static-analysis|curated list of tools]] kept on GitHub.
+
+===== Fuzzing Tools =====
+
+=== C/C++ ===
+
+  * [[http://lcamtuf.coredump.cx/afl/|American Fuzzy Lop (AFL)]]
+  * [[http://llvm.org/docs/LibFuzzer.html|libFuzzer]]
+
+=== Golang ===
+
+  * [[https://github.com/google/gofuzz|GoFuzz]]
+
+
+===== Static Tools =====
+
+=== C/C++ ===
+
+  * [[https://github.com/danmar/cppcheck|CppCheck]]
+
+=== Golang ===
+
+  * [[https://github.com/dominikh/go-tools|Go-Tools]]
+
+=== Python ===
+
+  * [[https://github.com/openstack/bandit|Bandit]]
+
+===== Dynamic Tools =====
+
+  * [[http://qira.me/|Qira]] [[https://www.youtube.com/watch?v=eGl6kpSajag|Intro video]]

@@ -1,0 +1,69 @@
+====== Ursa ======
+
+===== Status =====
+
+This project is in [[community:project-lifecycle#incubation|Incubation]]
+
+
+===== Description =====
+
+Hyperledger Ursa is a shared cryptographic library that would enable people (and projects) to avoid duplicating other cryptographic work and hopefully increase security in the process.  The library would be an opt-in repository for projects (and, potentially others) to place and use crypto.
+
+===== Motivation =====
+
+As Hyperledger has matured, the individual projects within Hyperledger have started to find a need for sophisticated cryptographic implementations.  Rather than have each project implement its own cryptographic protocols, we think it would be more desirable to collaborate on a shared library.  There are many reasons to do this:
+  * **Avoiding duplication**:  crypto implementations are notoriously difficult to get correct (particularly when side channels are taken into account) and often require a lot of work in order to complete with a high level of security.  The library would potentially allow projects to share crypto implementations, avoiding unnecessary duplication and extra work.
+  * **Security**:  having most (or all) of the crypto code in a single location would substantially simplify doing a security analysis of the crypto portion of Hyperledger.  In addition, the lack of duplication would mean that maintenance would be easier (and thus, hopefully, security bugs would be less numerous).  People might also be less likely to “roll their own crypto” if there are easily accessible implementations.  
+  * **Expert Review**:  In addition, the ability to enforce expert review of all cryptographic code should increase security as well.  There has already been at least one substantial bug in a Hyperledger DLT platform at a cryptographic algorithm level.  We think that having a concentration of cryptographic experts in Hyperledger will help us minimize the risk of this in the future.
+  * **Cross-platform interoperability**:  if two projects use the same crypto libraries, it will simplify (substantially in some cases) cross-platform interoperability, since cryptographic verification will involve the same protocols on both sides.
+  * **Modularity**:  This could be the first common component/module and a step towards modular DLT platforms, which share common components.   While we have already outlined most of the advantages this modularity would bring in terms of actual functionality, a successful crypto library could encourage and push forward more modular activities.
+  * **New Projects**: It would be easier for new projects to get off the ground if they had easy access to well-implemented, modular cryptographic abstractions.
+
+
+===== Documentation =====
+
+TBD
+
+
+===== Issue Tracking =====
+
+TBD
+
+===== Repositories =====
+
+  * https://github.com/hyperledger/ursa-crypto-lib
+  * https://github.com/hyperledger/ursa-z-mix
+
+===== Communication =====
+
+
+==== Mailing List ====
+
+Sign up for the [[https://lists.hyperledger.org/g/ursa | Hyperledger Ursa Mailing List here]]
+
+==== Chat (for questions and ephemeral discussions) ====
+
+
+  * [[https://chat.hyperledger.org/channel/ursa | #ursa]]
+ 
+
+===== Meetings =====
+
+Previous meeting recordings can be found [[https://drive.google.com/open?id=1B-6854rMI6sq15wjH5g44Pcq3slCruTO|here]].
+
+===== History =====
+
+  * [[https://docs.google.com/document/d/1JtFT5L-82egj6shgGXzTsNAg6_UHuMheKfsst6NS_Xo/edit | Proposed]] by
+    * Hart Montgomery, Fujitsu
+    * Dave Huseby, The Linux Foundation
+    * Nathan George, Sovrin Foundation
+    * Dan Middleton, Intel
+    * Mic Bowman, Intel
+    * Manu Drijvers, DFINITY
+    * Jan Camenisch, DFINITY
+    * Binh Nguyen, State Street
+    * Angelo De Caro, IBM
+    * Amit Kumar Gupta, Sai Infratel
+    * Vipin Bharathan
+    * Shawn Amundson, Bitwise.io
+  * [[https://lists.hyperledger.org/g/tsc/message/1832|Approved]] by the TSC on 2018-11-01

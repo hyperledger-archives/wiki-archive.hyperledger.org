@@ -1,0 +1,27 @@
+====== Hyperledger Working Group Update ======
+
+===== Working Group =====
+Architecture Working Group 
+
+===== Working Group Health =====
+We continue to make slow and steady progress on three work items in the work group. Participation has been steady with 8 to 12 participants in most meetings with good diversity across projects and companies. 
+
+
+===== Issues =====
+There are no issues at this time. We seek TSC's help to encourage broader participation from projects and participating companies.
+
+
+===== Overall Activity in the Past Quarter =====
+Regular meetings have been held on two tracks with work processing on three work items. Good progress has been made on the system identities paper and we are starting to engage our technical writer. Work on privacy and confidentiality is progressing well and we had an all day F2F meeting hosted by Oracle in the bay area last week. We have also started on a new work item on interoperability.
+
+
+===== Planned Work Products =====
+We will be working on the system identities paper and privacy and confidentiality paper.
+
+
+===== Participant Diversity =====
+Working participation has been growing a bit with slightly different participants interested in the different tracks.
+
+
+
+ 

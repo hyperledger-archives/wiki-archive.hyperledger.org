@@ -1,0 +1,12 @@
+====== Procedure to cut a Fabric release ======
+
+  - Create a release branch, and name it vM.m[.p][-qualifier] where M is the major release identifier, m is minor release identifier, p is the patch level identifier (only for LTS releases) and -qualifier is from the taxonomy of [[https://docs.google.com/document/d/19hZBOj4QklSJa2Fj3kHEwx1_R1T1rdRTXBseF6mzCN0|release maturity labels]]. To create a new branch, navigate to [[https://gerrit.hyperledger.org/r/#/admin/projects/fabric,branches]]. You can replace 'fabric' in the URL with the project name.
+  - Create a Change Requests (CR) on the branch, labeled "Release xxx" and update Makefile:IS_RELEASE = true and Makefile:BASE_VERSION=xxx
+  - Create another CR (basically "undo" the release state by the CR above), by setting Makefile:IS_RELEASE=false and Makefile:BASE_VERSION=xxx+1
+  - Once accepted, submit a tag against the $sha of the first CR; the tag triggers Jenkins to build/publish the docker images. Here is an example of when we released v0.6.1-preview [[https://github.com/hyperledger/fabric/commit/2d75cbc00c9f7e4f50fcde5a437ad7410a67ce0e|CR1]] and [[https://github.com/hyperledger/fabric/commit/4745512c293373ed631b5a7f1792977285d9627c|CR2]]
+  - Publish release notes in an update to [[https://gerrit.hyperledger.org/r/gitweb?p=fabric.git;a=blob_plain;f=docs/releases.md;hb=refs/heads/master|fabric/docs/releases.md]].
+  - Announce the release, linking to the release notes on Hyperledger fabric and general slack channels and hyperledger-fabric and hyperledger-announce mailing lists
+  - Perform if necessary:
+    -  Select issues to fix for the release branch and label them as such with a label with a value of the release identifier.
+    -  Submit change requests for those selected issues against the release branch.
+    -  Maintainers decide on whether to merge the requested changes from the release branch to the master branch or requesting the authors to submit the changes on both branches.

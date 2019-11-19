@@ -1,0 +1,45 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Sawtooth
+
+===== Project Health =====
+Sawtooth continues to increase activity level. It is approaching a 1.0 release. Activity in all channels (commits, chat, mail list) are all up. 
+Processes also still healthy and undergoing regular improvement. e.g. Changes to the release candidate branch undergo multi-day, multi-system, loaded integration tests. Licensing scans are clean or otherwise pass Hyperledger exception process. 
+
+
+===== Issues =====
+The edx course has positively impacted interest in Sawtooth, however the content may be out of date with Sawtooth, and the maintainers do not feel well connected to that training content.
+
+
+===== Releases =====
+Since the last reporting period Sawtooth has branched from 0.9 and has produced multiple release candidates towards an upcoming official 1.0 release. Current master will eventually become v1.1. Only critical fixes are being cherry picked to the release candidate branch.
+
+
+===== Overall Activity in the Past Quarter =====
+Traffic on all channels is up. We believe due to the training material and interest in 1.0. Questions are generally answered in a timely manner on Hyperledger chat and the hyperledger-stl mail list. Chat continues to be more active than the mail list.
+
+We added 4 new repos and associated applications and broke seth out to it's own repo. Among the new applications: 
+
+**Sawtooth-Hyper-Directory**, a role-based authentication application contributed by TMobile. 
+
+**Sawtooth-Supply-Chain**, an end to end supply chain application contributed by Intel and Bitwise.io
+
+**Sawtooth-Explorer**, a block explorer contributed by Pokitdok
+
+===== Current Plans =====
+The upcoming 1.0 release will include a number of new features. Announcement of those features is part of the hyperledger marketing plan. They include, however, previously announced features such as Parallel transaction processing, and "Unpluggable" consensus.  
+Some maintainers have already shifted focus to 1.1. In addition to new unique Sawtooth features, we hope that once the 1.0 drive has completed we will be able to return to more cross project initiatives.
+
+===== Maintainer Diversity =====
+No new maintainers were added since the last report. Two maintainers have changed company affiliation. Intel and Bitwise.io have the most maintainers followed by Huawei, and unaffiliated individuals.
+
+
+===== Contributor Diversity =====
+This period saw some new committers driven by interest in the training, the upcoming 1.0 release, and Seth (the Sawtooth + Ethereum collaboration with Hyperledger Burrow). In traceable source code contributions during this period we had 1246 commits from 37 unique committers across 12 unique organizations. This does not include contributions to education materials and support in chat and mail list. (Stats exclude merge commits and backports from master to stable branches)
+
+
+===== Additional Information =====
+//**Optional** Please provide any additional information that you feel would be useful for TSC to be aware.//
+Sophie Germain is super cool. 
+ 

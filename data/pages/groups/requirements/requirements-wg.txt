@@ -1,0 +1,113 @@
+====== Requirements Working Group ======
+
+<WRAP center round box 75%>
+\\
+This working group has been archived by the [[https://lists.hyperledger.org/g/tsc/message/1430|TSC decision on March 22, 2018]].
+</WRAP>
+===== Charter =====
+
+The[[https://wiki.hyperledger.org/_media/groups/requirements/hyperledgerprojectrequirementswgcharter.pdf|Charter]] defines the scope and ways that we work together.
+
+===== Antitrust Policy Notice =====
+
+Linux Foundation meetings involve participation by industry competitors, and it is the intention of the Linux Foundation to conduct all of its activities in accordance with applicable antitrust and competition laws. It is therefore extremely important that attendees adhere to meeting agendas, and be aware of, and not participate in, any activities that are prohibited under applicable US state, federal or foreign antitrust and competition laws. [[https://drive.google.com/file/d/0B_ObsXjgeZdNSFBrejY3MUpRMTFWQ2tDcjBmRzdDNzhoRVFZ/view | More]] 
+
+===== Meetings =====
+
+Chair: Clive Boulton @cliveb
+
+<WRAP center round box 75%>
+\\
+No future meetings will be held.
+</WRAP>
+
+[[https://docs.google.com/document/d/1PMYUk5Q9nNvvj1TVQARHbbKYXshqX1iy-QlmrF5LheE/edit | Past Meeting Notes Google Doc]].
+
+===== Mailing List =====
+
+You can find the mail archive for this mailing list at https://lists.hyperledger.org/g/hyperledger-requirements-wg
+
+===== WG Working Documents =====
+
+  * Governance
+    * [[https://docs.google.com/document/d/1BlWWgtGArBb7v_cJsaJ9SsMclRHNfEdaJ623CrDHez8/edit | Challenges facing the Requirements WG]]
+
+  * Use Cases
+    * [[https://docs.google.com/document/d/1LJ158TYI500oAZVaR6xr1-ehhK8M-ClSzGvdcK-etHc/edit# | Use Case Template in Google docs]] 
+    * [[Use-Case-Inventory | Inventory of Use Cases and Their Status]]
+    *[[https://docs.google.com/document/d/1AAmvRJ9TtPgkO2hJS4qshMSsUadC-p0atpEZQ_3iDlM/edit?usp=sharing | Use Case Process for document authors]]
+
+  * Requirements
+    * [[https://docs.google.com/document/d/1I8Q9uOflROviCFw0Fyxya-7kqVTlCdkErjIVmhIsW3A/edit?usp=sharing | Requirements Strawman Google Doc ]]
+    * [[https://docs.google.com/spreadsheets/d/1ajtRVRvBO7k1YZsmYdLDs8jQN_V1MacISY6Jek4J7ig/edit?usp=sharing | Ledger Platform Comparison (Draft) ]]
+
+  * Presentations
+    * [[https://docs.google.com/presentation/d/1a1y4DQEQh9AUrUkSBZAYUNE_l4TQe-yxRo9Ri8IPBao/edit?usp=sharing | Risk and Migitation Framework Presentation - "Fit for What Purpose? Managing Hyperledger Community Expectations"]]
+
+  * Survey
+    * Please provide feedback to the ReqWG on your use case. [[http://bit.ly/2pKKaKR | Take our survey ]] 
+  
+
+
+ 
+
+===== Meeting Minutes / Notes =====
+
+The live version of the minutes edited during the meetings is here: [[https://docs.google.com/document/d/1PMYUk5Q9nNvvj1TVQARHbbKYXshqX1iy-QlmrF5LheE/edit | Live Meeting Notes Google Doc]].\\
+A static version of the meeting notes can be found here: [[groups:requirements:requirements-wg:minutes | Requirements WG Meeting Minutes]]\\
+[[https://drive.google.com/open?id=0B_NJV6eJXAA1NjNoR3p1S0wxTjQ|Meeting Recordings]]\\
+The breakout is:
+
+  * [[groups:requirements:requirements-wg:minutes#march_19th_2018| March 19th]]
+  * [[groups:requirements:requirements-wg:minutes#march_5th_2018| March 5th]]
+  * [[groups:requirements:requirements-wg:minutes#february_19th_2018| February 19th]]
+  * [[groups:requirements:requirements-wg:minutes#february_5th_2018| February 5th]]
+  * [[groups:requirements:requirements-wg:minutes#january_22nd_2018| January 22nd]]
+  * [[groups:requirements:requirements-wg:minutes#january_8th_2018| January 8th]]
+  * [[groups:requirements:requirements-wg:minutes#december_11th_2017| December 11th]]
+  * [[groups:requirements:requirements-wg:minutes#november_27th_2017| November 27th]]
+  * [[groups:requirements:requirements-wg:minutes#november_13th_2017| November 13th]]
+  * [[groups:requirements:requirements-wg:minutes#october_30th_2017| October 30th]]
+  * [[groups:requirements:requirements-wg:minutes#october_16th_2017| October 16th]]
+  * [[groups:requirements:requirements-wg:minutes#october_2nd_2017| October 2nd]]
+  * [[groups:requirements:requirements-wg:minutes#september_17th_2017| September 17th]]
+  * [[groups:requirements:requirements-wg:minutes#august_21st_2017| August 21st]]
+  * [[groups:requirements:requirements-wg:minutes#august_7th_2017| August 7th]]
+  * [[groups:requirements:requirements-wg:minutes#july_24th_2017| July 24th]]
+  * [[groups:requirements:requirements-wg:minutes#july_10th_2017| July 10th]]
+  * [[groups:requirements:requirements-wg:minutes#june_26th_2017| June 26th]]
+  * [[groups:requirements:requirements-wg:minutes#june_12th_2017| June 12th]]
+  * [[groups:requirements:requirements-wg:minutes#may_1st| May 1st]]
+  * [[groups:requirements:requirements-wg:minutes#april_17th| April 17th]]
+  * [[groups:requirements:requirements-wg:minutes#april_3rd| April 3rd]]
+  * [[groups:requirements:requirements-wg:minutes#march_6th| March 6th]]
+  * [[groups:requirements:requirements-wg:minutes#february_6th| February 6th]]
+  * [[groups:requirements:requirements-wg:minutes#january_23rd|January 23rd]]
+  * [[groups:requirements:requirements-wg:minutes#december_19th|December 19th]]
+  * [[groups:requirements:requirements-wg:minutes#december_6th|December 6th]]
+  * [[groups:requirements:requirements-wg:minutes#november_21st|November 21st]]
+  * [[groups:requirements:requirements-wg:minutes#november_7th|November 7th]]
+  * [[groups:requirements:requirements-wg:minutes#october_24h|October 24th]]
+  * [[groups:requirements:requirements-wg:minutes#october_10th|October 10th]]
+  * [[groups:requirements:requirements-wg:minutes#september_26th|September 26th]]
+  * [[groups:requirements:requirements-wg:minutes#september_15th|September 15th]]
+  * [[groups:requirements:requirements-wg:minutes#august_29th|August 29th]]
+  * [[groups:requirements:requirements-wg:minutes#august_22nd_-_no_mtg|August 22nd - no mtg]]
+  * [[groups:requirements:requirements-wg:minutes#august_15th|August 15th]]
+  * [[groups:requirements:requirements-wg:minutes#august_8th|August 8th]]
+  * [[groups:requirements:requirements-wg:minutes#august_1st|August 1st]]
+  * [[groups:requirements:requirements-wg:minutes#july_25th|July 25th]]
+  * [[groups:requirements:requirements-wg:minutes#july_18th|July 18th]]
+  * [[groups:requirements:requirements-wg:minutes#july_11th|July 11th]]
+  * [[groups:requirements:requirements-wg:minutes#july_4th_-_no_mtg|July 4th - no mtg]]
+  * [[groups:requirements:requirements-wg:minutes#june_27th|June 27th]]
+  * [[groups:requirements:requirements-wg:minutes#june_20th|June 20th]]
+  * [[groups:requirements:requirements-wg:minutes#june_13th|June 13th]]
+  * [[groups:requirements:requirements-wg:minutes#june_6th|June 6th]]
+  * [[groups:requirements:requirements-wg:minutes#may_31st|May 31st]]
+  * [[groups:requirements:requirements-wg:minutes#may_23th|May 23th]]
+  * [[groups:requirements:requirements-wg:minutes#may_16th|May 16th]]
+  * [[groups:requirements:requirements-wg:minutes#may_9th|May 9th]]
+  * [[groups:requirements:requirements-wg:minutes_2016_Apr_14|Apr 14th]]
+  * [[groups:requirements:requirements-wg:minutes_2016_Apr_07|Apr 7th]]
+  * [[groups:requirements:requirements-wg:minutes_2016_Mar_25|Mar 25th]] 

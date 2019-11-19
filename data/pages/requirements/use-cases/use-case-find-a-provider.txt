@@ -1,0 +1,85 @@
+====== Find a Provider ======
+
+===== Section 1 - Intro =====
+
+==== Business Problem / Opportunity ====
+
+There are two different constituencies for this use case namely:
+
+  - Providers
+  - Consumers
+
+The use case for providers is to enable providers to locate other providers to whom a patient can be referred. The use case for consumers and more specifically plan members, is to locate a general practitioner with specific criteria such as being open to accepting new patients in their locale.
+
+Consumer facing directories are regulated. Health plans must by law publish provider directories, the content, update frequency of which is also regulated. With an incentive not to incur fines health plans have implemented solutions to comply with regulations by creating customized, centralized database systems exposed over the internet through inquiry applications. Complying with regulations makes these a dry source of information with no references to social media or third party ratings which consumers must find elsewhere.
+
+The purpose of provider, provider directories is to facilitate the referral of a patient by a primary care (or specialist provider) to a specialist provider. These are not regulated and have different information requirements from the consumer provider directory.
+
+There is also a broader need for provider-provider directories to facilitate the transition of patients from one care setting to another in the continuum of care. An example might be the need to locate a skilled nursing facility with space to accept a patient on discharge from the in-patient setting. This is considered out of scope for this use case but shall be in the scope of "Care Transitions" use cases.
+
+The main issue with provider directories is keeping them maintained with accurate up-to-date data. The regulations on consumer directories place the onus for doing this on health plans. This is a costly, time consuming process that employs clerical staff to poll providers. Being a polling process, plans are tardy in discovering a change to a provider's status. The regulations allow plans to impose fines or withhold payment to providers who do not keep plans appraised of their changes. 
+ 
+Directory changes (such as "change of practice ownership") are difficult to verify and involve requiring authentic credentials. Systems built to comply strictly with the regulations often do not maintain specific provider roles and their inter-relationships making it impossible to implement digitally. To implement this level of sophistication requires identifying all individuals. Typically provider identity management falls more within the domain of practice management or Electronic Health Records (EHR) systems and not within the domain of provider directories.   
+
+Large vertically integrated health care organizations enjoy an advantage in being able to maintain their directories because the majority of their providers are full time employees and directories can be synchronized with human resource management systems. Part-time providers and locums are sometimes problematic. They also generally have sophisticated internal referral systems based on their EHR system.
+
+==== Current Solution ====
+
+Current provider directory solutions are implemented as centralized databases systems, where the data content is synchronized with partners' systems by records transfer or service interfaces, either periodically or lazily; rarely is information synchronized in real-time. Partners could be members of an accountable care organization (ACO) or accountable care network (ACN), or say a plan association. Where a plan association is a collection of plans who have a brand association but operate different states due to insurance regulations.
+
+Databases are populated by merging and rationalizing data from perhaps several sources depending on the database owners' relationships to the providers. Plans employ clerical staff to poll the provider organizations on a regular schedule to synchronize the data. Provider organizations synchronize it from human resource and EHR systems. Third party organizations perform similar functions and sell consolidated databases. The National Provider Identifier (NPI) database is a useful second source of provider data.
+
+==== Why a Blockchain? ====
+
+The more integrated is a health care delivery system, the less advantage there is to maintaining a provider directory in a blockhain. Conversely, as the relationship between the system and the providers becomes more fluid, the more compelling it is to implement both a consumer facing and a provider facing directory as a blockchain.
+
+Integrated health care delivery systems (IDS) in which the providers are employed in fixed roles can be maintained in a centralized database. Blockchain starts to become solution for IDS's when they have either supplemental members of their work force, (contingent staff and locums) or make referrals to specialist providers outside the IDS.
+
+Blockchain is an attractive solution for more loosely associated organizations such as plans and ACO's/ACN's who need to collect, consolidate and synchronize provider data from several disparate sources. Admittedly this could also be better solved conventionally if there were apis, standardized message formats and synchronization transactions and a way to build trust (spontaneously) between the parties, which is basically what is provided by a blockchain solution.
+
+A blockchain solution simplifies the update and synchronization of provider data from several sources, after the participants have agreed upon a ledger schema to represent provider information. Message passing is inherent to the implementation; trust between the maintainers still has to be established and represented digitally; a provider ledger api would define GET/SET functions on provider entity types and their relationships in the schema. An immutable, trustworthy change record would facilitate accurate regulatory reporting.
+
+Many plans and provider groups have had to already implement directories, usually using database technology. The regulations for consumer facing solutions are strict (at least in California and a benchmark for other states) which has presumably resulted in unique implementations that all do much the same thing.
+
+A single shared solution could have been implemented if every implementer trusted each other to maintain the data according to the regulations. Having to comply with a law that mandates active, accurate maintenance, or be penalized, and not being able to trust someone else to maintain the data, has resulted in everyone maintaining their own dataset. A single shared blockchain solution could save everyone the cost of maintaining their own view.
+
+A co-operatively maintained directory would have every plan running a peer copy of a single provider directory. This implies that there would be an agreed schema and a process to co-ordinate and agree upon the smart contracts/chain codes deployed on their peers that effect changes to the ledger. 
+
+The endorsers would be every plan's node. A provider could connect say (after authenticating) to any plan's exposed UI/interface to maintain their directory entry and it would be reflected within a very short period of time in every plan's peer. Plan's would benefit by having the same well-maintained provider data in real-time. Consumers would have the same, well-maintained view of every provider through every plan's directory - there would be no basic inconsistencies about provider data between each plan's directory, and each plan could maintain their provider network-specific attributes uniquely. 
+
+Every plan maintaining their own directory places a burden on providers who are polled regularly and continuously by all the plans with which they contract, with the simple question: "anything changed?" This is a disincentive to the provider to join many plans - and something a plan who can become dominant in the marketplace should want ... A single directory could set a precise polling frequency and issue a request to a specific provider's agent to ensure they are up-to-date - all recorded on THE provider directory.
+
+To comply with the regulators, plans must show that they are actively maintaining the data, this can be done with existing technology (using a log say) but unless something like blockchain is implemented any changes can't digitally be proved to be trustworthy or permanent. With blockchain it's an inherent capability that every transaction is registered immutably on the ledger, and digitally provable to have occurred. A regulatory authority can participate as a role in the system and provided with their own secure interface to the ledger to be able to verify that the ledger (acting for every plan) has polled every provider for updates.
+
+A secure permissioned blockchain can be arranged so that core provider data may be shared and cooperatively maintained, but specific plans' contractual relationships with providers kept securely separate. This would benefit the providers in being able to have a single interface to maintain all their plans' relationships.
+
+By maintaining a single authoritative identity (self-attested until there are other upstream trusted sources of credentials) a provider can apply to join a plan's network, by referencing their provider directory entry in their application. If this was enhanced with other credentials and attributes (e.g. patient demographics) and a provider could say expose a zero knowledge proof that they were/were not a member of a network without exposing the details - they could make a "one-click" application to a network, and similarly a plan could trawl for providers to supplement their networks.
+
+With a clear set of use cases it should be easier to make some more statements ...
+
+==== Roles ====
+
+^ Role                     ^ Definition                                                                ^                                                                           
+| Provider                 | A licensed provider of medical services. |                                            
+| Regulator                | A state or federal body with legal backing to regulate provider directories and licenses. |                                                                                                  
+| Consumer                 | A consumer of health care services. |                                                                                                               
+| Subscriber/Policy Holder | A person insured by a plan under the terms of a contract. |                               
+| Member                   | A member of a plan. |                                                                                          
+
+==== User Stories ====
+
+As a provider I want to ... so that I can ...
+
+As an Independent Provider Affiliate (IPA) or an Independent Physician I want a single authoritative source of provider information so that I can refer patients with conditions outside my speciality to other providers with a speciality to treat their conditions.
+
+==== Opportunity/Justification ====
+
+
+===== Section 2 - States and Transactions =====
+
+
+===== Section 3 - Requirements =====
+
+The major requirement for consumer facing provider directories is: regulatory compliance, specifically with [[https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201520160SB137|California Senate Bill 137]]. These are the California  [[https://www.dmhc.ca.gov/Portals/0/LicensingAndReporting/upds.pdf|Uniform Provider Directory Standards]]
+
+Both these documents precisely define consumer facing provider directories and are from which the consumer users stories are extracted.

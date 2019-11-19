@@ -1,0 +1,11 @@
+===== New member orientation =====
+[[healthcare-sig|Home]]
+----------
+
+//This page should be used to orient new members to the workgroup resources maintained on this wiki; it should provide a brief background, history and timeline; current activities; and steps to provisioning and participating via the wiki, mailing list and chat. //
+
+----------
+
+  * [[faqs|FAQs]]
+  * [[groups:healthcare:membership-directory|HLHC-SIG Membership Directory]]
+

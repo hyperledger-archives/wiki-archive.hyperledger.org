@@ -1,0 +1,55 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Sawtooth
+
+===== Project Health =====
+Sawtooth is healthy and active on all aspects. Contributors are up, questions are answered on a variety of outlets, and enhancements/features are flowing in.
+
+===== Issues =====
+No issues
+
+===== Releases =====
+Sawtooth 1.0 released!
+https://www.hyperledger.org/announcements/2018/01/30/hyperledger-releases-hyperledger-sawtooth-1-0
+
+Last week released v1.0.2 primarily addressing bug fixes.
+https://lists.hyperledger.org/g/sawtooth/message/225
+
+
+===== Overall Activity in the Past Quarter =====
+The chat server continues to be the most active communication channel and the email list the least active.
+We have created three recurring teleconferences for community interaction.
+Two instances of Application Developer Forum and a Sawtooth Technical Forum.
+Times and connection info are on the Hyperledger calendar:
+https://calendar.google.com/calendar/embed?mode=AGENDA&src=linuxfoundation.org_nf9u64g9k9rvd9f8vp4vur23b0%40group.calendar.google.com&ctz=UTC
+
+The App Dev Forum primarily facilitates problem solving and exchange of best practices for Sawtooth distributed application development.
+
+The Technical Forum is usually reserved for presenting new Sawtooth features and tools. 
+This meeting follows the TSC call on alternating Thursdays. (Today 4/12 there is a scheduled presentation for a suite to facilitate application development.)
+
+
+===== Current Plans =====
+The community is working towards a 1.1 release in mid- to late-summer.
+That release will contain at least significant performance enhancements and a new consensus feature. The full feature list will emerge as we draw closer.
+
+Performance: Several performance efforts are underway. One general theme is replacing the interpreted code with compiled code. (Goodbye Python. All hail Rust.)
+
+Consensus: A new consensus interface is under development to facilitate using consensus algorithms written in any language.
+Sawtooth already provides "Dynamic Consensus", the ability to change consensus on the fly in an existing blockchain network. This interface will help to increase the variety of consensus protocols that can be plugged into Sawtooth.
+
+===== Maintainer Diversity =====
+One longtime maintainer has changed companies. One new maintainer added from Cloudsoft.
+New tools and apps contributed by T-Mobile and PokitDok with respective maintainers. 
+Largest maintainer populations are from Intel and Bitwise.
+
+===== Contributor Diversity =====
+Contributor diversity remains healthy. There are committers from about 12 unique domains.
+Notable new contributions from Cargill.
+
+
+===== Additional Information =====
+
+
+ 

@@ -1,0 +1,22 @@
+======Indy Frequently Asked Questions======
+
+====Claim Definition====
+**What is the difference between a schema and claim definition in the context of Indy?**
+
+A schema is just that - a definition of the fields in a schema - it has a name, version and creator. A claim definition is a specific use of a schema by an identity, and (will eventually) provide a link to a revocation registry. So a schema might be defined by a group of Banks, and each bank would create a claim def that defined their specific use of the schema.
+
+
+====Monitoring and Ledger Status====
+**Is there a way to see the key/value transactions stored on the Indy ledger using CLI?**
+
+If you have access to a validator you can see the contents of the ledger on it using "sudo read_ledger --type domain". Also see: https://github.com/nrempel/von-network
+
+
+====Proofs and Proof Requests====
+**A question about how proof responses are generated (ex. Alice responding Acme Corp's proof request). Is the proof response also a verifiable claim? and how does Alice pick and choose the claims she wants to share (or derivative of the claims ex. age above 19) with Acme corp without invalidating the signature that initially came with the verifiable claim from Faber college?**
+
+The proof request response is a zero-knowledge proof. This is in fact an aggregated proof created for all claims needed to fulfill the proof request.
+
+There is a call in indy to get all claims matching given proof request (so it can be shown on UI for example). So, Alice can select whta claims she wants to use for proof creation and what data she wants to disclose.
+You can have a look at https://github.com/hyperledger/indy-sdk/blob/master/doc/libindy-anoncreds.svg
+

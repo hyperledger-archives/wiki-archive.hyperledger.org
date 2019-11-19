@@ -1,0 +1,76 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+
+Hyperledger Sawtooth [[https://sawtooth.hyperledger.org/]]
+
+===== Project Health =====
+
+We released our 1.1 release last month.  New features included in this release:
+
+  * PBFT Consensus - [[https://github.com/hyperledger/sawtooth-pbft]]
+  * Raft Consensus - [[https://github.com/hyperledger/sawtooth-raft]]
+  * Getting RUSTY: Continuing porting internal components from python→rust
+  * Smart Permissions for Sabre: [[https://github.com/hyperledger/sawtooth-sabre]]
+  * Support and documentation for running in Kubernetes
+  * Extensive documentation updates
+  * The SDK (besides Python and Rust) have been split out into their own repos
+
+Blog content:
+
+  * [[https://www.hyperledger.org/blog/2019/01/18/safety-performance-and-innovation-rust-in-hyperledger-sawtooth|Safety, Performance and Innovation: Rust in Hyperledger Sawtooth]]
+  * [[https://www.hyperledger.org/blog/2019/01/11/floating-the-sawtooth-raft-implementing-a-consensus-algorithm-in-rust|Floating the Sawtooth Raft: Implementing a Consensus Algorithm in Rust]]
+  * [[https://www.hyperledger.org/blog/2018/12/11/making-dynamic-consensus-more-dynamic|Making Dynamic Consensus More Dynamic]]
+  * [[https://www.hyperledger.org/blog/2018/12/07/hyperledger-sawtooth-blockchain-security-part-three|Hyperledger Sawtooth Blockchain Security (Part Three)]]
+  * [[https://www.hyperledger.org/blog/2018/12/06/announcing-hyperledger-sawtooth-1-1|Announcing Hyperledger Sawtooth 1.1]]
+
+Additionally, added a FAQ to the Sawtooth Website: [[https://sawtooth.hyperledger.org/faq/]]
+
+
+===== Issues =====
+
+Prior Issues
+
+  * Disconnection between TSC and projects. Continuing to improve.
+  * Maintainer access to project page managed by LF. Inconclusive.
+  * Increase in PR backlog given increased submissions. No change.
+
+New Issues
+
+  * Sawtooth Next Directory feels like a separate project.  It does not conform to the community norms.
+
+===== Releases =====
+
+  * 1.1 Dec 2018
+
+
+===== Overall Activity in the Past Quarter =====
+
+  * Chat activity continues to increase
+  * Developer chat has continued to move to rocket chat from private channels
+  * listserv traffic remains light.
+
+See community calendar [[https://wiki.hyperledger.org/community/calendar-public-meetings]] for occurrences of our
+
+  * Tech Forum
+
+===== Current Plans =====
+
+Continuing development on:
+
+  * The Python and Rust SDKs are being split into their own repos
+  * Devmode Consensus engine is being moved to its own repo
+  * Rewrite of remaining Python components in Sawtooth Core in Rust
+  * Mobile SDK development: client SDK’s for both iOS and Android
+  * PBFT Release
+  * Sabre 1.0 as well as adding functionality around “Smart Permissions”
+
+===== Maintainer Diversity =====
+
+Maintainers are roughly evenly distributed across Bitwise.io, Cargill, Intel, with T-Mobile on Next Directory.
+
+===== Contributor Diversity =====
+
+  * Commits from 2018-10-1 to 2018-12-31: 420
+  * Committers from 2018-10-1 to 2018-12-31: 28
+  * Domains from 2018-10-1 to 2018-12-31: 6

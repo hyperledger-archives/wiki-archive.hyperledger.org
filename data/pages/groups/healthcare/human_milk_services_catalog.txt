@@ -1,0 +1,32 @@
+===== Human milk services catalog =====
+  * [[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]] : [[analysis-business|Domain analysis]] : [[analysis-human-milk|Human milk services]]
+  * [[healthcare-wg-wikispace-redesign |Home]] : [[resources|Resources]] : [[analytical_models|Analytical models]]
+
+----------
+
+==== Services catalog ====
+
+  * [[Perinatal services]]
+  * [[analysis-human-milk|Human milk services]]
+    * [[Human milk donor services]]
+    * [[Human milk recipient services]]
+    * [[Milk bank management services]]
+      * [[Accreditation services]]
+      * [[Contract management services]]
+      * [[Affiliate management services]]
+      * [[Billing and reimbursement services]]
+    * [[Milk storage services]]
+    * [[Milk distribution services]]
+  * [[Laboratory services]]
+  * [[Transportation services]]
+
+=== Service system roles ===
+
+  * [[Human milk donor]]
+  * [[Human milk recipient]]
+  * [[Milk banking services provider]]
+  * [[Milk storage services provider]]
+  * [[Milk distribution services provider]] 
+  * [[Perinatal services provider]]
+  * [[Laboratory services provider]]
+  * [[Transportation services provider]]

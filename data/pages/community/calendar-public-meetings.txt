@@ -1,0 +1,9 @@
+====== Calendar of Public Meetings ======
+
+Following is a calendar of community meetings. **Times are Coordinated Universal Time**.
+
+{{url>https://calendar.google.com/calendar/embed?mode=AGENDA&src=linuxfoundation.org_nf9u64g9k9rvd9f8vp4vur23b0%40group.calendar.google.com&ctz=UTC}}
+
+**To view the calendar in your timezone**, open [[https://calendar.google.com/calendar/embed?mode=AGENDA&src=linuxfoundation.org_nf9u64g9k9rvd9f8vp4vur23b0%40group.calendar.google.com&ctz=UTC|the calendar]] and modify the //ctz// parameter to view the calendar in your local time zone. Options for time zone can be found in the **TZ** column of [[https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List]]. For example, here is a list in [[https://calendar.google.com/calendar/embed?mode=AGENDA&src=linuxfoundation.org_nf9u64g9k9rvd9f8vp4vur23b0%40group.calendar.google.com&ctz=Asia%2FShanghai|China Standard Time]]
+
+You can also download the calendar in [[https://calendar.google.com/calendar/ical/linuxfoundation.org_nf9u64g9k9rvd9f8vp4vur23b0%40group.calendar.google.com/public/basic.ics|iCal]] format.

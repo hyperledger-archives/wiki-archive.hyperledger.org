@@ -1,0 +1,16 @@
+a:2:{s:7:"current";a:8:{s:4:"date";a:2:{s:7:"created";i:1500907839;s:8:"modified";i:1537333726;}s:7:"creator";s:11:"Mark Wagner";s:4:"user";s:7:"mwagner";s:11:"last_change";a:7:{s:4:"date";i:1537333726;s:2:"ip";s:13:"43.249.184.86";s:4:"type";s:1:"E";s:2:"id";s:19:"groups:pswg:library";s:4:"user";s:12:"arati_baliga";s:3:"sum";s:43:"Replaced with correct link for Quorum paper";s:5:"extra";s:0:"";}s:11:"contributor";a:6:{s:6:"tkuhrt";s:11:"Tracy Kuhrt";s:7:"mwagner";s:11:"Mark Wagner";s:5:"guyho";s:15:"Guy Hochstetler";s:23:"dan.middleton@intel.com";s:13:"Dan Middleton";s:6:"kocsis";s:11:"Imre Kocsis";s:12:"arati_baliga";s:12:"Arati Baliga";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}s:11:"description";a:1:{s:8:"abstract";s:503:"PSWG Library
+
+Draft Documents 
+
+	*  DRAFT
+ Metrics Definition Proposal
+	*  DRAFT Performance Considerations in a DLT/Blockchain World 
+	*  DRAFT Fault load
+
+Background Documents
+
+	*  Hyperledger Caliper Proposal
+	*  BLOCKBENCH: A Framework for Analyzing Private Blockchains
+	*  BLOCKBENCH source repository
+	*  Bitcoin-NG: A Scalable Blockchain Protocol - A Usenix Paper 
+	*  Hyperledger Fabric: A Distributed Operating System for Permissioned Blockchains Includes some preliminary performance test r…";}s:8:"relation";a:1:{s:10:"firstimage";s:0:"";}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1500907839;s:8:"modified";i:1537333726;}s:7:"creator";s:11:"Mark Wagner";s:4:"user";s:7:"mwagner";s:11:"last_change";a:7:{s:4:"date";i:1537333726;s:2:"ip";s:13:"43.249.184.86";s:4:"type";s:1:"E";s:2:"id";s:19:"groups:pswg:library";s:4:"user";s:12:"arati_baliga";s:3:"sum";s:43:"Replaced with correct link for Quorum paper";s:5:"extra";s:0:"";}s:11:"contributor";a:6:{s:6:"tkuhrt";s:11:"Tracy Kuhrt";s:7:"mwagner";s:11:"Mark Wagner";s:5:"guyho";s:15:"Guy Hochstetler";s:23:"dan.middleton@intel.com";s:13:"Dan Middleton";s:6:"kocsis";s:11:"Imre Kocsis";s:12:"arati_baliga";s:12:"Arati Baliga";}}}

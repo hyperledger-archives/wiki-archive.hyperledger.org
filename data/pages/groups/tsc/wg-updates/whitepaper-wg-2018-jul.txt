@@ -1,0 +1,32 @@
+====== Hyperledger Working Group Update ======
+
+===== Working Group =====
+Whitepaper Working Group
+
+===== Working Group Health =====
+This working group is (thankfully) on its last legs.  We haven't had too many meetings recently due to the fact that the whitepaper is (hopefully) essentially finished and we expect final approval shortly.  It is expected that this group will be dormant or disbanded in the future since the main product is done.
+
+It may be useful to leave the mailing list in place (and keep the group as a "dormant" working group) in case we need to leverage the expertise of the working group for other documentation projects.  The members of this group have learned a lot of lessons regarding creating large-scale documents and it might be useful to leverage this in the future (this is up to the TSC though).
+
+===== Issues =====
+There are no issues at this time.
+
+
+===== Overall Activity in the Past Quarter =====
+This past quarter has mainly been focused on getting the whitepaper out the door, which has been a challenge since so many people have needed to be involved.  However, since we have been so close to the end, we have been able to avoid having too many meetings, which has been nice.
+
+
+===== Planned Work Products =====
+The whitepaper!  The final version is out and is just waiting approval (I have asked for permission to distribute widely prior to writing this).
+
+===== Participant Diversity =====
+This working group will hopefully be shrinking dramatically in size, by next week!  
+
+
+===== Additional Information =====
+In case people were wondering what as taken so long, our technical writer Gordon Graham said the following about the whitepaper:
+
+“During my years as a writer/editor, I’ve worked on multi-million business plans, on textbooks about astronomy, and on white papers for Google with 15 reviewers. But the Introduction to Hyperledger was the most complicated publishing project I ever encountered. There are 25 named contributors who held weekly conference calls for more than 18 months. I’m amazed at the patience and the fortitude it took to finally get this finished.” 
+
+
+ 

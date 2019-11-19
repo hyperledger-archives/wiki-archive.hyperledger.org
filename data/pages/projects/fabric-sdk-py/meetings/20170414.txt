@@ -1,0 +1,259 @@
+==== 2017-04-14 ==== 
+
+Meeting will be held at [[https://chat.hyperledger.org/channel/fabric-sdk-py|rocketchat]] at 11AM (GMT+8).
+
+=== Agenda ===
+  * [[ https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85 | Jira board ]] status (chang will sync). 
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py | Patchset]] for review. 
+  * MVP remaining tasks discussion (kai will sync, 1768 by @lafenicecc and 1769 by @grapebaba).
+  * Test coverage functionality enhancement (Chao Li will sync)
+    * recent code complaining unsupported option --cov, to fix
+  * E2E test (Ray Chen will sync)
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]] is publicly available.
+  * Other issues
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Baohua Yang 
+  * Kai Chen
+  * Ray Chen
+  * Wei Hu
+  * Chang Chen
+  * Chao Li
+
+
+=== Log ===
+
+baohua 11:00 AM
+OK, meeting start
+Today's agenda is at https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20170414
+Item #1: Jira board status (chang will sync).
+would u like to sync @lafenicecc
+
+lafenicecc 11:00 AM
+ok
+FAB-2871 e2e test is ongoing.
+Ray has a patch to be reviewed
+
+ray 11:01 AM
+that's a WIP patch
+
+lafenicecc 11:02 AM
+OK~
+FAB-3032 (about update images to 0.8.8 version) can be marked done? @camelbeck
+
+camelbeck 11:02 AM
+No, I have done some investigation on it, but still not finished it.
+
+lafenicecc 11:03 AM
+A recent patch already did that 😁
+Now the ci is using 0.8.8
+
+camelbeck 11:03 AM
+Yes, I saw it
+So this item can be marked DONE?
+
+lafenicecc 11:04 AM
+I suppose so
+
+camelbeck 11:04 AM
+OK
+
+lafenicecc 11:04 AM
+And MVP (FAB-1768 and 1769) is still ongoing
+These are the working tasks for now @baohua
+
+baohua 11:05 AM
+thanks for the sync, chang, and great progress @ray @camelbeck
+by the way, you can explain what does WIP (wait in proposal) means this time @ray
+
+camelbeck 11:06 AM
+👏
+
+baohua 11:06 AM
+Just in case 🙂
+i may make wrong explanation 😞
+
+ray 11:06 AM
+work in progress 😉
+
+lafenicecc 11:06 AM
+Work in Progress? to my understanding 🙂
+
+baohua 11:07 AM
+so in this status, is it possible to open to review?
+
+grapebaba 11:08 AM
+😅
+
+ray 11:08 AM
+I designed the module structure, but not ready for code review right now. Wei and me just synced and both were busy this week. I will try to make some progress this weekend
+👍 1  
+
+baohua 11:09 AM
+thanks, ray! that's nice usage of the gerrit tool
+@grapebaba aha, u're back here now
+
+grapebaba 11:09 AM
+a little late
+
+baohua 11:09 AM
+OK, item#2: Patchset for review.
+https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py
+Everyone pls help review all open patchsets
+and make necessary discussions and helps, thanks!
+
+lafenicecc 11:10 AM
+https://gerrit.hyperledger.org/r/#/c/6181
+Any updates for this?
+
+baohua 11:11 AM
+I suppose not
+long time not seen david
+@lafenicecc would u like to touch the author to ask his opinion?
+
+lafenicecc 11:12 AM
+OK, I'll do that
+
+baohua 11:12 AM
+Thanks
+Item #3: MVP remaining tasks discussion (kai will sync, 1768 by @lafenicecc and 1769 by @grapebaba).
+How's that going?
+
+grapebaba 11:13 AM
+will submit a patch today or next Monday
+👍 1  
+for 1769
+
+baohua 11:13 AM
+great! that's big stone on the road!
+
+grapebaba 11:14 AM
+1768 should be updated done
+
+lafenicecc 11:14 AM
+Sure
+waiting for grapebaba's new patch.. RxPy does have a learning curve for me..
+
+baohua 11:15 AM
+yeap, let's keep close collaboration, and make the mvp done soon. fabric 1.0's features will be frozen this month. so there will be no big change later.
+
+grapebaba 11:16 AM
+Rxpy have little document, and I suggest we can refer to RxJS
+
+lafenicecc 11:16 AM
+Thanks
+
+baohua 11:16 AM
+thanks! and then we can have the e2e test done @ray , before the announcement of supporting fabric 1.0 🙂
+OK, item #4: Test coverage functionality enhancement (Chao Li will sync)
+recent code complaining unsupported option –cov, to fix
+@camelbeck have u met the problem?
+
+camelbeck 11:17 AM
+Actually not
+I will try to find the reason for this issue ASAP.
+
+baohua 11:17 AM
+what py version are u using?
+
+lafenicecc 11:17 AM
+I met that problem too
+
+camelbeck 11:17 AM
+2.7
+
+baohua 11:17 AM
+strange, as the ci does not complain
+
+grapebaba 11:17 AM
+make clean
+
+baohua 11:17 AM
+it should be ok for py 2.7
+yeap, make clean before the test
+
+camelbeck 11:18 AM
+@grapebaba I will have another try later
+
+baohua 11:18 AM
+pls help track this issue @lafenicecc maybe u can create a bug in jira and assign to chao
+
+grapebaba 11:18 AM
+after make clean
+
+lafenicecc 11:18 AM
+OK!
+
+grapebaba 11:18 AM
+i don't have problem now
+
+camelbeck 11:19 AM
+so any suggestions for this issue @grapebaba
+
+baohua 11:19 AM
+anyway, let's track on jira and make sure the situation.
+
+lafenicecc 11:19 AM
+File Uploaded: Clipboard  
+ 
+
+camelbeck 11:19 AM
+thanks @lafenicecc
+
+lafenicecc 11:20 AM
+I haven't try make clean first
+
+baohua 11:20 AM
+OK, item #5: E2E test (Ray Chen will sync), i guess u have updated, any more comments? @ray
+
+grapebaba 11:21 AM
+i suspect tox cache
+
+camelbeck 11:21 AM
+OK, I will do some further investigation for this issue.
+
+ray 11:22 AM
+@bauhua no extra info
+
+baohua 11:22 AM
+OK
+that's the main agenda, so any more issues to discuss today?
+
+lafenicecc 11:23 AM
+Sorry I missed something in the jira board. I notice Jim Zhang created a issue for all sdk projects
+FAB-3081, might be a reminding: Remove /api/v1/cfssl prefix on fabric-ca-server endpoints
+https://jira.hyperledger.org/browse/FAB-3081
+Please notice this
+
+baohua 11:24 AM
+aha, big change!
+  
+that may be why install fails sometime, thanks for pointing-out @lafenicecc
+
+lafenicecc 11:24 AM
+For example, change /api/v1/cfssl/enroll to /enroll. This is true for all REST URLs to fabric-ca-server. Support for the /api/v1/cfssl prefixed routes will be removed soon.
+
+baohua 11:25 AM
+pls also notice this @grapebaba may change soon
+OK, any more issues?
+
+grapebaba 11:26 AM
+ok
+
+baohua 11:26 AM
+OK, if there's no more topics, will end the meeting.
+
+grapebaba 11:26 AM
+👏
+
+baohua 11:26 AM 
+Thanks every attendee, have a nice weekend!
+
+lafenicecc 11:27 AM
+:woo:
+
+camelbeck 11:27 AM
+👏

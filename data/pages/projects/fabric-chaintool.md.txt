@@ -1,0 +1,52 @@
+# Fabric Chaintool
+
+## Status
+
+This project is [Active](/community:project-lifecycle#active) 
+
+## Description
+
+Chaintool is tooling to assist in various phases of [Hyperledger Fabric](/projects/fabric.md) chaincode development, such as compilation, test, packaging, and deployment. A chaincode application developer may express the programmatic interface to their application in a high-level protobuf-like structure, and chaintool will generate:
+
+ 1. the chaincode methods stub, and 
+ 2. a chaincode archive package so the application may be deployed.
+
+## Key Characteristics
+
+Integrated with Fabric, written in Clojure
+
+## Documentation
+
+* [Main doc](https://github.com/hyperledger/fabric-chaintool/blob/master/README.md)
+
+## Project Management
+
+* [Jira](https://jira.hyperledger.org/projects/FAB)
+
+## Repository
+
+* [Gerrit](https://gerrit.hyperledger.org/r/gitweb?p=fabric-chaintool.git;a=summary) - Main repository
+* [Github](https://github.com/hyperledger/fabric-chaintool) - Read-only repository
+
+## Communication
+
+### Mailing List
+
+* [fabric@lists.hyperledger.org](mailto:fabric@lists.hyperledger.org) for general discussions ([subscribe](https://lists.hyperledger.org/g/fabric) - [read the archives](http://lists.hyperledger.org/g/fabric/messages))
+
+### Slack (for questions and ephemeral discussions)
+
+* [#fabric-chaintool](https://hyperledgerproject.slack.com/archives/fabric-chaintool) for general questions
+
+## Meeting
+
+* Discussions are conducted on the mailing list to allow for worldwide participation.
+
+## Related Pages
+
+* [Fabric](projects/fabric.md)
+
+## History
+
+* [Proposed by Gregory Haskins (LSEG), Eric Baur (LSEG), and Muralidharan Srinivasan, IBM](https://docs.google.com/document/d/1CeUpHt9tHhwuQtBcmXMHBIQJ6XnkmU733zimvuyXkZo) 
+* [Approved by the TSC on June 16, 2016](https://lists.hyperledger.org/g/tsc/message/192)

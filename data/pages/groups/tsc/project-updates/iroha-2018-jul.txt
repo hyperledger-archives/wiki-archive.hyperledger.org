@@ -1,0 +1,70 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Iroha [[https://github.com/hyperledger/iroha]] — a distributed ledger technology platform, written in C++.
+
+===== Project Health =====
+Since last report, Iroha was released twice with beta-2 and beta-3 versions.
+Each release brought improvements of stability, performance, documentation, and API fixes.
+
+Community management process was improved with an introduction of [[https://github.com/soramitsu/nakayoshi]] Nakayoshi chatbot, connecting Rocketchat, telegram, and gitter.
+Also, #IrohaWeekly updates helped to attract more people to contribute. 
+Our Hyperledger intern made some progress with a design of UTXO model, yet has not contributed to the codebase directly. We are looking forward to seeing code contribution.
+
+Final release scope was increased and it appears so far that RC of Iroha v1.0 will be ready in Q4 2018.
+
+===== Issues =====
+The scope of the project has changed as we had to improve stability and API, with respect to a degree of change requests from our community.
+We still have to improve the openness of the project and diversity of maintainers, as well as the knowledge base of Hyperledger about Iroha and how it compares to the rest of the projects in Hyperledger greenhouse.
+Design decisions and engineering process should become more public and available to a wider range of contributors.
+
+===== Releases =====
+
+The second beta release included docker container improvements, Integration Test Framework improvements, partial Windows support, client libraries, a ton of fixes and improvements: [[https://github.com/hyperledger/iroha/releases/tag/v1.0.0_beta-2]]
+
+
+The third beta release included block streaming API (which might allow us to integrate with Hyperledger Explorer in the future), awesome implementation of multisignature accounts support, documents, CI, and more fixes: [[https://github.com/hyperledger/iroha/releases/tag/v1.0.0_beta-3]]
+
+Next release will include small API adjustments, more tests, fuzzing library, substantially improved throughput performance of Iroha.
+
+According to the project roadmap, the final release is in Q4 2018.
+
+===== Overall Activity in the Past Quarter =====
+Project mailing lists are used for weekly progress reports (#IrohaWeekly), chat channels are merged together and used actively to answer questions of curious contributors, report the progress of Iroha project.
+The remaining scope of the project includes:
+  * Network testing Framework
+  * Byzantine Fault Tolerant ordering service
+  * Reaching throughput objectives (up to 1000tx/s)
+  * Genesis block generation tool
+  * Iroha CLI tool
+  * Peer removal from the network
+  * YAC consensus documentation and experiments
+  * Peer initialization 
+  * Status streaming testing
+  * Log queries errors to an output of peers
+  * Replay attacks solution for queries and transactions
+  * Implementation of reject case in YAC consensus — as soon as empty blocks are not written in the ledger
+  * Iroha online sandbox
+  * Load testing and performance regressions (preferably on Hyperledger Caliper)
+  * Block explorer (preferably on Hyperledger Explorer)
+  * Integration with the Hyperledger Cello (Cello is Fabric specific, needs more open architecture to support other platforms including Iroha)
+
+===== Current Plans =====
+The goal now is to:
+  - Gather more people on contributors and use case partners level in the project
+  - Reach Quality Gate objectives of API and code coverage
+  - Increase diversity of maintainers
+  - Continue with time-based releases until release candidate — and then releasing final version after stability period
+
+===== Maintainer Diversity =====
+Since previous report, the list of maintainers has stayed the same: [[https://github.com/hyperledger/iroha/blob/master/MAINTAINERS.md]]
+
+
+===== Contributor Diversity =====
+New contributors to the codebase:[[https://github.com/uditha-atukorala]]
+[[https://github.com/eduardonunesp]]
+[[https://github.com/ZeekHuge]]
+[[https://github.com/onsjkm]]
+[[https://github.com/walkero]]
+
+Other contributors were active in GitHub issues and Rocketchat.

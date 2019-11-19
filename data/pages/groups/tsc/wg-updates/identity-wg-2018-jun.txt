@@ -1,0 +1,33 @@
+====== Hyperledger Working Group Update ======
+
+===== Identity Working Group =====
+June 2018
+
+===== Working Group Health =====
+The Working Group holds regular audio conferences every two weeks, we have been stable on zoom. The timing of the call is not ideal for worldwide participation; although this is an issue shared with most other working groups. We have a revolving group of attendees of around 15-20 with a core group of 8-10. There are at least 2-3 new attendees every session. Lots of discussion takes place on Identity and Blockchain Identity in particular. Progress on the paper has picked up with volunteer and work-schedule. Looking for ways to improve participation from specific projects as well as get to the finish line in terms of the paper.
+
+
+===== Issues =====
+A regular cadence on editing the paper with volunteers personally responsible for small sections has yielded better results. We need Identity experts from incubated DLTs (Fabric, Indy, Sawtooth, Iroha, Quilt, Burrow) to contribute, especially on current practice. The work product aspect of the working groups is always a challenge as the work is purely voluntary and tied to producing comprehensive text. Meeting minutes need rotating scribes- we are looking for scribe volunteers.
+
+
+===== Overall Activity in the Past Quarter =====
+There are 289 members in the chat channel and similar numbers on the mailing list. The calls are the most active part of participation, with the chat channel and the mailing list being lightly used in the interim. We have missed no calls last quarter. The main work product is the Identity paper, although the meeting notes and the audio recordings are available to all who are interested in the activities of the working group. In the last few months, we collaborated on the GDPR paper and the Biometrics paper, the GDPR paper is going live.  We are working to get use cases on Identity and the functional requirements for Identity in Blockchain into the paper. It is suggested to target the paper to two sections. We also actively collaborate with the architecture working group on Privacy issues as well as with System Identity and the paper connected to that.
+
+Another activity of the group is to be a launching pad for new work connected to Identity in DLTs, GDPR itself went live on May 28th 2018 and we had recap of immediate effects from people on the ground in Europe. We also collaborated on creating an EDR(Employee Data Records) RFI from the US Federal Government HCM (Human Capital management). This RFI will be an informational RFI from the Hyperledger Foundation to educate the Federal Government agencies regarding the possibilities of Blockchain on Identity And Access Management. This RFI was submitted yesterday. As many of our members took part in the zkProofs standardization workshop, we will introduce that knowledge into the privacy part of of Individual Identities. We continue to have presentations on IIW, RWOT, W3C group on Verifiable Claims, Canadian & European BC initiatives, European regulations on Identity and other related topics.
+
+
+
+
+===== Planned Work Products =====
+The paper will be divided into two parts, with the draft version of the initial paper to be produced by the end of the next quarter. The second part will be more technical with Interface definitions  We will produce a directory of all those who wish to be listed, with short bios. We will also be a forum for interchange of ideas regarding Identity on Blockchains.
+
+
+===== Participant Diversity =====
+The Working Group is healthy, with participation from groups outside the normal channels of Hyperledger engagement.We have practitioners from Technical companies, DLT companies, Governments, the Legal profession, Financial Enterprises, Healthcare and Students who join the call.
+
+
+===== Additional Information =====
+Acknowledgements are due to the most active participants and many of the regulars who have moved the Agenda forward. Please participate in this Working Group to engage on real world challenges with Identity on the Blockchain.
+
+ 

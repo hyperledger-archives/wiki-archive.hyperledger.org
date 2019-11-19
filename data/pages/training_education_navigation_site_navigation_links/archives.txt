@@ -1,0 +1,24 @@
+[[https://docs.google.com/spreadsheets/d/1Dbfwwcn-QhnpFHxsgs-KraSqDKdNMv1OJrsK3AbQ2fw/edit#gid=0 |  Potential Work Group Tasks  ]]
+[[https://docs.google.com/spreadsheets/d/1Dbfwwcn-QhnpFHxsgs-KraSqDKdNMv1OJrsK3AbQ2fw/edit#gid=0 |{{wiki:training-small.png?20}}]]  
+potential projects and who want to learn and contribute to them
+
+
+[[https://lists.hyperledger.org/g/training-and-education-wg/messages|  Past Email Archive  ]]
+[[https://lists.hyperledger.org/g/training-and-education-wg/messages|{{groups:training-and-education:archives-small.png?20}}]]  
+Archive of all email that was sent to group and their replies  
+
+[[https://docs.google.com/spreadsheets/d/1UeiCjyu-AevDmmPoa5CFsE9if6BmFdXRxST_laRbTzk/edit#gid=1617474899|  Style Guide  ]]
+[[https://docs.google.com/spreadsheets/d/1UeiCjyu-AevDmmPoa5CFsE9if6BmFdXRxST_laRbTzk/edit#gid=1617474899|{{groups:training-and-education:googledocs-small.png?20}}]]  
+General style guide to follow when creating training material  
+
+[[mailto:training-and-education-wg@lists.hyperledger.org|  Send Email To All  ]]
+[[mailto:training-and-education-wg@lists.hyperledger.org|{{groups:training-and-education:mail-small.png?20}}]]  
+Opens email client to send email to everybody in this work group
+
+[[https://wiki.hyperledger.org/groups/training-and-education/training-and-education-wg|  Wiki Group Home Page  ]]
+[[https://wiki.hyperledger.org/groups/training-and-education/training-and-education-wg|{{groups:training-and-education:wiki-small.png?20}}]]
+Work groups primary home landing Wiki page
+
+[[https://docs.google.com/document/d/1V2X9A2yTdHNbI1v3itspjisWashMOabHXWbxMEZFs90/edit#heading=h.l1y19hynvajg|  Group Charter  ]]
+[[https://docs.google.com/document/d/1V2X9A2yTdHNbI1v3itspjisWashMOabHXWbxMEZFs90/edit#heading=h.l1y19hynvajg|{{groups:training-and-education:hl-small.png?20}}]]
+Overview information/links about this workgroup including important license links 

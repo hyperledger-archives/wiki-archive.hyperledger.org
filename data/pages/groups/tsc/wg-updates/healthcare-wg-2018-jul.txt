@@ -1,0 +1,67 @@
+====== Hyperledger Working Group Update ======
+
+===== Working Group =====
+
+Healthcare Working Group
+
+===== Working Group Health =====
+
+After evolving the Healthcare Workgroup earlier this year our plan to develop sub-groups and produce work product has made excellent headway. Three active subgroups have formed to examine Patient-centric, Payor/Insurance, and Electronic Health Record use cases. 
+
+The Working Group recently hosted a Gartner Research Director, [[https://drive.google.com/open?id=1BSTYkDnfAC6kBuwb6LrKzOOjY1Ntn4rJ|Homan Farahmand]], who focuses on blockchain in healthcare, who share his research with the group, Audio, [[https://drive.google.com/file/d/134M6SwmdorNfaYr5oEeqz_HTyTJCWPjT/view?usp=sharing|video]], and transcript available on our public Google Drive archive: [[https://drive.google.com/drive/folders/132d2z4fZF19FvTr3WWiM5WSzbimqqE6b?usp=sharing]]
+
+===== Issues =====
+
+There are not any major issues with the group overall, however maintaining an international focus is a challenge because so much attention is paid to the US system around the world. We continue to work on collaboration internal to our subgroups and other HL Working Groups and projects. We could be focusing more on recruiting but summer is hard for that and we are organizing some "protein" to attract more participants.
+
+===== Overall Activity in the Past Quarter =====
+
+The healthcare Working Group has regular, bi-weekly, group-wide meetings. Subgroups have meetings on a similar cadence to organize their activity. The subgroups have also been scheduling ad-hoc meetings as necessary. Quick guesstimate says about a 3X increase in collaboration activity via meeting activity increase.
+
+**Here's a sample of the Patient Subgroup's work:
+**
+At a high-level, reviewed our Connecting Patient Data Across Silos for Diagnostics and Treatment use case and how to engage with a build while not duplicating the work of another Hyperledger partner: Medicalchain
+
+Decided that the donor milk use case and POC is what the patient/member subgroup would like to pursue as top priority, and to track to the Hyperledger Global Forum timeline for completion.
+
+[[https://wiki.hyperledger.org/groups/healthcare/donor_milk_transparency_and_traceability
+]]
+Initial architecture documentation for the subgroup to review to be posted to the wiki when it is received
+
+[[https://wiki.hyperledger.org/groups/healthcare/connecting_health_data_across_silos_for_diagnostics_and_treatment
+]]
+Upcoming meeting agenda: review any updates to use case, timeline, and engagement from the developer and identity working groups (Vipin Bharatham (@vipinb) who leads the Identity working group has offered to join a future meeting to coordinate. 
+
+HL Global Forum Submission:
+[[https://wiki.hyperledger.org/groups/healthcare/connecting_health_data_across_silos_for_diagnostics_and_treatment
+]]
+
+
+----
+
+
+**Here's a sample of the Payor Subgroup's work:
+**  * Going through use cases
+  * Structuring a white paper
+  * Use Cases:
+  * Steven Elliott from Cognitive Medicine to share use case. 
+  * Request sent to Tony Little of Optum for presenting the Provider Data Use Case
+
+----
+
+
+**The EMR Subgroup's had it's first scheduled meeting this week.
+**
+===== Planned Work Products =====
+
+Continuing to refine plans, grow the subgroups, whitepapers, nurture potential code donations/contributions.
+
+===== Participant Diversity =====
+
+We have had a number of Workgroup members step up an take on organizing and moving things forward, collaboratively. I have spoken to at least one lead about continuing to evolve the group to ensure it's sustainability. As we have 3 subgroups, and I expect more to form, we'll continue to focus on this area. Healthcare can also encourage siloed thinking, and a habituation towards centralization. So attention to coaching opportunities is where some focus will remain.
+
+
+===== Additional Information =====
+//**Optional** Please provide any additional information that you feel would be useful for TSC to be aware.//
+
+ 

@@ -1,0 +1,10 @@
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1547041371;s:8:"modified";i:1547149487;}s:7:"creator";s:12:"Chris Cullin";s:4:"user";s:11:"ChrisCullin";s:11:"last_change";a:7:{s:4:"date";i:1547149487;s:2:"ip";s:14:"198.49.164.167";s:4:"type";s:1:"E";s:2:"id";s:24:"community:meetups:groups";s:4:"user";s:11:"maxgaldinus";s:3:"sum";s:12:"[Australia] ";s:5:"extra";s:0:"";}s:11:"contributor";a:2:{s:11:"ChrisCullin";s:12:"Chris Cullin";s:11:"maxgaldinus";s:16:"Fernando GALDINO";}s:5:"title";s:48:"Wiki pages for meetup groups (sorted by country)";s:11:"description";a:2:{s:15:"tableofcontents";a:3:{i:0;a:4:{s:3:"hid";s:46:"wiki_pages_for_meetup_groups_sorted_by_country";s:5:"title";s:48:"Wiki pages for meetup groups (sorted by country)";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:9:"australia";s:5:"title";s:9:"Australia";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:2;a:4:{s:3:"hid";s:6:"brazil";s:5:"title";s:6:"Brazil";s:4:"type";s:2:"ul";s:5:"level";i:2;}}s:8:"abstract";s:109:"Wiki pages for meetup groups (sorted by country)
+
+Australia
+
+	*  Melbourne
+	*  Sydney
+
+Brazil
+
+	*  São Paulo";}s:8:"relation";a:2:{s:10:"references";a:3:{s:44:"community:meetups:groups:australia:melbourne";b:1;s:41:"community:meetups:groups:australia:sydney";b:0;s:40:"community:meetups:groups:brazil:saopaulo";b:1;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1547041371;s:8:"modified";i:1547149487;}s:7:"creator";s:12:"Chris Cullin";s:4:"user";s:11:"ChrisCullin";s:11:"last_change";a:7:{s:4:"date";i:1547149487;s:2:"ip";s:14:"198.49.164.167";s:4:"type";s:1:"E";s:2:"id";s:24:"community:meetups:groups";s:4:"user";s:11:"maxgaldinus";s:3:"sum";s:12:"[Australia] ";s:5:"extra";s:0:"";}s:11:"contributor";a:2:{s:11:"ChrisCullin";s:12:"Chris Cullin";s:11:"maxgaldinus";s:16:"Fernando GALDINO";}}}

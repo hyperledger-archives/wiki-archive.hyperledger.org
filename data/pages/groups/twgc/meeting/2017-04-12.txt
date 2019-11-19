@@ -1,0 +1,74 @@
+===== TWG China Meeting =====
+
+==== Date ====
+10AM ~ 11AM, 2017-04-12, GMT+8
+
+Phone Number:
+  * 800-820-0027 (toll free) 
+  * 400-821-0751 (caller paid)
+Passcode: 71173794
+
+==== Attendee ====
+
+Attendee, pls add ur name here before the meeting.
+
+  * Baohua Yang
+  * Yin Cao @ Energy Blockchain Labs
+  * Kelvin @ Energy Blockchain Labs
+  * Ray Chen
+  * Wenjie Xie @ WutongTree
+  * Linsheng Yu @ WutongTree
+  * Yaoguo Jiang
+  * Scott Long
+  * Kai Chen
+  * Zerppen Xu@WutongTree
+  * Wei Hu
+
+
+==== Agenda ====
+  - TSC meeting sync (baohua, charles, victor)
+    - new projects: [[https://docs.google.com/document/d/1FkE-dhV4QXrbckTg_ub8TBQDUa0G5UD-Gfggo7lqNko/edit|Burrow]] (permissionable smart contract machine) was accepted.
+  - Development and innovation sync (Yaoguo and Ray Chen)
+    - code development on projects
+    - mail-list, rocketchat activities
+    - monthly active contributors plan discussion
+    - [[https://wiki.hyperledger.org/groups/twgc/team_di | Deploy&Operation guideline drafting]]
+  - Scenario and Collaboration (Yin Cao)
+    - [[https://wiki.hyperledger.org/groups/twgc/team_cs|case book ]] design and sharing
+  - i18n and education work status (Kewei)
+    - Have some [[https://wiki.hyperledger.org/groups/twgc/team_ie|docs]] already.
+  - Event organization (Zhou and Zhoudong)
+    - workshop proposal sharing
+  - other issues
+    - Welcome new volunteer: Wenjie Xie	from WuTongTree
+
+==== Minute ====
+  - Welcome new volunteer
+    - Wenjie Xie from WuTongTree
+    - Documentation and Java SDK development (keep close communication with sdk dev team)
+  - TSC meeting sync (baohua, charles, victor)
+    - New projects: [[https://docs.google.com/document/d/1FkE-dhV4QXrbckTg_ub8TBQDUa0G5UD-Gfggo7lqNko/edit|Burrow]] (permissionable smart contract machine) was accepted.
+    - [[https://www.regonline.com/hyperledgerhackfestapril2017|Hackfest at East coast]].
+  - Development and innovation sync (Yaoguo and Ray Chen)
+    - code development on projects
+      - fabric: 50+, sdk: 10+, stl: 110+, iroha: development branch is active, cello: 7
+    - mail-list, rocketchat activities
+      - 8 mails, 50 msgs on env setup
+    - monthly active contributors plan discussion
+      - **TODO: Ray will help drive the active developer tracking project.**
+    - [[ https://wiki.hyperledger.org/groups/twgc/team_di | Deploy&Operation guideline drafting ]]
+  - Scenario and Collaboration (Yin Cao)
+    - [[https://wiki.hyperledger.org/groups/twgc/team_cs | case book]] design and sharing
+      - **TODO: kelven share info with mail-list**
+  - i18n and education work status (Kewei)
+    - Have some [[https://wiki.hyperledger.org/groups/twgc/team_ie|docs]] already.
+    - **TODO: linsheng and kewei will help improve the organization and share the info in maillist, to encourage more volunteers.**
+    - linsheng: wiki and rocketchat language problem: we support both English and Chinese.
+  - Event organization (Zhou and Zhoudong)
+    - **TODO: workshop proposal sharing**
+  - other issues
+    - scott: julian will give MIIT presentation, call for user cases. 
+      - **Mail to Scott: slong@linuxfoundation.org**.
+    - Zhengping: Who is using java sdk?
+      - Kai Chen is in the sdk dev team.
+      - Can ask in mail-list, too

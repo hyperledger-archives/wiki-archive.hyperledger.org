@@ -1,0 +1,53 @@
+====== Frequently Asked Questions (FAQ) ======
+
+These are derived in part from threads on mailing lists and chat channels.
+
+===== What is the Hyperledger project? Why was it created? =====
+
+  * See the [[https://www.hyperledger.org/|Hyperledger homepage]]
+
+===== How do I connect with the technical community? =====
+
+  * Check out the [[https://www.hyperledger.org/community|Hyperledger Community Page]] and [[community:participating|Participating in the Community]]
+
+===== Is there a review group for use cases? =====
+
+  * Yes. Take a look at the [[/groups/requirements/requirements-wg|Requirements Working Group's page]]
+
+===== Where can I get more general background? =====
+
+  * Capital Markets Audience - [[http://www.bloomberg.com/news/videos/2016-01-21/blythe-masters-raises-cash-to-reshape-finance-industry | Bloomberg TV interviews Blythe Masters of DAH]]
+  * Identity management perspective - Chris Allen on [[http://www.slideshare.net/ChristopherA/identity-of-the-blockchain-perils-and-promise | Identity and Blockchain]]
+  * While not the same as blockchain / distributed ledger, Bitcoin is a useful point of comparison - Scott Driscoll on [[http://www.imponderablethings.com/2013/07/how-bitcoin-works-under-hood.html | How Bitcoin Works Under the Hood]]
+  * General Audience - IBM on [[http://www.ibm.com/blockchain/what_is_blockchain.html | What is Blockchain?]]
+
+===== Are the different projects under the Hyperledger umbrella independent of each other? Their functionally seems like it overlaps.  =====
+  * The projects are independent of one another.
+  * The projects do have overlapping functionality.
+  * See [[https://www.hyperledger.org/blog/2016/09/13/meet-hyperledger-an-umbrella-for-open-source-blockchain-smart-contract-technologies| Meet Hyperledger: An “Umbrella” for Open Source Blockchain & Smart Contract Technologies]] for further details on why this is.
+
+===== Can the different projects under the Hyperledger umbrella be integrated together?  =====
+
+  * There are some folks looking at and interested in seeing what that would entail. For example, could we get Sawtooth's POET running on the Fabric? Could we get PBFT running on Sawtooth? Nothing formal has been proposed at the time of writing.
+  * In addition, the business logic layers are also complementary. Fabric uses Chaincode in Docker containers. Sawtooth uses Transaction Families deployed to the validators. Cross-pollinating those layers could also be interesting.
+
+===== What different purposes do Sawtooth and Fabric serve? =====
+
+  * Sawtooth is a modular blockchain built for scalability and to support pluggable components at each layer, e.g. consensus.  It has a few novel aspects including the default consensus (PoET) and the transaction family concept in the business logic layer (smart contracts if you like that term).
+  * Fabric is also modular and includes an experimental consensus (sieve) and transaction logic deployed on chain executed in dockers (chaincode).
+
+===== Can you point me to some relevant industry whitepapers and blogs? =====
+
+  * Vitalik Buterin's [[https://www.weusecoins.com/assets/pdf/library/Ethereum_white_paper-a_next_generation_smart_contract_and_decentralized_application_platform-vitalik-buterin.pdf | Ethereum White Paper - A NEXT GENERATION SMART CONTRACT & DECENTRALIZED APPLICATION PLATFORM]].
+  * SWIFT [[https://www.swift.com/file/25491/download?token=jO0oQXc5 | Position Paper on distributed ledger technologies]]
+  * SWIFT Institute working paper on [[http://www.swiftinstitute.org/wp-content/uploads/2016/05/The-Impact-and-Potential-of-Blockchain-on-the-Securities-Transaction-Lifecycle_Mainelli-and-Milne-FINAL.pdf | The Impact and Potential of Blockchain
+on the Securities Transaction Lifecycle]]
+  * DTCC whitepaper on [[http://www.dtcc.com/news/2016/january/25/blockchain-white-paper | Embracing Disruption]]. Will need to provide contact information in order to download.
+  * United States Postal Service Office of Inspector General whitepaper on [[https://www.uspsoig.gov/sites/default/files/document-library-files/2016/RARC-WP-16-001.pdf | Blockchain Technology: Possibilities for the U.S. Postal Service]]
+  * Richard Glendal Brown of R3's [[https://gendal.me/ | blog on "Thoughts on the future of finance"]]
+  * Marley Grey of Microsoft on [[https://github.com/Azure/azure-blockchain-projects/blob/master/bletchley/bletchley-whitepaper.md | "Introducing Project Bletchley"]]
+  * Marco A. Santori of Pillsbury Winthrop on [[http://global.blogs.delaware.gov/2016/06/10/delaware-to-create-distributed-ledger-based-share-ownership-structure-as-part-of-blockchain-initiative/ | "Governor Jack Markell announces Delaware Blockchain Initiative"]]
+  * Ian Grigg on [[http://iang.org/papers/triple_entry.html | Triple Entry Accounting ]]
+
+===== Can you point me to any POCs? =====
+  * [[https://www.hyperledger.org/industries/finance#poc_tracker|Finance POC Tracker]]

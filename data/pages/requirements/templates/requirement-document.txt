@@ -1,0 +1,115 @@
+====== Requirements Document Template ======
+
+===== Overview =====
+
+> The overview section should illustrate the purpose of the requirement document. It should contain info such as what is the goal of the document, what would be the content of the document and what is the relationship with other HLP documents.
+
+===== Use Cases =====
+
+> The use cases section should contain several subsections that incorporates the existing use case contributions, and categorize them in a coarse grained way so that it would not looks too trivial for readers. 
+
+==== Financial Use Cases ====
+
+=== Use Case 1 ===
+> We will not put the full text of the use case - perhaps title and link
+
+=== Use Case N ===
+
+==== IoT Use Cases ====
+
+=== Use Case 1 ===
+=== Use Case N ===
+
+==== XXX Use Cases ====
+
+=== Use Case 1 ===
+=== Use Case N ===
+
+===== Requirements =====
+
+> The requirement section should contain subsections that describes:
+  * General requirements from end-user's point of view
+  * Tech requirements from dev's point of view
+  * Deploy requirements from service provider's point of view.
+
+==== User Requirements ====
+
+> user requirements should be derived from the use cases
+
+==== Featured Requirements ====
+
+> We should organize into a taxonomy. Security (identity, integrity, privacy, permissioning, ...
+
+  - Identity and Auditability
+  - Private transactions and confidential contracts
+  - Modular consensus
+  - Smart Contracts
+  - Performance and Scalability
+
+==== Privacy and Confidentiality Requirements ====
+
+=== integrity of smart contract ===
+Blockchain should provide a mechanism by which a smart contract can prove it executes exactly the code that was deployed.
+> A smart contract executes its code correctly and its results agree with the rest of the nodes however the code may be compromised to access confidential data. Log statements that don't interfere with the code's execution print out decrypted data from inputs meant to be confidential.  
+
+=== segregation of ledger data at deployment ===
+Members should be able to maintain a ledger and specify at deploy time who has access to its data.
+> Two members deploy a smart contract that represents a financial agreement. The contract runs on a blockchain orchestrating movements of money such as payment of coupon and may hold secret keys to a payment gateway. Only the parties to the contract should be able to decrypt the details of the contract.
+
+=== segregation of ledger data at run time ===
+Members should be able to specify at run time who has access to their ledger.
+> A member deploys his personal data as a smart contract on a KYC blockchain. When applying for a new bank account he authorizes the bank to access his data in a smart contract. When he closes his account he revokes bank access to his contract.
+
+=== pseudonymity of members ===
+Members should be able to invoke smart contracts without disclosing 
+their identity. Yet there must be a mechanism to trace back the invoker to the member for audit or within a smart contract.
+> Example: HIPAA the health information privacy rule covers the case where patients join a drug research study. Doctors conducting the study keep a paper record in their own files of patients receiving the drug and those getting a placebo. Studies often cover multiple universities and institutions and HIPPA requires patients are identified by pseudonym for means of contacting patients to collect and report efficacy findings to FDA.         
+
+=== identity-based access ===
+Smart contracts should be able to determine identities of invoking members.
+> Example?
+
+=== role-based access ===
+Smart contracts should be able to determine attributes of invoking members such as roles.
+> Example?
+
+=== selective anonymity of members ===
+Members should be able to select smart contracts and nodes who are //not// able to find out their identity. 
+> Members in a trading network submit their payment requests to a smart contract who // nets // payments: minimizes the total number of payments by canceling out mutual obligations. These payments between members are confidential and the smart contract should be able to run the netting algo without being able to find out identities who invoke it. 
+
+=== selective execution of smart contract ===
+Blockchain nodes need to decrypt transaction input and ledger data in order to execute a smart contract. 
+Members would like to restrict the execution to trusted nodes to protect their data.
+> Two members deploy a smart contract that represents a financial agreement. The contract runs on a blockchain orchestrating movements of money such as payment of coupon and may hold secret keys to a payment gateway. Only the parties to the contract should be able to decrypt the details of the contract.
+
+=== selective execution of a method of a smart contract ===
+A smart contract may expose a method which to be invoked by a specified member only.
+> A trading network consists of financial agreements deployed as smart contracts. These contracts are restricted to be invoked by counterparties. However, in case of a counterparty default a member with a special role of organizer can invoke a method of the contract to give control of itself to the organizer, who will execute a proper workflow to // unwind // this agreement.
+
+==== Financial Requirements ====
+
+==== IoT Requirements ====
+
+==== XXX Requirements ====
+
+===== Development Requirements =====
+> Development requirements would document detailed tech and dev related requirements
+
+==== Membership Requirements ====
+
+==== Blockchain Requirements ====
+
+  - Consensus
+  - Ledger Storage
+  - Blockchain API
+
+ ==== Smart Contract Requirements ====
+
+===== Service Provider Requirements =====
+
+==== Infrastructure Requirements ====
+
+> Infra requirements documents compute, storage, networking requirements for cloud infrastructure that runs HLP to provide either private or public ledger service
+
+  * public cloud
+  * private cloud

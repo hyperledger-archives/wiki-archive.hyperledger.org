@@ -1,0 +1,39 @@
+===**= Trade Finance SIG Meeting 8th January 2019 14:00 UTC** ====
+
+==== Agenda ====
+
+  - **Welcome  and opening remarks.
+**    - Reminder that the meeting is being recorded
+    - Reading of the Linux Foundation anti-trust policy
+    - Welcome to the first meeting and agenda overview
+  - **Introductions
+**    - Since this is the first meeting, there are lots of people so please keep this brief!
+      - Your name & company
+      - Your geographical location
+      - **One** thing you hope to gain from the group
+  - **Aims and Objectives for the group
+**    - Objectives for this group. **Discussion**.  
+      - What do we want this group to achieve? e.g. standards development, software development, co-authored papers 
+      - Draft Charter
+        - Volunteers to develop the Charter
+  - **Goals for the first three months**
+    - We meet on Zoom every two weeks
+    - We take a presentation from a member at each meeting
+    - We develop the Charter to reflect the Aims and Objectives
+    - We develop our Wiki into the resource that we would like to use
+  - **Administration** 
+    - Membership directory
+      - Volunteer to administer the membership directory
+      - Times and dates of Future Meetings
+        - Proposal to hold future meetings at 17:00 UTC on the following dates;
+          - 22 January 2019
+          - 5 February 2019
+          - 19 February 2019
+          - 5 March 2019
+          - 19 March 2019
+      - Wiki
+        - Volunteers to develop the wiki (a leader plus contributors)
+  - **Forward Agendas**
+    - Requests for future agenda items
+    - Presentations from members
+  - **Any other business**

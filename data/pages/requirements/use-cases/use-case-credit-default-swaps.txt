@@ -1,0 +1,5 @@
+// TBD - References to back up assertions are needed. //
+
+====== Credit Default Swaps (CDS) Use Case ======
+
+Like an insurance contract where the seller of the CDS will compensate the buyer in the event of a loan default or other credit event. CDSs are not traded on an exchange and there is no required reporting of transactions to a government agency. In addition to the basic, single-name swaps, there are basket default swaps (BDSs), index CDSs, funded CDSs (also called credit-linked notes), as well as loan-only credit default swaps (LCDS). Participants in this market currently face expensive and time consuming workflow involving replicated business logic and reconciliation among parties to the CDS transaction(s).

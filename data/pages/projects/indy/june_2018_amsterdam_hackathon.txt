@@ -1,0 +1,102 @@
+====== Hyperledger Hackfest - Amsterdam 2018 ======
+
+{{https://raw.githubusercontent.com/hyperledger/indy-node/master/collateral/logos/indy-logo.png| Hyperledger Indy Logo}}
+
+===== Introduction =====
+
+The internet was built for computers to communicate with one another, but sadly **time has revealed fundamental flaws in its design for its users’ security and privacy.**
+
+[[https://www.hyperledger.org/projects/hyperledger-indy|Hyperledger Indy]] is a project that aims to help provide a public self-sovereign identity utility for the internet. The network is based off of the ideas and specifications presented by the [[https://sovrin.org/|Sovrin Foundation]], and includes capabilities for creating, managing, and verifying your identity on the internet while remaining secure and maintaining your privacy.
+
+To learn more, read [[https://sovrin.org/wp-content/uploads/2018/03/Sovrin-Protocol-and-Token-White-Paper.pdf|Sovrin’s Whitepaper]].
+
+==== Structure of the Indy Project ====
+
+===== The Ledger =====
+
+In the Sovrin ecosystem, the ledger is a **publicly readable** but **permissioned writable** utility. Transactions are written to the ledger by the way of [[https://github.com/hyperledger/indy-node|nodes]], which maintain and serve out data from the ledger. The [[https://sovrin.org/wp-content/uploads/2018/03/Sovrin-Provisional-Trust-Framework-2017-06-28.pdf|Sovrin Trust Framework]] is the system which governs the trust between nodes and grants permission for the addition of new nodes to the network.
+
+===== Indy-SDK =====
+
+> Indy provides a software ecosystem for private, secure, and powerful identity, and the Indy SDK enables clients for it. The major artifact of the SDK is a c-callable library; there are also convenience wrappers for various programming languages and Indy CLI tool.
+
+The Indy-SDK is a good place to start to dive into the Indy project and start learning some of the concepts that have driven its development and adoption.
+
+===== Getting Started =====
+
+The [[https://github.com/hyperledger/indy-sdk/blob/master/doc/getting-started/getting-started.md|Getting Started Guide]] is a document designed to “introduce you to many of the concepts of Indy and give you some idea of what happens behind the scenes to make it all work.” It does this by presenting a realistic story about “Alice” interacting with several different institutions and providing the code to perform all these interactions.
+
+Here, we will walk through the steps to run the code portion of the “Getting Started Guide” in Python.
+
+==== Build/Install ====
+
+Before running the Getting Started Guide, we must first build or install ''%%libindy%%'' on your system.
+
+Packages are available for Ubuntu 16.04. Instructions for installing these packages can be found [[https://github.com/hyperledger/indy-sdk#ubuntu-based-distributions-ubuntu-1604|here]].
+
+Installation instructions are provided for Windows [[https://github.com/hyperledger/indy-sdk#windows|here]].
+
+For other Operating Systems, follow the build instructions linked to [[https://github.com/hyperledger/indy-sdk#how-to-build-indy-sdk-from-source|here]].
+
+If you installed ''%%libindy%%'' from source, make sure you added the directory containing ''%%libindy.so%%'' to your ''%%LD_LIBRARY_PATH%%''.
+
+==== Running the Python Getting Started Guide ====
+
+To run, ''%%libindy%%'' and Python 3.5+ must first be installed. After installing these two prerequisites, navigate to the Python sample scripts:
+
+<code>
+cd samples/python
+</code>
+=== Create Virtual Environment ===
+
+A Python virtual environment is used keep a local copy of all the package dependencies that are needed for a particular project without modifying the global packages. This keeps things cleaner and helps prevent errors.
+
+<code>
+python3 -m venv env
+source env/bin/activate
+</code>
+From this point forward, you can get the right version of Python with ''%%python%%'' and ''%%pip%%'' (no 3 required) because they now refer to the virtual environment’s copy of Python.
+
+=== Install Dependencies ===
+
+''%%pip%%'' will look in ''%%setup.py%%'' for dependencies and install them into the virtual environment from the previous step.
+
+<code>
+pip install .
+</code>
+If you have any issues installing dependencies using pip, try downgrading/upgrading to version ''%%9.0.3%%'':
+
+<code>
+pip install --upgrade pip==9.0.3
+</code>
+=== Export LD_LIBRARY_PATH ===
+
+''%%LD_LIBRARY_PATH%%'' provides the Python wrapper with the path to ''%%libindy%%'' in Rust, and is necessary for the wrapper to work properly.
+
+If you have not already added the directory containing ''%%libindy.so%%'' to your path:
+
+<code>
+export LD_LIBRARY_PATH=/<path_to_indy-sdk>/libindy/target/debug
+</code>
+=== Run the Guide ===
+
+<code>
+python -m src.main
+</code>
+===== Getting Help =====
+
+If you run into trouble following any of the steps shown here or if you’d like to join in conversations about Hyperledger Indy, join us on [[https://chat.hyperledger.org|Rocket.Chat]]! You can also log issues at [[https://jira.hyperledger.org|Hyperledger’s Jira]].
+
+You will need a Linux Foundation account to access [[https://chat.hyperledger.org|Rocket.Chat]] and [[https://jira.hyperledger.org|Jira]]. You can create a Linux Foundation account [[https://identity.linuxfoundation.org/user|here]].
+
+===== Further Reading and Useful Links =====
+
+  * [[https://docs.google.com/document/d/1giOzpTFXypJ6bAUp_6g93kYOEiNa5eWI1KeIg6wb598/edit|Sovrin Glossary]]
+  * [[https://vimeo.com/233161702|Sovrin Network at Utah Blockchain meet up video]]
+  * [[https://github.com/hyperledger/indy-sdk/blob/master/doc/getting-started/getting-started.md|Indy-SDK Getting-Started Guide]]
+  * [[https://github.com/IBM-Blockchain-Identity/indy-ssivc-tutorial|Indy-ssivc-tutorial, VON Getting Sarted Guide]]
+  * [[https://github.com/IBM-Blockchain-Identity/indy-ssivc-tutorial/raw/master/docs/video/IndyWorldVideo2.mp4|Indy-ssivc-tutorial, direct download, demo video]]
+  * [[https://wiki.hyperledger.org/projects/indy/documentation|Hyperledger Documentation]]
+  * [[https://drive.google.com/file/d/1PHAy8dMefZG9JNg87Zi33SfKkZvUvXvx/view|Agent to Agent messaging]]
+  * [[https://github.com/hyperledger/indy-agent|Reference Agent Implementations using the Sovrin Messaging Protocol]] - Under active development (pull requests and questions welcome!)
+

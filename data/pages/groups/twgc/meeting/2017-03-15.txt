@@ -1,0 +1,65 @@
+===== TWG China Meeting =====
+
+==== Date ====
+10AM ~ 11AM, 2017-03-15, GMT+8
+
+==== Attendee ====
+
+  * Baohua Yang
+  * Kewei Sun
+  * Yue ling Liang (Newell Brands)
+  * Ray Chen + Wei Hu
+  * ZhouDong Ji
+  * Zhou Xing
+  * Scott Long (LF)
+  * Lin Chen
+
+
+==== Agenda ====
+  - TSC meeting sync (baohua, charles, victor)
+    - Summer internship program
+    - Hyperledger day/hackfest at Linux Con this June
+  - mail-list, rocketchat activities sync (yaoguo and zhipeng)
+  - Community development report (Ray Chen)
+  - i18n work (kewei and zhoudong)
+    - glossary
+  - Hackathon report (zhouxing and zhoudong)
+  - other issues
+    - Sub-team discussion
+
+==== Minute ====
+  - TSC meeting sync (baohua, charles, victor)
+    - Summer internship program (cannot hire Chinese students this year)
+    - Hyperledger day/hackfest at Linux Con this June
+      - scott will be volunteer for hackfest
+  - mail-list, rocketchat activities sync (yaoguo and zhipeng)
+    - mailist: 82 subscribers, 19emails, focus on fabric v1.0 consensus/CA/orderer/channel and i18n start.
+    - rocketchat: 84users, 100+msgs, focus on fabric v1.0 setup/channel/ledger storage.
+  - Community development report (Ray Chen)
+    - blockchain-explorer 0 new patchsets;
+    - cello 1 new patchsets;
+    - **fabric 125 new patchsets**;
+    - fabric-ca 14 new patchsets;
+    - fabric-chaintools 1 new patchsets;
+    - fabric-sdk-java 19 new patchsets;
+    - fabric-sdk-node 20 new patchsets;
+    - fabric-sdk-py 4 new patchsets;
+    - **iroha 156 new patchsets**;
+    - **sawtooth-core 138 new patchsets**; **TODO**: Yanbo to add more
+  - i18n work (kewei and zhoudong)
+    - glossary setup in [[ https://translate.zanata.org/iteration/view/hyperledger-fabric-docs-cn/1.0.0?dswid=9493 | zanata platform ]], a little slow to access from China
+    - Keep close sync with TSC
+  - Hackathon report (zhou xing and zhoudong)
+    - zhou: Held in last weekend, 1st Asia Hackathon, with 3 tracks (coding, forum, training). 36 teams, 130+ attendees. 6 teams got prize, Tsinghua team won the 1st prize.
+    - zhoudong: host the live video with 3k+ same-time online. feedback: welcome more similar events. increase the search keywords.
+    - scott: totally agree this is a great event; evaluation time is too short for show; place is great, while some players suggest have wider room with longer match time.
+  - other issues
+    - Sub-team discussion
+      - 4 sub-teams with contacts
+      - Prof. Ma from Tongji university will present some textbook
+    - local form: 
+      - zhoudong: global forum is too slow to access
+      - Scott: **TODO**: will help ask LF for support
+    - Scott: volunteer or membership?
+      - TWGC is open and welcome for any open contributions, while volunteers need fixed term of work and contribution
+      - **TODO**: Ray Chen will talk with scott to communicate with companies in hangzhou.

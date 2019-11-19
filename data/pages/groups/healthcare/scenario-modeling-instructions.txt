@@ -1,0 +1,175 @@
+===== Scenario modeling instructions =====
+[[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]] : [[analysis-business|Domain analysis]]
+----------
+
+Below are instructions for scenario modeling using the [[scenario-template]].
+
+----------
+
+==== Name ====
+ 
+//The scenario name should be as concise as possible, and should describe the primary action : the high-level activity being performed (verb) and object of the action (noun).//
+
+
+==== Narrative ====
+
+//A summary of the scenario in natural language text. Using an iterative modeling approach, the narrative may be the first and only artifact to be documented. It should include sufficient detail to allow analysts to derive and complete the remaining template details.//
+
+//The narrative should be traceable to supporting source materials, including primary data from SME interviews or knowledge resources such as research publications, policies and guidelines. Links to all relevant sources should be included at the bottom of the template.//
+
+----------
+===== Participants, Resources and Contexts =====
+
+==== Participants ==== 
+// Participants should be identified and enumerated from the narrative summary. Participants may be described by their generic roles, or specifically identified and named actors.//
+
+=== Roles ===
+//A list of participant roles, consisting of links to items in the [[roles registry]].// 
+
+  * //role//
+  * //role//
+
+=== Actors ===
+//A list of identified actors, either [[stakeholders-people|people]], [[stakeholders-groups|groups]] or [[stakeholders-organizations|organizations]], consisting of links to the [[stakeholders]] registry.//
+
+  * //actor//
+  * //actor//
+
+----------
+
+==== Resources ==== 
+//Resources are physical or virtual (abstract) entities that are identified within the narrative summary, and are either required or optional elements in the scenario. Resources are listed as links to the [[resource registry]].//
+
+  * //resource//
+  * //resource//
+
+=== Inputs ===
+//Inputs are existing, external resources that are either required or optional to the scenario.//
+
+  * //input//
+  * //input//
+
+=== Outputs ===
+//Outputs are new or modified resources that result as an outcome of the scenario, including intended (work) products or residual or waste outputs.//
+
+  * //output//
+  * //output//
+
+----------
+
+==== Contexts ====
+//Contexts are the setting(s) within which the scenario takes place. Contexts should be listed as links to the [[context registry]].//
+
+=== Physical ===
+//Physical contexts are real-world settings, such as generic geographical, environmental, or jurisdictional regions (e.g. lake, forest, city), as well as generic settings within human habitats (e.g. home, farm, hospital). The context may refer to a specific, named, real-world entity where appropriate (e.g. UN Headquarters).//
+
+  * //physical context//
+  * //physical context//
+
+=== Virtual === 
+
+  * //virtual context//
+  * //virtual context//
+
+
+----------
+===== Goals, Flows and Policies =====
+
+==== Goals ====
+//One or more statements of the desired or expected outcomes of the scenario (future state).//
+
+  * //goal//
+  * //goal//
+
+----------
+
+==== Preconditions ==== 
+//Concise statements regarding the state of participants, resources or contexts at the start of the scenario; activities or events either completed or underway concurrently; statements may be grouped using logical operators (not, and, or, xor) to describe compound preconditions.//
+
+=== Participant preconditions ===
+
+  * //precondition//
+  * //precondition//
+
+=== Resource preconditions ===
+
+  * //precondition//
+  * //precondition//
+
+=== Context preconditions ===
+
+  * //precondition//
+  * //precondition//
+
+
+=== Previous (input) flows : activities or events ===
+//Flows originating with previous activities or events may be either synchronized (all flows required) or merged (one or more flows required). Previous activities or events have completed. //
+
+  * //precondition//
+  * //precondition//
+
+=== Concurrent (parallel) flows : activities or events ===
+//Concurrent flows have begun and are underway, but have not completed prior to start of the flow.//
+
+  * //precondition//
+  * //precondition//
+
+
+----------
+
+==== Flows ==== 
+//Sequence of activities or events from start to one or more identified goals or other outcomes.//
+
+=== Primary flows ===
+//Activities or events : recursive elaboration of each activity or event as required until fine-grained (atomic) descriptions have been are reached.//
+
+  * //Activities or events//
+  * //Activities or events//
+
+=== Alternate flows === 
+//Flows when the preconditions have not been met.//
+
+  * //Activities or events//
+  * //Activities or events//
+
+----------
+
+==== Post-conditions ==== 
+//Concise statements regarding the state of participants, resources or contexts at the end of the scenario.//
+
+=== Outcomes : Goal-states ===
+//Post-conditions that satisfy the scenario goals.//
+
+  * //outcome//
+  * //outcome//
+
+=== Outcomes : Other ===
+//Post-conditions when scenario goals have not been met, such as interruption or cancellation of flows.//
+
+  * //outcome//
+  * //outcome//
+
+==== Subsequent activities or events ====
+//Flows that occur following completion of the scenario; these include flows following successful outcomes  as well as compensating or terminating flows when attainment of goal-states has not been met. Multiple subsequent flows may either branch (all flows simultaneously) or split (one of multiple flows selected)//
+
+=== Subsequent flows : successful outcome ===
+
+  * //Activity//
+  * //Activity//
+
+== Subsequent flows : compensating or terminating outcome ==
+
+  * //Activity//
+  * //Activity//
+
+
+----------
+===== Supporting Resources =====
+
+==== Sources ==== 
+//Links to supporting documentation, including primary data and knowledge resources//
+
+  * //resource//
+  * //resource//
+
+

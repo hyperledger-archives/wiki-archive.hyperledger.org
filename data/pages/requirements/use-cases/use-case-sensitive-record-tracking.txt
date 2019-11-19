@@ -1,0 +1,22 @@
+====== Sensitive Record Tracking Use Case ======
+
+===== Summary =====
+
+In Health Care devices, Manufacturing test, Security systems and many other areas, it would be ideal to record both the sensor values and operations logs in an immutable ledger.
+
+===== User Stories =====
+
+==== 1. Harvesting Manufacturing company ====
+
+A big international company manufacturing wood harvesting machines which is running through comprehensive test runs in three different locations. Normally these test runs takes a lot of resources in terms of time, money and people. The company is using blockchain because it enables them to speed up the whole process, monitoring, verifying the results. Importantly, test results are considered sensitive and confidential from the business point of view.  Test results will be available as-is basis according to the pre-defined test plans proofing the test result in authentic way without falsifying results. Test results conducted in different circumstances can be sent in ledgers to company's Quality assurance unit to verify and compare the results. 
+
+Benefits:
+  * company can verify and analyse the test results "as-is" basis and see real and honest situation.
+  * company can compare results and make conclusions for the need of corrective actions
+  * test results from three locations will be interpreted in the same way
+  * if correctives actions are needed, those can be delivered simultaneously
+  * the whole process will be tracked and saved for 
+    * later audition purposes
+    * product enhancement purposes
+  * reduces work-around type of working instead of productized and organized way of working
+  * as all parties are aware of unchangeable log and test result information, this promotes transparency and openness

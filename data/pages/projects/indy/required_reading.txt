@@ -1,0 +1,32 @@
+======Indy Required Reading======
+
+These are links to resources that are recommended for more insight and context into how distributed ledgers and cryptography work.
+
+Required Reading 
+
+  * https://abc4trust.eu/ - Great paper on trustworthy and privacy-preserving Attribute Based Credentials
+  * [[https://docs.google.com/viewer?url=https%3A%2F%2Fpakupaku.me%2Fplaublin%2Frbft%2F5000a297.pdf|IEEE Redundant Byzantine Fault Tolerancer Paper from 2013]]
+  * https://w3c-ccg.github.io/did-spec/ - W3C DID Specification
+
+Anoncreds (Indy's implementation of Attribute Based Credentials):
+  * This document outlines the various objects used by the system and how they fit together.  https://github.com/hyperledger/indy-node/blob/master/design/anoncreds.md
+  * The diagram here might also be useful https://github.com/hyperledger/indy-node/blob/master/docs/relationship-diagram.png
+  * Useful paper for terminology and a good framework for Attribute Based Credential systems http://dl.ifip.org/db/conf/idman/idman2013/CamenischDLNPP13.pdf
+  * Mike Lodder's walk-through of the protocol: https://docs.google.com/document/d/1XEfaOinOTIU9RgtP-GlXQAbOoW8z-oR5aWJDoQdftZ4/edit?usp=sharing
+  * Or the paper by Dmitry Khorvatovich and Jason Law about revocation: https://sovrin.org/wp-content/uploads/AnonCred-RWC.pdf
+  * [[https://www.slideshare.net/SSIMeetup/zeroknowledge-proofs-privacypreserving-digital-identity-with-clare-nelson|Zero-Knowledge Proofs: Privacy-Preserving Digital Identity with Clare Nelson]] - slideshare
+  * [[https://sovrin.org/the-sovrin-network-and-zero-knowledge-proofs/|The Sovrin Network and Zero Knowledge Proofs]] - high level overview
+  * [[https://github.com/hyperledger/indy-anoncreds/blob/master/docs/anoncred-usecase1.pdf|Anonymous Credentials - Use Case]]
+
+DIDs (Decentralized Identifiers)
+  * DID Primer: [[https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/draft-documents/did-primer.md]] (GitHub for RWOT5 in Boston, Massachusetts)
+  * Extended Primer: [[https://github.com/WebOfTrustInfo/rwot7/blob/master/topics-and-advance-readings/did-primer-extended.md|DID Primer Spring 2018]]
+  * DID Spec: [[https://w3c-ccg.github.io/did-spec/]]  
+  * [[https://www.w3.org/2018/vocabws/presentations/Sabadello.pdf|Decentralized IDentifers (DIDs)]] 
+
+Communities
+  * http://identity.foundation/ - Decentralized Identity Foundation
+  * https://www.w3.org/2017/vc/WG/ - W3C Verifiable Claims WG
+  * https://www.w3.org/community/credentials/ - W3C Credentials Community Group
+  * http://www.weboftrust.info/ - Rebooting Web of Trust
+  * http://www.internetidentityworkshop.com/ - Internet Identity Workshop

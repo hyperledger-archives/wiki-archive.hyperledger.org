@@ -1,0 +1,51 @@
+====== Referral Confirmation ======
+
+===== Section 1 - Intro =====
+
+This is the penultimate use case of several that address provider referrals - the series of inter-connected processes by which a provider in one care setting (the referring provider) refers a patient to another provider (the referral provider), perhaps in a different care setting.
+
+The referral confirmation use case, as its name suggests is the process whereby the referral of the patient is confirmed by the referral provider to the referring provider.
+
+==== Business Problem / Opportunity ====
+
+In order to close out the referral of a patient, a referring provider shall give the patient confirmation of the referral. In order to be able to do this, the referral provider shall return a positive affirmation containing the specifics of the referral they have accepted to the referring provider, so that this information may in turn may be supplied to the patient and used to update the patient's records that this event has occurred.
+
+In the absence of a common, well-understood protocol for this process and lack of a standards for what data shall be returned, either: the data is not communicated back at all; or missing or incorrect data is communicated; or data is returned at some time after the patient has left the presence of the referring provider; or the data is returned in a form that is not easily managed or disseminated (e.g. a fax); or not returned directly to the referring provider or the assistant to whom the referring provider has handed-off the patient so that they may move on to treat another patient. 
+
+The opportunity is to correct these issues and improve the process so that a positive confirmation is made in either real time, or asynchronously - but in either case containing actionable information that is in turn communicated back to the patient, and used to update patient records.    
+
+==== Current Solution ====
+
+Generally, vertically integrated health care systems have solved this issue for themselves by employing either home-grown or packaged software solutions built on database technology. This is the value add of this way of organizing care delivery, namely a homogeneous team-based approach to patient care. These types of systems are monolithic and closed.
+
+In less centralized arrangements such accountable care organizations (or less formal arrangements), this is harder. Either because of a preponderance of systems that do not intercommunicate, or a lack of automated systems that could be made to intercommunicate. In the absence of support for the process the solution is to resort to improvise a solution using a proforma and the lowest common denominator of communication which can be operated by hospital clerks (for whom time does not stand still), namely the fax machine.
+
+In other areas of health care there are primitive electronic data interchange standards - however they do not exist for referrals, perhaps because EDI was invented in the days of batch processing and referral processing is a structured real-time communication. 
+
+==== Why a Blockchain? ====
+
+Blockchain is a trustworthy, shared, distributed database system. Peer nodes may be deployed among the various provider entities in different care settings. In smaller settings or subsidiaries of a larger setting client access to one of more peers shall be provisioned.
+
+The confirmation of a referral would be made by writing a confirmation record to a shared ledger. In effect this would be a "contract" that stated the referral provider had agreed to see the patient on a specific data and time at a specific location with the intent of providing specific services. It would affirm that the patient's payment terms had been verified and provide the patient with a financial statement itemizing estimated costs they had to cover for the referral. Any plan covering the referral would have a predetermination record - allowing them to adjust reserves in preparation for the event. In short - this would leave nothing to chance and every party would be fully information of the planned event. 
+
+This information would (depending on the implementation technology) be almost immediately available to all peers, including the referring provider, the referral provider and the patient. All participants would have the information they needed to make decisions from an immutable record. A single trustworthy source of sharable information would reduce centralized customer service costs which can be moved outbound to the parties themselves, and the resulting high quality audit-able data could be usefully mined to infer process improvements 
+
+==== User Stories ====
+
+As a referring provider I want to know that my patient has been accepted by the referral provider so that I can feel assured that I have moved the patient's care along.
+
+As a patient I want to know that I have been referred to a provider so I can plan to attend the arranged visit.
+
+As a patient I want to be able to add the referral visit to my calendar so that I remember to attend the scheduled appointment.
+
+As a referral provider I want to ensure that the arrangements I have made to see the patient are communicated to the patient so they attend the arranged appointment.
+
+==== Opportunity/Justification ====
+
+The opportunity to create a solid process to complete the overall referral process, that has low latency in an area of health care that is not well served by existing solutions.
+
+===== Section 2 - States and Transactions =====
+
+Patient referral visit written to the ledger and resources scheduled to facilitate the visit. Cost of the referral agreed to by the patient. Patient eligibility checked with health plan(s) of which the patient is a member. Patient financing affirmed with funding sources (health plan, health care savings account, personal finances).
+
+===== Section 3 - Requirements =====

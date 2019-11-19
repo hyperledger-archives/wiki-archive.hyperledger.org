@@ -1,0 +1,24 @@
+===== Interview summary =====
+[[healthcare-wg-wikispace-redesign|Home]] : [[resources|Resources]] : [[resources-primary-data|Primary data]] : [[data-collection-interviews|Interviews]]
+----------
+
+  * [[subject-matter-experts|Subject Matter Expert]] : [[Pam Erickson]]
+  * Interview : 27-SEP-18 ?Transcript?
+  * Source : [[donor_milk_transparency_and_traceability|Donor milk transparency and traceability]]
+
+----------
+
+  * Pam is a NICU lactation consultant at one of the largest healthcare facility within a healthcare system that has over 900 facilities
+  * She is specialized due to the size of the facility with NICU lactation consultants and in-patient lactation consultants being distinct roles; her focus is on mother's milk, not donor milk
+  * At smaller facilities, lactation consultant responsibilities includes management of donor milk as well as mother's milk
+  * Pam has offered to take an advisory role moving forward, and she is going to refer us to the dietician that manages the donor milk in the facility
+  * As a NICU lactation consultant, if a mother's supply is good and might expire or if there has been an infant loss, they offer donation as an option
+    *  They refer mothers to WakeMed Donor Bank and they have fliers that they pass along
+    * They do not do donation collection within the facility
+  * If a baby or mother is transferred to another facility within the healthcare system, the mother's milk has to be relabeled facility to facility - an opportunity to standardize the labeling across the full healthcare system
+  * When Mother's bring in their milk for their baby in the NICU, there are kiosks where the mothers can check in the milk; they use a barcode labeling system
+  * Expiration of milk
+    * In the NICU in deep freezers milk can hold up to 6 months
+    * At home in deep freezers the recommendation is 6-12 months
+  * Donor milk is the responsibility of the dietician on staff who manages the supply with donor banks and the milk preparation onsite
+    * There is informal sharing of donated milk across facilitates within the healthcare system and visibility on supply could be better - an opportunity to improve the donor milk network between facilities within the same system

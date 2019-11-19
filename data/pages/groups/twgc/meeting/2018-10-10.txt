@@ -1,0 +1,85 @@
+===== TWG China Meeting =====
+
+==== Basic Info ====
+10AM ~ 11AM, GMT+8 ([[/groups/twgc/meetings|Bi-weekly hosted]])
+
+  * Option #1: Use computer to access [[ https://zoom.us/my/hyperledger.community | zoom]] (Recommend using microphone and headset)
+  * Option #2: Dial in using the [[https://zoom.us/zoomconference?m=mTUdEBuT33gjEcR54Rqsi1KmFyNgSLYP|phone number]]. E.g.,	400 669 9381 or 010-87833177 (Premium Toll) for China area, code is 248676399.
+
+  * [[https://docs.google.com/presentation/d/1punUCr0mSZT9gMKCs3vCYqbWbjeS_RG-18ZrhkfwoYc/edit?ts=5a14dfdf | Antitrust Policy Notice]]
+  * [[/community/calendar-public-meetings | community meeting calendar ]]
+
+==== Attendee ====
+
+**Feel free to add ur name here to attend the meeting.**
+
+Attendees:17
+
+  * Baohua Yang
+  * Jay Guo
+  * Zhenhua Zhao
+  * Scott Long
+  * James Zhu
+  * Yong Wan
+  * Baoyang Chai
+  * Dijun Liu
+  * Lidong Guo
+  * Jingxiao Gu
+  * Peng Du
+  * Vicky Wang
+
+
+==== Agenda ====
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - Montreal summit+hackfest
+  - [[groups/twgc/team_di | Team development and Innovation]] (Zhangjiong Xuan, Yaoguo Jiang, Haitao Yue, Dijun Liu)
+    - [[groups/twgc/faq|Technical FAQ update]].
+    - [[https://chat.hyperledger.org/channel/fabric-crypto| fabric crypto discussions]]
+    - Visualized chaincode editor work by Dijun Liu.
+    - 'Code Contribution' guideline in Hyperledger Wechat Official
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Lidong Guo, Jiang Lu, Xueting Zhou)
+    - [[groups/twgc/team_ie/guideline| i18n work guideline]]
+    - Work progress
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yanqing Wang)
+    - Call for member companies's blockchain applications and cases:[[https://wiki.hyperledger.org/groups/twgc/team_cs| China members and cases ]]
+    - Call for HL member news, will select to publish through official wechat channel. Feel free to contact TWGC(twg-china@lists.hyperledger.org).
+    - Community City Wechat groups(contact the admin to join): Beijing (a33443148), Shanghai (yudianbabasheng), Hangzhou (linalee1005), Dalian (cn8888898), Shenzhen (RichZhao), Wuhan (grapebaba), Hongkong(hwfighter1)
+    - Scott sync on the collaboration progress with universities.
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Jiannan Guo, Sheng Huang, Zhenhua Zhao, Kai Chen)
+    - [[groups/twgc/events/guideline| Meetup guideline]]
+    - **[[groups/twgc/team_eo| Meetups in Oct]].** 
+      - Beijing:
+      - Shanghai:
+      - Hangzhou: 
+      - Nanjing: Oct 20
+    - Physical poster(易拉宝) question in last meeting
+  - Other issues (Feel free to add here)
+    - Liu Dijun introduce his Blockly-Chaincode project
+
+
+==== Minutes ====
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - Montreal summit+hackfest: Du peng shared the feedbacks: 200+ attendees, active discussions.
+  - [[groups/twgc/team_di | Team development and Innovation]] (Zhangjiong Xuan, Yaoguo Jiang, Haitao Yue, Dijun Liu)
+    - [[groups/twgc/faq|Technical FAQ update]].
+    - [[https://chat.hyperledger.org/channel/fabric-crypto| fabric crypto discussions]] no progress
+    - Visualized chaincode editor work by Dijun Liu.
+    - 'Code Contribution' guideline in Hyperledger Wechat Official: will be done this week
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Lidong Guo, Jiang Lu, Xueting Zhou)
+    - [[groups/twgc/team_ie/guideline| i18n work guideline]]
+    - Work progress: several contributions per week, will help post progress in group
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yanqing Wang)
+    - Call for member companies's blockchain applications and cases:[[https://wiki.hyperledger.org/groups/twgc/team_cs| China members and cases ]]
+    - Call for HL member news, will select to publish through official wechat channel. Feel free to contact TWGC(twg-china@lists.hyperledger.org).
+    - Community City Wechat groups(contact the admin to join): Beijing (a33443148), Shanghai (yudianbabasheng), Hangzhou (linalee1005), Dalian (cn8888898), Shenzhen (RichZhao), Wuhan (grapebaba), Hongkong(hwfighter1)
+    - Scott sync on the collaboration progress with universities.
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Jiannan Guo, Sheng Huang, Zhenhua Zhao, Kai Chen)
+    - [[groups/twgc/events/guideline| Meetup guideline]]
+    - **[[groups/twgc/team_eo| Meetups in Oct]].** 
+      - Beijing: Banquan Jia will organize one
+      - Shanghai: QKLXD will organize one
+      - Guangzhou: Zhenhua is helping organize one
+      - Nanjing: Oct 20
+    - Physical poster(易拉宝) question: Scott will help provide a template
+  - Other issues (Feel free to add here)
+    - Liu Dijun introduce his Blockly-Chaincode project, numbers of suggestions and questions, will consider to contribute as Hyperleger Labs.

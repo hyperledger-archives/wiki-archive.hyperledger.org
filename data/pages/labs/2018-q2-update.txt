@@ -1,0 +1,30 @@
+====== Hyperledger Labs - 2018 Q2 Update ======
+===== Activity this Quarter =====
+  * [[https://github.com/hyperledger-labs/hyperledger-labs.github.io/blob/master/README.md|Process for proposing a Hyperledger lab]] created
+  * Labs proposed: 5
+  * Labs proposals accepted: 3 (see [[#new_labs_this_quarter]])
+  * Labs proposals in process: 1 ([[https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/13|private ledger]])
+  * Labs proposals out of scope/withdrawn: 1 ([[https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/25|event horizon]])
+
+===== New Labs this Quarter =====
+==== private-data-objects ====
+[[https://github.com/hyperledger-labs/private-data-objects|private-data-objects Github repository]] created on March 2, 2018.
+
+The Private Data Objects lab provides technology for confidentiality-preserving, off-chain smart contracts.
+
+13 PRs merged.
+
+==== crypto-lib ====
+[[https://github.com/hyperledger-labs/crypto-lib|crypto-lib Github repository]] created on March 29, 2018.
+
+A lab for experimentation on creating shared cryptography modules for cross-project collaboration.
+
+1 PR merged.
+
+==== SParts ====
+[[https://github.com/hyperledger-labs/SParts|SParts Github repository]] created on March 12, 2018.
+
+The Software Parts (SParts) lab delivers a Sawtooth-based ledger that provides both accountability and access to the open source components used in the construction of a software part. A software part is any software component (e.g., library, application, container or an entire operating system runtime) that is comprised of between 0% and 100% open source.
+
+0 PRs merged.
+

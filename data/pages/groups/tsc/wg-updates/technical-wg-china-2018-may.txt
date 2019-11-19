@@ -1,0 +1,33 @@
+====== Hyperledger Working Group Update ======
+
+===== Working Group =====
+Technical Working Group in China (TWGC)
+
+===== Working Group Health =====
+
+The TWGC has spent lots of time and resources in enhancing the technical event organizations due to the feedback in the annual meeting. We now focus on four sub-groups of work: Development and Innovation, i18n and Education, Collaborations and Scenarios, Events Organization. All work goes well as planed.
+
+
+===== Issues =====
+
+1. How to help developers to contribute to projects better, e.g., some important contributions stay quite long: [[https://jira.hyperledger.org/browse/FAB-5496 | SM2 support]] and [[https://jira.hyperledger.org/browse/FAB-6263 | MongoDB support]].
+
+2. How to encourage more people for the i18n work due to having no official repo. Currently, have to use 3rd party repo to host the documentation: [[https://github.com/HyperledgerCN/fabric-docs-i18n| Fabric 1.1 documentation translation]].
+
+3. Some souvenir/gift like T-shirt or stickers with logo, will help encourage the volunteers and promote hyperledger branding a lot.
+
+===== Overall Activity in the Past Quarter =====
+
+[[/groups/twgc/meetings | Regular bi-weekly meetings]] happened as planed, attendees are around 20 persons on average for each meeting. Active discussions happened on meetings, rocketchat, maillist and wechat group. And [[https://wiki.hyperledger.org/groups/twgc/team_eo|monthly meetups]] are organized in Beijing, Shanghai, Hangzhou. Other cities (e.g., Shenzhen, Wuhan, Chengdu, Dalian) are also having meetups according to the local activities. 
+
+
+===== Planned Work Products =====
+Technical events, documentations, code contributions and other community activities to build up a strong eco-system.
+
+===== Participant Diversity =====
+The group diversity is very good. Volunteers are from numbers of companies from big ones (e.g., Baidu, IBM) to small ones (e.g.,banquanjia, ziggurat), and from different geographic areas (some one is even from Japan). We now have volunteer groups in numbers of major cities in China, including Beijing, Shanghai, Shenzhen, Hangzhou, Wuhan, Dalian. Some volunteers retired from the group, and some new ones joined. Overall, the group members increased.
+
+
+===== Additional Information =====
+N/A
+ 

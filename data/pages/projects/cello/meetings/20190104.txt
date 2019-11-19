@@ -1,0 +1,37 @@
+==== 2019-01-04 ==== 
+Meeting will be held at [[ https://zoom.us/my/hyperledger.community | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/cello|rocketchat]] (for text chat) at:
+  * 08:30AM   (UTC-4) [UTC -4 is Eastern Daylight Time EDT]
+  * 06:00PM   (UTC+0530)
+  * 08:30PM   (UTC+8)
+
+  * [[ https://jira.hyperledger.org/projects/CE/issues/CE-188?filter=allopenissues | Ongoing Jira task ]] 
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:cello+status:open | Open Patchset for review ]] 
+  * [[ https://wiki.hyperledger.org/projects/cello | Project Wiki Page ]] 
+
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  - Recent reported issues with keycloak
+  - Tong submited several patchsets for ansible agent
+  - Kubernetes progress (Luke Chen)
+  - [[https://jira.hyperledger.org/issues/?filter=12626 | v1.0.0 on going issues ]]
+  - H3C Gaea BaaS Demo (Peng Du)
+
+
+=== Attendee ===
+**Please put your name before the meeting.**
+
+11 attendees:
+  * Baohua Yang
+  * Haitao Yue
+  * Tong Li
+  * Jiahao Chen
+  * Peng Du
+  * Ruitao
+
+=== Minutes ===
+  * Hightall will reply the email
+  * Tong and luke submitted the new patchsets, welcome to review
+  * Peng demo the baas based on Cello, it works smoothly and was shown to ~1000 attendees in the conf
+  * Hightall will design the API spec and call for review

@@ -1,0 +1,45 @@
+=== TWGC contributors ===
+
+The list is those contributors and volunteers that should be qualified for the voting.
+
+^ Name                  ^ Organization                          ^ Email                         ^ Location   ^
+| 杨保华(Baohua Yang)      | Oracle                                | yangbaohua@gmail.com          | Beijing    |
+| 胡瑞丰(Victor Hu)        | Huawei                                | huruifeng@huawei.com          | Shenzhen   |
+| 蒋耀国（Yaoguo Jiang）     | Huawei                                | jiangyaoguo@huawei.com        | Nanjing    |
+| 曹寅（Yin Cao）           | Energy-Blockchain Labs                | caoyin@energy-blockchain.com  | Shanghai   |
+| 郭立冬（Lidong Guo）       | ChainNova                             | guolidong@chainnova.com       | Beijing    |
+| 郭剑南（Jiannan Guo）      | IBM                                   | guojiannan1101@gmail.com      | Beijing    |
+| 徐正平 (Zander Xu)       | Yonghui                               | jozzzero@gmail.com            | Beijing    |
+| 陈剑（Billy Chen）        | IBM                                   | jchen@cn.ibm.com              | Beijing    |
+| 宣章炯（Zhangjiong Xuan）  | Hyperchain                            | xuanzhangjiong@hyperchain.cn  | Hangzhou   |
+| 黄胜（Sheng Huang）       | UMARK                                 | huangsheng@umarkcloud.com     | Shanghai   |
+| 赵振华（Zhenhua Zhao）     | IBM                                   | zhao.zhenhua@gmail.com        | ShenZhen   |
+| Allen Shao            | Asian Infrastructure Investment Bank  | ashao@aiib.org                | Beijing    |
+| 张增骏（Clarity Zhang）    | ChainNova                             | clarity@chainnova.com         | Beijing    |
+| Bei Wang              |                                       | wangbei@yunphant.com          |            |
+| 卢江（Jiang Lu）          |                                       | lujiang@cn.ibm.com            | 北京         |
+| Xixue Jia             |                                       | xixuejia@gmail.com            |            |
+| Shaoxi Qiu            |                                       | qiushaoxi@163.com             |            |
+| Wei Lu                |                                       | luweilw@cn.ibm.com            |            |
+| Axe Tang              |                                       | axe@yeecall.com               |            |
+| 于林生（Linsheng Yu）      |                                       | bzwdyls@163.com               | 北京         |
+| Yueling Liang         |                                       | liangyl1987@hotmail.com       |            |
+| Yuan Jin              |                                       | jinyuan@cn.ibm.com            |            |
+| Yaocheng Ye           |                                       | yaocheng.ye@hyperchain.cn     |            |
+| Ruijun Ou             |                                       | ouruijun@aisino.com           |            |
+| 罗敏（Min Luo）           |                                       | luo.min@lab.ntt.co.jp         | 东京         |
+| Dinghao Liu           |                                       | dinghaoliu@yunphant.com       |            |
+| Qingpeng Cai          |                                       | qingpengcai@yunphant.com      |            |
+| Yunxiao Wang          |                                       | wangyx@yunphant.com           |            |
+| 郝瀚（Han Hao）           |                                       | haohan@anne.com.cn            | 北京         |
+| Chang Chen            |                                       | calvin@ziggurat.cn            |            |
+| Jingxiao Gu           |                                       | dawnwords@163.com             |            |
+| 沈宏（Hong Shen）         |                                       | hhshen@cn.ibm.com             | 武汉         |
+| Dong Wang             |                                       | xdragon007@gmail.com          | 北京         |
+| Kai Chen              |                                       | 281165273@qq.com              | 武汉         |
+| Jiahao Chen           |                                       | jiahaochen1993@gmail.com      | 北京         |
+| 王梦灵(Vicky Wang)       |                                       | 595288507@qq.com              | Shanghai   |
+| Ping Huang            |                                       | norberthu30@gmail.com         | Beijing    |
+| 刘宇翔(David Liu)        | ASTRI                                 | david-khala@hotmail.com       | Hong Kong  |
+
+

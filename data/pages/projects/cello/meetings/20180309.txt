@@ -1,0 +1,46 @@
+==== 2018-03-09 ==== 
+
+Meeting will be held at [[ https://zoom.us/j/519936723 | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/cello|rocketchat]] (for text chat) at:
+
+  * 08:30AM   (UTC-4)
+  * 06:00PM   (UTC+0530)
+  * 08:30PM   (UTC+8)
+
+  * [[https://jira.hyperledger.org/projects/CE/issues/CE-188?filter=allopenissues | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:cello+status:open | Open Patchset for review]]
+  * [[https://wiki.hyperledger.org/projects/cello | Project Wiki Page]]
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  * [[https://github.com/hyperledger/cello/releases/tag/v0.8.0-beta|v0.8.0 beta is released]]
+  * [[https://wiki.hyperledger.org/groups/tsc/project-updates/cello-2018-mar | quarterly report]]
+  * Documentation: jiang lu
+  * Video tutorial: hightall
+  * User-dashboard features
+  * Fabric composer integration, connection profile: tong
+    * ToDo: create two jira issues, 
+      * 1 for composer integration, 1 for dashboard integration 
+  * Some public testing bed to explore latest cello features?
+  * Other Issues:
+    * Add here
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Baohua Yang
+  * Jiang Lu
+  * Tong Li (IBM)
+  * Amit
+  * Luke
+  * Haitao Yue
+  * Krishna Harsha Voora
+
+=== log ===
+  * Need to continue to improve the content of the document. Lujiang will lead the work.
+  * TODO: tong will help prepare wiki page and report project progress in next TSC meeting.
+  * TODO: hightall will write a outline for Series video.
+  * TODO: Tong will create jira issues related to the fabric-composer integration and user-dashboard integration to the ansible agent.
+  * Test and Fix bug for 0.8.0 GA release.
+  * Call for sponsor. Find virtual machine as test bed.

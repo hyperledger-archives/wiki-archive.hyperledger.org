@@ -1,0 +1,18 @@
+// TBD - Assertions need explanation and references. E.g., what is being financed? Is word choice of should/always/must deliberate? //
+
+====== Use Case - Asset Financing ======
+
+Assumptions
+
+  * **Assets** should always be owned by their actual owners.
+  * **Asset owners** must be able to allow third-party professionals to manage their assets without having to pass legal ownership of assets to third parties (such as nominee or street name entities).
+  * If **issuers** need to send messages or payments to asset owners (for example, listed share holders), issuers send them directly to asset owners.
+  * Third-party asset managers and/or **custodians** can always buy, sell, and lend assets on behalf of the assets' owner(s). 
+  * Under this arrangement, asset custodians can focus on providing value-add services to share owners, without worrying about asset ownership duties such as managing and redirecting payments from issuers to share owners.
+
+  * **Auctions**
+      * Multi-party computation - If you didn’t win, then you don’t get the asset. You need to bid the most to win.
+
+  * **Reputation** (ratings, credit, past performance)
+      * All sorts of ratings, from credit ratings to history of performance (for example trading models for hedge funds, signal providers).
+      * Various parties can pull the public data.

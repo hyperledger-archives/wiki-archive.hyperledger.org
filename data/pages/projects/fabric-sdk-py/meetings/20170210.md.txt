@@ -1,0 +1,206 @@
+### 2017-02-10
+
+#### Agenda
+
+* [Jira board](https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85) status. There are several old tasks need to be clear soon.
+  * Yan: [FAB-697](https://jira.hyperledger.org/browse/FAB-697), [FAB-738](https://jira.hyperledger.org/browse/FAB-738)
+  * Fan: [FAB-737](https://jira.hyperledger.org/browse/FAB-737)
+  * Lei: [FAB-801](https://jira.hyperledger.org/browse/FAB-801)
+
+* [Patchset](https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py) for review.
+* MVP design and implementation progress (chang and latitiah need to drive this).
+* [SDK Spec](https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4) is publicly available.
+* Other issues
+
+#### Attendee
+
+* Baohua Yang
+* Kai Chen
+* Chang Chen
+* Bryan Huang
+* Lei Li
+* Jianhua Geng
+
+
+#### Log
+
+```
+=== Meeting Start ===
+Today's agenda is at https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20170210.md
+Item 1: Jira board status. There are several old tasks need to be clear soon.
+I'm checking the jira board, pls visit https://jira.hyperledger.org/browse/FAB-737?jql=project%20%3D%20FAB%20AND%20status%20in%20(%22In%20Progress%22%2C%20%22To%20Do%22%2C%20%22In%20Review%22)%20AND%20component%20%3D%20fabric-sdk-py%20ORDER%20BY%20created%20ASC%2C%20Rank%20ASC
+There are several old issues, need to check the status.
+@bryanhuang for https://jira.hyperledger.org/browse/FAB-697
+How's the work going?
+Aha, seems yan is not online.
+
+bryanhuang 11:02 AM
+✋
+Im late
+
+baohua Owner 11:03 AM
+haha
+
+grapebaba Owner 11:03 AM
+😀
+
+baohua Owner 11:03 AM
+So how's going with https://jira.hyperledger.org/browse/FAB-697 and https://jira.hyperledger.org/browse/FAB-738?
+@bryanhuang ?
+
+bryanhuang 11:05 AM
+those items need be refined 🙂
+
+grapebaba Owner 11:05 AM
+这个登录做完了
+
+baohua Owner 11:05 AM
+Thanks!
+
+bryanhuang 11:05 AM
+its for the 0.6
+
+grapebaba Owner 11:05 AM
+其他的需要针对新的CA做
+
+bryanhuang 11:05 AM
+yes
+
+baohua Owner 11:05 AM
+and for each task assigner, pls remember to update the status in time.
+
+bryanhuang 11:05 AM
+sure
+😁
+
+baohua Owner 11:06 AM
+Pls help drive the work, and make appropriate change if necessary, e.g., update task aims and progress, thanks!
+🛫
+Fan is on the flight, and he is working with https://jira.hyperledger.org/browse/FAB-737, hope we can finish it soon.
+For https://jira.hyperledger.org/browse/FAB-801, @SeeGo
+Could u help tell the progress?
+
+SeeGo 11:07 AM
+on going. Most code will be reviewed next week
+
+baohua Owner 11:07 AM
+There are several sub-tasks for it
+
+SeeGo 11:08 AM
+yes
+
+baohua Owner 11:08 AM
+Do you need more assigners?
+As the main task owner, pls help drive and call for volunteers if needed.
+
+SeeGo 11:09 AM
+not now.thanks.
+ok
+
+baohua Owner 11:10 AM
+OK, pls feel free to tell if u need help to solve it in future, thanks and look forward to seeing the progress. 🙂
+
+SeeGo 11:10 AM
+ok .
+
+baohua Owner 11:10 AM
+OK. any other questions on the jira task board? Let's use it more this year for task tracking.
+OK
+Item 2: Patchset for review.
+
+https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py
+Everyone, pls help review for each new patchset. +1, -1 or any comments are welcome.
+We need to enhance the review process and appreciate for every reviewer. Thanks!
+Any comment on this?
+OK. item 3: MVP design and implementation progress
+@lafenicecc @latitiah Would u like to update the status?
+
+lafenicecc 11:13 AM
+ok
+there are already two patchsets merged, mainly for create_deploy_proposal
+  
+to go through all the processes
+there are still some missing pieces
+for example, msp and identity
+we might also need to implement a User class
+Can anyone help with that?
+
+baohua Owner 11:15 AM
+https://jira.hyperledger.org/browse/FAB-1637
+U need to splits the task and then call for volunteers to help 🙂
+
+lafenicecc 11:16 AM
+i noticed @grapebaba has picked up the send_transaction_proposal subtask
+any progress or idea?
+ok. i'll call for volunteers to help with those subtasks
+
+baohua Owner 11:17 AM
+@grapebaba online?
+
+grapebaba Owner 11:17 AM
+yes
+doing now
+send_transaction_proposal
+
+lafenicecc 11:18 AM
+👍
+
+grapebaba Owner 11:19 AM
+as it need call multiple peers
+
+baohua Owner 11:19 AM
+Thanks, this task is of the highest priority. Everyone is encouraged to help on it. Pls feel free to add ur name at the task descriptions or create new sub-tasks. @all
+
+grapebaba Owner 11:19 AM
+so it is better to use rx extension
+
+baohua Owner 11:19 AM
+@lafenicecc pls help drive this and keep sync with the team
+
+grapebaba Owner 11:19 AM
+for parallel
+
+baohua Owner 11:19 AM
+Yeap
+💡
+
+grapebaba Owner 11:20 AM
+i am doing investigation
+
+baohua Owner 11:20 AM
+nice to know that 🙂
+
+grapebaba Owner 11:21 AM
+test is more difficult, however i find a correct way
+
+baohua Owner 11:21 AM
+@genggjh jianhua, i also would like to know if your team can help on this task, thanks!
+OK
+item 4: sdk spec has some piece out-of-date, pls also see the fabric-sdk-node for reference.
+especially there's a `examples` dir, as good starting place.
+bad network....
+i got lost just ..
+
+lafenicecc 11:24 AM
+haha
+
+baohua Owner 11:24 AM
+Any other issue to discuss today?
+
+genggjh 11:25 AM
+which one task you mentioned? @baohua
+
+baohua Owner 11:25 AM
+Aha, the mvp work https://jira.hyperledger.org/browse/FAB-1637
+This is of the highest pri.
+
+genggjh 11:26 AM
+ok, I will figure out. will let you know later
+
+baohua Owner 11:26 AM
+Thanks, jianhua!
+Ok, if no other issue, will end
+  
+Have a nice weekend and happy lantern festival!
+=== Meeting End ===
+```

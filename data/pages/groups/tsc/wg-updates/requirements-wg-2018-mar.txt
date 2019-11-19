@@ -1,0 +1,65 @@
+====== Hyperledger Working Group Update ======
+
+===== Working Group =====
+
+This report covers the Requirements Working Group.
+
+
+===== Working Group Health =====
+//**Required** Sum up the status and health of your working group and the community...//
+
+Health-wise the ReqWG has evolved from regular participants showing up to contribute to the requirements inventory (or intending they will). To participants who have newly joined blockchain practises at solutions consultancies looking to learn:  
+
+  - What ReqWG does.         
+  - How does ReqWG interface with ArchWG.
+
+Secondly new participants looking for example solutions architecture:
+    
+  - Resources to easily get a mobile web client going with Hyperledger projects for SaaS/ICO business hybrids.
+ 
+===== Issues =====
+//**Required** If there are any specific issues that the TSC should be aware of or specifically address, then please call them out // 
+
+Solutions consultancies participants show up one or two times to learn how to navigate Hyperledger community resources. Including ReqWG templates for authoring requirements. Many intending to contribute requirements: few do. Most participants either don't get going or stop abruptly when requirements start to sharing business ideas and future IP. This pattern spans consultancies and research labs working on behalf of customers.   
+
+Increasingly new SaaS/ICO blockchain founders want to discuss Hyperledger solutions architecture in private. We have meetup and visited with a few. Many are new founder teams with existing adjacent businesses. Who wish to implement supply chain and alike information asset compliance solutions requiring a mobile client. 
+
+Many struggle with github based Hyperledger project packaging and need a step-by-step on how to implement an end-to-end SaaS solution architecture permissioned by Hyperledger projects. Many would like to use Ethereum smart contracts because developers are trained in Solidity.    
+
+Industry practitioners such as the Produce Traceability Initiative, have rich process documents with no starting point or resources on how to get basic mobile device transactions going with Hyperledger projects.     https://www.producetraceability.org/resources/
+
+===== Overall Activity in the Past Quarter =====
+//**Required** Discuss briefly how active the working group mailing lists and chat channels are...//
+
+Mailing lists and chat channels are dormant apart from bi-weekly ReqWG meeting announcement.
+
+[[https://docs.google.com/forms/d/1Mz7hxvfxjY-dJu7KJ7mvedbSni3wRAxllSmxgcYE_hs/edit | Take our survey on your Hyperledger project]] (only 5 responses)
+
+[[https://wiki.hyperledger.org/_media/groups/requirements/requirements-wg/after-the-fact-mandate-changes.pdf | After-The-Fact Mandate Changes ]] 
+
+[[https://wiki.hyperledger.org/_media/groups/requirements/use-case-inventory/marschain_usecase_hl.pdf | MaRSChain: Framework for a Fair Manuscript Review System Based on Permissioned Blockchain]]
+
+[[https://wiki.hyperledger.org/_media/groups/requirements/hyperledger_-_supply_chain_traceability-_anti_counterfeiting.pdf | Supply Chain Traceability / Anti-Counterfeiting]]
+
++ 4 'Requirements' to be defined... [[https://wiki.hyperledger.org/groups/requirements/use-case-inventory?&#inventory | inventory topic headers]]
+
+===== Planned Work Products =====
+Deliverables this upcoming quarter...
+
+Recommend we update ReqWG charter to focus on open source tools code labs doc that helps ease getting going with existing Hyperledger projects.   
+
+===== Participant Diversity =====
+//**Required** A healthy working group should survive the departure of any single participant. Is the working group growing/shrinking?//
+
+The ReqWG chair is the only organizer. Participants are country and company diverse mainly solution architects (who show up once or twice).    
+
+
+===== Additional Information =====
+//**Optional** Please provide any additional information that you feel would be useful for TSC to be aware.//
+
+Meeting the evolved needs of participants showing up at the ReqWG over the last 15 months. We recommend creating a Hyperledger mobile website app client. With Hyperledger example API transactions in open source that acts as code lab to create assets and transfer assets. In light of Cambridge Analytica, modular canvas applications with 3rd party interfaces need attention to security. 
+
+Further in light of Meltdown and Spectre and Cambridge Analytica. ES6 and other standards have landed to secure apps. [[https://caniuse.com/#feat=use-strict | 'strict mode']] and [[https://caniuse.com/#feat=serviceworkers | 'service workers']]. 
+
+Open source ecosystem resources are also available [[https://play.google.com/store/apps/details?id=io.flutter.demo.gallery | Flutter]] (based on [[https://www.dartlang.org/ | Dart]]) or a progressive web app ([[https://www.xda-developers.com/progressive-web-apps-replace-google-chrome-apps/ | PWA]]).    
+ 

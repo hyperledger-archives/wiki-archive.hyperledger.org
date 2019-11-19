@@ -1,0 +1,32 @@
+====== Working Group Update Schedule ======
+
+<WRAP center round box 75%>
+Schedule moved to [[https://lists.hyperledger.org/g/tsc/calendar]]
+</WRAP>
+
+
+^ Working Group              ^ Date Due      ^ Date TSC Reviews  ^
+| Architecture               | Feb 26, 2018  | Mar  1, 2018      |
+| Requirements               | Mar 12, 2018  | Mar 15, 2018      |
+| Identity                   | Mar 26, 2018  | Mar 29, 2018      |
+| Performance and Scale      | Apr  2, 2018  | Apr  5, 2018      |
+| Whitepaper                 | Apr 16, 2018  | Apr 19, 2018      |
+| Healthcare                 | Apr 23, 2018  | Apr 26, 2018      |
+| Technical WG China         | May  7, 2018  | May 10, 2018      |
+| Training and Education     | May 21, 2018  | May 24, 2018      |
+| Architecture               | Jun  4, 2018  | Jun  7, 2018      |
+| Identity                   | Jun 11, 2018  | Jun 14, 2018      |
+| Performance and Scale      | Jun 18, 2018  | Jun 21, 2018      |
+| Whitepaper                 | Jul  9, 2018  | Jul 12, 2018      |
+| Healthcare                 | Jul 16, 2018  | Jul 19, 2018      |
+| Technical WG China         | Jul 23, 2018  | Jul 26, 2018      |
+| Training and Education     | Aug  6, 2018  | Aug  9, 2018      |
+| Public Sector              | Aug 13, 2018  | Aug 16, 2018      |
+| Architecture               | Sep  4, 2018  | Sep  6, 2018      |
+| Identity                   | Sep 10, 2018  | Sep 13, 2018      |
+| Performance and Scale      | Sep 17, 2018  | Sep 20, 2018      |
+| Healthcare                 | Oct  8, 2018  | Oct 11, 2018      |
+| Technical WG China         | Oct 15, 2018  | Oct 18, 2018      |
+| Training and Education     | Oct 22, 2018  | Oct 25, 2018      |
+| Public Sector              | Nov  5, 2018  | Nov  8, 2018      |
+| Social Impact              | Nov 12, 2018  | Nov 15, 2018      |

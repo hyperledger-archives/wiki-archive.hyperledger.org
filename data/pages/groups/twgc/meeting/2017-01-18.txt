@@ -1,0 +1,66 @@
+===== TWG China Meeting =====
+
+==== Date ====
+10AM ~ 11AM, 2017-01-18, GMT+8
+
+==== Attendee ====
+
+  * Baohua Yang
+  * Zhipeng Huang
+  * Kai Chen
+  * Ray Chen
+  * Yin CAO
+  * Yaoguo Jiang
+  * Donald Liu
+  * Yanbo Li
+  * Kewei Sun
+  * Zhoudong Ji
+  * Julian Gordon
+
+==== Agenda ====
+  - TSC meeting sync (baohua, charles, victor)
+    - hackfest: SFO at Feb 1-2.Shanghai (March TBD) / New York (May TBD): If you have venue space, please contact tbenzies@linuxfoundation.org to discuss.
+    - New project was accepted: Cello
+  - Tools: phone system and forum, BTW: LF is testing hosting Rocket.Chat (donald)
+  - meetup/hackathon (zhou xing)
+  - mail-list and slack discussion (yaoguo and zhipeng)
+  - i18n work (kewei and zhoudong)
+  - Reporting
+    - **TODO**: Since the Chinese new year at the end of Jan, will summary a work report to TSC at middle of Jan.
+  - other issues
+
+==== Minute ====
+  - TSC meeting sync (baohua)
+    - hackfest: SFO at Feb 1-2.Shanghai (March TBD) / New York (May TBD): If you have venue space, please contact tbenzies@linuxfoundation.org to discuss.
+    - New project was accepted: Cello
+  - Tools: phone system and forum, BTW: LF is testing hosting Rocket.Chat (donald)
+    - **TODO**:Julian will help find global phone system in next meeting
+    - Forum discussion: most attendee think a forum is required, but may have several potential problems:
+      - Keep the discussion active (ray chen, yin cao)
+      - Call for more technical expert to help answer questions (kai chen).
+    - Potential forum solutions
+      - use global forum (donald prefered)
+      - use 3rd party forum (donald prefered)
+      - host locally by twgc
+  - hackathon (zhoudong)
+    - place is fixed, while developing registration applications.
+    - **TODO**: will help announce hackathon in more channels
+  - meetup
+    - We have beijing meetup and shenzhen meetup in past two months.
+    - Julian help introduce the status of Hongkong meetup, a half-day meetup with deep technical discussion.
+    - We encourage more meetup hosting.
+  - mail-list and slack discussion (yaoguo and zhipeng)
+    - numerous discussions happen, will need more drive
+    - yaoguo will send a statistic report
+  - i18n work (kewei and zhoudong)
+    - 8~9 volunteers through mail-list, would like to help.
+      - **TODO**: platform choice
+      - collaboration channel
+      - fabric 1.0 is not that stable yet, may start from other projects.
+  - Reporting
+    - **TODO**: Since the Chinese new year at the end of Jan, will summary a work report to TSC at middle of Jan.
+  - other issues
+    - some people ask how to join twgc? (yaoguo)
+      - twgc is an open organization, every events is open to join and attend
+      - we have volunteers, who have strong willings and dedicated time to help the work
+    - We will help promote every project in hyperledger (yin cao)

@@ -1,0 +1,32 @@
+===== Frequently Asked Questions =====
+[[healthcare-wg-wikispace-redesign|Home]]
+----------
+
+**What’s the purpose?**
+
+The Hyperledger Healthcare (HLHC) Working Group’s mission is to house and foster technical and business-level conversations about appropriate applications for blockchain technology in the healthcare industry. These conversations can be broad and educational, but should eventually be focused on identifying opportunities for near-term collaboration between participants on common software to implement a given application. If appropriately scoped and resourced, these conversations could lead to one or more proposals for new software development efforts to be hosted at Hyperledger.
+
+
+**Do you need to be a Hyperledger member?**
+
+No, this group is intended to promote the exploration of blockchain applications in healthcare and is open to everyone interested in positively collaborating towards solutions in thisarea.
+
+
+**What topics will you cover?**
+
+  * Discovery and exploration of healthcare-related blockchain use cases that address real world problems
+    * Explore fundamental Distributed Ledger applications first, such as establishing registries, interoperability and identities
+    *  Later, look to expand to more advanced topics, such as smart contracts and process automation
+  * Technical opportunities
+
+
+**Where do the conversations take place?**
+
+E-mail, online meetings, occasional face to face. Discussions on the E-mail are public - join here:
+bit.ly/HyperledgerHealthcare
+
+
+**Is this an active pilot?**
+
+No. While it is expected that technical projects, in particular open source software development initiatives, may emerge from the work of this group, this working group’s primary focus is collaborative education on how blockchain can be applied to solve real world issues in healthcare, leading to specific proposals for new Hyperledger-hosted software development projects. The implementation and piloting of that software is left to community participants.
+

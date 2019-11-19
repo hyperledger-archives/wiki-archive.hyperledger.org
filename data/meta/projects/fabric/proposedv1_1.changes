@@ -1,0 +1,32 @@
+1504712361	129.33.253.143	C	projects:fabric:proposedv1_1	markparz	created	
+1504824203	71.69.153.94	E	projects:fabric:proposedv1_1	simsc		
+1504824761	71.69.153.94	E	projects:fabric:proposedv1_1	simsc		
+1504834731	45.27.89.21	E	projects:fabric:proposedv1_1	denyeart		
+1504878088	129.42.208.179	E	projects:fabric:proposedv1_1	simsc		
+1504879170	45.27.89.21	E	projects:fabric:proposedv1_1	denyeart		
+1504879662	45.27.89.21	E	projects:fabric:proposedv1_1	denyeart		
+1505221940	129.42.208.184	E	projects:fabric:proposedv1_1	simsc		
+1505222510	129.42.208.184	E	projects:fabric:proposedv1_1	simsc		
+1505245032	129.42.208.184	E	projects:fabric:proposedv1_1	simsc		
+1505249722	129.42.208.184	E	projects:fabric:proposedv1_1	simsc		
+1505282669	45.24.160.202	e	projects:fabric:proposedv1_1	jyellick		
+1505858672	45.27.89.21	E	projects:fabric:proposedv1_1	denyeart		
+1505928884	128.235.8.156	E	projects:fabric:proposedv1_1	ChristopherFerris	added hyperlinks to JIRA	
+1506597458	45.27.89.21	E	projects:fabric:proposedv1_1	denyeart		
+1507024490	45.27.89.21	E	projects:fabric:proposedv1_1	denyeart		
+1507024692	45.27.89.21	E	projects:fabric:proposedv1_1	denyeart		
+1507052555	76.108.66.86	E	projects:fabric:proposedv1_1	ChristopherFerris	update to match JIRA	
+1507054028	76.108.66.86	E	projects:fabric:proposedv1_1	ChristopherFerris	align with JIRA	
+1509024546	129.42.208.182	E	projects:fabric:proposedv1_1	denyeart		
+1509024735	129.42.208.182	E	projects:fabric:proposedv1_1	denyeart		
+1509138304	45.27.89.21	e	projects:fabric:proposedv1_1	denyeart		
+1509139651	45.27.89.21	e	projects:fabric:proposedv1_1	denyeart		
+1509139830	45.27.89.21	e	projects:fabric:proposedv1_1	denyeart		
+1509140189	45.27.89.21	e	projects:fabric:proposedv1_1	denyeart		
+1509624622	76.108.66.86	E	projects:fabric:proposedv1_1	ChristopherFerris	indicate which items available in v1.1.0-preview release	
+1509624969	76.108.66.86	E	projects:fabric:proposedv1_1	ChristopherFerris	better formatting of links and reference to v1.1.0-preview	
+1515094840	45.27.89.21	E	projects:fabric:proposedv1_1	denyeart		
+1515094948	45.27.89.21	e	projects:fabric:proposedv1_1	denyeart	[Experimental Features - *not* to be included in v1.1 release images, but available if you build from source and first set EXPERIMENTAL=true environment variable':] 	
+1515095614	107.15.110.207	E	projects:fabric:proposedv1_1	scottz	[Experimental Features - *not* to be included in v1.1 release images, but available if you build from source and first set EXPERIMENTAL=true environment variable:] 	
+1518517672	45.27.89.21	E	projects:fabric:proposedv1_1	denyeart		
+1519124057	45.27.89.21	E	projects:fabric:proposedv1_1	denyeart	v1.1.0-alpha updates	

@@ -1,0 +1,34 @@
+==== 2018-05-04 ==== 
+
+Meeting will be held at [[ https://zoom.us/my/hyperledger.community | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/cello|rocketchat]] (for text chat) at:
+
+  * 08:30AM   (UTC-4)
+  * 06:00PM   (UTC+0530)
+  * 08:30PM   (UTC+8)
+
+  * [[https://jira.hyperledger.org/projects/CE/issues/CE-188?filter=allopenissues | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:cello+status:open | Open Patchset for review]]
+  * [[https://wiki.hyperledger.org/projects/cello | Project Wiki Page]]
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  - Dashboard progress [[https://jira.hyperledger.org/browse/CE-259 | Jira]] (hightall)
+  - Documentation and tutorial videos (jiang lu)
+  - Kubernetes agent process. (Luke)
+  - Other issues
+    - Feel free to add here.
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Haitao Yue
+  * Baohua Yang
+  * Luke Chen
+  * Tong Li
+
+
+=== Minutes === 
+  - Will Fix operator dashboard image build error, and do more test.
+  - New version slides about cello is published on wiki page.
+  - Almost done, need integrate in operator dashboard, and supply document for setup kubernetes single or multi node.

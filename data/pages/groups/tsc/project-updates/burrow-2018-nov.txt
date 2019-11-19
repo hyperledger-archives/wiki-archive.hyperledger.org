@@ -1,0 +1,50 @@
+====== Hyperledger Burrow Project Update Q4 2018 ======
+
+===== Project Health =====
+Project health is largely the same as in previous update. We are have added some unique features around governance (our proposal mechanism) and we have a number of casual contributors. We still lack maintainer diversity outside of Monax. There is a steady flow of interest and we a pushing plenty of code relating to our continued heavy use of Burrow.
+
+===== Issues =====
+The biggest areas of help would be with tooling and documentation. David Boswell has put me in contact with a potential technical ambassador to mentor on Burrow who might help in this area.
+
+
+===== Releases =====
+See our [[https://github.com/hyperledger/burrow/releases|GitHub Releases]]. We have had three releases since the last update:
+
+  * v0.22.0 - Tendermint and IAVL tree upgrade
+  * v0.23.0 - Major release with EVM compatibility fixes, proposal mechanism, and improved error handling
+  * v0.23.1 - Bugfixes
+
+===== Overall Activity in the Past Quarter =====
+A useful companion project [[https://github.com/monax/bosmarmot/tree/develop/vent|Vent]] to Burrow has reached relative maturity - and should _probably_ be merged into Burrow for ease of maintenance. This project dynamically creates SQL database tables from EVM events according to some specification files maintaining its offset in the chain as it goes. Currently it depends on Burrow schema but it could be fairly easily adapted to fabric-evm or seth if desired. Would it makes sense for it to have it's own home under Hyperledger?
+
+Our mailing list is quite but chat is active with several conversations taking place per week. We don't generally leave messages unreplied to for more than a day or so.
+
+
+===== Current Plans =====
+See [[[[projects:burrow:roadmap_2019_q1|Q1 2019 Burrow Roadmap]] for our near-term focus. Most of the items are centred around chain upgradeability on a live network. Where we need to make breaking changes we aim to provide an on-chain mechanism for forking with a validator approved proof pointing to the successor chain... ForkTx.
+
+We have an active side project looking at using modern compiler tooling to compile Solidity to WASM and are interested in being part of any future movement to share code/structures through WASM execution and interfaces. To that end we are planning to look into the possibility of mounting Go wagon as a WASM interpreter next to our EVM.
+
+We have also been building much business-process-on-a-blockchain functionality with the combination of Burrow and [[https://github.com/agreements-network/blackstone|Blackstone]] our BPM engine implemented in Solidity and Node.JS. We are looking at improving Burrow's native abilities as a process-focussed blockchain. We'd like to explore the possibility of Hyperledger being host to the Blackstone project in some form - it should have relevance to fabric-evm and sawtooth-seth.
+
+
+===== Maintainer Diversity =====
+We have added one maintainer from Monax and have a strong candidate outside Monax in Pierrick Hymbert who has become a contributor and has expressed interest in maintainership. 
+
+Current maintainers are:
+
+  * Greg Hill (Monax)
+  * Silas Davis (Monax)
+  * Sean Young (Monax)
+  * Casey Kuhlman (Monax)
+  * Tyler Jackson (Monax)
+
+
+===== Contributor Diversity =====
+In addition to maintainers we have:
+
+  * Pierrick Hymbert (https://github.com/phymbert) who recently helped us formalise our improvement programme with BIP (burrow improvement programme - RFC-like) documents stored in-repo as well as some useful code changes based on good knowledger of our upstream Tendermint
+  * Some useful issues from Sawtooth's Kenneth Koski.
+  * A number of miscellaneous documentation helpers.
+
+ 

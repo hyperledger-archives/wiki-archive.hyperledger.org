@@ -1,0 +1,31 @@
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1538281658;s:8:"modified";i:1538346810;}s:7:"creator";s:13:"Mikhail Elias";s:4:"user";s:8:"melias11";s:11:"last_change";a:7:{s:4:"date";i:1538372555;s:2:"ip";s:14:"190.148.78.189";s:4:"type";s:1:"e";s:2:"id";s:37:"groups:healthcare:stakeholders-people";s:4:"user";s:8:"melias11";s:3:"sum";s:0:"";s:5:"extra";s:0:"";}s:11:"contributor";a:1:{s:8:"melias11";s:13:"Mikhail Elias";}s:5:"title";s:6:"People";s:11:"description";a:2:{s:15:"tableofcontents";a:1:{i:0;a:4:{s:3:"hid";s:6:"people";s:5:"title";s:6:"People";s:4:"type";s:2:"ul";s:5:"level";i:2;}}s:8:"abstract";s:456:"People
+
+Home : Stakeholders
+
+----------
+
+(alphabetical, last name)
+
+	*  Doug Bulleit
+	*  Richard Bloch
+	*  Satarupta Bose
+	*  Angela Courtney
+	*  Rayne Devivo
+	*  Raveesh Dewan
+	*  Ben Djidi
+	*  Adrian Gropper
+	*  Pam Erickson
+	*  Amit Gupta
+	*  Fred Fox
+	*  Marissa Iannarrone
+	*  Michael Johnson
+	*  Ry Jones
+	*  Tony Little
+	*  Petr Lyalin
+	*  Jeff Mallad
+	*  Marta Piekarska 
+	*  Eli Perlman
+	*  Jeff Stollman
+	*  Michael Tran
+	*  Cris Torres
+	*  <Add>";}s:8:"relation";a:2:{s:10:"references";a:24:{s:50:"groups:healthcare:healthcare-wg-wikispace-redesign";b:1;s:30:"groups:healthcare:stakeholders";b:1;s:30:"groups:healthcare:doug_bulleit";b:0;s:31:"groups:healthcare:richard_bloch";b:0;s:32:"groups:healthcare:satarupta_bose";b:0;s:33:"groups:healthcare:angela_courtney";b:0;s:30:"groups:healthcare:rayne_devivo";b:0;s:31:"groups:healthcare:raveesh_dewan";b:0;s:27:"groups:healthcare:ben_djidi";b:0;s:32:"groups:healthcare:adrian_gropper";b:0;s:30:"groups:healthcare:pam_erickson";b:0;s:28:"groups:healthcare:amit_gupta";b:0;s:26:"groups:healthcare:fred_fox";b:0;s:36:"groups:healthcare:marissa_iannarrone";b:0;s:33:"groups:healthcare:michael_johnson";b:0;s:26:"groups:healthcare:ry_jones";b:0;s:29:"groups:healthcare:tony_little";b:0;s:29:"groups:healthcare:petr_lyalin";b:0;s:29:"groups:healthcare:jeff_mallad";b:0;s:33:"groups:healthcare:marta_piekarska";b:0;s:29:"groups:healthcare:eli_perlman";b:0;s:31:"groups:healthcare:jeff_stollman";b:0;s:30:"groups:healthcare:michael_tran";b:0;s:29:"groups:healthcare:cris_torres";b:0;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1538281658;s:8:"modified";i:1538346810;}s:7:"creator";s:13:"Mikhail Elias";s:4:"user";s:8:"melias11";s:11:"last_change";a:7:{s:4:"date";i:1538372555;s:2:"ip";s:14:"190.148.78.189";s:4:"type";s:1:"e";s:2:"id";s:37:"groups:healthcare:stakeholders-people";s:4:"user";s:8:"melias11";s:3:"sum";s:0:"";s:5:"extra";s:0:"";}s:11:"contributor";a:1:{s:8:"melias11";s:13:"Mikhail Elias";}}}

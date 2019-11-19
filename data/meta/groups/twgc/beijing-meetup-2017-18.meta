@@ -1,0 +1,16 @@
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1507866065;s:8:"modified";i:1511506099;}s:7:"creator";s:7:"Jay Guo";s:4:"user";s:6:"guoger";s:11:"last_change";a:7:{s:4:"date";i:1511588534;s:2:"ip";s:14:"202.45.129.181";s:4:"type";s:1:"e";s:2:"id";s:34:"groups:twgc:beijing-meetup-2017-18";s:4:"user";s:6:"baohua";s:3:"sum";s:0:"";s:5:"extra";s:0:"";}s:11:"contributor";a:1:{s:6:"guoger";s:7:"Jay Guo";}s:5:"title";s:26:"Hyperledger Beijing Meetup";s:11:"description";a:2:{s:15:"tableofcontents";a:5:{i:0;a:4:{s:3:"hid";s:26:"hyperledger_beijing_meetup";s:5:"title";s:26:"Hyperledger Beijing Meetup";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:1;a:4:{s:3:"hid";s:6:"时间";s:5:"title";s:6:"时间";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:2;a:4:{s:3:"hid";s:6:"地点";s:5:"title";s:6:"地点";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:3;a:4:{s:3:"hid";s:9:"赞助商";s:5:"title";s:9:"赞助商";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:4;a:4:{s:3:"hid";s:6:"议程";s:5:"title";s:6:"议程";s:4:"type";s:2:"ul";s:5:"level";i:3;}}s:8:"abstract";s:251:"Hyperledger Beijing Meetup
+
+时间
+
+13:30-17:00, Dec 10, 2017
+
+地点
+
+北京市朝阳区盘古大观 A 座 2605-2607
+
+赞助商
+
+场地赞助：安妮股份、版权区块链联盟
+
+议程
+ 时间            题目                           演讲者";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}s:8:"relation";a:1:{s:10:"firstimage";s:0:"";}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1507866065;s:8:"modified";i:1511506099;}s:7:"creator";s:7:"Jay Guo";s:4:"user";s:6:"guoger";s:11:"last_change";a:7:{s:4:"date";i:1511588534;s:2:"ip";s:14:"202.45.129.181";s:4:"type";s:1:"e";s:2:"id";s:34:"groups:twgc:beijing-meetup-2017-18";s:4:"user";s:6:"baohua";s:3:"sum";s:0:"";s:5:"extra";s:0:"";}s:11:"contributor";a:1:{s:6:"guoger";s:7:"Jay Guo";}}}

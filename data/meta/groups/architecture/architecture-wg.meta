@@ -1,0 +1,19 @@
+a:2:{s:7:"current";a:8:{s:4:"date";a:2:{s:7:"created";i:1543218504;s:8:"modified";i:1542676613;}s:4:"user";s:0:"";s:7:"creator";s:0:"";s:5:"title";s:26:"Architecture Working Group";s:11:"description";a:2:{s:15:"tableofcontents";a:9:{i:0;a:4:{s:3:"hid";s:26:"architecture_working_group";s:5:"title";s:26:"Architecture Working Group";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:7:"charter";s:5:"title";s:7:"Charter";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:2;a:4:{s:3:"hid";s:12:"mailing_list";s:5:"title";s:12:"Mailing List";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:3;a:4:{s:3:"hid";s:8:"meetings";s:5:"title";s:8:"Meetings";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:4;a:4:{s:3:"hid";s:16:"antitrust_policy";s:5:"title";s:16:"Antitrust Policy";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:5;a:4:{s:3:"hid";s:15:"meeting_minutes";s:5:"title";s:15:"Meeting Minutes";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:6;a:4:{s:3:"hid";s:26:"arch_wg_doc_working_drafts";s:5:"title";s:26:"Arch WG Doc Working Drafts";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:7;a:4:{s:3:"hid";s:12:"publications";s:5:"title";s:12:"Publications";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:8;a:4:{s:3:"hid";s:14:"active_members";s:5:"title";s:14:"Active Members";s:4:"type";s:2:"ul";s:5:"level";i:2;}}s:8:"abstract";s:384:"Architecture Working Group
+
+Charter
+
+	*   Hyperledger Arch-WG Charter
+
+Mailing List
+
+	*   architecture-wg mailing list
+
+Meetings
+
+Teleconference bi-weekly on Wed. 9 AM Pacific alternating with Identity-WG meetings 
+
+
+Join from PC, Mac, Linux, iOS or Android: <https://zoom.us/my/hyperledger.community>
+
+Or iPhone one-tap :
+  US: +16465588656,,4034983298#  or +16699006833,,4034983298#";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}s:8:"relation";a:1:{s:10:"firstimage";s:0:"";}s:11:"last_change";a:7:{s:4:"date";i:1542676613;s:2:"ip";s:13:"73.225.57.104";s:4:"type";s:1:"E";s:2:"id";s:35:"groups:architecture:architecture-wg";s:4:"user";s:6:"cliveb";s:3:"sum";s:17:"[Active Members] ";s:5:"extra";s:0:"";}}s:10:"persistent";a:4:{s:4:"date";a:1:{s:7:"created";i:1543218504;}s:4:"user";s:0:"";s:7:"creator";s:0:"";s:11:"last_change";a:7:{s:4:"date";i:1542676613;s:2:"ip";s:13:"73.225.57.104";s:4:"type";s:1:"E";s:2:"id";s:35:"groups:architecture:architecture-wg";s:4:"user";s:6:"cliveb";s:3:"sum";s:17:"[Active Members] ";s:5:"extra";s:0:"";}}}

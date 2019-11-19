@@ -1,0 +1,14 @@
+===== Human milk services model =====
+  * [[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]] : [[analysis-business|Domain analysis]] : [[analysis-human-milk|Human milk services]]
+  * [[healthcare-wg-wikispace-redesign |Home]] : [[resources|Resources]] : [[analytical_models|Analytical models]]
+
+----------
+
+  * [[human-milk-services-participants|Service participants]]
+  * [[human-milk-services-workflows|Service workflows]]
+  * [[human-milk-services-resources|Service resources]]
+  * [[human-milk-services-contexts|Service contexts]]
+  * [[human-milk-services-policies|Service policies]]
+  * [[human-milk-services-metrics|Service metrics]]
+
+

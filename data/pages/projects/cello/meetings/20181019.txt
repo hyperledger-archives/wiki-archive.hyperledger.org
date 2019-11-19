@@ -1,0 +1,41 @@
+==== 2018-10-19 ==== 
+Meeting will be held at [[ https://zoom.us/my/hyperledger.community | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/cello|rocketchat]] (for text chat) at:
+  * 08:30AM   (UTC-4) [UTC -4 is Eastern Daylight Time EDT]
+  * 06:00PM   (UTC+0530)
+  * 08:30PM   (UTC+8)
+
+  * [[ https://jira.hyperledger.org/projects/CE/issues/CE-188?filter=allopenissues | Ongoing Jira task ]] 
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:cello+status:open | Open Patchset for review ]] 
+  * [[ https://wiki.hyperledger.org/projects/cello | Project Wiki Page ]] 
+
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  - User auth system, [[ https://docs.google.com/document/d/1JHOuv97Pigs72KPfS67dYHSV4j85421Twar8-ZdDGNM/edit?usp=sharing | design spec ]], [[ https://jira.hyperledger.org/browse/CE-485 | Jira Task ]] [[ https://gerrit.hyperledger.org/r/#/c/27104/ | gerrit ]] (Haitao)
+  - Kubernetes progress (Luke Chen)
+  - [[https://wiki.hyperledger.org/projects/cello/internship-2018|Internship progress]] (shuo)
+  - Review proposal of [[https://docs.google.com/document/d/1Dw6cEKaul6FenORNkDcxvPDDKwpl0A5EmcJBlqAWJoU/|Blockchain Consortium Governing with Cello]]
+
+
+
+=== Attendee ===
+**Please put your name before the meeting.**
+
+11 attendees:
+  * Baohua Yang
+  * Haitao Yue
+  * Tong Li
+  * Jiahao Chen
+  * Peng Du
+  * Shuo Wang
+  * sasha
+  * Ali
+  * 
+
+=== Minutes ===
+  * Haitao demoed the new user-management system with keycloak, which is powerful to support SSO. 
+    * questions related to make it pluggable.
+  * Luke will fix the k8s agent problem next week;
+  * Shuo demoed he can generate all credentials with fabric-ca already, will support 1.3 next week;
+  * Baohua showed the proposal related to governing enhancement with Cello, questions related to the governing process.

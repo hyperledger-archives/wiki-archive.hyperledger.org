@@ -1,0 +1,29 @@
+====== Requirements WG Members ======
+
+as of 2017-Jan-14
+
+^     Name                            ^    Affiliation              ^
+|Nikilesh Subramoniapillai Ajeetha    |                             |	
+|Tamas Blummer                        |Digital Asset Holdings       |
+|Richard G Brown                      |R3 CEV                       |
+|Ian Carman	                      |                             |
+|Ovidiu Valentin Drugan 	      |DNV GL                       |
+|Andreas Fletcher                     |Deutsche Börse AG            |
+|Vishal Jadhav	                      |Bloomberg LP                 |
+|Benedikt Herudek                     |                             | 	
+|Patrick Holmes	(Retired)             |Intel                        |
+|Alex Kane                            |Songtrust                    |
+|Igor Lilic                           |ConsenSys Enterprise         |
+|Frank Lu                             |IBM                          |
+|Primrose Mbanefo                     |Accenture                    |
+|Judy Priest                          |Cisco                        |
+|Emmanuel Viale	                      |Accenture Technology Labs    |
+|Howard Huang	                      |                             |
+|Ari Mutanen	                      |Altoros                      |
+|Mark Parzygnat                       |IBM                          |
+|Oleg Abdrashitov (Leader)                   |Altoros                      |
+|Jeremy Sevareid                      |Independent                  |
+|Clive Boulton                        |Independent                  |
+|Ajit Krishnamohan                      |Airbus                  |
+|Thierry Chevalier                     |Airbus                  |
+|Nagesh Avusingi | Independent |

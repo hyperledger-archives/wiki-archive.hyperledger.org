@@ -1,0 +1,45 @@
+==== 2018-10-12 ==== 
+Meeting will be held at [[ https://zoom.us/my/hyperledger.community | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/cello|rocketchat]] (for text chat) at:
+  * 08:30AM   (UTC-4) [UTC -4 is Eastern Daylight Time EDT]
+  * 06:00PM   (UTC+0530)
+  * 08:30PM   (UTC+8)
+
+  * [[ https://jira.hyperledger.org/projects/CE/issues/CE-188?filter=allopenissues | Ongoing Jira task ]] 
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:cello+status:open | Open Patchset for review ]] 
+  * [[ https://wiki.hyperledger.org/projects/cello | Project Wiki Page ]] 
+
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  - Review dynamic compose template generation: https://gerrit.hyperledger.org/r/#/c/26925/.
+  - Montreal hackfest feedback (Peng Du)
+  - User dashboard bug fix progress (Haitao)
+  - Kubernetes agent bug fix progress (Luke Chen)
+  - fabric-ca support progress (shuo)
+  - Yash is asking for feature design spec (hightall should help response?)
+  - Quick demo of using Minio Server for share crypto config files (Haitao)
+
+
+=== Attendee ===
+**Please put your name before the meeting.**
+
+Attendee Number: 14
+  * Baohua Yang
+  * Haitao Yue
+  * Tong Li
+  * Jiahao Chen
+  * Peng Du
+  * Shuo Wang
+  * Anli
+
+=== Minutes ===
+
+  - Hightall will evaluate dynamic compose template generation: https://gerrit.hyperledger.org/r/#/c/26925/.
+  - Montreal hackfest feedback by Peng Du: 15 questions, suggest make Cello support dynamic and distributed way, and also consider more governing feature.
+  - Several User dashboard bug fix
+  - Kubernetes agent bug fix progress: Luke Chen is busy recently, no much progress
+  - fabric-ca support progress: shuo will make a pure credential generation
+  - Yash is asking for feature design spec, hightall will help response
+  - Hightall give a quick demo of using Minio Server for share channel-artifacts files
+

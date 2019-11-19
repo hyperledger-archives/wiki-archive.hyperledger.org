@@ -1,0 +1,11 @@
+===== Domain analysis =====
+[[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]]
+----------
+
+==== Services ecosystems ====
+
+  * [[analysis-human-milk|Human milk services]]
+  * [[analysis-provider-credentialing|Provider credentialing services]]
+  * [[analysis-preauth|Pre-authorization services]]
+  * [[analysis-laboratory|Laboratory services]]
+  * [[analysis-clinical-trials|Clinical trials services]]

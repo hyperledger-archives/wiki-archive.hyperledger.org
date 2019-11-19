@@ -1,0 +1,16 @@
+====== Hyperledger Melbourne Wiki Page ======
+
+====== useful links: ======
+  * [[https://drive.google.com/drive/folders/1l5dx7evxNRv3K_H8QAn21RontX0kgI1r?usp=sharing|Google Drive (with edit permissions)]]
+  * [[:start|Welcome to the Hyperledger Wiki!]]
+
+====== meetup #1 28-November-2018 ======
+[[https://drive.google.com/open?id=1SWj88TKEZPtDhsnyDj0036z8_fa_c_DZ|Intro deck to kickoff meetups]]
+
+Outcomes:
+  * hold monthly meetups with the first in Feb-2019
+  * setup up shared drive and wiki to share information
+  * look to video record sessions for offline sharing
+  * Split meetup information between technical education and Enterprise customer use cases
+  * look to involve vendors in the community
+

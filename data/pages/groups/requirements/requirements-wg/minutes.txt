@@ -1,0 +1,1198 @@
+**//This is a static snapshot of the Requirement Working Group's live Google meeting minutes. Meetings before May 9th are not included here.//**
+
+===== March 19th, 2018 =====
+
+In our bi-weekly meeting. We sound out a new direction for the ReqWG. Focusing on supply chain requirements for sample mobile code to ease getting going with Hyperledger projects. [[https://docs.google.com/document/d/1XQnZbIVWzwnRtSZ5dCETfVU9iLjD-oIqFNSgqa40TVQ/edit# | use case doc live draft]] 
+
+Attendees 
+
+  * Clive Boulton - Independent Hyperledger
+  * Tracy Kuhrt, Community Architect, Hyperledger
+  * Andrew Kennedy - FoodLogiQ, Board Member, Produce Marketing Association
+  * Todd Baggett, RedLine Solutions, Member Produce Marketing Association
+  * Amit Kumar Gupta,Co-Founder/CTO of SIPL .
+  * Virginia Saharopulos, Project Manager, Azzule Systems
+  * More
+
+
+Link to existing Produce Traceability Initiative Resources: 
+https://www.producetraceability.org/resources/
+
+
+===== March 5th, 2018 =====
+Our bi-weekly meeting we’ll discuss architecture requirements for mobile blockchain apps and distributed use cases. 
+
+  * On requirements we plan a working group document spanning from IoT to AI -- Aaro
+n will drive this.  
+  * On solutions we plan ReqWG document specifying the permissions from IoT to AI - Clive will drive this. 
+  * We plan these papers as yin and yang to tell what is possible in blockchain and how to implement with Hyperledger projects. With peer review feedback via ReqWG.
+  * In a grander vision we envision working for resources to outline open source implementation of a mobile client app for blockchain transactions. Toward Brian Behlendorf’s vision on Hyperledger's open-source standardization efforts at Mobile World Congress. [[https://youtu.be/K6Da9zJYgYY]]
+
+Attendees
+
+  * Clive Boulton  -  Hyperledger ReqWG (Independent) 
+  * Aaron Bennington -  Blockchain Strategist @ TCS. 
+  * Uma Modepalli - Accenture Chicago
+  * Hoa Wang - Blockchain community builder in Romania 
+
+
+
+===== February 19th, 2018 =====
+In our bi-weekly meeting we concentrated discussions on Permissioned Blockchain requirements. Developing a draft  white paper for backfitting modern businesses systems to build secure ecosystem with Hyperledger projects. 
+
+Attendees
+
+  * Clive Boulton  -  Hyperledger ReqWG (Independent) 
+  * Aaron Bennington -  Blockchain Strategist @ TCS. 
+  * Eric Kepler - N/A
+
+
+===== February 5th, 2018 ======
+Just some discussion and announcements.
+Thursday 2/15 at 1pm EST
+Sawtooth v1.0: Market Significance and Technical Overview
+[[https://event.on24.com/eventRegistration/EventLobbyServlet?target=lobby20.jsp&eventid=1585244&sessionid=1&partnerref=lforg&key=EEC7C7CFA90BDCC971DA27CDA3B86DE4&eventuserid=194185881|Webinar Link]]
+
+Added new Permissioned Hyperledger Academic use case + POC by TCS Innovation Labs  https://wiki.hyperledger.org/_media/groups/requirements/use-case-inventory/marschain_usecase_hl.pdf
+
+Attendees
+
+  *  Clive Boulton  - Hyperledger ReqWG (Independent) 
+  *  Steven Graves - Startup Exec
+  *  Kiran Indria - Solution Architect
+
+
+
+===== January 22nd, 2018 ======
+
+Nitesh Emmadi working as Researcher in Security and Privacy group of TCS Innovation Labs, India presented a paper on permissioned blockchains (including HyperLedger Fabric) developments. A use-case titled "MaRSChain: Framework for a Fair Manuscript Review System Based on Permissioned Blockchain". Here is the link to use-case document (short-version): [[https://docs.google.com/document/d/1yECeh_yjmjRseTj54YA5SxPexECHYZ8keOTQ4X10Pnk/edit#heading=h.jsd2mc4vfq7q|External Link]]
+
+Continuing work: Plan is to update the finalized use case to the ReqWG inventory. Also take steps to contribute the POC code to git repo. 
+
+**ArchWG** note this UC uses shell scripts pending planned availability of Hyperledger off-chain scripts.    
+
+Attendees
+  * Nitesh Emmadi - TCS
+  * Clive Boulton - Hyperledger ReqWG (Independent) 
+  * Chad Perry
+  * Padmaja Maddali - TCS
+  * Aaron Beddington - TCS
+  * More attended. 
+
+
+===== January 8th, 2018 ======
+Our next bi-weekly meeting we will parse Distributed Ledgers in 2018? The Hyperledger Community Weighs In! [[https://www.hyperledger.org/blog/2017/12/20/4590]]
+
+In addition we discussed blockchain as strategy to decentralise cyber risk in light the Speculative Execution CPU Vulnerability. [[https://research.google.com/pubs/pub46290.html]]  
+
+We also discussed position papers under way at Architecture-WG.  Together with the process by which requirement gaps are shared across Hyperledger projects. Details on audio recording.  
+
+Attendees
+  * Clive Boulton - Hyperledger (independent)
+  * Eric Heyward - SA
+  * Rohan Agarwal - LinkedIn Engineer
+
+===== December 11th, 2017 =====
+In today’s bi-weekly call we analyze results from a survey on Requiements Gaps in Hyperledger [[https://docs.google.com/forms/d/1Mz7hxvfxjY-dJu7KJ7mvedbSni3wRAxllSmxgcYE_hs/edit]] 
+
+Survey review spurs is to promote the survey to wider audience for input and use results to close loop on missing features in Hyperledger projects through cross-collaboration with Architecture and other WGs.
+   
+Tracy gave an update on Lisbon Hyperledger Hackfest. Next Hackfest planning underway for February 2018 in NA. 
+ 
+Attendees 
+
+  * Clive Boulton, Hyperledger (Independent)
+  * Neviana Zhgaba. Finance at GE.
+  * Tracy Kuhrt - Community Architect Hyperledger
+  * Kiran Murty - Aura Blocks
+  * Eric - N/A
+
+
+===== November 27th, 2017 ======
+In today’s bi-weekly call we discuss: Taking the block out of blockchain....[[http://flip.it/8u52WT | c/o Alphaville]]. More so we discussed ReqWG inventory of use cases and how we can help with templates and process to author and peer review more use cases.     
+
+Attendees
+  * Clive Boulton, Hyperledger (Independent) 
+  * Shawn Douglass, Blockchain-startup
+  * Daniela Barbosa, Hyperledger, VP Partners 
+
+
+
+===== November 13th 2017 =====
+In today’s bi-weekly call we discuss emerging blockchain standards. 
+
+10.25.17 Blockchain Beyond Fintech: Brian Behlendorf spoke on panel at the Churchill Club 
+https://www.youtube.com/watch?v=beNtuuWv02A&t=428s
+
+Attendees
+  * Clive Boulton, Independent 
+  * Jay Sung, Blockchain Startup Entrepreneur.
+
+
+===== October 30th, 2017 =====
+We discussed ReqWG tools and process to develop a peer reviewed use case for Trade Settlements (see template and process links on wiki page). David listed his recommended Blockchain Meetups in NYC. Clive mentioned reprised work on Blockchain meets Object-capabilities presented in Vancouver BC after Splash 2017. Audio recording is available [[https://drive.google.com/open?id=0B_NJV6eJXAA1aDFDVEFyZ1A0Mlk | here]] 
+
+Attendees
+  * Clive Boulton, Independent
+  * David Boadita, Capital Markets at Accenture
+  * Jason Diebley, State Street Bank
+  * Anon on call.
+
+
+===== October 16th, 2017 =====
+
+GE Digital is interested in spurring a discussion on Hyperledger blockchain for Financial Master Data Management in ERP at today’s bi-weekly. If you are interested in ERP at global scale this could be an exciting discussion. Please see our [[https://drive.google.com/file/d/0B_ObsXjgeZdNSFBrejY3MUpRMTFWQ2tDcjBmRzdDNzhoRVFZ/view | Antitrust Policy ]]
+
+Based on discussion a solid blockchain use case emerged for managing financial metadata between customers and suppliers and ERP.  Recommended reading is [[http://iang.org/papers/triple_entry.html | Ian Grigg's triple entry accounting]]. Projected productivity benefits are automatic payments automatically managing days outstanding.    
+
+Second use case is around counterfeiting. As discussed this was more product and supply chain based than ERP financial metadata.        
+
+Attendees
+  * Clive Boulton.  Independent Lead, Hyperledger 
+  * Neviana Zhgaba. Finance Master Data Management at GE Digital
+  * Aaron Bennington, TCS
+
+
+===== October 2nd, 2017 =====
+
+Today's ReqWG discussed 'See Through Coffee' and traceability in co-op supply chains with a goal to building an open coffee supply chain traceability app for co-op growers. Into solving Inventory bullwhip and the UI app interoperability possibilities with chaincode. 
+
+We also discussed blockchain for Financial Master Data Management in large scale ERP. GE Digital is interested in a discussing Hyperledger blockchain for Financial Master Data Management in ERP at the next bi-weekly. If you grok SAP or Oracle internal ERP architecture this could be an exciting discussion. 
+
+Likewise if you know how to implement smart contracts beyond Fabric Composer, we need community architect input. 
+
+Coffee Supply Chain Traceability Use case 
+https://docs.google.com/a/onda.io/document/d/1xwra8dTin7ZeoGXcJuWjQAiZjEgaQpjBqIOOAzLiDmw/edit?usp=sharing
+
+Attendees
+  * Clive Boulton. ReqWG Lead, Hyperledger ReqWG. 
+  * Scott Tupper. Founder, Onda Origins
+  * Veeren Gonugunta.  Grad Student Industrial Engineering at Penn SU. 
+  * Neviana Zhgaba. Finance Master Data Management at GE Digital
+
+Meeting Recording:
+  * [[https://wiki.hyperledger.org/_media/groups/requirements/20171002-requirements-wg.mp3]]
+===== September 17th, 2017 =====
+
+Brian Behlendorf visited our bi-weekly call and challenged us to work together on requirements and sample code to allow applications across different Hyperledger projects. For example Hyperledger Composer for smart contact apps works on Hyperledger Fabric but not on Hyperledger Sawtooth. Today we will discuss your requirements, how we can work together.
+
+To get us started Victor's group has been working on and built a benchmarking project working across different blockchains named Caliper here: [[https://github.com/Huawei-OSG/caliper]]
+
+Please take our survey to help us accelerate requirements for Hyperledger apps [[http://bit.ly/2pKKaKR]] 
+
+Attendees
+  * Clive Boulton, Independent
+  * Oregon attendee. 513-813-xxxx. 
+
+
+
+===== Sept 3rd, 2017 ====== 
+
+Meeting cancelled, was US federal holiday.
+
+
+===== August 21st, 2017 ===== 
+
+Attendees:
+  * Marta Piekarska, Hyperledger Director of Ecosystem
+  * Clive Boulton, Independent
+  * Aaron Bennington, TCS
+
+Condensed minutes: 
+
+We discussed continuing to work with others on interoperability, client code document for Fabric and Sawtooth. Marta pointed us to Fabric Composer and Sawtooth supply chain demo on fish in lieu of Sawtooth Composer. Aaron will check with TCS for any doco/code that could be shared.  Next Hyperledger hackfest is in Chicago Sept 20/21. Following is in Europe (looking at Lisbon/Berlin).  
+
+[[https://www.hyperledger.org/wp-content/uploads/2017/08/Hyperledger_Arch_WG_Paper_1_Consensus.pdf | Hyperledger Architecture WG paper]] is a good read. 
+
+Meeting Recording: [[https://drive.google.com/open?id=0B_NJV6eJXAA1akdvT3NubC1sdlU|20170821-requirments-wg.mp3]]
+
+
+===== August 7th, 2017 =====
+
+Attendees:
+  * Clive Boulton - Independent
+  * Brian Behlendorf  - Hyperledger
+  * Chris Clason - Digital Asset
+  * Vikrant Sawant 
+
+Condensed minutes: We discussed continuing to work with others on requirements and letting folks know that the ReqWG is here to do so. Further recommendation folks interested in privacy will be interested to check out the technical discussion on Fabric privacy on rocket chat http://chat.hyperledger.org/ 
+
+Meeting Recording: [[https://drive.google.com/open?id=0B_NJV6eJXAA1aFQtb0M5a2tIMGM|20170807-requirments-wg.mp3]] 
+
+
+===== July 24th, 2017 =====
+Investigated Szabo vs Miller: Short term smart contracts settled on blockchain versus long running smart contacts settled by splitting smart contracts on blockchain for granular execution due to complexities:
+
+"Smart contracts fail to take social complexities...into account" by Karen Levy et al. 
+http://estsjournal.org/article/download/107/61
+
+How Technology Helps Creditors Control Debtors (kill switch) 
+https://www.theatlantic.com/technology/archive/2016/04/rental-company-control/478365/
+
+See schematic 
+https://docs.google.com/document/d/139zLiMCJBLYVFR4dQd_2UqJOyJVEBjAB8PwxIwV6Wf0/edit
+
+Attendees:
+
+  * Clive Boulton - WG 
+  * Oskar van Deventer - TNO
+
+Meeting Recording: [[https://drive.google.com/open?id=0B_NJV6eJXAA1VXZtRjdpLThqQnc|20170724-requirments-wg.mp3]]
+
+===== July 10th, 2017 =====
+Discussed “After-the-fact mandate changes” use case next steps and ReqWG maturity process: Interface with ArchWG and ReqWG use case revision control. May need to present use case at Hyperleger hackfest to gain architecture and other experts consensus. Clive will ask US lawyers to review use case for US Law.          
+
+Attendees:
+  * Clive Boulton - Independent
+  * Oskar van Deventer - TNO
+  * David Boadita - Advise Technologies
+  * Jason Clark - IBM
+  * Zack ...
+
+Meeting Recording: [[https://drive.google.com/open?id=0B_NJV6eJXAA1b3h5YUF4NkN2RkU|20170810-requirments-wg.mp3]]
+
+===== June 26th, 2017 =====
+Accept draft of the use case on “After-the-fact mandate changes”. 
+[[https://docs.google.com/document/d/1psJc9UWuteSzOqIG0VLIdzdlxFb9kq-Csw-dxcjPzEo/edit |“After-the-fact mandate changes”.]]
+ 
+  * Discuss comments gathered so far [incorporate changes]
+  * Deliver the use case doc to the Architecture WG [next step]
+ 
+Attendees:
+  * Oleg Abdrashitov - Altoros
+  * Clive Boulton - Independent
+  * Oskar van Deventer - TNO
+  * Tracy Kuhrt - Community Architect Hyperledger
+  * Rahul Shah - Fulcrum (Axiom Technology Group)
+  * Prajakta Patil - Fulcrum (Axiom Technology Group)
+
+Meeting Recording: [[https://drive.google.com/open?id=0B_NJV6eJXAA1dWlCbmpmSkJZX28|20170626-requirements-wg.mp3]]
+
+
+===== June 12th, 2017 =====
+Oskar will walk ReqWG through a first draft of the use case on
+[[https://docs.google.com/document/d/1psJc9UWuteSzOqIG0VLIdzdlxFb9kq-Csw-dxcjPzEo/edit|“After-the-fact mandate changes”.]]
+ 
+  * Is this a use case that is already covered by the Hyperledger project somewhere?
+  * Should the Hyperledger project consider this use case?
+  * Any comments and suggestions to improve
+ 
+Attendees:
+  * Oleg Abdrashitov - Altoros
+  * Rieks Joosten - TNO
+  * Oskar van Deventer - TNO
+  * Drummond Reed - Evernym
+  * Clive Boulton - Independent
+  * Frans Tjallingi - Global Data Chain
+  * Aaron Benningfield - TCS 
+
+Meeting Recording: [[https://drive.google.com/open?id=0B_NJV6eJXAA1alUyemxmQm83bGM|20170612-requirements-wg.mp3]]
+
+
+===== May 15th, 2017 =====
+Supply Chain Traceability / Anti-Counterfeiting complete. 
+[[https://wiki.hyperledger.org/_media/groups/requirements/hyperledger_-_supply_chain_traceability-_anti_counterfeiting.pdf | Supply Chain Traceability / Anti-Counterfeiting complete]]
+
+ReqWG Use Case process:
+  * Author use case in Google doc (makes adding tables, diagrams practical).
+  * Circulate for peer input.
+  * Present use case at bi-weekly ReqWG call.
+  * Link Google doc to the ReqWG wiki index page use-case-inventory
+  * Add abstract, author contact and reviewers to complete.
+  * Convert to PDF, upload and update wiki link.
+
+Attendees:
+  * Oleg Abdrashitov - Altoros
+  * Oskar van Deventer - TNO
+  * Clive Boulton - Independent (listen mode)
+
+
+
+
+===== May 1st, 2017 =====
+
+To help expedite your adoption please [[http://bit.ly/2pKKaKR | Take our survey]]
+
+Review the Supply Chain Traceability [[https://docs.google.com/document/d/1V0WpEggrHrBNaCL_gQrynqqmFaT3cNQw6hj1AhfkTPk/edit | use case]]. Hope to promote to Milestone 2 or beyond - Aaron Benningfield (promoted to completed). 
+
+New research alert: Solidus protocol for private transactions from IC3. Call to study the white paper. The protocol is blockchain platform agnostic makes it a candidate for HL either as a standalone contribution or a service to provide confidentiality.
+  * [[http://www.initc3.org/files/solidus.pdf]]
+  * [[http://www.coindesk.com/ic3-researchers-propose-solidus-protocol-private-transactions/]]
+
+ReqWG Use Case process:
+ 
+  * Author use case in Google doc (makes adding tables, diagrams practical).
+  * Circulate for peer input.
+  * Present use case at bi-weekly ReqWG call. 
+  * Link Google doc to the ReqWG wiki index page [[groups/requirements/use-case-inventory]]
+  * Add abstract, author contact and reviewers when completed.
+  * Convert to PDF, upload and update wiki link. 
+
+Attendees:
+  * Aaron Benningfield, Independent
+  * Oleg Abdrashitov - Head of Blockchain Practice, Altoros
+  * Clive Boulton - Independent
+  * Oskar van Deventer - TNO
+  * David Boadita - Independent
+  * Frans Tjallingii - Vancouver blockchain start-up
+  * Mike Zaccardo - Cloudsoft`
+  * Duc Trinh - ???
+
+
+===== April 17, 2017 =====
+
+Discuss the * draft * Requirements Gap Survey form - Clive Boulton 
+https://docs.google.com/forms/d/1Mz7hxvfxjY-dJu7KJ7mvedbSni3wRAxllSmxgcYE_hs/edit
+
+Please provide feedback to the ReqWG on features missing to help expedite your adoption. Take our survey. [[http://bit.ly/2pKKaKR]]
+
+Attendees:
+
+  * Clive Boulton - Independent 
+  * Sean Bohan - Sovrin & Indy
+  * Nikilesh Subramoniapillai Ajeetha- Cisco
+  * Others attended call in listening mode
+
+We also chatted about Sovrin identity and cross-chain interop. More at upcoming Hackfest April 24-25 in Washington DC. https://www.hyperledger.org/event/washington-d-c-hyperledger-hackfest
+
+
+===== April 3, 2017 =====
+Discuss the Functional Roles in Blockchain Ecosystems - Oskar van Deventer (TNO)
+https://docs.google.com/document/d/1CIMzpsCYNyFuJ_IgJhrsIY-ZxEk23w-pf8sQ2d79ASc/edit
+
+Discuss Charter comments (survey gaps blocking adoption requested)
+https://docs.google.com/document/d/1GJR3oLk5-JL-A1lXtFJQ2shisf0xrp4cHAM70DWDCbA/edit
+
+Discuss Supply Chain Traceability Use Case (time permitting) - Aaron, Mahesh Govind, Mayur BHole
+
+Attendees: 
+  * Aaron Benningfield, TCS
+  * Oleg Abdrashitov, Altoros
+  * Clive Boulton - Independent
+  * Sean Bohan  - Sovrin
+  * Oskar van Deventer - TNO (Netherlands) 
+  * David Boadita - Independent
+  * Mike Zaccardo - Cloudsoft
+  * Matt Quin - ???
+  * Vikrant S - ???
+  * Miguel Martinez - Heath
+  * Santhosh Kumar - ???
+
+Actions:
+  - Request rights to add new documents to Wiki - Oleg
+  - Draft requirements gap survey - Clive  
+
+
+===== March 6th, 2017 =====
+
+Discuss the Working Group Charter. 
+
+[[https://docs.google.com/document/d/1GJR3oLk5-JL-A1lXtFJQ2shisf0xrp4cHAM70DWDCbA/edit]]
+
+Attendees:
+  * Oleg Abdrashitov, Altoros
+  * Mike Zaccardo, Cloudsoft
+  * Clive Boulton, Independent
+  * Judy Priest. Cisco
+  * Matt Quin
+  * David Boadita
+  * More
+
+Added ‘showcase success stories’ to the ReqWG Charter.
+Removed ‘disbandment’ paragraph from the Charter.
+Post the Charter doc to the mailing list. If no one objects, deliver as final to the TSC on March 9.
+
+Mike Zaccardo: Status of Cloudsoft’s Fabric 0.6.x Deployment onto Kubernetes:
+[[https://cloudsoft.io/blog/2017/2/16/deploying-hyperledger-fabric-on-kubernetes-with-cloudsoft-amp]]
+
+Draw attention to the problem of chain to chain transaction. Possible solutions: DAH’s Global Synchronisation log, invoke between channels Fabric 1.0, Ripple’s inter ledger protocol. 
+
+
+===== February 6th, 2017 =====
+Hyperledger is moving from Slack to Rocket Chat. Please use your [[https://identity.linuxfoundation.org/ | Linux Foundation identity]] to sign here http://chat.hyperledger.org/  Push the CAS button (you will hear a bong sound signifies success).
+
+Discussed at Hyperledger Sessions at the Presidio Feb 2-3 and afterwards on Rocket Chat.
+
+“We need to really start discussing more and more specific requirements on the current projects we have in HL. Bring items forward in Jira, if deemed required... complex and a lot of less complex, items as well. 
+
+Attendees:
+  * Mike Zaccardo, Cloudsoft
+  * Clive Boulton, Independent.
+  * David Boadita - (dboadita@gmail.com) - Independent
+
+Use Case Inventory Status:
+  * David Boadita to own [[https://wiki.hyperledger.org/requirements/use-cases/use-case-trade-capturing|Trade Capturing]] use case
+  * Clive looking for [[https://wiki.hyperledger.org/requirements/use-cases/use-case-supply-chain-logistics|Supply Chain Logistics]] domain experts in addition to Airbus to peer review written requirements.
+
+Derivative:  
+
+  * Mike was looking to find out more information about best practices / user guides for deploying chaincode to Fabric v1.0 in order to develop automated tools with Cloudsoft AMP.
+
+  * Ex-IBMers looking into hosting ‘office hours’ in NYC to discuss requirements / code up HL projects (informal for now) anyone interested please reach out on Rocket Chat. http://chat.hyperledger.org/ or attend next bi-weekly webex and connect.
+
+
+===== January 23rd =====
+
+Attendees:
+  * Mike Zaccardo, Cloudsoft
+  * Clive Boulton, Independent
+
+Agenda:
+  * Discuss the potential for running Hyperledger Fabric on Kubernetes
+  * Potentially running on IBM Z system (relevant backstory: http://www.cbronline.com/news/big-data/ibm-targets-flexible-mainframes-with-open-source-golang-on-z-systems-4774967/)
+  * Use Case for [[https://wiki.hyperledger.org/requirements/use-cases/use-case-supply-chain-logistics|Supply Chain Logistics]]: 
+  * Clive to contact Airbus and other WG members for input/feedback on requirements.
+
+
+Follow-ups:  
+  * [[https://docs.google.com/document/d/1I8Q9uOflROviCFw0Fyxya-7kqVTlCdkErjIVmhIsW3A/edit | Strawman Requirements]] on the Trusted Execution Environment by Jeremy Sevareid, presented at NYC Hyperledger Hackfest to RWG (Dec 5-6) ties into ‘upcoming’ at Stanford.   
+
+Upcoming: 
+  * https://cyber.stanford.edu/blockchainconf (Jan 26-27)
+  * Open Source Operational Risk: Should Public Blockchains Serve as Financial Market Infrastructures? - Angela Walch (St. Mary's) Paper available here.
+
+
+===== December 19th =====
+
+Attendees: 
+  * Mike Zaccardo, Cloudsoft
+  * Duncan Johnston-Watt, Cloudsoft
+  * Clive Boulton, Independent
+  * Oleg Abdrashitov, Altos
+
+Agenda:
+  *   Discussed in NYC at Hyperledger Hackfest was shifting WG start time a bit later. Requested by Cisco and Altos (Oleg to confirm).
+  *   Requirements signatures in KYC and Supply Chain Logistics quality certifications, similarities noted by authors (Jeremy Sevareid, Clive Boulton). Making smart contact more universal requirements between finance and supply chain.
+
+
+Follow-ups:
+    * New WG bi-weekly meeting time proposal in 2017 1pm est / 10am pst. 
+    * Next WG meeting is Jan 9, 2017, and Jan 23, 2017 etc…
+
+
+
+===== December 6th =====
+
+Many of the WG attended the Hyperledger Hackfest in NY, the 12/5 WG meeting took place on 12/6 for 2 hours.
+
+Attendees: 
+  * Jeremy Sevareid, Independent
+  * Oleg Abdrashitov, Altos
+  * Thomas Barnes, Intel
+  * Judy Priest, Cisco Systems
+  * Clive Boulton, Independent
+  * Dr Pan Qiuling, Huawei
+
+
+Agenda:
+
+
+Items Covered:
+  * Trust-to-trust and verifications. May need validation service like [[http://dnsviz.net/]]
+  * Trusted cloud solution architecture (heartbleed, Linux Foundation laptop).
+  * Trusted over time (long running blockchain smart contract transactions).
+  * Blockstack (RSA keys not used anymore, keys stolen). 
+  * Should specify standard metadata for Smart Contacts (SEC, Federal Reserve interaction with the web) in order to build a datagram (Google Beyond Corp example).The Smart Contract should know who it’s running on (Intel, Cisco, Huawei / USA, UK, Hongkong).
+
+
+Shared 
+  * Ledger Platform Comparison Draft by Jeremy Sevareid, [[https://docs.google.com/spreadsheets/d/1ajtRVRvBO7k1YZsmYdLDs8jQN_V1MacISY6Jek4J7ig/edit#gid=1783830196|(Draft) as of 2016-11-16]] 
+
+
+Follow-ups:
+  * Consideration to continue Jeremy’s Requirements Strawman (The Trusted but Verifiable Execution Environment). Really analyze properly. 
+  * Do we need to specify requirements chain end-point to chain end-point or key management device to  key management device or client chain to client chain (how to facilitate achieving these ends).
+
+
+
+===== November 21st =====
+
+Attendees:
+  * Jeremy Sevareid (Independent)
+  * Clive Boulton (Independent)
+  * Shane Neighbors
+  * Jonathan Holt
+  * Sarose
+  * TBD
+
+Agenda:
+  * NYC Hackathon
+  * [[http://bit.ly/ddmrpdl | Update on Supply Chain Requirements]] - Clive
+  * Walk-through
+    * [[groups:requirements:Use-Case-Inventory | Use Case Inventory]] - Jeremy
+    * [[https://docs.google.com/document/d/1I8Q9uOflROviCFw0Fyxya-7kqVTlCdkErjIVmhIsW3A/edit?usp=sharing | Requirements Strawman]] - Jeremy
+
+
+Items Covered:
+  * Supply Chain
+    * Bill of materials processing - basis of ERP - originated by IBM back in 1970s
+    * Written on premise of central database within four walls, but now end-to-end supply chain
+    * Transitioning to demand-driven ERP with minimal inventory
+    * Inventory receipts and inventory issues are core transactions
+    * APICS - American Production Inventory Control Society
+    * Messaging system + database + inventory system + inferred business agreements / explicit terms and conditions especially around quality of goods delivered
+    * Smart contracts need to address quality E.g., if quality correct, payment is automatic
+    * E.g., What is quality with what metrics as judged by whom, what and when? ISO certified? GS consumer industry labeling? Certified scales? HL7?
+    * Authentication of attributes; quality checks; cross-checks
+    * Execute allocations if quality checks are met
+    * Not just allocate / execute against inventory
+    * References:
+      * EBxml - OASIS - business process definitions
+      * Supply chain quality lexicon terminology - http://www.eil.utoronto.ca/wp-content/uploads/enterprise-modelling/papers/Kim-WETICE95.pdf 
+    * Design/Implementations Implications
+      * Healthcare messaging standard HL7 moving to RESTful but Fabric moving off of REST to GRPC only
+        * https://www.hl7.org/fhir/http.html
+        * https://hyperledger-fabric.readthedocs.io/en/latest/#application-developer-guide 
+      * Quality of what’s delivered versus quality of the data about the quality of what’s delivered
+  * Inventory & Requirements
+    * Derive requirements from mission statement
+
+Follow-ups:
+  * Next Meeting - December 5th (bi-weekly)
+    * May hold at / simulcast from NYC hackathon
+  * Newly Closed
+    * Clive - Suppy chain requirements draft http://bit.ly/ddmrpdl
+    * Jeremy - Use Case Authors - Revisit use case inventory / status
+    * Jeremy - Map out specific hyperledger examples for TOGAF/Zachman to illustrate applicability
+    * Jeremy - Requirements Doc - initial pass at inventory of mission-statement derived requirements
+  * Open
+    * Oleg - Use Case Authors - Revisit use case inventory / status - Nov 21st
+    * Mark - Create simple flow diagram for membership services (e.g., adding a new peer)
+    * Mark - Check on availability for release of IBM internal document that examined mapping of openfabric vs. industry requirements/standards (e.g., NIST)
+    * TBD - Encouraging / working with new requirement WG participations
+  * New
+    * Clive
+      * Migrate supply chain example to wiki
+      * Revise example in advance of ASPC
+    * Jonathan, Jeremy - Provide feedback to Clive on current version of supply chain
+    * Jeremy - Incorporate Clive’s feedback on requirements
+      * Clarify - use in conjunction with use cases
+      * Clarify - delivery vs. payments;clearing/confirmations vs. settlement; inventory planning vs. allocation;
+
+===== November 7th =====
+
+Attendees:
+  * Oleg Abdrashitov (Altoros)
+  * Clive Boulton (Independent)
+  * Jeremy Sevareid (Independent)
+  * Darryl Adams (Intel)
+  * Michael Wall (TBC)
+  * Brian Ahier (TBC)
+
+Agenda:
+  * Wiki Migration (Jeremy)
+  * Participation (Jeremy)
+
+Items Covered:
+  * Wiki Migration
+    * https://lists.hyperledger.org/g/tsc/message/451
+    * Wiki.hyperledger.org
+    * https://wiki.hyperledger.org/groups/requirements/use-case-inventory
+  * Participation
+    * Purpose
+      * Use Cases
+        * Catalog canonical use cases 
+          * E.g., world economic forum
+      * Requirements
+        * General cross-use case applicable ones
+          * E.g., non-functional requirements / SLA, Privacy
+    * Potential Deliverables
+      * Use Cases
+      * Requirements - https://docs.google.com/document/d/1I8Q9uOflROviCFw0Fyxya-7kqVTlCdkErjIVmhIsW3A/edit
+  * Ledger Comparison
+     * https://lists.hyperledger.org/g/tsc/message/462
+  * Excel-to-hyperledger Proof-of-Concept integration
+    * https://github.com/jeremysevareid/spreadblock
+
+Follow-ups:
+  * Newly Closed
+    * Wiki migration
+  * Open
+    * See prior sessions for outstanding items
+  * New
+    * Use Case Authors - Revisit use case inventory / status - Nov 21st
+      * Oleg
+      * Jeremy
+    * Requirements Doc - Jeremy - initial pass at inventory of common requirements - Nov 21st
+    * Supply Chain use case - Clive - Nov 21st 
+    * Encouraging / working with new requirement WG participants - TBD
+
+===== October 24th =====
+
+Attendees:
+  * Clive Boulton (independent)
+  * Mark Parzygnat  (IBM)
+  * Jeremy Sevareid (Independent)
+  * Yogi Golle (Independent)
+
+Agenda:
+  * R3 Contribution
+  * Hackathons
+  * Risk Assessment
+  * Scalability Requirements
+
+Items Covered:
+
+  * R3 Contribution
+    * Contributing its (privacy / permissions) code to Hyperledger Nov 30th
+    * [[https://r3cev.com/press/2016/10/20/exclusive-blockchain-platform-developed-by-banks-to-be-open-source|https://r3cev.com/press/2016/10/20/exclusive-blockchain-platform-developed-by-banks-to-be-open-source]]
+    * Privacy and permissions may be easier to write as test cases than as requirements
+    * Testing WG
+        * In formation
+        * For Fabric 1.0, significant focus and effort on
+            * Test cases for chaincode lifecycle
+                * Written in Behave
+                    * [[http://pythonhosted.org/behave/|http://pythonhosted.org/behave/]]
+            * Automated test harness within SDK to invoke test cases
+            * Test-driven development
+            * Jenkins test harness / continuous integration work
+
+    * Membership Services presentations
+        * These go into some detail around how membership services works and what it seeks to protect against
+        * [[https://docs.google.com/document/d/1nVkjhSlghjc4KFWEYDU2B0ztWCFh1CK8a7VmqwFsnKY|See Identity WG minutes from 8/10, 7/27, 7/13, 6/29 2016]] for discussions and presentations themselves
+
+  * Hackathons
+    * Next one targeted for Dec 5th/6th in NYC
+    * Early October
+        * IBM-sponsored bluemix garage hackathon
+        * Jeremy’s team created PoC that linked Excel to admin part of REST API for Hyperledger v0.5
+            * [[https://github.com/jeremysevareid/spreadblock|https://github.com/jeremysevareid/spreadblock]]
+
+  * Risk Assessment
+    * Protect against requirements and test cases discussion
+    * First draft risk assessment created for Membership Services
+        * [[https://docs.google.com/spreadsheets/d/1xPYy_uirD8GPWVn94BA4mhQZH8W800CvPEHqsP1DkJM/edit#gid=0|https://docs.google.com/spreadsheets/d/1xPYy_uirD8GPWVn94BA4mhQZH8W800CvPEHqsP1DkJM/edit#gid=0]]
+        * Next step to flesh out component by component for all six components as defined by:
+            * [[https://wiki.hyperledger.org/community/fabric-design-docs|https://wiki.hyperledger.org/community/fabric-design-docs]]
+            * Take a look at membership services presentations and fabric design docs to clarify what’s been designed for (as opposed to universe of possible challenges)
+    * Runbook / operations best practices are needed as well given not all risks can be mitigated solely by code
+    * IBM-supported Cornell IC3 effort
+        * Authenticated Data Source Proxy for Smart Contracts
+            * [[https://software.intel.com/en-us/blogs/2013/09/26/protecting-application-secrets-with-intel-sgx|https://software.intel.com/en-us/blogs/2013/09/26/protecting-application-secrets-with-intel-sgx]]
+
+  * Scalability
+    * Pluggability of Ledger’s State Database 
+        * v0.5/v0.6 uses Rocks DB
+        * Due to patent issue, being replaced with
+            * LevelDB
+                * By March’s targeted V1 release
+            * CouchDB
+                * Supports more complex searches
+                * Unlikely will be completed in time for v1 March release
+        * Some interesting discussions going on in mailing lists and slack channels on this
+    * Non-functional Requirements
+		* No existing formal non-functional requirements for fabric or hyperledger
+        * Will vary by use case
+            * e.g., OTC derivatives != credit card purchases
+            * E.g., latency requirements for
+                * Endorsers vs. committers vs. orderers
+                * Committed transactions versus 
+        * Cross-mapping for gap analysis is useful
+            * Use cases vs. what’s been designed for vs. what underlying component (e.g., LevelDB) may support
+        * It would be useful to feed some of these requirements back into JIRA to get them tracked and potentially addressed
+        * Kafka, PBFT
+            * Expected to have some impact on performance
+        * Documentation WG aka Whitepaper WG is tackling some of this at higher, cross-incubated-project level
+  * Microservices, Automated Testing
+    * Some templates are out there regarding discussions around microservices and fabric/blockchain
+
+Proposed Follow-ups
+  * Mark - Create simple flow diagram for membership services (e.g., adding a new peer)
+  * Mark - Check on availability for release of IBM internal document that examined mapping of openfabric vs. industry requirements/standards (e.g., NIST)
+  * Others - see open items below:
+
+Update on Last Time’s Follow-ups
+  * Mark - Reach out to Brian B. for SIBOS recap to share
+    * Done - Waiting to hear back from BB
+  * Mark - Start email thread on fabric v1 risk assessment
+    * Done - discussion initiated - see above
+  * Ann - Look at options for inventorying a) existing efforts, b) artifacts, c) wiki migration
+    * Postponed until later this week
+  * Jeremy - Map out specific hyperledger examples for TOGAF/Zachman to illustrate applicability
+    * Not yet started - but TSC and Whitepaper WG calls last week provided useful inputs/examples to consider
+
+===== October 10th =====
+
+Attendees:
+  * Jeremy Sevareid (Independent)
+  * Clive Boulton (independent)
+  * Mark Parzygnat (IBM)
+  * Ann Reynolds
+
+Agenda:
+  * [[https://docs.google.com/spreadsheets/d/1e2zcTlEi-YS9OOxxG-2fCeJsjwM3ulHxvEBb1ZCht5U/edit#gid=0|Proposed Requirements Template ]]- Jeremy
+  * [[https://lists.hyperledger.org/g/discuss/message/58|Security design notes for membership services / dev ops]] - Mark
+    * Risk-based assessment of Fabric v1 
+    * [[https://docs.google.com/spreadsheets/d/1xPYy_uirD8GPWVn94BA4mhQZH8W800CvPEHqsP1DkJM/edit#gid=0|Starting with membership svcs(COP) ]]
+  * [[https://docs.google.com/spreadsheets/d/1xPYy_uirD8GPWVn94BA4mhQZH8W800CvPEHqsP1DkJM/edit?usp=sharing|Proposed Risk Assessment Worksheet Template ]]- Jeremy
+
+Items Covered:
+  * TOGAF/Zachman seems reasonable but need to see examples
+  * Gap analysis of suitability of ledger by functionality, non-functional requirements and security needs a structured inventory of what’s already been done
+  * Something like that will make it easier for contributors to know how to help
+  * Recap of IBM Bluemix Garage Hyperledger Hackathon in NYC
+  * [[http://www.coindesk.com/dubai-government-documents-blockchain-strategy-2020/|Dubai Wants All Government Documents on Blockchain By 2020]] (coindesk, oct 5th, 2016)
+  * Youtube video shown at Sibos regarding Hyperledger v1 fabric [[https://www.youtube.com/watch?v=EKa5Gh9whgU|https://www.youtube.com/watch?v=EKa5Gh9whgU]]
+  * Distributed ledger platform, Hyperledger, edges out the competition at this years’ Innotribe Startup Finale at Sibos : [[http://www.fintech.finance/news/distributed-ledger-platform-hyperledger-edges-out-the-competition-at-this-years-innotribe-startup-finale-at-sibos/|http://www.fintech.finance/news/distributed-ledger-platform-hyperledger-edges-out-the-competition-at-this-years-innotribe-startup-finale-at-sibos/]]
+
+Proposed Follow-ups
+  * Mark - Reach out to Brian B. for SIBOS recap to share
+  * Mark - Start email thread on fabric v1 risk assessment
+  * Ann - Look at options for inventorying a) existing efforts, b) artifacts, c) wiki migration
+    * [[https://docs.google.com/spreadsheets/d/1w0l1-fDCPN8b1TYoE2vi59gWoG3WQLVAfdxrtT103LM/edit?usp=sharing|Hyperledger Requirements WG Use Case Inventory]]
+    * [[https://docs.google.com/spreadsheets/d/1kJT8aFacml0-CRuEFlUbTU7RjuJan3QgZo6YsjZCOSY/edit?usp=sharing|Hyperledger Wiki Migration Inventory]]
+  * Jeremy - Map out specific hyperledger examples for TOGAF/Zachman to illustrate applicability
+
+Share:
+  * Playbacks channel on slack hyperledger [[https://hyperledgerproject.slack.com/archives/playbacks|https://hyperledgerproject.slack.com/archives/playbacks]]
+  * Brian Behlendorf note from Sibos [[https://youtu.be/bQHqL8MaDtA|https://youtu.be/bQHqL8MaDt]][[https://youtu.be/bQHqL8MaDtA|A]]
+  * Enterprise Architecture
+    * The Open Group Architecture Framework (TOGAF)
+        *  [[https://en.wikipedia.org/wiki/The_Open_Group_Architecture_Framework|https://en.wikipedia.org/wiki/The_Open_Group_Architecture_Framework]]
+    * Zachman Framework
+        * [[https://en.wikipedia.org/wiki/Zachman_Framework|https://en.wikipedia.org/wiki/Zachman_Framework]]
+
+===== September 26th =====
+
+Attendees:
+  * Clive Boulton - Independent
+  * Jeremy Sevareid - Independent
+  * Mark Parzygnat - IBM
+  * Anirudha Joshi - INVeSHARE
+  * Yogi Golle - Independent
+  * Patrick Holmes - Intel 
+  * Howard Huang - Huawei
+
+Agenda:
+  * [[https://docs.google.com/document/d/1I8Q9uOflROviCFw0Fyxya-7kqVTlCdkErjIVmhIsW3A/edit?usp=sharing|Proposed Requirements Template ]]- Jeremy
+
+Items Covered:
+  * Oleg in NYC before Sibos [[http://www.meetup.com/Hyperledger-NYC/events/229796693/|http://www.meetup.com/Hyperledger-NYC/events/229796693/]]
+  * Markup ‘Proposed Requirements Template’ to give examples on each tier.
+  * Tiered Rqmts (Jeremy) vs Telco Flow Rqmts (Partick). 
+  * Feeling is keep Flow Rqmts but annotate with examples (Jeremy to share)
+  * Discussed visualization of "confidential contract between X and Y" [[http://www.altoros.com/blog/a-new-era-of-it-blockchain-efforts-forge-ahead/|http://www.altoros.com/blog/a-new-era-of-it-blockchain-efforts-forge-ahead/]]
+  * Handle gnarly privacy rqmts by adding a Jira issue (include link to rqmts doc).
+  * Discussed cross-chain transactions and handling via a shared log per Tango: Writes append to a log but marked as speculative (Clive can talk more Tango on future call). [[http://www.cs.cornell.edu/~taozou/sosp13/tangososp.pdf|http://www.cs.cornell.edu/~taozou/sosp13/tangososp.pdf]]      
+
+===== September 15th =====
+
+Attendees:
+  * Oleg Abdrashitov - ([[mailto:oleg.a@altoros.com|oleg.a@altoros.com]]) - Altoros
+  * Clive Boulton - Independent
+  * Shane Neighbors - ([[mailto:shane.neighbors@inveshare.com|shane.neighbors@inveshare.com]]) - INVeSHARE
+  * Jeremy Sevareid - ([[mailto:jeremysevareid@gmail.com|jeremysevareid@gmail.com]]) - Independent
+  * Anirudha Joshi - INVeSHARE
+
+Agenda:
+  * Update on Requirements - Financial Use Cases
+  * Request ownership for Supply Chain use cases
+
+Items Covered:
+  * Sibos demos (clearing house + bond trading) Oleg 
+  * Update on [[https://docs.google.com/spreadsheets/d/1kJT8aFacml0-CRuEFlUbTU7RjuJan3QgZo6YsjZCOSY/edit#gid=0|Requirements Wiki Migration]] (Jerry)
+  * Clive has been working on supply chain and provenance for beef industry (GS1 has a standard for attributes but no trading infrastructure). Plan is to define requirements
+
+===== August 29th =====
+
+Attendees:
+  * Oleg Abdrashitov - ([[mailto:oleg.a@altoros.com|oleg.a@altoros.com]]) - Altoros
+  * Anirudha Joshi ([[mailto:anirudha.joshi@inveshare.com|anirudha.joshi@inveshare.com]]) - INVeSHARE
+  * Nagesh Avusingi (Independent)
+  * Clive Boulton (Independent)
+
+Agenda:
+  * Privacy Requirements. Brainstorm:
+[[https://github.com/hyperledger/hyperledger/wiki/Requirement-Document#privacy-and-confidentiality-requirements|https://github.com/hyperledger/hyperledger/wiki/Requirement-Document#privacy-and-confidentiality-requirements]]
+  * Divide responsibilities per sections of the main [[https://github.com/hyperledger/hyperledger/wiki/Requirement-Document|Requirement Document]]
+
+Items Covered:
+  * Requirements required.
+
+Share: 
+  * W3C convened its first workshop on blockchain and web. Topic summaries: [[https://www.w3.org/2016/04/blockchain-workshop/report.html|https://www.w3.org/2016/04/blockchain-workshop/report.html]]
+
+===== August 22nd - No mtg =====
+
+  * Per the Requirements WG Wiki page accessed 2016-08-22 Monday, the calls are now bi-weekly
+  * Meetings
+      * Bi-Weekly on Mondays, 1 hour starting at 8:00 am PT San Francisco (Pacific Daylight Time, GMT-07:00)
+      * Next calls are: Aug 29, Sep 12, Sep 26, Oct 10, Oct 24 . . .*
+
+===== August 15th =====
+
+Attendees:
+  * Oleg Abdrashitov - ([[mailto:oleg.a@altoros.com|oleg.a@altoros.com]]) - Altoros
+  * Clive Boulton (Independent)
+  * Mark Parzygnat (IBM)
+  * Nagesh Avusingi (Independent)
+  * Anirudha Joshi (INVeSHARE)
+  * Nikilesh Subramoniapillai Ajeetha
+
+Agenda:
+  * Move to bi weekly calls
+  * Requirements beyond Fabric
+  * Collateral Debt Swaps Use Case and blockchain implementation details leaking
+
+Items covered:
+  - Clive Boulton shared Tango: Distributed Data Structures over a Shared Log [[http://www.cs.cornell.edu/~taozou/sosp13/tangososp.pdf|http://www.cs.cornell.edu/~taozou/sosp13/tangososp.pdf]]
+
+===== August 8th =====
+
+Attendees:
+  * Oleg Abdrashitov - ([[mailto:oleg.a@altoros.com|oleg.a@altoros.com]]) - Altoros
+  * Anirudha Joshi - INVeSHARE
+  * Clive Boulton - (Independent)
+  * Mark Parzygnat (IBM)
+  * Nagesh Avusingi (Independent)
+  * Sergei Mayorov (Moscow Exchange)
+
+Agenda:
+  * Ideas of use cases to create demos for [[https://www.sibos.com/|Sibos]] conference Sept 26
+    * Bond issuance and trading on blockchain
+    * IPO on blockchain
+    * [[https://github.com/hyperledger/hyperledger/wiki/Use-Case-Interest-Rate-Swap|Interest Rate Swap]]
+    * Credit Default Swap
+    * KYC database. 
+  * [[https://github.com/hyperledger/hyperledger/wiki/Use-Case-Global-KYC-Database|https://github.com/hyperledger/hyperledger/wiki/Use-Case-Global-KYC-Database]]
+  * Just a note, don’t need to talk about… still working to get a new mailing dist set up with Brian 
+
+Items covered:
+  * For KYC: Consider Camlistore for non-chain document storage [[https://camlistore.org/|https://camlistore.org/]] (contact Clive for more on CLI sharing for demo)
+
+===== August 1st =====
+
+Attendees:
+  * Oleg Abdrashitov - ([[mailto:oleg.a@altoros.com|oleg.a@altoros.com]]) - Altoros
+  * Jeremy Sevareid - Independent
+  * Nagesh Avusingi (nravusingi@gmail.com) - Independent
+  * Anirudha Joshi - INVeSHARE
+  * Mark Parzygnat ([[mailto:markparz@us.ibm.com|markparz@us.ibm.com]]) - IBM
+  * Clive Boulton ([[mailto:clive.boulton@gmail.com|clive.boulton@gmail.com]]) - Independent
+
+Agenda:
+
+  * Risk Assessment Worksheet approach (Jeremy Sevareid, Bill Sparks)
+    * The presentation for hazards and controls is here: [[https://docs.google.com/presentation/d/1Rv4LnoN8cwxnrKu23Y_6dEoEo7o2zYgHgRYHGzyS1xU/edit?usp=sharing|https://docs.google.com/presentation/d/1Rv4LnoN8cwxnrKu23Y_6dEoEo7o2zYgHgRYHGzyS1xU/edit?usp=sharing]]
+  * [[https://github.com/hyperledger/hyperledger/wiki/Use-Case-Global-KYC-Database|https://github.com/hyperledger/hyperledger/wiki/Use-Case-Global-KYC-Database]]
+  * Review of Hackathon (San Fran) - Mark
+
+Items covered:
+  * Jeremy presented Risk Assessment and Controls
+    * Add Hazards and Controls section to use case documents
+    * Continue Risk Assessment separately to add to release and SLA documents
+  * Mark - will send out first email subject define: Privacy vs Confidentiality and have Brian start the requirements email list. 
+  * Mark with Review of SF hackathon 
+    * recommendation from LF to move to email communication to accommodate all Geo’s. New members coming in from India and China. 
+    * Calypso interested in microfinancing use case
+  * Mohan working on [[https://github.com/hyperledger/hyperledger/wiki/Use-Case-%E2%80%93-Auctions-in-Art-and-Antiques|Art Auction Use Case]]
+  * Oleg working on [[https://github.com/hyperledger/hyperledger/wiki/Use-Case-Global-KYC-Database|Global KYC Database Use Case]]
+  * Welcome Nagesh Avusingi to the group
+
+===== July 25th =====
+
+Attendees:
+  * Oleg Abdrashitov - Altoros
+  * Clive Boulton - Independent
+  * Anirudha Joshi - INVeSHARE
+  * Jeremy Sevareid - Independent
+  * Mohan - IT people Corp
+
+Agenda:
+  * [[https://github.com/hyperledger/hyperledger/wiki/Use-Case-Certification|Use Case ]]Certification
+  * Gauge interest Risk Assessment Worksheet approach for next time
+
+Items covered:
+  * Segmentation of supply-chain-related use cases
+    * Certification
+        * Materials that went into product bear certain quality
+    * Provenance
+        * Track individual good as title/ownership to it changes from one owner to another
+    * Supply chain
+        * Each individual item that went into composite / aggregate item
+        * Scalability issues raised by Airbus engineer in prior call could be confined to this use case
+  * Two-phase Commit / ACID Transactionality / Consensus Algorithm
+    * Where is separation between business layer and consensus layer per Architecture WG?
+    * [[https://github.com/hyperledger/hyperledger/wiki/Use-Case-Post-Trade|Use Case Post Trade]]
+        * Capital markets trade settlement example of Delivery versus Payment (DvP)
+        * Requires 
+            * ACID handling of two legged transfers
+            * Linkages to transactions in off-chain systems
+  * Requirements use cases and events
+    * Timing and errors on-prem vs on-chain. 
+    * Oleg quoting Frank Lu on oracles as peers on blockchain network to validating nodes
+    * Use Case Template
+        * Oleg Abdrashitov edited this page on Jun 13 · 44 revisions
+        * [[https://github.com/hyperledger/hyperledger/wiki/Use-Case-Template|https://github.com/hyperledger/hyperledger/wiki/Use-Case-Template]]
+    * Requirement Document
+        * Patrick Holmes edited this page on Apr 13 · 7 revisions
+        * [[https://github.com/hyperledger/hyperledger/wiki/Requirement-Document|https://github.com/hyperledger/hyperledger/wiki/Requirement-Document]]
+  * Images, binaries of complex documents
+    * May need to reside in code repositories to allow for version-controlled, version-specific production documentation tagged release tie outs
+    * Alternative may to release documents from within included database similar to Camlistore ([[http://camlistore.org|http://camlistore.org]])
+    * Suggestion made in TSC call last Thursday for repository for binary documents (e.g., PDFs) that may be separate from code repositories for specific projects (e.g., fabric, sawtooth lake)
+
+===== July 18th =====
+
+Attendees:
+  * Oleg Abdrashitov - Altoros
+  * Clive Boulton - Independent
+  * Anirudha Joshi - INVeSHARE
+  * Jeremy Sevareid - Independent
+  * Mark Parzygnat - IBM
+  * Mohan - IT people Corp
+  * Ratnakar - IT People Corp
+  * Craig Rowe - Independent
+  * Dan Conlon - DTCC
+  * Vaniprasad Kommera - DTCC
+
+Agenda:
+  * Requirements / Demo - (Mark) - Art auction demo (IT People Corp) 
+  * [[https://github.com/hyperledger/hyperledger/wiki/Use-Case-Provenance|Use Case Provenance]]
+
+Items covered:
+  * Rename use case to certification.
+  * Expand use case to three cases.
+    * Do track every component. 
+    * Chain of custody (diamond) certification diamond. 
+    * Don’t track every component (cars). Linkages between real world products (peanuts / strawberries and food processing plants). 
+  * Demo: saving digital art on-blockchain vs on-premises 
+    * Code located: [[https://github.com/ITPeople-Blockchain/auction|https://github.com/ITPeople-Blockchain/auction]]
+    * Consider extending demo prototype to saving in Camlistore ([[http://camlistore.org|http://camlistore.org]]) Brad Fitzpatrick’s side project:  Personal datastore for life. [[http://www.geekwire.com/2016/brad-fitzpatrick-camlistore-document-life/|http://www.geekwire.com/2016/brad-fitzpatrick-camlistore-document-life/]]
+
+===== July 11th =====
+
+Attendees:
+  * Oleg Abdrashitov - Altoros
+  * Jeremy Sevareid - Independent
+  * Anirudha Joshi	 - INVeSHARE
+  * Mark Parzygnat - IBM
+
+Agenda
+  * [[https://github.com/hyperledger/hyperledger/wiki/Use-Case-Post-Trade#data-protection-and-record-retention|https://github.com/hyperledger/hyperledger/wiki/Use-Case-Post-Trade#data-protection-and-record-retention]]
+  * Use Case Implementations
+  * Requirements / Demo - (Mark) - Art auction demo (IT People Corp) & unknown (Luther Corp)
+
+Items covered:
+  * Jeremy reviewed the use case he is working on and additions.
+  * Mark will slack about possible demo’s coming up over the next couple of weeks. Will send message in Slack on which week
+
+=====July 4th - No mtg =====
+
+No meeting on July 4th due to US holiday
+
+=====June 27th=====
+
+Attendees:
+  * Oleg Abdrashitov - Altoros
+  * Anirudha Joshi - INVeSHARE
+  * Shane Neighbors - INVeSHARE
+  * Jeremy Sevareid - Independent
+  * Clive Boulton - Independent
+  * Jatinder Bali - Citigroup
+  * Craig Rowe - Independent
+
+Agenda:
+  * [[https://github.com/hyperledger/hyperledger/wiki/Use-Case-Peer-to-Peer-Insurance|https://github.com/hyperledger/hyperledger/wiki/Use-Case-Peer-to-Peer-Insurance]]
+
+===== June 20th =====
+
+Attendees:
+  * Oleg Abdrashitov - Altoros
+  * Jeremy Sevareid - Independent
+  * Frank Lu - IBM
+  * Anirudha Joshi - INVeSHARE
+  * Nikilesh Subramoniapillai Ajeetha
+  * Vaniprasad Kommera - DTCC
+
+Agenda:
+  * [[https://github.com/hyperledger/hyperledger/wiki/Use-Case-Peer-to-Peer-Insurance|https://github.com/hyperledger/hyperledger/wiki/Use-Case-Peer-to-Peer-Insurance]]
+  * [[https://github.com/hyperledger/hyperledger/wiki/Use-Case-Post-Trade|https://github.com/hyperledger/hyperledger/wiki/Use-Case-Post-Trade]]
+
+Discussed
+
+  * Jeremy presented user stories matrix to complete Delivery vs Payment use case
+  * Oleg announced Peer-to-Peer Insurance use case
+===== June 13th =====
+
+Attendees:
+  * Oleg Abdrashitov - Altoros
+  * Anirudha Joshi - INVeSHARE
+  * Jeremy Sevareid - Independent
+  * Primrose Mbanefo - Accenture
+  * Frank Lu - IBM
+  * Mark Parzygnat - IBM
+  * Craig Rowe - Independent
+  * Jean Safar - Calypso Technology
+
+Agenda:
+  * Are our wiki pages clear? Improve navigation?
+  * Updates to DvP use case?
+  * [[https://github.com/hyperledger/hyperledger/wiki/Use-Case-Template|https://github.com/hyperledger/hyperledger/wiki/Use-Case-Template]]
+  * Implementation detail sections removed
+  * List requirements and support them with use cases?
+  * Or tell user stories and requirements per story?
+  * Clear identity matrix?
+  * Membership services
+
+^ role ^ smart contract code ^ function payload ^ caller identity ^ ledger data ^
+| validating node | | | | |
+| permissioned user | | | | |
+| any user | | | | |
+
+References:
+  * Use Case Template
+    * [[https://github.com/hyperledger/hyperledger/wiki/Use-Case-Template|https://github.com/hyperledger/hyperledger/wiki/Use-Case-Template]]
+  * DvP post trade use case
+    * [[https://github.com/hyperledger/hyperledger/wiki/Use-Case-Post-Trade|https://github.com/hyperledger/hyperledger/wiki/Use-Case-Post-Trade]]
+  * Architecture WG proposal
+    * [[https://github.com/hyperledger/fabric/wiki/Next-Consensus-Architecture-Proposal|https://github.com/hyperledger/fabric/wiki/Next-Consensus-Architecture-Proposal]]
+  * Requirements Template
+    * [[https://github.com/hyperledger/hyperledger/wiki/Requirement-Document|https://github.com/hyperledger/hyperledger/wiki/Requirement-Document]]
+  * Asset Depository use case
+    * [[https://github.com/hyperledger/hyperledger/wiki/Use-Case-Asset-Depository|https://github.com/hyperledger/hyperledger/wiki/Use-Case-Asset-Depository]]
+  * Incubated Project Exit Criteria working draft
+    * [[https://docs.google.com/document/d/1hmZY5LnZydTiYmkbtwyEYEkHEsSedlUhJbnlXGFrEP0|https://docs.google.com/document/d/1hmZY5LnZydTiYmkbtwyEYEkHEsSedlUhJbnlXGFrEP0]]
+  * TSC meeting minutes last week about request for office hours for Working Groups during virtual hackathon this week
+    * [[https://docs.google.com/document/d/1DqaaVPlUSO8BBta7q7INzP8Ol5WoiQJ9J-9O22sr0uw/edit|https://docs.google.com/document/d/1DqaaVPlUSO8BBta7q7INzP8Ol5WoiQJ9J-9O22sr0uw/edit]]
+
+Follow-ups:
+  * Oleg - Add assumptions, service-level agreements and data protection as sections to the Use Case Template
+  * Jeremy - Add additional narrative to business requirements sub-section of Use Case Post Trade
+  * Jeremy - Continue harvest of functional details from templates and other discussions
+
+===== June 6th =====
+
+Attendees:
+  * Jeremy Sevareid - Independent
+  * Frank Lu - IBM
+  * Mark Parzygnat - IBM
+  * Andreas Fletcher - Deutche Börse Group
+  * Nikilesh - Community
+  * Shane Neighbors - INVeSHARE
+  * Anirudha Joshi - INVeSHARE
+  * Oleg Abdrashitov - Altoros
+
+Decisions:
+  * No objections to Oleg’s proposed creation of new use case light template
+
+Notes:
+  * Post Trade Use Case good example of the what; next step may be fleshing out the how
+  * All Use Cases need section on privacy/visibility of data on the blockchain
+
+Follow-ups:
+  * Oleg - Create proposed use case light template
+  * Mark - Reach out to TSC members for guidance on how to move Post Trade use case forward
+  * Jeremy - Enrich Post Trade use case’s section on participants, bootstrapping the transferable items onto the chain and privacy
+  * Jeremy - Migrate some functional details from exit criteria discussion and from use case template into separate list of technical/non-functional/functional requirements
+
+===== May 31st =====
+
+Attendees:
+  * Frank Lu - IBM
+  * Oleg Abdrashitov - Altoros
+  * Jeremy Sevareid - Independent
+
+Agenda
+
+  * Delivery vs Payment by Jeremy Sevareid
+  * Corporate Action by Frank Lu
+  * Role of a payment system in Delivery vs Payment, Escrow and other use cases
+  * Agreed to treat payment and other systems feeding data from the world to the blockchain as participants on the chain; avoid calling them oracles
+  * Proposed to simplify the template by removing sections describing implementation details like State and Transitions
+===== May 23rd =====
+
+Attendees:
+  * Frank Lu - IBM
+  * Oleg Abdrashitov - Altoros
+  * Anirudha Joshi - INVeSHARE
+  * Rahul Sharma - INVeSHARE
+  * Shane Neighbors - INVeSHARE
+  * Jeremy Sevareid - Independent
+  * Vishal Jadhav - Bloomberg LP
+  * Primrose Mbanefo - Accenture
+
+Discussed 
+*    Interest Rate Swap, Currency Swap
+*    Asset Depository collaborated with Frank Lu
+*    trading scenarios, OTC, exchanges, settlement, clearing corps. Will reach out to DTCC to review and contribute
+*    how much workflow or implementation detail to include in use cases docs. Create functional requirements doc?
+
+Development plan for next week
+*    Equity Contracts, Fixed Income - Oleg Abdrashitov
+*    Delivery vs Payment - Jeremy Sevareid
+*    P2P Insurance
+*    KYC Database
+*    Corporate Action - Frank Lu
+===== May 16th =====
+
+Attendees:
+  * Christopher Allen - Blockstream
+  * Stuart Turner - Eurostep Digital
+  * Mark Parzygnat - IBM
+  * Frank Lu - IBM
+  * Oleg Abdrashitov - Altoros
+  * Roger Strukhoff - Altoros
+  * Vishal Jadhav - Bloomberg LP
+  * Jatinder Bali - Citigroup
+  * Primrose Mbanefo - Accenture
+  * Oleg to discuss the first Finance usecase on 5/23
+  * Oleg is working with LF to create mail lists so that SME’s in areas (component and markets) can self subscribe, so we can notify relevant mailing list when a use case is going to be reviewed. (Oleg if you need assistance on this let me know - @markparz)
+
+Items Covered:
+  * new [[https://github.com/hyperledger/hyperledger/wiki/Use-Case-Development-Dashboard|dashboard page]] to track development of the use cases
+  * call to WG members to adopt a use case to bring to Milestone 1
+  * Oleg Abdrashitov chose 3 use cases to develop, plan a week to reach Milestone 1
+  * Mark Parzygnat's suggestion: moved the index to the project home page
+  * Mark Parzygnat's suggestion: develop first the use cases more suitable for the ones in incubation, i.e. permissioned chains
+  * Mark Parzygnat's suggestion: create mail lists so that SME’s in areas (component and markets) can self subscribe, so we can notify relevant mailing list when a use case is going to be reviewed
+  * call to search for new use cases. Discover new industries from the [[https://docs.google.com/spreadsheets/d/1e5a8QVAaP8NSQn_DUg8LjI9FzXtBg6eH4n9M1WPvxzI/edit#gid=0|list of the project's Slack members]]
+  * Jonathan Mohan shared [[http://www.swiftinstitute.org/wp-content/uploads/2016/05/The-Impact-and-Potential-of-Blockchain-on-the-Securities-Transaction-Lifecycle_Mainelli-and-Milne-FINAL.pdf|SWIFT institute's study]]. Call to discover new use cases.
+
+===== May 9th =====
+
+Attendees:
+  * Christopher Allen - Blockstream
+  * Patrick Holmes - Intel
+  * Stuart Turner
+  * Vaniprasad Kommera
+  * PB
+  * SaRose
+  * Oleg Abdrashitov
+  * Jatinder Bali
+  * Frank Lu - IBM
+  * PB
+  * Charles Henri Hirsch
+  * Nikilesh Subramonipillai Ajeetha
+  * Ari Mutatnen, Altoros
+
+* Patrick Holmes announced his resignation
+
+* Oleg Abdrashitov proposed [ideas to improve the development of the Requirements Document](https://docs.google.com/document/d/1BlWWgtGArBb7v_cJsaJ9SsMclRHNfEdaJ623CrDHez8/edit?pref=2&pli=1)
+    * Feedback loop: the requirements should feed the Architecture WG and influence their decisions. Produce a monthly report of the new use cases and requirements.
+    * Depth: the use cases need to be further developed and conform to the template. 
+    * Coverage: reach out to industry experts to gather new use cases.
+
+These ideas were supported by the WG and by other key members of the project prior to the meeting.
+
+* Oleg started implementing:
+    * created a [Google form](https://docs.google.com/forms/d/18winVKVH-lUQEohTqt9SYYSCjyRefo2V3yHM8uGOTXM/viewform) to gather new use cases from the wider community
+    * created and analyzed a database of the project members on Slack to determine experts from the industries not yet covered by use cases. Will reach out to solicit their input.
+    * working to normalize existing use cases to conform to the template
+
+* there's a concern that some project members may be bound by NDAs not to reveal their use cases. One of the solutions is to bring the existing use cases to the experts and have them not volunteer but only validate or comment on them.
+* a suggestion was made to approach the Linux community for the new use cases
+
+* Christopher Allen walked thru his contribution to the Requirements section of the Use Case template. Proposed to introduce Policy and Regulatory Requirements section
+* The WG agreed to introduce milestones into the development of the use cases
+    * Milestone 1: Sections 1 (Intro and User Stories) and Section 2 (States and Transitions). When completed, announce to the Architecture and other WGs.
+    * Milestone 2: Section 3 (Requirements). Work with the Architecture group to develop technical requirements such as Correctness, Privacy, Hardware
+
+* Nikilesh Subramoniapillai Ajeetha shared a mindmap of the requirements space captured so far by WG. It can be accessed [here](https://coggle.it/diagram/VwXUxFREA9UkQydB)
+
+Notes:
+  * Christopher Allen - Went over the general requirements, correctness and privacy requirements listed in the Hyperledger project wiki
+  * Christopher Allen - Permissioned or Permissionless is a hugely grey area from Requirements perspective. Taking a binary approach may not be the right approach. A permissioned system may need the properties of the permissionless system. 
+  * Oleg- Hardware requirements- what are the requirements for thin clients? , Privacy Requirements?
+  * Christopher Allen - Need more inputs on Hardware requirements( from IOT devices perspective)
+  * Nikilesh Subramoniapillai Ajeetha - Shared a mindmap of the blockchain requirements [[https://coggle.it/diagram/VwXUxFREA9UkQydB|https://coggle.it/diagram/VwXUxFREA9UkQydB]]

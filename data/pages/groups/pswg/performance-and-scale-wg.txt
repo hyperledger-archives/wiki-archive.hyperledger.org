@@ -1,0 +1,64 @@
+====== Performance and Scale Working Group ======
+
+===== Charter =====
+
+[[https://docs.google.com/document/d/1OtGmVvHa_LDhIm5t1HEI7XwCQt1Lpr4gRmWixoJWQzg/edit#heading=h.h9egd5793hii|Hyperledger PS-WG Charter]]
+===== Antitrust Policy Notice =====
+
+Linux Foundation meetings involve participation by industry competitors, and it is the intention of the Linux Foundation to conduct all of its activities in accordance with applicable antitrust and competition laws. It is therefore extremely important that attendees adhere to meeting agendas, and be aware of, and not participate in, any activities that are prohibited under applicable US state, federal or foreign antitrust and competition laws. [[https://drive.google.com/file/d/0B_ObsXjgeZdNSFBrejY3MUpRMTFWQ2tDcjBmRzdDNzhoRVFZ/view| More]] 
+
+===== Meeting Details =====
+The Performance and Scale Working Group meets weekly on Tuesdays at 9:00 AM US/Eastern time. See the [[https://calendar.google.com/calendar/embed?src=linuxfoundation.org_nf9u64g9k9rvd9f8vp4vur23b0%40group.calendar.google.com&ctz=US/Eastern|Hyperledger Community Calendar]] for details.
+
+<WRAP center round box 75%>
+Join from PC, Mac, Linux, iOS or Android: https://zoom.us/my/hyperledger.community
+
+Or iPhone one-tap :
+    US: +16465588656,,4034983298#  or +16699006833,,4034983298# 
+Or Telephone:
+    Dial(for higher quality, dial a number based on your current location): 
+        US: +1 646 558 8656  or +1 669 900 6833  or +1 855 880 1246 (Toll Free) or +1 877 369 0926 (Toll Free)
+    Meeting ID: 403 498 3298
+    International numbers available: https://zoom.us/u/bAaJoyznp
+</WRAP>
+
+==== Where are the performance measurements for the Hyperledger projects? ====
+
+At this point in time the Hyperledger community feels it is inappropriate to discuss or disclose performance and scalability numbers for the Hyperledger projects. There are multiple reasons for this and the main concerns are provided below:
+  * There is no formal definitions of the various metrics and how to measure them
+    * The PSWG is actively working on defining key metrics and then how to measure them.
+  * There is no official project or benchmark that can be fairly be applied across the multiple DLTs.
+    * Once the PSWG defines the metrics, then a "benchmark" can be developed. There has already been one project proposed (Caliper).
+  * The logistics of how to ensure that any measurements are gathered fairly and provide a "fair and just" result needs to be worked out. 
+  * The logistics of how to ensure that all the announced performance numbers can be reproduced.
+    * This will entail ensuring that all code, tunings, configurations, etc are published with the results.
+As you can see, the goal is to ensure that all projects are presented in a fair and equitable manner. Note that the PSWG is open to all and we encourage you to join our efforts to help ensure that we are proposing a fair and equitable manner to define the performance and scalability of the projects..
+
+===== Communication =====
+
+==== Mailing List ====
+
+  * mail alias is: [[mailto:perf-and-scale-wg@lists.hyperledger.org|perf-and-scale-wg@lists.hyperledger.org]]\\ 
+  * mail archive is: http://lists.hyperledger.org/g/perf-and-scale-wg/messages\\ 
+  * mail subscription is: https://lists.hyperledger.org/g/perf-and-scale-wg\\ 
+
+==== Chat ====
+
+  * Rocket Chat: [[https://chat.hyperledger.org/channel/performance-and-scale-wg|#performance-and-scale-wg]] 
+
+===== WG Published Documents =====
+
+  * [[https://www.hyperledger.org/resources/publications/blockchain-performance-metrics|Metrics White Paper]]
+
+===== WG Working Documents =====
+
+  * [[https://docs.google.com/document/d/1A91Jg-TaEgkzQ-tygWOd0LqLcP24T7En-ZdkA1MnHIE/edit?usp=sharing|Working Group Proposal]]
+
+===== Library ====
+
+[[https://wiki.hyperledger.org/groups/pswg/library]]
+
+
+===== Meeting Minutes / Notes =====
+
+[[https://wiki.hyperledger.org/groups/pswg/performance-and-scale-wg/meetingminutes| Meeting Minutes and Notes]]

@@ -1,0 +1,152 @@
+==== 2017-06-02 ==== 
+
+Meeting will be held at [[https://chat.hyperledger.org/channel/fabric-sdk-py|rocketchat]] at 11AM (GMT+8).
+
+=== Agenda ===
+
+  * MVP remaining tasks: kai will sync.
+  * E2E test: Chao Li will sync
+  * [[https://jira.hyperledger.org/browse/FAB-3885|FAB-3885]]: Wei Hu will help sync
+  * [[ https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85 | Jira board ]] status
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py | Patchset]] for review. 
+  * [[https://gerrit.hyperledger.org/r/#/c/9887/ | testchainid is not supported any more]].
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]] is publicly available.
+  * Other issues
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Baohua Yang
+  * Kai Chen
+  * Wei Hu
+  * Tony Yang
+
+
+=== Log ===
+
+
+baohua 11:00 AM
+and @WeiHu
+good
+let's start
+today's agenda is https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20170602
+First, pls help sync the mvp progress and issues @grapebaba
+
+WeiHu 11:02 AM
+✋
+
+grapebaba 11:02 AM
+AFAIK, no update for mvp progress this week
+
+baohua 11:03 AM
+ok, so next step i guess we should support the install operation, right?
+i suppose someone's working on this since last week meeting?
+
+grapebaba 11:04 AM
+I thought it should be create channel
+
+baohua 11:04 AM
+create channel, aha
+search the jira, not finding this issue?
+difficult to use for jira...
+i guess there's no issues, kai, pls help create the issue for channel create, thanks!
+
+grapebaba 11:06 AM
+https://jira.hyperledger.org/browse/FAB-3483
+this one
+refactor chain to channel
+remember we discussed
+
+baohua 11:07 AM
+thanks, but this is just a refactor issue, we may need some explicit one like create channel
+would u help do the refactor part first?
+
+grapebaba 11:08 AM
+sure
+
+baohua 11:08 AM
+great, thanks!
+And anyone else wanna pick the channel create issue to finish? @tonyyang132 @WeiHu
+this needs collaboration with kai's work certainly
+aha, i notice wei is working on use role update
+so maybe tony can help @tonyyang132
+
+tonyyang132 11:12 AM
+Umm... Still trying to pick things up, I'm not sure I understand the whole context, maybe I start off with something easier?
+
+baohua 11:12 AM
+sure, tony, would suggest u look at the doc first.
+Ok, i will add a todo for me 🙂 TODO: baohua create the jira issue and work with kai to finish the channel creation func.
+OK, next item
+
+tonyyang132 11:13 AM
+yeah, working on it
+
+baohua 11:13 AM
+chao is not online, so let's go to item3: wei sync on 3885
+@WeiHu https://jira.hyperledger.org/browse/FAB-3885
+how's that going?
+
+WeiHu 11:15 AM
+sorry i'm busy recently. i'm working on it, i have some idea, and it will be done after the 'create channel' task being done
+
+baohua 11:15 AM
+sure, pls no hesitate to post ur thoughts in jira or the channel for more discussions.
+we need agile collaboration with quick movements 🙂
+OK. and one patchset needs everyone's attention: https://gerrit.hyperledger.org/r/#/c/9887
+This patchset disable/remove the testchainid for default channel
+Since then, we need the new app channel creation before everything @grapebaba
+that's why the channel creation is very important
+
+grapebaba 11:17 AM
+yeah
+
+baohua 11:17 AM
+btw, i would like to discuss the channel vs chain here
+channel is a network layer concept simply means a separate topic from kafka.
+chain is more complex, it contains the binding channel, and also other structures like ledger, will u guys agree?
+@grapebaba hence we cannot simply rename the chain-->channel, i guess
+
+grapebaba 11:20 AM
+ok, fair enough
+
+baohua 11:21 AM
+yeap, hence we will finally have the chain and channel roles together, while from the sdk side, it may use both
+
+grapebaba 11:21 AM
+we finally will have two class chain and channel, and separate the methods to them
+
+baohua 11:21 AM
+exactly!
+@WeiHu @tonyyang132 how do u guys think?
+
+tonyyang132 11:22 AM
+yeah it'd make more sense
+
+baohua 11:22 AM
+thanks!
+  
+Ok, no much other issues today from my side, any more topics to discuss?
+
+grapebaba 11:23 AM
+no for me
+
+baohua 11:23 AM
+tony or wei?
+
+tonyyang132 11:23 AM
+nothing from my side either
+
+baohua 11:24 AM
+sure, thanks for everyone's attending, have a nice weekend!
+
+tonyyang132 11:24 AM
+thank you, see you guys around
+
+baohua 11:24 AM
+🌼
+
+grapebaba 11:24 AM 
+👏
+

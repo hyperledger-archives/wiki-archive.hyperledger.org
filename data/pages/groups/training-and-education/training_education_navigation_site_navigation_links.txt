@@ -1,0 +1,33 @@
+
+[[https://chat.hyperledger.org/channel/learning-materials-development-wg|  Rocket Chat  ]]
+[[https://chat.hyperledger.org/channel/learning-materials-development-wg|{{groups:training-and-education:rocketchat-small.png?20}}]]  
+announcements, correspondence, and resource links. 
+
+[[https://zoom.us/my/hyperledger.community|  Zoom live meetings  ]]  
+[[https://zoom.us/my/hyperledger.community|{{groups:training-and-education:zoomlogo-small.png?20}}]]  
+Webinar page for the Monday live meetings.
+
+[[https://docs.google.com/document/d/1kEuHb3rpQbHqLhVJEI8bdeCCQiTMtgZSI7CYEp8_oMc/edit|  Meeting Agenda/Notes  ]]
+[[|{{groups:training-and-education:HL_ImageLibrary_Icons_Blue_ledger.png?30}}]]  
+agenda for next meeting and agenda/notes for past meetings
+
+[[https://goo.gl/1HzKaD|  2019 Team Draft Plan  ]]
+[[|{{groups:training-and-education:agenda-small.png?20}}]]  
+2019 workgroup goals, objectives,  and plans
+
+
+[[https://drive.google.com/drive/folders/0B_NJV6eJXAA1b0h1SldxdmdlTE0|  Training & Education Artifacts  ]]
+[[https://drive.google.com/drive/folders/0B_NJV6eJXAA1b0h1SldxdmdlTE0|{{groups:training-and-education:googledrive-small.png?20}}]]  
+files - meeting recordings and working documents.
+
+[[https://drive.google.com/drive/folders/1hCe8FhzKAjnDx8HUEk9L0wwlzK5OyHCJ|  Hyperledger templates and images  ]]
+[[https://drive.google.com/drive/folders/1hCe8FhzKAjnDx8HUEk9L0wwlzK5OyHCJ|{{groups:training-and-education:googledrive-small.png?20}}]]  
+Hyperledger official approved templates and images.
+
+[[https://github.com/hyperledger/education|  Github Repository  ]]
+[[https://github.com/hyperledger/education|{{groups:training-and-education:octocat-small.png?40}}]]  
+Files that are produced for the group. These files are under version control.
+
+[[training_education_navigation_site_navigation_links:Learning | Links page to edX courses and other Learning Resources ]]\\
+
+[[training_education_navigation_site_navigation_links:Archives | Archives - important yet seldom used links/resources ]]\\

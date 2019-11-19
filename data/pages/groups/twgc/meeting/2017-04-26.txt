@@ -1,0 +1,80 @@
+===== TWG China Meeting =====
+
+==== Date ====
+10AM ~ 11AM, 2017-04-26, GMT+8
+
+Phone Number:
+  * 800-820-0027 (toll free) 
+  * 400-821-0751 (caller paid)
+Passcode: 71173794
+
+==== Attendee ====
+
+**Pls add ur name here before the meeting.**
+
+  * Baohua Yang (IBM)
+  * Yin Cao (Energychain Lab)
+  * Yaoguo Jiang (Huawei)
+  * Zhengping Xu (WutongTree)
+  * Linsheng Yu (WutongTree)
+  * ZhouDong Ji (Wanda Group)
+  * ShiBo Lin (SBI Group)
+  * Qilei Li (Hyperchain)
+  * Wei Hu (Hyperchain)
+  * Scott / Julian
+  * Fei Cao (Huaxin)
+  * Kelven (Energychain Lab)
+
+==== Agenda ====
+  - Welcome new volunteer
+    - Qilei Li from Hyperchain
+  - TSC meeting sync (baohua, charles, victor)
+    - Linux Con&Hyperledger Hackahon: [[https://www.lfasiallc.com/linuxcon-containercon-cloudopen-china/about/schedule|Schedule]]. Idea brain storming.
+  - Development and innovation sync (Yaoguo and Ray Chen)
+    - Code development on projects
+    - Mail-list, rocketchat activities
+    - Monthly active contributors plan discussion
+    - [[https://wiki.hyperledger.org/groups/twgc/team_di | Deploy&Operation guideline drafting]]
+  - i18n and education work status (Kewei Sun, Linsheng Yu, Wenjie Xie)
+    - Have some [[https://wiki.hyperledger.org/groups/twgc/team_ie|docs]], work is actively on-going.
+  - Scenario and Collaboration (Yin Cao)
+    - [[https://wiki.hyperledger.org/groups/twgc/team_cs|case book ]] design and sharing
+  - Event organization (Zhou and Zhoudong)
+    - Workshop proposal sharing
+    - Meetup during LinuxCon?
+  - other issues
+    - [[https://wiki.hyperledger.org/groups/twgc/report/2017-04| Review 2017-04 Report]]
+
+
+==== Minute ====
+
+  - Welcome new volunteer
+    - Qilei Li from Hyperchain (CTO): development and education
+  - TSC meeting sync (baohua, charles, victor)
+    - Linux Con&Hyperledger Hackathon: [[https://www.lfasiallc.com/linuxcon-containercon-cloudopen-china/about/schedule|Schedule]]. Idea brain storming.
+    - Zhoudong: invite more contributors from wide community.
+    - scott: submission period extend to 15 days before hackathon. **TODO: scott needs to send advices to the maillist.**
+  - Development and innovation sync (Yaoguo and Ray Chen)
+    - Code development on projects: fabric 121 patchsets, composer 37 patchsets.
+      - fabric: 121, sdk: 20+, sawtooth: 16, iroha: 1, cello: 1, burrow: 14, composer: 37
+    - Mail-list: 10+, rocketchat activities: 100+
+    - Monthly active contributors plan discussion: **TODO: Wei Hu will create at wikipage**
+    - [[https://wiki.hyperledger.org/groups/twgc/team_di | Deploy&Operation guideline drafting]]
+  - i18n and education work status (Kewei Sun, Linsheng Yu, Wenjie Xie)
+    - Have some [[https://wiki.hyperledger.org/groups/twgc/team_ie|docs]], work is actively on-going.
+    - Already picked up the tasks, need more progress and review.
+    - Need more education work. **TODO: Qilei will open a course at ZheJiang University, will call for speakers.**
+    - Zhoudong: suggest to have bilingual version.
+    - **TODO: Linsheng will create a wechat news.**
+  - Scenario and Collaboration (Yin Cao)
+    - [[https://wiki.hyperledger.org/groups/twgc/team_cs|case book ]] design and sharing
+    - Kelven: have sent email for collecting case.
+    - **TODO: kelven will follow the task**
+  - Event organization (Zhou and Zhoudong)
+    - Workshop proposal sharing
+    - Meetup during LinuxCon?
+    - Scott: Need more contribution and marketing events.
+    - Zhoudong: Need more education/events at universities.
+    - Zhengping: Jira board is too difficult to follow. Too long time to review.
+  - other issues
+    - [[https://wiki.hyperledger.org/groups/twgc/report/2017-04| Review 2017-04 Report]]

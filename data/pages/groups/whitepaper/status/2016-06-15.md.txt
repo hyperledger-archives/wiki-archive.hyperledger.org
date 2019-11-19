@@ -1,0 +1,11 @@
+# Whitepaper WG Status 2016 Jun 15
+* No visits during virtual hackathon whitepaper working group "office hours" so we followed normal meeting agenda
+* Tamas Blummer from Digital Asset will be replacing Noam on the working group. Thank you Noam for your valuable contributions and sacrifices required as a result of extreme time zone differences.
+* reviewed last meetings minutes - no changes
+* reviewed new feedback submissions
+  * agreed to replace the term 'fabric' with 'platform' to avoid possible confusion with the 'Fabric' candidate codebase
+  * agreed on feedback related to the Architecture section and the need to focus on this section as a priority.
+* Agreed to reintroduce a Glossary for the whitepaper as noted in Richard G Brown feedback (still reviewing and incorporating additional suggestions from Richard), and noted it will be important to be consistent with other glossary's within HLP documentation.
+* Reviewed some of the new Hyperledger Fabric 2.0 deck and content for further whitepaper update inspiration.
+* Agreed the Architecture section requires the most focus at this stage, looking to reflect output from the Architecture working group.
+* Continued clean-up of Draft 1.0 and edits in preparation for Draft v1.1.

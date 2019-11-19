@@ -1,0 +1,9 @@
+===== Marketing & Communications =====
+[[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]]
+----------
+
+  * [[activities-whitepapers|Whitepapers]]
+  * [[activities-events|Events]]
+    * [[hyperledger-global-forum-2018|Hyperledger Global Forum 2018]]
+    * [[distributed-health-2018|Distributed Health 2018]]
+    * [[himss-asiapac-challenge-2018|AsiaPac HIMSS Innovation Challenge 2018]]

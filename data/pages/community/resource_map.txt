@@ -1,0 +1,177 @@
+====== Ecosystem Map ======
+This page aims to collect all the links to documents, sites and various channels that allow you to navigate the Hyperledger Ecosystem. It is framed by topic, so some links may overlap. //Please help improve it by suggesting links we missed!//
+
+==== What is Hyperledger ====
+
+  * [[https://www.hyperledger.org/blog|Blog]]
+  * [[https://www.hyperledger.org/about|About]]
+  * Some of the [[https://wiki.hyperledger.org/?idx=requirements%3Ause-cases|usecases our Requirements WG identified. Submit more!]]
+  * Learn about [[https://www.hyperledger.org/community/basics|hyperledger community]]
+  * Read our three whitepapers:
+      * [[https://www.hyperledger.org/wp-content/uploads/2018/08/HL_Whitepaper_IntroductiontoHyperledger.pdf|An Introduction to Hyperledger]]
+      * [[https://www.hyperledger.org/wp-content/uploads/2017/08/Hyperledger_Arch_WG_Paper_1_Consensus.pdf|Hyperledger Architecture, Volume 1: Introduction to Hyperledger Business Blockchain Design Philosophy and Consensus]]
+      * [[https://www.hyperledger.org/wp-content/uploads/2018/04/Hyperledger_Arch_WG_Paper_2_SmartContracts.pdf|Hyperledger Architecture, Volume 2: Smart Contracts]]
+
+
+==== Governance ====
+Hyperledger approach to governance
+  * Governing Board https://www.hyperledger.org/about/leadership
+  * TSC - what is [[https://wiki.hyperledger.org/groups/tsc/technical-steering-committee|Technical Steering Committee]], how can you become part of it, calendar of meetings.
+  * [[https://www.hyperledger.org/about/leadership|Who is Who in Hyperledger]]
+
+==== Communication ====
+  * [[https://wiki.hyperledger.org/?idx=community%3Achat_channels|Chat channels]]
+  * [[community:calendar-public-meetings|Public meetings]]
+  * [[https://www.hyperledger.org/community/collaboration-tools|Collaboration tools]
+  * [[lists.hyperledger.org|Mailing lists]]
+
+==== Code ====
+  * [[https://www.hyperledger.org/community/coding|Community Coding page]]
+  * [[community:copyright-and-license-policy| Copyright and License Policy]]
+  * [[https://www.github.com/hyperledger|Our GitHub repository]]
+  * [[https://www.hyperledger.org/blog/2018/01/23/introducing-hyperledger-labs |Labs Program]]
+
+==== Documents ====
+  * [[community:frequently-asked-questions-faq|Frequently Asked Questions]]
+  * Look at our [[https://wiki.hyperledger.org/start|wiki pages]]
+  * [[https://www.hyperledger.org/resources/publications|Read the papers Publications]]
+  * Look at the [[https://wiki.hyperledger.org/community/presentations|presentations]] and use them freely. 
+  * Check out [[https://wiki.hyperledger.org/community/proposals|current and past project proposals]] 
+  * Read about Hyperledger Project [[community:release_taxonomy|release taxonomy]]
+  * [[https://wiki.hyperledger.org/community/scope|Scope]] of planned projects covering core ledger functionality.
+  * [[https://wiki.hyperledger.org/requirements/functional/corporate-actions-demo|Functional Requirements for Corporate Actions Demo]]
+
+
+==== Videos and webinars ====
+  * See our explainer [[https://www.hyperledger.org/resources/videos|videos and presentations]]
+  * Rewatch and sign up for [[https://www.hyperledger.org/resources/webinars|upcoming webinars]]
+  * Rewatch our [[https://www.youtube.com/channel/UC7_X0WkMtkWzaVUKF-PRBNQ|presentations at conference]]
+
+==== Engagements ====
+  * Learn about the multiple [[http://go.thelinuxfoundation.org/6accb734b04d36496d|Hyperledger Projects and Working Groups]] and watch [[http://go.thelinuxfoundation.org/7f11be43422a1e136a|how to get involved]]
+  * How can you [[https://wiki.hyperledger.org/community/participating|participate in Hyperledger?]]
+  * Meetups: start or join a meetup. Find a meetup in your city. LEARN MORE
+  * [[https://wiki.hyperledger.org/community/ambassador|Ambassador Program]] - find an ambassador or become one.
+  * [[https://wiki.hyperledger.org/groups/|Working Groups]] - what working groups are there, how to get connected?
+  * Submit a [[http://go.thelinuxfoundation.org/feff9f8b142de68085|Blockchain Showcase]]
+  * Write and read our a [[https://www.hyperledger.org/blog|blog posts]]
+  * Join our [[https://wiki.hyperledger.org/groups/training-and-education/training-and-education-wg|training and education community]]
+==== Membership ====
+  * [[https://www.hyperledger.org/members|Who is a member?]]
+  * [[https://www.hyperledger.org/members/join|Join Hyperledger]]
+  * [[https://events.linuxfoundation.org/events/hyperledger-member-summit/|Learn more]] about our member-only events and register if you are a member. 
+  * Who works with Hyperledger Frameworks? Check out our [[https://www.hyperledger.org/resources/vendor-directory|vendor directory]]
+  * If you are a university, non for profit or a public sector institution, [[https://www.hyperledger.org/members/join#|learn how to join for free]].
+==== Universities ====
+  * Mailing list: [[mailto:universities@lists.hyperledger.org|universities@lists.hyperledger.org]]  and  [[https://lists.hyperledger.org/g/universities|list archive]]
+  * We also have a [[https://chat.hyperledger.org/channel/research-and-education|chat channel]]
+  * [[https://wiki.hyperledger.org/groups/training-and-education/training-and-education-wg|Training and Education Working Group]] For meetings, see the [[http://go.thelinuxfoundation.org/fd1ab10a0cf7925242|Hyperledger Community Calendar]].
+  * [[https://www.hyperledger.org/resources/universities|Research ideas and ways to engage]]
+	
+==== Hyperledger Live ====
+  * [[https://www.hyperledger.org/resources/industries|What industries do what]] with Hyperledger?
+  * [[https://www.hyperledger.org/resources/blockchain-showcase|Blockchain showcase]] - highlights of Hyperledger ecosystem 
+  * [[https://www.hyperledger.org/resources/vendor-directory|Vendors and companies]] offering services on Hyperledger 
+  * Hyperledger [[http://go.thelinuxfoundation.org/fc69a9c9b46716c87c|Member Case Study Program]]
+==== Events ====
+  * Find next and register for [[https://wiki.hyperledger.org/?idx=community%3Ahackfest|hackfest]]
+  * More information and registration for [[https://events.linuxfoundation.org/events/hyperledger-member-summit/attend/register/|Member summit]]
+  * More information and registration for [[https://events.linuxfoundation.org/events/hyperledger-global-forum-2018/?utm_source=internal&utm_medium=newseventdropdown&utm_campaign=gf18|Hyperledger Global Forum]]
+  * [[https://www.hyperledger.org/events|Events]] we go to.  
+  * [[http://www.meetup.com/pro/hyperledger/|Participate]] or [[https://wiki.hyperledger.org/community/meetups|start a meetup]].
+==== Representing ====
+  * [[https://wiki.hyperledger.org/community/ambassador|Become an ambassador]]
+  * [[https://www.hyperledger.org/news/speakersbureau|Speakers Bureau]]
+  * Join us at events [[https://www.hyperledger.org/events|Upcoming Events]]
+  * Become a member: [[https://www.hyperledger.org/members/join|Join Hyperledger]]
+  * Become a Hyperledger university champion: [[mailto:universities@lists.hyperledger.org|email us]]
+==== Opportunities ====
+  * [[https://wiki.hyperledger.org/start?idx=internship|Sign up for an internship]] and see the projects.
+  * [[https://www.hyperledger.org/resources/jobs|Job board]]
+  * [[https://www.hyperledger.org/resources/jobs|Jobs at hyperledger]] and [[https://www.linuxfoundation.org/about/careers|Linux Foundation]]
+==== Education and training ====
+  * [[https://www.hyperledger.org/resources/tutorials|Find useful tutorials]]
+  * Sign up for free training on EdX: [[https://www.edx.org/course/understanding-blockchain-and-its-implications|Part 1]] and [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Part 2]]
+==== Creating new projects ====
+  * [[https://wiki.hyperledger.org/community/scope|Scope of planned projects]] covering core ledger functionality.
+  * What is a [[https://wiki.hyperledger.org/community/project-lifecycle|project lifecycle]]?
+  * How do we move from [[https://wiki.hyperledger.org/community/project-incubation-exit-criteria|incubation to active]]?
+  * [[https://wiki.hyperledger.org/community/proposal-template-for-a-hyperledger-improvement-project-hip|Proposal Template]] for a new Hyperleger project.
+==== Projects ====
+=== Hyperledger Burrow ===
+
+* [[https://www.hyperledger.org/projects/hyperledger-burrow|Project Page]]
+* [[https://github.com/hyperledger/burrow|Code]]
+* [[https://lists.hyperledger.org/g/burrow|Mailing List]]
+* [[https://chat.hyperledger.org/channel/burrow|Chat]]
+=== Hyperledger Caliper ===
+
+* [[https://www.hyperledger.org/projects/hyperledger-caliper|Project Page]]
+* [[https://github.com/hyperledger/caliper|Code]]
+* [[https://lists.hyperledger.org/g/caliper|Mailing List]]
+* [[https://chat.hyperledger.org/channel/caliper|Chat]]
+=== Hyperledger Cello ===
+
+* [[https://www.hyperledger.org/projects/hyperledger-cello|Project Page]]
+* [[https://github.com/hyperledger/cello|Code]]
+* [[https://calendar.google.com/calendar/hosted/linuxfoundation.org/event?action=TEMPLATE&hl=en&text=Hyperledger%20Cello%20Scrum%20Meeting&dates=20180831T123000%2F20180831T130000&location=https%3A%2F%2Fzoom.us%2Fmy%2Fhyperledger.community&ctz=UTC&details=%3Cbr%20%2F%3EContact%3A%20Baohua%20Yang%3Cbr%20%2F%3ETopic%3A%20Hyperledger%20Cello%20Scrum%3Cbr%20%2F%3E%3Cbr%20%2F%3EJoin%20from%20PC%2C%20Mac%2C%20Linux%2C%20iOS%20or%20Android%3A%C2%A0%3Ca%20href%3D%22https%3A%2F%2Fwww.google.com%2Furl%3Fq%3Dhttps%253A%252F%252Fzoom.us%252Fmy%252Fhyperledger.community%26amp%3Bsa%3DD%26amp%3Bust%3D1535985595423000%26amp%3Busg%3DAFQjCNH05zrqaNEuSuT1g-vto1RzwLc7KA%22%20target%3D%22_blank%22%3Ehttps%3A%2F%2Fzoom.us%2Fmy%2Fhyperledger.community%3C%2Fa%3E%3Cbr%20%2F%3E%3Cbr%20%2F%3EOr%20iPhone%20one-tap%20%3A%3Cbr%20%2F%3E%C2%A0%20%C2%A0%20US%3A%20%2B16465588656%2C%2C4034983298%23%C2%A0%20or%20%2B16699006833%2C%2C4034983298%23%C2%A0%3Cbr%20%2F%3EOr%20Telephone%3A%3Cbr%20%2F%3E%C2%A0%20%C2%A0%20Dial%28for%20higher%20quality%2C%20dial%20a%20number%20based%20on%20your%20current%20location%29%3A%C2%A0%3Cbr%20%2F%3E%C2%A0%20%C2%A0%20%C2%A0%20%C2%A0%20US%3A%20%2B1%20646%20558%208656%C2%A0%20or%20%2B1%20669%20900%206833%C2%A0%20or%20%2B1%20855%20880%201246%20%28Toll%20Free%29%20or%20%2B1%20877%20369%200926%20%28Toll%20Free%29%3Cbr%20%2F%3E%C2%A0%20%C2%A0%20Meeting%20ID%3A%20403%20498%203298%3Cbr%20%2F%3E%C2%A0%20%C2%A0%20International%20numbers%20available%3A%C2%A0%3Ca%20href%3D%22https%3A%2F%2Fwww.google.com%2Furl%3Fq%3Dhttps%253A%252F%252Fzoom.us%252Fu%252FbAaJoyznp%26amp%3Bsa%3DD%26amp%3Bust%3D1535985595423000%26amp%3Busg%3DAFQjCNENY24-eq1RIGkKFAmSI5b9SIYBiw%22%20target%3D%22_blank%22%3Ehttps%3A%2F%2Fzoom.us%2Fu%2FbAaJoyznp%3C%2Fa%3E|Meetings]]
+* [[https://lists.hyperledger.org/g/cello|Mailing List]]
+* [[https://chat.hyperledger.org/channel/cello|Chat]]
+=== Hyperledger Composer ===
+
+* [[https://www.hyperledger.org/projects/hyperledger-composer|Project Page]]
+* [[https://github.com/hyperledger/composer|Code]]
+* [[https://calendar.google.com/calendar/hosted/linuxfoundation.org/event?action=TEMPLATE&hl=en&text=Composer%20%28Schedule%20A%29&dates=20180830T160000%2F20180830T170000&location=https%3A%2F%2Fzoom.us%2Fmy%2Fhyperledger.community&ctz=UTC&details=Contact%3A%20Paul%20Mahoney%3Cbr%20%2F%3E%3Cbr%20%2F%3EJoin%20from%20PC%2C%20Mac%2C%20Linux%2C%20iOS%20or%20Android%3A%C2%A0%3Ca%20href%3D%22https%3A%2F%2Fwww.google.com%2Furl%3Fq%3Dhttps%253A%252F%252Fzoom.us%252Fmy%252Fhyperledger.community%26amp%3Bsa%3DD%26amp%3Bust%3D1535985595444000%26amp%3Busg%3DAFQjCNFJpd37XE8UQfKlFsVm3IDu0NwAyg%22%20target%3D%22_blank%22%3Ehttps%3A%2F%2Fzoom.us%2Fmy%2Fhyperledger.community%3C%2Fa%3E%3Cbr%20%2F%3E%3Cbr%20%2F%3EOr%20iPhone%20one-tap%20%3A%3Cbr%20%2F%3E%C2%A0%20%C2%A0%20US%3A%20%2B16465588656%2C%2C4034983298%23%C2%A0%20or%20%2B16699006833%2C%2C4034983298%23%C2%A0%3Cbr%20%2F%3EOr%20Telephone%3A%3Cbr%20%2F%3E%C2%A0%20%C2%A0%20Dial%28for%20higher%20quality%2C%20dial%20a%20number%20based%20on%20your%20current%20location%29%3A%C2%A0%3Cbr%20%2F%3E%C2%A0%20%C2%A0%20%C2%A0%20%C2%A0%20US%3A%20%2B1%20646%20558%208656%C2%A0%20or%20%2B1%20669%20900%206833%C2%A0%20or%20%2B1%20855%20880%201246%20%28Toll%20Free%29%20or%20%2B1%20877%20369%200926%20%28Toll%20Free%29%3Cbr%20%2F%3E%C2%A0%20%C2%A0%20Meeting%20ID%3A%20403%20498%203298%3Cbr%20%2F%3E%C2%A0%20%C2%A0%20International%20numbers%20available%3A%C2%A0%3Ca%20href%3D%22https%3A%2F%2Fwww.google.com%2Furl%3Fq%3Dhttps%253A%252F%252Fzoom.us%252Fu%252FbAaJoyznp%26amp%3Bsa%3DD%26amp%3Bust%3D1535985595444000%26amp%3Busg%3DAFQjCNFvXDQ-WGU7w2-pd1oIgwisTdR1ww%22%20target%3D%22_blank%22%3Ehttps%3A%2F%2Fzoom.us%2Fu%2FbAaJoyznp%3C%2Fa%3E|Meetings]]
+* [[https://lists.hyperledger.org/g/composer|Mailing List]]
+* [[https://chat.hyperledger.org/channel/composer|Chat]]
+=== Hyperledger Explorer ===
+
+* [[https://www.hyperledger.org/projects/hyperledger-explorer|Project Page]]
+* [[https://github.com/hyperledger/explorer|Code]]
+* [[https://lists.hyperledger.org/g/explorer|Mailing List]]
+* [[https://chat.hyperledger.org/channel/explorer|Chat]]
+=== Hyperledger Fabric ===
+
+* [[https://www.hyperledger.org/projects/hyperledger-fabric|Project Page]]
+* [[https://github.com/hyperledger/fabric|Code]]
+* [[https://calendar.google.com/calendar/hosted/linuxfoundation.org/event?action=TEMPLATE&hl=en&text=Fabric%20Scrum&dates=20180829T133000%2F20180829T140000&location=https%3A%2F%2Fchat.hyperledger.org%2Fchannel%2Ffabric-scrum&ctz=UTC&details|Meetings]]
+* [[https://lists.hyperledger.org/g/fabric|Mailing List]]
+* [[https://chat.hyperledger.org/channel/fabric|Chat]]
+=== Hyperledger Iroha ===
+
+* [[https://www.hyperledger.org/projects/hyperledger-iroha|Project Page]]
+* [[https://github.com/hyperledger/iroha|Code]]
+* [[https://lists.hyperledger.org/g/iroha|Mailing List]]
+* [[https://chat.hyperledger.org/channel/iroha|Chat]]
+=== Hyperledger Indy ===
+
+* [[https://www.hyperledger.org/projects/hyperledger-indy|Project Page]]
+* [[https://github.com/hyperledger/indy|Code]]
+* [[https://calendar.google.com/calendar/hosted/linuxfoundation.org/event?action=TEMPLATE&hl=en&text=Hyperledger%20Indy%20WG&dates=20180830T150000%2F20180830T160000&location=https%3A%2F%2Fzoom.us%2Fj%2F232861185&ctz=UTC&details=Contact%3A%20Nathan%20George%20%28nathan.george%20at%20%3Ca%20href%3D%22https%3A%2F%2Fwww.google.com%2Furl%3Fq%3Dhttp%253A%252F%252Fevernym.com%26amp%3Bsa%3DD%26amp%3Bust%3D1535985595394000%26amp%3Busg%3DAFQjCNFv-RyaDhqd_4UHPwLSu6Fe8sUZnw%22%20target%3D%22_blank%22%3Eevernym.com%3C%2Fa%3E%29%3Cbr%20%2F%3E%3Cbr%20%2F%3EJoin%20from%20PC%2C%20Mac%2C%20Linux%2C%20iOS%20or%20Android%3A%20%3Ca%20href%3D%22https%3A%2F%2Fwww.google.com%2Furl%3Fq%3Dhttps%253A%252F%252Fzoom.us%252Fj%252F232861185%26amp%3Bsa%3DD%26amp%3Bust%3D1535985595394000%26amp%3Busg%3DAFQjCNFxh1FMBfhFIbPZ9_tC5X0zN6CqKA%22%20target%3D%22_blank%22%3Ehttps%3A%2F%2Fzoom.us%2Fj%2F232861185%3C%2Fa%3E%3Cbr%20%2F%3E%3Cbr%20%2F%3EOr%20iPhone%20one-tap%20%3A%3Cbr%20%2F%3E%C2%A0%C2%A0%C2%A0%C2%A0US%3A%20%2B14086380968%2C%2C232861185%23%20%20or%20%2B16468769923%2C%2C232861185%23%20%3Cbr%20%2F%3EOr%20Telephone：%3Cbr%20%2F%3E%C2%A0%C2%A0%C2%A0%C2%A0Dial%28for%20higher%20quality%2C%20dial%20a%20number%20based%20on%20your%20current%20location%29：%3Cbr%20%2F%3E%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0US%3A%20%2B1%20408%20638%200968%20%20or%20%2B1%20646%20876%209923%20%20or%20%2B1%20669%20900%206833%20%3Cbr%20%2F%3E%C2%A0%C2%A0%C2%A0%C2%A0Meeting%20ID%3A%20232%20861%20185%3Cbr%20%2F%3E%C2%A0%C2%A0%C2%A0%C2%A0International%20numbers%20available%3A%20%3Ca%20href%3D%22https%3A%2F%2Fwww.google.com%2Furl%3Fq%3Dhttps%253A%252F%252Fzoom.us%252Fzoomconference%253Fm%253Da0jD_rTMnh0ZYGQDOKPCNrK_0dP7WPfp%26amp%3Bsa%3DD%26amp%3Bust%3D1535985595395000%26amp%3Busg%3DAFQjCNFsSADMzixQR7aQS3fuvW3xNAAuDw%22%20target%3D%22_bla...|Meetings]]
+* [[https://lists.hyperledger.org/g/indy|Mailing List]]
+* [[https://chat.hyperledger.org/channel/indy|Chat]]
+=== Hyperledger Sawtooth ===
+
+* [[https://www.hyperledger.org/projects/hyperledger-sawtooth|Project Page]]
+* [[https://github.com/hyperledger/sawtooth|Code]]
+* [[https://calendar.google.com/calendar/hosted/linuxfoundation.org/event?action=TEMPLATE&hl=en&text=HL%20Sawtooth%20Application%20Developers%20Forum&dates=20180829T140000%2F20180829T150000&location&ctz=UTC&details=Join%20from%20PC%2C%20Mac%2C%20Linux%2C%20iOS%20or%20Android%3A%20https%3A%2F%2Fzoom.us%2Fj%2F560395876%0A%0AOr%20iPhone%20one-tap%20%3A%0AUS%3A%20%2B16699006833%2C%2C560395876%23%20or%20%2B14086380968%2C%2C560395876%23%0AOr%20Telephone%3A%0ADial%28for%20higher%20quality%2C%20dial%20a%20number%20based%20on%20your%20current%20location%29%3A%0AUS%3A%20%2B1%20669%20900%206833%20or%20%2B1%20408%20638%200968%20or%20%2B1%20646%20876%209923%0AMeeting%20ID%3A%20560%20395%20876%0AInternational%20numbers%20available%3A%20https%3A%2F%2Fzoom.us%2Fu%2FeAsMx0wpc|Meetings]]
+* [[https://lists.hyperledger.org/g/sawtooth|Mailing List]]
+* [[https://chat.hyperledger.org/channel/sawtooth|Chat]]
+=== Hyperledger Quilt ===
+
+* [[https://www.hyperledger.org/projects/hyperledger-quilt|Project Page]]
+* [[https://github.com/hyperledger/quilt|Code]]
+* [[https://calendar.google.com/calendar/hosted/linuxfoundation.org/event?action=TEMPLATE&hl=en&text=Hyperledger%20Quilt%20Bi-Weekly%20Sync-Up&dates=20180829T150000%2F20180829T160000&location=https%3A%2F%2Fzoom.us%2Fmy%2Fhyperledger.community&ctz=UTC&details=Contact%3A%20Adrian%20Hope-Bailie%3Cbr%20%2F%3E%3Cbr%20%2F%3EJoin%20from%20PC%2C%20Mac%2C%20Linux%2C%20iOS%20or%20Android%3A%C2%A0%3Ca%20href%3D%22https%3A%2F%2Fwww.google.com%2Furl%3Fq%3Dhttps%253A%252F%252Fzoom.us%252Fmy%252Fhyperledger.community%26amp%3Bsa%3DD%26amp%3Bust%3D1535985595452000%26amp%3Busg%3DAFQjCNEOyQg8XWjKHm1-2NasPfeJ-ag5Nw%22%20target%3D%22_blank%22%3Ehttps%3A%2F%2Fzoom.us%2Fmy%2Fhyperledger.community%3C%2Fa%3E%3Cbr%20%2F%3E%3Cbr%20%2F%3EOr%20iPhone%20one-tap%20%3A%3Cbr%20%2F%3E%C2%A0%20%C2%A0%20US%3A%20%2B16465588656%2C%2C4034983298%23%C2%A0%20or%20%2B16699006833%2C%2C4034983298%23%C2%A0%3Cbr%20%2F%3EOr%20Telephone%3A%3Cbr%20%2F%3E%C2%A0%20%C2%A0%20Dial%28for%20higher%20quality%2C%20dial%20a%20number%20based%20on%20your%20current%20location%29%3A%C2%A0%3Cbr%20%2F%3E%C2%A0%20%C2%A0%20%C2%A0%20%C2%A0%20US%3A%20%2B1%20646%20558%208656%C2%A0%20or%20%2B1%20669%20900%206833%C2%A0%20or%20%2B1%20855%20880%201246%20%28Toll%20Free%29%20or%20%2B1%20877%20369%200926%20%28Toll%20Free%29%3Cbr%20%2F%3E%C2%A0%20%C2%A0%20Meeting%20ID%3A%20403%20498%203298%3Cbr%20%2F%3E%C2%A0%20%C2%A0%20International%20numbers%20available%3A%C2%A0%3Ca%20href%3D%22https%3A%2F%2Fwww.google.com%2Furl%3Fq%3Dhttps%253A%252F%252Fzoom.us%252Fu%252FbAaJoyznp%26amp%3Bsa%3DD%26amp%3Bust%3D1535985595452000%26amp%3Busg%3DAFQjCNHWvwTXJs6HkPZEHbt7OTPHNwWNEA%22%20target%3D%22_blank%22%3Ehttps%3A%2F%2Fzoom.us%2Fu%2FbAaJoyznp%3C%2Fa%3E|Meetings]]
+* [[https://lists.hyperledger.org/g/quilt|Mailing List]]
+* [[https://chat.hyperledger.org/channel/quilt|Chat]]
+==== Labs ====
+  * Philosophy: [[https://wiki.hyperledger.org/labs#motivation|Why Create Labs?]]
+  * [[https://hyperledger-labs.github.io/|Submit a proposal]]
+  * [[https://github.com/hyperledger-labs/hyperledger-labs.github.io/tree/master/labs|Existing projects]]
+==== Security ====
+  * [[https://github.com/hyperledger-labs/crypto-lib|Crypto Lib Project]]
+  * Hyperledger Frameworks go through Security Audits. Here are [[https://wiki.hyperledger.org/security/audits|reports and process audits]]
+  * What [[https://wiki.hyperledger.org/security/analysis-tools|tools do we use for security analysis]]?
+  * [[https://wiki.hyperledger.org/security/reporting-bugs|Report a bug!]]
+  * Whats Hyperledger [[https://wiki.hyperledger.org/security/learning-design|security design]]? 
+  * Recommended reading ([[https://wiki.hyperledger.org/security/cii|cii]], [[https://wiki.hyperledger.org/security/learning-crypto|learning crypto]], [[https://wiki.hyperledger.org/security/learning-delivery|learning-delivery]])

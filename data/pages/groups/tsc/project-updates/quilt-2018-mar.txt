@@ -1,0 +1,60 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+
+Quilt
+
+===== Project Health =====
+
+Slow but steady progress both in terms of features added to the code-base and community contributions.
+
+===== Issues =====
+
+Project sub-module "crypto-conditions" has been deprecated from the core Quilt library. 
+
+We are looking for an appropriate place to house this code as it is still being actively maintained and used but not within Quilt. One option is to continue hosting this in Hyperledger under [quilt-crypto-conditions](https://github.com/hyperledger/quilt-crypto-conditions), but this deserves further consideration.
+
+===== Releases =====
+
+Code is still in alpha state. Goal of making a beta release by end April.
+
+===== Overall Activity in the Past Quarter =====
+
+Majority of activity on bi-weekly calls and through Github.
+Lots of refactoring work to re-align with new Interledger protocol design since Q4 2017.
+
+===== Current Plans =====
+
+Goals:
+  -  Release a set of common components that can be used to run a node on the network
+  -  Stand-up a node on the Interledger test net
+
+The main contributors decided that the best way to ensure the core libraries are un-opinionated in their design and architecture is for each contributor to build a sample node using the core modules and to contribute back changes that are required.
+
+Nodes are being built using VertX, Spring and Apache Camel.
+
+The VertX implementation from @earizon has been successfully deployed onto the Interledger testnet as a POC.
+
+===== Maintainer Diversity =====
+No new maintainers.
+
+Maintainers are:
+  - @adrianhopebailie
+  - @sappenin
+  - @earizon
+  - @eramitg
+
+===== Contributor Diversity =====
+New contributors:
+  - @michielbdejong
+  - @dora-gt
+  - @pascalav
+  - @reedrosenbluth
+  - @eramitg
+
+
+===== Additional Information =====
+The Interledger protocol had a major design change in late 2017. ILPv4 is now being implemented in all reference implementations along with updates to other protocols in the stack.
+
+The Quilt implementation required some major refactoring to accommodate this but is now making steady progress in gaining feature parity with the reference JS implementation.
+ 

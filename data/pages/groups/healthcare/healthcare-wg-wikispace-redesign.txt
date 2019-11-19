@@ -1,0 +1,208 @@
+====== Attention! ======
+
+This page is now deprecated: please redirect to our [[groups:healthcare:healthcare-sig|newly redesigned page]].
+
+====== Healthcare Working Group ======
+
+The Healthcare Working Group will house and foster technical and business-level conversations about appropriate applications for blockchain technology in the healthcare industry.
+
+===== Meetings =====
+
+The Healthcare Working Group meets every other Friday at 7:00 am Pacific. See the [[https://calendar.google.com/calendar/embed?src=linuxfoundation.org_nf9u64g9k9rvd9f8vp4vur23b0%40group.calendar.google.com&ctz=UTC|Hyperledger Community Calendar]] for details ([[https://lists.hyperledger.org/g/healthcare-wg/message/304|calendar invite]] sent to the Healthcare WG mailing list).
+
+<WRAP center round box 75%>
+Join from PC, Mac, Linux, iOS or Android: https://zoom.us/my/hyperledger.community
+
+Or iPhone one-tap :
+    US: +16465588656,,4034983298#  or +16699006833,,4034983298# 
+Or Telephone:
+    Dial(for higher quality, dial a number based on your current location): 
+        US: +1 646 558 8656  or +1 669 900 6833  or +1 855 880 1246 (Toll Free) or +1 877 369 0926 (Toll Free)
+    Meeting ID: 403 498 3298
+    International numbers available: https://zoom.us/u/bAaJoyznp
+</WRAP>
+
+
+There are currently 3 active subgroups. Here are their meeting schedules that you can also find in the above calendar: 
+
+
+  * Hyperledger Healthcare WG: Patient/Member Subgroup #patient-member-subgroup - lead by Marissa Iannarone @9am PST every other Friday
+  * Hyperledger Healthcare WG: Payer Subgroup #payer-subgroup - lead by Raveesh Dewan @12 PST every Tuesday
+  * Hyperledger Healthcare WG - EMR Subgroup #emr-subgroup - lead by Robert Chu - @11 EST every other Tuesday
+
+Relevant [[https://lists.hyperledger.org/g/healthcare-wg/hashtags|Hashtags]] for each subgroup so that you can see the communications subgroups have had outside of chat (see Communication Tools below)
+
+==== Meeting Recordings ====
+
+Current meeting recordings and materials from 2018 and beyond can be found at [[https://drive.google.com/open?id=0B_NJV6eJXAA1cVJ5aHVBVFUySE0]].
+
+=== 2018 General Meeting Archive ===
+
+Friday, November 16, 2018: [[2018 11 16 hcwg|Proposed Agenda]]
+
+Friday, November 2, 2018: Recording unavailable, [[2018 11 02 hcwg|Agenda and Meeting Minutes]]
+
+Friday, October 19, 2018: [[https://drive.google.com/open?id=171SsAPUfoatETstogse7iFhR-xjAelyx|Recording]], [[2018 10 19 hcwg|Agenda and Meeting Minutes]]
+
+Friday, October 5, 2018: [[https://drive.google.com/file/d/12LrHmqlrrig3temo7-qXjks1Um24PlXr/view?usp=sharing|Recording]], [[2018 10 05 hcwg|Agenda and Meeting Minutes]]
+
+Friday, September 21, 2018 [[https://drive.google.com/open?id=111DLLlWX_2P7CDUspeexSjP2PNc2T6uq|Recording]], [[2018 09 21 hcwg|Notes]]
+
+Friday, September 7, 2018 [[https://drive.google.com/drive/folders/1NgwZPnhmKy2HiuVMn_RiaTkDJtQLV0ue|Recording]], [[2018 09 07 hcwg|Notes]]
+
+Friday, August 24, 2018 [[https://drive.google.com/drive/folders/1KDcz66ieDfIdcUyvuc8DeuWRGxK772_Y|Recording]] [[2018 08 24 hcwg notes|Notes]]
+
+Friday, July 27, 2018 [[https://drive.google.com/drive/folders/1CVdENzQRFS5Wii9-hMTQaP8kswMamySf|Recording]] [[np1|Notes]]
+
+Friday, May 5, 2018 [[https://drive.google.com/open?id=1CYMlwp2ekyYDw7n2STboiN42_QDmzA-R|Recording]][[https://drive.google.com/open?id=1CjlVgVIkNDTWzTmlJybpSCj1Jy6lFKeV|Chat]] [[np3|Notes]]
+
+Friday, April 20th 2018 [[https://drive.google.com/open?id=1XQ78hz40Q6RAtUXKx4bfxz7sQsW56qSi|Recording]][[https://drive.google.com/open?id=1XYD4jjDALWTSicoIAW7ht2EvTDM0fhSr|Chat]]
+
+Friday, April 6th 2018 [[https://drive.google.com/open?id=1EvRM3QrJbgUsxyIi8d9wuifkJDCjYuHl|Recording]][[https://drive.google.com/open?id=1F-C6AGdFAfgfbWWLdz8gAEyOWwfY9d5K|Chat]]
+
+Friday, March 26th 2018 [[https://drive.google.com/open?id=181DuuPT1Z95466LxOgk9te2M7b9HaSsi|Recording]][[https://drive.google.com/open?id=189yC7nm2XON18byzFUx3kEUrPrRqibX4|Chat]]
+
+Friday, March 9th 2018 [[https://drive.google.com/open?id=13zY7CAhKHkZZQZhoi1G-RyWibPHIhJkh|Recording]][[https://drive.google.com/open?id=143ZuFlji9QPBrREXnev9yTa-Xz6nKPpz|Chat]]
+
+=== 2017 Archive ===
+
+Tuesday, October 31st No Recording was available[[https://drive.google.com/open?id=1y8d8xHRpPt9zyXheoNCW63vUiHxapuCBbhUw6tV5E_Q|Use Cases Gathered in Nashville]][[https://drive.google.com/open?id=1eGiIEVeCAPZLYscm32zi8rhPTf6d9m7U|Slides]]
+
+Tuesday, September 25th 2016 - 2nd Annual Distributed Health Conference, Nashville, TN[[https://docs.google.com/document/d/1y8d8xHRpPt9zyXheoNCW63vUiHxapuCBbhUw6tV5E_Q/edit?usp=sharing|Notes]]
+
+Tuesday, September 19th 2016[[https://drive.google.com/open?id=0B-YqdXs2ERvoZlFHTEhOWVFaWXM|Recording]][[https://drive.google.com/open?id=0B-YqdXs2ERvoeHhQNmlQWWF0QkU|Slides]]
+
+Tuesday, August 22 2016 [[https://drive.google.com/open?id=0B-YqdXs2ERvoNnF2cnlneUo4bHc|Recording]][[https://drive.google.com/open?id=0B-YqdXs2ERvoTTFYdF8yR3ltdkU|Slides]]
+
+=== Patient Member Subgroup Meetings ===
+
+Friday, November 9, 2018 [[https://drive.google.com/open?id=1TDhAFvnWNhSA-XiGhkyoDwB1ci57hhVq|Recording]] [[2018 11 09 patient hcwg|Notes]]
+
+Friday, October 26, 2018 [[https://drive.google.com/open?id=19oKlpnYi8IPfd7jFQP7BAn1fd3OwM3bP|Recording]] [[2018 10 26 patient hcwg|Notes]]
+
+Friday, October 12, 2018 [[https://drive.google.com/file/d/12_qo_dxwFNq0aiL9KJMBK8jUxTZq_9HF/view?usp=sharing|Recording]] [[2018 10 12 patient hcwg|Notes]]
+
+Friday, September 28, 2018 [[https://drive.google.com/open?id=191yBHUNUGd9cqo-jBfo5EmEoxaciisUm|Recording]] [[2018 09 28 patient hcwg|Notes]]
+
+Friday, September 14, 2018 [[https://drive.google.com/drive/folders/1iirbTPIZhho5OZWsZWpKAKPOraeETmaR|Recording]] [[2018 09 14 patient hcwg|Notes]]
+
+Friday, August 31, 2018 [[https://drive.google.com/drive/folders/1MS8greMJyOtFS2iOkOqKeF23_U8EIMz2|Recording]] [[2018 08 31 patient hcwg|Notes]]
+
+Friday, August 17, 2018 [[https://drive.google.com/open?id=1IF3gg2dQoh_WUSoGJVjRUEKHr_ZpZdQZ|Recording]] [[np17|Notes]]
+
+Friday, August 3, 2018 [[https://drive.google.com/drive/folders/12brweK1OIoAGkwVQrEqAThne9Tj9jq8B|Recording]] [[np2|Notes]]
+
+Friday, July 27, 2018 [[https://drive.google.com/drive/folders/1CVdENzQRFS5Wii9-hMTQaP8kswMamySf|Recording]] [[np1|Notes]]
+
+Friday, July 20, 2018 [[https://drive.google.com/drive/folders/18WRttcPx3pCPJerGbQMKr7GSdaWcgFqe|Recording]] [[np4|Notes]]
+
+Friday, July 6, 2018 [[https://drive.google.com/drive/folders/13W2KF9s2iNtzrG7jVjCtxLaEhnmv4Vbe|Recording]] [[np8|Notes]]
+
+Friday, June 29, 2018 [[https://drive.google.com/drive/folders/132d2z4fZF19FvTr3WWiM5WSzbimqqE6b|Recording]] [[np7|Notes]]
+
+Friday, June 22, 2018 [[https://drive.google.com/drive/folders/12oPNtGCzv4VlkNCx9I95IVWxeLqDbUwV|Recording]] [[np5|Notes]]
+
+Friday, June 8, 2018 [[https://drive.google.com/drive/folders/12lUYDRSzk3pMqKXogpoLd5D_nhAzSC_X|Recording]] [[np6|Notes]]
+
+=== Payor Subgroup Meetings ===
+
+Tuesday, October 16, 2018 [[2018 10 09 payor hcwg|Notes]]
+
+Tuesday, October 2, 2018 [[https://drive.google.com/open?id=199-w-FjnbGB0uuFv9waQJ1VFAZpoX8Yg|Recording]] [[2018 10 02 payor hcwg|Notes]]
+
+Tuesday, September 25, 2018 [[https://drive.google.com/open?id=1-jT_VgYBFTQOw1BcZlgS3L9e1JVUfcPM|Recording]] [[2018 09 25 payor hcwg|Notes]]
+
+Tuesday, September 18, 2018 [[https://drive.google.com/open?id=1P4cnXdCz3agPf1WkpPeCEgX5jou9vHZF|Recording]] [[2018 09 18 payor hcwg|Notes]]
+
+Tuesday, September 11, 2018 [[https://drive.google.com/drive/folders/15kvAsUBGI7dTvYGqLPzJ6l5drqZl83Eg|Recording]]  [[2018 09 11 payor hcwg|Notes]]
+
+Tuesday, September 4, 2018 [[https://drive.google.com/drive/folders/1KmWKMZry2RFGdCunWu7VqP_QQyay8zr5|Recording]] [[2018 09 04 payor hcwg|Notes]]
+
+Tuesday, August 28, 2018 [[https://drive.google.com/drive/folders/17FM1hlQQqw-NDPMm9zuVrQFsVR4wIFIh|Recording]] [[2018 08 28 payor notes|Notes]]
+
+Tuesday, August 21, 2018 [[https://drive.google.com/drive/folders/16HzmVhiVyYBWaWOLvFgNxjRfYBNqYryT|Recording]] [[2018 08 21 payer notes|Notes]]
+
+Tuesday, August 14, 2018 [[https://drive.google.com/drive/folders/1HSfhEl6ZUEdISz159GlABfRrm-IFi1nH|Recording]] [[np16|Notes]]
+
+Tuesday, August 7, 2018 [[https://drive.google.com/drive/folders/13CTL1JDtZvDVkbdcOH-IJr1i8B4_BFJ3|Recording]] [[np9|Notes]]
+
+Tuesday, July 31, 2018 [[https://drive.google.com/drive/folders/10MysR5fEto5JCrOkJuLCJijEYcOhidcT|Recording]] [[np10|Notes]]
+
+Tuesday, July 17, 2018 [[https://drive.google.com/drive/folders/18stwipFBwbk_NlhhKZOkgg3i3klngQB2|Recording]] [[np11|Notes]]
+
+Tuesday, July 10, 2018 [[https://drive.google.com/drive/folders/1Dc1jCWBfGfBLoUwpkflTCmrypzNSaX0z|Recording]] [[np12|Notes]]
+
+Tuesday, July 3, 2018 [[https://drive.google.com/drive/folders/1CEdW7GcYyllu9MxMy0IOs1SpifV1nA2I|Recording]] [[np13|Notes]]
+
+Tuesday, June 26, 2018 [[https://drive.google.com/drive/folders/12otbS6ch3Oq4_nqMptyvAZNlFdNI1rO8|Recording]] [[np14|Notes]]
+
+Tuesday, June 12 2018 [[https://drive.google.com/drive/folders/1111WsxJpdQnP_mi5cSAmtAYSy8xRM7W0|Recording]] [[np15|Notes]]
+
+===== Charter and FAQ =====
+
+The [[https://www.hyperledger.org/wp-content/uploads/2016/10/HealthcareWGCharter_public.pdf|Charter]] defines the scope and ways that work together.  Some brief [[https://www.hyperledger.org/wp-content/uploads/2016/10/HyperledgerHealthcareWGFAQ-3.pdf|FAQs help answer questions]] as the WG gets started.
+
+===== Communication Tools =====
+  * [[https://lists.hyperledger.org/g/healthcare-wg | healthcare-wg mailing list]]
+  * [[https://chat.hyperledger.org/channel/healthcare-wg | #healthcare-wg chat channel]]
+
+
+===== Preliminary Survey =====
+
+The WG ran a [[https://drive.google.com/file/d/0B6mdXdapkyrHRF96NDlsX19Wc0k/view|preliminary survey]] showing areas that participants are interested in working with blockchains to improve healthcare operations.
+
+===== Use Case Inventory =====
+
+There are several healthcare use cases that are in the [[https://wiki.hyperledger.org/groups/requirements/use-case-inventory|hyperledger use case inventory.]]
+
+They are copied here as a convenience (and should be removed) because this Wiki does not seem to implement anchors.
+
+^ Category              ^ Use Case                                                                                                                 ^ Contributor(s)              ^ Status          ^ Status As-of Date  ^ Notes                                                                                                                         ^ Alternate Categorization(s)                                |   |
+| Healthcare / Medical  | [[requirements:use-cases:use-case-clinical-trial-results|Clinical Trial Results]]                                        | Vikram Dhillon              | In Development  | 2016-11-14         | Missing sections 2 and 3.                                                                                                     |                                                            |   |
+| Healthcare / Medical  | [[requirements:use-cases:use-case-counterfeit-drug-prevention-and-detection|Counterfeit drug prevention and detection]]  | Primrose Mbanefo            | In Development  |  2016-11-14        | Missing requirements.                                                                                                         | Supply Chain / Logistics, Government / Legal / Regulatory  |   |
+| Healthcare / Medical  | [[requirements:use-cases:use-case-electronic-health-records|Electronic Health Records]]                                  | Patrick Holmes              | Placeholder     | 2016-11-14         | No content - "TBD."                                                                                                           |                                                            |   |
+| Healthcare / Medical  | [[requirements:use-cases:use-case-medical-insurance enrollment|Medical Insurance Enrollment]]                            | Adrian Blakey               | In development  | 2018-04-29         | Basic description entered - more work needed ...                                                                              | Identity Management (members)                              |   |
+| Healthcare / Medical  | [[requirements:use-cases:use-case-medical-insurance claims|Medical Insurance Claims]]                                    | Adrian Blakey               | Placeholder     | 2017-09-15         | Dependent on provider and member use cases.                                                                                   |                                                            |   |
+| Healthcare / Medical  | [[requirements:use-cases:use-case-provider-credentialing|Provider Credentialing]]                                        | Adrian Blakey               | In development  | 2018-03-12         | Section 1 mostly complete - needs review.                                                                                     | Identity Management (providers)                            |   |
+| Healthcare / Medical  | [[requirements:use-cases:use-case-medical-insurance-brokerage|Medical Insurance Brokerage]]                              | Adrian Blakey               | Placeholder     | 2017-09-15         | Research needed                                                                                                               |                                                            |   |
+| Healthcare / Medical  | [[requirements:use-cases:use-case-medical-insurance-regulatory-reporting|Medical Insurance Regulatory Reporting]]        | Adrian Blakey               | Placeholder     | 2017-09-15         | This cuts across several use cases such as provider directory, and it might be discovered that it's not a specific use case.  |                                                            |   |
+| Healthcare / Medical  | [[requirements:use-cases:use-case-find-a-provider|Find a Provider Directory]]                                            | Adrian Blakey Cathy Farmer  | In development  | 2018-03-06         | pre-existing condition exclusion period                                                                                       | Referrals                                                  |   |
+| Healthcare / Medical  | [[requirements:use-cases:use-case-referral-confirmation|Referral Confirmation]]                                          | Cathy Farmer Adrian Blakey  | In development  | 2018-03-06         | This is a part of a broader use case for "Referrals"                                                                          | Referrals                                                  |   |
+| Healthcare/ Medical   | Division of Financial Responsibility (DOFR)                                                                              | Cathy Farmer                | In development  | 2018-05-08         |                                                                                                                               | Financial Responsibilty                                    |   |
+| Healthcare/ Medical   | [[Connecting Health Data Across Silos for Diagnostics and Treatment]]                                                    | [[Patient Subgroup]]        | In development  | 2018-07-17         |                                                                                                                               | Research                                                   |   |
+| Healthcare/ Medical   | [[Donor Milk Transparency and Traceability]]                                                                             | [[Patient Subgroup]]        | In development  | 2018-07-21         | We're in initial conversations with Anton at Anton at Rapid Health to discuss this use case and POC                           | Supply Chain                                               |   |
+
+===== Journals =====
+
+[[https://blockchainhealthcaretoday.com/index.php/journal|Blockchain in Healthcare Today]]
+
+
+===== Articles =====
+
+Computerworld, Aug 6, 2018 [[https://www.computerworld.com/article/3294996/blockchain/by-2020-1-in-5-healthcare-orgs-will-adopt-blockchain-heres-why.html|By 2020, 1 in 5 healthcare orgs will adopt blockchain]]
+
+Travis May, CEO of Datavant, July 31, 2018 [[https://medium.com/@travismay/the-fragmentation-of-health-data-8fa708109e13|The Fragmentation of Health Data]] A survey of the health data ecosystem 
+
+World Economic Forum whitepaper, April 2018 [[http://www3.weforum.org/docs/48423_Whether_Blockchain_WP.pdf|Blockchain Beyond the Hype, a Practical Framework for Business Leaders]] Decision tree on page 6. 
+
+World Economic Forum, April 23, 2018 [[https://www.weforum.org/agenda/2018/04/questions-blockchain-toolkit-right-for-business|These 11 questions will help you decide if blockchain is right for your business]]
+
+Blockchain at Berkley, Feb 5, 2018 [[https://blockchainatberkeley.blog/building-it-better-a-simple-guide-to-blockchain-use-cases-de494a8f5b60|Building it Better: A simple guide to blockchain use cases]]
+
+International Association for Cryptologic Research, 2017 [[https://eprint.iacr.org/2017/375.pdf|Do you need a Blockchain?]] Flowchart on page 3. 
+
+JAMIA, September 8, 2017, [[https://academic.oup.com/jamia/article/24/6/1211/4108087#|Blockchain distributed ledger technologies for biomedical and healthcare applications]]
+
+MIT, May 2017, [[http://ide.mit.edu/multimedia/video/some-simple-economics-blockchain|Video: Some Simple Economics of the Blockchain]] Christian Catalini
+
+MIT, November 2016 [[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2874598|Paper: Some Simple Economics of the Blockchain]] Christian Catalini and Joshua Gans 
+
+NBC News, September 4, 2014 [[https://www.nbcnews.com/news/latino/brazils-maternal-milk-banks-global-model-n195406|Brazil's Maternal Milk Banks a Global Model]] Jenny Barchfield, Associated Press
+
+
+===== E Books =====
+Rand, 2018 [[https://www.rand.org/content/dam/rand/pubs/research_reports/RR2200/RR2275/RAND_RR2275.pdf|Defining and Evaluating Patient-Empowered Approaches to Improving Record Matching]] Robert S. Rudin, Richard Hillestad, M. Susan Ridgely, Nabeel Shariq Qureshi, John S. Davis II, Shira H. Fischer
+
+--------
+
+[[healthcare-wg-wikispace-redesign|Healthcare WG wikispace redesign]]

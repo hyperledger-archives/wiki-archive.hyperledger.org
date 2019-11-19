@@ -1,0 +1,17 @@
+====11月18日超级账本面对面上海站活动回顾 Hyperledger Shanghai Meetup Review====
+
+2017年11月18日，由Linux基金会Hyperledger中国工作组上海工作小组主办，复旦大学计算机学院“区块链技术联合创新中心”赞助的超级账本上海面对面（Hyperledger Shanghai Meetup）活动于复旦大学张江校区成功举办。
+
+本次活动主要围绕超级账本（Hyperledger）社区的发展近况及其子项目企业级应用模式展开了详实细致的主题讲座。参与此次活动的人员主要来自互联网科技公司、金融贸易公司以及各大高校和研究机构，包括海内外各界人士共计近150人。
+
+活动开始，复旦大学计算机学院博士生导师吴杰教授首先代表承办方致开幕词。随后，来自IBM中国研究院的黄胜博士进行了主题为“真实业务场景中的企业级区块链技术和解决方案”的精彩报告，就企业级区块链应用的设计原则、架构和关键技术及案例进行了深入细致的分析。接着，来自IBM中国研究院的区块链专家Lance Feagan深入浅出地分析了Hyperledger Fabric 1.0架构分析及设计思想，着重介绍了Fabric 1.0系统的交易流程、扩展性和数据库特性等方面。最后，吴杰教授从产学研结合的角度就“基于区块链的数据交易市场”这一主题进行了深入地探讨，介绍了复旦大学InSTech实验室与上海数据交易中心合作的基于Hyperledger Fabric 1.0的区块链数据交易系统实践。
+
+本次活动报告内容丰富，取得了圆满的成功。在场听众频繁与台上主讲人互动，活动反馈微信群人数达两百余人，群内成员踊跃提问，各抒己见，Hyperledger中国工作组表示会收集反馈群中的提问，定期整理FAQ分享到工作组wiki主页，帮助成员们更好更深入地理解Hyperledger及其子项目。类似的分享活动将会持续以月度为周期开展，工作组热烈欢迎各大企业和研究机构的成员与会分享！
+
+November 18th, 2017, Hyperleger Shanghai Meetup, held by the Hyperledger China Working Group Shanghai Sub-group of Linux Foundation, sponsored by the Joint Technology Center for Blockchain Technology of the School of Computer Science and Technology at Fudan University, was successfully held in Zhangjiang Campus of Fudan University.
+
+The event presented a detailed lecture, focusing on the development of the Hyperledger community and the application of its sub-projects in enterprise-level. The participants mainly came from Internet technology companies, financial trading companies and major universities and research institutes, including a total of nearly 150 people people from all walks of life both at home and abroad.
+
+On the begining of the activity, Prof. Wu Jie, a PhD. supervisor at Fudan University, started his speech on behalf of the organizers. Subsequently, Dr. Huang Sheng from IBM China Research Laboratory conducted a brilliant report titled "Enterprise-class Blockchain Technologies and Solutions in Real Business Scenarios", and introduced the design principles, architecture and key technologies of enterprise-level blockchain applications including the case conducted in-depth and detailed analysis. Next, Blockchain expert Lance Feagan from IBM China Research Laboratory analyzed the Hyperledger Fabric 1.0 architecture analysis and design ideas, highlighting the transaction flow, scalability and database features of the Fabric 1.0 system. Finally, Prof. Wu Jie explored the theme of "Block-Based Data Trading Market" from the perspective of industry-university-academia integration, and introduced the Blockchain-based data trading system practice between InSTech Lab of Fudan University and Shanghai Data Exchange Corp. using Hyperledger Fabric 1.0.
+
+This activity report is rich in content and has achieved complete success. The audience present frequently interacted with the audience on the stage. The WeChat group for feedback reaches more than 200, and members of the group enthusiastically expressed their opinions. The Hyperledger China Working Group said they would collect questions from the feedback group, regularly organize FAQs on the homepage of the Wiki site in order to help members gain better insight into Hyperledger and its subprojects. Similar sharing activities will continue to be carried out monthly. The working group warmly welcomes members of major enterprises and research institutions to share their cases and practices!

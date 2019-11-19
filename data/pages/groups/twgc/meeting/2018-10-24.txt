@@ -1,0 +1,87 @@
+===== TWG China Meeting =====
+
+==== Basic Info ====
+10AM ~ 11AM, GMT+8 ([[/groups/twgc/meetings|Bi-weekly hosted]])
+
+  * Option #1: Use computer to access [[ https://zoom.us/my/hyperledger.community | zoom]] (Recommend using microphone and headset)
+  * Option #2: Dial in using the [[https://zoom.us/zoomconference?m=mTUdEBuT33gjEcR54Rqsi1KmFyNgSLYP|phone number]]. E.g.,	400 669 9381 or 010-87833177 (Premium Toll) for China area, code is 248676399.
+
+  * [[https://docs.google.com/presentation/d/1punUCr0mSZT9gMKCs3vCYqbWbjeS_RG-18ZrhkfwoYc/edit?ts=5a14dfdf | Antitrust Policy Notice]]
+  * [[/community/calendar-public-meetings | community meeting calendar ]]
+
+==== Attendee ====
+
+**Feel free to add ur name here to attend the meeting.**
+
+Attendees: 19
+
+  * Baohua Yang
+  * Jay Guo
+  * Zhenhua Zhao
+  * Scott Long
+  * Dixing Xu
+  * Zhengping Xu
+  * Sheng Huang
+  * Billy Chen
+
+
+
+==== Agenda ====
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - [[https://events.linuxfoundation.org/events/hyperledger-global-forum-2018/|Hyperledger Global Forum, December 12-15 (Basel, Switzerland)]]
+  - [[groups/twgc/team_di | Team development and Innovation]] (Zhangjiong Xuan, Yaoguo Jiang, Haitao Yue, Dijun Liu)
+    - [[groups/twgc/faq|Technical FAQ update]].
+    - [[https://chat.hyperledger.org/channel/fabric-crypto| fabric crypto discussions]]
+    - blockly chaincode work by Dijun Liu.
+    - 'Code Contribution' guideline in Hyperledger Wechat Official
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Lidong Guo, Jiang Lu, Xueting Zhou)
+    - [[groups/twgc/team_ie/guideline| i18n work guideline]]
+    - Progress of using blockchain to record contributions, e.g., translation. 
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yanqing Wang, Jian Chen)
+    - Call for member companies's blockchain applications and cases:[[https://wiki.hyperledger.org/groups/twgc/team_cs| China members and cases ]]
+    - Call for HL member news, will select to publish through official wechat channel. Feel free to contact TWGC(twg-china@lists.hyperledger.org).
+    - Community City Wechat groups(contact the admin to join): Beijing (a33443148), Shanghai (yudianbabasheng), Hangzhou (linalee1005), Dalian (cn8888898), Shenzhen (RichZhao), Wuhan (grapebaba), Hongkong(hwfighter1)
+    - Scott sync on the collaboration progress with universities.
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Jiannan Guo, Sheng Huang, Zhenhua Zhao, Kai Chen)
+    - [[groups/twgc/events/guideline| Meetup guideline]]
+    - **[[groups/twgc/team_eo| Meetups in Oct]].** 
+      - Beijing: 10-28
+      - Shanghai:
+      - Guangzhou: 10-27
+      - Nanjing: Oct 20
+    - Physical poster(易拉宝) progress
+  - Other issues (Feel free to add here)
+      - Discussion of the possibility of organizing a Hyperledger-themed (or blockchain-related) hackathon on the campus of Xi'an Jiaotong-Liverpool University (Dixing Xu)
+
+
+==== Minutes ====
+  - [[https://lists.hyperledger.org/g/tsc | TSC meetings sync]]
+    - [[https://events.linuxfoundation.org/events/hyperledger-global-forum-2018/|Hyperledger Global Forum, December 12-15 (Basel, Switzerland)]]
+    - There are continuous quarterly report
+    - Tomorrow jay will present the [[https://wiki.hyperledger.org/groups/tsc/wg-updates/technical-wg-china-2018-oct | TWGC quarterly report]]
+  - [[groups/twgc/team_di | Team development and Innovation]] (Zhangjiong Xuan, Yaoguo Jiang, Haitao Yue, Dijun Liu)
+    - [[groups/twgc/faq|Technical FAQ update]].
+    - [[https://chat.hyperledger.org/channel/fabric-crypto| fabric crypto discussions]]
+    - blockly chaincode work by Dijun Liu.
+    - 'Code Contribution' guideline in Hyperledger Wechat Official will be published (scott)
+  - [[groups/twgc/team_ie| Team i18n and Education ]] (Lidong Guo, Jiang Lu, Xueting Zhou)
+    - [[groups/twgc/team_ie/guideline| i18n work guideline]]
+    - Progress of using blockchain to record contributions (twgc testnet), e.g., translation. Have 3 nodes now.
+  - [[groups/twgc/team_cs| Team Collaboration and Scenarios ]] (Yanqing Wang, Jian Chen)
+    - Call for member companies's blockchain applications and cases:[[https://wiki.hyperledger.org/groups/twgc/team_cs| China members and cases ]]
+    - Call for HL member news, will select to publish through official wechat channel. Feel free to contact TWGC(twg-china@lists.hyperledger.org).
+    - Community City Wechat groups(contact the admin to join): Beijing (a33443148), Shanghai (yudianbabasheng), Hangzhou (linalee1005), Dalian (cn8888898), Shenzhen (RichZhao), Wuhan (grapebaba), Hongkong(hwfighter1)
+    - Scott sync on the collaboration progress with universities.
+  - [[groups/twgc/team_eo| Team Event Organization ]] (Jiannan Guo, Sheng Huang, Zhenhua Zhao, Kai Chen)
+    - [[groups/twgc/events/guideline| Meetup guideline]]
+    - **[[groups/twgc/team_eo| Meetups in Oct]].** 
+      - Beijing: 10-28
+      - Shanghai:
+      - Guangzhou: 10-27
+      - Nanjing: Oct 20
+    - Need more terms of meetups, need investigation of interests
+    - No live video support now, zhenhua will investigate this
+    - Physical poster(易拉宝) can be supported by scott
+  - Other issues (Feel free to add here)
+      - Discussion of the possibility of organizing a Hyperledger-themed (or blockchain-related) hackathon on the campus of Xi'an Jiaotong-Liverpool University (Dixing Xu)
+        - Location: suzhou, call for sponsors now

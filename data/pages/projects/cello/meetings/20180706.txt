@@ -1,0 +1,42 @@
+==== 2018-07-06 ==== 
+Meeting will be held at [[ https://zoom.us/my/hyperledger.community | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/cello|rocketchat]] (for text chat) at:
+  * 08:30AM   (UTC-4) [UTC -4 is Eastern Daylight Time EDT]
+  * 06:00PM   (UTC+0530)
+  * 08:30PM   (UTC+8)
+
+  * [[ https://jira.hyperledger.org/projects/CE/issues/CE-188?filter=allopenissues | Ongoing Jira task ]] 
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:cello+status:open | Open Patchset for review ]] 
+  * [[ https://wiki.hyperledger.org/projects/cello | Project Wiki Page ]] 
+
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  - Amsterdam Hackfest Recap (tong)
+  - Dynamic crypto config generation [[https://jira.hyperledger.org/browse/CE-406 | jira ]] (Haitao, Jiang Lu)
+  - Kubernetes agent design (Luke Chen)
+  - [[https://wiki.hyperledger.org/projects/cello/internship-2018|Internship progress]] (shuo)
+
+
+=== Attendee ===
+**Please put your name before the meeting.**
+
+  * Baohua Yang
+  * Haitao Yue
+  * Tong Li
+  * Jiang Lu
+  * Luke
+  * Shuo Wang
+  * Amit Brenda
+  * qsmeng
+
+=== Minutes ===
+
+  - Amsterdam Hackfest Recap (tong)
+    - 30+ people attend the session, will collecting lots of feedbacks
+  - Dynamic crypto config generation [[https://jira.hyperledger.org/browse/CE-406 | jira ]] (Haitao, Jiang Lu)
+    - Hightall will help draft a design spec
+  - Kubernetes agent design (Luke Chen)
+    - Most code is done, will have a demo next week
+  - [[https://wiki.hyperledger.org/projects/cello/internship-2018|Internship progress]] (shuo)
+    - Shuo will start to support fabric 1.2 and fabric-ca after the 1.1 feature

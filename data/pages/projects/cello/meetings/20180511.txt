@@ -1,0 +1,46 @@
+==== 2018-05-11 ==== 
+
+Meeting will be held at [[ https://zoom.us/my/hyperledger.community | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/cello|rocketchat]] (for text chat) at:
+
+  * 08:30AM   (UTC-4)
+  * 06:00PM   (UTC+0530)
+  * 08:30PM   (UTC+8)
+
+  * [[https://jira.hyperledger.org/projects/CE/issues/CE-188?filter=allopenissues | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:cello+status:open | Open Patchset for review]]
+  * [[https://wiki.hyperledger.org/projects/cello | Project Wiki Page]]
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  - [[https://gerrit.hyperledger.org/r/21613| [CE-269] NFS server support on master node and setup on worker node]] got merged.(haitao)
+  - [[https://gerrit.hyperledger.org/r/21661|[CE-358] Fix static port mapping of explorer]] call for review. (baohua)
+  - Prepare [[ https://wiki.hyperledger.org/groups/tsc/project-updates/cello-2018-may | quarterly project report ]], this time is haitao's turn
+  - Rewrite user dashboard back service with eggjs web framework. (haitao)
+  - Documentation and tutorial videos (jiang lu)
+  - Kubernetes agent operator dashboard integrate. (Luke)
+  - [[https://docs.google.com/document/d/1--JfCPSzE-K6mhObYpGmQHuwYcNA964ohjlIJaKY3K4|Different organizations running their peers at different data centres]] call for comments.
+  - CI build job, adding some docker container build (Tong)?
+  - Other issues
+    - Feel free to add here.
+
+=== Attendee ===
+**Please put your name before the meeting.**
+
+  * Haitao Yue
+  * Baohua Yang
+  * Tong Li
+  * Jiang Lu
+  * Luke Chen
+
+
+
+=== Minutes ===
+  - [[https://gerrit.hyperledger.org/r/21613| [CE-269] NFS server support on master node and setup on worker node]] got merged, and need more test.
+  - [[https://gerrit.hyperledger.org/r/21661|[CE-358] Fix static port mapping of explorer]] call for review. (baohua)
+  - Prepare report for cello. (haitao)
+  - Start rewrite user dashboard with eggjs, and ask roadmap with maintainer of eggjs. (haitao)
+  - Documentation and tutorial videos (jiang lu)
+  - doc for minikube is ok, and ansible doc need write, haitao will support ui for kubernetes integrate in operator dashboard.
+  - [[https://docs.google.com/document/d/1--JfCPSzE-K6mhObYpGmQHuwYcNA964ohjlIJaKY3K4|Different organizations running their peers at different data centres]] call for comments.
+  - Figure out the root cause of ci build cost long time. (Tong)

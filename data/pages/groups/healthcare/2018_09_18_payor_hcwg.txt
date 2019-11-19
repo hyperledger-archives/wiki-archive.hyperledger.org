@@ -1,0 +1,16 @@
+Hyperledger Project\\
+Healthcare Working Group (HCWG) Payor Subgroup Meeting\\
+September 18, 2018 \\
+
+Resources:\\
+Chat:  ​https://chat.hyperledger.org/​channel/​healthcare-wg  ​(you can use your LFID to login)\\
+Github:  ​https://github.com/​hyperledger \\
+Wiki:  https://wiki.hyperledger.org \\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org \\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy 
+
+Tony Little of Optum360 (United HealthGroup) presented the use case he has been working on in a consortium of health insurance companies on improving provider data accuracy on a  blockchain that many insurance companies can write to and access. A collaborative, permissioned blockchain. Problem: Payors collectively spend $2.1 Billion per year updating provider data and it still is only 65=75% accurate. The envisioned solution is a collaborative crowd sourced directory of provider data with incentives to reward crowdsourcing activities. 

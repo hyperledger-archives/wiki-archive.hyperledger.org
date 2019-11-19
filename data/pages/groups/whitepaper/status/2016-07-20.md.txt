@@ -1,0 +1,6 @@
+# Whitepaper WG Status 2016 Jul 20
+* Attendees: Nic, Mic, Ram, Hart
+* Not enough members for a quorum so activity focused on "suggestions" and future plans
+* Reviewed new Glossary suggestion and future updates
+* Reviewed Nic's considerable grammatical suggestions (all agreed looked good)
+* Next steps to are to review doc for identifying new and remove terms from the glossary

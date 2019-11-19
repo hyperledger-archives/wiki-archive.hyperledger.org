@@ -1,0 +1,34 @@
+====== Hyperledger Working Group Update ======
+
+===== Working Group =====
+Technical Working Group in China (TWGC)
+
+===== Working Group Health =====
+
+The overall status is healthy. We now focus on 4 areas of work: Development and Innovation, i18n and Education, Collaborations and Scenarios, Events Organization. All work goes well as planed. New volunteers keep show up. We now have followed a regular monthly meetup schedule, i.e., having technical meetup in popular cities every month usually.
+
+
+===== Issues =====
+
+1. One governing person (Charles Cai) has retired due to personal issues, hence we are seeking model to replenish (may need to define the process in the group charter first).
+
+2. Planed to enhance the collaborations with universities. Need to design some badge or other incentive mechanism for students.
+
+3. The i18n sub team has finished some documentation translation work. Currently, have to use 3rd party repo to host the documentation: [[https://github.com/HyperledgerCN/fabric-docs-i18n| Fabric 1.1 documentation translation]].
+
+
+
+===== Overall Activity in the Past Quarter =====
+
+[[/groups/twgc/meetings | Regular bi-weekly meetings]] happened as planed, attendees are 20+ persons on average for each meeting. Active discussions happened on meetings, rocketchat, maillist and wechat group. And [[https://wiki.hyperledger.org/groups/twgc/team_eo|monthly meetups]] are organized in Beijing, Shanghai, Hangzhou. Other cities (e.g., Shenzhen, Wuhan, Chengdu, Dalian) are also having meetups according to the local activities. 
+
+
+===== Planned Work Products =====
+Technical events, documentations, code contributions and other community activities to build up a strong eco-system.
+
+===== Participant Diversity =====
+The diversity is good. Volunteers are from numbers of companies from big ones (e.g., Baidu, IBM) to small ones (e.g.,banquanjia, ziggurat), and from different geographic areas. We now have volunteer groups in numbers of major cities in China, including Beijing, Shanghai, Shenzhen, Hangzhou, Wuhan, Dalian, Hongkong. Some volunteers retired from the group, and some new ones joined. Overall, the group members increased.
+
+
+===== Additional Information =====
+N/A

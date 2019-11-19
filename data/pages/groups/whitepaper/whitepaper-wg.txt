@@ -1,0 +1,54 @@
+====== Whitepaper Working Group ======
+
+The Whitepaper WG meets weekly on on Wednesday's from 10:00-11:00 AM PT.
+
+<WRAP center round box 75%>
+Join from PC, Mac, Linux, iOS or Android: https://zoom.us/my/hyperledger.community
+
+Or iPhone one-tap :
+    US: +16465588656,,4034983298#  or +16699006833,,4034983298# 
+Or Telephone:
+    Dial(for higher quality, dial a number based on your current location): 
+        US: +1 646 558 8656  or +1 669 900 6833  or +1 855 880 1246 (Toll Free) or +1 877 369 0926 (Toll Free)
+    Meeting ID: 403 498 3298
+    International numbers available: https://zoom.us/u/bAaJoyznp
+</WRAP>
+
+[[https://docs.google.com/document/d/1qgz3sMKgcJZGDLpnRPKtmOp84DT-rRryCmaECC-eo3w/edit | Whitepaper Rough Drafts ]]
+----
+
+Whitepaper [[https://docs.google.com/document/d/1Z4M_qwILLRehPbVRUsJ3OF8Iir-gqS-ZYe7W-LE9gnE/pub | Draft v2.0.0]] (published August 3, 2016)
+
+Please provide feedback to the Whitepaper working group through our [[https://docs.google.com/forms/d/1giX0cCgW8xQxOHDNoDsCt4-2cI_rjJL00QQ2dJOvEYg/viewform | Feedback Form]]
+
+
+Feedback submissions are available for view [[https://docs.google.com/spreadsheets/d/1xPGX2iH7AZ8RWasrBAGUMdSe6Bs8iNq2QirpPqkW1tg/edit#gid=802998142|here]]
+
+----
+
+
+  * [[Whitepaper-WG-Members | Members]]
+
+==== Status updates ====
+  * [[groups:whitepaper:status:2016-10-26 | 2016-Oct-26]] 
+  * [[groups:whitepaper:status:2016-10-05 | 2016-Oct-05]]  
+  * [[groups:whitepaper:status:2016-09-07.md | 2016-Sep-07]]  
+  * [[groups:whitepaper:status:2016-08-31.md | 2016-Aug-31]]  
+  * [[groups:whitepaper:status:2016-08-10.md | 2016-Aug-10]]  
+  * [[groups:whitepaper:status:2016-08-03.md | 2016-Aug-03]]  
+  * [[groups:whitepaper:status:2016-07-20.md | 2016-Jul-20]]  
+  * [[groups:whitepaper:status:2016-07-06.md | 2016-Jul-06]]
+  * [[groups:whitepaper:status:2016-06-22.md | 2016-Jun-22]]
+  * [[groups:whitepaper:status:2016-06-15.md | 2016-Jun-15]]
+  * [[groups:whitepaper:status:2016-06-08.md | 2016-Jun-08]]
+  * [[groups:whitepaper:status:2016-06-01.md | 2016-Jun-01]]
+  * [[groups:whitepaper:status:2016-05-25.md | 2016-May-25]]
+  * [[groups:whitepaper:status:2016-05-18.md | 2016-May-18]]
+  * [[groups:whitepaper:status:2016-05-11.md | 2016-May-11]]
+  * [[groups:whitepaper:status:2016-04-27.md | 2016-Apr-27]]
+  * [[groups:whitepaper:status:2016-04-20.md | 2016-Apr-20]]
+  * [[groups:whitepaper:status:2016-04-13.md | 2016-Apr-13]]
+  * [[groups:whitepaper:status:2016-04-07.md | 2016-Apr-06]]
+  * [[groups:whitepaper:status:2016-03-25.md | 2016-Mar-25]]
+
+

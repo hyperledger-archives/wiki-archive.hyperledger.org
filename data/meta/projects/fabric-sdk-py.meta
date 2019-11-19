@@ -1,0 +1,29 @@
+a:2:{s:7:"current";a:8:{s:4:"date";a:2:{s:7:"created";i:1543131953;s:8:"modified";i:1542600435;}s:4:"user";s:0:"";s:7:"creator";s:0:"";s:5:"title";s:13:"Fabric SDK Py";s:11:"description";a:2:{s:15:"tableofcontents";a:16:{i:0;a:4:{s:3:"hid";s:13:"fabric_sdk_py";s:5:"title";s:13:"Fabric SDK Py";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:6:"status";s:5:"title";s:6:"Status";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:2;a:4:{s:3:"hid";s:11:"description";s:5:"title";s:11:"Description";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:3;a:4:{s:3:"hid";s:19:"key_characteristics";s:5:"title";s:19:"Key Characteristics";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:4;a:4:{s:3:"hid";s:13:"documentation";s:5:"title";s:13:"Documentation";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:5;a:4:{s:3:"hid";s:18:"project_management";s:5:"title";s:18:"Project Management";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:6;a:4:{s:3:"hid";s:10:"repository";s:5:"title";s:10:"Repository";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:7;a:4:{s:3:"hid";s:13:"communication";s:5:"title";s:13:"Communication";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:8;a:4:{s:3:"hid";s:12:"mailing_list";s:5:"title";s:12:"Mailing List";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:9;a:4:{s:3:"hid";s:10:"rocketchat";s:5:"title";s:11:"Rocket.Chat";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:10;a:4:{s:3:"hid";s:29:"slack_archives_see_rocketchat";s:5:"title";s:33:"Slack (archives, see Rocket.Chat)";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:11;a:4:{s:3:"hid";s:7:"meeting";s:5:"title";s:7:"Meeting";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:12;a:4:{s:3:"hid";s:13:"related_pages";s:5:"title";s:13:"Related Pages";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:13;a:4:{s:3:"hid";s:12:"contributors";s:5:"title";s:12:"Contributors";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:14;a:4:{s:3:"hid";s:9:"adoptions";s:5:"title";s:9:"Adoptions";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:15;a:4:{s:3:"hid";s:7:"history";s:5:"title";s:7:"History";s:4:"type";s:2:"ul";s:5:"level";i:2;}}s:8:"abstract";s:380:"Fabric SDK Py
+
+Status
+
+This project is  Active.
+
+Description
+
+Python SDK for  Hyperledger Fabric.
+
+Key Characteristics
+
+	*  Integrated with Fabric, written in Python.
+
+Documentation
+
+	*   Main doc 
+
+Project Management
+
+	*   Jira Tasks in Processing 
+
+Repository
+
+	*   Gerrit  - Main repository.
+		*   Patchsets to Review 
+		*   All Patchsets 
+
+	*   Github  - Read-only repository.";}s:8:"relation";a:2:{s:10:"references";a:3:{s:27:"community:project-lifecycle";b:1;s:15:"projects:fabric";b:1;s:31:"projects:fabric-sdk-py:meetings";b:1;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}s:11:"last_change";a:7:{s:4:"date";i:1542600435;s:2:"ip";s:11:"47.52.22.90";s:4:"type";s:1:"E";s:2:"id";s:22:"projects:fabric-sdk-py";s:4:"user";s:9:"DexHunter";s:3:"sum";s:8:"[Table] ";s:5:"extra";s:0:"";}}s:10:"persistent";a:4:{s:4:"date";a:1:{s:7:"created";i:1543131953;}s:4:"user";s:0:"";s:7:"creator";s:0:"";s:11:"last_change";a:7:{s:4:"date";i:1542600435;s:2:"ip";s:11:"47.52.22.90";s:4:"type";s:1:"E";s:2:"id";s:22:"projects:fabric-sdk-py";s:4:"user";s:9:"DexHunter";s:3:"sum";s:8:"[Table] ";s:5:"extra";s:0:"";}}}

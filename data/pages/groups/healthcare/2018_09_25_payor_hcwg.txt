@@ -1,0 +1,55 @@
+Hyperledger Project\\
+Healthcare Working Group (HCWG) Payor Subgroup Meeting\\
+September 25, 2018 \\
+
+Resources:\\
+Chat:  ​https://chat.hyperledger.org/​channel/​healthcare-wg  ​(you can use your LFID to login)\\
+Github:  ​https://github.com/​hyperledger \\
+Wiki:  https://wiki.hyperledger.org \\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org \\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy 
+
+Richard Cole - Value Based Care\\
+Data warehouse architect - over 400 providers in every specialty - work with local hospitals\\
+SME value based care\\
+
+8:00 What is value based care?\\
+An incentive program created by CMS - affordable care act\\
+Better care for populations at lower cost\\
+
+
+8:40 Clinical measures as one element of the “Triple Aim”\\
+Reward value over volume - Outcome based measures\\
+Insurers are members \\
+
+10:00 How orgs implement VBC?\\
+EHR systems\\
+Patient centered certifications\\
+Care optimization teams\\
+Quality scorecards - provider and payor\\
+Provider salary based on quality based care\\
+
+12:30 CMS/QPP and MSSP/ACOs\\
+Performance is heavily weighted by quality\\
+Incentive to make sure they do well on these measures, payments adjusted\\
+
+14:00 Insurers role via contracts with Health Care Organizations\\
+HEDIS specs and benchmarks\\
+Feedback mechanism to let them know how well they are doing\\
+
+17:00 PROBLEM: Insurer member to EHR Patient matching routines\\
+No standard format\\
+Duplicate records\\
+
+19:45 Blockchain Use Case Opportunities\\
+Social security numbers are a big problem\\
+Universal patient identifier\\
+When patients change insurance companies - 360 view of patient health\\
+
+21:30 Questions and discussion\\
+
+

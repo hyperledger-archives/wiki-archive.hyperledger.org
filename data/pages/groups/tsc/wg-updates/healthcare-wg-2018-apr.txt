@@ -1,0 +1,24 @@
+====== Hyperledger Working Group Update ======
+
+===== Working Group =====
+Healthcare Working Group
+
+===== Working Group Health =====
+The Healthcare working group has spent the beginning of this year re-forming after leadership changes at the end of 2017. We have conducted an updated survey of the group's participant, and their opinions on direction. We are presently turning the inputs into a plan to create sub-groups as well as cross workgroup collaboration in areas where that makes sense. We are still storming and norming, but expect to be launching projects and code.
+
+===== Issues =====
+N/A
+
+===== Overall Activity in the Past Quarter =====
+Most of the activity has surrounded electing chairs, surveying interest. We are now forming subgroups around 3 or 4 main broad use cases.
+
+===== Planned Work Products =====
+This quarter we are working towards getting the groups formed and decisions made about what efforts will involve.
+
+===== Participant Diversity =====
+The group needs a better leadership team. All of the work is falling to one person. However, we have canvassed the group in terms of interest and input, so this should be solving itself this quarter.
+
+
+===== Additional Information =====
+
+ 

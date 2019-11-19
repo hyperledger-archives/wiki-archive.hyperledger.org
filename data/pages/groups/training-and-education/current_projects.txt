@@ -1,0 +1,20 @@
+===== This page is out of date ===== 
+
+
+The new page at
+[[https://docs.google.com/spreadsheets/d/1EXgEYWZvFgH3JiBCMbkb0V-r6Eg7NcFGKBVo_rImvQ4/edit#gid=0|Current Projects(google sheets)]] \\ 
+is much easier to edit.
+
+
+
+
+^ Project           ^ Name         ^ Latest Status            ^
+|[[https://wiki.hyperledger.org/community/presentations|Hyperledger Presentations]]   | Kelly  <kellycooper.2ds@gmail.com>  | Presentations for Meetups, learning and developing supplemental content |
+| [[https://wiki.hyperledger.org/groups/training-and-education/list-of-blockchain-core-concepts|Core Concepts For End Users]]   | Sjir    <sjir.nijssen@pna-group.com>              | in review as version 1.0   |
+|Core Concepts For Fabric Architechs   | Sjir    <sjir.nijssen@pna-group.com>              | 08/28/2018 Just started    |
+| [[https://wiki.hyperledger.org/groups/training-and-education/links|Links Page]]                                      | Richard  <r@uar.biz>                     | moved to HL.org wiki                                                                                |
+| Fabric transaction lifecycle animation                                                                                               | Colin, Sjir, and Paul                    | Pending                                                        |
+| [[https://goo.gl/2BHpgg|TE workgroup survey]]                                                                        | Bobbi @Bobbijn                           | Survey was moved to Hyperledger site                                                                |
+| TE workgroup Projects current status (this wiki page)                                                                | Richard <r@uar.biz>                      | 08/27/2018 - still needs corrections and looking into changing this into a project management tool  |
+| [[https://iroha.readthedocs.io/en/latest/core_concepts/glossary.html#transaction-status-set| Iroha Core Concepts ]]  | Thaddeus <thaddeus.cambron@outlook.com>  | 08/27/2018 - Iroha update                                                                           |
+

@@ -1,0 +1,22 @@
+==== TWG China Group Report for December 2017 ====
+
+=== Status ===
+  - Team: The team were collaborating in development, adoption cases, i18n, event organization and other tasks. 
+  - Meeting: 2 meeting were held with active discussions (with LF experts). All minutes can be found on the [[ groups/twgc/meetings | wiki]].
+  - [[groups/twgc/team_di | Technical Development]]
+    - New developers are joining, see the [[groups/twgc/team_di | development page]].
+    - Technical Communication: active discussions happen in the rocket chat channel/maillist.
+    - Code contributions to Hyperledger fabric, cello, sawtooth and other projects.
+    - Volunteers started two major features for fabric: [[https://jira.hyperledger.org/browse/FAB-5496 | SM2 support]] and [[https://jira.hyperledger.org/browse/FAB-6263 | MongoDB support]].
+  - [[groups/twgc/team_cs | Collaboration and Scenarios]]
+    - N/A
+  - [[groups/twgc/team_ie | i18n and education work]]
+    - The team has set up a website to host the translated result.
+  - [[groups/twgc/team_eo | Event organization ]]
+    - We now hold monthly meetups in Beijing, Shanghai and Hangzhou, supported by our volunteers.
+    - Have two meetups in Beijing and Wuhan. In the Beijing event, we support live video for the first time.
+  - Annual Summary for the year 2017
+    - China area has hold 10+ technical events including hackathon, workshop and meetups; with 40+ code contributors; 100+ volunteers; 40+ member companies, and 10+ Hyperledger adoption cases.
+
+=== Issues ===
+  - We are holding regular monthly meetup in various cities, need funding support for meeting places and small gifts. 

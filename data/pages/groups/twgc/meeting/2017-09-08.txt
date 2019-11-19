@@ -1,0 +1,42 @@
+===== TWG China Meeting =====
+
+==== Date ====
+15:00 ~ 15:40, 2017-08-24, GMT+8
+
+[[http://ibm.webex.com/meet/guojiannan | webex]]
+
+==== Attendee ====
+
+**Pls add ur name here before the meeting.**
+
+  * Jay Guo (IBM)
+  * Daisy Guo (IBM)
+  * Alex Eng (RedHat)
+  * Zhangjiong Xuan(Hyperchain)
+  * Allen Shao (AIIB)
+
+
+==== Agenda ====
+  - Zanata Q&A
+
+
+==== Minutes ====
+Alex Eng from RedHat is very generous to offer a Q&A session to answer questions we had for Zanata
+
+Q: Integration with Github: the tool should be able to pull source docs from Hyperledger repo, and push translated docs to CN Repo.
+
+A: We could use [[https://wiki.jenkins.io/display/JENKINS/Zanata+Plugin | zanata jenkins plugin]] to accomplish this 
+
+Q: Format of docs: currently docs are in rst format. Ideally the tool should be able to convert to/from it
+
+A: We need to convert between rst/html in jenkins
+
+Q: Review support: the tool should support role-based operation, reviewer/translator
+
+A: Yes it does.
+
+Q: Service infrastructure: Official web service or self-host service
+
+A: zanata.org is free of use, but a bit old in terms of version. We could use this at beginning, but consider setting up our own instance later on
+
+**TODO**: Linsheng and Jiannan will investigate Zanata Jenkins Plugin.

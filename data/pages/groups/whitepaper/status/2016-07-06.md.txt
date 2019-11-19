@@ -1,0 +1,8 @@
+# Whitepaper WG Status 2016 Jul 06
+* Reviewed prior minutes & actions items
+* Reviewed and accepted feedback suggestions from Klaus Bergman (thanks Klaus)
+* Discussed the merits of Google Docs vs Latex vs hybrid approach for managing the whitepaper. Agreed to make a decision when the whitepaper gets the last of current planned edits (glossary, links to other working groups) completed.
+* Nick agreed to make best efforts to get the glossary section cleaned up for next week
+* Discussed and agreed with Mic's suggestion of adding links to the Requirements and Architecture working groups in their respective sections of the whitepaper
+* Hart and Ram agreed to take a crack at suggesting a replacement for Consensus and Smart Contracts in the Architecture section (taking into consideration Tamas' comments)
+* The group agreed to aim for having a new version ready to be announced at the 14-July TSC meeting.

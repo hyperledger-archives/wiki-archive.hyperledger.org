@@ -1,0 +1,36 @@
+=====Hyperledger Beijing Meetup=====
+
+[[ https://wiki.hyperledger.org/groups/twgc/events/guideline | Meetup Event guideline]]
+
+====时间====
+13:30-17:00, Mar 24, 2018
+
+====地点====
+北京大学信息学院 理科2号楼2129阶梯教室
+
+====议程====
+^ Time时间         ^ Topic 题目                         ^ Speaker 演讲者                  ^
+| 13:30 - 14:00  | 签到                               |                              |
+| 14:00 - 14:10  | Opening 致辞                       | 北京大学金融信息化研究中心主任 陈钟教授         |
+| 14:10 - 14:30  | 欢迎北京大学加入超级账本+超级账本项目介绍                           | 超级账本全球技术委员会委员、中国工作组主席 杨保华博士  |
+| 14:30 - 15:10  | 从去中心化数字货币到去中心化数字商业               | 牛链科技CEO 唐聪博士                 |
+| 15:10 - 15:50  | 风口已至，区块链应用路在何方                   | 智链ChainNova CEO 董宁           |
+| 15:50 ~ 16:00  | 中场休息                             |                              |
+| 16:00 ~ 16:40  | Hyperledger Fabric密码构件及相关应用场景解析  | 中国网安国家保密通信重点实验室 研发工程师 刘地军    |
+| 16:40 ~ 17:20  | Fabric用户管理及权限验证                  | IBM区块链产品经理 董振华               |
+| 17:20 ~ 17:30  | 自由交流                             | 所有参与者                        |
+
+====活动总结====
+TWG-China has organized a half-day meetup on March 24th, which is hosted by Peking University. More than 150 developers and enthusiasts attended the event. Peking university also announced during the event that it had joined Hyperledger as academia member.
+
+Opening speech was given by Prof. Chen Zhong, discussing some of the major milestones in financial history of modern China. He also briefly covered Bitcoin and Blockchain technology, as well as cryptocurrencies in general.
+
+The first topic was given by Dong Ning, CEO of ChainNova. He introduced business logic and methodology of ChainNove and their practice of applying Blockchain technology in provenance. He also discussed the evolution of Blockchain technologies and compared several popular projects, including Hyperledger, Ethereum, Quorum, etc, and their unique use cases.
+
+Then, Dr. Yang BaoHua, Chair of TWG-China and TSC member of Hyperledger, gave a general introduction to Hyperledger, covering both community and projects. He also encouraged more people to join TWC-China as volunteers to grow local community and ecosystem.
+
+Following that, Dr. Tang Cong, CEO of Oxchains, gave the speech “From decentralized digital coin to decentralized digital business”. He shared their Blockchain solutions in various industries, including supply chain finance, food/drug provenance, healthcare, etc. He also analyzed Blockchain market and shed light on one-stop cryptocurrency investment platform and technologies supporting it.
+
+After a short break, Liu DiJun from China Electronics Technology Group Corporation (CETC) introduced Cryptographic algorithms being used in Fabric, BCCSP, MSP and the progress of supporting commercial cryptography scheme in China.
+
+Lastly, Dong ZhenHua from IBM talked about security related features in Fabric v1.1, e.g. Attribute-Based Access Control. He also discussed Fabric-CA deployment, restful services, MSP structures.

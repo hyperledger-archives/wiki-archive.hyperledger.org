@@ -1,0 +1,47 @@
+==== 2018-08-31 ==== 
+Meeting will be held at [[ https://zoom.us/my/hyperledger.community | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/cello|rocketchat]] (for text chat) at:
+  * 08:30AM   (UTC-4) [UTC -4 is Eastern Daylight Time EDT]
+  * 06:00PM   (UTC+0530)
+  * 08:30PM   (UTC+8)
+
+  * [[ https://jira.hyperledger.org/projects/CE/issues/CE-188?filter=allopenissues | Ongoing Jira task ]] 
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:cello+status:open | Open Patchset for review ]] 
+  * [[ https://wiki.hyperledger.org/projects/cello | Project Wiki Page ]] 
+
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  - Support fabric 1.2 in user dashboard (Haitao)
+  - Kubernetes agent bug fix (Luke Chen)
+  - v0.9.0 release discussions
+    - Plan to trigger in next few days
+  - Introduce Cello in Beijing Meetup (Sep 15)
+  - Luke help do the project [[groups/tsc/project-updates/cello-2018-aug | quarterly report]] at TSC meeting
+  - [[https://wiki.hyperledger.org/projects/cello/internship-2018|Internship progress]] (shuo)
+
+
+=== Attendee ===
+**Please put your name before the meeting.**
+
+
+  * Baohua Yang
+  * Haitao Yue
+  * Tong Li
+  * Jiahao Chen
+  * Shuo wang
+  * Rtxie
+  * Peng
+  * Alejandro (Sasha) Vicente Grabovetsky
+  * Nicola Paoli
+
+=== Minutes ===
+
+  - Support fabric 1.2 in user dashboard (Haitao): ongoing
+  - Kubernetes agent bug fix: luke needs another week
+  - v0.9.0 release discussions
+    - Plan to trigger in next weekend
+  - Introduce Cello in Beijing Meetup (Sep 15), feel free to contact guojiannan1101@gmail.com
+  - Luke will help do the project [[groups/tsc/project-updates/cello-2018-aug | quarterly report]] at next week TSC meeting
+  - [[https://wiki.hyperledger.org/projects/cello/internship-2018|Internship progress]] (shuo)
+    - Shuo demo the enablement of fabric-ca in starting network

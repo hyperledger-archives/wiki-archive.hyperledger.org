@@ -1,0 +1,5 @@
+# Whitepaper WG Status 2016 Jun 08
+* Continued discussion on RGB feedback
+* Reviewed and accepted revisions to the Vision section
+* Reviewed and accepted minor revisions throughout the whitepaper
+* Agreed to publish current version as Draft v1.0.0

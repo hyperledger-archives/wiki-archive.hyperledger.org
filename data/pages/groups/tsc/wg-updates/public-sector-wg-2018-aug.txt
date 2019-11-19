@@ -1,0 +1,51 @@
+====== Hyperledger Working Group Update ======
+
+===== Working Group =====
+Public Sector WG
+
+===== Working Group Health =====
+Working Group formally launched on June 22, 2018. 
+Number of participants on calls rising, and has climbed to about 18 people as of last call on August 3rd. Rose Shuman has taken on the Chair position, as Marta Piekarska could not continue to serve, due to her functions at Linux Foundation.
+
+Working Group is still in formation regarding its character and top priorities.
+
+
+
+===== Issues =====
+The group has relatively few Public Sector representatives, although this number is growing weekly. Further direct outreach is required to grow the group, particularly regarding members directly involved in public sector deployments. The members are more programmatic than technical overall. 
+
+
+===== Overall Activity in the Past Quarter =====
+Regular meetings have been held, no meetings have been missed. The chat channel has low activity. The mailing list is primarily used for Agendas as well as call follow up discussions. 
+
+1. We circulated a survey to all members, to gauge interest and map direction. [[https://552950085483010367.weebly.com/hyperledger-wg-survey-public-sector.html]]
+
+These are the initial responses received, names/affiliations removed: [[https://drive.google.com/open?id=1GaRlR1_ObZ-UZ--cT41fErV9Mu7dIPu3k9jKZz7IdGI]]
+
+There is greatest interest in access to libraries of use cases. We are sorting out who will build and maintain the use case repository. 
+
+2. We have commenced with project presentations every call. So far, we have heard from Smart Dubai and the governments of Ontario and British Columbia, Canada. This is in line with the use case orientation of the group. 
+
+We aim to broaden out the calls to include expert Q&A from representatives of projects, to provide peer support to others. 
+
+3. The group submitted a panel proposal to the Hyperledger Global Summit, on government use case examples and dynamic.
+
+
+
+===== Planned Work Products =====
+  * Use Case repository on Wiki from call presentations
+  * Continued project presentations
+  * Further Work Products are still under consideration. 
+
+The primary driver for participation is peer learning.
+
+
+
+===== Participant Diversity =====
+Participants are diverse in terms of public/private sector representation, as well as geographic spread. Technical capability vs. programme capability is also diverse. 
+
+
+===== Additional Information =====
+Group would benefit from referred new members based on projects and networks in the other WGs. This group is starting to shape up as a programmatic space, for instance discussion of how to communicate concepts to lay person decision makers. We would welcome additional participants who are navigating project developing for or inside public sector arenas. 
+
+ 

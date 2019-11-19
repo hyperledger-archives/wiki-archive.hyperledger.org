@@ -1,0 +1,50 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Iroha [[https://github.com/hyperledger/iroha]] — a distributed ledger technology platform, written in C++.
+
+===== Project Health =====
+The main focus of Hyperledger Iroha project now is to freeze the implementation of new features, bring optimisations to the codebase, and focus primarily on the three aspects of product's quality model:
+  - Reliability (fault tolerance, recoverability)
+  - Performance Efficiency (in particular time-behavior and resource utilization)
+  - Usability (learnability, user error protection, appropriateness recognisability)
+  
+We are working towards the upcoming beta release of Iroha, and the strategy for upcoming releases is to extend the stable baseline, polishing troublesome components. By increasing the major version number (1.0), the governing company (Soramitsu Co. Ltd) wants to accentuate the fact of next release being stable, fault tolerant and ready to be tested in a production environment.
+
+We attracted more contributors, and it is a pleasure to mention that edX course and Hyperledger events have helped a lot. Still, the work with the community is not in the state that is desired, as questions are not answered fast or contributors are not directed and activity is not well observed. Since recent team structure changes, this is expected to be improved, and some sort of informal SLA for community work is going to be accepted within the team of maintainers. 
+
+===== Issues =====
+Since the last report, Sonarqube [[https://sonar.soramitsu.co.jp]] metrics have not improved a lot. We know about the fact and since the files, having most of the technical debt are going to be completely removed from the project after we finish with the integration of new model classes — we plan to reach maintainability grade of A level.
+
+Moreover, we expect the coverage to be improved a lot after changes in the total grade calculation [[https://github.com/codecov/support/issues/470]] in Codecov service, and after we finish with an integration test framework, being in development currently. Right now, the grade is very low — 48,9% branch coverage in sonarqube [[https://sonar.soramitsu.co.jp/project/activity?custom_metrics=coverage&graph=custom&id=hyperledger:iroha:develop]] and 31% in Codecov service [[https://codecov.io/gh/hyperledger/iroha/tree/develop]]. After the integration test framework is completed, we will perform a further testing of our transaction and query pipelines using boundary value analysis and classification tree method.  
+
+Sometimes, the documentation does not match the version and is related only to nightly builds. This is an issue we are researching a solution for, and need help with, as our current tools cannot provide documentation for several versions, or the tools were poorly reviewed.
+
+===== Releases =====
+We have released second preview release and alpha release since the last report in October. The number of commits per month has slightly increased from 232 in October to 338 in December. 
+
+The codebase has been increased by 67% from 19774 LOC to 33198 LOC (excluding comments and blank lines), and the number of lines with comments has slightly increased by roughly 3% (from 8792 lines to 15575 lines, or from 44% to 47% compared to the LOC quantity). That indicates about a positive trend, related to the documentation remaining in the same proportion in the project. 
+
+As usual, all the releases are posted on GitHub release page of Hyperledger Iroha [[https://github.com/hyperledger/iroha/releases]].
+
+We have agreed on feature release plan draft in the governing company, and in future, we will continue to revise it every month, to track the direction.
+
+
+===== Overall Activity in the Past Quarter =====
+Regarding an activity related to open source discussions — we have conducted a couple of meetings with the community and created a YouTube channel for the recordings [[https://www.youtube.com/channel/UCYlK9OrZo9hvNYFuf0vrwww/featured]]. There are no meeting minutes, however, and the periodicity of the meetings is not as it was planned. 
+
+We are going to conduct public meetings/announcements on every iteration, explaining both release and iteration plan and conduct Q&A sessions, as it was before.
+There is a positive trend that the community members are actively helping with questions in Gitter and telegram chat. Unfortunately, the team of maintainers is not reacting actively to community questions in email lists, or other places, but is promoting to use GitHub issues to report about troubles and reacts to any posted question or defect found.
+
+Development is related mostly to bug fixes, technical debt elimination, and some features, which will help to improve the pipeline and optimize the performance of Iroha peer: push-based interaction between client and peer, integration test framework, quality plan. Other work is related to usability and interoperability: expanded list of client libraries (right now it is Java and Python, with C# requiring further contribution), event logging and message codes with the classification of faulty states. 
+
+===== Current Plans =====
+We are going to release a fault-tolerant version with an improved usability and optimized performance. According to Hyperledger Release Taxonomy, the next expected version is going to be the beta version.
+
+
+===== Maintainer Diversity =====
+4 new maintaines were added to the team.
+
+
+===== Contributor Diversity =====
+Since our last report, several individuals have contributed to the project with their expertise, use case suggestions, partnership proposals, and expressed their intention to help in future. They referenced events, where the team of maintainers was involved (hackfest and summit), as well as the course, which was published last year on edX. Unfortunately, no exact statistics were made, and approximately the number of new contributors is around 5 people.

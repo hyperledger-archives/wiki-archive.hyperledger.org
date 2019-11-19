@@ -1,0 +1,189 @@
+==== 2017-09-01 ==== 
+
+Meeting will be held at [[https://chat.hyperledger.org/channel/fabric-sdk-py|rocketchat]] at 11AM (GMT+8).
+
+  * [[https://jira.hyperledger.org/browse/FAB-4623?jql=project%20%3D%20FAB%20AND%20status%20in%20(%22In%20Progress%22%2C%20%22To%20Do%22)%20AND%20component%20%3D%20fabric-sdk-py | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+status:open | Open Patchset for review]]
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]]
+
+=== Agenda ===
+
+  * David's working on [[https://jira.hyperledger.org/browse/FAB-4315|FAB-4315]] got merged!
+  * chaincode Install: Kai is working on [[https://jira.hyperledger.org/browse/FAB-5151 | FAB-5151]]
+  * E2E: Dong Wang is working on [[https://jira.hyperledger.org/browse/FAB-2871 | FAB-2871]]
+  * User Role: Wei Hu is working on [[https://jira.hyperledger.org/browse/FAB-3885|FAB-3885]]
+  * EventHub: Chang Chen is working on [[https://jira.hyperledger.org/browse/FAB-4822|FAB-4822]]
+  * Register: Baohua is working on [[https://jira.hyperledger.org/browse/FAB-3165|FAB-3165]]
+  * Update license header: Qiang Wang is working on [[https://jira.hyperledger.org/browse/FAB-4742|FAB-4742]]
+  * Other issues
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Baohua Yang
+  * Kai Chen
+  * Wang Dong
+  * Tony Yang
+  * Chang Chen
+
+
+=== Log ===
+baohua 10:58 AM
+meeting will start at 10AM, who's online?
+@grapebaba @wangdong
+@david_dornseifer @lafenicecc
+
+grapebaba 11:00 AM
+✋
+
+baohua 11:00 AM
+ok
+how's going, kai
+today's agenda is https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20170901
+how about we have an online review? @grapebaba
+
+grapebaba 11:04 AM
+what is that
+
+baohua 11:04 AM
+https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+status:open
+david got his pr merged.
+so we can create channel now
+https://gerrit.hyperledger.org/r/5765
+
+lafenicecc 11:05 AM
+:woo:
+coming
+
+baohua 11:05 AM
+is this one on going?
+@grapebaba
+
+grapebaba 11:06 AM
+should abandon
+
+baohua 11:06 AM
+ok
+@lafenicecc how's going?
+
+tonyyang132 11:06 AM
+here finally after fighting with network connections...
+
+baohua 11:07 AM
+@tonyyang132 cool
+
+lafenicecc 11:07 AM
+@baohua will start using node sdk heavily
+will compare node with our python sdk
+
+baohua 11:08 AM
+https://gerrit.hyperledger.org/r/11765 @grapebaba how's this one?
+
+grapebaba 11:08 AM
+hope i can do it next week
+
+baohua 11:09 AM
+@lafenicecc sure, how do u feel?
+?
+
+wangdong 11:11 AM
+hi
+just finish a machine test
+
+baohua 11:12 AM
+great dong!
+https://jira.hyperledger.org/browse/FAB-2871
+how about this one
+seems u can rebase atop david's patchset.
+
+lafenicecc 11:13 AM
+i will give comments now and then
+
+wangdong 11:14 AM
+yes
+
+baohua 11:14 AM
+hope will accelerate the process
+
+wangdong 11:14 AM
+OK
+I will.
+
+lafenicecc 11:14 AM
+hope my team can switch to python sdk soon
+
+baohua 11:14 AM
+definitely
+aha, rkt is not that stable in connection.
+
+lafenicecc 11:14 AM
+btw baohua, the flow chart in the book would be really helpful for new comers
+
+baohua 11:14 AM
+but LF guys are helping look at the issues.
+which one?
+
+wangdong 11:15 AM
+I will implement it as the patches of David
+which book
+
+baohua 11:15 AM
+thanks, dong
+@qiang0723 is working on https://jira.hyperledger.org/browse/FAB-4742
+
+lafenicecc 11:15 AM
+File Uploaded: Clipboard - 2017年9月1日上午11点15分  
+
+
+lafenicecc 11:15 AM
+like this
+
+baohua 11:15 AM
+I guess we should add the license header soon. Currently it's a shorter license header
+oooh, i'm still trying refining those figures
+to illustrate better 🙂
+@wangdong search at book/JD 🙂
+
+wangdong 11:16 AM
+@lafenicecc where is the book from? I would like to have a look at this.
+where to search i wonder
+
+baohua 11:16 AM
+and @lafenicecc how's going with the event hub pr? https://jira.hyperledger.org/browse/FAB-4822
+
+lafenicecc 11:17 AM
+with slightly explanation to this charts, we can simply show what sdk should do
+to process txs
+
+baohua 11:17 AM   
+yeap, and some of them are also in the hyperledger_code_fabric project at github @wangdong
+
+wangdong 11:18 AM
+OK
+
+lafenicecc 11:18 AM
+hope i can get eventhub done soon
+
+baohua 11:18 AM
+OK, mostly we made stable progress by eating the channel creation one.
+Now let's move on!!
+next one should be the channel joining one
+
+wangdong 11:19 AM
+yeah
+
+baohua 11:21 AM
+who's wanna pick this one can feel free to add in jira
+sorry, disconnected...
+OK. any other issues for today? Very glad we have active contributors 😀
+OK. If no further question, we will end the meeting. Thanks every participant, and have a nice weekend! 🍜
+
+grapebaba 11:23 AM
+👏
+
+lafenicecc 11:23 AM
+🤓
+
+wangdong 11:23 AM 
+😬

@@ -1,0 +1,59 @@
+**Hyperledger Healthcare Patient SubGroup  \\
+Meeting Agenda and Meeting Notes for 2019-01-16**
+
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class 1: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]\\
+Hyperledger Class 2: [[https://www.edx.org/course/understanding-blockchain-and-its-implications|Understanding Blockchain and its Implications]]\\
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+<WRAP box>
+[[|Meeting recordings/transcript]] 
+</WRAP>
+
+<WRAP box>
+In attendance:
+
+</WRAP>
+
+<WRAP box>
+**Agenda**
+
+**  Donor Milk use case update (30 min)**
+
+  * Naomi Bar Yam from HBANA - haven't heard back since 12/22 correspondence, but has shown interest in continuing to collaborate
+  * UNICEF contact Christina Lomazzo has not responded to inquiries
+  * Have not heard an update from Tony and Mikhail on pitch deck for targeting global organizations with this project
+  * Have heard back Paige Krieger has followed up internally at IBM Global Services with the Healthcare and Public sectors groups and we are awaiting feedback from her
+  * Vaibav was going to reach out some healthcare professionals in this network to see if they had interest and we have not hear anything back 
+
+
+**  2019 charter discussion follow up and read through: Draft Charter can be found [[https://docs.google.com/document/d/1GYV6H5_qYpYaYhyqX8pFbr5WTzw8PRH_1Ww4VILrHr8/edit#|here]] and recommendations from last meeting have been added as comments for now (30 min)**
+</WRAP>
+
+
+<WRAP box>
+Next Steps from last meeting for reference:
+
+  * Marissa to send Vaibhav with 1-pager that he can share with healthcare connections in the US. The 1-page that was sent to IBM can be found - [[https://docs.google.com/document/d/1_1YbskFv8Lh9a0NjzLpjGpthi5Uc2rIxVE8oApV9WaI/edit|here]]
+  * Mikhail to put together a high level summary of possible impact at the Global, Community, and Hospital level that Tony can then take to try to put into a "pitch deck" to present to possible groups of interest.
+  * Possible organizations that might be interested in collaborating might are Gates Foundation, WHO, Vital Strategy (Bloomberg Philanthropy).
+</WRAP>
+
+<WRAP box>
+Notes from Ben:
+
+Today we discussed the customer traction for the Donor Milk project. The POC is currently stranded due to the loss of our main customer's buy-in but we are looking into options and have started actively reaching out to potential new customers for the project. For instance, Vaibhav has reached out to a number of his contacts in the space and Rich will be promoting the group at HIMS. The current proposal is to park the Donor Milk project if we haven't collected sufficient traction by the end of Feb (after the HIMS conf). This does not mean that we shouldn't actively look for other customers in the meantime (best case scenario we'll end up with a project pipeline).
+
+The follow up actions that we concluded out of the call were:
+- Let's document the work done so far and the different leads and statuses [I'll sync with Marissa to get this rolling]
+- We will need to standard the communication for the Donor Milk project outreach and the SIG in general to streamline our lead generation pipeline, does anybody want to give it a go?
+- There was some work done on getting a charter and transcribing the broader vision for the group, I'll pick this up and see where we are.
+</WRAP>
+

@@ -1,0 +1,35 @@
+Hyperledger Project\\
+Healthcare Working Group (HCWG) Payer Subgroup Meeting\\
+June 26, 2018 \\
+
+Resources:\\
+Chat: https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github: https://github.com/hyperledger\\
+Wiki: https://wiki.hyperledger.org\\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+Survey results:\\
+     *Managing exchange data\\
+     *Health record provider\\
+     *Automating claims\\
+
+Use cases:\\
+     *Clinical trials - multi national, multi center trials, payments among all participants, better trust to make settlements between contractors and subcontractors, misunderstandings between participants based on being in different countries.  Delays in data entry from health care investigators, delays in making payments by sponsors, how to include banks in making settlements and avoid cryptocurrencies (volatile), need to include banks to make payments.\\
+     *Scope? Only about CROs, could be distributed to insurance companies. If you want to make a global study, you have to make a global CRO, and that is very expensive. Very difficult to make payments. Blockchain and help control the payments and compliance.\\
+     *Trying to make a CRO alliance locally. Every study, one CRO will take the lead. Some CRO trust others and others don’t. 20-30 CROs in a trial.\\
+
+ 
+How to focus on good use cases?\\
+     *Provider demographic pilot\\
+     *Survey participants of near term projects where work product from the group could add value to the project\\
+     *How do we come out of the box and define a use case for the ideal world and see if the technology will support that. \\
+     *Challenge we just listened to about CROs are correct and a use case that solves the way we do business now. Base a use case on an ideal scenario v real world scenario. \\
+     *What’s a use case that would force us to think differently about how to solve a problem? Position paper? All kinds of little problems \\
+     *Process should be planning heavy before anyone starts writing code unless there’s a specific problem brought to the group. We don’t want to duplicate other group’s efforts.
+
+Meeting adjourned

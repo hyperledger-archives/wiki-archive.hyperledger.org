@@ -1,0 +1,34 @@
+====== Identity WG Proposed Work Items ======
+
+Draft proposed list of Identity Working Group (WG) work items per the May 5, 2016 meeting at DTCC.
+
+  - Identity @ business logic, federation and consensus layers
+  - Who holds the keys?
+  - Decentralized solution where no one entity holds the keys
+  - Customers versus edge security distinction (e.g., airbits) - how to distribute the identify piece
+  - Federation consensus
+  - What happens when someone loses the private keys - how recover from this
+  - Teasing out what we mean by permissioned network
+  - Multi-country rule structures (e.g., ICANN, rules maintained by consensus, who is/are the sovereign(s))
+    - https://github.com/18dew/melange
+  - Use security in a smart contract and proper roles enforced
+  - Integration of identity management with existing systems in outside world
+  - Management of identity to be completely decentralized or a mix
+  - How do we import / incorporate into blockchain and into legacy systems
+  - Adoption
+  - Failure on the blockchain that doesn't originate from an identity issue but impacts identity on blockchain
+  - Impact on external world if lose identity on blockchain
+  - Selective disclosure tools, their APIs, etc.
+  - Consumer application level issue with key management
+  - What societal contracts creating if central authority with key management
+  - Key recovery / key recovery systems
+  - Access control capabilities mapped into smart contracts and identity
+  - High level conceptual overview (scope, taxonomy, reputation, attestation)
+  - What is identity in the future (i.e., future proof)
+  - Is execution of smart contract proof of identity (e.g., per V's white paper)
+  - Harvest existing best practices and apply
+  - Caste / right to be forgotten / forgiveness
+  - Individual vs. enterprise vs. society
+  - Lifecycle of identity / inheritance
+  - Identity mixer
+  - What's different with blockchain versus existing use cases in existing institutions

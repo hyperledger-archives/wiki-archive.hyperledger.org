@@ -1,0 +1,24 @@
+====== Notes from 8th January 2019 ======
+ 
+
+  - Will opened the meeting, read the anti-trust statement and reminded all that the meeting is being recorded.
+  - Each member introduced themselves by name, company, geographical location and what their aims for SIG membership were.  Full introductions can be heard on the audio recording.
+  - The discussion covered what the aims and objectives of the Special Interest Group.  This highlighted five areas;
+    - Definition of Trade Finance
+    - Interoperability
+    - Data localisation
+    - Standards
+    - connecting to ERPs
+  - Some specific action arose; 
+    * ACT Alan; to share the IBM deck that describes interoperability patterns 
+    * ACT Vik: to share his definition of trade finance scope
+  - Goals for the next three months.
+    - We agreed we would;
+      * meet on Zoom every two weeks
+      * take a presentation from a member at each meeting
+      * develop the Charter to reflect the Aims and Objectives
+      * develop our Wiki into the resource that we would like to use
+  - Administration
+(after the meeting) Edmund volunteered to coordinate the Membership directory
+We agreed to keep the  meetings at 14:00 UTC, rather than the 17:00 suggested
+Kevin volunteered to work on the wiki

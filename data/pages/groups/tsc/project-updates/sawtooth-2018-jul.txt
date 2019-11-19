@@ -1,0 +1,79 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Sawtooth
+https://sawtooth.hyperledger.org/examples/
+
+===== Project Health =====
+The state of the Sawtooth is good.
+
+We continue to ride the momentum from the production release earlier this year. 
+Commit traffic is strong and diverse. 
+New features are being developed and released.
+
+
+New features: 
+  * Smart contracts in Web Assembly (Wasm): (Sawtooth-sabre)[[https://github.com/hyperledger/sawtooth-sabre]]
+  * Multi-language Consensus support: Consensus Engines
+  * Getting //RUSTY//: Internal components porting from python->rust
+  * Even easier deployment: New ansible repo; Improved docs.
+  * [[https://github.com/hyperledger/sawtooth-ansible]]
+  * .NET sdk
+  * [[https://github.com/hyperledger/sawtooth-sdk-dotnet]]
+
+Sawtooth added a governance/RFC process to accommodate the growing community interest:
+[[https://github.com/hyperledger/sawtooth-rfcs]]
+
+===== Issues =====
+  * Disconnection between TSC and projects may be improving.
+  * Not plugged into HL meetups
+  * One maintainer reported he was rejected from accessing the project page managed by LF.
+  * Our latest bug fix release (1.0.5) was delayed due to competing priorities.
+  * Slight increase in PR backlog given increased submissions
+  * Not necessarily an issue yet, but porting our build from Intel provided servers to LF/HL is still WIP.
+
+===== Releases =====
+  * 1.0.4 May - bug fixes
+  * 1.0.5 July TBD - bug fixes
+  * 1.0.6 July/Aug - doc updates & bug fixes
+  * 1.1-RC1 Aug - Developer Preview 
+
+
+===== Overall Activity in the Past Quarter =====
+  * Chat activity continues to increase.
+  * listserv traffic remains light.
+  * Very positive reaction to Application Developer weekly calls.
+  ** We are adding an Asia-friendly timeslot.
+
+See community calendar [[https://wiki.hyperledger.org/community/calendar-public-meetings]] for occurrences of our 
+  * Tech Forum
+  * Application Developer Support
+  * Sprint Planning
+
+===== Current Plans =====
+Sawtooth 1.1 targeting August timeframe to include
+  * Performance enhancements via Rust port
+  * Raft (also performance)
+  * PoET2
+  * PBFT (tbd)
+  * Enhanced documentation
+
+See RFCs for descriptions for PoET2, PBFT, Sabre (wasm) and others.
+
+Note that the SDKs are splitting out into their own repos.
+
+
+===== Maintainer Diversity =====
+Bitwise has eclipsed Intel in the maintainer count.
+Overall Sawtooth governance is now established under our RFC process as noted above.
+
+
+===== Contributor Diversity =====
+  * Commits since 2018-04-01 :  1160
+  * Committers since 2018-04-01 :  35
+  * Domains since 2018-04-01 :  10
+
+
+===== Additional Information =====
+Editing this wiki is a good way to learn what the web felt like in 1998.
+

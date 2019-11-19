@@ -1,0 +1,52 @@
+====== Music Publishing Use Case ======
+
+The following is contributed by Joe Conyers and Alex Kane of Songtrust.
+
+===== Summary =====
+
+Worldwide, the music publishing industry is in the business of collecting and distributing money to songwriters and copyright holders. This hundred year old business is using technology based on mainframe computers to disseminate song/composition/composer identification and ownership data to hundreds of third parties. New methods of media distribution(Digital Streaming) have increased the complexity of distributing the collected funds in an accurate way.
+We’re looking at blockchain as a solution for storing and querying composition ownership data. This document is an attempt to articulate the needs of the publishing industry from our point of view.
+
+===== Data Dictionary =====
+
+A given composition, or work, will have the following attributes which are important to track. A complete set of data for a given composition must include all of these fields:
+
+  * ISWC (ISO 15707:2001): Unique identifier for the composition. Sometimes multiple ISWCs exist for a single composition but this is extremely rare. Eg. T ­034.524.680­1
+
+  * ISRC (ISO 3901:2001): One or more (sometimes hundreds) per composition. Eg. BRBMG0300729
+
+  * Composers: One or more individuals identified by name and IPI number, as well as ownership percentage. Sum of all composer ownership values must equal 100%. Eg. Alex Kane, 283692048, 100%.
+
+  * Original Publisher: One or more publishing companies identified by name and IPI number, up to one per composer.
+  
+  * Publishing Administrator: One or more publishing companies identified by name and IPI number, territory, as well as ownership percentage. Sum of all administration ownership values must equal 100%.
+
+  * IPI: Unique identifier for an Interested party (songwriters and publishers) Eg. I ­000000229­7 
+
+===== Participants =====
+
+  * Record Labels/Publishing Companies
+    * Will create entries in the blockchain ledger for every composition they represent
+    * Will perform transactions to transfer representation of publishing administration deals between publishers.
+
+  * Digital Service Providers (Spotify, Pandora, Youtube, Soundcloud, Lyricfind, Genius) and Licensors (Music/TV Studios, Advertisers, and others)
+    * Will query the blockchain ledger to determine which publishers should be paid for a given composition
+    * Read only access to the blockchain.
+
+===== Example Use Cases =====
+
+==== Royalty Collection ====
+
+  * A Music Publishing Company administers the publishing for 10,000 songs. The Music Publishing Company adds these compositions to the blockchain including ownership information and all identifying data (ISWC, ISRCs, IPI numbers).
+
+  * A Digital Service Provider needs to pay the publishers for the compositions that have been streamed by it’s customers. A Digital Service Provider queries the blockchain ledger to determine who controls the publishing for the compositions that have been streamed.
+
+==== Transfer of Administration ====
+
+  * A self published Songwriter has been approached by a Music Publishing Company that wishes to do a publishing deal with the writer. Both parties agree on the terms and the transaction is recorded in blockchain ledger, cryptographically signed by both parties.
+
+  * A Music Publishing Company has been approached by another Music Publishing Company that wishes to buy the publishing deal for one of their songwriters. Both parties agree on the terms and the transaction is recorded in blockchain ledger, cryptographically signed by both parties.
+
+===== Examples =====
+
+  * [[https://www.theguardian.com/membership/2015/oct/02/live-stream-imogen-heap-releases-tiny-human-using-blockchain-technology|Imogen Heap released "Tiny Human" with Blockchain]]

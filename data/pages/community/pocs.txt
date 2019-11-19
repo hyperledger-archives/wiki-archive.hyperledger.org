@@ -1,0 +1,51 @@
+Hyperledger across Industries as made public by news articles on POCs, Late Stage Pilots, and Production Implementations. 
+
+==== Test of embed plugin ====
+
+<csv>
+Number,Name,Details
+1,Power Man,Blue
+2,Red Book,"Yellow, but blue"
+</csv>
+
+<csv "https://docs.google.com/spreadsheets/d/e/2PACX-1vTKoWHq0uManhiYZW8UV7bMhIwYbaeTT_3N0QHBkAkT1ifZJ_Fwul3cQkCThxGW4CA4ZZgLOzBrpGpz/pub?gid=0&single=true&output=csv"></csv>
+
+
+
+==== Education & Research ====
+
+==== Energy & Resources ====
+
+==== Financial Services ====
+
+^ Company           ^ Date         ^ Title and Link                                                                                                                                                                       ^ Another Column           ^
+| SWIFT             | 3/8/18       | [[https://cointelegraph.com/news/swifts-blockchain-pilot-for-bank-to-bank-transfers-went-extremely-well|SWIFT’s Blockchain Pilot For Bank-To-Bank Transfers Went ‘Extremely Well’]]  | another column -- row 1  |
+| SP Global Platts  | 2/27/18      | [[https://www.econotimes.com/SP-Global-Platts-launches-blockchain-platform-for-oil-inventory-data-1170661|S&P Global Platts launches blockchain platform for oil inventory data]]    | another column -- row 2  |
+| Row 3 Col 1       | Row 3 Col 2  | Row 3 Col 3                                                                                                                                                                          | another column -- row 3  |
+|                   |              |                                                                                                                                                                                      |                          |
+
+
+==== Government & Legal ====
+
+==== Healthcare ====
+
+
+
+==== Identity ====
+
+
+==== Media & Entertainment ====
+
+==== Mobility & Transport ====
+
+==== Non-profit & Social Impact ====
+
+==== Real Estate ====
+
+==== Retail ====
+
+==== Supply Chain ====
+
+
+
+

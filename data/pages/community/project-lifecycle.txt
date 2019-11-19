@@ -1,0 +1,61 @@
+====== Project Lifecycle ======
+
+The term “project” within the Hyperledger Project will refer to a collaborative endeavor to deliver a work item. There may be some projects that are intended to produce a document, such as a requirements or use cases document, a whitepaper, or analysis. Others may be to develop a  new capability, or refactor (or remove) an existing capability for the Hyperledger technology releases. Such projects may take the form of a new component (e.g. a new repository) or may propose additions, deletions or changes to an existing repository(s).
+
+Many other open source initiatives leverage an incubation process for new work items, and this seems to have a desired effect of encouraging new ideas and tracks of work, while at the same time providing clear guidance to the broader community as to what is real and supported, versus what is still in the exploratory/experimental/developmental phases.
+
+Therefore the Hyperledger Project has adopted a similar lifecycle process as follows:
+
+Projects are in one of five possible states:
+  * //[[#proposal|Proposal]]//
+  * //[[#incubation|Incubation]]//
+  * //[[#active|Active]]//
+  * //[[#first_major_release|First Major Release]]//
+  * //[[#deprecated|Deprecated]]//
+  * //[[#end_of_life|End of Life]]//
+
+Projects may not necessarily move through those states in a linear way and may go through several iterations. 
+
+===== Proposal =====
+Project Proposals shall be submitted to the [[https://www.hyperledger.org/about/leadership | TSC]] for review, using a [[community:Proposal-Template-for-a-Hyperledger-Improvement-Project-HIP | Proposal Template]]. Proposals that are approved shall enter into an //Incubation// state, unless they are of a refactoring nature, in which case they will be turned over to the relevant project maintainer(s) to handle as they deem fit. 
+
+A Proposal must:
+  * have a clear description
+  * have a well-defined scope
+  * identify committed development resources
+  * identify initial maintainers
+  * be vendor neutral
+
+===== Incubation =====
+Approved project proposals enter into //Incubation//. For new components/modules, a repository will be created under the [[https://github.com/hyperledger | hyperledger Github org]], and optionally under Gerrit and JIRA, if requested. New features/capabilities should be handled through pull requests labeled with tags that identify the project and tag it as "incubator" (and will ideally be capable of being enabled/disabled with feature-flags).
+
+Projects in //Incubation// may overlap with one another. Entering //Incubation// is meant to be fairly easy to allow for community exploration of different ideas.
+
+Once a project qualifies to be declared //Active//, the project’s maintainers can then vote to request a graduation review by the TSC.
+
+Projects seeking to graduate from //Incubation// must:
+  * have fully functional code base 
+  * have test coverage commensurate with other //Active// projects
+  * have an active and diverse community of developers 
+  * have a history of releases that follow the //Active// release process
+
+Entering //Incubation// does not guarantee that the project will eventually get to //Active// state. Projects may never get to //Active// state. 
+
+The criteria to exit //Incubation// are defined in the [[community:Project-Incubation-Exit-Criteria | Incubation Exit Criteria document]].
+
+===== Active =====
+Projects that have successfully exited the //Incubation// phase are in the //Active// phase.
+
+Anyone may propose that a project be deprecated, by submitting a rationale and identifying a substitute project/component (if any). The maintainers of  the project shall vote on such a request and if it passes, make that recommendation to the TSC. Members of the community that disagree with the request shall make their case before the TSC. The TSC shall consider all points of view and render a final decision to deprecate or not.
+
+===== First Major Release =====
+
+A project’s maintainers seeking to publish a project’s first major release (see [[release_taxonomy|semver]]) must seek approval of the TSC whether in Active or Incubation status as defined above. While it is expected that most projects will have reached an Active status by the time their maintainers seek to announce a first major release, the TSC may approve such requests also in cases where the project is still in Incubation status, should the TSC believe that the project's code is sufficiently mature.
+
+
+===== Deprecated =====
+A //Deprecated// project will be maintained for a six month period by its community, after which it will be removed from any subsequent formal releases. Notice will be given to the public of the project’s deprecation. After the six-month deprecation period, the project will be labeled //End of Life//. 
+
+===== End of Life =====
+A project that is no longer actively developed or maintained.
+

@@ -1,0 +1,50 @@
+Hyperledger Project\\
+Healthcare Working Group (HCWG) Meeting\\
+May 4, 2018\\ 
+
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings\\
+Biomedical Blockchain Initiatives: https://github.com/HD2i/biomedical-blockchain\\
+Hyperledger tutorial: https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0\\
+
+
+Reminders\\
+Make sure you are in the right subgroup as subgroup breakouts are beginning.\\
+Keep big general discussions on chat, emails can be more targeted information\\
+
+
+Meeting Notes\\
+Antitrust policy\\
+Identify chairs for groups
+     *Payer\\
+     *Provider\\
+     *Patient\\
+     *Government\\
+White paper\\
+     *Think about what that may look like\\
+     *Opportunity to identify low hanging fruit\\
+Use cases\\
+     *Need to flesh out use cases on Wiki\\
+     *Sue suggests utilization management use case, is directed to introduce herself on RocketChat and talk about this uses case with people interested in Payer side.\\
+Tony: update on Optim United - provider directory\\
+     *Reach out to Tony for ways to participate\\
+     *Test capacity\\
+     *Standby capacity\\
+     *No new participants unless they have national coverage\\
+     *More technical information is coming in the next 60 days\\
+Nate: we are looking for a connection w/ IBM person who works with Fabric\\
+     *Open Source Convention in July\\
+          *Hyperledger meetups\\
+          *HCWG meetups\\
+Jim: Nate should meet Bob Celeste at the center for supply chain studies.\\
+     *https://www.c4scs.org/team/\\
+     *Bob has several companies involved in a study\\
+     *Simulation of distributed ledger tech in healthcare\\
+
+
+Meeting Adjourned

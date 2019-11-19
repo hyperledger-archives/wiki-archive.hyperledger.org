@@ -1,0 +1,46 @@
+====== CII Badge Security Section ======
+
+The CII Badge questionnaire includes a section focused entirely on security.  There are 16 questions, all of which are required to earn the badge.  This page will go through each one and outline the expectations for HL projects in meeting the requirements of each one.
+
+==== Security Development Knowledge ====
+
+These two questions requires the team to identify at least one developer on the project that is familiar with secure software development best practices.  The fine print on this one provides a link to the canonical text on security best practices ([[http://web.mit.edu/Saltzer/www/publications/protection/|Saltzer and Schroeder]]) as well as links to common security design errors ([[https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project|OWASP top 10]]).
+
+For Hyperledger's purposes, there should be at least two security developers, a primary and backup, that are familiar with best practices and common errors.  The two people will be included in the [[security:team|Hyperledger Security Team]] and will help triage and management of reported security bugs.
+
+Mark this complete as soon as the team has chosen two security developers and they have been included on the Hyperledger security team.
+
+==== Basic Good Cryptographic Practices ====
+
+If your project doesn't use or require cryptography, please tick all of these questions as N/A.  However, since blockchains are a construct built using cryptography--hashes are a form of cryptography--all Hyperledger projects will most likely need to answer these nine questions carefully.
+
+Make sure your project sticks to the following best practices:
+
+  - Only use open source crypto libraries (e.g. NaCL, OpenSSL, etc).
+  - Don't roll your own crypto, use external libraries.
+  - All code that relies on crypto libraries must also be open source.
+  - Use recommended key sizes.
+  - Don't use known weak/broken crypto algorithms (e.g. MD4, SHA1, Dual_EC).
+  - Use perfect forward secrecy for key agreement protocols.
+  - Use salted, iterative hashed, key stretching algorithms if storing user passwords for authentication.
+  - Use a cryptographically secure random number generator for generating keys and other random values.
+
+The [[security:learning-crypto|Learning Crypto]] page documents in greater detail acceptable solutions for these cryptography best practices.
+
+==== Secure Delivery of Software ====
+
+To meet these two requirements, the project must at least include a manifest file that contains the cryptographic hashes of all of the files that users download and the project must provide a secure means to download the files and the manifest (e.g. HTTPS, scp over ssh, etc). The easiest way to create the manifest is to use the [[https://man.openbsd.org/signify|OpenBSD signify utility]] or just use the sha256sum utility included on most open source operating systems.
+
+In the future, Hyperledger hopes to deliver all software using a [[https://reproducible-builds.org/|reproducible builds mechanism]] but that isn't a requirement to earn the CII badge.
+
+==== Fix and Report Vulnerabilities ====
+
+The next two requirements deal with how your project handles vulnerability reports and fixes. Hyperledger has a security vulnerability reporting, fixing, and disclosure mechanism governed by our [[:security|security policy]]. As a Hyperledger project, your project will participate in that process and therefor you automatically meet these requirements.
+
+==== Other Security Issues ====
+
+The last question is to enforce that your project cannot leak credentials through your code repository. Just never store any usernames and passwords in files checked into your repo. This requirement doesn't require you to have an automated check to prevent this, but it wouldn't hurt. If your project requires components to log into each other (e.g. log into a backend database) simply include a setup script that guides the user through establishing the credentials at installation time.
+
+==== Conclusion ====
+
+That's it! The security section isn't too hard to satisfy. Being a Hyperledger project, your project has at its disposal an already established security team and vulnerability handling system and you will be using existing bug and code tracking tools that meet the CII badge criteria. 

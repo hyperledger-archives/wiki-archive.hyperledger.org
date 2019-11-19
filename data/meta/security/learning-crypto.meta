@@ -1,0 +1,17 @@
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1497921384;s:8:"modified";i:1504633340;}s:7:"creator";s:11:"Tracy Kuhrt";s:4:"user";s:6:"tkuhrt";s:11:"last_change";a:7:{s:4:"date";i:1504633340;s:2:"ip";s:14:"68.224.130.142";s:4:"type";s:1:"E";s:2:"id";s:24:"security:learning-crypto";s:4:"user";s:7:"dhuseby";s:3:"sum";s:60:"Stubbing out the sections of the crypto best practices page.";s:5:"extra";s:0:"";}s:11:"contributor";a:1:{s:7:"dhuseby";s:12:"David Huseby";}s:5:"title";s:21:"Crypto Best Practices";s:11:"description";a:2:{s:15:"tableofcontents";a:9:{i:0;a:4:{s:3:"hid";s:21:"crypto_best_practices";s:5:"title";s:21:"Crypto Best Practices";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:15:"use_open_source";s:5:"title";s:15:"Use Open Source";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:2;a:4:{s:3:"hid";s:19:"don_t_roll_your_own";s:5:"title";s:19:"Don't Roll Your Own";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:3;a:4:{s:3:"hid";s:17:"write_open_source";s:5:"title";s:17:"Write Open Source";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:4;a:4:{s:3:"hid";s:25:"use_recommended_key_sizes";s:5:"title";s:25:"Use Recommended Key Sizes";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:5;a:4:{s:3:"hid";s:36:"don_t_use_know_weakbroken_algorithms";s:5:"title";s:37:"Don't Use Know Weak/Broken Algorithms";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:6;a:4:{s:3:"hid";s:41:"use_perfect_forward_secrecy_key_agreement";s:5:"title";s:41:"Use Perfect Forward Secrecy Key Agreement";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:7;a:4:{s:3:"hid";s:25:"store_passwords_correctly";s:5:"title";s:25:"Store Passwords Correctly";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:8;a:4:{s:3:"hid";s:53:"use_cryptographically_secure_random_number_generators";s:5:"title";s:53:"Use Cryptographically Secure Random Number Generators";s:4:"type";s:2:"ul";s:5:"level";i:3;}}s:8:"abstract";s:269:"Crypto Best Practices
+
+Use Open Source
+
+Don't Roll Your Own
+
+Write Open Source
+
+Use Recommended Key Sizes
+
+Don't Use Know Weak/Broken Algorithms
+
+Use Perfect Forward Secrecy Key Agreement
+
+Store Passwords Correctly
+
+Use Cryptographically Secure Random Number Generators";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}s:8:"relation";a:1:{s:10:"firstimage";s:0:"";}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1497921384;s:8:"modified";i:1504633340;}s:7:"creator";s:11:"Tracy Kuhrt";s:4:"user";s:6:"tkuhrt";s:11:"last_change";a:7:{s:4:"date";i:1504633340;s:2:"ip";s:14:"68.224.130.142";s:4:"type";s:1:"E";s:2:"id";s:24:"security:learning-crypto";s:4:"user";s:7:"dhuseby";s:3:"sum";s:60:"Stubbing out the sections of the crypto best practices page.";s:5:"extra";s:0:"";}s:11:"contributor";a:1:{s:7:"dhuseby";s:12:"David Huseby";}}}

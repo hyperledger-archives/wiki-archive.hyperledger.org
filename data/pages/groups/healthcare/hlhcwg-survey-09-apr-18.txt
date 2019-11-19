@@ -1,0 +1,6 @@
+===== Survey =====
+
+  * Participants : Hyperledger Healthcare WG
+  * Survey date : 09-APR-18
+  * [[https://docs.google.com/forms/d/e/1FAIpQLSeNYYoZoauJ0AbkQzl2HFpJJX_ecjJ8LkUQcqjR9LgMwAo1Fw/viewform?c=0&w=1&usp=mail_form_link|Survey form]]
+  * Communications : [[https://lists.hyperledger.org/g/healthcare-wg/message/331|Announcement]]

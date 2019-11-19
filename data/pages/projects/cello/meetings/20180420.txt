@@ -1,0 +1,42 @@
+==== 2018-04-20 ==== 
+
+Meeting will be held at [[ https://zoom.us/j/519936723 | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/cello|rocketchat]] (for text chat) at:
+
+  * 08:30AM   (UTC-4)
+  * 06:00PM   (UTC+0530)
+  * 08:30PM   (UTC+8)
+
+  * [[https://jira.hyperledger.org/projects/CE/issues/CE-188?filter=allopenissues | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:cello+status:open | Open Patchset for review]]
+  * [[https://wiki.hyperledger.org/projects/cello | Project Wiki Page]]
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  - New version of [[https://docs.google.com/presentation/d/1sq4hnTRpH9qaPJe96f6Egx9LclbCC5KcQjnBmv2LO68/edit | slides for introduction of cello ]]
+  - Dashboard progress [[https://jira.hyperledger.org/browse/CE-259 | Jira]] (hightall)
+  - Documentation and tutorial videos (jiang lu)
+  - Luxoft's willing of contribution: [[https://chat.hyperledger.org/channel/cello?msg=cFcQY5iRKuKmMT6Tm|chat history]] 
+    - [[https://github.com/Luxoft/fabric-utils|fabric-utils]]
+    - [[https://github.com/Luxoft/fabric-skeleton |fabric-skeleton]]
+  - Other issues
+    - Feel free to add here.
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Haitao Yue
+  * Baohua Yang
+  * Luke Chen
+  * Jiang Lu
+
+
+=== Minutes ===
+  - New slides will be published.
+  - Operator dashboard will be done next week.
+  - Documentation and tutorial videos
+  - Luxoft's willing of contribution: [[https://chat.hyperledger.org/channel/cello?msg=cFcQY5iRKuKmMT6Tm|chat history]] 
+    - [[https://github.com/Luxoft/fabric-utils|fabric-utils]]
+    - [[https://github.com/Luxoft/fabric-skeleton |fabric-skeleton]]
+  - In version 0.9, kubernetes agent will be big feature.
+  - Add NFS server start in master node. 

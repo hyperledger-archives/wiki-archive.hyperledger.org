@@ -1,0 +1,8 @@
+**Technical Onboarding Resources**
+
+This collection of technical onboarding resources evolved as requests in T&E workgroup meetings. You will link from this wiki page to our shared Google drive. 
+
+  * As you participate, [[https://docs.google.com/document/d/1XZsu0LWuApeq7UxGlSnEQnl9ZHFrZIhRJ96zipSUCc0/edit|Technical Onboarding Requests]] - please let us know what materials will support your participation
+  * If you're new to GitHub, [[https://docs.google.com/document/d/1OgxQp317xpza2LOAY9uHPzPxs_B6ZgeycsCaBJ5c0sk/edit|Tutorial Part 1 - Introduction]]
+
+

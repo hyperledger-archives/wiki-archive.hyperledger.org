@@ -1,0 +1,204 @@
+{{:groups:healthcare:hsm_logo.png?nolink&650}}
+
+===== General Meeting Agenda for 2018-12-14 =====
+
+==== Resources: ====
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HLHC-SIG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+----
+
+===== Welcome and Opening Statements =====
+
+  * //A reminder to all HLHC-SIG members that this meeting is being recorded//
+  * [[https://www.linuxfoundation.org/antitrust-policy|Reading of the Linux Foundation Antitrust Policy]]
+  * [[https://tinyurl.com/HL-antitrust-slide|Hyperledger Antitrust Slide]]
+  * **Discussion: request for note-taking for this meeting**
+
+<WRAP box>
+[[https://drive.google.com/open?id=1m2FkyoQpU0M6zWLtr2dmsuKb4vjZ4faC|Meeting recordings/transcript]] 
+</WRAP>
+
+<WRAP box>
+In attendance:
+  * Rich Bloch (recording)
+  * Kamlesh Nagware
+  * Alan Bachman
+  * Adrian
+  * Amit Gupta
+  * Linwan
+  * Raveesh Dewan
+  * Sonia
+  * Jeff Stollman
+  * Mikhail Elias (by phone)
+  * Leonard Edwin
+  * Other undefined phone numbers
+</WRAP>
+
+===== Introductions =====
+
+  * **If you’re new to the group, please…** 
+    * Introduce yourself
+    * Tell us where you're geographically located
+    * Share with us your interests in healthcare in general, and blockchain technologies in specific
+
+===== Community Announcements =====
+
+  * **Feel free to share your community announcements as they relate to the Hyperledger community**
+
+  * The non-profit [[https://www.pistoiaalliance.org/|Pistoia Alliance]] is looking for a blockchain expert with project management and team management experience
+    * This is a paid, three month consulting opportunity
+    * Additional information is [[https://www.pistoiaalliance.org/about/vacancies/|located here]]
+    * For questions, please contact [[nick.lynch@curlewresearch.com|Nick Lynch]]
+
+<WRAP box>
+  * Kamlesh did respond to the offer. He will provide some feedback if he gets the consulting offer
+</WRAP>
+
+  * [[https://www.himssconference.org|HIMSS Conference 2019]]
+    * February 11-15, Orlando, Florida
+    * Hyperledger is planning to host a booth, and if we get enough interest, we'll facilitate an HLHC-SIG membership event
+    * **Discussion: anyone planning or interested in attending?**
+
+<WRAP box>
+  * Raveesh indicated that there will be a very high likelihood of his going to the conference this year. He may be interested in presenting as well
+</WRAP>
+
+===== HLHC-SIG Subgroup Updates =====
+
+  * Patient/Member Subgroup (Marissa Iannarone, Lead)
+
+<WRAP box>
+  * We have not had a meeting since the last HLHC SIG meeting due to my travel
+  * I am currently at the Hyperledger Global Forum, which I will provide a more comprehensive summary on later, but the HLHC SIG did meet yesterday - a group of 6 of us
+  * For the Donor Milk POC, we reached out again to Rapid Healthcare (both Anton and Ron) and did not hear anything back. We should now consider them no longer involved in the project. I have not reached out to HMBANA yet to see if they are willing to take on the "customer voice" role, but I will do that this week. I had an initial conversation with IBM Food Trust and they are going to reach out to both there healthcare and social impact groups to see if there is interest in collaborating. We are currently waiting for their response/feedback
+  * For 2019 planning, I have not started on the subgroup charter or proposed activities/focus areas, but I plan to have that as the focused between now and end of the year
+  * Ask: If anyone has connections in the donor milk ecosystem, I would love to talk to them. Also, if anyone is interested to contribute to the 2019 planning, please let me know: mari.iannarone@gmail.com or find me on rocket.chat: Mari499
+  * Our next meeting will be December 21 at 9am PST, feel free to reach out if you have any questions 
+</WRAP>
+
+  * Payer Subgroup (Raveesh Dewan, Lead)
+
+<WRAP box>
+  * Raveesh updated the group on the draft paper that they're working on as it relates to a blockchain decision tree (a framework)
+  * Not necessarily just for the healthcare payer domain (should be broad enough to be used elsewhere)
+  * With the holidays approaching, unlikely to do any work until early January
+  * Jeff commented that the holidays have had an impact on progress, but the work is coming together
+  * Not yet ready to present to the larger group, but will eventually get this out to full HLHC-SIG membership
+  * Sonia asked if there has been any due diligence done on researching decision trees generated from other organizations
+  * Jeff indicated that most existing decision tree frameworks are not particularly objective ("self serving"), but rather a means to an end
+</WRAP>
+
+  * EMR Subgroup (Rich Bloch, Acting Lead)
+
+<WRAP box>
+  * Convened ad hoc team to determine the direction of the EMR Subgroup
+  * Determined that it was best to disband the EMR Subgroup
+  * Will be removed from the calendar by the end of this year
+</WRAP>
+
+===== HLHC-SIG Ad Hoc Team Updates =====
+
+  * Wiki Redesign Team (Brian Ahier, Raveesh Dewan, and Mikhail Elias, Lead)
+
+<WRAP box>
+  * Team is working with Tracy Kuhrt on the move to Confluence
+  * Mikhail provided an update, indicating that the team is working on the new #wiki Rocket.Chat
+  * Looking to define standard templates to make the management of the wiki easier
+  * Hoping to make it easier to update information in one place, but viewed/used in many places
+</WRAP>
+
+  * Charter Review/Revision Team (Len Edwin and Ken Allgood [writers], with Adrian Berg and Marissa Iannone [editors])
+    * Final edit completed: open for membership review, [[https://drive.google.com/open?id=14wLdVKvFcsKdkTTsjFfheJEPUqIqq4g8FmCB5p9AyQE|draft located here]]
+
+<WRAP box>
+  * Team has completed a final edit pass, with the draft charter now available for full membership review
+  * Draft charter will also go to Hyperledger leadership review
+</WRAP>
+
+  * Academic Research Team (Mikhail Elias and Adrian Berg, Lead)
+    * Currently in works, [[https://drive.google.com/open?id=1q-d8rGcRK2k_sq4xMUGinwhqwRYg-HOPK0vggaq7XkU|draft located here]]
+
+<WRAP box>
+  * Team continues to work on this draft document
+</WRAP>
+
+  * Subgroup Review Team (Benjamin Djidi, Mikhail Elias, Jeff Stollman, Steven Elliot, Robert Coli, and Sonia Wagner, Lead)
+    * Kick off meeting on 11/26
+    * Purpose to:
+      * Review EMR Subgroup purpose/charter
+      * Fundamentally, to understand the future direction of the EMR Subgroup
+      * To determine if a revised EMR Subgroup strategy might also apply to other subgroups
+
+<WRAP box>
+  * Sonia presented on the status of the work that the team has been doing since late November
+  * Focus on more back-end technical functionality of subgroups and SIG
+  * Planning the creation of a new subgroup to replace the defunct EMR Sugroup
+  * There will be common technical needs for all healthcare use cases
+  * Starting with a small POC to create a product/platform/service that will help to support any healthcare use case
+  * Trying to reduce redundancies in building technology
+  * Also proposing a common non-technical needs component (example is the Payer Subgroup decision tree white paper)
+  * A subgroup focussed on common technical needs; and a subgroup focussed on common non-technical needs
+  * All in proposal phase at this point
+  * Will begin to write a charter and will ultimately present to other subgroup leads and eventually roll this out to membership
+  * Sonia will possibly present at an upcoming HLHC-SIG General Meeting
+  * Unique opportunity to rethink the broader approach of the SIG
+  * Jeff indicated that he believes strongly that, going forward, we need to find a way to communicate across SIGs and WGs, so we can share ideas and leverage between groups (cross-cutting concerns)
+  * Rich will loop Jeff into the discussion with David Boswell
+  * Mikhail added that this approach will work well more naturally with other SIGs
+</WRAP>
+
+===== Old Business =====
+
+  * Healthcare technologies challenges (Rich)
+      * Upcoming opportunities: [[https://www.herox.com/Differential-Privacy-Synthetic-Data-Challenge|NIST Differential Privacy Synthetic Data Challenge]], [[http://www.kidneyx.org/|KidneyX Redesign Dialysis Prize Competition]]
+      * From community feedback, plan is to pursue the KidneyX challenge, and forego the NIST challenge
+
+<WRAP box>
+  * Rich is still pursuing the KidneyX Challenge (knowing that Alan is interested in working on this challenge
+  * Due date is late FEB (up to a six-page document to be delivered)
+</WRAP>
+
+  * A HIPAA-compliant Hyperledger (Rich)
+    *** Discussion: not much community feedback to date... next steps?**
+
+<WRAP box>
+  * After some discussion on the listserv, it appears that current approaches to HIPAA compliant solutions are primarily procedural and less technical
+  * No current planned follow up on this topic
+</WRAP>
+
+===== New Business =====
+
+  * End of Year HLHC-SIG Survey (Rich)
+    * **Discussion: specific areas of focus for this upcoming survey?**
+
+  * HLHC-SIG Membership Directory (Rich)
+    * Planning to develop a public-facing membership directory that lists members' companies/organizations (possibly contact information)
+    * **Discussion: do you see value in developing this directory?**
+
+<WRAP box>
+  * Members in general agreement that this would be a good idea
+  * Mikhail suggested that perhaps this membership directory would be a great POC using blockchain technologies
+</WRAP>
+
+  * Onboarding slide presentation for HLHC-SIG (Rich)
+    * Great example presented by the [[https://docs.google.com/presentation/d/1LEOU7kJOmu64IlbXU2WKapvto1oi60rJtovcwRoJXW0/edit#slide=id.p2|Social Impact Working Group]]
+    * Ostensibly used for onboarding a new chair/officer, but could be used for new members?
+    * **Discussion: would there be good utility/value to something like this?**
+
+===== Next Meeting =====
+
+  * Scheduled for Friday, 01/11 (no 12/28 meeting, due to holidays), 0700 Pacific Time
+  * **Discussion: topics to add to agenda?**
+
+<WRAP box>
+  * A reminder that are cancelling our 12/28 HLHC-SIG General Meeting due to the end of year holidays
+  * We will reconvene in JAN, on 01/11
+</WRAP>

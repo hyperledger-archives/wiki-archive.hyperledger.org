@@ -1,0 +1,53 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Iroha https://github.com/hyperledger/iroha — a distributed ledger technology platform, written in C++.
+
+===== Project Health =====
+Within the period after the previous report we were working on stability, optimisations, and new features. Community manager makes sure all questions in Iroha community chats in Rocketchat, telegram and gitter get responded. \\ Community has been very active and helped us in finding bugs and problems in develop version of Iroha. That issues made us to postpone next release, which will be shipped in the coming week. We keep community updated with the statuses of the bugs that they find.
+
+
+===== Issues =====
+We should make community more active and conduct more different events to them. We need to improve diversity of the project contributors, and knowledge base of Hyperledger about Iroha and how it compares to the rest of the projects in Hyperledger greenhouse. Design decisions and engineering process should become more public and available to a wider range of contributors.
+
+
+===== Releases =====
+We have had 1 release and now the latest version is Hyperledger Iroha v1.0 beta-4 version, released on 2nd of August. \\
+It included performance improvements, critical reliability bug fixes and API changes. 
+
+
+
+===== Overall Activity in the Past Quarter =====
+In Iroha, communication mostly takes place in chats rather than mailing lists. Most of the questions get responded to within few hours or less (with an exception when a message gets lost in the chat among several messages). Currently we actively use 1 chat channel (#Iroha). We launched telegram channel for Iroha News in order to be up to date with Iroha updates. Some important changes to Iroha are accompanied with online webinars, where any community member can participate and ask any questions to developers online. \\ \\
+Past Quarter has been mostly devoted for refactoring and optimisations in Iroha, which led to higher transactions throughput and less compilation time. We also added new features, such as GetRolePermissions query, Iroha health check, and more thorough Query Error messages. We fixed bugs related to synchronisation mechanism in Iroha. Our community helped us with early bug reports. \\ 
+
+
+===== Current Plans =====
+The goal for the next reporting period is:\\
+1. Stabilise and test the platform for the final release in December. \\
+2. Improve the process within the community to fully comply with the tools used at other Hyperledger projects. \\
+3. Conduct more community events like presentations and webinars to discuss important changes in Iroha \\
+4. Increase diversity of maintainers \\
+5. Move to Hyperledger Jira from Soramitsu’s Jira \\
+
+The remaining scope for the final release in December 2018 includes: \\
+  * Network testing Framework \\
+  * Byzantine Fault Tolerant ordering service \\
+  * YAC consensus documentation and experiments \\
+  * Peer initialization \\
+  * Log queries errors to an output of peers \\
+  * Replay attacks solution for queries and transactions \\
+  * Implementation of reject case in YAC consensus — as soon as empty blocks are not written in the ledger \\
+  * Iroha online sandbox \\
+  * Load testing and performance regressions (preferably on Hyperledger Caliper)
+
+
+===== Maintainer Diversity =====
+We are glad to welcome a new Iroha maintainer: https://github.com/MBoldyrev
+
+
+===== Contributor Diversity =====
+On the level of organisations, the contributors did not change. \\
+On the level of individual contributors, community gained several active members helping with testing, bug reports and changes in the code. We are happy to have community members from all around the globe who constantly ask questions and prepare GitHub issues.
+
+ 

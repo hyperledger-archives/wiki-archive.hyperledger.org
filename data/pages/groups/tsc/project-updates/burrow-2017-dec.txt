@@ -1,0 +1,50 @@
+====== Hyperledger Burrow Project Update - Q4 2017 ======
+
+===== Project Health =====
+Hyperledger Burrow is in a period of transition and ramp up, after being accepted into incubation in April 2017, Silas Davis took over lead maintainership in October and embarked on a [[https://lists.hyperledger.org/g/tsc/message/1164|refactoring]] intended to serve as a base for making Burrow a better library and a leaner, more operable standalone blockchain.
+
+We have three full-time developers pledged to the project from Tata Consulting Services to whom we are very grateful. They will be starting work on the project in December 2017 and should help increase velocity and, crucially, solicit more support from the Hyperledger community.
+
+From the Hyperledger member summit it is clear that there is widespread interest in Burrow and we need to be able to execute on our commitments to pull in this help.
+
+
+===== Issues =====
+The two key issues identified by people who would be interested in contributing to or using Burrow are:
+
+  - Providing a Web3 compatible API
+  - Providing a replacement for deprecated monax tooling and client libraries
+
+These are non-trivial, but are both in hand, please see: [[projects:burrow:roadmap_2018_q1|Q1 2018 Burrow Roadmap]]
+
+We also need assistance in persuading those people (who we know to exist from Member summit) who had work they have done on Burrow that they have not felt able to contribute back yet.
+
+===== Releases =====
+The monax tool v0.18.0 was released: [[https://github.com/monax/monax/releases/tag/v0.18.0]] which serves as a surrogate for a Burrow release.
+
+[[https://github.com/monax/monax/releases/tag/v0.18.0|This pull request]] will form the basis of future Burrow releases that do not depend on the monax tool.
+
+
+===== Overall Activity in the Past Quarter =====
+Silas has been the only active developer on Burrow in the past quarter but set out goals for a refactor of Burrow and decoupling from Monax tooling. That work is nearly complete and currently stands at +15k -7k lines of code (including comments, renames, and tests - account for about 2/3 of flux).
+
+There has also been activity from the Sawtooth team on Seth, who currently use a snapshot of our codebase but we hope to move to a proper dependency in the next quarter.
+
+
+===== Current Plans =====
+Please see [[projects:burrow:roadmap_2018_q1|Q1 2018 Burrow Roadmap]] for detailed description of work that is planned, that is being distributed amongst the new contributors right now.
+
+We intend to follow a rapid release schedule on a develop channel via multi-platform binaries and docker images on the Hyperledger repo. We will make at least one more stable standalone Burrow from the master branch. We will be sticking with our sub v1.0.0 version designation so in a deliberate abuse of semantic versioning we may break interfaces on minor version number changes.
+
+===== Maintainer Diversity =====
+The active maintainers are Silas Davis and Casey Kuhlman of Monax, but all three new full-time contributors from TCS will be excellent candidate maintainers. If any member of Sawtooth team is able to move back to depending on our main line code (rather than the copy-and-paste of current prototype) then that would be an opportunity for us to bring in a maintainer from that team.
+
+
+===== Contributor Diversity =====
+Other than the three full-time contributors coming on board we have had only minor contributions from other contributors/companies. Alex Tran Qui of Katalysis has made contributions: https://github.com/ratranqu.
+
+We hope to increase contributor diversity once people feel able to commit resources to a standalone (no monax required) Burrow, and there is active interest on the Burrow rocketchat channel in this direction.
+
+===== Additional Information =====
+I would like to request mentorship from a Hyperledger member of staff for one of our new contributors to act as a 'Hyperledger liaison' who can spend a significant amount of time trying to increase contributor diversity. We want to explicitly sacrifice raw output volume in the short term to do this. Someone with experience of shepherding contributions would be able to give them a leg up.
+
+ 

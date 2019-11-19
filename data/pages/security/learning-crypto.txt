@@ -1,0 +1,18 @@
+====== Crypto Best Practices ======
+
+==== Use Open Source ====
+
+==== Don't Roll Your Own ====
+
+==== Write Open Source ====
+
+==== Use Recommended Key Sizes ====
+
+==== Don't Use Know Weak/Broken Algorithms ====
+
+==== Use Perfect Forward Secrecy Key Agreement ====
+
+==== Store Passwords Correctly ====
+
+==== Use Cryptographically Secure Random Number Generators ====
+

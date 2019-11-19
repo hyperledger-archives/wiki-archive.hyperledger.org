@@ -1,0 +1,134 @@
+**Section 1 - Problem Statement**
+
+The Patient Subgroup has submitted an abstract to the Hyperledger Global Forum December 12th-15th, 2018:[[https://events.linuxfoundation.org/events/hyperledger-global-forum-2018/]]. Abstract submitted is as follows:
+
+Aggregated healthcare data is a powerful tool. Informing algorithms for patient diagnostics and treatment. Currently, data are across various silos in electronic medical records, laboratories, etc., residing with various stakeholders that are disconnected from one another.
+
+With the patient at the center, our product will connect the data across silos in a de-identified manner, forming a circle of trust around the patient with the patient in control.
+
+Working with Hyperledger Fabric and Composer, we will establish a network of patients, health care entities, and researchers. Patients will be at the center of their data and researchers will have the ability to query the network for de-identified data that will inform diagnostic algorithms and treatment at the individual and population-level. As patients move from one doctor to another their data follows securely, where ever they may travel. Solving problems in data access, continuity, security, and medication abuse while lowering costs.
+
+**Leveraging Composer Proof of Concept**
+
+After reviewing the prototype for Composer found here: [[https://youtu.be/cNvOQp8r0xo]] we drew a lot of connections between the entities in their car ordering/manufacturing ecosystem, and the data sharing ecosystem that we are trying to create in healthcare. If we view the template in the video as the vehicle being the patient and the outside interactions being the doctor, hospital, lab, researcher etc., this is a good start.
+
+**Use Case Breakdown**
+
+The MVP use case with this functionality could be with 4 players:
+  * Patient
+  * Healthcare entity A (hospital, lab, etc)
+  * Healthcare entity B
+  * Researcher
+
+Addition players to be taken into consideration to encompass the full ecosystem (highlighted in graphic below):
+
+  * Hospitals / Health Systems / Life Science (Research org)
+  * Health Plans
+  * Physicians Offices
+  * Care Coordination Network
+  * Social / Health Services Organization
+  * insurer/payer
+
+If we make the assumption that both healthcare entities use the same data standards (FHIR or other), this is how the work flow could be laid out:
+
+  - Patient signs up to engage with our product via a IOS app and agrees for pointers to their health data to live on the blockchain
+  - Healthcare entity A and B place pointers to all of the patients health data (ideally both retrospectively and forward moving)
+  - Researcher wanting to leverage the data (for all patients - not just one) to help inform research or diagnostic algorithm could query the pointers for standard variables that would pull de-identified health data into a data set to use
+  - Researcher takes data out of the product to do analysis, etc.
+
+Initial analysis of the Composer code and identified mappings for names and categories:
+
+**Participants:**
+  * Company--->Doctor
+  * Manufacturer>Hospital
+  * Auction house----->Researcher
+  * Regulator----->Insurance
+  * Private owner----->??data private owner. Same as patient
+  * Scrap merchant----->??deceased data base
+
+**Assets:**
+  * Order----->Lab/ procedure order
+  * Vehicle----->Patient
+
+**Transactions:**
+  * Place order-----> Order Lab/ procedure
+  * UpdateOrderStatus-------> Update Lab/procedure status
+  * Application for vehicle registration certificate----->Insurance application(healthcare)
+  * Private Vehicle transfer----->Patient transfer to new doctor
+  * Scrap vehicle----->patient deceased
+  * Update suspicious-----> ? Fraud or medication abuse 
+  * Scrap all vehicles by color------>group patients by disease or category
+
+**Events:**
+  * Place order event-----> order lab/ procedure event
+  * Update order status event------>updates lab/ procedure event
+  * Scrap vehicle event------> deceased
+
+We've confirmed that we will be working on a open source build. Tony Little suggested looking at the Davinci project from FHIR that that provides an implementation framework for others to follow: [[http://www.hl7.org/about/davinci/index.cfm?ref=common]]
+
+We will also want to work with the Hyperledger ID team to understand better what they have thought of/built already. Once we have a journey map completed, we can loop them in and walk through it with them to gain insights. 
+
+**Current Solution**
+
+https://doc.ai/product - has been highlighted, but doesn't address data standardization and GitHub repo is here: https://github.com/HD2i/biomedical-blockchain#doc.ai
+
+Take a look at how UK NHS is solving this same problem: https://www.engadget.com/2018/06/29/britain-nhs-anonymous-health-data-privitar/
+
+We have reviewed [[https://medicalchain.com/en/|Medicalchain]] (a Hyperledger project) and believe that they are targeting a very similar solution to what is laid out below. After reviewing the white paper, we do see possible opportunities for a POC to be built that would support Medicalchain work in the following areas:
+  * AI - machine learning could be inserted into the network - Anton recommended looking at [[https://ada.com/|ADA]]
+  * Chain of custody (which appears to be a gap according to the white paper
+  * Researchers able to engage with patient data via the 'market place' component laid out in the white paper
+
+We are waiting to hear back from Medicalchain on the following questions and are hopeful that a representative will be on the 7/27 HCWG call so that we can determine whether it makes sense to move forward with the use case stated above.
+  * If Medicalchain has implemented their code onto the main block chain at this time? 
+  * Where their struggles, if any, may lie in implementation of the project.(This may be a question for them directly.)
+
+_If there are systems in place today which automate the above business problem/opportunity, please explain what exists._
+
+**Why Distributed Ledger Technology?**
+
+_Please explain how distributed ledger technology would improve the current solutions (if they exist) or enable new solutions which were previously unavailable. The goal here is to ensure we do not have a solution looking for problems, but problems where solutions would become possible or significantly improved by using distributed ledger technology._
+
+**Opportunity/Justification**
+
+_Use this section to give details that support the value of pursuing these user stories using distributed ledger technology. Some examples of information that might be included here are applicable market segments, workloads, user bases, etc. and any associated data._
+
+**Section 2 - User Stories and Requirements**
+
+_Please explain this use case using actors and interactions and assuming the ideal distributed ledger technology exists. You can tell one or more user stories if they are inter-related. Please list requirements per user story. It would be useful to explain where the use of the distributed ledger begins. For example, in a use case for prescription drugs, it would be valuable to ensure: * The manufacturer has sourced the correct ingredients * The manufacturer has combined the ingredients correctly * The manufacturer has tested the finished product and recorded the results for later audit * The finished goods are tracked to ensure the end user received exactly what the manufacturer shipped However, these could all be different use cases addressed with different solutions. So, it's important to explain where the problem starts and where distributed ledger technology would help._
+
+**Section 3 - Requirements Not Related to User Stories**
+
+_It is useful to specify requirements that should be considered but may not be apparent through the user story and usage examples. This information will help the developers be aware of any additional known constraints that need to be met for adoption of the newly implemented features/functionality. Precise specifications of the requirements make a developer's job much easier, so when in doubt, consult a technical expert. Example of the requirements not obvious thru user stories: performance, hardware, connectivity, privacy etc._
+
+**Section 4 - External References and Glossary**
+
+_Please use this section to add references for standards or well-defined mechanisms. In particular, if any of your requirements specifically call for the implementation of a standard or protocol or other well-defined mechanism, use this section to list them. Additionally, if your use case needs non-standard consensus mechanisms or cryptographic tools, please include technical material here, or references to technical material (i.e. a link to an eprint paper with security proofs). Remember, the burden of proof for security or consensus of non-standard mechanisms will be placed upon the proposer rather than the evaluator of the proposal, so be verbose here if necessary. It is highly suggested that you define any terms, abbreviations that are not commonly used in order to ensure that your user story is understood properly._
+
+_Provide a list of acronyms, their expansions, and what they actually mean in general language here. Define any terms that are specific to your problem domain. If there are devices, appliances, or software stacks that you expect to interact with Hyperledger, list them here._
+
+**Section 5 - Additional Thoughts/Notes**
+
+When thinking of this individual-owned health data record, we have identified 2 major use cases to explore (each of these with endless user journey and "sub use cases":
+  * Clinical trials
+  * Sharing data across healthcare entities: Emergency room visit - how can an individual bring any relevant data with you to an emergency visit; Acute incident that requires both in-network and out-network provider visits/interventions  
+
+From here we need to deconstruct these use cases to make the work more actionable (we can't boil the ocean) - journey mapping seems like a logical next step - identifying the steps that a user would take along the way to get the expected results - then at each step of the way we can dig into the challenge areas below.
+
+Areas that we'll need to dig into for each "sub use case" include:
+* Interoperability
+* Provenance
+* Data standards
+* Data rights
+* Flow of consent and data
+
+Initial thoughts on journeys to map:
+
+* someone signs up to engage in our platform in order to manage data from and engage in a clinical trail
+* someone is looking to manage data from a treatment protocol that requires visits/interventions with multiple physicians
+* Opt-in for laboratory sample results to be leveraged to inform patient treatment protocols or diagnosis
+
+Patient Centered Data mapping provided by Tony Hussain on 7/6: {{ :groups:healthcare:screen_shot_2018-07-06_at_12.17.54_pm.png?200 |}}
+
+**Other Use Cases Being Considered by Patient/Member Subgroup**
+[[groups:healthcare:donor_milk_transparency_and_traceability|Donor Milk Transparency and Traceability]]

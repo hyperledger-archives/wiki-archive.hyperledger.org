@@ -1,0 +1,62 @@
+====== Iroha ======
+{{ :projects:hyperledger_iroha_logo.png?direct&300|}}
+
+===== Status =====
+
+This project is in [[/community:project-lifecycle#active|Active]]
+
+===== Description =====
+
+Iroha is a distributed ledger project, that aims to provide a development environment where C++ and mobile application developers to contribute to the Hyperledger Project. The project seeks to complement Fabric, Sawtooth Lake, and other potential projects, by creating reusable components in C++ that can be called from languages such as Go. In this way, Iroha is additive to existing projects and the long term goal is to realize a robust library of reusable components that can be selected and used freely by those running distributed ledgers on Hyperledger technology.
+
+===== Key Characteristics =====
+
+Permissioned network, written in C++, Java chaincode, BFT consensus algorithm YetAnotherConsensus (YAC).
+
+===== Documentation =====
+
+  * [[https://github.com/hyperledger/iroha/blob/master/README.md|README]]
+  * [[https://github.com/hyperledger/iroha/wiki|Wiki]]
+  * [[https://iroha.readthedocs.io|Documentation]]
+
+===== Project Management =====
+
+Proposals are created as github issues and are discussed. Those who can implement the proposals then write the code. If people want to know what to work on, they can ask on gitter or create an issue to get attention. Github projects are used to manage release versions.
+
+===== Repositories =====
+
+  * [[https://github.com/hyperledger/iroha|iroha (core project]]
+  * [[https://github.com/hyperledger/iroha-ametsuchi|iroha-ametsuchi (flatbuffer database)]]
+  * [[https://github.com/hyperledger/iroha-ios|iroha-ios (iOS SDK)]]
+  * [[https://github.com/hyperledger/iroha-android|iroha-android (Android SDK)]]
+  * [[https://github.com/hyperledger/iroha-javascript|iroha-javascript (JavaScript SDK)]]
+  * [[https://github.com/hyperledger/iroha-python|iroha-python (Python SDK)]]
+
+===== Communication =====
+
+  * [[https://gitter.im/hyperledger-iroha/Lobby|Gitter]]
+
+==== Mailing List ====
+
+  * [[https://lists.hyperledger.org/g/iroha|iroha]]
+
+==== RocketChat (for questions and ephemeral discussions) ====
+
+  * [[https://chat.hyperledger.org/channel/iroha|#iroha]]
+
+===== Meeting =====
+
+  * Discussions are conducted on github using issues, to allow for worldwide participation.
+
+===== Related Pages =====
+
+  * [[http://iroha.tech/en/|iroha.tech]]
+
+===== History =====
+
+  * [[https://docs.google.com/document/d/1sN-6mv-m85NlbI3ZjwFkDT0izTcxbUaZN9LjLEe045Y|Proposed by Makoto Takemiya (Soramitsu), Toshiya Cho (Hitachi), Takahiro Inaba (NTT Data), and Mark Smargon (Colu)]]
+  * [[https://lists.hyperledger.org/g/tsc/message/359|Approved by the TSC on October 13, 2016]]
+  * Moved out of Incubation on May 18, 2017
+    * [[https://lists.hyperledger.org/g/tsc/message/803|Request]]
+    * [[https://lists.hyperledger.org/g/tsc/message/811|Approval]]
+

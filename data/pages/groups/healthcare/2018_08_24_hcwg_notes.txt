@@ -1,0 +1,64 @@
+Hyperledger Project\\
+Healthcare Working Group (HCWG) 
+August 24, 2018 \\
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+Meeting Notes\\
+
+There are 3 subgroups and we should consider asking  them to report in about progress from time to time on the main HCWG call.  
+     *Patient
+     *Payor
+     *EMR/EHR
+
+Patient subgroup report out
+     *The next meeting (8/31) will be pushed an hour later to allow Naomi (milk bank SME)  to participate again.
+     *The prior discussion with Naomi identified two pain points
+     *Scalability
+     *Feedback from NICU, outpatient use 
+     *The meeting on 8/31 will cover these topics as well as the regulatory/compliance landscape and information management requirements (what data are they collecting and storing)
+     *If there is time, we would also like to discuss the supply side of the equation with Naomi and get here perspective there
+     *For new donor engagement - the group suggested looking at perinatal healthcare providers as a way to connect with mothers that could donate, perhaps at the 6 wk check in
+
+Mari ordered the milk bank guidelines from Human Milk Bank of NA and will read and summarize
+
+Our build proposal was not accepted for the Hyperledger Global Forum but Mari has been accepted on a panel to discuss our work and how we’ve built the healthcare WG community
+
+Discussion
+
+     *We did confirm on the call that the proof of concept that we are busing will be US focused, as this is where our SMEs are located
+
+     *Demand is 4x the current US supply
+     *Supply end problem - recruit donors at birth or at 6 week OB appointment
+     *Lifelong impact for fragile infants
+
+Who is this Use Case designed around?
+     *Consumer vantage point
+     *Needs of consumer
+     *In this “patient centered” design, we need to keep in mind that that we have both donors and receivers of the milk that we need to keep in the center of this work
+
+Look at other supply chains
+     *Holistic life-cycle model - prototype system for addressing adequate nutrition outside the US and beyond infancy, stunting and lack of adequate nutrition is a serious problem in different countries
+     *The donor milk use case could be a piece in this larger model
+
+Callforcode.org has been proposed for a potential funding source for this work outside of Hyperledger, especially if we abstract out from the donor milk POC to the wholistic lifecycle model as it is looking for solutions that support in disaster preparedness/recovery scenarios. Join the discussion on Rocket.Chat if you are interested
+IBM has a livestream for this work every Friday at 1 pm EST - callforcode.org 
+Disaster preparedness
+
+Action Items
+     *Michael J to follow up with lactation/NICU SME at his org and see if they are interested in collaborating - Marissa happy to do an onboarding call
+     *Mari to follow up with Hyperledger to see if they are aware of any agriculture/food based supply chain efforts ongoing
+     *Rayne to provide podcasts that are relevant for the discussion and Mari to add them to the wiki
+https://www.npr.org/sections/money/2017/11/22/565736836/episode-665-the-free-food-market
+
+
+

@@ -1,0 +1,42 @@
+Hyperledger Project\\
+Public Sector Working Group (PSWG) Meeting\\
+August 17, 2018 \\
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/public-sector-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+PSWG Wiki: https://wiki.hyperledger.org/groups/public-sector-wg/public-sector-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+Meeting Notes\\
+
+1. Delaware State Use Case\\
+     *We had a very engaging presentation from Pete Teigen of IBM, on the State of Delaware's exploration of corporate filings done over Hyperledger blockchain. This was a very interesting case, as Delaware is the legal home of 2/3 of US Fortune 500 companies. \\
+
+     *We all look forward to Pete's next presentation, likely in October once the project has publicly launched. Pete will take us into the actual user interface and show code.\\
+
+2. Hyperledger Project Overviews\\
+     *Several participants expressed interest in learning more about the various Hyperledger Projects. Marta has kindly agreed to help bridge with the various communities, so that we can have ~ one presentation per call on each approach. To get us kicked off, John has very generously offered to provide a primer on Hyperledger Indy next call. Thanks, John!\\
+
+3. Replacement of Legacy Systems\\
+     *To kick off our next call, we will start with a great question from Kumar:\\
+
+When doing a Proof of Concept (PoC), how do you handle getting information from existing systems, as well as the mechanics of actually replacing that system?\\
+
+For those who have experience, questions, or an opinion on that question, please give some thought and consider sharing in the discussion next call.\\
+
+
+Other Topics\\
+The Use Case presentation format is proving to be popular and useful. If you are:\\
+
+a) Working at any stage on a project and can discuss it, or\\
+b) Considering Hyperledger, but have questions, need clarification, or would appreciate advice,\\
+
+Please get in touch, either via group channels, or directly to me. Our group appreciates opportunities to learn, and has a lot of experience that all are willing to share.\\
+
+Again, many thanks to all, and see you again soon on August 31st!\\

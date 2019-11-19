@@ -1,0 +1,6 @@
+====== Luxury Goods Tracking Use Case ======
+
+This would be intended to prevent replicas, or "knock-offs" of high-value goods, such as art, diamonds, jewelry and fashion items, by tracking their chain of ownership.
+See, for example, http://www.everledger.io/
+
+It could be thought of as an extension of [[requirements:use-cases:use-case-supply-chain-logistics|supply chain logistics]] which extends the chain to all of the owners until the good is destroyed. In that sense, it is also related to the [[requirements:use-cases:use-case-property-ownership|Property Ownership Use Case]]. Given this, this use case could focus on just the differences from the other use cases.

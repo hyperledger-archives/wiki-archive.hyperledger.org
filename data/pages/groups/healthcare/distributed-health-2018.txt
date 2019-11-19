@@ -1,0 +1,6 @@
+===== Distributed Health 2018 =====
+
+  * [[https://health.distributed.com/|Website]]
+  * Communications : [[https://lists.hyperledger.org/g/healthcare-wg/message/599|Reminder]], [[https://lists.hyperledger.org/g/healthcare-wg/message/623|Final update]]
+
+  * [[https://drive.google.com/open?id=1U2ldEkLpmk-ypAQOIIqM4yvdbmVcdURo|Conference notes]] (summary provided by Adrian Berg and Michael Johnson)

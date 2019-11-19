@@ -1,0 +1,81 @@
+====== Use Case KYC ======
+
+===== Section 1 - Intro =====
+
+Know your customer (KYC) is the process of a business verifying the identity of its clients. The term is also used to refer to the bank regulation which governs these activities. Know your customer processes are also employed by companies of all sizes for the purpose of ensuring their proposed agents, consultants, or distributors are anti-bribery compliant. Banks, insurers and export creditors are increasingly demanding that customers provide detailed anti-corruption due diligence information, to verify their probity and integrity.
+
+[[https://en.wikipedia.org/wiki/Know_your_customer | Wikipedia]]
+
+==== Current Solution ====
+
+There are several parts to the KYC process:
+
+  * Acquiring personal information  
+tell me your name and address and source of wealth
+  * Acquiring proofs of personal information  
+prove your name and address and source of wealth by showing me documents
+  * Storage of personal information  
+so we can prove to regulators that we know you and have followed this process
+  * Background checks, sometimes called CDD or Client Due Diligence  
+so we can find out a little more about you and your background
+  * Ongoing monitoring of changes to clients  
+so if you become a criminal, we can react appropriately
+
+==== Why Distributed Ledger technology? ====
+
+Blockchain removes the need to trust a third party by trusting the network-agreed data set.
+
+  * Articulated Concepts:
+    * Cetas - Decentralised KYC and AML framework
+    * A concept to KYC on Blockchain\Ledger is articulated by Flagtheory and seems to be compliant with regulations. Reference http://flagtheory.com/kyc-chain/
+    * tlsnotary.org can support a Global KYC solution as an addition that complements a holistic solution
+  * Goal - Articulate a reference model, design and propose solutions for a Global KYC Database
+
+===== Section 1 - Requirements =====
+
+==== General Requirements ====
+
+**Role based participation** - allow users of different roles to query or update different attributes of a record.
+
+Roles:
+
+  * Consumers
+  * Bankers
+  * Regulators
+  * Government Authorities
+
+User Stories:
+
+  * User Story: Consumer wants to open a bank account and brings the documents needed for KYC procedure to the branch. The documents are verified, originals sighted and scanned. As there is no record for the consumer in the global KYC database the data and images are uploaded, the record is created and the consumer is given a key to his record. Retail Bank now has read only access to the identity record and write access to update consumer's risk profile.
+
+  * User Story: Consumer wants to apply for a mortgage and Mortgage Bank requires a subset of identity data the consumer already has in the global KYC database. Consumer fills out an application on Mortgage Bank's website and invokes a procedure similar to third pary _login with_ which opens a window hosted by the KYC server prompting consumer which attributes of his record to share with Mortgage Bank. Consumer inputs his key and selects only the ones needed for his mortgage application and allows to share the data. Mortgage Bank now has read only access to the record; this fact is recorded on the ledger.
+
+  * User Story: Regulator queries the ledger to check if Mortgage Bank followed KYC procedures for Consumer.
+
+  * User Story: Retail bank sees unusual activity in consumer's account and updates consumer's record in the KYC database with a risk flag.
+
+  * User Story: Consumer refinances his mortgage: he applies on another mortgage bank's website, allows to share his identity data and at the same time revokes the access by the original Mortgage Bank.
+
+  * User Story: Consumer asks Government Authority to verify and _stamp_ an individual document uploaded to the KYC database as valid. Authority has write access to add an attribute marking this particular document as valid. Authority verifies the document against their own database.
+
+  * User Story: Regulator creates requirements for an identity record to bear a stamp of approval: a certain number of documents need to be stamped by Authorities. Consumers can build up reputation by having their KYC record endorsed by trusted parties.
+
+**Auditability**
+
+**Immutability**
+
+==== Privacy Requirements ====
+
+**Selective visibility**
+
+Data: customer documents such as SSN, tax returns, scans of ids, property titles.
+
+  * only store commitments -- hashes of documents on blockchain -- while documents themselves are stored in ipfs, S3, Google Drive
+    * blockchain only records the fact that some parties decrypted, examined and verified
+    * how is it then different from tlsnotary.org?
+    * in order to decrypt docs stored outside the customer needs to give out keys to each bank that needs to see them. Do we pass these keys via blockchain? Store them on blockchain?
+
+  * store customer data on blockchain
+    * what are validating nodes, are they permitted to see the data? if so we're increasing risk by multiplying points of access
+    * zero knowledge proof
+    * are validating nodes the ones permitted by the customer to see the data? Is it possible to designate validators like this? perhaps per chaincode (then each customer data becomes a separate chaincode)? 

@@ -1,0 +1,38 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Hyperledger Composer
+
+===== Project Health =====
+We are delivering weekly releases with new functionality and bug fixes to the community, with a quick turn around of community raised bugs. There has been a substantial increase in the number of questions asked on both RocketChat and StackOverflow. Our community calls are seeing a small but continued participation where we are receiving feedback and questions. However we are struggling to attract external contributors and we are looking for ways for more people to get involved.
+
+
+===== Issues =====
+The team is trying to increase the number of contributors outside IBM. We plan to do this in a variety of ways. The first is to create more YouTube videos and writing more blog posts, and the second is to push for more contributors after our 0.16 release by offering potential contributors mentors to help them get started contributing to Composer.
+
+
+===== Releases =====
+Hyperledger Composer has released almost weekly since September, and have released 10 versions. This started with version 0.12.1 (7th Sept) and the most recent release was 0.15 (9th Sept)
+
+
+===== Overall Activity in the Past Quarter =====
+Since September there has been an increase in the number of followers on the RocketChat channels, and there has also been an increase in traffic to the channels. We have had 212 questions asked on StackOverflow with the Hyperledger-Composer tag, this accounts for around 40% of total questions that have been asked on StackOverflow since the tag was introduced.
+
+
+===== Current Plans =====
+At the end of November, we will cut a 0.16 release, after which point we will work towards dropping support for Fabric 1.0 and supporting Fabric version 1.1. We also plan to introduce the concept of Links and other functionality requested by the community, with an outlook to deliver a 1.0 release of Composer.
+
+
+===== Maintainer Diversity =====
+The number of maintainers has increased by one, and the diversity has grown as one maintainer joined another company. The project now has 3 maintainers IBM(2), Clause(1).
+
+
+
+===== Contributor Diversity =====
+Since September, Hyperledger Composer has had 206 pull requests from 22 contributors representing 4 individuals and organisations. 
+
+
+===== Additional Information =====
+None at this time
+
+ 

@@ -1,0 +1,162 @@
+// There are TBD sections that need to be clarified. Relation to other use cases needs to be clarified.//
+
+====== Use Case Asset Depository ======
+
+===== Section 1 - Intro =====
+
+==== Overview of the Business Problem or Opportunity ====
+
+Assets such as financial securities must be able to be dematerialized on a blockchain network, so that all stakeholders of an asset type will have direct access to each asset, allowing them to initiate trades and acquire information on an asset without going through layers of intermediaries. Trades can be settled in a timeframe agreed between the stakeholders, including near real time if required, and all stakeholders must be able to access asset information in near real time. A stakeholder should be able to add business rules for any given asset type, which further reduces operating costs by implementing automation logic. The creator of the asset must be able to make the asset and any rules associated with the trading of that asset private and confidential, or public as the use case warrants. For example, the creator should be able to create an asset such that the trade history and current balance of a holder of the asset is not available to the other asset holders and perhaps not even available the the creator itself.
+
+==== Current Solution ====
+
+  * Clearing corporations such as DTCC and FICC for stocks and bonds traded on exchanges. 
+They are intermediaries trusted and often owned by the parties involved in trading these assets.
+
+  * Investment banks for private issues traded over the counter. 
+Trusted intermediary that helped issue the asset also manages its lifecycle.
+
+Currently assets are tracked in many ledgers that need to constantly reconcile with each other. A stock trade is reflected in the ledgers of the investor, his broker, the exchange and the depositary. Often all of these parties need to produce reports of their trading for the regulators, multiplying the effort. 
+
+An opportunity exists to:
+
+  * Replace the intermediaries by other mechanisms that provide trust to the parties issuing and trading the assets.
+  * Replace multiple ledgers by one decentralized ledger where one real world security contract is represented by one record. 
+  * Provide transparency to the asset ledger at the same time protecting interests of the investors. Public properties of assets will be easily accessible while private properties such as its owner and history will be visible only to the parties permitted, such as the issuer, previous and current owner, the regulator.
+
+==== Why Distributed Ledger technology? ====
+
+  * Trust between parties can be provided by a distributed ledger. 
+  * All stakeholders will have access to the ledger with different masks to the properties of the asset. 
+  * Access to the ledger is permissioned and provided to the issuers, investors and regulators. 
+
+
+==== User Stories ====
+
+=== Actors ===
+
+  * Issuer: an entity creating and destroying assets on the ledger
+  * Investor: an owner of the asset other than the issuer
+  * Auditor: has read only access to scrutinize trading and ownership of assets
+  * Exchange: connects Investors who want to trade assets and hides their identities
+  * Public: has read only access to the basic properties of assets
+  * Administrator: permissions role based access to the ledger
+
+=== Stories ===
+
+Payment of premium to the investor as well as trading of the assets happen outside of this use case.
+
+== Asset is created ==
+
+Issuer creates a records on the ledger representing assets. Common properties of the assets are grouped into another record.
+
+Example: Bond
+
+  * A company needs to borrow money from investors. It will issue a 5 year corporate bond that can be sold to the general public and traded. 
+  * The company assumes the role of Issuer and creates a record on the ledger to represent the bond with its properties like principal $1000,000, rate 5% and maturity 2021-05-22. The identifier of this record will be used to refer to the bond in trading. 
+  * The principal is divided into smaller contracts of $10,000 which are traded on exchanges and cannot be divided. Issuer creates a record on the ledger for each contract.
+
+Example: Equity
+
+  * A company needs to raise money by selling its stock to investors. It will issue 1000 common shares. 
+  * The company assumes the role of Issuer and creates a record on the ledger to represent the investment round with its properties. The identifier of this record will be used to refer to the stock in trading. 
+  * The issue consist of 1000 shares which are traded on exchanges and cannot be divided. Issuer creates a record on the ledger for each share. The record represents a stock certificate.
+
+== Asset changes ownership ==
+
+Current and next owners of assets command the ledger to change their ownership.
+
+Example: Private Sale
+
+  * 100 shares are sold privately from one Investor to another. The Investors know each other. The shares are identified by one common id like a company ticker, or each stock certificate may be identified.
+  * The buyer reports the trade to the ledger, supplying ids of the buyer and the seller, and approving the trade from his side with a signature proving its identity. The buyer also supplies the id of the issue and the number of assets traded.
+  * The seller receives compensation for the assets and approves the trade by supplying its signature.
+  * The ledger has the trade record approved by the buyer and the seller and changes ownership of the assets. 
+
+Example: Trade on an Exchange
+
+  * 100 shares are sold on an Exchange. The Investors don't know each other, but Exchange does.
+  * Exchange reports the trade to the ledger, supplying the buyer and seller ids which will remain hidden from them. The ledger creates a record of trade and returns its id to Exchange.
+  * Exchange communicates the trade's id to the buyer and the seller who each have to approve it.
+  * The buyer approves the trade by supplying its signature to the ledger.
+  * The seller receives compensation for the assets and also approves the trade.
+  * The ledger has the trade record approved by the buyer and the seller and changes ownership of the assets.
+
+== Asset is destroyed ==
+
+Issuer destroys assets by changing their state.
+
+  * The bond matures and its Issuer pays back the principal to the Investors holding the assets.
+  * Upon receiving the principal Investor initiates a transfer back to Issuer by supplying asset ids and his signature.
+  * Issuer takes out the contracts from circulation by changing their state so the assets can no longer change ownership.
+
+==== Opportunity/Justification ====
+
+  * While a long shot at replacing clearing corporations the distributed ledger can provide cost savings by taking custodian functions of investment banks in private securities issues
+  * Permissioned ledger allows only the participants involved in issuing and trading of assets
+  * The entire history of assets is available for audit
+  * The ledger serves as a security master database for the public
+
+----
+
+===== Section 2 - States and Transactions =====
+
+=== Entities ===
+
+  * Asset. A dematerialized representation of a real world asset such as a stock certificate or a bond contract.
+  * Issue. Attributes common to a number of Assets like bond rate or the share's company name.
+
+=== States ===
+
+  * Trade. A record of a transfer of ownership.
+
+=== Transitions ===
+
+  * Asset, Issue
+    * Created - Destroyed
+
+  * Trade
+    * Created - Buyer Approved - Seller Approved - Closed
+    * Created - Buyer Approved - Seller DK (don't know) - Closed (and vice versa) 
+
+----
+
+===== Section 3 - Requirements =====
+
+==== General Requirements ====
+
+**Asset issuance** – Ability to allow authorized entities to issue new kinds of assets on a blockchain network.
+
+//User Story//: E-Fun Inc, a hypothetical gaming company, can issue new bonds on a blockchain network that they are authorized to do issue new bond asset. 
+
+**Asset management** – Ability to allow authorized entities to control the initial allocation of the asset issuance, and to enable authorized entities to expand the size of the total issue at later times
+
+//User Story//: E-Fun hired Bank A to help them sell their bonds, and Bank A reached out to Bank B and Bank C as their partners to sell E-Fun’s bond with a haircut. After the contractual agreement is signed among the partners, the asset will be accurately allocated to partners according to the contract.
+
+**Asset lifecycle** – Ability to control the life cycle of the assets issued
+
+//User Story//: Like other corporate bonds, bonds issued by E-Fun needs to make coupon and principle payments back to its investors based on predefined rules. After a bond reaches maturity, they must be deprecated on the blockchain.
+
+**Asset trading** – allow asset owners to transfer their assets to other investors (new owners)
+
+//User Story//: After the initial issuance, E-Fun’s corporate bond can be traded on the open market. If the bond is dematerialized on a blockchain network, its owners must be able to easily transfer/sell their bonds to other investors
+
+
+==== Privacy Requirements ====
+
+**Confidentiality of account book** – Payload of asset transfer transactions must be hidden such that no one besides the stakeholders of a transaction can interrogate its content. Likewise, no one shall be able to deduce others’ trading behaviors by analyzing the ledger. In another word, an investor can only interrogate the balance of his/her own account book.
+
+//User Story//: If Alice and Bob are both investors of E-Fun’s new corporate bond issue, each of them can only interrogate their own balance on the shared blockchain ledger. That is, Alice shall not be able to deduce how much bond does Bob own, or infer Bob’s investment behavior.
+
+----
+
+==== External References ====
+
+TBD
+
+==== Glossary/Appendices ====
+
+TBD
+
+----
+Acknowledgement: This is very loosely based on the OpenStack [[https://github.com/openstack/openstack-user-stories/blob/master/user-story-template.rst | use case template]]

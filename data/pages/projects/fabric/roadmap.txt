@@ -1,0 +1,11 @@
+==== Hyperledger Fabric Roadmap ====
+
+The roadmap can be viewed on the [[https://jira.hyperledger.org/secure/Dashboard.jspa?selectPageId=10104|Jira project dashboard]].
+
+Discussion for Fabric releases happens [[https://chat.hyperledger.org/channel/fabric-release|on the #fabric-release channel in RocketChat]].
+
+See [[https://github.com/hyperledger/fabric#releases|prior release notes]] for release history and content.  Prior release documentation can be found in the [[https://github.com/hyperledger/fabric#documentation-getting-started-and-developer-guides|documentation links]].
+
+Beginning with the 1.2.0 release, the Fabric maintainers plan on publishing quarterly, focused releases that target a small number of themes for improvements and new features. 
+
+We maintain a [[https://jira.hyperledger.org/secure/Dashboard.jspa?selectPageId=10701|JIRA release dashboard]] for the upcoming release.  The top left gadget on the dashboard indicates which Epics are currently in progress for the upcoming release.

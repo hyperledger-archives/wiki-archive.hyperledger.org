@@ -1,0 +1,361 @@
+==== 2017-06-23 ==== 
+
+Meeting will be held at [[https://chat.hyperledger.org/channel/fabric-sdk-py|rocketchat]] at 11AM (GMT+8).
+
+  * [[https://jira.hyperledger.org/browse/FAB-4623?jql=project%20%3D%20FAB%20AND%20status%20in%20(%22In%20Progress%22%2C%20%22To%20Do%22)%20AND%20component%20%3D%20fabric-sdk-py | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+status:open | Open Patchset for review]]
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]]
+
+=== Agenda ===
+
+  * MVP remaining tasks: [[https://jira.hyperledger.org/browse/FAB-4877|FAB-4877]] done by Kai Chen
+  * Images/docker-compose-files update: [[https://jira.hyperledger.org/browse/FAB-4741|FAB-4741]] done by Qiang Wang
+  * E2E: Dong Wang is working on [[https://jira.hyperledger.org/browse/FAB-2871 | FAB-2871]]
+  * User Role: Wei Hu is working on [[https://jira.hyperledger.org/browse/FAB-3885|FAB-3885]]
+  * Proto Files Update: Tony Yang is working on [[https://jira.hyperledger.org/browse/FAB-4592|FAB-4592]]
+  * EventHub: Chang Chen is working on [[https://jira.hyperledger.org/browse/FAB-4822|FAB-4822]]
+  * TODO issues:
+    * Update license header: [[https://jira.hyperledger.org/browse/FAB-4742|FAB-4742]]
+    * Support provided password in the enroll request: [[https://jira.hyperledger.org/browse/FAB-3165|FAB-3165]]
+  * Other issues
+    * 
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Baohua Yang
+  * Kai Chen
+  * Chang Chen
+  * Qiang Wang
+  * Tony Yang
+  * Dong Wang
+  * Mukkaysh Srivastav
+
+
+=== Log ===
+
+baohua 10:59 AM
+ok, who's online for the meeting?
+
+tonyyang132 11:00 AM
+I am
+
+baohua 11:00 AM
+@grapebaba @qiang0723
+thanks, tony
+
+qiang0723 11:00 AM
+✋
+
+baohua 11:01 AM
+@lafenicecc
+ok, let's start
+today's agenda is at https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20170623
+
+grapebaba 11:01 AM
+✋
+
+WeiHu 11:01 AM
+✋
+
+baohua 11:01 AM
+got two patchset merged
+FAB-4877 done by Kai Chen
+FAB-4741 done by Qiang Wang
+Thanks!
+And Dong Wang is working on FAB-2871 @WangDong
+not sure if he's online
+User Role: Wei Hu is working on FAB-3885 @WeiHu
+could u help share the progress? @WeiHu
+
+lafenicecc 11:03 AM
+🤚
+
+WeiHu 11:03 AM
+I wonder whether `create channel` is implemented?
+
+baohua 11:04 AM
+For sdk, it actually can assume the fabric network is already there (started, and peer already joined the new created channel).
+
+WeiHu 11:04 AM
+I'll finish fab-3885 after this task is done
+
+baohua 11:04 AM
+using the docker-compose files, after bootup, we can setup the channel and join through scripts first.
+How do u think, if this way works for u? wei
+
+WangDong 11:05 AM
+I am here
+
+baohua 11:05 AM
+@grapebaba i guess the chaincode operations have higher priority
+
+WeiHu 11:05 AM
+get it
+
+baohua 11:06 AM
+thanks, wei, pls do not stuck 🙂
+thanks @WangDong would u help update FAB-2871? the e2e api design?
+we just close ray's prior patchset, hope u can open new one for that
+https://jira.hyperledger.org/browse/FAB-2871
+
+WangDong 11:07 AM
+I just referred the node sdk. The first step will be creating channel test
+I am trying to give birth it then
+
+baohua 11:08 AM
+yeap, dong, as suggested last week, we need the entire workflow defined first, then can implement each steps with other components being finished.
+thanks for the help!
+OK, and Proto Files Update: Tony Yang is working on FAB-4592
+the patchset is at https://gerrit.hyperledger.org/r/#/c/11003
+
+tonyyang132 11:09 AM
+Yeah
+
+baohua 11:09 AM
+Would highly encourage everyone to help review, not only just contributing code. review is very important 🙂
+any thing to sync, tony?
+
+WangDong 11:10 AM
+Ah, I will try to give a design then. Sorry for the miss.
+
+baohua 11:10 AM
+🐌
+
+tonyyang132 11:10 AM
+Nothing else other than asking help for reviews
+😬
+
+baohua 11:11 AM
+thanks, can would u like to share how do u update it? main steps?
+
+srivmukk 11:11 AM
+I can help in reviewing. Let me know please
+
+qiang0723 11:11 AM
+I think i can help implement demo e2e @WangDong
+
+baohua 11:11 AM
+hence other people may learn 🙂
+@srivmukk feel free to review it!
+
+WangDong 11:11 AM
+@qiang0723 that will be greate
+
+baohua 11:11 AM   
+every patchset is open, just add ur name there, then u're an honored reviewer!
+
+tonyyang132 11:12 AM
+yeah. I diff'ed all the proto files with that of the fabric ones
+eliminated the ones that are only in fabric, and synced the rest, and then make proto
+
+baohua 11:14 AM
+yeap, thanks and remember to notice that some generated files needs a abstract import path
+due to limit support of pb
+and every code contributor, pls feel free to add ur name at the statistics at https://wiki.hyperledger.org/groups/twgc/team_di
+OK, EventHub: Chang Chen is working on FAB-4822
+https://jira.hyperledger.org/browse/FAB-4822
+
+tonyyang132 11:15 AM
+sorry, how do you mean by abstract import path?
+
+baohua 11:16 AM
+@tonyyang132 u may notice we have manually update some import path in the generated py files.
+
+lafenicecc 11:16 AM
+Working on eventhub. Will have patchset next week
+
+grapebaba 11:16 AM
+@tonyyang132 we must change the import path of the proto files in fabric
+
+tonyyang132 11:16 AM
+oops, I didn't manually update any generated py files
+
+grapebaba 11:17 AM
+please check the current py files header
+
+tonyyang132 11:17 AM
+guess I need to take another look
+
+grapebaba 11:17 AM
+i don't mean py files
+i mean .proto files
+
+tonyyang132 11:17 AM
+oh, proto files
+I did see those
+
+grapebaba 11:17 AM
+yeah
+
+baohua 11:17 AM
+like this one in ab.proto: `import "hfc/protos/common/common.proto";`
+the original one is `import common.proto`
+need to update the path as kai indicated
+
+tonyyang132 11:18 AM
+prefixed by the hfc directory
+
+baohua 11:18 AM   
+seems only several files need that change @grapebaba ?
+
+tonyyang132 11:18 AM
+I left those diffs as is
+
+baohua 11:19 AM
+yeap, that's smart action
+OK, for next item: we need some one to help add license headers to the source code: https://jira.hyperledger.org/browse/FAB-4742
+any volunteer?
+@srivmukk
+
+srivmukk 11:20 AM
+k
+
+baohua 11:20 AM
+would u like to help fix it?
+
+grapebaba 11:20 AM
+@tonyyang132 that is a workaround to generate correct py files
+
+srivmukk 11:21 AM
+@baohua .. Sure, I can try.
+
+tonyyang132 11:21 AM
+Thanks @grapebaba for elaborating
+
+baohua 11:21 AM
+thanks, pls assign urself as the assignee in the jira link 🙂
+
+grapebaba 11:21 AM
+you must check the current project module and modify the .proto import
+
+baohua 11:22 AM
+mainly, we need an apache 2 header in every source code file, and some cc license description at the bottom of the documentation. feel free to fix one by one step.
+Ok, next item: Support provided password in the enroll request: FAB-3165
+https://jira.hyperledger.org/browse/FAB-3165
+this means when enroll, user can optionally choose to use the password they provided
+instead of only accepting randomly generate one from the server part.
+anyone would like to help on this?
+aha, @WangDong guess u would like to pick this!
+
+WangDong 11:24 AM
+I will have to finish the e2e first.
+
+baohua 11:24 AM
+very helpful to understand the e2e workflow by fixing this
+
+WangDong 11:24 AM
+haha
+
+baohua 11:25 AM
+ok, so anyone else to fix this one?
+https://jira.hyperledger.org/browse/FAB-3165
+OK, if nobody takes, i will eat it!
+great discussions and progress this week, that's all the agenda
+any else to discuss? @grapebaba
+  
+anyone has issue to discuss more?
+
+grapebaba 11:27 AM
+there are a lot of changes with our previous implementation such as msp, identity, user
+
+baohua 11:27 AM
+aha, mostly, we move the membership part to a seperate dir named fabric-ca
+
+grapebaba 11:27 AM
+and some new underlying component added
+such as block decoder
+
+baohua 11:27 AM
+and the main part keeps as in the fabric dir
+
+grapebaba 11:28 AM
+i think we need revisit these underlying component first
+
+baohua 11:28 AM
+and the mvp (support chaincode operations) is with the highest priority
+@grapebaba more details?
+
+grapebaba 11:29 AM
+i do not think we can implement mvp without these components
+
+baohua 11:29 AM
+any reason?
+
+grapebaba 11:30 AM
+i just check the code
+for implement create channel
+
+baohua 11:30 AM
+suppose we assume having a joined channel by docker-compose and scripts.
+
+grapebaba 11:30 AM
+actually a lot of work need to do
+
+baohua 11:31 AM
+yeap, to avoid stucking, we can first use scripts to do the channel creation/joining work, does that make sense?
+as the official e2e does.
+
+grapebaba 11:31 AM
+i agree
+
+baohua 11:32 AM
+then it would be easier to finish the chaincode operations support. after that, we can focus on the channel staffs.
+as the channel part is still in-change....
+OK. any other issue?
+
+grapebaba 11:32 AM
+but i didn't check that if we can implement chaincode operation easily right now
+
+baohua 11:33 AM
+no worry, we will do it step by step: install first!
+  
+@grapebaba would suggest u help finish the install code (almost done)
+and then instantiate
+@WangDong anything to say?
+
+WangDong 11:35 AM
+I saw the chang log is outdated for long. I think if some one makes the changes, he is responsible to update it. It will be helpful for other to understand the work.
+
+baohua 11:35 AM
+saw u're in typing status
+aha, good suggestion!
+@lafenicecc could u help create a jira task for that?
+we need to update the changelog accordingly
+
+lafenicecc 11:36 AM
+ok
+
+baohua 11:36 AM
+anyone wanna help fix it right now?
+
+WangDong 11:37 AM
+shall we have a rule to let the everyone to take care of his part?
+
+grapebaba 11:37 AM
+shall we have a design disccusion
+at some time
+before that, we need every look at the node or java SDK
+
+baohua 11:38 AM
+ok, @grapebaba pls help org one and negotiate a time slot within the group
+
+grapebaba 11:38 AM
+I have several questions
+
+baohua 11:38 AM
+u may use phone call for that 🙂
+
+grapebaba 11:39 AM
+yes
+
+baohua 11:39 AM
+Ok, any more issue for the meeting today?
+OK. if no more issue, will end the meeting, thanks every attendee and have a nice weekend!
+
+WangDong 11:40 AM
+have a nice weekend
+
+tonyyang132 11:42 AM 
+Thank you and bye

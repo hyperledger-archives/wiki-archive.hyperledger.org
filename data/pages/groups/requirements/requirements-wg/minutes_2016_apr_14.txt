@@ -1,0 +1,9 @@
+====== Requirements WG Minutes - April 14th, 2016 ======
+
+  * Requirements team meetings will be held every Monday 0800-0900 PDT. Will be announced today.
+
+  * There was no meeting this week (while we were polling for the preferred day/time).
+
+  * April 18 agenda: Primrose Mbanefo (Accenture) will lead the team through the [[requirements:use-cases:use-case-counterfeit-drug-prevention-and-detection | Counterfeit Drugs use case]].  In the process, we can educate all of the team members on many of the existing requirement questions in the template and develop new ones as needed. 
+
+  * We have a outline for a [[requirements:templates:requirement-document | Requirements document]]. 

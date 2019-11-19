@@ -1,0 +1,53 @@
+==== 2018-03-09 ==== 
+
+Meeting will be held at [[ https://zoom.us/j/137692502 | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/fabric-sdk-py|rocketchat]] (for text chat) at:
+
+  * 11:00AM   (UTC-2)
+  * 02:00PM   (UTC+1)
+  * 06:30PM   (UTC+0530)
+  * 09:00PM   (UTC+8)
+
+  * [[https://jira.hyperledger.org/browse/FAB-4623?jql=project%20%3D%20FAB%20AND%20status%20in%20(%22In%20Progress%22%2C%20%22To%20Do%22)%20AND%20component%20%3D%20fabric-sdk-py | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+status:open | Open Patchset for review]]
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]]
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  * Recent Progress: 
+    * channel create: done
+    * channel join: done, need refine to provide user-friendly API
+    * chaincode install: done
+    * chaincode instantiate: in-progress by Dong
+    * Tutorial framework: done
+    * Block decoding: in-progress by sudheesh
+  * chaincode Instantiate: Tony and kai are working on [[https://jira.hyperledger.org/browse/FAB-5489 | FAB-5489]]
+  * chaincode Invoke: Zhaofang Han is working on [[https://jira.hyperledger.org/browse/FAB-5491 | FAB-5491]]
+  * chaincode Invoke: Dong Wang is working on [[https://jira.hyperledger.org/browse/FAB-6985|FAB-6985]]
+  * EventHub: sudheesh is working on [[https://jira.hyperledger.org/browse/FAB-4822|FAB-4822]]
+  * TODO issues
+    * Refine existing code to provide user-friendly client API
+    * Finish tutorial documentation
+  * Other Issues:
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+  * Amit Kumar Gupta
+  * Baohua Yang
+  * Dong Wang
+
+=== log ===
+
+
+We have new guy to join, Amit.
+  1. After checking, the blocker of chain code instantiation is resolved, which is one missed step of
+     send the transaction to the orderer after the endorsement. The chain code instantiation and invoke
+     will be completed soon after the blocker resolved.
+
+   
+  2. And we need more people to contribute to the document which Will be helpful for user.
+
+    
+  3. sudheesh001 did a great job last week. He got some patch sets. More reviewers will also be welcome.
+

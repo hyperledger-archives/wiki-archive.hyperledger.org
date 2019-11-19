@@ -1,0 +1,1032 @@
+=====  Notes from Fabric Discussion 23-JAN-2017 morning =====
+
+notes from Sharon Cocco (weeds):
+
+<file> ----- Today January 23rd, 2017 -----
+
+weeds [06:32] A few people are meeting to talk about the status
+               of the Master code base.  I am slacking the information as a
+               result- this is real time discussion 
+
+      [06:35]  There are multiple lists on the board-- these are
+               all the stuff we want to walk through and determine where we are
+               specifically-- TLS, validation message and TX, replay attacks,
+               replication MSPs for gossip, anchor peers, channel leaders, HSM
+               (key generation), chaincode return object, chaincode endorsement
+               policy, revisit events, chaincode life-cycle (deploy/init
+               upgrade,.. and policy), ERror handling, bootstrap with
+               pre-defined channels, custom TX, CLI accepts multiple peers,
+               application crypto library, system Chaincode refactor (location)
+               and Chaincode calling chaincode 
+
+      [06:36]  For SDK- (node.js, and Java)- Java only : create
+               "official"branch, events support (example: rejection in
+               blockchain), chain  join ( creation basically done), REST
+               wrapper, anything left in MSP, Java Chaincode, TCERt private key
+               derivation, query on ledger
+
+      [06:38]  For SDK- add RSA , escc, vscc
+
+      [06:40]  For Docs- high level overview- ferris; technical
+               overview- Josh; remove version 0.6 material; docker compose- 3
+               configs; ordering configs, CA configs- Keith ; APIs- Jz, SDK- JZ,
+               policies- Murali; channels- murali
+
+      [06:40]  For Docs- end to end Barry/Ramesh
+
+      [06:42]  For Fabric - CA: Docs- API doc /swagger; readme;
+               read the docs,... CLI simplification; TCERt- BCCSP integration/.
+               option 2 (HSM friendly) support; HSM support- BCCSP or lets
+               ecnrypt PrSCH; BCCSP for auth. header; Intermediate CA support? ;
+               Test
+
+      [06:42]  For BDD- RSA, P384, Deploy CC, Mutlichannel
+
+      [06:42]  That is what is currently on the board...
+
+      [06:43]  Binh- let's quickly review this list and anything
+               else we can add on, but these are the items that we want to
+               target for alpha for the end of this month
+
+      [06:43]  (items are being added that I will try to add
+               here)
+
+      [06:44]  For Doc- Couddb/ledger- Dave
+
+      [06:46]  For Ledger- finish couch Miscellaneous items
+               (versioning, deletes); Query expose to application chaincode;
+               history of key values(level db) - add to QSCC, expose to
+               application chaincode; Chaincode examples- table replacement,
+               query, history
+
+      [06:46]  for DOC- Gossary of terms- Nick, SCC- Murali
+
+      [06:47]  ----------------------here is where discussion has
+               started-------------------------------------------
+
+      [06:48]  To original list- experation of MSP certs
+
+      [06:50]  what else on the list before we go through? (binh
+               asked)
+
+      [06:50]  Gari suggesting we go through first pass and
+               eliminating pieces we should not go after
+
+      [06:51]  let's do the list starting with TLS first and then
+               Ledger, then SDK, fabric CA and whatever we decide will effect
+               the docs
+
+      [06:51]  TLS- the server side works and you can dynamically
+               add certificates to it incrementally and that's all checked
+               in---- Under BDD we added TLS
+
+      [06:52]  Validation of messages and transactions- this is
+               Ale's items, this is almost done
+
+      [06:54]  Replay Attacks- Angelo indicated what we have
+               committers check the transaction id is duplicated- only the
+               committers, but we have to generate the transaction id, which we
+               don't- so we had long discussion.. we agreed to generate a nonce
+               and generate with creater's id and hash that.. that part is
+               important. whether we can create the replay attacks or not may
+               not be completed
+
+      [06:55]  The discussion we had with murali is what if
+               legacy software is using for application related- so generating
+               for nonce of creator might not be accepted.
+
+      [06:58]  Today- we need to solve replay attacks and mine
+               the transaction id to the identity of the creator.  We need to
+               use the TX-ID generator- this is equal to the creator plus the
+               nonce.. this has to be done prior to preventing replay.. SDK is
+               already generating a transaction id,.. but it's not done in the
+               way that is highlighted here.  There as to be an adapter into a
+               question- some event comes out- you call api and you can map the
+               transaction id.. if you want to track it- pass it in as a
+               parameter.   The question is for doing it- if we are going to be
+               consistent on the SDKs and you agree and creator + nonce- it's
+               not a hard piece of work. are we going to do it or not?  We do
+               generate an ID today... the id is nonce so we have creator
+
+      [06:59]  we will not do this for end of the month on
+               transactionj id generator- creator + nonce
+
+      [07:00]  Replication MSPs for gossip- basically we
+               formatted a final document at end of last week, we need to close
+               some edgers, but if enough time to talk with Elli, I will like
+               Gari/Binh to review and after that- we can finish this out
+
+      [07:02]  Anchor peers- upon channel creation, anchor is
+               there, and we checked manually it works.  I hav enot seen code
+               that deels with configuration of stuff in peer when new
+               configuration blocks comes from ordering service. and the
+               adjacent manager config transaction is not in the peer.  Jeff
+               added that yesterday in BDD... he added the anchor peers in BDD.
+               BUT we don't have a configuration handler on the peer side-
+               without that, we can not deal with the configurations that are
+               not associated with channel creation..... We also need to do
+               extra work in the peer.   We need to combine jeff's work.
+
+      [07:03]  Board changes- Anchor config block with handler;
+               BDD
+
+      [07:03]  Channel Leader- basically the code that elects the
+               leader is inside and has been merged since beginning of last
+               week. the only thing missing is plugging into gossip.  I have a
+               chainset that I need to code review for this
+
+      [07:04]  HSM (key generation)- Vlad said we need on key
+               derivation... our proposal is to remove this from end of January.
+
+ashutoshkumar [07:05] last sentence is not clear.
+
+weeds [07:07] Chaincode Rerturn Object- We have a merge conflict
+               and Murali is checking it right now.. we need to leave this here,
+               but it's pretty close . WE are returning an object from protos
+               that we effined a long time ago- now we are returning an object
+               that we are returning code where we use HTTP return status code
+               where 100's 200's 500's and a message in there and a payload
+               (which is a byte array).  This gives more flexibility for
+               chaincode to return what is needed.  If you ask me to endorse
+               something and I need to kick off a workflow- I will return code
+               saying incomplete,etc,.. ; SDK list is being updated
+
+      [07:07]  SDK: added Update CC return object
+
+      [07:08]  @ashutoshkumar we are making decisions on what we
+               are going to get done for end of January for our Alpha/Beta code-
+               we will not try to tackle completing the HSM work is the net.
+               Clearly if open source team has it complete- we can relook at the
+               decision, but we're trying to make sure we prioritize as we want
+               to get very clean Docker images and compose scripts for members
+               of the community who want to program and play with version 1.0
+
+      [07:08]  I'm currently taking notes on the discussions here
+               on what we should focus on among several people in community
+
+      [07:09]  (not everyone is attending, so we are going to be
+               looking for feedback to go to @binhn  .. this is a first cut
+               proposal)
+
+ashutoshkumar [07:09] thanks @weeds
+
+weeds [07:12] We need to add some additional work on chaincode
+               return object- the remaining work after we merge this latest
+               piece is to take the work Jim has done and completing it writing
+               it down to the ledger.  Why would you write the response down to
+               the ledger?  Not in the state base, but we would write in the
+               transaction, so we can record the response code.  We store events
+               from chaincode into the ledger- so the worry was that we are
+               getting all tehse responses and we are not saving it or
+               persisting it.   So it's not in the signed part of the block?
+               The events are not in signed part of the block- yes they are in
+               signed part of the block.  Is it important to persist this
+               information?  If it's part of transaction and app is using it to
+               make decisions, then it seems like it is important.  In the query
+               - we never send that so it really does not matter there.  So if
+               transaction id- what was the response?  that one piece of
+               information- we store everything in transaction, that could be
+               important for auditing like chaincode events... Added
+               "Transaction proto should contain repsonse"
+
+      [07:14]  Chaincode endorsement policy: what kind of
+               policies are we going to provide?  My understanding is that you
+               can specify bv VSCC in lifecycle chaincode- if you give complex
+               policies- code validating is there... the code in CLI/SDK is
+               not... you send request, at time of commitment, the code is there
+               to query the lifecycle chaincode and to validate that all the
+               people are signing off.  Are we using same policy that we are in
+               protos?  We use one policy specification that Jason defined.
+               When we complete whatever work in runtime and by specifying in
+               SDK and SLI- that doe effect the SDK which we titled ESCC/VSDD..
+               When you do specify it, you have to serailze it into Jason's
+               format.  We should do this by Alpha.
+
+      [07:15]  We need to check back with Ale  on this
+
+      [07:17]  Revisit Events- this is from Pat (community
+               member).  we need to do events from chain channels and hook it up
+               for channels and hook it up with MSP.  So we added Revisit events
+               (channel &MSP) We should add security restriction because he's
+               not authorized.. depends on how far we want to go.  We need to
+               confirm with Pat. @pmullaney  We need to check with Pat and
+               verify with him if we need to specify any additional policy or we
+               use policy from the channel. The easiset thing is if we have read
+               permission on channel, you get events.  Based on my experience on
+               how fast it works- the best we can hope for- backend he has
+               chaincode and block events.. and he's working on SDK.  i don't
+               know if he can get the rejection events in and support for SDK.
+               WE don't need rejection events.  In 0.6 we had this- because
+               invalid transactoins were not part of block- but now they are
+               part of block and we have bit array that marks invalid
+               transactions
+
+      [07:18]  We do need to add the channel ID-- we don't think
+               we will be able to do any security on revisit events in 8 days
+
+      [07:18]  You have block come in- list of transaction. if
+               they fail in MVCC/VSCC,.. we still add a bit aray filter that
+               points to location of which ones were invalid.  Basically means
+               that we did not process a state change
+
+      [07:19]  We do have ability to check for false/invalid
+               transactions.  that is always just there
+
+      [07:19]  Do chaincode events get set for invalid
+               transactions? Murali says today it is.. we should probably
+               revisit this.
+
+      [07:20]  He builds in handler, the api that does it-- on
+               the orderer side- it has to have the exact same logic of whether
+               you are on channel or not.. and it will process signature from
+               MSP list.  When Jason/Kostas gets that code and we can take the
+               handler code and use it for the events.  Jason and Kostas and
+               that team will be able to probably do that faster for Pat
+
+      [07:20]  to utilize
+
+      [07:22]  Jim Zhang said we need to filter out the events
+               for invalid transactions otherwise it may be really confusing...
+               it is absolutely possible. the simplest way is that fabric won't
+               send chaincode events. block has chaincode events. and SDK will
+               do the parsing. SDK is already doing that today. events by
+               transaction ids.. so you move that , Basically Jim will have to
+               map for transaction id- you find out what #numberit was in the
+               ordere and you check in bit array.
+
+      [07:22]  We  need to do post processing on the SDK
+
+      [07:23]  Do we have a size limit? i know we have number of
+               transactions, but do we have a size limit-- we have preferred max
+               bytes and max bytes.  it's 512K that's the preferred. I know it's
+               north of 7 Megabytes... we need to revisit the block payload
+               because it travels through the events like that. Pat is actually
+               filtering out the deploy transaction and removing that and does
+               not touch the other stuff yet and we need to make sure he's
+               aware. I would prefer only transaction ids and events, but then
+               they have to go back due to security.
+
+      [07:25]  Chaincode lifecycle- do we want to redo the
+               deployment and upgrade?  We need to make a decision on this today
+               or tomorrow. the policy is done- Kostas said he needs to ask
+               Jason . this is chaincode policy who can deploy and manipulate
+               the lifecycle when creating the channel .   It is the deployment
+               of the chaincode- who can deploy chaincode on the channel? We
+               have some control on who can deploy and upgrade on the chaincode?
+
+      [07:27]  There is a proposal on how we deploy chaincode-
+               and we need to decide.  There are two parts of it,.. so we are
+               highlighting chaincode life-cycle as a quesiton mark.
+
+      [07:28]  Error handling- we have the base, but everyone
+               needs to use this.  The base - we have code at the right place to
+               encapsulate the stack trace.. if there is an error- and that
+               error code indicates the components .. so you know this is
+               chaincode error, or this is peer error, or this is orderer. The
+               framework is done but not all components has used it.  Peer has
+               done some of this. - define error codes for component
+
+      [07:29]  Error handling is going to happen from now until
+               GA honestly
+
+      [07:29]  (GA is a relative word here,.. but it's when the
+               fabric is stabilized for production use, which is dependent on
+               quality work being completed)
+
+      [07:33]  Bootstrap with predefined channel-- We have
+               hardcoded in our code that we start up with a channel,.. but I'd
+               rather do that as configuraiton out of the code. if we specify
+               the configuration and we start it up with a configuration versus
+               bake it into the code. In other words you don't create cli or
+               SDK... you look at config- they need channel test id to start up
+               and then we create it. rather than we have it in the code.  This
+               assumes that we have ability in orderer and predefine in channel
+               and genesis block and use with the peer.  We have to have block
+               from orderer.  The orderer has to start the config block and they
+               need to know members.. We just need to have a default thing that
+               people start with.  This whole process is security based.. we
+               haven't configured the orderers MSPs properly. . In our code we
+               automatically create test channel-- that is the point. If that
+               needs to go, we need to startup with channel for programming. We
+               need to come up with dev mode kind of thing..  Easy to say create
+               channel in peer, but I also need channel in orderer.  This is
+               where the complication is.  The current feature will bootstrap
+               system in 4 seconds. having a test id channel- the user test - i
+               would just get rid of everything and it confuses everything.  We
+               need to come up with a way- a nice simple way in the
+               bootstrapping feature scenario how we have a system come up for
+               people that is working,.. and we can do that.
+
+      [07:34]  BDD has a lot of this
+
+weeds [07:36] I worked hard on this- we should not shortcut
+               ever-- for developers, to bring up system, we can't tell them to
+               run BDD. But we can make that easier to do. So what we want is a
+               CLI to bring up a system for development.. jeff stated tweeksk
+               knobs parameters is pretty complex 27 steps- and there is a tweek
+               in everything orderer, peer id, the signers, the developers,..
+               then creation policy, who are your anchors... someone is going to
+               write it just like feature file.. but our test could just be the
+               script.  This is a full blown interactive... WE are going to
+               hackfest and we want people to have a simple way to do this
+
+      [07:37]  The test chain id has to be in orderer- and this
+               is bad part- having hard coded test chain id in orderer is bad..
+               in dev environment, we need to prime it in dev environment and
+               not hardcoded in environment.  So we are getting in design
+               discussions..
+
+      [07:38]  let's take this off line-- we are going through
+               this list, but we want people to do something on the 31st-
+               orderer comes up and peer comes up- create channel api and I get
+               you default certificate, create channel, and add one org and the
+               stuff should just work-- that is what is a development system..
+
+      [07:39]  ARe we telling developers that they ned to set up
+               our system- vagrant and everything to run BDD-- NO.. Behave stuff
+               only requires docker compose period... there are a million ways
+               to do this-- so we want to get to prove this out and where this
+               is consumable is to eliminate hard coded stuff and if it doesn't
+               work, then we need to go fix it...
+
+      [07:40]  Bootstrap with a channel for dev- Jeff Garrat is
+               going to do this and work with Gari/Jim...
+
+      [07:40]  there are simplist- CLI,. SDK .. the usre wants to
+               do something more complex with BDD.. the test chain id we need to
+               remove and make it simple
+
+      [07:40]  I worry about concept of having a separate network
+               that is for developer mode- i think those days are gone.  in that
+               case you provide sample ceritifcates and run through the process.
+               no more shortcuts--
+
+      [07:41]  all keys loaded from files,etc,.. even SDK is
+               doing that now... Jeff made important point there are 2 main
+               places we are hard coding- test chain code id... certs was
+               hardcoded- we still have a sample out there- we generate using
+               bdd and this is directory or use directory already shipping
+
+      [07:42]  Custom Transactions- not for end of Jan
+
+      [07:42]  CLI accepts multiple peers; we need this to test
+               endorsement policy
+
+      [07:42]  App crypto lib- this is a run at for alpha
+
+      [07:42]  system chaincode refactor- this is eash given
+               Ale's work
+
+      [07:42]  Chaincode calling chaincode- we have addresswed
+               the query case
+
+      [07:43]  QUERY CASE only on CC calling CC
+
+      [07:43]  Exsperiation MSP certs- we will not address this
+               for alpha
+
+      [07:43]  ------------------------------------
+
+      [07:43]  For SDK (node.js, Java)
+
+      [07:44]  The master is still on 0.6.,engaging with DTCC- we
+               have created a 1.0 branch that we want to be master.
+
+      [07:44]  We are having to merge this.
+
+      [07:44]  Between DTCC and those on phone- there is also
+               another guy from Fujitsu we need to merge everything
+
+      [07:45]  Java only: create "official" branch.  #1 does not
+               have to be done by end of htis month, but we do need to "clean"
+               the directories up
+
+      [07:45]  and that is being worked on to ensure we have
+               clean consolidation
+
+      [07:45]  Events support- Jim Zhang needs to talk about the
+               eventing piece with Pat (see discussion above )
+
+      [07:46]  Rest Wrapper- we have now handed off to the team
+               that has joined the community in Hursley to do this
+
+      [07:46]  GRPC for Join is in there- Brett has committed
+               that- but we have trouble with MSP definitions
+
+      [07:46]  it fails at that point- but we are getting all the
+               way through the GRPC aspect
+
+      [07:47]  ChainQuery on Ledger- The api is available in GO
+               code is there, but it is not there for GRPC.. pass through query
+
+      [07:47]  chaincode join- synce it's system chaincode call
+               you can copy a lot of logic on query on ledger to complete this
+
+      [07:48]  Remove RSA and HSM for SDK goal for end of month
+
+      [07:50]  We have the Go implementationfor TCERT- we have
+               the TCERT derivation form the last implementation is there.  It
+               takes a key derivation on the SDK side and it's exactly the
+               same.. we can maybe get there and Gari Singh can help that
+
+      [07:50]  ESCC/VSCC- we need to add reference to a name in
+               the proposal and we can do that
+
+      [07:51]  For query on ledger- this is just AP that you
+               already call on channel join, but we are down to 2 1/2 to 3
+               developers.. on priority list query on ledger seems low. can't
+               clients call system chaincode on any special thing on SDK.. they
+               can also do from query CLi and get it
+
+weeds [07:51] Jim is probably going to x out query on ledger
+
+      [07:52]  SDK already accepts multiple peers (this was a
+               question).
+
+      [07:53]  --------
+
+      [07:53]  For ledger- finishing couch misc items (versioningk deletes)
+
+      [07:53]  Query APi is already exposed, but need to do work
+               related to application chaincode-
+
+      [07:53]  WE are in middle of history of key values (level
+               db)
+
+      [07:53]  We started doing the work on couch for history of
+               key values and pushed down into level so that everyone can have
+               the history not juts couch people
+
+      [07:54]  For couch- we do not support remote- we will only
+               support local to the peer
+
+      [07:54]  Finalize QSCC block/tran structure that gets
+               returned to client has to be discussed between Binh/Dave.. we
+               definitely won't get through examples, but we may try to go
+               through table replacement/query as we can before end of next week
+
+      [07:54]  @manish-sethi  wanted to make sure you are reading
+               the channel here- see all up above and start of conversation
+
+      [07:55]  maybe Mohan can help with examples possibly?
+
+      [07:55]  -------------------
+
+      [07:55]  For fabric- CA
+
+      [07:55]  comments on the list from up above
+
+      [07:55]  Keith is trying to generate the swagger
+
+      [07:57]  We need to decide on whether we do something on
+               HSM support or later-- I think we decided that we are not
+               committing HSM for alpha but HSM support (BCCSP or let's ecnrypt)
+               - the way i'm leveraging- i want to use BCCSP integration
+               throughout and then get HSM support through BCCSP. there are
+               multiple places for private keys- signing of CSR request, singing
+               of authoization header, signing of TCERts.. thing that is where
+               we need to do the integration.  We already have BCCSP config
+               integrated in.  The thing unclear right now is can we assume if
+               we have BCCSP integration then we do have HSM support or no?
+
+      [07:57]  Vlad is going to have to clarrify
+
+      [07:58]  We want to do HSM support on BCCSP
+
+      [07:58]  Vlad had done CFFSL has their own layer of singer
+               on top
+
+      [07:59]  @vpaprots  see above
+
+      [07:59]  you have to send future request, they are
+               authenticated in authorization header that covers certificate..
+               and it contains sig, the sig contains the signature and the body.
+               we need to do the signing wiht VSCSP..
+
+      [07:59]  the signing in our CLI client
+
+      [08:00]  if we did on the server side- it does not mean
+               that yo uhave to do at the same time as the SDK side
+
+      [08:01]  It comes down to request and re-enroll . On the CA
+               side, the CA is some refactoring but perspective of using it, it
+               works.  so we need to finish the register from SDK- we have
+               almost ready to check in,.. by default we use SHA384 (only
+               register/reneroll for off token),.. we would have register and
+               create new users, enroll already works beautifully (Jim
+               integrated it).. we enroll and get cert back.. no more work on
+               SDK side for that.
+
+      [08:02]  We just need to finish register and re-enroll.. do
+               we take a cut. if you want to do a few things to clean up the
+               document, it does not stop doing additional work. and we just
+               take a cut of the CA before. so we can merge stuff after that..
+               and CA is in very good shape.
+
+      [08:03]  The only thing that is merged with HSM support for
+               BCCSP.. BCCSP you can configure but it's not being used for HSM
+               yet.  Just like HSM is out of the peer. You know that the default
+               you changed to 256- so this is hard coded.. I di dnot change I
+               implemented to SHA 384.. it's hard coded today so we can't change
+               it.
+
+      [08:04]  Intermediate CA support- I assume that is
+               something that could wait, but i put that up there because the
+               place where this is nice- if you set up a cluster of cop servers
+               or fabric ca servers and you want to get enrollment certs
+               distributed for them. you can start a root ca and cluster of
+               intermediate servers that enroll with it.. I may be overly
+               optimistic- this is 1 day's worth of work. it's not a big effort.
+               Binh is saying this is very useful for testing out  multiple MSP
+               concept. it will be nice to have a single ca and generate
+               something intermediate.  IT's also nice to reknew a CA
+               certificate ultimately.
+
+      [08:05]  if you do the first thing with Swagger doc.. and
+               top list. if we are willing that SDk is not complete- you can use
+               ecerts we have that working.. we have ability to node sdk to
+               enroll, we finish register api, cop is up- you can get
+               certificates fo rany # of peers for encorsement and for joining
+               channels and connecting.  We can use what Keith gets done. but we
+               can take CA and build that out today and use that for the 31st.
+
+      [08:05]  If we don't have TCERT support throughout- that's
+               fine
+
+      [08:06]  --------------
+
+      [08:06]  For documentation
+
+      [08:08]  We should have remove the version 0.6,... we are
+               already started on high level overview, high level architecture,
+               glossary of terms, how to get docker up and running with
+               compose,.. and how developers program against chaincode -- which
+               includes APIs, channels, couchdb/ledger and chaincode.
+
+      [08:08]  Binh asking how much more we need to help on doc
+               based on where we are- i need the apis and how to program against
+               chaincode with Murali... Murali will sit with a couple of hours
+               to step through all that stuff
+
+      [08:09]  need to have some prebuilt things- x number of the
+               MSP- -we should at minimum in policy have that... for the
+               docuementation things like query system chaincode, config system
+               chaincode,
+
+      [08:10]  docker compose is self descriptive instead of
+               reams of documentation-- just explain like was done before
+
+      [08:10]  @nickgaski  @joshhus
+
+      [08:11]  Today we have sample config- we should have
+               sifferent sample config and put them-- and use docker compose
+
+      [08:11]  and we generate the sample config
+
+      [08:11]  What does it mean to have identity to invoke
+               chaincode?  ours is a permissioned ledger.. this is important
+               concept.. but we need to at least need to highlight that.. wecan
+               go into details in MSP, but at minimum this should be outlined.
+
+      [08:11]  How can I use to invoke chaincode?
+
+      [08:12]  How about we have one config and config has
+               identities that are pre-generated and we describe how we got
+               identities and the places we are going to use
+
+      [08:13]  This is trying to explain the initial set for end
+               of this month and starts to be the framework- i agree that a high
+               level description of how membership is enforced- explain
+               permissions are organization based, we will have notion of
+               membership defined via crypto mechanisms and x509 based support
+               and here is a simple paragraph on that
+
+      [08:14]  We then at end of this month- you want multiple
+               orgs- each has x509 certificate- here is what you need to gather
+               and we have worked out in api the config transaction for create
+               channel has that MSP config struct. we make it simple at high
+               level that the basics have MSP name plus the pem certificate and
+               this is how it works. Then we can add more as we go along- it
+               gives you the basic framework to start wtih
+
+      [08:14]  In addition with that- we do some configurations
+               for reference- we provide with 3 organizaitons and here is 3 root
+               certificate authorities and an MSP policy that is 2 out of 3 for
+               endorsement and have at it. @bmos299
+
+      [08:15]  Angelo indicated that we already have a lot of
+               this written up- so Nick and Josh can pick up from the dock from
+               Elli and team
+
+      [08:15]  ----------------------------
+
+      [08:16]  What I want to do- put your name on the items on
+               the board and you work on it-- I want to have a standup scrum at
+               3pm today where I will transcript again here on the fabric-dev
+               channel.  We will only do 2 things- what are the things
+               preventing you from progressing? we will then keep people who
+               need.
+
+      [08:16]  we will do this at 9:30 and 3pm and will post on
+               the channel
+
+      [08:17]  if there is feedback from any of  the items above
+               from those not involved in discussion (where there were many)-
+               please get with squad laters or Gari Singh or Binh Nguyen
+
+      [08:19]  With Clayton- we will take a quick break- we want
+               to have discussion with Keith, Jim, and Binh so we talk about the
+               scenario on how we use this- what is it that we expect to do on
+               February 1st
+
+      [08:19]  This may further refine the list up above- again
+               we should ask that the community contribute to what we have
+               written here
+
+      [08:19]  ----------------------
+
+weeds [08:26] @markparz  highlighting that you need to read the
+               channel
+
+      [08:27]  -----------------------
+
+      [08:28]  We have drawn a  pic on the board
+
+      [08:29]  Boxes are fabric-ca, orderer(solo), peer, SDK/App
+
+      [08:29]  We want someone to be able to program and use the
+               fabric at end of month
+
+      [08:31]  Solo needs to come up- so someone needs to call
+               create channel. There has to be a CA/Id that the orderer has to
+               trust
+
+      [08:32]  From SDK you must be able to create channel
+               (orderer) and join channel (peer)
+
+      [08:33]  Let's assume that we have multiple peers/cc 's
+
+      [08:33]  We have multiple peers/cc
+
+      [08:33]  Org1 peer, org 2peer, org 3peer
+
+      [08:35]  in orderer- you have config block (chain name,
+               address of orderer, msp config- cert/anchor peer.. cert/anchor,.
+               cert/anchor)
+
+      [08:36]  if we agree to this- the end scenario is that your
+               application to prove out more than our single endorser..
+
+      [08:37]  We have definition of create channel and taking in
+               MSP config is in there.. but the orderer is not reading it; for
+               create channel- the orderer takes what SDK channel takes so we
+               have to come up with the right materials... jeff has it on the
+               screen as he worked it.  The only thing missing orderer is not
+               taking generated MSP information- i already do it on the peer
+               side.
+
+      [08:38]  Does the peer itself write to the block? yes..
+               does the peer load any of the information and loads into the
+               channel MSP config and utilize for cert config
+
+      [08:38]  Current policy one of all members of the channel
+
+      [08:38]  Then why do we have to do any additional work for
+               January 31st?
+
+      [08:39]  The local MSP for orderer.. do i care if orderer
+               signs messages... the high level scenario write chaincode, deploy
+               chaincode, and use basic policy that is more than one guy
+               endorsing it.. 1 of MSP configured for channel
+
+      [08:39]  All the info is in messages ...
+
+      [08:39]  If you don't need access control- then we are done
+
+      [08:40]  simple scenario that works-- all the stuff
+               surrounding it that we need to have some level of code, because
+               in February we really need to start testing.
+
+      [08:40]  If I want to have someone use this thing- is it
+               useable now and prove out basics of system. What is missing?
+               should we just do doc improvement on this scenario?
+
+      [08:41]  WE can work on  how we integrate the CA into
+               scenario.. and process of SDK can utilize what Jeff did in his
+               script already showing this scenario work.
+
+      [08:41]  If changes to from last week- too many merges can
+               happen... and can hurt us
+
+      [08:42]  We should probably have ability to create multiple
+               channels---
+
+      [08:42]  (this works)
+
+      [08:42]  @bmoss299 we should make sure that this scenario
+               up above is what is documented by Nick/Josh
+
+      [08:43]  Do we want to show negative checking? do we need
+               to verify endorsements?  it would be trivial to add a user that
+               is not signed by cas that is not accepted by channel creation and
+               that works-
+
+      [08:43]  for SDK to do the precheck- we need MSP on backend
+               to be done and we do need work on SDK
+
+      [08:44]  Brett seems to be working on join channel... we
+               need to publish those as mpms alpha version. you want to have a
+               sample
+
+      [08:44]  on sample i would separate out deploy/invoke- here
+               is how you create/join channel and here's how you deploy and
+               invoke chaincode.
+
+      [08:44]  It can fail any one of those processes, but it
+               helps to see those steps.  we are in better shape than thought.
+               We should take this same scenario
+
+      [08:45]  now we decide we add TLS or add authentication by
+               ordering side and we should then iterate... we use the images
+               from what we have
+
+      [08:45]  we could tag a version of master and build the
+               images from there
+
+      [08:45]  ----------
+
+      [08:45]  Current behave images- effectively the top part is
+               the CA definition- you can see defined order nnetwork (only
+               signle organization)
+
+      [08:46]  we have process a subject, a context, and a
+               signer.. even though different verbiage we have admin tuple- cert
+               from subject for context given an org
+
+      [08:46]  this guy orderer0signer, order0o, orderorg() this
+               is cert that puts under orderer when it starts- we can pass the
+               yaml file to orderer. you will have local MSPs
+
+      [08:46]  all that information is passed around
+
+      [08:46]  ordererOrg()- this points to org that points to
+               pem file with self sgining
+
+      [08:47]  in scenario- we can decide if we do 3 cops- we can
+               integrate that into scenario.. we can use ca for short
+
+      [08:47]  this minimizes and nick can improve on docs...
+               Jeff feels he can generate docs dynamically
+
+      [08:48]  on volume- i'm going to output all the key
+               artifacts
+
+      [08:48]  so organization- all key organizations you want to
+               define, ie peer org2
+
+      [08:48]  So now you have afccess to the organization-
+               orderer generates the GUId- so ordersystemcainid... so we utilize
+               this name
+
+      [08:49]  then bootstram creates chain policy- so basically
+               i'm creating policy so thhree orgs can create channels , ie peer
+               org0, 1/3
+
+      [08:49]  so now signed items are created-- and now we have
+               to create the msp using that policy (chaincreate policy 1)
+
+      [08:49]  Now you have to create the genesis block for that
+               chain id using policy solo and  referencing all tehse policies
+               and associated names
+
+      [08:50]  chain creator does enforce that in that msp based
+               on whatever that policy is
+
+      [08:50]  that creates the genesis block
+
+      [08:51]  We are missing a step instead of guy creating a
+               block- the guy has to create the block data and collects
+               signature on the orderer just like developer- orderer has to get
+               the sigs if there is one org or multiple org in orderer. but we
+               have to add that
+
+      [08:51]  But none of that is enforced today- no, but I
+               don't want to miss it
+
+      [08:51]  so you tell that story- how we have to
+               incrementally plug those features in
+
+      [08:51]  couple of other things- and this thing i'm
+               defining th e peer network- this generates signer certs to each
+               peer and peer starts with right  local msp
+
+      [08:52]  i gave peer 0 to peerorg0 but peer 2 and 3 peer 2
+               in org 1, peer 3 in org 1
+
+      [08:52]  this is template stuff--
+
+      [08:52]  the next thing we do is identify developer for
+               peer organization- give a subject and give context chaincreate
+               policy1 (the one we gave to orderer)
+
+      [08:52]  this is like giving developer access to a space-
+               because I don't want anyone using the peer certs .. this gives
+               sdk it's own identity as example
+
+      [08:53]  peer org signs and devleoping in this space which
+               we call chain create policy1
+
+      [08:53]  I need identities for organization- so i chose
+               peerorg0 and peerorg1 and this is subset of the genesis block- I
+               could limit my channels to single org or subset of the org-
+
+      [08:54]  if you have create chain policy- you can add any
+               org you want.. because it has to be in the orderers- right now it
+               does.. how can they validate it. how can they verify the sig.
+               they do verify sigs. you verify signatures of public but it has
+               to be in trusted root
+
+      [08:54]  if i have create chain- theat everybody in this
+               list-everyone has to sign it- so you have signature across the
+               bytes, but remember these are the peerorgs you are asking for
+               endorsement from
+
+	       cft ordering system- there has to be at simplest-
+               you have to then decide continue certs .. so you have to have one
+               guy must add a bunch of root cas of who can do a create channel .
+               now I am allowed to create channels i should not have list and
+               should go out and pick 15 other people as long as signed by those
+               CAs ...
+
+      [08:56]  acceptance of block- i inspect,... or never join
+               acceptance without signing. at what point will orderer enforce
+               his certification. On broadcast
+
+      [08:56]  IN this scneario- we are defining the peer
+               organizations before we bootstrap the orderer. the reason we are
+               doing that is we don't support the reconfiguration. so now who
+               are the endorsements and particpate in the channel i'm going to
+               create
+
+      [08:57]  i create peer anchor set and I'm saying my anchor
+               is from peer org 0, peer 2 from peer org 1 so I'm picking 1 out
+               of each group
+
+      [08:57]  i crate signed envelope- i have to reference
+               channel, template, chain creation policy name and the anchor
+
+      [08:58]  Thetemplate is a reference to the ones I'm going
+               to use that i defined,.. chaincreate policy1 is a logical name
+               must be used in all channel creation
+
+      [08:59]  So now i get my signed config envelope- the
+               orderer should ask all the order to sign before genesis block-
+               org 0 collects signatures ...
+
+      [08:59]  now create config transaction using signed above
+
+      [08:59]  i save as configtx1 and broadcast to orderer
+
+      [08:59]  I wait
+
+      [09:00]  then i connect to deliver fucnation and seek
+               request with those properties with chainid
+
+      [09:00]  i should get delivery from order0 in 1 block
+               within 1 second
+
+      [09:00]  i then request to join using genseis block on peer
+               0 with result
+
+      [09:00]  I am calling api on system chaincode
+
+      [09:00]  then let's say it works (which it deos
+
+      [09:01]  now i'm delivering waiting and what does happen-
+               we got a 200 response from peer
+
+      [09:02]  for information on immediate up above Jeff Garrat
+               can help
+
+      [09:02]  the only thing that is not there orderer is not
+               using the cert available to it (peer does this already so similar
+               code)
+
+      [09:02]  I just need to deploy and have code in deploy and
+               ask for multiple endorsements at the same time
+
+      [09:03]  lot of steps to get network up and running
+
+      [09:03]  my docker network is running and you can use cli
+
+	       but developer should not run bdd- they should just
+               run docker compose
+
+      [09:03]  it's more involved than that, because under the
+               covers, i'm creating genesis file dynamically and also generating
+               the local msp
+
+      [09:03]  so i create ca certs, pstore and parameterized
+
+      [09:04]  docker compose can bring up entities unles syou
+               hard code- so now you need scripts to link them together
+
+      [09:04]  We have to do the work on SDK sde to make this
+               work and they should replicate this
+
+      [09:04]  ARe you saying angelo we support one of msp policy
+               today- we do on VSCC
+
+      [09:05]  do you define that at the ESCC side? they do have
+               to match but we have the one of
+
+      [09:05]  and does that work when you deploy chaincode- we
+               have to work that- which is chaincode lifecycle
+
+      [09:05]  which is in the list
+
+      [09:05]  we have everything to joined channel and we can
+               inject deployment
+
+      [09:05]  but deployment not ready yet
+
+	       to deploy chaincode- you need one of policy--- we
+               need that
+
+      [09:06]  if we expect people to not break apis' we probably
+               need chaincode return object
+
+      [09:06]  it is implemented but  merged and committed and
+               documented
+
+      [09:06]  you need deploy transaction and need in SDK to
+               specify the ESCC policy
+
+      [09:07]  Jeff- if i look at the log for gossip peer- which
+               is peer 1- i see something that is concerning-
+
+      [09:07]  there is "no such channel" on the anchor
+
+	       i would tag master and build and go through 20
+               steps and everything provisioned
+
+      [09:10]  there is a mismatch in gossip and way we are
+               encoding
+
+      [09:10]  VSCC would only check to see if one of members is
+               singing
+
+      [09:12]  Things for absolute minimum- chaincode return
+               object, chaincode endorsement policy, escc/VSCC, events support
+               (includ rejection ), chainjoin (creation basically needs to get
+               done)
+
+      [09:15]  The rest of the other items should progress- but
+               we know what the most important it is
+
+      [09:16]  The other piece we MUST decide on is chaincode
+               lifecycle
+               
+   ry [09:21]  @weeds @ghaskins that will be on the wiki soon
+
+      [09:25]  @weeds what is the context for this?
+
+      [09:54] https://wiki.hyperledger.org/community/fabric-notes
+
+weeds [10:33] @ry Binh met with several people that develop on the fabric
+
+      [10:34]  We already have docker images that people can utilize (not
+               sure it's all checked in), but we wnat to make sure for the
+               hackfest that we have all the right pieces for people to
+
+      [10:34]  1) start up the fabric
+
+      [10:34]  2) be able to bootstrap a network
+
+      [10:35]  3) be able to  join, create and deploy chaincode on multiple
+               chains based on who is allowed to be in that channel
+               (ie we have multichannels working)
+
+      [10:36]  4) they should be able to do the full transaction from sending
+               transactions to the endorsers (where a policy is set- for
+               example one out four endorsers can approve the transaction),
+               be able to send to orderer and have it ordered and then put
+               into the ledger (whether couchdb or level db).. they should be
+               able to query the result---> this should be able to be done
+               against multiple channels
+
+      [10:36]  5) who is allowed on the channel is important part of scenario
+
+      [10:37]  As a result the items above- we took assessment where all the
+               pieces are in the fabric (there are some holes as not everyone
+               anted up information during hte call)... and highlighted what
+               we thought we needed to be done.  So you will see categories
+               of fabric, SDK, BDD (for testing) , documentation, and cop
+
+      [10:37]  after that, and this is probably where the notes got fuzzy,
+               Jeff Garrat took us through BDD showing how to bootstrap the network
+
+      [10:38]  as this is already working and flowing an what minor pieces
+               just need to be completed there
+
+</file>

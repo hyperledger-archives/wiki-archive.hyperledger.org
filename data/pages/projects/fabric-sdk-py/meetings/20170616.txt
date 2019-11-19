@@ -1,0 +1,270 @@
+==== 2017-06-16 ==== 
+
+Meeting will be held at [[https://chat.hyperledger.org/channel/fabric-sdk-py|rocketchat]] at 11AM (GMT+8).
+
+  * [[https://jira.hyperledger.org/browse/FAB-4623?jql=project%20%3D%20FAB%20AND%20status%20in%20(%22In%20Progress%22%2C%20%22To%20Do%22)%20AND%20component%20%3D%20fabric-sdk-py | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+status:open | Open Patchset for review]]
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]]
+
+
+
+=== Agenda ===
+
+  * 1. MVP remaining tasks: kai is working on [[https://jira.hyperledger.org/browse/FAB-4623|FAB-4623]]
+  * 2. E2E: Dong Wang is working on [[https://jira.hyperledger.org/browse/FAB-2871 | FAB-2871]]
+  * 3. User Role: Wei Hu is working on [[https://jira.hyperledger.org/browse/FAB-3885|FAB-3885]]
+  * 4. Proto Files Update: Tony Yang is working on [[https://jira.hyperledger.org/browse/FAB-4592|FAB-4592]]
+  * 5. Images/docker-compose-files update: Qiang Wang is working on [[https://jira.hyperledger.org/browse/FAB-4741|FAB-4741]]
+  * 6. Other issues
+    * 
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Baohua Yang
+  * Kai Chen
+  * Chang Chen
+  * Qiang Wang
+  * Tony Yang
+  * Lei Li
+
+
+=== Log ===
+
+baohua 10:59 AM
+will have meeting~~
+who's on line?
+
+grapebaba 11:00 AM
+✋
+
+baohua 11:00 AM
+anyone else?
+
+qiang0723 11:00 AM
+✋
+
+tonyyang132 11:00 AM
+✋
+
+baohua 11:00 AM
+saw 6 attendees in list
+OK, today's agenda: https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20170616
+
+SeeGo 11:01 AM
+✋
+
+baohua 11:01 AM
+welcome everyone
+1. MVP remaining tasks: kai is working on FAB-4623
+https://jira.hyperledger.org/browse/FAB-4623
+@grapebaba any update?
+
+grapebaba 11:01 AM
+I am working on create channel story
+
+baohua 11:02 AM
+saw a related patchset at https://gerrit.hyperledger.org/r/10569
+everyone pls help review the patchset
+
+grapebaba 11:02 AM
+i checked it need some pre task, one is https://jira.hyperledger.org/browse/FAB-4623
+
+baohua 11:02 AM
+thanks, kai! so guess we can finish before next meeting?
+
+grapebaba 11:03 AM
+and another is eventhub component
+
+grapebaba 11:03 AM
+wanna someone can take it
+
+baohua 11:03 AM
+aha, have u created the task in jira?
+
+grapebaba 11:03 AM
+have not
+
+WangDong 11:03 AM
+i am in
+
+baohua 11:04 AM
+who will volunteer for the eventhub task?
+@grapebaba pls help create a jira task first.
+
+grapebaba 11:04 AM
+ok
+
+lafenicecc 11:05 AM
+I can take eventhub
+
+baohua 11:05 AM
+thanks @lafenicecc
+pls feel free to pick kai's creating task
+OK, next item: 2. E2E: Dong Wang is working on FAB-2871
+@WangDong any update?
+https://jira.hyperledger.org/browse/FAB-2871
+
+grapebaba 11:06 AM
+https://jira.hyperledger.org/browse/FAB-4822
+
+WangDong 11:06 AM
+I have split the e2e test into part according to the node sdk. The first is to test the creating channel.
+
+baohua 11:07 AM
+any more comments?
+
+WangDong 11:07 AM
+but the creating channel is not realized in client
+right?
+
+baohua 11:07 AM
+understand, dong, to avoid such kind of dependency, we would like to suggest create those apis first.
+to use direct return fake value to let the process pass first.
+then fill into each implement code, how do u think?
+also we can use the mock tools for that
+
+WangDong 11:08 AM
+fill into? You mean just leave this part as stub?
+
+baohua 11:09 AM
+e.g., we call some method, but we mock it out to just return the expected result
+
+WangDong 11:09 AM
+got it
+
+baohua 11:09 AM
+then after the method is implemented, it's easy to switch to it
+
+WangDong 11:09 AM
+OK
+
+baohua 11:09 AM
+thanks, hope we can get some progress next week 🙂
+OK, item 3. User Role: Wei Hu is working on FAB-3885
+
+WangDong 11:09 AM
+I will try
+
+baohua 11:10 AM
+@WeiHu i guess wei is not online
+will connect to him off the meeting
+Item 4. Proto Files Update: Tony Yang is working on FAB-4592
+https://jira.hyperledger.org/browse/FAB-4592
+@tonyyang132 any update?
+aha, are u lost? @tonyyang132 🌼
+i guess there is some connection issue...
+so let's jump to next item 5. Images/docker-compose-files update: Qiang Wang is working on FAB-4741
+@qiang0723 any update?
+
+tonyyang132 11:12 AM
+I'm here 🙂
+have identified 4 proto files that needs syncing and have synced them accordingly
+now working on compiling the proto files
+
+baohua 11:13 AM
+aha u're back
+
+tonyyang132 11:13 AM
+yeah, connection is not so smooth
+
+baohua 11:13 AM
+great, feel free to share if u find any problem
+
+tonyyang132 11:13 AM
+sure, thank you
+
+qiang0723 11:14 AM
+I have just modified some configuration files according to official example e2e_cli,and docker-compose can work now, will commit it later
+
+baohua 11:14 AM
+ok, and here's some related pachsets: https://gerrit.hyperledger.org/r/#/c/10631
+we got several comments for it. welcome anyone to help review
+and is there any other issues to discuss?
+next monday&Tuesday we will have the hackfest in beijing, anyone will attend with me?
+
+WangDong 11:16 AM
+one more thing the sdk spec is the most updated?
+
+baohua 11:16 AM
+no, the sdk spec is somehow out-of-dated
+but the main design process is till correct
+
+WangDong 11:17 AM
+ok
+thanks
+
+baohua 11:17 AM
+pls have a look at the java/node ones for reference
+
+WangDong 11:17 AM
+yep
+
+baohua 11:17 AM
+And last week, fabric release the beta version.
+this week it will be in rc1
+
+WangDong 11:18 AM
+OK
+
+baohua 11:18 AM
+Since most apis freeze now, we can finish the sdk soon, hopefully 😃
+Any more issues to discuss?
+
+WangDong 11:19 AM
+the hackfest? what is that, any info?
+
+baohua 11:19 AM
+https://wiki.hyperledger.org/groups/twgc/hackfest-beijing
+See here
+
+WangDong 11:19 AM
+ok
+thanks
+
+lafenicecc 11:19 AM
+@grapebaba in the mvp, eventhub's job is to get commit confirmation from endorsor, am I right?
+
+baohua 11:20 AM
+Hyperledger 黑客技术峰会 😇
+or 技术论坛
+
+WangDong 11:20 AM
+sounds great
+
+baohua 11:20 AM
+it's one of the largest event in HL community
+
+lafenicecc 11:20 AM
+why the agenda has so many blank time slots still ...
+
+baohua 11:20 AM
+everyone welcome to present
+aha, it's 50+% filled, still adding more
+for those cannot present, can feel free to join the discussions at channels like #twg-china
+i will try to share some info at rocketchannels
+OK, any other question?
+
+grapebaba 11:23 AM
+@lafenicecc may refer to EventHub.java
+it should be a general approach
+
+lafenicecc 11:23 AM
+ok i will
+
+baohua 11:24 AM
+So if there's no more question, we will end the meeting
+Thanks for everyone's efforts, let's keep submitting patchsets and reviewing, have a nice weekend!
+
+WangDong 11:24 AM
+have a nice weekend
+
+lafenicecc 11:24 AM
+thanks
+
+tonyyang132 11:24 AM
+thank you and bye
+
+grapebaba 11:25 AM 
+thank you

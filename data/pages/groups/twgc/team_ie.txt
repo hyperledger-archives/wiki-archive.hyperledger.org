@@ -1,0 +1,176 @@
+===== TWGC i18n and Education =====
+==== Description ====
+Help lead the documentation writing/translation, organize seminar and education/trainings, etc.
+
+
+===== Fabric latest translated documentation =====
+
+[[https://github.com/hyperledger-labs/fabric-docs-cn | Hyperledger Lab/Fabric-docs-cn]]
+
+
+===== Fabric Release 1.1.0 Documentations =====
+
+
+__**Please Read the**
+**[[groups/twgc/team_ie/guideline|   Guideline Draft ]]**__
+
+//**注意：译文展位置在[[http://fabric-docs-i18n.readthedocs.io/zh/fabric-1.1.0_zh-cn/|这里]]，敬请查看**//
+
+翻译文档中术语，请参考 [[http://fabric-docs-i18n.readthedocs.io/zh/fabric-1.1.0_zh-cn/glossary.html|术语表]]
+
+====Release Fabric-1.1.0 Volunteers ====
+
+**[[https://github.com/HyperledgerCN/fabric-docs-i18n/graphs/contributors| Contributors in GitHub ]]**
+
+Feel free to put ur contact info and GitHub ID below.
+
+^ Name           ^ Organization    ^ Email                    ^ Location  ^  GitHub ID  ^
+| Lidong Guo     | ChainNova       | guolidong@chainnova.com  | Beijing   |  JulienGuo  |
+| ShaoXi Qiu     | OneChain        | qiushaoxi@163.com        | Shanghai  |             |
+| Dijun Liu      | CETC30          | flyinox@163.com          | Chengdu   |             |
+| Jiang Lu       | IBM             | jianglu082@gmail.com     | BeiJing   |             |
+| Wei Lu         | IBM             | luweilw@cn.ibm.com       | Chengdu   | wadelu      |
+| Zhiwei Hu      | Huobi Research  | huzhiwei@outlook.com     | Shanghai  | HuLaTown    |
+| Linfeng Liang  | TaiCloud        | me@dinstein.net          | Beijing   | dinstein    |
+| Axe Tang       | YeeCall         | axe@yeecall.com          | Nanjing   |             |
+| Fudong Bai     | Lancai          | baifudong@lancai.cn      | Hangzhou  | guagualvcha |
+
+
+====Release Fabric-1.0.0 Volunteers ====
+
+Feel free to put ur contact info and zanata id below.
+
+^ Name             ^ Organization   ^ Email                         ^ Location  ^ Zanata ID   ^ Role        ^
+| Linsheng Yu      | Null           | bzwdyls@163.com               | Beijing   | linsheng    | Maintainer  |
+| Jiannan Guo      | IBM            | guojiannan1101@gmail.com      | Beijing   | guoger      | Maintainer  |
+| Lidong Guo       | ChainNova      | guolidong@chainnova.com       | Beijing   | guolidong   | Maintainer  |
+| Kewei Sun        | IBM            | sunkewei@cn.ibm.com           | Beijing   |             | Translator  |
+| Yueling Liang    | Newell Brands  | liangyl1987@hotmail.com       | Shanghai  |             | Translator  |
+| Yuan Jin         | IBM            | jinyuan@cn.ibm.com            | Shanghai  |             | Translator  |
+| Yaocheng Ye      | Hyperchain     | yaocheng.ye@hyperchain.cn     | Hangzhou  |             | Translator  |
+| Fei Cao          | JBI            | cophey@chainresearch.org      | Nanjing   |             | Translator  |
+| Zhu Jiang        | IBM            | zhujzhuj@cn.ibm.com           | BeiJing   |             | Translator  |
+| Ruijun Ou        | Aisino         | ouruijun@aisino.com           | Beijing   |             | Translator  |
+| Min Luo          | NTT            | luo.min@lab.ntt.co.jp         | Tokyo     |             | Translator  |
+| Zhangjiong Xuan  | Hyperchain     | xuanzhangjiong@hyperchain.cn  | Hangzhou  | topjohn     | Translator  |
+| ShaoXi Qiu       | OneChain       | qiushaoxi@163.com             | Shanghai  | qiushaoxi   | Translator  |
+| Dijun Liu        | CETC30         | flyinox@163.com               | Chengdu   |             | Translator  |
+| Qiang Sheng      | Golo           | shengqiang_1001@163.com       | Shenzhen  | shengqiang  | Translator  |
+| Dinghao Liu      | Yunphant       | dinghaoliu@yunphant.com       | Hangzhou  |             | Translator  |
+| Bei Wang         | Yunphant       | wangbei@yunphant.com          | Hangzhou  | wangbei     | Translator  |
+| Qingpeng Cai     | Yunphant       | qingpengcai@yunphant.com      | Hangzhou  |             | Translator  |
+| Yunxiao Wang     | Yunphant       | wangyx@yunphant.com           | Hangzhou  |             | Translator  |
+| Jing Cao         | Hyperchain     | caojing@hyperchain.cn         | Hangzhou  |             | Translator  |
+| Jiang Lu         | IBM            | jianglu082@gmail.com          | BeiJing   | sallymilu   | Translator  |
+| Axe Tang         | YeeCall        | axe@yeecall.com               | Nanjing   |             | Translator  |
+| Zhonghui Geng    | Yunkc          | figo050518@outlook.com        | Nanjing   | gengzhonghui| Translator  |
+
+
+==== Fabric Release 1.0.0 Documentations ====
+
+//**注意：鉴于此工具编辑及展示的不友好，目前已将文章转移至[[https://hyperledgercn.github.io/hyperledgerDocs|这里]]，敬请查看**//
+
+翻译文档中术语，请参考 [[groups/twgc/fabric-doc/glossary.md|术语表]]
+
+^ 译文                                                                                                                                  ^ 原文                                                                                            ^ 贡献者              ^ 审阅人                        ^ 状态            ^
+| [[https://wbwangk.github.io/ComposerDocs/| Hyperledger composr 文档]]                                                                 | [[https://hyperledger.github.io/composer/stable/introduction/introduction.html | 原文]]         | Weibing Wang     |                            |               |
+| [[groups/twgc/fabric-doc/glossary.md| Fabric v1.0 术语]]                                                                              | [[http://hyperledger-fabric.readthedocs.io/en/latest/glossary.html|原文]]                       | Linsheng Yu      |  Baohua Yang               | 翻译完成，审阅进行中    |
+| [[groups/twgc/fabric-doc/getting_started.md| Fabric 1.0 快速入门]]                                                                      | [[http://hyperledger-fabric.readthedocs.io/en/latest/getting_started.html|原文]]                | Linsheng Yu      | Kewei Sun                  | 翻译完成，待审阅      |
+| [[https://github.com/hyperledger/fabric/blob/v0.6/docs/source/protocol-spec_zh.rst|Fabric 协议规范 ]]                                   | [[https://github.com/hyperledger/fabric/blob/v0.6/docs/source/protocol-spec.rst|原文]]          |                  |                            | 翻译完成，待审阅      |
+| [[groups/twgc/fabric-doc/arch-deep-dive_zh.md| Fabric设计 之 架构]]                                                                      | [[http://hyperledger-fabric.readthedocs.io/en/latest/arch-deep-dive.html|原文]]                 | Ruijun Ou        | Min Luo                    | 翻译完成，审阅进行中    |
+| [[groups/twgc/fabric-doc/txflow_zh.md|Fabric设计 之 交易流程]]                                                                             | [[http://hyperledger-fabric.readthedocs.io/en/latest/txflow.html|原文]]                         | Yueling Liang    |                            | 翻译完成，待审阅      |
+| [[groups/twgc/fabric-doc/ca-setup_zh.md|Fabric设计 之 CA]]                                                                             | [[http://hyperledger-fabric-ca.readthedocs.io/en/latest/users-guide.html|原文]]                 | Yaocheng Ye      | Ruijun Ou、Zhangjiong Xuan  | 第二次审阅完成       |
+| [[groups/twgc/fabric-doc/sdk_node_zh.md|Fabric设计 之 SDK--node]]                                                                      | [[https://fabric-sdk-node.github.io|原文]]                                                      | Qingpeng Cai     | Dinghao Liu, Bei Wang      | 翻译完成，第一次审阅完成  |
+| [[groups/twgc/fabric-doc/sdk_java_zh.md|Fabric设计 之 SDK--java]]                                                                      | [[https://github.com/hyperledger/fabric-sdk-java|原文]]                                         | Xuanyong Wu      |                            | 待更新           |
+| [[groups/twgc/fabric-doc/kafka_zh.md|Fabric设计 之 基于kafka的排序服务]]                                                                      | [[http://hyperledger-fabric.readthedocs.io/en/latest/kafka.html|原文]]                          | Shaoxi Qiu       |                            | 翻译完成，待审阅      |
+| [[groups/twgc/fabric-doc/channels_zh.md|Fabric设计 之 Channels]]                                                                       | [[http://hyperledger-fabric.readthedocs.io/en/latest/channels.html|原文]]                       | Yi Zeng          |                            | 翻译完成，待审阅      |
+| [[groups/twgc/fabric-doc/ledger_zh.md|Fabric设计 之  账本]]                                                                              | [[http://hyperledger-fabric.readthedocs.io/en/latest/ledger.html|原文]]                         | Yuan Jin         | Linsheng Yu                | 翻译完成，审阅中...   |
+| [[groups/twgc/fabric-doc/read-write-set.md|Fabric设计 之 Read-Write set]]                                                              | [[http://hyperledger-fabric.readthedocs.io/en/latest/readwrite.html|原文]]                      | Linsheng Yu      |                            | 翻译完成，待审阅      |
+| [[groups/twgc/fabric-doc/gossip_zh.md|Fabric设计 之 Gossip数据传输协议]]                                                                     | [[http://hyperledger-fabric.readthedocs.io/en/latest/gossip.html|原文]]                         | Xiao Zhang       |                            | 翻译完成，待审阅      |
+| [[groups/twgc/fabric-doc/build_network_zh.md| Fabric教程 之 构建第一个fabric网络]]                                                            | [[http://hyperledger-fabric.readthedocs.io/en/latest/build_network.html| 原文]]                 | Zhangjiong Xuan  |                            | 翻译完成，待审阅      |
+| [[groups/twgc/fabric-doc/write_first_app_zh.md|Fabric教程 之 编写第一个应用]]                                                                 | [[http://hyperledger-fabric.readthedocs.io/en/latest/write_first_app.html| 原文]]               | Qiang Sheng      |                            | 翻译完成，待审阅      |
+| [[groups/twgc/fabric-doc/chaincode_zh.md|Chaincode 指南]]                                                                             | [[http://hyperledger-fabric.readthedocs.io/en/latest/chaincode.html| 原文]]                     | Dinghao Liu      | Bei Wang                   | 翻译完成，第一次审阅完成  |
+| [[groups/twgc/fabric-doc/chaincode_developers_zh.md|Chaincode 开发手册]]                                                                | [[http://hyperledger-fabric.readthedocs.io/en/latest/chaincode4ade.html| 原文]]                 | Dinghao Liu      | Bei Wang                   | 翻译完成，第一次审阅完成  |
+| [[groups/twgc/fabric-doc/chaincode_operators_zh.md|Chaincode 使用手册]]                                                                 | [[http://hyperledger-fabric.readthedocs.io/en/latest/chaincode4noah.html| 原文]]                | Bei Wang         | Dinghao Liu                | 翻译完成，第一次审阅完成  |
+| [[groups/twgc/fabric-doc/msp_zh.md|Fabric操作指南 之 MSP]]                                                                               | [[http://hyperledger-fabric.readthedocs.io/en/latest/msp.html| 原文]]                           | Dinghao Liu      | Yunxiao Wang, Bei Wang     | 翻译完成，第一次审阅完成  |
+| [[groups/twgc/fabric-doc/configtx_zh.md| Fabric操作指南 之 Channel 配置(configtx)]]                                                        | [[http://hyperledger-fabric.readthedocs.io/en/latest/configtx.html|原文]]                       | Linsheng Yu      |                            | 待更新           |
+| [[groups/twgc/fabric-doc/configtxgen_zh.md|Fabric操作指南 之 Channel 配置(configtxgen)]]                                                   | [[http://hyperledger-fabric.readthedocs.io/en/latest/configtxgen.html|原文]]                    | Fei Cao          |                            | 翻译完成，待审阅      |
+| [[https://github.com/qiushaoxi/doc_translation/blob/master/Reconfiguring%20with%20configtxlator.rst|Fabric操作指南 之 configtxlator]]    | [[http://hyperledger-fabric.readthedocs.io/en/latest/configtxlator.html| 原文]]                 | Shaoxi Qiu       |                            | 翻译完成，待审阅      |
+| [[groups/twgc/fabric-doc/endorsement-policies_zh.md|Fabric操作指南 之 背书策略]]                                                             | [[http://hyperledger-fabric.readthedocs.io/en/latest/endorsement-policies.html|原文]]           | Linsheng Yu      |                            | 待更新           |
+| [[groups/twgc/fabric-doc/error-handling_zh.md|Fabric操作指南 之 错误处理]]                                                                   | [[http://hyperledger-fabric.readthedocs.io/en/latest/error-handling.html|原文]]                 | Zhangjiong Xuan  |                            | 翻译完成，待审阅      |
+| [[groups/twgc/fabric-doc/logging-control_zh.md|Fabric操作指南 之 日志控制]]                                                                  | [[http://hyperledger-fabric.readthedocs.io/en/latest/logging-control.html|原文]]                | Yi Zeng          |                            |               |
+| [[https://docs.google.com/document/d/1vHdaOSZgpyjf-qjhsmiTMPq8MG43HBA28FM6d1KJeXc/edit#heading=h.2rmho7iqstbu|Fabric设计 之 MSP&ACL]]  | [[https://docs.google.com/document/d/1Qg7ZEccOIsrShSHSNl4kBHOFvLYRhQ3903srJ6c_AZE/edit|原文]]   | Yongfu Liang     |                            | 翻译完成，待审阅      |
+| [[http://wutongtree.github.io/translations/sdk-design_zh| Fabric SDK 设计]]                                                           | [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4/edit| 原文]]  | Lidong Guo       |                            | 翻译完成          |
+| [[http://www.blockchainbrother.com/article/20|Fabric工程项目构建之Makefile文件解析]]                                                           | [[https://github.com/hyperledger/fabric/blob/release/Makefile| 原文]]                           | Dijun Liu        |                            | 翻译完成，待审阅      |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==== Education ====
+  - [[ https://github.com/yeasy/blockchain_guide |  区块链技术指南 ]]
+  - [[ https://github.com/yeasy/hyperledger_code_fabric/ |  Hyperledger Fabric 源码分析 ]]
+  - [[ https://github.com/yeasy/seminar-talk#hyperledger | Hyperledger Technical Notes]]
+  - [[ https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/W30b0c771924e_49d2_b3b7_88a2a2bc2e43/page/IBM%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AF%E5%BE%AE%E8%AE%B2%E5%A0%82 | IBM Blockchain Trainning Course]]

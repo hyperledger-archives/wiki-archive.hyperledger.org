@@ -1,0 +1,20 @@
+===== Knowledge resources =====
+[[healthcare-wg-wikispace-redesign |Home]] : [[resources|Resources]]
+----------
+
+  * [[resources-research-journals|Research Journals]]
+    * [[research-studies|Studies]]
+    * [[research-reviews|Reviews]]
+
+  * [[resources-research-policy|Policy resources]]
+    * [[research-evidence-base|Evidence base]]
+
+  * [[resources-publications|Publications]]
+      * [[publications-whitepapers|Whitepapers]]
+      * [[publications-articles|Articles]]
+      * [[publications-editorials|Editorials]]
+      * [[publications-blogs|Blogs]]
+      * [[publications-podcasts|Podcasts]]
+
+  * [[resources-websites|Websites]]
+

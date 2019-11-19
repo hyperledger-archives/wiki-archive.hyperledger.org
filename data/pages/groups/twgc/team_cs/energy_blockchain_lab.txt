@@ -1,0 +1,8 @@
+=== Energy Blockchain Labs（能源区块链实验室） ===
+
+^ Name ^ Area ^ Size ^ R&D Phase ^ Platform ^ Founded ^ Contact Info ^
+| Energy Blockchain Labs | Energy | 30 | beta | Fabric | 2014 | Room 412, No.2 Building, No.1690, CaiLun Rd.Pudong District, Shanghai |
+
+[[http://www.energy-blockchain.com/|Energy Blockchain Labs]] is dedicated to developing distributed ledgers for energy industry and exploring energy applications and financial applications based on blockchain technology in all aspectsof energy industry. The lab is the only member of the Hyperledger Project in energy and environmental industry. 
+
+This product is the first green energy asset development platform based on block-chain technology deployment in the worldwide. Taking carbon asset development as an example, the traditional carbon asset development process is time-consuming and costly. The whole process involves in carbon asset trading enterprises, consulting firms, the third part institutions(verification and certification), government regulators, expert committees, etc. The carbon asset development platform based on new blockchain technology will promote seamless collaboration among the various parties and help the nodes share distributed ledgers to enhance the development and management efficiency of carbon assets. With the traceability of blockchain technology, all data of every node can be  regulated and tracked to achieve friendly regulatory.

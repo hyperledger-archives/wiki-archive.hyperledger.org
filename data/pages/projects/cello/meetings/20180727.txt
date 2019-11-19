@@ -1,0 +1,40 @@
+==== 2018-07-27 ==== 
+Meeting will be held at [[ https://zoom.us/my/hyperledger.community | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/cello|rocketchat]] (for text chat) at:
+  * 08:30AM   (UTC-4) [UTC -4 is Eastern Daylight Time EDT]
+  * 06:00PM   (UTC+0530)
+  * 08:30PM   (UTC+8)
+
+  * [[ https://jira.hyperledger.org/projects/CE/issues/CE-188?filter=allopenissues | Ongoing Jira task ]] 
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:cello+status:open | Open Patchset for review ]] 
+  * [[ https://wiki.hyperledger.org/projects/cello | Project Wiki Page ]] 
+
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  - Dynamic crypto config generation design spec (Haitao,Jiang Lu)
+    - Yash is asking to help review
+  - Kubernetes agent progress (Luke Chen)
+  - [[https://jira.hyperledger.org/browse/CE-420 | create cluster bug]]
+  - [[https://wiki.hyperledger.org/projects/cello/internship-2018 | Internship progress]] (shuo)
+  - Please help review [[https://gerrit.hyperledger.org/r/#/c/24795/|clean startup scripts]]
+
+
+=== Attendee ===
+**Please put your name before the meeting.**
+
+  * Baohua Yang
+  * Haitao Yue
+  * Luke Chen
+  * Peng Du
+  * David Huseby
+  * Shuo Wang
+  * Zhongjie Qian
+  * Shihong Zhao
+
+=== Minutes ===
+  * Haitao will discuss with shuo offline to draft the dynamic crypt generation spec;
+  * David is asking the relationship between cello and k8s, while cello is on top of k8s to allow people to deploy and manage blockchain easier without needing to touch the underly platforms;
+  * Luke is preparing the k8s agent video;
+  * Shuo made good progress on introducing fabric-ca in starting a new network;
+  * Peng asked questions on how to organize a consortium with cello.

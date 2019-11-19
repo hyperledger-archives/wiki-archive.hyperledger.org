@@ -1,0 +1,178 @@
+{{:groups:healthcare:hsm_logo.png?nolink&650}}
+
+===== General Meeting Agenda for 2019-01-25 =====
+
+==== Resources: ====
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HC-SIG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-sig \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+----
+
+===== Welcome and Opening Statements =====
+
+  * //A reminder to all HC-SIG members that this meeting is being recorded//
+  * [[https://www.linuxfoundation.org/antitrust-policy|Reading of the Linux Foundation Antitrust Policy]]
+  * [[https://tinyurl.com/HL-antitrust-slide|Hyperledger Antitrust Slide]]
+  * **Discussion: request for note-taking for this meeting**
+
+<WRAP box>
+[[https://drive.google.com/open?id=1kotgYJAZvSImxwLTHqVxWHZBu09Pf5Lj|Meeting recordings/transcript]] 
+</WRAP>
+
+<WRAP box>
+In attendance:
+  * Rich Bloch
+  * Alan Bachmann
+  * Bilal Saleh 
+  * Leonard Edwin
+  * Logan Wilding (recording)
+  * Raveesh Dewan
+  * Robert Coli, MD
+  * Steven Elliott
+  * Vaibhav Patil
+  * 1 360 525-4961 (Marissa Iannarone)
+  * 1 410 779-3949 (Raveesh)
+</WRAP>
+
+===== Introductions =====
+
+  * **If you’re new to the group, please…** 
+    * Introduce yourself
+    * Tell us where you're geographically located
+    * Share with us your interests in healthcare in general, and blockchain technologies in specific
+
+===== Community Announcements =====
+
+  * **Feel free to share your community announcements as they relate to the Hyperledger community**
+
+  * [[https://www.himssconference.org|HIMSS Conference 2019]]
+    * February 11-15, Orlando, Florida
+    * Hyperledger is planning to host a booth, and if we get enough interest, we'll facilitate an HC-SIG membership event
+    * **Discussion: anyone planning or interested in attending?**
+
+<WRAP box>
+  * Hyperledger Healthcare SIG will be at the largest HIT (Health Information Technology) conference  in the world next month, HIMSS19 (booth # 7460)
+  * Hyperledger Healthcare SIG to represent us, Rich Bloch will attend
+  * Information on Hyperledger activities can be found [[https://www.hyperledger.org/event/himss19|here]]
+  * There is also a [[https://www.himssconference.org/education/blockchain-forum|Blockchain Forum]] at the Conference
+</WRAP>
+===== HC-SIG Subgroup Updates =====
+
+  * Patient/Member Subgroup (Marissa Iannarone/Benjamin Djidi, Lead)
+
+<WRAP box>
+  * Marissa stepping down as lead from the Patient Subgroup. Benjamin Djidi has agreed to take over
+  * Currently looking for a new customer for the Donor Milk Project (our hope is to identify someone at the HIMSS Conference)
+</WRAP>
+
+  * Payer Subgroup (Raveesh Dewan, Lead)
+
+<WRAP box>
+  * Raveesh presented on the current state of the Payer Subgroup, indicating that membership interest has waned recently
+  * Recommendation that some ad hoc meetings take place to generate some new interest and subgroup pivot
+  * Work on the current white paper continues
+  * Raveesh will generate an email to full membership to seek any new members interested, but unaware of the work being done in this subgroup
+</WRAP>
+===== HC-SIG Ad Hoc Team Updates =====
+
+  * Wiki Redesign Team (Brian Ahier, Raveesh Dewan, and Mikhail Elias, Lead)
+    * Work on Confluence wiki has begun. See https://wiki2.hyperledger.org/
+    * Newly-announced plan is to migrate sites over to Confluence by EOD 01/29
+
+<WRAP box>
+  * Moving from current wiki tool to Confluence, transition is scheduled to be complete next week
+  * Mikhail and Raveesh, as part of the Wiki Redesign Team, are aiding this process
+  * Marissa has volunteered to help out, as she has experience with Confluence (she will contact Raveesh)
+</WRAP>
+
+  * Charter Review/Revision Team (Len Edwin and Ken Allgood [writers], with Adrian Berg and Marissa Iannone [editors])
+    * Team objectives met
+    * Final edit completed, and approved by Hyperledger leadership
+    * Current version open for membership review, [[https://drive.google.com/open?id=14wLdVKvFcsKdkTTsjFfheJEPUqIqq4g8FmCB5p9AyQE|located here]]
+    * **Discussion: recommendation to stand down this team**
+
+<WRAP box>
+  * The charter review is complete (Leonard Edwin)
+  * Team is in agreement to stand down this team until further needed
+  * Thanks to everyone on this team for an outstanding work effort
+</WRAP>
+
+  * Academic Research Team (Mikhail Elias and Adrian Berg, Lead)
+    * Currently in works, [[https://drive.google.com/open?id=1q-d8rGcRK2k_sq4xMUGinwhqwRYg-HOPK0vggaq7XkU|draft located here]]
+
+<WRAP box>
+  * No update to report (Logan may be interested in the work being done here)
+  * Rich to follow up with Adrian to identify recommended next steps
+</WRAP>
+
+  * Subgroup Review Team (Mikhail Elias, Steven Elliot, Robert Coli, and Sonia Wagner, Lead)
+    * Team objectives met: final meeting next week to discuss/confirm
+    * New subgroup created: Architecture Solution Subgroup (Lead, Steven Elliot)
+      * "This subgroup will be focused on the investigation, experimentation and development of technical solutions addressing the specific needs of healthcare"
+      * Use case discussions centered around an immunization PoC
+      * Subgroup meeting dates not yet scheduled
+
+<WRAP box>
+  * Team plans to meet one final time before disbanding, as team objectives have been met
+    * Architecture Solution subgroup is the team's recommendation/deliverable
+  * The Architecture Solution subgroup is being led by Steven Elliot
+    * A PoC use case has been identified (immunization)
+    * Steven will work with Rich to identify how best to engage membership interests to help build out the subgroup team
+</WRAP>
+
+===== Old Business =====
+
+  * HC-SIG Membership Directory (Rich)
+    * Now available: a public-facing membership directory that lists members' companies/organizations (possibly contact information)
+    * Available from our HC-SIG home page. Link here: [[groups:healthcare:membership-directory|Membership Directory]]
+
+  * Healthcare technologies challenges (Rich)
+      * Upcoming opportunities: [[http://www.kidneyx.org/|KidneyX Redesign Dialysis Prize Competition]]
+      * From community feedback, plan is to pursue the KidneyX Competition, with a proposal due date of 2019.02.28
+
+<WRAP box>
+  * With continuing interest from members, Rich continues to seek some direction and engagement from the kidney care community with the expectation to move forward with a submission due at the end of FEB
+</WRAP>
+
+  * Getting Published? (Rich)
+    * We have some extraordinary talent in our membership... let's put that to good use
+    * New wiki page on hold until migration to Confluence is completed
+    * **Discussion: your interest in convening ad hoc writing teams to publish articles/white papers on behalf of the HC-SIG?**
+
+===== New Business =====
+
+  * Hyperledger Global Forum Summaries (Multiple)
+    * **Discussion: for those who attended, a summary of their experiences and take-aways**
+
+<WRAP box>
+  * Excellent summary presented by Marissa
+    * Details of her experience are documented [[https://drive.google.com/file/d/1_EaeyCQuJ3kLceBnNGnOiarhveHSEU_f/view|here]]
+  * Bilal offered the following observation: emphasis appears to be shifting from Fabric to Sawtooth (driven by an Intel push)
+</WRAP>
+
+  * 2019 HC-SIG Survey (Rich)
+    * Released (2019.01.18)
+    * Some early results...
+    * If you haven't yet participated, [[https://drive.google.com/open?id=1pUi5vBqdh-qzz7OM__md9isU1F7Aj7dz6-8hsl_hmU0|please do so]]
+
+<WRAP box>
+  * The Survey has been published
+  * It was requested that all team members please complete this
+
+
+</WRAP>
+
+  * Planning for the Year Ahead (Rich)
+    * **Discussion: your thoughts on changes you'd like to see with the HC-SIG?**
+
+===== Next Meeting =====
+
+  * Scheduled for Friday, 2019.02.08, 0700 Pacific Time
+  * **Discussion: topics to add to agenda?**

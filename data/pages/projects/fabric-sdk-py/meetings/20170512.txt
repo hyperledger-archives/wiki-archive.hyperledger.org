@@ -1,0 +1,381 @@
+==== 2017-05-12 ==== 
+
+Meeting will be held at [[https://chat.hyperledger.org/channel/fabric-sdk-py|rocketchat]] at 11AM (GMT+8).
+
+=== Agenda ===
+  * [[ https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85 | Jira board ]] status (chang will sync). 
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py | Patchset]] for review. 
+  * MVP remaining tasks discussion (kai and chang will sync).
+  * E2E test (Ray Chen will sync)
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]] is publicly available.
+  * Other issues
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Baohua Yang 
+  * Kai Chen
+  * Chao Li
+  * Chang Chen
+  * Wei Hu
+  * Lei Li
+  * Ray Chen
+
+=== Log ===
+
+baohua 11:00 AM
+OK, meeting start
+Today's agenda: https://wiki.hyperledger.org/projects/fabric-sdk-py/meetings/20170512
+Item#1: Jira board status (chang will sync).
+https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85
+
+lafenicecc 11:00 AM
+There are 5 tasks in progress for now.
+1. FAB-3437 Update with latest proto files
+Baohua is working on that, right?
+
+ray 11:01 AM
+✋
+
+baohua 11:01 AM
+yes, i will migrate it to latest env 🙂
+
+lafenicecc 11:01 AM
+ok
+
+baohua 11:02 AM
+will fix in next week
+
+lafenicecc 11:02 AM
+2. FAB-3482 auto clean up coverage temp files and testing process refinement. @camelbeck has a new patch for this https://gerrit.hyperledger.org/r/#/c/9215
+He can sync later
+
+camelbeck 11:03 AM
+OK
+
+lafenicecc 11:03 AM
+3. FAB-2871 implement e2e test @ray can help update the status later
+
+camelbeck 11:03 AM
+I have taken this task in our last meeting
+😀
+
+ray 11:03 AM
+@lafenicecc fab-2871 should have been re-assigned to @camelbeck
+
+lafenicecc 11:04 AM
+Ok
+
+ray 11:04 AM
+would be nice if @camelbeck can update the status
+
+lafenicecc 11:04 AM
+I can help with e2e implemention too @camelbeck 😁
+
+ray 11:04 AM
+👍
+
+camelbeck 11:04 AM
+👏
+Great
+
+lafenicecc 11:04 AM
+let's get back to jira status..
+
+baohua 11:04 AM
+nice!
+
+lafenicecc 11:05 AM
+4. FAB-3081 Change /api/v1/cfssl/ prefix on fabric-ca-server endpoints to /api/v1/ prefix
+david dornseifer has a patch for this: https://gerrit.hyperledger.org/r/#/c/8497
+we can review the patch
+
+baohua 11:06 AM
+will review definitely
+:woo:
+
+lafenicecc 11:06 AM
+5. FAB-3626 Python SDK needs to update REST calls to use caname
+This is a new task from other team, who can have a look at this?
+
+SeeGo 11:07 AM
+Let me try this
+👍 1  
+
+lafenicecc 11:07 AM
+Thanks!
+
+baohua 11:07 AM
+aha, thanks
+@lafenicecc pls help create a new jira task for lei
+as part of this 3626 one
+
+lafenicecc 11:08 AM
+These are the ongoing tasks on jira. BTW, we can create more MVP sub-tasks @grapebaba
+
+baohua 11:08 AM
+thanks change for the sync, we are on nice task status
+Item #2: pachset for review: https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py
+everyone is encouraged to do the review
+@camelbeck ur patchset has ci error
+u know how to check the error msg, right?
+
+camelbeck 11:10 AM
+Yes, it may because the conflict with david's 3788.
+
+baohua 11:10 AM
+jenkins links in the comment --> console output.
+
+camelbeck 11:10 AM
+I will update it later
+
+baohua 11:10 AM
+3788? it is not merged?
+
+camelbeck 11:11 AM
+https://gerrit.hyperledger.org/r/#/c/9201 this one
+
+baohua 11:11 AM
+The patchset only runs on the latest master branch
+so non-merged one cannot affect ur new patchset 🙂
+
+camelbeck 11:11 AM
+OK, so I need to check the error message further.
+
+baohua 11:12 AM
+aha, and remember to do rebase often. see git doc a little.
+thanks
+
+camelbeck 11:12 AM
+👌
+
+baohua 11:12 AM
+Item #3: MVP remaining issues.
+@grapebaba will u help summarize?
+
+grapebaba 11:13 AM
+no update for this week
+
+baohua 11:13 AM
+OK. any update from @lafenicecc ?
+i guess we need to fix the chaincode install problem soon
+
+grapebaba 11:13 AM
+i wonder who is interested in these tasks
+
+baohua 11:13 AM
+i will take a look
+
+grapebaba 11:14 AM
+such as instantiate and invoke
+
+baohua 11:14 AM
+sure, we welcome people joining to contribute
+sunlight is ahead!
+
+lafenicecc 11:15 AM
+can u give us a status summarize for now? so more volunteers would come out
+
+baohua 11:15 AM
+after we fix install, and then instantiate/invoke should be easy to do.
+
+lafenicecc 11:15 AM
+i suppose some people don't know where to start with
+
+baohua 11:15 AM
+then the mvp would work!
+aha, good question
+We hope to mitigate the issue by jira board task and the online discussions.
+Any question, just ask
+and we may need more documentation in details?
+
+WeiHu 11:16 AM
+@grapebaba I'm interested, but I need some time to get familiar with fabric and py-sdk..
+
+baohua 11:16 AM
+thanks wei!
+
+grapebaba 11:16 AM
+sure, we can talk directly
+
+baohua 11:17 AM   
+this spirit is very valuable for the community, as i see the problem, and i will fix
+
+grapebaba 11:17 AM
+feel free to ping me
+
+WeiHu 11:17 AM
+ok~
+
+baohua 11:18 AM
+@WeiHu feel free to ask any question, the community is warm and friendly to everyone 🙂
+OK
+
+grapebaba 11:18 AM
+i assume we here should know the basic data flow in fabric
+
+lafenicecc 11:19 AM
+now the install test has a "TODO: create channel not implement yet"
+
+baohua 11:19 AM
+Currently, i strongly recommend everyone have a look at fabric/examples/e2e_cli
+
+SeeGo 11:19 AM
+ok
+
+lafenicecc 11:19 AM
+is this necessrary for the mvp?
+
+baohua 11:19 AM
+to support working on new channel, we need the create channel func
+
+grapebaba 11:20 AM
+yes, create channel is not implemented so that we use default channel now
+
+WeiHu 11:20 AM
+😁
+
+baohua 11:20 AM
+yeap, and using default channel, we can only use the admin to operate, pls notice
+the chaincode test case now is using common user role from fabric-ca, need to revise it
+who wanna help fix this?
+
+lafenicecc 11:21 AM
+the Channel class and functions are not implemented in python sdk yet, right?
+
+baohua 11:21 AM
+should not difficult, i guess
+
+lafenicecc 11:22 AM
+need to catch up other sdks 😁
+
+baohua 11:22 AM
+@WeiHu do u wanna help revise the user role?
+
+grapebaba 11:23 AM
+https://jira.hyperledger.org/browse/FAB-3483?filter=-2
+
+WeiHu 11:23 AM
+I can have a try
+
+grapebaba 11:23 AM
+@lafenicecc we have a discussion about channel and chain
+actually we use Chain class represent channel now
+
+baohua 11:24 AM
+thanks wei
+
+lafenicecc 11:24 AM
+ok i got it
+
+baohua 11:24 AM
+@grapebaba i agree
+we can first use chain--channel mapping first
+But i also suggest we use the name of channel class
+how do u think?
+
+grapebaba 11:25 AM
+ok
+
+baohua 11:26 AM
+thanks, let's create/update tasks on jira
+
+lafenicecc 11:26 AM
+which one do you think we should learn from, sdk-node or sdk-java? @grapebaba
+
+grapebaba 11:26 AM
+sure
+better both😅
+
+baohua 11:27 AM
+java is more like py from structure
+
+lafenicecc 11:27 AM
+alright haha
+
+grapebaba 11:27 AM
+java first
+
+baohua 11:27 AM
+OK. Item #4: E2E work, i guess @camelbeck is working on it.
+
+camelbeck 11:27 AM
+Yes, I have read node’s e2e process, and now get the basic idea on what we should do. Next, I will update on jira of the architecture design.
+👍 2  
+
+baohua 11:27 AM
+thanks!
+🌺
+
+camelbeck 11:28 AM
+BTW, I would like introduce one new member to our project.
+@WangDong
+but he cannot find our channel
+
+lafenicecc 11:28 AM
+Welcome
+
+baohua 11:28 AM
+aha, welcome!
+
+lafenicecc 11:28 AM
+need to invite?
+
+baohua 11:28 AM
+for those cannot find the channel, just @ him...
+
+camelbeck 11:29 AM
+OK
+I will ask him have a try later
+
+lafenicecc 11:29 AM
+is this bug in rocketchat or config issue..
+
+baohua 11:29 AM
+no, the channel is open to everyone, but sometime, people cannot search it out... @toddb
+guess a bug, good news is there's a rocketchat upgrade recently
+
+camelbeck 11:30 AM
+I will invite him to our wechat group later, too.
+
+ray 11:30 AM
+you mean server end upgrade ?
+
+baohua 11:30 AM
+sure
+yeap, the service
+
+camelbeck 11:30 AM
+👌
+He will begin with working on the e2e task together with me.
+
+baohua 11:31 AM
+OK, very efficient discussions today. more issues?
+
+camelbeck 11:32 AM
+Not any more for me
+
+baohua 11:32 AM
+finally, we will have the 1chain---m channel model, i guess @grapebaba
+
+grapebaba 11:32 AM
+correct
+
+baohua 11:33 AM
+OK any more issue for today?
+If no, we will end the meeting, thanks for everyone and have nice weekend!
+  
+Let' fight for the MVP!
+
+WeiHu 11:33 AM
+can u create and assign jira task for me?
+
+lafenicecc 11:34 AM
+i can help
+
+baohua 11:34 AM
+🛬
+
+WeiHu 11:34 AM 
+ok thank you!

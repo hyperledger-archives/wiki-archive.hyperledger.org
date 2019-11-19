@@ -1,0 +1,54 @@
+Hyperledger Project\\
+Public Sector Working Group (PSWG) Meeting\\
+August 3, 2018 \\
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/public-sector-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+PSWG Wiki: https://wiki.hyperledger.org/groups/public-sector-wg/public-sector-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+Meeting Notes\\
+
+Bobbi put together slides of blockchain introductory materials. 
+
+Including: \\
+3 minutes Video: HTTPS://WWW.HYPERLEDGER.ORG/RESOURCES/VIDEOS \\
+PowerPoint Presentation: HTTPS://DOCS.GOOGLE.COM/PRESENTATION/D/1BSFGKGDMWL9STQHQPBD-2RIJZRQJOSZDZQKBVUX4A2Q/EDIT#SLIDE=ID.P4 \\
+MOOC (Online Free course): https://www.edx.org/course/understanding-blockchain-and-its-implications \\
+
+Canadian government collaboration presentation:
+     *Links are provided on the Use Case section of the PSWG wiki
+     *How can Canadian government step up in it's role of providing trust in the economy?
+          *Problem: Business people have to navigate a confusing number of requirements to open a business in British Columbia and Ontario. How can the government make it easier to for businesses to interact with government in a trustworthy basis?
+              *Digital way to verify credentials
+              *three governments collaborate - federal, BC, Ontario
+              *20 applications on VON platform
+              *Using Hyperledger Indy
+          *General model - verifiable credentials model
+              *high assurance identity card
+              *individual owns credential
+              *distributed keys management system
+              *ledger helps manage public keys and enable exchange of verifiable credentials between peers
+              *no data regarding transaction, no personal or business data on blockchain itself
+         *Pattern
+              *issuers / holders / verifiers
+                   *documents like banking credential or marriage license used to gain access to services
+              *What services can we issue from and issue to?
+                   *Public business data is open information
+                   *create verified credentials and give them a target to issue to
+                   *TheOrgBook - simple directory of verifiable credentials about businesses
+                   *In the future a business person would have her own digital wallet, this is a step toward that, but TheOrgBook is a community wallet
+              *Business IDs are low hanging fruit to gain knowledge without tackling people's personal data
+              *Single business registry - OrgBook
+              *single code base between Ontario and BC
+              *only display publicly available free information
+              *use existing public infrastructure
+              *searchable database - limited to corporations and D/B/A (Doing Business As)
+              *digital signatures compared to blockchain
+         *Future - permits, licenses, businesses will be able to share peer to peer on digital wallet

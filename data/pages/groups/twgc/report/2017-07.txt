@@ -1,0 +1,22 @@
+==== TWG China Group Report for July 2017 ====
+
+=== Status ===
+  - Team: The team were collaborating in development, adoption cases, i18n, event organization and other tasks. 
+  - Meeting: 2 meetings were held with active discussions (with LF experts). All minutes can be found on the [[ groups/twgc/meetings | wiki]].
+  - [[groups/twgc/team_cs | Collaboration and Scenarios]]
+    - The team has collected local adoption cases of Hyperledger techniques and shared on the wiki. 
+    - Need to call for more cases through community channels like maillist and wechat public account.
+  - [[groups/twgc/team_di | Technical Development]]
+    - New developers are joining, see the development page.
+    - Technical Communication: active discussions happen in the rocket chat channel/maillist. 
+  - [[groups/twgc/team_ie | i18n and education work]]
+    - 10+ design documentation are done and put on the wiki. 
+    - Reviewers are needed to do the review work.
+    - Education/training documentation have been collected.
+    - We are evaluating using github as the doc repo.
+  - [[groups/twgc/team_eo | Event organization ]]
+    - A technical meetup is planed in next month to share fabric 1.0 cases.
+
+=== Issues ===
+  - Meeting platform: The uber-conference system provides no local access number. 
+  - i18n work: Need the TSC help create the doc code repo and setup the readthedoc repo for various languages.

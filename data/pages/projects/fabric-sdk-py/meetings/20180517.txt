@@ -1,0 +1,49 @@
+==== 2018-05-17 ==== 
+
+Meeting will be held at [[ https://zoom.us/my/hyperledger.community | zoom]] (video conf, recommend using microphone and headset) and [[https://chat.hyperledger.org/channel/fabric-sdk-py|rocketchat]] (for text chat) at:
+
+  * 11:00AM   (UTC-2)
+  * 02:00PM   (UTC+1)
+  * 06:30PM   (UTC+0530)
+  * 09:00PM   (UTC+8)
+
+  * [[https://jira.hyperledger.org/browse/FAB-4623?jql=project%20%3D%20FAB%20AND%20status%20in%20(%22In%20Progress%22%2C%20%22To%20Do%22)%20AND%20component%20%3D%20fabric-sdk-py | Ongoing Jira task]]
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py+status:open | Open Patchset for review]]
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]]
+
+=== Agenda ===
+Feel free to update before the meeting.
+
+  * Overall Progress for the tutorial's client APIs: 
+    * Load network configuration ... DONE
+    * Create a New Channel       ... DONE
+    * Join Peers into Channel    ... DONE
+    * Install Chaincode to Peers ... DONE
+    * Query instantiated chaincode ..DONE
+    * Instantiate Chaincode      ... TODO
+    * Invoke a Chaincode         ... TODO
+    * Query a Chaincode          ... TODO
+  * Ongoing:
+    * Sushil Paneru is working on [[https://gerrit.hyperledger.org/r/21805|Chaincode Query]]
+  * Need Review:
+    * [[https://jira.hyperledger.org/browse/FAB-7743| TLS to connect to fabric-ca]] by Guillaume Cisco.
+  * Other issues
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+  * Baohua Yang
+  * Kai Chen
+  * Dong Wang
+
+
+=== log ===
+we got these questions discussed.
+
+1. The new patches of query
+
+2. The ca TLS BAD ECC CERT issue 
+
+3  After the high level API finished, a release may be published soon. Need more effort to catch up.
+
+4. Hopefully the rx module will be replaced by async.

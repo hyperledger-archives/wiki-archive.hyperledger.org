@@ -1,0 +1,6 @@
+===== Editorials (Opinion) =====
+[[healthcare-wg-wikispace-redesign |Home]] : [[resources|Resources]] : [[resources-knowledge|Knowledge resources]] : [[resources-publications|Publications]]
+----------
+
+  * [[Karan Verma]] : [[https://lists.hyperledger.org/g/healthcare-wg/message/661|Re: Blockchain in healthcare panel questions (Hyperledger Chat 03-OCT-18)]]
+  * //<Add>//

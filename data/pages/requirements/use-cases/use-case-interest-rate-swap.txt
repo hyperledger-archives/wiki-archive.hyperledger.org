@@ -1,0 +1,105 @@
+====== Use Case Interest Rate Swap ======
+
+===== Section 1 - Intro =====
+
+==== Overview of the Business Problem or Opportunity ====
+
+Interest Rate swaps help borrowers hedge the risk of changing interest rates. The parties to an interest rate swap contract agree to exchange interest rate cash flows.
+
+Example: 
+
+Borrower A is currently paying floating rate, but wants to pay fixed rate. The Borrower approaches his investment banker who finds Borrower B who's currently paying fixed rate, but wants to pay floating rate. The banker creates an interest rate swap contract between himself and each of the borrowers so that the net result is that each party can swap their existing obligation for their desired obligation.
+
+In return for matching the two parties together, the bank takes a spread from the swap payments.
+
+{{https://upload.wikimedia.org/wikipedia/commons/8/81/Vanilla_interest_rate_swap_with_bank.png}}
+
+Graphic by User: Suicup: Own work: [[http://creativecommons.org/licenses/by-sa/3.0|Creative Commons Attribution-Share Alike 3.0]]:[[https://commons.wikimedia.org/w/index.php?curid=7195752|CC BY-SA 3.0]]
+
+==== Current Solution ====
+
+Swap contracts serve the mutual benefit of the parties but require trusted intermediaries like investment bankers to accept and forward payments. If there were other means to provide discovery and trust, parties to a swap contract would have liked to eliminate the third party and not pay the spread.
+
+An opportunity exists to replace the intermediaries by other mechanisms that provide trust to the parties of a swap contract.
+
+==== Why Distributed Ledger Technology? ====
+
+Trust between parties to a swap contract can be provided by a distributed ledger. Borrowers can join the ledger after passing a credit check, advertise their need for a swap, discover a counterparty, and entrust the exchange of their loan payments to a smart contract.
+
+==== User Stories ====
+
+=== Actors ===
+
+  * Borrower: a company interested to swap loan payments
+  * Administrator: an entity running credit check of prospective participants
+  * Escrow: a legal entity whose purpose is to
+    * hold a bank account
+    * notify the ledger of payments received
+    * disburse payments on command from the ledger
+
+=== Stories ===
+
+Swap is initiated
+
+  * Borrower takes out a fixed rate loan but wants to change its rate to floating
+  * Borrower applies to join the interest swap ledger. Administrator runs a credit check and issues credentials.
+  * Borrower queries the ledger for a counterparty with a matching loan but with a floating rate
+  * Parties agree to the terms and register their swap with the ledger
+
+Loans are repaid
+
+  * Every month on the agreed payment day Borrower A sends its loan payment to Escrow. The amount of the payment is calculated by the floating rate of the Borrower B's loan. 
+  * Escrow notifies the ledger.
+  * Borrower B sends its payment to Escrow which in turn notifies the ledger. The amount of the payment is calculated by the fixed rate of Borrower A's loan. 
+  * Upon receipt of both notifications from Escrow, a smart contract on the ledger commands the Escrow to release the payments.
+  * Escrow pays the lenders: the monthly installment of Borrower A with the money payment of Borrower B and vice versa.
+
+Borrower defaults
+
+  * Borrower A sends its monthly payment to Escrow. Escrow notifies the ledger.
+  * Borrower B does not send its payment.
+  * At the end of the payment day the smart contract does not have a notification of B's payment. The contract commands Escrow to return the A's payment.
+  * Borrower A pays his own's loan installment with the money returned.
+  * Borrower A queries the ledger for a new counterparty to continue the swap. 
+  * Borrower B is banned from the ledger.
+
+==== Opportunity/Justification ====
+
+  * Distributed ledger provides a mechanism of trust without a need for a third party
+  * Permissioned ledger allows only the participants that passed credit check
+  * Fees are reduced to a minimum needed to maintain one Escrow legal entity for all members of the ledger
+  * Default on a swap contract is resolved immediately on the ledger and exposes the borrower only to a few days of interest rate fluctuation
+
+----
+
+===== Section 2 - States and Transactions =====
+
+=== States ===
+
+  * Bid for a swap. A borrower advertises on the ledger its need for a swap with basic parameters: principal, rate.
+  * Swap contract. Both parties record the terms of their contract: loan parameters and an agreed upon payment date.
+  * Payment record. A smart contract on the ledger records each party's monthly payment upon notification from Escrow.
+
+=== Transitions ===
+
+  * Bid is deactivated when parties are matched and enter into a Contract.
+  * Payment record is created by the smart contract upon notification from Escrow.
+  * When both party's monthly payments are recorded the smart contract notifies Escrow to release the payments.
+  * Contract is deactivated at the end of the contract term.
+
+----
+
+===== Section 3 - Requirements =====
+
+TBD
+
+==== External References ====
+
+TBD
+
+==== Glossary/Appendices ====
+
+TBD
+
+----
+Acknowledgement: This is very loosely based on the OpenStack [[https://github.com/openstack/openstack-user-stories/blob/master/user-story-template.rst|use case template]]

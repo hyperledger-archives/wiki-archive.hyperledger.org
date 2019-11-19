@@ -1,0 +1,8 @@
+===== Hyperledger Global Forum 2018 =====
+
+  * [[https://events.linuxfoundation.org/events/hyperledger-global-forum-2018/|Website]]
+  * [[connecting_health_data_across_silos_for_diagnostics_and_treatment|Abstract submission]]
+  * Communications : [[https://lists.hyperledger.org/g/healthcare-wg/message/571|Announcement]], [[https://lists.hyperledger.org/g/healthcare-wg/topic/22200530#426|Submission preparation]]
+  * Panel discussion : Merging Communities / Public Chain or Permissioned Ledger - How To Choose? 
+  * Conference Notes:
+    * [[https://drive.google.com/open?id=1_EaeyCQuJ3kLceBnNGnOiarhveHSEU_f|Marissa Iannarone]]

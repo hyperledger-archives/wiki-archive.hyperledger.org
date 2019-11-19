@@ -1,0 +1,18 @@
+===== Technical solution : Human milk POC =====
+  * [[healthcare-wg-wikispace-redesign|Home]] : [[activities|Activities]] : [[technical-solutions|Technical solutions]]
+
+----------
+
+  * Sponsor : [[labs:|Hyperledger Labs]] 
+  * Proposal : [[donor_milk_transparency_and_traceability|Donor milk transparency and traceability]]
+  * [[analysis-human-milk|Domain analysis]] : [[analysis-human-milk|Human milk services]]
+  * [[https://jira.hyperledger.org/projects/MDL/summary|JIRA project]]
+  * [[https://github.com/hyperledger-labs/milk-donor|Code repository]]
+
+----------
+
+  * [[resources|Resources]]
+    * [[Analytical models]]
+      * [[Household services ecosystem model]], [[Lifespan-oriented services model]]
+      * [[Human milk services catalog]], [[Human milk services model]]
+    * [[Design models]]

@@ -1,0 +1,29 @@
+Hyperledger Project\\
+Healthcare Working Group (HCWG) Patient Subgroup Meeting\\
+June 29, 2018 \\
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+Meeting Notes\\
+Quick follow up from our 6/29 patient/member subgroup meeting today:\\
+     *Time for meeting will be kept at 9am PST due to availability of Hyperledger Zoom rooms, our next scheduled meeting is on Friday 7/6 and details can be found on the community calendar
+     *Keep the conversation going this week via chat
+     *There is a need to provide a platform for dynamic collaboration so that we can iterate on our ideas outside of structured meeting times. Notes are nice, but it is difficult to engage and iterate in that medium
+In that spirit, notes from today's meeting have been added into the use case page on this GitHub wiki - have a look and edit as you see fit, please provide notes on any edits you make. Let me know if you have any questions or concerns with engaging on GitHub
+     *I am currently in talks to understand how we align with Hyperledger community standards regarding location of documenation, so be aware that location of documentation may change\\
+
+Proposed agenda for 7/6 meeting
+     *Linux Foundation antitrust reminder - 5 min
+     *Frame the discussion on current GitHub wiki content and review any updates made between now and then - 15 min
+     *Tony Hussain to provide initial thoughts on a user journey mapping activity - 10 min
+     *Group journey mapping exercise - 20 min
+     *Wrap up and next steps - 10 min
+

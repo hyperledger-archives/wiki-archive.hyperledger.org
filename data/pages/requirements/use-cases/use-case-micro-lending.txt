@@ -1,0 +1,9 @@
+====== Micro Lending Use Case ======
+
+**Microlending** - Small, unsecured loans issued by individuals or microfinance institutions (MFIs) rather than banks. There is long tail adoption potential for onboarding the unbanked via cryptocurrencies. Generally the credit worthiness of borrowers is low, and the risk of default is higher. Microloans can command higher interest rates as a result. The credit rating of borrowers is often implied (web of trust) and traditional FICO Credit Scores may have little relevance. Microloans are not typically backed by any collateral; if a borrower default there can be little expectation of recovery of funds.
+
+Examples of Microlending platforms include:
+  * https://www.kiva.org/
+  * http://btcjam.com
+  * https://loanbase.com/
+  * http://www.mifos.org

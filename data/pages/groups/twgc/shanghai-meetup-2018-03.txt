@@ -1,0 +1,42 @@
+====== Hyperledger Shanghai Meetup======
+
+===== 时间 =====
+
+13：30 ~ 17：30， 2018年3月24日，星期六
+
+==== 地点 ====
+（上海浦东）复旦大学张江校区第二教学楼1层2108室
+
+=== 场地赞助 ===
+复旦大学
+
+== 议程 ==
+协办单位：旺链科技，复旦大学
+
+^ Time时间         ^ Topic 题目                       ^ Speaker 演讲者                        ^
+| 13:30 - 13:40  | 签到                              |                                       |
+| 13:40 ~ 14:20  | 区块链与企业管理                   | 薛建敏，SAP中国研究院，战略创新总监        |
+| 14:20 ~ 15:00  | 区块链开发之实战入门指引            | 刘晔瑛，旺链科技CTO                      |
+| 15:00 ~ 15:20  | 中场休息                          |                                        |
+| 15:20 ~ 16:00  | 区块链编程简介                     | 施懿民，上海知平信息科技，CEO            |
+| 16:00 ~ 16:40  | 基于HyperLedger Fabric的土地权益确权解决方案     | Adam Starzynski，波兰区块链研究专家，区块链兄弟社区特约技术顾问  |
+| 16:40 ~ 17:00  | 自由交流，散会                     | 所有参与者                              |
+
+嘉宾介绍及演讲主题简介
+
+薛建敏
+
+Blockchain network is a peer-to-peer network and each participant on the network can work on the ledger in a secure way without being reliant on a central authority, such as a clearing house or stock exchange. Technically you run blockchain platform runtime software on „nodes“, that is any computer that connects to a blockchain platform and performs network related tasks like maintaining a copy of the blockchain or validating transactions.
+In this talk, Mr. Xue will share SAP's perspective on how blockchain technology will affect enterprise management software, as well as SAP's approach to enable application of blockchain technology in its own development, as well as for ecosystem.
+
+刘晔瑛
+
+旺链科技CTO，多年技术开发经验，基于区块链开发有较深的研究 
+
+施懿民
+
+上海知平信息科技CEO，十余年开发经验，机械工业出版社《C#编程魔法书》（待出版）作者
+
+Adam Starzynski（波兰）
+
+波兰区块链研究专家 区块链兄弟社区特约技术顾问

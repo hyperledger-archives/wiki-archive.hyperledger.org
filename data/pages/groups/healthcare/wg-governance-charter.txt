@@ -1,0 +1,63 @@
+===== Charter =====
+[[healthcare-wg-wikispace-redesign|Home]] : [[governance|Governance]]
+----------
+
+
+==== Hyperledger Healthcare Working Group Charter ====
+
+**1. Mission of the Hyperledger Healthcare working group (“HLHC”) **
+
+The HLHC’s mission is to house and foster technical and business-level conversations about appropriate applications for blockchain technology in the healthcare industry. These conversations will initially be broad and educational, but will transition to focus on identifying opportunities for near-term collaboration between participants on common software to implement a given application. If appropriately scoped and resourced, these conversations will lead to one or more proposals for new software development efforts to be hosted at Hyperledger.
+
+
+**2. Membership**
+
+The HLHC Group membership is composed of individuals and companies interested in identifying blockchain-related use cases applicable to the healthcare industry and potential collaborative software development projects to help interested parties address those use cases. Participating individuals and companies need not be members of the Hyperledger Project.
+
+
+
+**3. Discussion Format and Content**
+
+The HLHC will host meetings and discussions (in person and online) for member contributions that are intended to accelerate its mission. Initial topics will include, but are not limited to:
+
+  - Discovery and exploration of healthcare-related blockchain use cases that address real world problems
+    - Explore fundamental Distributed Ledger applications first, such as establishing registries, interoperability and identities
+    - Later, look to expand to more advanced topics, such as smart contracts and process automation
+  - Technical opportunities to address those use cases
+
+
+
+4. Operating Principles
+
+  - HLHC member communication mechanisms
+    - The primary forum for this Working Group will be a group email list. This list shall be open to any subscriber and publicly archived, and moderated by Hyperledger staff or other volunteers. The email list should be considered the discussion system of record for the community.
+    - The group may decide to also host conference phone calls, on an ad-hoc or recurring basis, which can be convened and minuted by Hyperledger staff. This may be useful as a way to motivate the community towards a consensus on a position, or hear from those for whom email is too noisy. However notes should be posted back to the email list, and important discussions or decisions should not be closed without input from the list
+    - The group may also decide to meet face-to-face, for example at a healthcare conference where many participants will also be attending. As with phone calls, the mailing list should be updated on important points raised or notes taken, and important discussions or decisions should be brought to the list.
+    - The group may elect to shift to a different tool than email down the road, so long as the Linux Foundation agrees.
+
+
+**5. Antitrust Guidelines**
+
+  - All members shall abide by The Linux Foundation Antitrust Policy available at: http://www.linuxfoundation.org/antitrust-policy​.
+  - All members shall encourage open participation from any organization able to meet the membership requirements, regardless of competitive interests. Put another way, the HLHC Group shall not seek to exclude members based on any criteria, requirements or reasons other than those used for all members.
+
+
+**6.General Rules and Operations**
+
+The HLHC shall be conducted so as to:
+
+  - Engage in the work of the project in a professional manner consistent with maintaining a cohesive community, while also maintaining the goodwill and esteem of The Linux Foundation in the open source software community;
+  - Respect the rights of all trademark owners, including any branding and usage guidelines;
+  - Engage The Linux Foundation for all HLHC press and analyst relations activities;
+  - Upon request, provide information regarding Project participation, including information regarding attendance at Project-sponsored events, to The Linux Foundation;
+  - Coordinate with The Linux Foundation in relation to any websites created directly for HLHC; and
+  - Operate under such rules and procedures as may from time to time be required by The Linux Foundation.
+  - Under no circumstances shall The Linux Foundation be expected or required to undertake any action on behalf of HLHC that is inconsistent with the tax exempt purpose of The Linux Foundation.
+
+
+**7. Intellectual Property Policy**
+[With regards to any software or IP contribution, including methods proposed in email]
+
+  - All contributions shall be accompanied by a Developer Certificate of Origin sign-off (http://developercertificate.org​).
+  - All new inbound code contributions to HLHC shall be made under the Apache License, Version 2.0 (available at ​http://www.apache.org/licenses/LICENSE-2.0​). All documentation will be contributed to and made available to HLHC under the Creative Commons Attribution 4.0 International License (available at http://creativecommons.org/licenses/by/4.0/).
+  - All outbound code will be made available under the Apache license.

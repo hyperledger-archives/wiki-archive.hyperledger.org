@@ -1,0 +1,53 @@
+====== Hyperledger Project Update ======
+
+===== Project =====
+Blockchain Explorer
+
+===== Project Health =====
+Project health is green. We are continuing to work with Fabric 1.0. Shared vision of a road-map helps contributors stay focused on the deliverables.\\
+We use all of the following to help keep project health green: JIRA, RocketChat, email, Gerrit, Jenkins, GitHub, Zoom, Skype.\\
+Questions asked via rocket-chat are being answered in a timely manner.\\ 
+Daily standup calls are held M-F at 8:30 am.  Some days there is one more at 4 pm to accommodate a different timezone of our newest member from California.\\
+Good mix of backgrounds of contributors, from front-end to back-end expertise.\\
+Patchsets are reviewed internally within contributing organizations and then within the developer community.
+
+
+===== Issues =====
+There are no issues at this time.
+
+===== Releases =====
+v0.3: Release 3 of blockchain-explorer is ready for Friday March 23rd, 2018. Going forward releases will be clearly tagged.
+
+
+===== Overall Activity in the Past Quarter =====
+
+In this quarter (Jan-Mar 2018) there were two major changes that happened.\\
+1. Front-end was switched to React js 
+  * New UI design for front-end was adopted. It consists of a Dashboard page, Blocks, Transactions and Smart  Contracts for a given channel.
+  * Dashboard page has been created to display statistics.
+  * Place holders have been created with mock data in one instance for the navigation pages available.
+2. Switched from MySQL to Postgres database. 
+  * As a first step we simply switched out MySQL with postgres
+  * As a second step we are working on a better DB design with future development in mind.
+
+
+===== Current Plans =====
+  * Complete the hookup of front end with backend data for all already planned navigation pages and dashboard widgets.
+  * Create an admin function for "adding a channel".
+  * Create UI designs for expected admin pages.
+
+
+===== Maintainer Diversity =====
+
+We added Ashish Kumar, Jitendra Dikhit from American Express India, Nik Frunza, Mekia Edwards and myself Vinita Chinoy from DTCC and more recently we have added Cam Mach of Inspur Technologies, California.
+
+
+===== Contributor Diversity =====
+
+We have contributors from DTCC, American Express and Inspur at this time.
+
+
+===== Additional Information =====
+We welcome folks to bring their ideas and join our developer team
+
+ 

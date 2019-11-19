@@ -1,0 +1,13 @@
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1546832894;s:8:"modified";i:1547258650;}s:7:"creator";s:13:"Raveesh Dewan";s:4:"user";s:12:"dewanraveesh";s:11:"last_change";a:7:{s:4:"date";i:1547258650;s:2:"ip";s:13:"12.252.19.134";s:4:"type";s:1:"E";s:2:"id";s:38:"groups:healthcare:2019_01_8_payor_hcwg";s:4:"user";s:6:"aab142";s:3:"sum";s:18:"[Meeting Minutes] ";s:5:"extra";s:0:"";}s:11:"contributor";a:2:{s:12:"dewanraveesh";s:13:"Raveesh Dewan";s:6:"aab142";s:13:"Alan Bachmann";}s:5:"title";s:51:"Payer Subgroup Meeting Minutes for January 08, 2019";s:11:"description";a:2:{s:15:"tableofcontents";a:8:{i:0;a:4:{s:3:"hid";s:50:"payer_subgroup_meeting_minutes_for_january_08_2019";s:5:"title";s:51:"Payer Subgroup Meeting Minutes for January 08, 2019";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:1;a:4:{s:3:"hid";s:9:"resources";s:5:"title";s:10:"Resources:";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:2;a:4:{s:3:"hid";s:30:"welcome_and_opening_statements";s:5:"title";s:30:"Welcome and Opening Statements";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:3;a:4:{s:3:"hid";s:13:"introductions";s:5:"title";s:13:"Introductions";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:4;a:4:{s:3:"hid";s:15:"meeting_minutes";s:5:"title";s:15:"Meeting Minutes";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:5;a:4:{s:3:"hid";s:12:"old_business";s:5:"title";s:12:"Old Business";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:6;a:4:{s:3:"hid";s:12:"new_business";s:5:"title";s:12:"New Business";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:7;a:4:{s:3:"hid";s:12:"next_meeting";s:5:"title";s:12:"Next Meeting";s:4:"type";s:2:"ul";s:5:"level";i:2;}}s:8:"abstract";s:363:"Payer Subgroup Meeting Minutes for January 08, 2019
+
+Unfortunately, the meeting was not recorded due to some issue. All meetings will be recorded going forward
+
+Resources:
+
+Chat:  <https://chat.hyperledger.org/channel/healthcare-wg> (you can use your LFID to login)
+
+Github:  <https://github.com/hyperledger>
+
+Wiki:  <https://wiki.hyperledger.org>
+
+HLHC-SIG Wiki:";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}s:8:"relation";a:1:{s:10:"firstimage";s:0:"";}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1546832894;s:8:"modified";i:1547258650;}s:7:"creator";s:13:"Raveesh Dewan";s:4:"user";s:12:"dewanraveesh";s:11:"last_change";a:7:{s:4:"date";i:1547258650;s:2:"ip";s:13:"12.252.19.134";s:4:"type";s:1:"E";s:2:"id";s:38:"groups:healthcare:2019_01_8_payor_hcwg";s:4:"user";s:6:"aab142";s:3:"sum";s:18:"[Meeting Minutes] ";s:5:"extra";s:0:"";}s:11:"contributor";a:2:{s:12:"dewanraveesh";s:13:"Raveesh Dewan";s:6:"aab142";s:13:"Alan Bachmann";}}}

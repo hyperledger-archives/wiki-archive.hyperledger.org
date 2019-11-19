@@ -1,0 +1,65 @@
+====== Cello Analytics====== 
+
+===== Status =====
+
+This project is in [[ /community:project-lifecycle#incubation | Incubation ]]
+
+===== Description =====
+
+Cello Analytics helps provide analytics services for blockchain platforms, which is an important feature for Cello.
+
+Key Characteristics include:
+
+  * Collect logs/events from blockchains
+  * Parse those logs/events automatically with statistic results in interactive graphs
+  * Deep analytics to explore potential abnormality and root cause 
+
+===== Documentation =====
+
+  * [[ https://github.com/hyperledger/cello-analytics/blob/master/README.md | Main doc ]]
+
+===== Project Management =====
+
+We are using [[ https://jira.hyperledger.org/projects/CE | Jira ]] to track the tasks, feel free to create new issues or pick one to fix.
+
+===== Repository =====
+
+  * [[ https://gerrit.hyperledger.org/r/#/admin/projects/cello-analytics | Gerrit ]] - Main repository
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:cello-analytics | All Patchset ]]
+  * [[ https://github.com/hyperledger/cello-analytics | Github ]] - Mirrored Read-only repository
+
+===== Communication =====
+
+==== Mailing List ====
+
+  * [[ mailto:cello@lists.hyperledger.org | cello@lists.hyperledger.org ]] for general discussions 
+   * [[ https://lists.hyperledger.org/g/cello | Subscribe ]]
+   * [[ http://lists.hyperledger.org/g/cello/messages | Archives ]]
+
+==== RocketChat ==== 
+
+For questions and ephemeral discussions, pls join [[ https://chat.hyperledger.org/channel/cello | #cello]]. You can find previous history at [[ https://hyperledgerproject.slack.com/archives/cello |slack archive]].
+
+===== Contributors =====
+
+New contributors are welcome, please feel free to contact us to join.
+
+^ Name         ^ LF ID        ^ Email                  ^ Orgnization  ^
+| Baohua Yang  | baohua       | yangbaohua@gmail.com   | IBM          |
+| Haitao Yue   | hightall     | hightallyht@gmail.com  | IBM          |
+| Kai Chen     | grapebaba    | 281165273@qq.com       | IBM          |
+| Feihu Jiang  | flyingtiger  | jiangfeihu@huawei.com  | Huawei       |
+| Qiang Wang   | qiang0723    | wqiang0723@gmail.com   | independent  |
+
+
+
+===== Adoptions =====
+
+Adoption cases are welcome, feel free to update if you are using the project.
+
+^ Organization ^ Since When ^ Project & Usage ^ Feedbacks ^ Contact Info ^
+| IBM Research| May, 2016 | Cloud, fabric cluster management | | yangbaohua@gmail.com |
+
+===== Related Links =====
+
+  * [[ https://google.github.io/styleguide/pyguide.html#Comments | Python Style Guide from Google ]]

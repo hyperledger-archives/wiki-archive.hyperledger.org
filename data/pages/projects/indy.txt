@@ -1,0 +1,152 @@
+======= Indy =======
+{{ :projects:hyperledger_indy_logo.png?direct&300|}}
+
+===== Status =====
+
+This project is in [[community:project-lifecycle#incubation|Incubation]]
+
+
+===== Description =====
+
+
+Hyperledger Indy provides tools, libraries, and reusable components for providing digital identities rooted on blockchains or other distributed ledgers so that they are interoperable across administrative domains, applications, and any other silo.
+
+
+Indy is in active development across:
+
+Distributed Ledger:
+  * [[https://github.com/hyperledger/indy-node | indy-node]]
+  * [[https://github.com/hyperledger/indy-plenum | indy-plenum ]]
+
+Client Tools:
+  * [[https://github.com/hyperledger/indy-sdk | indy-sdk ]]
+  * [[https://github.com/hyperledger/indy-agent | indy-agent ]]
+
+Shared Components:
+  * [[https://github.com/hyperledger/indy-hipe | indy-hipe ]]
+  * [[https://github.com/hyperledger/indy-crypto | indy-crypto ]] 
+
+
+===== Key Characteristics =====
+
+  * Distributed ledger purpose-built for decentralized identity
+  * Correlation-resistant by design
+  * DIDs (Decentralized Identifiers) that are globally unique and resolvable (via a ledger) without requiring any centralized resolution authority
+  * Pairwise Identifiers create secure, 1:1 relationships between any two entities
+  * Verifiable Claims are interoperable format for exchange of digital identity attributes and relationships currently in the standardization pipeline at the W3C
+  * Zero Knowledge Proofs which prove that some or all of the data in a set of Claims is true without revealing any additional information, including the identity of the Prover
+
+
+===== Documentation =====
+
+An index of Indy documentation can be [[projects:indy:documentation | found here]]. 
+
+The documentation of the nitty gritty of the underpinnings of the code is located in the "docs" folder of each repo. 
+
+**Note:** Indy Documentation is in the process of migrating to:[[https://indy.readthedocs.io/|indy.readthedocs.io]]
+
+===== Project Management =====
+
+
+Bugs, stories, and backlog for Indy Node (Ledger): [[https://jira.hyperledger.org/projects/INDY]]
+
+Bugs, stories and backlog for Indy SDK: [[https://jira.hyperledger.org/projects/IS]]
+
+Bugs, stories and backlog for reference Indy Agents: [[https://jira.hyperledger.org/projects/IA]]
+
+A roadmap showing what the various teams are working on: [[projects:indy:roadmap|Indy Roadmap]]
+
+Production deployments of Hyperledger Indy are listed: [[projects:indy:deployments|Indy Deployments]]
+===== Repositories =====
+
+  * https://github.com/hyperledger/indy-agent
+  * https://github.com/hyperledger/indy-crypto
+  * https://github.com/hyperledger/indy-node
+  * https://github.com/hyperledger/indy-plenum
+  * https://github.com/hyperledger/indy-sdk
+
+===== Communication =====
+
+**Mailing List**
+
+Sign up for the [[https://lists.hyperledger.org/g/indy | Hyperledger Indy Mailing List here]]
+
+**RocketChat (for questions and ephemeral discussions)**
+
+General Discussion
+  * [[https://chat.hyperledger.org/channel/indy|#indy]]: questions and discussions about stable releases
+  * [[https://chat.hyperledger.org/channel/indy-outreach|#indy-outreach]]: documentation improvements and efforts to invite and onboard contributors to the community.
+
+Discussion about new development
+  * [[https://chat.hyperledger.org/channel/indy-agent|#indy-agent]]: developing off-ledger identity services and interaction capabilities
+  * [[https://chat.hyperledger.org/channel/indy-node|#indy-node]]: discussions about the distributed ledger
+  * [[https://chat.hyperledger.org/channel/indy-sdk|#indy-sdk]]: client library that allows identity agents to talk to the distributed ledger
+  * [[https://chat.hyperledger/org/channel/indy-pr-review|#indy-pr-review]]: maintainer coordination and discussion
+  * [[https://chat.hyperledger/org/channel/indy-maintainers|#indy-maintainers]]: maintainer coordination and discussion
+
+
+===== Meetings =====
+
+==== Indy Working Group Call ====
+This call is a general call for any updates with the entire Indy community
+
+Calls happen every Thursday 8amPT, 9amMT, 11amET, 4pmBST
+
+Join from any device at: [[https://zoom.us/j/232861185]]
+
+Or iPhone one-tap (US Toll): +16465588656,232861185# or +14086380968,232861185#
+
+Or Telephone:
+Dial: +1 646 558 8656 (US Toll) or +1 408 638 0968 (US Toll)
+Meeting ID: 232 861 185
+International numbers available: [[https://zoom.us/zoomconference?m=a0jD_rTMnh0ZYGQDOKPCNrK_0dP7WPfp1]]
+
+NOTE: There is a chance that the schedules here will conflict. HyperLedger should be taken as the source of truth if/when that happens. Efforts are likely being made to consolidate the calendar into HyperLedger's calendar. Please check the [[https://chat.hyperledger.org/channel/indy|Indy rocket chat channel]] for the most current information.
+
+Past recordings can be found here:
+[[https://drive.google.com/drive/folders/1AwHWN95KmSEi5fijraID0tFFMzYHoMwt|Indy WG Recordings]]
+
+Past agendas can be found here:
+[[https://drive.google.com/drive/folders/1wNnp1pPS6-1Y4B2oygfI6tOU4eHGmpRH|Indy WG Agendas]]
+
+==== Indy Agent Working Group Call ====
+This call is for people who are building agents or apps with Indy and want to know what others in the ecosystem are doing.
+
+Calls happen every Friday 7amPT, 8amMT, 10amET, 3pmBST. Look on the [[https://chat.hyperledger.org/channel/indy-agent|Indy-Agent]] channel on rocket chat for the zoom link we are currently using.
+
+Past recordings can be found here:
+[[https://drive.google.com/drive/folders/1RxWHMz1Azr5Zg5ntHeKEQXNMV6JpnEfN|Indy Agent Recordings]]
+
+Past agendas can be found here:
+[[https://drive.google.com/drive/folders/1qIO5FkQNmt099nOttzxN7XBmE8Vbdd6W|Indy Agent Agendas]]
+
+Rolling agenda for Agents call can be found here:
+[[https://docs.google.com/document/d/1VFdLCiPK5M1TEaL65FjbgYYu5j3e4ozISKTGIERGxU0/edit|Rolling Agenda]]
+
+
+===== Calendars =====
+  * Add any recurring Indy events to your calendar by navigating to our [[https://calendar.google.com/calendar/embed?src=sovrin.org_3r7hkuuo6gsjn2cptcdcgnlok0%40group.calendar.google.com&ctz=America/Toronto|public calendar]] and clicking on the specific events to add them to your own Google calendar.
+  * [[https://wiki.hyperledger.org/community/calendar-public-meetings|HyperLedger Calendar of Public Meetings]]
+
+
+===== Quarterly Status Updates =====
+  * Q4 2017 Indy Status Update to TSC: https://wiki.hyperledger.org/groups/tsc/project-updates/indy-2017-nov
+  * Q1 2018 Indy Status Update to TSC: https://wiki.hyperledger.org/groups/tsc/project-updates/indy-2018-feb
+  * Q2 2018 Indy Status Update to TSC: https://wiki.hyperledger.org/groups/tsc/project-updates/indy-2018-may
+  * Q3 2018 Indy Status Update to TSC: https://wiki.hyperledger.org/groups/tsc/project-updates/indy-2018-aug
+  * Q4 2018 Indy Status Update to TSC: https://wiki.hyperledger.org/groups/tsc/project-updates/indy-2018-nov
+===== Hackathons =====
+
+  * [[projects:indy:june_2018_amsterdam_hackathon|June 2018 Amsterdam Hackathon]]
+  * [[projects:indy:oct_2017_dublin_hackathon|Oct 2017 Dublin Hackathon]]
+
+===== Related Pages =====
+
+
+* [[https://www.sovrin.org|sovrin.org]]
+
+===== History =====
+* Just created to attempt to gather Indy specific information - initially for calendar of events/meetings. 
+
+  * [[https://docs.google.com/document/d/1YzXz0aM8w7kSp3_ao3ue9tOFwK9paofXbtBptR1Jucg/edit?ts=5893c650 | Proposed]] by Steve Fulling and Phil Windley, Sovrin Foundation and Nathan George and Jason Law, Evernym - [[https://docs.google.com/presentation/d/1AFxB6Qu_ayyepIUrUvdqjGzXz6JS6SPms5JNOiTBDas/edit?usp=sharing|Slide Deck]]
+  * [[https://docs.google.com/document/d/1Qw4nFyclW0-RlbcSoNa8KUFqR8U8fPRu63OKuirBjDw/edit | Approved]] by the TSC on 2017-03-30

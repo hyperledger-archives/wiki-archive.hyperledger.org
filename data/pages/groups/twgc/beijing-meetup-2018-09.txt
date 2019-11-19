@@ -1,0 +1,21 @@
+=====Hyperledger Beijing Meetup=====
+
+[[ https://wiki.hyperledger.org/groups/twgc/events/guideline | Meetup Event guideline]]
+
+====时间====
+Sept 15, 2018
+
+====地点====
+北京大学信息学院 理科2号楼2129阶梯教室
+
+====参与单位====
+承办方：智链ChainNova
+
+====演讲题目（暂定）====
+  * Hyperledger Cello项目介绍
+  * 使用Cello搭建和测试fabric网络
+  * 华为云区块链
+  * 基于云服务的区块链企业服务平台
+
+====议程====
+^ Time时间         ^ Topic 题目                         ^ Speaker 演讲者                  ^

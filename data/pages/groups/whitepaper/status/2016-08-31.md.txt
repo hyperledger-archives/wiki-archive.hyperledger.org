@@ -1,0 +1,6 @@
+# Whitepaper WG Status 2016 Aug 31
+* Present: Dave, Murali, Nick, Hart, Ram. Regrets: Renat, Stefan, Tamas, Mic
+* Discussed Draft 2.0 feedback from Richard G Brown
+* Agreed to schedule Draft 2.0 walkthrough prior to the Sibos event (Sept 26-29) in order to have a non-Draft version available for distribution at the HLP booth
+   * Agreed to add some verbiage to the whitepaper explaining this is a living document and is expected to undergo future revisions as the Hyperledger technology and thinking evolves, possible in an Introduction section.
+* Agreed to have a Latex version of the non-Draft (v1.0) Whitepaper. Dave to reach out to Todd for space in the HLP Github to house this.

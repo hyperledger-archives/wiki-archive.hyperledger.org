@@ -1,0 +1,16 @@
+=====Hyperledger Beijing Meetup=====
+
+[[ https://wiki.hyperledger.org/groups/twgc/events/guideline | Meetup Event guideline]]
+
+====时间====
+13:30-17:30, Jul 21, 2018
+
+====地点====
+北京大学信息学院 理科2号楼2129阶梯教室(暂定）
+
+====参与单位====
+承办方：智链ChainNova\\
+场地赞助：北京大学
+
+====议程====
+^ Time时间         ^ Topic 题目                         ^ Speaker 演讲者                  ^

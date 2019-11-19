@@ -1,0 +1,22 @@
+==== TWG China Group Report for Q1 2018 ====
+
+=== Status ===
+  - Team: The team are collaborating in code development, user scenarios, i18n&education, event organization and other tasks. 
+  - Meeting: bi-weekly group meeting were held regularly with active discussions (with LF experts). All minutes can be found on the [[ groups/twgc/meetings | wiki]].
+  - [[groups/twgc/team_di | Technical Development]]
+    - Technical Communication: active discussions happen in the rocket chat channel/maillist.
+    - Code contributions to Hyperledger fabric, cello, sawtooth and other projects.
+  - [[groups/twgc/team_cs | Collaboration and Scenarios]]
+    - Share member companies user cases through official wechat channel
+  - [[groups/twgc/team_ie | i18n and education work]]
+    - The team has finished documentation translated of fabric 1.0 docs
+    - FAQ page is setup to collect technical questions
+    - Evaluate zanata as the i18n platform, but found it requires additional registration and not easy to use
+  - [[groups/twgc/team_eo | Event organization ]]
+    - We now hold monthly meetups in Beijing, Shanghai and Hangzhou (Dalian and Wuhan not regularly), supported by our volunteers.
+    - Have drafted and formalized a event organization guideilne, which will be followed by event organization.
+
+
+=== Issues ===
+  - We are holding regular monthly meetup in various cities, need funding support for meeting places and small gifts. And need to enhance the marketing impact.
+  - In order to organize the translated documentation, training materials, tutorial videos, can we have some Chinese version of website? e.g., hyperledger.cn? just like those in kubernetes/openstack communities.

@@ -1,0 +1,12 @@
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1477938451;s:8:"modified";i:1534809695;}s:7:"creator";s:15:"Jeremy Sevareid";s:4:"user";s:7:"jeremys";s:11:"last_change";a:7:{s:4:"date";i:1534809695;s:2:"ip";s:13:"173.25.58.194";s:4:"type";s:1:"E";s:2:"id";s:27:"groups:identity:identity-wg";s:4:"user";s:6:"tkuhrt";s:3:"sum";s:0:"";s:5:"extra";s:0:"";}s:11:"contributor";a:5:{s:7:"jeremys";s:15:"Jeremy Sevareid";s:6:"VipinB";s:15:"Vipin Bharathan";s:8:"tbenzies";s:12:"Todd Benzies";s:6:"tkuhrt";s:11:"Tracy Kuhrt";s:5:"tracy";s:11:"Tracy Kuhrt";}s:5:"title";s:22:"Identity Working Group";s:11:"description";a:2:{s:15:"tableofcontents";a:4:{i:0;a:4:{s:3:"hid";s:22:"identity_working_group";s:5:"title";s:22:"Identity Working Group";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:16:"antitrust_policy";s:5:"title";s:16:"Antitrust Policy";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:2;a:4:{s:3:"hid";s:19:"notes_from_meetings";s:5:"title";s:19:"Notes from Meetings";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:3;a:4:{s:3:"hid";s:31:"recordings_slides_from_meetings";s:5:"title";s:33:"Recordings & Slides from Meetings";s:4:"type";s:2:"ul";s:5:"level";i:2;}}s:8:"abstract";s:454:"Identity Working Group
+
+Identity WG Charter
+
+Identity WG Paper draft
+
+ Mailing List
+
+	*   Identity-wg mailing list
+	*   Identity-wg email archive
+
+The Identity WG meets biweekly on Wednesdays noon EST-EDT. Alternates with Architecture WG meetings- Some dates to help you get oriented March 21, 2018-April 4, 2018-April 18, 2018-May 2, 2018- We rarely cancel calls (last year only once during the holidays), just in case- please check rocket chat channel.";}s:8:"relation";a:2:{s:10:"references";a:2:{s:38:"groups:identity:identity-wg:recordings";b:1;s:49:"groups:identity-identity-wg:2016_slides_and_notes";b:1;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1477938451;s:8:"modified";i:1534809695;}s:7:"creator";s:15:"Jeremy Sevareid";s:4:"user";s:7:"jeremys";s:11:"last_change";a:7:{s:4:"date";i:1534809695;s:2:"ip";s:13:"173.25.58.194";s:4:"type";s:1:"E";s:2:"id";s:27:"groups:identity:identity-wg";s:4:"user";s:6:"tkuhrt";s:3:"sum";s:0:"";s:5:"extra";s:0:"";}s:11:"contributor";a:5:{s:7:"jeremys";s:15:"Jeremy Sevareid";s:6:"VipinB";s:15:"Vipin Bharathan";s:8:"tbenzies";s:12:"Todd Benzies";s:6:"tkuhrt";s:11:"Tracy Kuhrt";s:5:"tracy";s:11:"Tracy Kuhrt";}}}

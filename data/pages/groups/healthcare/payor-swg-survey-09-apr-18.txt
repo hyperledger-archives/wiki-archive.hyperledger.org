@@ -1,0 +1,7 @@
+===== Survey =====
+
+  * Participants : Payor SWG
+  * Survey date : 19-JUN-18
+  * [[https://www.surveymonkey.com/r/HJL7X8V|Survey form]]
+  * [[https://www.surveymonkey.com/results/SM-9TLRK7KQL/|Results]]
+  * Communications : [[https://lists.hyperledger.org/g/healthcare-wg/topic/22445728#431|Announcement]], [[https://lists.hyperledger.org/g/healthcare-wg/topic/22681658|Findings]]

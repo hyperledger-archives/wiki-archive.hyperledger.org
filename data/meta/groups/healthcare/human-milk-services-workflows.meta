@@ -1,0 +1,26 @@
+a:2:{s:7:"current";a:8:{s:4:"date";a:2:{s:7:"created";i:1539545337;s:8:"modified";i:1539889917;}s:7:"creator";s:13:"Mikhail Elias";s:4:"user";s:8:"melias11";s:11:"last_change";a:7:{s:4:"date";i:1539889917;s:2:"ip";s:14:"190.148.78.209";s:4:"type";s:1:"e";s:2:"id";s:47:"groups:healthcare:human-milk-services-workflows";s:4:"user";s:8:"melias11";s:3:"sum";s:0:"";s:5:"extra";s:0:"";}s:5:"title";s:28:"Human milk service workflows";s:11:"description";a:2:{s:15:"tableofcontents";a:2:{i:0;a:4:{s:3:"hid";s:28:"human_milk_service_workflows";s:5:"title";s:28:"Human milk service workflows";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:1;a:4:{s:3:"hid";s:17:"service_workflows";s:5:"title";s:17:"Service workflows";s:4:"type";s:2:"ul";s:5:"level";i:3;}}s:8:"abstract";s:503:"Human milk service workflows
+
+	*  Home : Activities : Domain analysis : Human milk services
+	*  Home : Resources : Analytical models : Human milk services model
+
+----------
+
+Service workflows
+
+	*  Scenario modeling instructions
+	*  Scenario template
+
+Events and activities
+
+	*  Perinatal services
+		*  Primary flow
+			*  Feed preterm infant
+
+
+
+	*  Human milk donor services
+		*  Donate milk
+			*  Recruit prospective milk donor
+			*  Screen prospective milk donor
+			*  Educate milk donor
+			*  Produ…";}s:8:"relation";a:2:{s:10:"references";a:36:{s:50:"groups:healthcare:healthcare-wg-wikispace-redesign";b:1;s:28:"groups:healthcare:activities";b:1;s:35:"groups:healthcare:analysis-business";b:1;s:37:"groups:healthcare:analysis-human-milk";b:1;s:27:"groups:healthcare:resources";b:1;s:35:"groups:healthcare:analytical_models";b:1;s:43:"groups:healthcare:human_milk_services_model";b:1;s:48:"groups:healthcare:scenario-modeling-instructions";b:1;s:35:"groups:healthcare:scenario-template";b:1;s:36:"groups:healthcare:perinatal_services";b:1;s:37:"groups:healthcare:feed_preterm_infant";b:1;s:43:"groups:healthcare:human_milk_donor_services";b:1;s:29:"groups:healthcare:donate_milk";b:1;s:48:"groups:healthcare:recruit_prospective_milk_donor";b:1;s:47:"groups:healthcare:screen_prospective_milk_donor";b:1;s:36:"groups:healthcare:educate_milk_donor";b:1;s:30:"groups:healthcare:produce_milk";b:1;s:30:"groups:healthcare:collect_milk";b:1;s:29:"groups:healthcare:screen_milk";b:1;s:30:"groups:healthcare:process_milk";b:1;s:47:"groups:healthcare:human_milk_recipient_services";b:1;s:30:"groups:healthcare:receive_milk";b:1;s:28:"groups:healthcare:order_milk";b:1;s:36:"groups:healthcare:approve_milk_order";b:1;s:33:"groups:healthcare:distribute_milk";b:1;s:31:"groups:healthcare:dispense_milk";b:1;s:31:"groups:healthcare:transfer_milk";b:0;s:29:"groups:healthcare:recall_milk";b:0;s:47:"groups:healthcare:milk_bank_management_services";b:0;s:40:"groups:healthcare:accreditation_services";b:0;s:46:"groups:healthcare:contract_management_services";b:0;s:47:"groups:healthcare:affiliate_management_services";b:1;s:52:"groups:healthcare:billing_and_reimbursement_services";b:0;s:39:"groups:healthcare:milk_storage_services";b:1;s:44:"groups:healthcare:milk_distribution_services";b:1;s:37:"groups:healthcare:laboratory_services";b:1;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:4:{s:4:"date";a:1:{s:7:"created";i:1539545337;}s:7:"creator";s:13:"Mikhail Elias";s:4:"user";s:8:"melias11";s:11:"last_change";a:7:{s:4:"date";i:1539889917;s:2:"ip";s:14:"190.148.78.209";s:4:"type";s:1:"e";s:2:"id";s:47:"groups:healthcare:human-milk-services-workflows";s:4:"user";s:8:"melias11";s:3:"sum";s:0:"";s:5:"extra";s:0:"";}}}

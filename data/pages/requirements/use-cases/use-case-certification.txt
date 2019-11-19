@@ -1,0 +1,66 @@
+====== Use Case Certification ======
+
+===== Section 1 - Intro =====
+
+==== Overview of the Business Problem or Opportunity ====
+
+  * Demand for transparency to prevent environmental, social and health and safety problems
+  * Control quality of a finished product as sum of qualities of components
+  * Certifications: quality standard, fair trade, organic, ethical
+
+==== Current Solution ====
+
+Certifiers assign labels such as //organic// or //fair trade// to a finished product. The consumers are asked to trust the label and have no means to verify the provenance of materials in the finished product. NGOs as centralized certifiers create an inherent bias and weakness in the system.
+
+==== Why Distributed Ledger technology? ====
+
+Permissioned blockchain can provide a mechanism to mimic the real world in assigning the materials for a given product under the ownership of the final customer.
+
+  * assign certifications of certain properties of physical products
+  * keep an immutable record
+  * easily verify entire chain of supply materials of an end product
+  * allow users of different roles to 
+    * create certification templates
+    * assign properties
+    * assign roles
+
+===== Section 1 - Requirements =====
+
+==== General Requirements ====
+
+**Role based participation** - allow users of different roles to update different attributes of a record.
+
+  * Registrars: organizations that register participants of other roles.
+    * User Story: a registrar organization verifies identitiy of producers and manufacturers and assigns blockchain-based digital identities to them
+    * User Story: a registrar verifies credibility of a certifier based on agreed upon set of credentials and assigns a digital identity to it -- now all participants can trust the certifier and the results of its inspections
+
+  * Standards organizations: create rules for certifications
+    * User Story: standards organizations create schemas for proper recognition of a standard: no animal testing, biodynamic, fair labor.
+
+  * Producers: create source materials or primary goods
+    * User Story: a cotton grower is inspected assigned a certification by a certifier based on a set of criterias defined in a standard. The criteria may include production capacity, description of a good or facility.
+    * User Story: the cotton grower registers its output sent up the manufacturing chain. Each batch of cotton is tagged with the producer's id before being sent to the manufacturer.
+
+  * Manufacturers: assemblers of final products or its components
+    * User Story: a textile factory is inpected and assigned a certification based on a standard
+    * User Story: the textile factory receives a batch of cotton bearing an id assigned by the producer previously. The id is input into the manufacturer's software which adds the producer's id to all the batches of textile output by the factory.
+    * User Story: a maker of jeans receives a batch of textile bearing an id assigned by the textile factory previously. The jeans maker adds its id to the chain of ids of the cotton grower and textile manucturer and marks its output.
+
+  * Certifiers and auditors, which are agents — usually separate agents, to maximize security — that inspect producers and manufacturers and verify certain standards, like annual production capacity; and
+
+  * Customers: the buyers of products all along a supply chains, including the end consumer
+    * User Story: while buying a pair of jeans a consumer scans 'fair trade' certification label and queries the chain of ids from the cotton grower to the jeans maker. Each id links to the member's certification.
+
+**Auditability** - allow public to audit records and transactions that changed it
+
+**Immutability** - prevent any party from modifying a record or its attribute
+
+==== Privacy Requirements ====
+
+**Selective visibility** - prevent quering records or some of its attributes
+
+    * User Story: a manufacturer wishes to prevent any party from querying all records trying to deduce market share or market size. 
+
+**Pseudonimity** - allow some participants to remain anonymous but be able to be traced by a pseudonym
+
+    * User Story: a manufacturer wishes to remain anonymous but open itself to inspections by certifiers. The certifier's identity and credentials remain available. Consumers can trust the certification based on the trust in the certifiers while not knowing the identities of manufacturers.

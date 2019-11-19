@@ -1,0 +1,104 @@
+==== 2017-05-19 ==== 
+
+Meeting will be held at [[https://chat.hyperledger.org/channel/fabric-sdk-py|rocketchat]] at 11AM (GMT+8).
+
+=== Agenda ===
+
+  * MVP remaining tasks: kai and chang will sync.
+  * E2E test: Chao Li will sync
+  * [[https://jira.hyperledger.org/browse/FAB-3885|FAB-3885]]: Wei Hu will help sync
+  * [[ https://jira.hyperledger.org/secure/RapidBoard.jspa?rapidView=85 | Jira board ]] status (chang will sync). 
+  * [[ https://gerrit.hyperledger.org/r/#/q/project:fabric-sdk-py | Patchset]] for review. 
+  * [[https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4 | SDK Spec]] is publicly available.
+  * Other issues
+
+
+=== Attendee ===
+**Please put ur name before the meeting.**
+
+  * Kai Chen
+  * Chao Li
+  * Chang Chen
+  * Wei Hu
+  * David Dornseifer
+  * Ray Chen
+
+
+=== Log ===
+lafenicecc 11:00 AM 
+Anyone online? Please hands up
+
+WangDong 11:01 AM 
+hi
+
+WeiHu 11:01 AM 
+✋
+
+Ray 11:01 AM 
+✋
+
+lafenicecc 11:02 AM
+Meeting start 😁
+1) Jira board status (chang will sync).
+FAB-3081 Change /api/v1/cfssl/ prefix on fabric-ca-server endpoints to /api/v1/ prefix
+About this one, David's patch is merged. Is that solved? @grapebaba
+
+grapebaba 11:03 AM
+yes
+can close
+
+lafenicecc 11:03 AM
+Ok, i'll move it to Done 👍
+FAB-3482 auto clean up coverage temp files and testing process refinement
+Camelback are you here? Can this be marked done?
+FAB-3626 Python SDK needs to update REST calls to use caname
+Lei Li is working on this
+FAB-3885 Revise user role in chaincode test
+@WeiHu Can you help update the status?
+
+WeiHu 11:06 AM
+yes, i'm working on this. since i'm new to python, i'm afraid that i need sometime to get familiar with both python and sdk-py
+
+lafenicecc 11:07 AM
+no problem
+if any questions about this issue or coding , just feel free to ask
+
+WeiHu 11:08 AM
+😬ok
+
+lafenicecc 11:08 AM
+FAB-3889 Split some heavy unit test files
+David is taking this, thanks
+FAB-2871 implement e2e test
+CamelBeck seems not online, will discuss later
+
+WangDong 11:09 AM
+I will discuss this with him later offline
+
+lafenicecc 11:09 AM
+Thanks wangdong!
+
+WangDong 11:09 AM
+I am trying to do this with him
+Last week I config the env
+And I will find some doc on this topic
+
+lafenicecc 11:11 AM
+👍 Cool. e2e will be the most important reference case for sdk users
+These are the jira board status
+About createChannel, how about creating a new task? @grapebaba
+https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4/edit
+This is the SDK Spec. Now is publicly available. Welcome to read.
+Any more questions for today?
+If not, we can discuss later and keep using wechat group.
+Thanks everyone, have a nice weekend!
+
+WeiHu 11:17 AM
+👏
+
+WangDong 11:17 AM
+OK
+have a nice weekend
+
+grapebaba 11:22 AM 
+@lafenicecc ok 

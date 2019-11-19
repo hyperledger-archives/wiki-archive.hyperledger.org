@@ -1,0 +1,54 @@
+**Hyperledger Healthcare Patient SubGroup  \\
+Meeting Agenda and Meeting Notes for 2018-11-23**
+
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class 1: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]\\
+Hyperledger Class 2: [[https://www.edx.org/course/understanding-blockchain-and-its-implications|Understanding Blockchain and its Implications]]\\
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+<WRAP box>
+[[https://drive.google.com/drive/folders/1LftmvcPk_xGfqhZg04TnheViuYZWx9Cx?ogsrc=32|Meeting recordings/transcript]] 
+</WRAP>
+
+<WRAP box>
+In attendance:
+  * Rich Bloch
+  * Mikhail Elias
+  * Marissa Iannarone
+</WRAP>
+
+**Notes**
+
+**Donor Milk PoC Status Update - activities from the last couple of weeks (10 Min)**
+
+<WRAP box>
+Action items from last meeting were the following with an update in italic
+  * Marissa to reach out to IBM Food Trust contacts to see if they would be interested in collaborating on a donor milk focused effort //- Marissa is meeting with IBM Global Services on 11/26 to talk about the PoC and if there would bbe interest in collaboration. She will report back once she has more information//
+  * We also need to see where we can find a connection in Epic (ideally Epic as they are the largest EMR, but we could work with another), so Marissa will reach out to contacts at medical chain and also ask IBM if they have had any conversations // - Sent an email to Dave Ebbitt from Medicalchain and he responded "At Medicalchain our focus is currently on integrating with the primary care (General Practitioner) systems in the UK. After which, probably mid next year, our focus will swing to the main hospital systems - Epic, Cerner and Allscripts in particular. We do note that all three suppliers are now providing an HL7/FHIR compliant interface to their systems - a major step in the direction of easier systems inter-operability. WE are committed to FHIR for data transmission standards and to openEHR for data persistence standards. openEHR provides a good guide to how to structure health data based on open standards, thus avoiding creating yet more silos."//
+  * Marissa to connect back with Anton to see if as the customer is comfortable with this pivot and if he has any ideas for contact and also would be willing to set aside some time to build out some user stories for us to explore // - emailed Anton and have not heard back//
+  * Rich will send Marissa template for user stories that might be helpful in the discussion with Anton// - Marissa following up on this//
+
+In addition to follow up on action item we discusses who is our customer with Rapid Healthcare not actively involved and Naomi from HMBANA not having been asked to fill that role. We need to clearly identify the customer, and requirements before moving forward with build. Next steps are for Marissa to reach out to Rapid Healthcare to gauge their continued availability and then see if Naomi would be interested in taking the role. We should also work to reach out to other SMEs and work to get them involved in the project. 
+</WRAP>
+
+**2019 Planning Discussion (20 Min)**
+<WRAP box>
+  * With only 3 participants on the call, we didn't discuss this too comprehensively
+  * What the EMR subgroup is discussing might impact approach for all subgroups, but that is TBD
+  * We'll discuss more at our next meeting
+</WRAP>
+
+**EMR Subgroup Update**
+<WRAP box>
+   * Taking a bottom up vs top down approach for the subgroup
+   * Small team is working to explore this option and look at bottom up solutions
+   * Do we want to provide services instead of applications in the healthcare space - it will likely be a hybrid approach
+</WRAP>
+

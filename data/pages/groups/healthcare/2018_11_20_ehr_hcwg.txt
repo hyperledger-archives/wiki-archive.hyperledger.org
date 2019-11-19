@@ -1,0 +1,83 @@
+====== Hyperledger Healthcare Working Group (HLHCWG) ======
+===== EMR Subgroup Agenda for 2018-11-20 =====
+
+==== Resources: ====
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+Hyperledger class: [[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0|Blockchain for Business - An Introduction to Hyperledger Technologies]]
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+----
+
+===== Welcome and Opening Statements =====
+
+  * //A reminder to all HLHCWG members that this meeting is being recorded//
+  * [[https://www.linuxfoundation.org/antitrust-policy|Reading of the Linux Foundation Antitrust Policy]]
+  * [[https://tinyurl.com/HL-antitrust-slide|Hyperledger Antitrust Slide]]
+  * **Discussion: request for note-taking for this meeting**
+
+<WRAP box>
+In attendance:
+  * Rich Bloch
+  * Ben Djidi
+  * Sonia
+  * Mikhail Elias
+</WRAP>
+
+===== Introductions =====
+
+  * **If you’re new to the subgroup, please…** 
+    * Introduce yourself
+    * Tell us where you're geographically located
+    * Share with us your interests in healthcare in general, and blockchain technologies in specific, with emphasis in EHR/EMRs
+
+===== Community Announcements =====
+
+  * **Feel free to share your community announcements as they relate to the Hyperledger community**
+
+===== Old Business =====
+
+  * Status on current work efforts
+  * * **Discussion: open discussion on expectations and direction of this subgroup**
+
+<WRAP box>
+  * Discussion of past EMR Subgroup meetings
+  * Sonia and Rich attended the last known EMR Subgroup meeting (10/02), which is believed to have been the last meeting of the subgroup
+  * Past meeting emphasized an EMR solution from the provider perspective
+  * Expectation is that the current work on our HLHCWG charter review/revision will help set the proper tenor going forward
+  * Question about the distinction between EMRs and EHRs
+    * EHRs are a broader interpretation of electronic health records management, while...
+    * EMRs are typically a subset of an EHR, generally provider-facing, used in provider practices (satellite to larger healthcare systems)
+
+  * Larger question of whether this subgroup focus on EHRs or the provider (harmonizing with the other subgroups: patient and payer)
+    * Concept surfaced of whether it makes sense to view use cases from the end-user perspective (application layer / top down)
+      * What if we viewed our work as bottom up, more as a provider of a healthcare platform of services?
+      * Cross-cutting issues of data management, security, and interoperability fall into the context of this approach
+      * Implications touch all current subgroups
+      * Important to maintain an understanding that WGs exist to drive issues in the proper context (in this case, healthcare) up to Hyperledger leadership such that architectural/feature improvements can be made to improve frameworks/toolsets
+    * Public healthcare could be one way to rescope the focus for this (or another, separate) subgroup
+
+</WRAP>
+
+===== New Business =====
+
+  * Seeking new lead for this subgroup
+    * **Discussion: recommendations/nominations?**
+
+<WRAP box>
+  * From the good discussions from today's meeting, the group has decided to spin up an ad hoc committee to do some additional due diligence in advance of the next meeting
+    * Sonia has volunteered to serve as lead for this team, with Ben and Mikhail working with Sonia
+    * Rich will loop Steven Elliot (not in attendance) into the team, as Steven and Mikhail have complementary thoughts
+  * Our next meeting will continue the discussion about how best to shape the charter of this subgroup going forward
+</WRAP>
+
+
+===== Next Meeting =====
+
+  * Scheduled for Tuesday, 12/04, 0800 Pacific Time
+  * **Discussion: topics to add to agenda?**

@@ -1,0 +1,72 @@
+Hyperledger Project\\
+Healthcare Working Group (HCWG) Payer Subgroup Meeting\\
+June 12, 2018 \\
+
+Resources:\\
+Chat:  https://chat.hyperledger.org/channel/healthcare-wg (you can use your LFID to login)\\
+Github:  https://github.com/hyperledger\\
+Wiki:  https://wiki.hyperledger.org\\
+HCWG Wiki: https://wiki.hyperledger.org/groups/healthcare/healthcare-wg \\
+Public lists:  https://lists.hyperledger.org\\
+Meetings:  https://wiki.hyperledger.org/community/calendar-public-meetings \\
+
+Linux Foundation Antitrust reminder: https://www.linuxfoundation.org/antitrust-policy\\
+
+Meeting Notes\\
+
+Introductions\\
+     *Everyone got a chance to introduce themselves\\
+     *Following group members shared active projects in Payer space that they are working out or that they are aware off\\
+          *Tony: Provider Data – Currently focused on Demographics\\
+          *Venu: Working on Fraud Waste and Abuse Use Case\\
+
+Make sure as we engage in this group that we all have reviewed and are aware of Linux Foundation’s Anti-Trust Policy\\ 
+
+Include #payer-subgroup tag in your emails to the mailing lists for communication 
+
+
+Initial thoughts from group members\\
+     *Identity – Is a big challenge to address in Payer industry w.r.t. to Providers and not just providers but any use case that we work with will involve identity.\\
+          *It might be a good idea to invite someone from Hyperledger Identity Workgroup to talk and share their thought process\\
+     *It was also shared that the order of these uses cases that we need to look at is also critical. It would be good to tackle simple things first.\\
+     *Example shared was Choice program – Member can go to any provider – It is difficult to keep track where they went or medical record exist.\\
+     *It was also shared that we need a lot of processes and capability outside black chain which means challenging existing processes. This has to be built on the standards and then adding block chain and part of equation would help with the adoption of block chain technology in healthcare payer industry.\\
+     *Another idea discussed was how trust created can be shared – i.e. in provider data management how can the credentialing be sourced from others. How can that become a shared process using block chain solution?\\
+     *It is critical to define – On Chain and off Chain Data as these will complement each other and it becomes critical to tie them together to make it meaningful.\\
+     *Owner of the data should be able to decide, chooses and control who to share the data with and how this can be done dynamically.
+
+
+What is our cadence moving forward?\\
+     *Team decided to go ahead with the same timing on: Tuesdays i.e. 3:00 to 4:00 PM EST.\\
+     *Frequency: Weekly – You should already see a weekly invite starting June 26th – This will give me time to organize a few things with survey etc.
+
+
+Determine how we want to structure in the future\\
+     *Action Item – Raveesh - Raveesh will send out a survey to help prioritize the topics for the agenda and structure of the meeting.\\
+     *Previous survey from Nate for your review -  https://drive.google.com/drive/u/0/folders/16Nq2ug_x8kLeFvn4IE2h6lLivYtOLS34
+
+     *List to maintain block chain in health - https://github.com/HD2i/biomedical-blockchain 
+
+     *Action Item - Nate: Nate will try and invite Analyst to help us Examine the market.
+
+Interest Area – Focus\\
+     *We will identify broad categories for payer industry\\
+          *Action Item - Tony: will send it broad categories. Thanks to Tony. I will include the info that Tony shared in the survey.\\
+          *Market Landscape Paper – Nate suggested to start writing a white paper – I think this is a great idea. I would like to invite if anyone has an interest to get started.\\
+          *Action item - Eli – Eli suggested a use case he will try and push the information to this group that is related to fulfilling pharmacy orders.\\
+          *Action Item – Raveesh -  to push another workgroup information that he is part of in payer space.\\
+     *If there is a possibility to have a quick win with code – for even a small use case – it would be great. Please let me know who would be interested in this. 
+
+
+Planning for Next Topics / Use Cases – We will try to use the survey for planning our next meeting. 
+
+
+Establish tangible goals for this group and ideas to quantify goals to measure progress
+
+     *We can organize ourselves in\\
+          *Technology stream\\
+          *Business stream\\
+     *Create some customer journey maps – challenges from customers standpoint\\
+          *Generate personas
+     *Whitepapers\\
+     *Survey will include – Who can contribute engineering time and who can contribute business expertise

@@ -1,0 +1,23 @@
+====== Participating in the Community ======
+
+All Hyperledger working groups (specs) and projects (code) do their work in the open, with the code and discussions published publicly.
+
+  * All code is forkable from [[https://github.com/hyperledger/|GitHub]].
+
+  * Committers use [[https://gerrit.hyperledger.org/r/#/admin/projects/|Gerrit]] or [[https://github.com/hyperledger | GitHub]] to submit and accept changes.
+
+  * Bugs in current code should be [[community:jira-navigation | submitted to JIRA]].
+
+  * Projects use [[http://lists.hyperledger.org/| mailing lists]] for all technical discussions and announcements; you are free to join.
+
+  * Many working groups hold [[community:calendar-public-meetings | regular public meetings]] where anyone can participate.
+
+  * Live discussions happen in [[community:chat_channels | RocketChat channels]] (//instead of Slack//).
+
+  * Projects at Hyperledger have a [[community:project-lifecycle | lifecycle from incubation to production]] products.
+
+  * We encourage everyone to [[community:meetups | attend or start Meetups]] about Hyperledger projects.
+
+  * Please follow the [[community:hyperledger-project-code-of-conduct | Code of Conduct]] when interacting in Hyperledger communities.
+
+More questions?  [[community:frequently-asked-questions-faq|See the FAQ]].

@@ -1,0 +1,1 @@
+We previously used Slack for ephemeral discussions.  You can locate the Slack archives at [[http://slack-archive.hyperledger.org/html/index.html]]. If you need to access the raw text for any reason, you can locate those in Github [[https://github.com/hyperledger/slack-archive]].

@@ -1,0 +1,33 @@
+====== Hyperledger Working Group Update ======
+
+===== Working Group =====
+Training and Education WG
+
+===== Working Group Health =====
+The first meeting was held on February 26th. We elected two people from the community to be co-chairs of the working group -- Kelly Cooper and Sjir Nijssen. The working group is still coming together as a community to determine their first work product. 
+
+
+===== Issues =====
+Working group is struggling to figure out how best to work together and what their initial focus should be. The community is attempting to figure out how their work products will differ from the existing project documentation and how to address target audiences with differing needs.
+
+
+===== Overall Activity in the Past Quarter =====
+Meetings are being held on a bi-weekly basis. The following items have been started:
+  - [[https://wiki.hyperledger.org/groups/training-and-education/inventory-of-existing-training#potential_work_group_tasks_worksheet|Hyperledger Training Inventory Topics Worksheet]]. Notes ideas, drawn from the group, for needed materials. Feel free to add your name to areas of interest as a learner, contributor or advisor. Also, please add topics that evolve based on outside observations and experience. Particularly topics that seem prevalent as issues/questions raised in forums.
+  - [[https://wiki.hyperledger.org/groups/training-and-education/inventory-of-existing-training#preexisting_training_inventory|preExisting Training Inventory]]. As you work/learn with Hyperledger and read/view excellent existing materials (creative commons licensed), please complete the Google Form so that we can track these materials and utilize/share them. 
+  - [[https://wiki.hyperledger.org/groups/training-and-education/inventory-of-existing-training#visual_dictionary_table_of_contents|Visual Dictionary Table of Contents]]. The Visual Dictionary is a project to be shared across Hyperledger groups. We plan to define and offer an exceptional clarifying/learning experience utilizing graphics, some links (not an overwhelming number), articles etc. so learners will feel supported and encouraged. Please consider what you are interested in contributing to the Visual Dictionary.
+  - [[https://wiki.hyperledger.org/groups/training-and-education/inventory-of-existing-training#style_guide_draft_metrics_under_review|Style Guide Draft Metrics]] (under review). The Style Guide Draft Metrics is a starting place to explore how to offer online learning for transnational audiences across venues. Materials can be utilized in both formal and non-formal contexts. Please offer comments based on your own teaching and learning experiences.
+
+
+===== Planned Work Products =====
+Unknown at this time. 
+
+
+===== Participant Diversity =====
+There is a large number of participants who join the bi-weekly calls. We have people who are both interested in developing training materials, as well as those that would like to consume the training material. There are 221 members subscribed to the mailing list and 145 members on chat.
+
+
+===== Additional Information =====
+The group is willing to take input on the topics and target audience(s) that would be most useful to focus on.
+
+ 

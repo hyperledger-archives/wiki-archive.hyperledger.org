@@ -1,0 +1,7 @@
+# Whitepaper WG Status 2016 Apr 13
+
+* Reviewed whitepaper wiki page structure, prior minutes
+* Discussed workflow for soliciting whitepaper feedback, Renat to email feedback form to group for review. Process will be for community to download form from wiki and email form to WG members. 
+* Discussed process for posting Draft documents (every two weeks). Every second week the working group will make final edits to the working draft (in Google Docs), then generate a PDF and post on the wiki with the draft version label (along side instructions for providing feedback as mentioned above). First draft snapshot to be published next Wednesday (20-April).
+* Proceeded to review and accept/update revision suggestions as recorded in Google Docs.
+* At conclusion of meeting we reviewed the process we are following. Acknowledged the process will take many weeks of effort to get through entire whitepaper but noted that we are not pressed for time (given a code base is already in incubation mode) and the process seems far and balanced.

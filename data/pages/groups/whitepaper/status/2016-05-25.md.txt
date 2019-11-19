@@ -1,0 +1,13 @@
+# Whitepaper WG Status 2016 May 25
+* Reviewed last week's action items
+* Confirmed our strategy to publish draft revisions every two weeks
+* Updated final figure in Draft v0.1
+* Reviewed whitepaper feedback submissions
+  * 5 feedback submissions from 2 individuals
+* Agreed next publication version to be v1.0 (for next week)
+* Agreed to have professional tech writers review the draft
+* Discussed methods to solicit more feedback 
+  * hyperledger.org 
+  * email, slack, newsletter
+  * wiki charter page
+  * ask for suggestions from TSC/Linux Foundation
